@@ -45,5 +45,5 @@ CricketStudio research reports are citation-grade analyses with ball-by-ball pro
 
 - [Sample-Size Floors](../methodology/sample-size-floors.md)
 - [Citation Policy](../methodology/citation-policy.md)
-- [Indian Premier League](../concepts/leagues/indian-premier-league.md)
-- [Major League Cricket](../concepts/leagues/major-league-cricket.md)
+- [Indian Premier League](../scorebook/leagues/indian-premier-league.md)
+- [Major League Cricket](../scorebook/leagues/major-league-cricket.md)

@@ -48,4 +48,4 @@ Never rank players on a metric without applying the relevant sample-size floor f
 ## Related Concepts
 
 - [Phase Definitions](../methodology/phase-definitions.md)
-- [Players](../concepts/players/index.md)
+- [Players](../scorebook/players/index.md)

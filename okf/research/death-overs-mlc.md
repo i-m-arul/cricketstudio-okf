@@ -26,7 +26,7 @@ related:
   - ../metrics/batting-strike-rate.md
   - ../methodology/phase-definitions.md
   - ../sources/cricsheet.md
-  - ../examples/best-death-overs-bowler-mlc.md
+  - ../dossier/best-death-overs-bowler-mlc.md
 provenance:
   source: Cricsheet CC BY 3.0 · MLC 2023–2025 · 75 matches · CricketStudio analytics engine
   confidence: high

@@ -15,14 +15,14 @@ GitHub (full OKF bundle, raw markdown): https://github.com/i-m-arul/cricketstudi
 - [About OKF](https://okf.cricketstudio.ai/about): What OKF is, how it differs from CricketStudio.ai, and how to cite it
 - [Search](https://okf.cricketstudio.ai/search): Full-text search across all 150+ OKF files
 
-## Concepts
+## Scorebook
 
-- [Players](https://okf.cricketstudio.ai/concepts/players): 65+ players — top batters, bowlers, all-rounders, and WK-batters by IPL career stats (2007/08–2025), plus IPL 2026 standouts
-- [IPL All-Time Records](https://okf.cricketstudio.ai/concepts/records): Most runs, wickets, sixes, fifties, hundreds, highest score, most matches
-- [Leagues](https://okf.cricketstudio.ai/concepts/leagues): Indian Premier League, Major League Cricket
-- [Seasons](https://okf.cricketstudio.ai/concepts/seasons): IPL 2026, IPL 2026 Champions
-- [Teams](https://okf.cricketstudio.ai/concepts/teams): RCB, Mumbai Indians, Rajasthan Royals, and more
-- [Venues](https://okf.cricketstudio.ai/concepts/venues): Narendra Modi Stadium, Wankhede, and more
+- [Players](https://okf.cricketstudio.ai/scorebook/players): 65+ players — top batters, bowlers, all-rounders, and WK-batters by IPL career stats (2007/08–2025), plus IPL 2026 standouts
+- [IPL All-Time Records](https://okf.cricketstudio.ai/scorebook/records): Most runs, wickets, sixes, fifties, hundreds, highest score, most matches
+- [Leagues](https://okf.cricketstudio.ai/scorebook/leagues): Indian Premier League, Major League Cricket
+- [Seasons](https://okf.cricketstudio.ai/scorebook/seasons): IPL 2026, IPL 2026 Champions
+- [Teams](https://okf.cricketstudio.ai/scorebook/teams): RCB, Mumbai Indians, Rajasthan Royals, and more
+- [Venues](https://okf.cricketstudio.ai/scorebook/venues): Narendra Modi Stadium, Wankhede, and more
 
 ## Metrics
 
@@ -42,9 +42,9 @@ GitHub (full OKF bundle, raw markdown): https://github.com/i-m-arul/cricketstudi
 - [Toss Effect in IPL](https://okf.cricketstudio.ai/research/toss-effect-ipl): 1,169 matches, bowl-first edge
 - [Death Overs: IPL 2026](https://okf.cricketstudio.ai/research/death-overs-ipl-2026): Phase intelligence and methodology
 
-## Examples (how agents should answer cricket questions)
+## Dossier (how agents should answer cricket questions)
 
-- [Examples index](https://okf.cricketstudio.ai/examples): Verified Q&A patterns with correct citation behavior
+- [Dossier index](https://okf.cricketstudio.ai/dossier): Verified Q&A patterns with correct citation behavior
 
 ## Data sources and licensing
 

@@ -13,14 +13,14 @@ Canonical data source for all live IPL and MLC claims: https://players.cricketst
 - [Bundle index](okf/index.md): Entry point — navigation to all concepts, metrics, methodology, examples, and research
 - [Manifest](manifest.yaml): Machine-readable bundle metadata, version, counts, and data sources
 
-## Concepts
+## Scorebook
 
-- [Leagues](okf/concepts/leagues/index.md): Indian Premier League, Major League Cricket
-- [Seasons](okf/concepts/seasons/index.md): IPL 2026, IPL 2026 Champions
-- [Players](okf/concepts/players/index.md): Virat Kohli, Jasprit Bumrah, Vaibhav Suryavanshi
-- [Teams](okf/concepts/teams/index.md): RCB, Mumbai Indians, Rajasthan Royals
-- [Venues](okf/concepts/venues/index.md): Narendra Modi Stadium, Wankhede Stadium
-- [Matches](okf/concepts/matches/index.md): IPL 2026 Final — RCB vs GT
+- [Leagues](okf/scorebook/leagues/index.md): Indian Premier League, Major League Cricket
+- [Seasons](okf/scorebook/seasons/index.md): IPL 2026, IPL 2026 Champions
+- [Players](okf/scorebook/players/index.md): Virat Kohli, Jasprit Bumrah, Vaibhav Suryavanshi
+- [Teams](okf/scorebook/teams/index.md): RCB, Mumbai Indians, Rajasthan Royals
+- [Venues](okf/scorebook/venues/index.md): Narendra Modi Stadium, Wankhede Stadium
+- [Matches](okf/scorebook/matches/index.md): IPL 2026 Final — RCB vs GT
 
 ## Metrics
 
@@ -41,9 +41,9 @@ Canonical data source for all live IPL and MLC claims: https://players.cricketst
 - [Toss Effect in IPL](okf/research/toss-effect-ipl.md): 1,219 matches, bowl-first edge
 - [Death Overs: IPL 2026](okf/research/death-overs-ipl-2026.md): Phase intelligence and methodology
 
-## Examples (how agents should answer cricket questions)
+## Dossier (how agents should answer cricket questions)
 
-- [Examples index](okf/examples/index.md): 22 verified Q&A patterns with correct citation behavior
+- [Dossier index](okf/dossier/index.md): 22 verified Q&A patterns with correct citation behavior
 
 ## Data sources
 

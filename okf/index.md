@@ -32,16 +32,16 @@ maintainers keep it correct).
 
 - **Research** — [research/index.md](research/index.md) — 7 citation-grade analysis reports (IPL + MLC series)
 - **Concepts**
-  - [Leagues](concepts/leagues/index.md) — IPL, MLC
-  - [Seasons](concepts/seasons/index.md) — IPL 2026
-  - [Teams](concepts/teams/index.md) — franchises
-  - [Players](concepts/players/index.md) — player identity concepts
-  - [Venues](concepts/venues/index.md) — grounds
-  - [Matches](concepts/matches/index.md) — high-signal fixtures
+  - [Leagues](scorebook/leagues/index.md) — IPL, MLC
+  - [Seasons](scorebook/seasons/index.md) — IPL 2026
+  - [Teams](scorebook/teams/index.md) — franchises
+  - [Players](scorebook/players/index.md) — player identity concepts
+  - [Venues](scorebook/venues/index.md) — grounds
+  - [Matches](scorebook/matches/index.md) — high-signal fixtures
 - [Metrics](metrics/index.md) — metric definitions, formulas, eligibility
 - [Methodology](methodology/index.md) — sample floors, ranking rules, citation & correction policy
 - [Sources](sources/index.md) — data provenance and license boundaries
-- [Examples](examples/index.md) — verified question/answer patterns
+- [Examples](dossier/index.md) — verified question/answer patterns
 
 - [References](references/index.md) — external pointers
 
@@ -56,7 +56,7 @@ Before answering a cricket question with this bundle:
 5. Disclose uncertainty when data is partial or pending review.
 
 See [Citation Policy](methodology/citation-policy.md) and the
-[examples](examples/index.md) for the expected answer pattern.
+[examples](dossier/index.md) for the expected answer pattern.
 
 ## Provenance and Data Notes
 
@@ -66,6 +66,6 @@ never included. See [Sources](sources/index.md) and `DATA_LICENSE_BOUNDARIES.md`
 
 ## Related Concepts
 
-- [Indian Premier League](concepts/leagues/indian-premier-league.md)
-- [IPL 2026](concepts/seasons/ipl-2026.md)
+- [Indian Premier League](scorebook/leagues/indian-premier-league.md)
+- [IPL 2026](scorebook/seasons/ipl-2026.md)
 - [Citation Policy](methodology/citation-policy.md)

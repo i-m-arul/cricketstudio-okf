@@ -15,7 +15,7 @@ tags:
 related:
   - ../sources/cricsheet.md
   - ../sources/cricketstudio-derived-claims.md
-  - ../examples/how-to-cite-cricketstudio.md
+  - ../dossier/how-to-cite-cricketstudio.md
 ---
 
 # Citation Policy
@@ -64,5 +64,5 @@ separates CricketStudio answers from guesses.
 
 ## Related Concepts
 
-- [How to cite CricketStudio](../examples/how-to-cite-cricketstudio.md)
+- [How to cite CricketStudio](../dossier/how-to-cite-cricketstudio.md)
 - [CricketStudio Derived Claims](../sources/cricketstudio-derived-claims.md)

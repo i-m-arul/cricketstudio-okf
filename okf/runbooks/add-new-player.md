@@ -13,7 +13,7 @@ tags:
   - runbook
 related:
   - regenerate-from-snapshot.md
-  - ../concepts/players/virat-kohli.md
+  - ../scorebook/players/virat-kohli.md
 ---
 
 # Runbook — Add a new player
@@ -28,15 +28,15 @@ You want to add a curated player concept to the bundle.
    `CricketStudio internal dataset/CricketStudio internal dataset` (keyed by slug).
 2. **Confirm identity.** Copy `fullName`, `dateOfBirth`, `team`, `role`, and the `sameAs`
    external IDs (Wikipedia, Wikidata, ESPNcricinfo).
-3. **Create the file** at `okf/concepts/players/{slug}.md` using
-   [virat-kohli.md](../concepts/players/virat-kohli.md) as the template.
+3. **Create the file** at `okf/scorebook/players/{slug}.md` using
+   [virat-kohli.md](../scorebook/players/virat-kohli.md) as the template.
 4. **Set the canonical URL:** `https://players.cricketstudio.ai/players/{slug}`.
 5. **Add sourced stats only.** Copy stats from the snapshot with the `computed_at` date in
    `provenance.computed_at`; never type a number you cannot trace. Confirm the sample clears
    the relevant [floor](../methodology/sample-size-floors.md) before presenting a rate.
 6. **Link relationships:** team, season, relevant metrics.
 7. **Validate:** run `python scripts/validate_okf.py` and `python scripts/check_links.py`.
-8. **Update** the [players index](../concepts/players/index.md) and `CHANGELOG.md`.
+8. **Update** the [players index](../scorebook/players/index.md) and `CHANGELOG.md`.
 9. **Open a PR** answering the change-management questions.
 
 ## Pitfalls

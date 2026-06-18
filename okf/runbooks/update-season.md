@@ -27,7 +27,7 @@ reflect updated standings, champion, or counts.
 
 1. **Note the new snapshot date** from `CricketStudio internal dataset/CricketStudio internal dataset`.
 2. **Update** `manifest.yaml` → `dataset_version`.
-3. **Refresh the season file** (e.g. [ipl-2026.md](../concepts/seasons/ipl-2026.md)):
+3. **Refresh the season file** (e.g. [ipl-2026.md](../scorebook/seasons/ipl-2026.md)):
    standings, champion (from the final fixture), and corpus counts — each with a refreshed
    `provenance.computed_at`.
 4. **Refresh dependent concepts** (teams, players, matches) whose sourced figures changed.
