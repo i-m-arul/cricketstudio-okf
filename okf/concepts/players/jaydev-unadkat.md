@@ -1,8 +1,8 @@
 ---
 type: player
-title: Jasprit Bumrah
-description: "CricketStudio OKF concept for Jasprit Bumrah. IPL career — 68 runs and 186 wickets across IPL 2007/08 – IPL 2025."
-resource: https://players.cricketstudio.ai/players/jasprit-bumrah
+title: Jaydev Unadkat
+description: "CricketStudio OKF concept for Jaydev Unadkat. IPL career — 197 runs and 110 wickets across IPL 2007/08 – IPL 2025."
+resource: https://players.cricketstudio.ai/players/jaydev-unadkat
 tags:
   - cricket
   - player
@@ -12,32 +12,31 @@ last_verified: 2026-06-01
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: public_open_data
-canonical_page: https://players.cricketstudio.ai/players/jasprit-bumrah
-entity_id: cricketstudio:player:jasprit-bumrah
+canonical_page: https://players.cricketstudio.ai/players/jaydev-unadkat
+entity_id: cricketstudio:player:jaydev-unadkat
 dataset_version: 2026-06-01
-team: "Mumbai Indians"
+team: "Sunrisers Hyderabad"
 nationality: "Indian"
 same_as:
-  wikipedia: "https://en.wikipedia.org/wiki/Jasprit_Bumrah"
-  wikidata: "https://www.wikidata.org/wiki/Q15810572"
-  espncricinfo: "https://www.espncricinfo.com/cricketers/jasprit-bumrah-625383"
-  twitter: "https://twitter.com/Jaspritbumrah93"
-  instagram: "https://www.instagram.com/jaspritb1/"
+  wikipedia: "https://en.wikipedia.org/wiki/Jaydev_Unadkat"
+  wikidata: "http://www.wikidata.org/entity/Q6167758"
+  espncricinfo: "https://www.espncricinfo.com/cricketers/jaydev-unadkat-390484"
+  twitter: "https://twitter.com/junadkat"
 provenance:
   source: Cricsheet CC BY 3.0 via CricketStudio ipl-historical dataset
   confidence: high
   notes: Career stats cover IPL 2007/08 – IPL 2025 (18 seasons). For current-season stats use the canonical page.
 ---
 
-# Jasprit Bumrah
+# Jaydev Unadkat
 
 ## Summary
 
-Jasprit Bumrah is an IPL bowler with 68 career runs and 186 career wickets across IPL 2007/08 – IPL 2025.
+Jaydev Unadkat is an IPL bowler with 197 career runs and 110 career wickets across IPL 2007/08 – IPL 2025.
 
 ## Canonical Resource
 
-[https://players.cricketstudio.ai/players/jasprit-bumrah](https://players.cricketstudio.ai/players/jasprit-bumrah)
+[https://players.cricketstudio.ai/players/jaydev-unadkat](https://players.cricketstudio.ai/players/jaydev-unadkat)
 
 ## Career Statistics (IPL 2007/08 – IPL 2025)
 
@@ -45,21 +44,21 @@ Jasprit Bumrah is an IPL bowler with 68 career runs and 186 career wickets acros
 
 | Stat | Value |
 |------|-------|
-| Runs | 68 |
-| Highest score | 16 |
-| Average | 9.71 |
-| Strike rate | 87.2 |
+| Runs | 197 |
+| Highest score | 26 |
+| Average | 12.31 |
+| Strike rate | 118.7 |
 | Fifties | 0 |
 | Hundreds | 0 |
-| Sixes | 1 |
+| Sixes | 7 |
 
 ### Bowling (IPL career)
 
 | Stat | Value |
 |------|-------|
-| Wickets | 186 |
-| Economy | 7.25 |
-| Average | 21.82 |
+| Wickets | 110 |
+| Economy | 8.88 |
+| Average | 30.58 |
 
 
 *Source: Cricsheet CC BY 3.0, processed by CricketStudio. Computed: 2026-06-01.*

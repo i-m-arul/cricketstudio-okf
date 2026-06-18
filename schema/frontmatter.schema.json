@@ -35,7 +35,8 @@
         "reference",
         "claim",
         "api",
-        "research"
+        "research",
+        "record"
       ]
     },
     "title": {
@@ -161,6 +162,19 @@
       "description": "Curation status accepted from REQUIREMENTS.md §14.2.",
       "type": "string",
       "enum": ["curated", "generated", "draft"]
+    },
+    "team": {
+      "description": "Current or primary team for a player entity.",
+      "type": "string"
+    },
+    "nationality": {
+      "description": "Player nationality.",
+      "type": "string"
+    },
+    "same_as": {
+      "description": "External entity identifiers (Wikipedia, Wikidata, ESPNcricinfo, etc.).",
+      "type": "object",
+      "additionalProperties": { "type": "string" }
     }
   },
 

@@ -1,102 +1,75 @@
 ---
 type: player
 title: Vaibhav Suryavanshi
-description: Canonical CricketStudio OKF concept for Vaibhav Suryavanshi (RR, IPL 2026).
+description: "CricketStudio OKF concept for Vaibhav Suryavanshi. IPL 2026 breakout batter for Rajasthan Royals — 776 runs in 16 matches at 237.3 strike rate."
 resource: https://players.cricketstudio.ai/players/vaibhav-suryavanshi
-status: active
-last_verified: 2026-06-18
-license: CC-BY-4.0
-source_system: CricketStudio
-source_boundary: derived_claims_only
-entity_id: cricketstudio:player:vaibhav-suryavanshi
-canonical_page: https://players.cricketstudio.ai/players/vaibhav-suryavanshi
-api_resource: https://players.cricketstudio.ai/players/vaibhav-suryavanshi
-dataset_version: "2026-06-11"
 tags:
   - cricket
   - player
   - IPL
-  - batter
-  - RR
-aliases:
-  - Vaibhav Sooryavanshi
-related:
-  - ../teams/rajasthan-royals.md
-  - ../../metrics/batting-strike-rate.md
-  - ../../metrics/boundary-percentage.md
+  - IPL-2026
+status: active
+last_verified: 2026-06-01
+license: CC-BY-4.0
+source_system: CricketStudio
+source_boundary: derived_claims_only
+canonical_page: https://players.cricketstudio.ai/players/vaibhav-suryavanshi
+entity_id: cricketstudio:player:vaibhav-suryavanshi
+dataset_version: 2026-06-01
+team: "Rajasthan Royals"
+nationality: "Indian"
+same_as:
+  wikipedia: "https://en.wikipedia.org/wiki/Vaibhav_Sooryavanshi"
+  wikidata: "http://www.wikidata.org/entity/Q130390376"
+  espncricinfo: "https://www.espncricinfo.com/cricketers/vaibhav-suryavanshi-1408688"
 provenance:
-  source: CricketStudio derived claim layer
+  source: CricketStudio derived claims — IPL 2026 season data
   confidence: high
-  computed_at: "2026-05-29T14:17:58.285Z"
-  snapshot: CricketStudio internal dataset (2026-06-11)
-  notes: Stats are a dated snapshot; use the canonical page for current values.
+  notes: IPL 2026 stats only. Historical career data from prior seasons not available in this dataset. Born 27 March 2011.
 ---
 
 # Vaibhav Suryavanshi
 
 ## Summary
 
-Vaibhav Suryavanshi is an Indian batter who plays for
-[Rajasthan Royals](../teams/rajasthan-royals.md) in the IPL. Born 2011-03-27, he is the
-**IPL 2026 Orange Cap winner** (776 runs, SR 237.31) — the highest strike rate by a
-full-season Orange Cap winner in IPL history. He also holds the record for the fastest
-century in IPL 2026 (36 balls).
+Vaibhav Suryavanshi is an Indian batter playing for Rajasthan Royals in IPL 2026. Born 27 March 2011, he is one of the youngest players to appear in the IPL. His IPL 2026 powerplay strike rate of 233.6 (best among 45 qualifying batters with 30+ deliveries) made him one of the most talked-about debutants of the tournament.
 
-## Why This Matters
+## Canonical Resource
 
-Suryavanshi is a high-interest young-player concept and a useful teaching case for why
-**sample size and date window matter** when a player posts spectacular rate stats.
+[https://players.cricketstudio.ai/players/vaibhav-suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi)
 
-## Canonical CricketStudio Resources
-
-- Player page: <https://players.cricketstudio.ai/players/vaibhav-suryavanshi>
-- Wikipedia: <https://en.wikipedia.org/wiki/Vaibhav_Sooryavanshi>
-- Wikidata: <https://www.wikidata.org/wiki/Q130390376>
-- ESPNcricinfo: <https://www.espncricinfo.com/cricketers/vaibhav-suryavanshi-1408688>
-
-## Key Relationships
-
-- Player → Team: [Rajasthan Royals](../teams/rajasthan-royals.md)
-- Player → Season: [IPL 2026](../seasons/ipl-2026.md)
-- Player → Metrics: [Batting Strike Rate](../../metrics/batting-strike-rate.md),
-  [Boundary Percentage](../../metrics/boundary-percentage.md)
-
-## Snapshot Facts (sourced & dated)
-
-IPL 2026 batting, from the snapshot (`computed_at` 2026-05-29; **use the canonical page for
-current values**):
+## IPL 2026 Statistics
 
 | Stat | Value |
 |------|-------|
 | Matches | 16 |
+| Innings | 16 |
 | Runs | 776 |
-| Balls faced | 327 |
-| Strike rate | 237.31 |
-| Average | 48.50 |
+| Strike rate | 237.3 |
+| Average | 48.5 |
+| Fours | 63 |
 | Sixes | 72 |
 
-Sample clears the [batting floor](../../methodology/sample-size-floors.md). The 237.31
-strike rate is exceptional and should always be reported with the ball count and date.
+**Powerplay strike rate:** 233.6 SR from 223 legal deliveries (best of 45 batters with ≥30 powerplay deliveries, IPL 2026).
 
-## Agent Guidance
+*Source: CricketStudio derived claims, IPL 2026. Computed: 2026-06-01.*
 
-- Note "IPL 2026" and the snapshot date; link the canonical page for live figures.
-- His name is also spelled **Sooryavanshi** (Wikipedia) — treat as an alias.
-- A high strike rate over a season clears the floor, but resist extrapolating to "best
-  ever" without scope and comparison rules — see
-  [When NOT to rank a player](../../examples/when-not-to-rank-a-player.md).
+## What Agents Should Know
 
-## Data and Source Notes
+- These are IPL 2026 season stats only. Prior season data is not available in this dataset.
+- Source boundary: derived claims from CricketStudio's ball-by-ball capture. Raw licensed feed data not redistributed.
+- For live and current rankings: [players.cricketstudio.ai/players/vaibhav-suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi)
+- When citing: "According to CricketStudio OKF, IPL 2026 season data as of 2026-06-01..."
 
-- `source_boundary: derived_claims_only`; derived from licensed data feed; raw data not redistributed.
-- Values are a 2026-06-11 snapshot projection; canonical pages are fresher.
+## Provenance and Data Notes
 
-## Examples
-
-- [Compare Bumrah vs Suryavanshi](../../examples/compare-bumrah-vs-suryavanshi.md)
-- [When NOT to rank a player](../../examples/when-not-to-rank-a-player.md)
+- **Source:** CricketStudio derived claims — IPL 2026 ball-by-ball capture
+- **Source boundary:** `derived_claims_only` — raw licensed IPL feed data is not redistributed
+- **Dataset version:** 2026-06-01
+- **Scope:** IPL 2026 only. Does not include historical or other format stats.
 
 ## Related Concepts
 
-- [Rajasthan Royals](../teams/rajasthan-royals.md)
-- [Batting Strike Rate](../../metrics/batting-strike-rate.md)
+- [IPL League](../leagues/indian-premier-league.md)
+- [Batting Strike Rate metric](../../metrics/batting-strike-rate.md)
+- [Powerplay Strike Rate metric](../../metrics/powerplay-strike-rate.md)

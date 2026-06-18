@@ -1,8 +1,8 @@
 ---
 type: player
-title: Jasprit Bumrah
-description: "CricketStudio OKF concept for Jasprit Bumrah. IPL career — 68 runs and 186 wickets across IPL 2007/08 – IPL 2025."
-resource: https://players.cricketstudio.ai/players/jasprit-bumrah
+title: JP Faulkner
+description: "CricketStudio OKF concept for JP Faulkner. IPL career — 527 runs and 61 wickets across IPL 2007/08 – IPL 2025."
+resource: https://players.cricketstudio.ai/players/jp-faulkner
 tags:
   - cricket
   - player
@@ -12,32 +12,27 @@ last_verified: 2026-06-01
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: public_open_data
-canonical_page: https://players.cricketstudio.ai/players/jasprit-bumrah
-entity_id: cricketstudio:player:jasprit-bumrah
+canonical_page: https://players.cricketstudio.ai/players/jp-faulkner
+entity_id: cricketstudio:player:jp-faulkner
 dataset_version: 2026-06-01
-team: "Mumbai Indians"
-nationality: "Indian"
-same_as:
-  wikipedia: "https://en.wikipedia.org/wiki/Jasprit_Bumrah"
-  wikidata: "https://www.wikidata.org/wiki/Q15810572"
-  espncricinfo: "https://www.espncricinfo.com/cricketers/jasprit-bumrah-625383"
-  twitter: "https://twitter.com/Jaspritbumrah93"
-  instagram: "https://www.instagram.com/jaspritb1/"
+
+
+
 provenance:
   source: Cricsheet CC BY 3.0 via CricketStudio ipl-historical dataset
   confidence: high
   notes: Career stats cover IPL 2007/08 – IPL 2025 (18 seasons). For current-season stats use the canonical page.
 ---
 
-# Jasprit Bumrah
+# JP Faulkner
 
 ## Summary
 
-Jasprit Bumrah is an IPL bowler with 68 career runs and 186 career wickets across IPL 2007/08 – IPL 2025.
+JP Faulkner is an IPL cricketer with 527 career runs and 61 career wickets across IPL 2007/08 – IPL 2025.
 
 ## Canonical Resource
 
-[https://players.cricketstudio.ai/players/jasprit-bumrah](https://players.cricketstudio.ai/players/jasprit-bumrah)
+[https://players.cricketstudio.ai/players/jp-faulkner](https://players.cricketstudio.ai/players/jp-faulkner)
 
 ## Career Statistics (IPL 2007/08 – IPL 2025)
 
@@ -45,21 +40,21 @@ Jasprit Bumrah is an IPL bowler with 68 career runs and 186 career wickets acros
 
 | Stat | Value |
 |------|-------|
-| Runs | 68 |
-| Highest score | 16 |
-| Average | 9.71 |
-| Strike rate | 87.2 |
+| Runs | 527 |
+| Highest score | 46 |
+| Average | 20.27 |
+| Strike rate | 136.9 |
 | Fifties | 0 |
 | Hundreds | 0 |
-| Sixes | 1 |
+| Sixes | 23 |
 
 ### Bowling (IPL career)
 
 | Stat | Value |
 |------|-------|
-| Wickets | 186 |
-| Economy | 7.25 |
-| Average | 21.82 |
+| Wickets | 61 |
+| Economy | 8.72 |
+| Average | 29.49 |
 
 
 *Source: Cricsheet CC BY 3.0, processed by CricketStudio. Computed: 2026-06-01.*

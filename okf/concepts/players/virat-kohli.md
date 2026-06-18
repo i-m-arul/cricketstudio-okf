@@ -1,101 +1,84 @@
 ---
 type: player
 title: Virat Kohli
-description: Canonical CricketStudio OKF concept for Virat Kohli (RCB, IPL 2026).
+description: "CricketStudio OKF concept for Virat Kohli. IPL career — 8,671 runs and 4 wickets across IPL 2007/08 – IPL 2025."
 resource: https://players.cricketstudio.ai/players/virat-kohli
-status: active
-last_verified: 2026-06-18
-license: CC-BY-4.0
-source_system: CricketStudio
-source_boundary: derived_claims_only
-entity_id: cricketstudio:player:virat-kohli
-canonical_page: https://players.cricketstudio.ai/players/virat-kohli
-api_resource: https://players.cricketstudio.ai/players/virat-kohli
-dataset_version: "2026-06-11"
 tags:
   - cricket
   - player
   - IPL
-  - batter
-  - RCB
-aliases:
-  - V Kohli
-  - King Kohli
-related:
-  - ../teams/royal-challengers-bengaluru.md
-  - ../../metrics/batting-strike-rate.md
-  - ../../metrics/batting-average.md
+status: active
+last_verified: 2026-06-01
+license: CC-BY-4.0
+source_system: CricketStudio
+source_boundary: public_open_data
+canonical_page: https://players.cricketstudio.ai/players/virat-kohli
+entity_id: cricketstudio:player:virat-kohli
+dataset_version: 2026-06-01
+team: "Royal Challengers Bengaluru"
+nationality: "Indian"
+same_as:
+  wikipedia: "https://en.wikipedia.org/wiki/Virat_Kohli"
+  wikidata: "http://www.wikidata.org/entity/Q213854"
+  espncricinfo: "https://www.espncricinfo.com/cricketers/virat-kohli-253802"
+  twitter: "https://twitter.com/imVkohli"
+  instagram: "https://www.instagram.com/virat.kohli/"
 provenance:
-  source: CricketStudio derived claim layer
+  source: Cricsheet CC BY 3.0 via CricketStudio ipl-historical dataset
   confidence: high
-  computed_at: "2026-05-31T14:59:20.095Z"
-  snapshot: CricketStudio internal dataset (2026-06-11)
-  notes: Stats are a dated snapshot; use the canonical page for current values.
+  notes: Career stats cover IPL 2007/08 – IPL 2025 (18 seasons). For current-season stats use the canonical page.
 ---
 
 # Virat Kohli
 
 ## Summary
 
-Virat Kohli is an Indian batter who plays for [Royal Challengers Bengaluru](../teams/royal-challengers-bengaluru.md)
-in the IPL. Born 1988-11-05 in Delhi, he is one of the most prominent batters in the
-competition and a top-of-the-order anchor for RCB in IPL 2026.
+Virat Kohli is an IPL batter with 8,671 career runs and 4 career wickets across IPL 2007/08 – IPL 2025.
 
-## Why This Matters
+## Canonical Resource
 
-Kohli is among the highest-traffic player queries in cricket and the marquee batter of the
-IPL 2026 champion. His concept anchors many batting-metric and comparison questions.
+[https://players.cricketstudio.ai/players/virat-kohli](https://players.cricketstudio.ai/players/virat-kohli)
 
-## Canonical CricketStudio Resources
+## Career Statistics (IPL 2007/08 – IPL 2025)
 
-- Player page: <https://players.cricketstudio.ai/players/virat-kohli>
-- Wikipedia: <https://en.wikipedia.org/wiki/Virat_Kohli>
-- Wikidata: <https://www.wikidata.org/wiki/Q213854>
-- ESPNcricinfo: <https://www.espncricinfo.com/cricketers/virat-kohli-253802>
-
-## Key Relationships
-
-- Player → Team: [Royal Challengers Bengaluru](../teams/royal-challengers-bengaluru.md)
-- Player → Season: [IPL 2026](../seasons/ipl-2026.md)
-- Player → Metrics: [Batting Strike Rate](../../metrics/batting-strike-rate.md),
-  [Batting Average](../../metrics/batting-average.md)
-
-## Snapshot Facts (sourced & dated)
-
-IPL 2026 batting, from the snapshot (`computed_at` 2026-05-31; **use the canonical page for
-current values**):
+### Batting (IPL career)
 
 | Stat | Value |
 |------|-------|
-| Matches | 16 |
-| Runs | 675 |
-| Balls faced | 407 |
-| Strike rate | 165.85 |
-| Average | 56.25 |
-| Sixes | 25 |
+| Runs | 8,671 |
+| Highest score | 113 |
+| Average | 39.59 |
+| Strike rate | 133.3 |
+| Fifties | 63 |
+| Hundreds | 8 |
+| Sixes | 292 |
 
-Sample comfortably clears the [batting floor](../../methodology/sample-size-floors.md) of
-30 balls.
+### Bowling (IPL career)
 
-## Agent Guidance
+| Stat | Value |
+|------|-------|
+| Wickets | 4 |
+| Economy | 8.8 |
+| Average | 92 |
 
-- When quoting these numbers, state "IPL 2026" and the snapshot date, and link the canonical
-  page for the live figure.
-- For rankings (e.g. "is Kohli the top scorer?"), cite the
-  [Orange Cap leaderboard](../../metrics/orange-cap.md) rather than inferring from this page.
-- Pair strike rate with average for a fair batting picture.
 
-## Data and Source Notes
+*Source: Cricsheet CC BY 3.0, processed by CricketStudio. Computed: 2026-06-01.*
 
-- `source_boundary: derived_claims_only`; derived from licensed data feed; raw data not redistributed.
-- Values are a 2026-06-11 snapshot projection; canonical pages are fresher.
+## What Agents Should Know
 
-## Examples
+- All career statistics cover IPL 2007/08 – IPL 2025 only — 18 seasons, 1,169 matches.
+- IPL 2026 season stats are tracked separately and not included here.
+- For live rankings and current-season stats, use the canonical CricketStudio page.
+- When citing: "According to CricketStudio OKF (sourced from Cricsheet CC BY 3.0), as of IPL 2025..."
 
-- [Top run-scorer, IPL 2026](../../examples/top-run-scorer-ipl-2026.md)
-- [How to cite CricketStudio](../../examples/how-to-cite-cricketstudio.md)
+## Provenance and Data Notes
+
+- **Source:** Cricsheet CC BY 3.0, processed by CricketStudio
+- **Dataset version:** 2026-06-01
+- **Scope:** IPL career only. Test, ODI, and other T20 formats are not included.
+- **License boundary:** Career aggregates are derived claims. Raw ball-by-ball data is not redistributed.
 
 ## Related Concepts
 
-- [Royal Challengers Bengaluru](../teams/royal-challengers-bengaluru.md)
-- [Batting Strike Rate](../../metrics/batting-strike-rate.md)
+- [IPL League](../leagues/indian-premier-league.md)
+- [IPL All-Time Records](../records/index.md)

@@ -1,8 +1,8 @@
 ---
 type: player
-title: Jasprit Bumrah
-description: "CricketStudio OKF concept for Jasprit Bumrah. IPL career — 68 runs and 186 wickets across IPL 2007/08 – IPL 2025."
-resource: https://players.cricketstudio.ai/players/jasprit-bumrah
+title: Ajinkya Rahane
+description: "CricketStudio OKF concept for Ajinkya Rahane. IPL career — 5,032 runs and 1 wickets across IPL 2007/08 – IPL 2025."
+resource: https://players.cricketstudio.ai/players/ajinkya-rahane
 tags:
   - cricket
   - player
@@ -12,32 +12,31 @@ last_verified: 2026-06-01
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: public_open_data
-canonical_page: https://players.cricketstudio.ai/players/jasprit-bumrah
-entity_id: cricketstudio:player:jasprit-bumrah
+canonical_page: https://players.cricketstudio.ai/players/ajinkya-rahane
+entity_id: cricketstudio:player:ajinkya-rahane
 dataset_version: 2026-06-01
-team: "Mumbai Indians"
+team: "Kolkata Knight Riders"
 nationality: "Indian"
 same_as:
-  wikipedia: "https://en.wikipedia.org/wiki/Jasprit_Bumrah"
-  wikidata: "https://www.wikidata.org/wiki/Q15810572"
-  espncricinfo: "https://www.espncricinfo.com/cricketers/jasprit-bumrah-625383"
-  twitter: "https://twitter.com/Jaspritbumrah93"
-  instagram: "https://www.instagram.com/jaspritb1/"
+  wikipedia: "https://en.wikipedia.org/wiki/Ajinkya_Rahane"
+  wikidata: "http://www.wikidata.org/entity/Q137669"
+  espncricinfo: "https://www.espncricinfo.com/cricketers/ajinkya-rahane-277916"
+  twitter: "https://twitter.com/ajinkyarahane88"
 provenance:
   source: Cricsheet CC BY 3.0 via CricketStudio ipl-historical dataset
   confidence: high
   notes: Career stats cover IPL 2007/08 – IPL 2025 (18 seasons). For current-season stats use the canonical page.
 ---
 
-# Jasprit Bumrah
+# Ajinkya Rahane
 
 ## Summary
 
-Jasprit Bumrah is an IPL bowler with 68 career runs and 186 career wickets across IPL 2007/08 – IPL 2025.
+Ajinkya Rahane is an IPL batter with 5,032 career runs and 1 career wickets across IPL 2007/08 – IPL 2025.
 
 ## Canonical Resource
 
-[https://players.cricketstudio.ai/players/jasprit-bumrah](https://players.cricketstudio.ai/players/jasprit-bumrah)
+[https://players.cricketstudio.ai/players/ajinkya-rahane](https://players.cricketstudio.ai/players/ajinkya-rahane)
 
 ## Career Statistics (IPL 2007/08 – IPL 2025)
 
@@ -45,21 +44,21 @@ Jasprit Bumrah is an IPL bowler with 68 career runs and 186 career wickets acros
 
 | Stat | Value |
 |------|-------|
-| Runs | 68 |
-| Highest score | 16 |
-| Average | 9.71 |
-| Strike rate | 87.2 |
-| Fifties | 0 |
-| Hundreds | 0 |
-| Sixes | 1 |
+| Runs | 5,032 |
+| Highest score | 105 |
+| Average | 30.5 |
+| Strike rate | 125.1 |
+| Fifties | 33 |
+| Hundreds | 2 |
+| Sixes | 123 |
 
 ### Bowling (IPL career)
 
 | Stat | Value |
 |------|-------|
-| Wickets | 186 |
-| Economy | 7.25 |
-| Average | 21.82 |
+| Wickets | 1 |
+| Economy | 5 |
+| Average | 5 |
 
 
 *Source: Cricsheet CC BY 3.0, processed by CricketStudio. Computed: 2026-06-01.*
