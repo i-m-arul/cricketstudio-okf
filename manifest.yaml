@@ -1,5 +1,5 @@
 name: cricketstudio-okf
-version: 0.1.0
+version: 0.2.0
 description: >-
   CricketStudio OKF — a curated, agent-readable Open Knowledge Format bundle of
   cricket concepts, metrics, methodology, sources, and examples. A trusted
@@ -7,10 +7,10 @@ description: >-
   raw mirror of its pages.
 license: See LICENSE.md (docs CC-BY-4.0; data per source — see DATA_LICENSE_BOUNDARIES.md)
 homepage: https://okf.cricketstudio.ai
-repository: https://github.com/cricketstudio/cricketstudio-okf
+repository: https://github.com/i-m-arul/cricketstudio-okf
 okf_root: okf
 schema: schema/frontmatter.schema.json
-dataset_version: "2026-06-11"
+dataset_version: "2026-06-18"
 source_systems:
   - CricketStudio
 
@@ -25,14 +25,15 @@ data_sources:
     attribution: Ball-by-ball data from Cricsheet (https://cricsheet.org), CC BY 3.0.
 
 counts:
-  research: 7
-  leagues: 2
-  seasons: 2
-  teams: 3
-  players: 3
-  venues: 2
-  matches: 1
-  metrics: 10
-  methodology: 4
-  sources: 3
-  examples: 22
+  players: 66
+  records: 8
+  teams: 4
+  leagues: 3
+  seasons: 3
+  venues: 3
+  matches: 2
+  metrics: 11
+  methodology: 7
+  sources: 4
+  examples: 23
+  research: 8
