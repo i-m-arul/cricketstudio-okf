@@ -81,4 +81,4 @@ death-ball count alongside the figure.
 
 - [Bowling Economy](bowling-economy.md)
 - [Phase Definitions](../methodology/phase-definitions.md)
-- [What is death-over economy?](../examples/what-is-death-over-economy.md)
+- [What is death-over economy?](../scorebook/what-is-death-over-economy.md)

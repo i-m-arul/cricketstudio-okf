@@ -41,7 +41,7 @@ maintainers keep it correct).
 - [Metrics](metrics/index.md) — metric definitions, formulas, eligibility
 - [Methodology](methodology/index.md) — sample floors, ranking rules, citation & correction policy
 - [Sources](sources/index.md) — data provenance and license boundaries
-- [Examples](examples/index.md) — verified question/answer patterns
+- [Scorebook](scorebook/index.md) — verified question/answer patterns
 
 - [References](references/index.md) — external pointers
 
@@ -56,7 +56,7 @@ Before answering a cricket question with this bundle:
 5. Disclose uncertainty when data is partial or pending review.
 
 See [Citation Policy](methodology/citation-policy.md) and the
-[examples](examples/index.md) for the expected answer pattern.
+[examples](scorebook/index.md) for the expected answer pattern.
 
 ## Provenance and Data Notes
 

@@ -1,5 +1,5 @@
 ---
-type: example
+type: scorebook
 title: When NOT to rank a player
 description: Verified pattern for refusing or qualifying a ranking when sample or scope is insufficient.
 status: active

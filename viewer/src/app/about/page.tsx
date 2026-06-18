@@ -137,7 +137,7 @@ export default function AboutPage() {
             { label: 'Metrics', desc: '10 definitions — batting SR, economy, death-overs, Orange/Purple Cap' },
             { label: 'Methodology', desc: 'Sample-size floors, ranking eligibility, citation policy' },
             { label: 'Research', desc: '7 reports — IPL 2026, MLC seasons, toss effects, death overs' },
-            { label: 'Examples', desc: '22 verified Q&A patterns showing correct citation and scope' },
+            { label: 'Scorebook', desc: '22 verified Q&A patterns showing correct citation and scope' },
             { label: 'Sources', desc: 'Data provenance and license boundaries for every source used' },
           ].map((item) => (
             <div key={item.label} className="bg-gray-900 border border-gray-800 rounded-lg p-3">

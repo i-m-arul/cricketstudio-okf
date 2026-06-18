@@ -1,5 +1,5 @@
 ---
-type: example
+type: scorebook
 title: MLC all-time leading wicket-taker
 description: Verified answer for MLC all-time wicket leader. TA Boult leads with 46 wickets from 629 balls (economy 8.14) across 27 matches (2023–2025, Cricsheet CC BY 3.0).
 status: active

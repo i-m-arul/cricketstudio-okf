@@ -22,7 +22,7 @@ aliases:
 related:
   - indian-premier-league.md
   - ../../sources/cricsheet.md
-  - ../../examples/mlc-best-economy-all-time.md
+  - ../../scorebook/mlc-best-economy-all-time.md
 provenance:
   source: Cricsheet (CC BY 3.0), via CricketStudio derived claim layer
   confidence: high
@@ -112,11 +112,11 @@ MI New York · Washington Freedom · San Francisco Unicorns · Seattle Orcas · 
 
 ## Examples
 
-- [Who won MLC 2025?](../../examples/who-won-mlc-2025.md)
-- [MLC all-time run-scorer](../../examples/mlc-all-time-run-scorer.md)
-- [MLC all-time wicket-taker](../../examples/mlc-all-time-wicket-taker.md)
-- [When does MLC 2026 start?](../../examples/when-does-mlc-2026-start.md)
-- [MLC franchises](../../examples/mlc-franchises.md)
+- [Who won MLC 2025?](../../scorebook/who-won-mlc-2025.md)
+- [MLC all-time run-scorer](../../scorebook/mlc-all-time-run-scorer.md)
+- [MLC all-time wicket-taker](../../scorebook/mlc-all-time-wicket-taker.md)
+- [When does MLC 2026 start?](../../scorebook/when-does-mlc-2026-start.md)
+- [MLC franchises](../../scorebook/mlc-franchises.md)
 
 ## Related Concepts
 

@@ -42,9 +42,9 @@ GitHub (full OKF bundle, raw markdown): https://github.com/i-m-arul/cricketstudi
 - [Toss Effect in IPL](https://okf.cricketstudio.ai/research/toss-effect-ipl): 1,169 matches, bowl-first edge
 - [Death Overs: IPL 2026](https://okf.cricketstudio.ai/research/death-overs-ipl-2026): Phase intelligence and methodology
 
-## Examples (how agents should answer cricket questions)
+## Scorebook (how agents should answer cricket questions)
 
-- [Examples index](https://okf.cricketstudio.ai/examples): Verified Q&A patterns with correct citation behavior
+- [Scorebook index](https://okf.cricketstudio.ai/scorebook): Verified Q&A patterns with correct citation behavior
 
 ## Data sources and licensing
 

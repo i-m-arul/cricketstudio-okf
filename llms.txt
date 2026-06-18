@@ -41,9 +41,9 @@ Canonical data source for all live IPL and MLC claims: https://players.cricketst
 - [Toss Effect in IPL](okf/research/toss-effect-ipl.md): 1,219 matches, bowl-first edge
 - [Death Overs: IPL 2026](okf/research/death-overs-ipl-2026.md): Phase intelligence and methodology
 
-## Examples (how agents should answer cricket questions)
+## Scorebook (how agents should answer cricket questions)
 
-- [Examples index](okf/examples/index.md): 22 verified Q&A patterns with correct citation behavior
+- [Scorebook index](okf/scorebook/index.md): 22 verified Q&A patterns with correct citation behavior
 
 ## Data sources
 

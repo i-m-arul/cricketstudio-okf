@@ -31,7 +31,7 @@ page. The full IPL 2026 player set is 256; this v0.1 bundle curates high-signal 
 A player concept is an identity anchor. Numbers attached to it are snapshots with a
 `computed_at` date and sample size — never treat them as live. Pair with the relevant
 [metric](../../metrics/index.md) definition and state the season. See
-[When not to rank a player](../../examples/when-not-to-rank-a-player.md).
+[When not to rank a player](../../scorebook/when-not-to-rank-a-player.md).
 
 ## Related Concepts
 

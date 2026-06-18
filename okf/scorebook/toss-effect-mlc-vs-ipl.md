@@ -1,5 +1,5 @@
 ---
-type: example
+type: scorebook
 title: Toss effect in MLC vs IPL — how do they compare?
 description: Verified cross-league answer pattern for toss effect. Both leagues show the same structural finding — toss near coin-flip; bowl-first delivers meaningful edge.
 status: active

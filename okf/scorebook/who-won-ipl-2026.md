@@ -1,5 +1,5 @@
 ---
-type: example
+type: scorebook
 title: Who won IPL 2026?
 description: Verified answer pattern for the IPL 2026 champion question.
 status: active

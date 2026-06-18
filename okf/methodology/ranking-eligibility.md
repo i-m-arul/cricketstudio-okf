@@ -15,7 +15,7 @@ tags:
 related:
   - sample-size-floors.md
   - ../metrics/orange-cap.md
-  - ../examples/when-not-to-rank-a-player.md
+  - ../scorebook/when-not-to-rank-a-player.md
 ---
 
 # Ranking Eligibility
@@ -60,4 +60,4 @@ other faced 400. Eligibility rules make rankings apples-to-apples.
 
 - [Sample-Size Floors](sample-size-floors.md)
 - [Orange Cap](../metrics/orange-cap.md)
-- [When NOT to rank a player](../examples/when-not-to-rank-a-player.md)
+- [When NOT to rank a player](../scorebook/when-not-to-rank-a-player.md)

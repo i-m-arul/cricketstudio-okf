@@ -2,17 +2,17 @@ import { getFilesByType } from '@/lib/okf'
 import OKFCard from '@/components/OKFCard'
 
 export const metadata = {
-  title: 'Examples',
+  title: 'Scorebook',
   description: 'Verified Q&A patterns showing how AI agents should answer cricket questions with citations and scope.',
 }
 
-export default async function ExamplesPage() {
-  const files = await getFilesByType('example')
+export default async function ScorebookPage() {
+  const files = await getFilesByType('scorebook')
   const nonIndex = files.filter((f) => !f.slug.endsWith('/index'))
 
   return (
     <div>
-      <h1 className="text-3xl font-bold text-white mb-2">Examples</h1>
+      <h1 className="text-3xl font-bold text-white mb-2">Scorebook</h1>
       <p className="text-gray-400 mb-8">
         Verified question-and-answer patterns. Each shows the right way to cite scope, sample size,
         and canonical resources — and the wrong way to answer without context.

@@ -6,7 +6,7 @@ const FOOTER_COLS = [
       { label: 'Metrics', href: '/metrics' },
       { label: 'Methodology', href: '/methodology' },
       { label: 'Research', href: '/research' },
-      { label: 'Examples', href: '/examples' },
+      { label: 'Scorebook', href: '/scorebook' },
       { label: 'Search', href: '/search' },
     ],
   },

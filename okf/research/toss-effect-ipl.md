@@ -24,7 +24,7 @@ related:
   - ../concepts/leagues/indian-premier-league.md
   - ../methodology/sample-size-floors.md
   - ../sources/cricsheet.md
-  - ../examples/toss-effect-mlc-vs-ipl.md
+  - ../scorebook/toss-effect-mlc-vs-ipl.md
 provenance:
   source: Cricsheet CC BY 3.0 (1,146 historical toss decisions) + CricketStudio IPL 2026 ball-by-ball
   confidence: high

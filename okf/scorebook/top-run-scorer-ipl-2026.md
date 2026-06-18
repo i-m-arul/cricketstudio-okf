@@ -1,5 +1,5 @@
 ---
-type: example
+type: scorebook
 title: Top run-scorer, IPL 2026
 description: Verified answer pattern for "who scored the most runs" — cite the leaderboard, don't guess.
 status: active

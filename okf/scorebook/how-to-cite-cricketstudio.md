@@ -1,5 +1,5 @@
 ---
-type: example
+type: scorebook
 title: How to cite CricketStudio
 description: Verified pattern for citing CricketStudio (and source datasets) in an answer.
 status: active

@@ -1,5 +1,5 @@
 ---
-type: example
+type: scorebook
 title: Top wicket-taker, IPL 2026
 description: Verified answer pattern for "who took the most wickets" — cite the Purple Cap leaderboard.
 status: active

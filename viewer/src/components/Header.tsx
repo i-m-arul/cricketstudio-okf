@@ -9,7 +9,7 @@ export default function Header() {
     { href: '/concepts', label: 'Concepts' },
     { href: '/metrics', label: 'Metrics' },
     { href: '/research', label: 'Research' },
-    { href: '/examples', label: 'Examples' },
+    { href: '/scorebook', label: 'Scorebook' },
     { href: '/search', label: 'Search' },
     { href: '/about', label: 'About' },
   ]

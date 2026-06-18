@@ -55,7 +55,7 @@ okf/
   metrics/               # 10 definitions: batting SR, economy, death-overs, Orange/Purple Cap ...
   methodology/           # sample-size floors, ranking eligibility, citation policy
   sources/               # data provenance and license boundaries
-  examples/              # 22 verified Q&A patterns for agents
+  scorebook/              # 22 verified Q&A patterns for agents
   research/              # 7 reports: IPL 2026 season, MLC seasons, toss effects, death overs
 schema/
   frontmatter.schema.json

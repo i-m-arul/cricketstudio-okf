@@ -1,5 +1,5 @@
 ---
-type: example
+type: scorebook
 title: What are the MLC franchises?
 description: Verified answer listing all 6 MLC franchises with home cities. MI New York, Washington Freedom, San Francisco Unicorns, Seattle Orcas, Texas Super Kings, Los Angeles Knight Riders.
 status: active

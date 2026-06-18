@@ -21,7 +21,7 @@ const TYPE_COLORS: Record<string, string> = {
   venue: 'bg-teal-900/40 text-teal-300 border-teal-800',
   metric: 'bg-green-900/40 text-green-300 border-green-800',
   methodology: 'bg-gray-700/40 text-gray-300 border-gray-600',
-  example: 'bg-indigo-900/40 text-indigo-300 border-indigo-800',
+  scorebook: 'bg-indigo-900/40 text-indigo-300 border-indigo-800',
   research: 'bg-rose-900/40 text-rose-300 border-rose-800',
   source: 'bg-slate-700/40 text-slate-300 border-slate-600',
 }

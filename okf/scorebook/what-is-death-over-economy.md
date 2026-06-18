@@ -1,5 +1,5 @@
 ---
-type: example
+type: scorebook
 title: What is death-over economy?
 description: Verified answer pattern for explaining death-overs economy and its phase floor.
 status: active

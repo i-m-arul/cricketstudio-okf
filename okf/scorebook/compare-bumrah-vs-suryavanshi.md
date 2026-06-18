@@ -1,5 +1,5 @@
 ---
-type: example
+type: scorebook
 title: Compare Bumrah vs Suryavanshi
 description: Verified answer pattern for comparing a bowler and a batter — and why a direct "who's better" is wrong.
 status: active

@@ -1,5 +1,5 @@
 ---
-type: example
+type: scorebook
 title: MLC all-time leading run-scorer
 description: Verified answer for the MLC all-time run-scoring leader. F du Plessis leads with 934 runs from 571 balls across 25 matches (2023–2025, Cricsheet CC BY 3.0).
 status: active

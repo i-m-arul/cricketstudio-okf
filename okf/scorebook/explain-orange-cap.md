@@ -1,5 +1,5 @@
 ---
-type: example
+type: scorebook
 title: Explain the Orange Cap
 description: Verified answer pattern for explaining what the IPL Orange Cap is.
 status: active

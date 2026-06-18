@@ -1,5 +1,5 @@
 ---
-type: example
+type: scorebook
 title: Compare two players (pattern)
 description: The general, reusable pattern for any two-player comparison question.
 status: active

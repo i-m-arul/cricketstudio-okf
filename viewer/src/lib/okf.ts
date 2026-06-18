@@ -186,7 +186,7 @@ export const TYPE_LABELS: Record<string, string> = {
   metric: 'Metrics',
   methodology: 'Methodology',
   source: 'Sources',
-  example: 'Examples',
+  scorebook: 'Scorebook',
   research: 'Research',
   runbook: 'Runbooks',
   reference: 'References',

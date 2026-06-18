@@ -78,7 +78,7 @@ From the snapshot (`computed_at` 2026-05-31; see canonical page for current valu
 
 ## Examples
 
-- [Who won IPL 2026?](../../examples/who-won-ipl-2026.md)
+- [Who won IPL 2026?](../../scorebook/who-won-ipl-2026.md)
 
 ## Related Concepts
 

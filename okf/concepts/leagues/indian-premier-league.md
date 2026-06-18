@@ -99,11 +99,11 @@ Champion: RCB (beat GT by 5 wickets in final · 2026-06-01 · Narendra Modi Stad
 
 ## Examples
 
-- [Who won IPL 2026?](../../examples/who-won-ipl-2026.md)
-- [Top run-scorer, IPL 2026](../../examples/top-run-scorer-ipl-2026.md)
-- [Does the toss matter in IPL?](../../examples/does-toss-matter-in-ipl.md)
-- [Best death-overs bowler, IPL 2026](../../examples/best-death-overs-bowler-ipl-2026.md)
-- [IPL 2026 playoffs teams](../../examples/ipl-2026-playoffs-teams.md)
+- [Who won IPL 2026?](../../scorebook/who-won-ipl-2026.md)
+- [Top run-scorer, IPL 2026](../../scorebook/top-run-scorer-ipl-2026.md)
+- [Does the toss matter in IPL?](../../scorebook/does-toss-matter-in-ipl.md)
+- [Best death-overs bowler, IPL 2026](../../scorebook/best-death-overs-bowler-ipl-2026.md)
+- [IPL 2026 playoffs teams](../../scorebook/ipl-2026-playoffs-teams.md)
 
 ## Related Concepts
 

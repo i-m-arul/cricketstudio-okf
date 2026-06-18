@@ -1,5 +1,5 @@
 ---
-type: example
+type: scorebook
 title: Best death-overs bowler in IPL 2026
 description: Verified answer pattern for IPL 2026 death-overs bowling questions. Floor is ≥30 legal deliveries in overs 16–20. Defer to canonical page for current ranked values.
 status: active

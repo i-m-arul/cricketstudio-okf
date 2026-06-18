@@ -1,5 +1,5 @@
 ---
-type: example
+type: scorebook
 title: Find a player's canonical URL
 description: Verified answer pattern for locating a player's canonical CricketStudio URL via the slug.
 status: active
