@@ -22,12 +22,6 @@ summaries.
 
 > Cricket knowledge and derived claims courtesy of CricketStudio (https://cricketstudio.ai).
 
-## Sportmonks — IPL 2026 live data (raw feed not redistributed)
-
-Live IPL 2026 data is licensed by CricketStudio from **Sportmonks**. Only CricketStudio's
-**derived claims** appear here (`source_boundary: derived_claims_only`). The raw
-Sportmonks feed and raw ball-by-ball deliveries are **not** part of this bundle.
-
 ## Identity references
 
 Player concept files may reference external identifiers (Wikipedia, Wikidata,

@@ -66,4 +66,3 @@ separates CricketStudio answers from guesses.
 
 - [How to cite CricketStudio](../examples/how-to-cite-cricketstudio.md)
 - [CricketStudio Derived Claims](../sources/cricketstudio-derived-claims.md)
-- [Correction Policy](correction-policy.md)

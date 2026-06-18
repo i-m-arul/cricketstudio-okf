@@ -2,9 +2,9 @@ name: cricketstudio-okf
 version: 0.1.0
 description: >-
   CricketStudio OKF — a curated, agent-readable Open Knowledge Format bundle of
-  cricket concepts, metrics, methodology, sources, examples, and runbooks. A
-  trusted knowledge catalog layered over CricketStudio's canonical data spine,
-  not a raw mirror of its pages.
+  cricket concepts, metrics, methodology, sources, and examples. A trusted
+  knowledge catalog layered over CricketStudio's canonical data spine, not a
+  raw mirror of its pages.
 license: See LICENSE.md (docs CC-BY-4.0; data per source — see DATA_LICENSE_BOUNDARIES.md)
 homepage: https://okf.cricketstudio.ai
 repository: https://github.com/cricketstudio/cricketstudio-okf
@@ -18,7 +18,7 @@ data_sources:
   - name: CricketStudio derived claim layer (IPL 2026)
     license: CC-BY-4.0 for derived claims
     boundary: derived_claims_only
-    attribution: Underlying live data licensed from Sportmonks; raw feed not redistributed.
+    attribution: Derived from a licensed third-party data feed; raw feed not redistributed.
   - name: Cricsheet (IPL historical + MLC)
     license: CC-BY-3.0
     boundary: public_open_data
@@ -33,7 +33,6 @@ counts:
   venues: 2
   matches: 1
   metrics: 10
-  methodology: 6
-  sources: 4
+  methodology: 4
+  sources: 3
   examples: 22
-  runbooks: 5

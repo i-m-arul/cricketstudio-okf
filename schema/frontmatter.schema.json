@@ -77,7 +77,7 @@
     },
 
     "resource": {
-      "description": "Best canonical CricketStudio page or API resource. Required for concept-bearing types (enforced by validate_okf.py).",
+      "description": "Best canonical CricketStudio page or API resource. Required for concept-bearing types.",
       "type": "string",
       "format": "uri"
     },
@@ -108,7 +108,7 @@
       "items": { "type": "string" }
     },
     "provenance": {
-      "description": "Provenance block. Required for files that carry data-dependent claims (enforced by validate_okf.py).",
+      "description": "Provenance block. Required for files that carry data-dependent claims.",
       "type": "object",
       "required": ["source", "confidence"],
       "additionalProperties": false,
@@ -131,7 +131,7 @@
       "type": "string"
     },
     "review_required": {
-      "description": "When true, the file is not release-ready (validate_okf.py fails on this in release paths).",
+      "description": "When true, the file is flagged as not release-ready.",
       "type": "boolean"
     },
     "generated": {

@@ -94,7 +94,6 @@ Across 18 IPL seasons (2007/08–2025) and 1,219 completed matches, toss winners
 
 - `source_boundary: public_open_data` for the historical corpus (Cricsheet CC BY 3.0).
 - IPL 2026 portion is `derived_claims_only` (CricketStudio licensed live feed).
-- The overall research report license is CC-BY 4.0 (CricketStudio analysis); source data is Cricsheet CC BY 3.0. See [Cricsheet source](../sources/cricsheet.md) and [licensed feed boundaries](../sources/licensed-feed-boundaries.md).
 
 ## Related Concepts
 

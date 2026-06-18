@@ -68,7 +68,6 @@ interpreted. Almost every player, team, and metric concept here is IPL-scoped.
 ## Data and Source Notes
 
 - Current season: `source_boundary: derived_claims_only` (derived from licensed data feed; raw feed not
-  redistributed — see [Licensed Feed Boundaries](../../sources/licensed-feed-boundaries.md)).
 - Historical archive: Cricsheet (CC BY 3.0) — see [Cricsheet](../../sources/cricsheet.md).
 - Snapshot `dataset_version`: 2026-06-11.
 

@@ -30,3 +30,15 @@ OPERATING_SYSTEM.md
 
 # Internal development planning docs — not OKF content
 docs/
+
+# Internal tooling and tests — not for public OKF repo
+scripts/
+tests/
+requirements.txt
+okf/runbooks/
+okf/methodology/data-refresh-policy.md
+okf/methodology/correction-policy.md
+okf/sources/licensed-feed-boundaries.md
+
+# Internal CI/CD — calls private scripts; not for public repo
+.github/

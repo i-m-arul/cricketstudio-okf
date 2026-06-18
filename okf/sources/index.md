@@ -21,14 +21,12 @@ Where the data comes from, what may be published, and how to cite it.
 ## Concepts
 
 - [Cricsheet](cricsheet.md) — open ball-by-ball data (CC BY 3.0): IPL historical + MLC
-- [Licensed Feed Boundaries](licensed-feed-boundaries.md) — Sportmonks IPL 2026 live feed
 - [CricketStudio Derived Claims](cricketstudio-derived-claims.md) — the permitted claim layer
 
 ## What Agents Should Know
 
 Every data-bearing claim has a source boundary. Cricsheet-derived content needs
-attribution; Sportmonks raw data is never redistributed; CricketStudio derived claims are
-the safe, publishable layer. See `DATA_LICENSE_BOUNDARIES.md` at the repo root.
+attribution; CricketStudio derived claims are the safe, publishable layer. See `DATA_LICENSE_BOUNDARIES.md` at the repo root.
 
 ## Related Concepts
 

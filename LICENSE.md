@@ -20,16 +20,15 @@ declares a `source_boundary` in its frontmatter:
 
 - **`public_open_data`** — derived from [Cricsheet](https://cricsheet.org) (IPL historical
   and MLC), licensed **CC BY 3.0**. Attribution required; see [`ATTRIBUTION.md`](ATTRIBUTION.md).
-- **`derived_claims_only`** — IPL 2026 claims derived from data CricketStudio licenses
-  from Sportmonks. The **derived claims** may be reused under CC-BY-4.0; the **raw feed**
-  is proprietary and is never included in this bundle.
+- **`derived_claims_only`** — IPL 2026 claims derived from a licensed third-party data
+  feed. The **derived claims** may be reused under CC-BY-4.0; the **raw feed** is
+  proprietary and is never included in this bundle.
 - **`proprietary_source_not_redistributed`** — references only; no raw data published.
 - **`manual_curated_knowledge` / `methodology_only`** — CricketStudio-authored, CC-BY-4.0.
 
-## 3. Code
+## 3. Schema
 
-Scripts under `scripts/` and the schema under `schema/` are licensed under the **MIT
-License**.
+The JSON Schema files under `schema/` are licensed under the **MIT License**.
 
 ```
 MIT License

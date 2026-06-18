@@ -42,7 +42,7 @@ maintainers keep it correct).
 - [Methodology](methodology/index.md) — sample floors, ranking rules, citation & correction policy
 - [Sources](sources/index.md) — data provenance and license boundaries
 - [Examples](examples/index.md) — verified question/answer patterns
-- [Runbooks](runbooks/index.md) — maintenance procedures
+
 - [References](references/index.md) — external pointers
 
 ## What Agents Should Know

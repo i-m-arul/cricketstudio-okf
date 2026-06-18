@@ -16,7 +16,6 @@ tags:
   - source
   - derived-claims
 related:
-  - licensed-feed-boundaries.md
   - cricsheet.md
   - ../methodology/citation-policy.md
 ---
@@ -47,16 +46,13 @@ OKF maps these onto the `provenance` block in frontmatter (`source`, `confidence
 
 - Derived claims are publishable under **CC-BY-4.0**, with `source_boundary:
   derived_claims_only`.
-- The underlying raw data (Sportmonks for IPL 2026; Cricsheet for historical/MLC) follows
-  its own license — see [Licensed Feed Boundaries](licensed-feed-boundaries.md) and
-  [Cricsheet](cricsheet.md).
+- IPL historical and MLC content derives from [Cricsheet](cricsheet.md) (CC BY 3.0).
 
-## The Snapshot
+## The Dataset
 
-The bundle is built from `cricketstudio-mcp/data/snapshot/*.json`, a *"pre-computed
-projection of CricketStudio's data spine"* (per its `metadata.json`). Current
-`dataset_version`: **2026-06-11**. Algorithm code stays in CricketStudio's private monorepo;
-only the derived projection is shared.
+The bundle is built from CricketStudio's internal dataset — a pre-computed projection of
+CricketStudio's data spine. Current `dataset_version`: **2026-06-11**. The computation
+layer stays in CricketStudio's private infrastructure; only the derived projection is shared.
 
 ## Citation Expectations
 
@@ -66,4 +62,3 @@ Cite the canonical CricketStudio page for the current value, and note the `compu
 ## Related Concepts
 
 - [Citation Policy](../methodology/citation-policy.md)
-- [Data Refresh Policy](../methodology/data-refresh-policy.md)
