@@ -69,9 +69,33 @@ function safeStr(val: unknown): string | undefined {
   return String(val)
 }
 
-async function mdToHtml(markdown: string): Promise<string> {
+// Rewrite relative .md links → clean viewer URLs at the current slug's level.
+// e.g. from slug 'concepts/records/ipl-most-runs':
+//   ./ipl-most-wickets.md  → /concepts/records/ipl-most-wickets
+//   ../players/virat-kohli.md → /concepts/players/virat-kohli
+//   ../../metrics/batting-strike-rate.md → /metrics/batting-strike-rate
+function rewriteLinks(html: string, slug: string): string {
+  const dir = slug.split('/').slice(0, -1) // directory segments of current file
+  return html.replace(/href="([^"]+)"/g, (match, href: string) => {
+    // Skip absolute URLs and anchor-only links
+    if (href.startsWith('http') || href.startsWith('#') || href.startsWith('/')) return match
+    // Resolve relative path against current file's directory
+    const parts = [...dir, ...href.split('/')]
+    const resolved: string[] = []
+    for (const p of parts) {
+      if (p === '..') resolved.pop()
+      else if (p !== '.') resolved.push(p)
+    }
+    // Strip .md and trailing /index
+    let clean = resolved.join('/').replace(/\.md$/, '')
+    if (clean.endsWith('/index')) clean = clean.slice(0, -6)
+    return `href="/${clean}"`
+  })
+}
+
+async function mdToHtml(markdown: string, slug: string): Promise<string> {
   const result = await remark().use(remarkGfm).use(remarkHtml, { sanitize: false }).process(markdown)
-  return result.toString()
+  return rewriteLinks(result.toString(), slug)
 }
 
 function collectMdFiles(dir: string): string[] {
@@ -99,7 +123,7 @@ export async function getAllFiles(): Promise<OKFFile[]> {
       const raw = fs.readFileSync(fp, 'utf-8')
       const { data, content } = matter(raw)
       const slug = slugFromPath(fp)
-      const contentHtml = await mdToHtml(content)
+      const contentHtml = await mdToHtml(content, slug)
       return {
         slug,
         urlPath: urlFromSlug(slug, data.type || 'unknown'),
@@ -158,6 +182,7 @@ export const TYPE_LABELS: Record<string, string> = {
   season: 'Seasons',
   match: 'Matches',
   venue: 'Venues',
+  record: 'Records',
   metric: 'Metrics',
   methodology: 'Methodology',
   source: 'Sources',

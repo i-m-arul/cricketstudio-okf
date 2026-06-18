@@ -6,7 +6,7 @@ export const metadata = {
   description: 'Players, teams, leagues, seasons, venues, and matches in the CricketStudio OKF knowledge catalog.',
 }
 
-const CONCEPT_TYPES = ['player', 'team', 'league', 'season', 'venue', 'match']
+const CONCEPT_TYPES = ['player', 'record', 'team', 'league', 'season', 'venue', 'match']
 
 export default async function ConceptsPage() {
   const allFiles = await getAllFiles()
