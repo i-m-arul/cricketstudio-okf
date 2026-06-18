@@ -71,8 +71,8 @@ function safeStr(val: unknown): string | undefined {
 
 // Rewrite relative .md links → clean viewer URLs at the current slug's level.
 // e.g. from slug 'concepts/records/ipl-most-runs':
-//   ./ipl-most-wickets.md  → /concepts/records/ipl-most-wickets
-//   ../players/virat-kohli.md → /concepts/players/virat-kohli
+//   ./ipl-most-wickets.md  → /scorebook/records/ipl-most-wickets
+//   ../players/virat-kohli.md → /scorebook/players/virat-kohli
 //   ../../metrics/batting-strike-rate.md → /metrics/batting-strike-rate
 function rewriteLinks(html: string, slug: string): string {
   const dir = slug.split('/').slice(0, -1) // directory segments of current file
@@ -186,7 +186,7 @@ export const TYPE_LABELS: Record<string, string> = {
   metric: 'Metrics',
   methodology: 'Methodology',
   source: 'Sources',
-  example: 'Examples',
+  dossier: 'Dossier',
   research: 'Research',
   runbook: 'Runbooks',
   reference: 'References',

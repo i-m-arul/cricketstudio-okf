@@ -19,9 +19,9 @@ tags:
   - champions
   - ball-by-ball
 related:
-  - ../concepts/seasons/ipl-2026.md
-  - ../concepts/teams/royal-challengers-bengaluru.md
-  - ../concepts/players/virat-kohli.md
+  - ../scorebook/seasons/ipl-2026.md
+  - ../scorebook/teams/royal-challengers-bengaluru.md
+  - ../scorebook/players/virat-kohli.md
   - ../metrics/orange-cap.md
   - ../metrics/purple-cap.md
   - toss-effect-ipl.md
@@ -113,9 +113,9 @@ For live-refreshed leaderboard rankings, see the canonical pages:
 
 ## Related Concepts
 
-- [IPL 2026 season](../concepts/seasons/ipl-2026.md)
-- [Royal Challengers Bengaluru](../concepts/teams/royal-challengers-bengaluru.md)
-- [Virat Kohli](../concepts/players/virat-kohli.md)
+- [IPL 2026 season](../scorebook/seasons/ipl-2026.md)
+- [Royal Challengers Bengaluru](../scorebook/teams/royal-challengers-bengaluru.md)
+- [Virat Kohli](../scorebook/players/virat-kohli.md)
 - [Orange Cap](../metrics/orange-cap.md)
 - [Death Overs Intelligence: IPL 2026](death-overs-ipl-2026.md)
 - [Toss Effect in IPL](toss-effect-ipl.md)

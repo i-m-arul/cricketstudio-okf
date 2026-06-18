@@ -18,7 +18,7 @@ tags:
 related:
   - ../methodology/ranking-eligibility.md
   - purple-cap.md
-  - ../examples/explain-orange-cap.md
+  - ../dossier/explain-orange-cap.md
 ---
 
 # Orange Cap
@@ -85,5 +85,5 @@ and total, and note the season. Do not infer the leader from a single player's p
 ## Related Concepts
 
 - [Purple Cap](purple-cap.md)
-- [Explain the Orange Cap](../examples/explain-orange-cap.md)
-- [Top run-scorer, IPL 2026](../examples/top-run-scorer-ipl-2026.md)
+- [Explain the Orange Cap](../dossier/explain-orange-cap.md)
+- [Top run-scorer, IPL 2026](../dossier/top-run-scorer-ipl-2026.md)

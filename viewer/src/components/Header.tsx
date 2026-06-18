@@ -6,10 +6,10 @@ export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false)
 
   const nav = [
-    { href: '/concepts', label: 'Concepts' },
+    { href: '/scorebook', label: 'Scorebook' },
     { href: '/metrics', label: 'Metrics' },
     { href: '/research', label: 'Research' },
-    { href: '/examples', label: 'Examples' },
+    { href: '/dossier', label: 'Dossier' },
     { href: '/search', label: 'Search' },
     { href: '/about', label: 'About' },
   ]

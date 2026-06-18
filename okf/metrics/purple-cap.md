@@ -18,7 +18,7 @@ tags:
 related:
   - ../methodology/ranking-eligibility.md
   - orange-cap.md
-  - ../examples/top-wicket-taker-ipl-2026.md
+  - ../dossier/top-wicket-taker-ipl-2026.md
 ---
 
 # Purple Cap
@@ -82,4 +82,4 @@ not infer the leader from one bowler's page.
 ## Related Concepts
 
 - [Orange Cap](orange-cap.md)
-- [Top wicket-taker, IPL 2026](../examples/top-wicket-taker-ipl-2026.md)
+- [Top wicket-taker, IPL 2026](../dossier/top-wicket-taker-ipl-2026.md)

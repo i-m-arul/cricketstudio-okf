@@ -133,11 +133,11 @@ export default function AboutPage() {
         <h2 className="text-xl font-semibold text-white mb-3">What's in the bundle</h2>
         <div className="grid sm:grid-cols-2 gap-3 text-sm">
           {[
-            { label: 'Concepts', desc: 'Players, teams, leagues, seasons, venues, matches' },
+            { label: 'Scorebook', desc: 'Players, teams, leagues, seasons, venues, matches' },
             { label: 'Metrics', desc: '10 definitions — batting SR, economy, death-overs, Orange/Purple Cap' },
             { label: 'Methodology', desc: 'Sample-size floors, ranking eligibility, citation policy' },
             { label: 'Research', desc: '7 reports — IPL 2026, MLC seasons, toss effects, death overs' },
-            { label: 'Examples', desc: '22 verified Q&A patterns showing correct citation and scope' },
+            { label: 'Dossier', desc: '22 verified Q&A patterns showing correct citation and scope' },
             { label: 'Sources', desc: 'Data provenance and license boundaries for every source used' },
           ].map((item) => (
             <div key={item.label} className="bg-gray-900 border border-gray-800 rounded-lg p-3">
@@ -172,7 +172,7 @@ export default function AboutPage() {
       <section className="bg-gray-900 border border-gray-800 rounded-xl p-6">
         <h2 className="font-semibold text-white mb-2">Get started</h2>
         <div className="flex flex-wrap gap-3 mt-3">
-          <Link href="/concepts" className="text-sm bg-green-700 hover:bg-green-600 text-white px-4 py-2 rounded-lg transition-colors">
+          <Link href="/scorebook" className="text-sm bg-green-700 hover:bg-green-600 text-white px-4 py-2 rounded-lg transition-colors">
             Browse concepts
           </Link>
           <Link href="/metrics" className="text-sm bg-gray-800 hover:bg-gray-700 text-gray-200 px-4 py-2 rounded-lg transition-colors">

@@ -23,7 +23,7 @@ related:
   - state-of-mlc-2025.md
   - death-overs-mlc.md
   - toss-effect-mlc.md
-  - ../concepts/leagues/major-league-cricket.md
+  - ../scorebook/leagues/major-league-cricket.md
   - ../sources/cricsheet.md
 provenance:
   source: Cricsheet CC BY 3.0 · MLC 2023–2025 · 75 matches · 17,413 deliveries
@@ -135,6 +135,6 @@ See [Death Overs Intelligence: MLC](death-overs-mlc.md) for full analysis.
 ## Related Concepts
 
 - [State of MLC 2025](state-of-mlc-2025.md)
-- [Major League Cricket](../concepts/leagues/major-league-cricket.md)
+- [Major League Cricket](../scorebook/leagues/major-league-cricket.md)
 - [Death Overs Intelligence: MLC](death-overs-mlc.md)
 - [Cricsheet source](../sources/cricsheet.md)

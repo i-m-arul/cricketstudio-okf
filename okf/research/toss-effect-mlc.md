@@ -22,10 +22,10 @@ tags:
   - Cricsheet
 related:
   - toss-effect-ipl.md
-  - ../concepts/leagues/major-league-cricket.md
+  - ../scorebook/leagues/major-league-cricket.md
   - ../sources/cricsheet.md
   - ../methodology/sample-size-floors.md
-  - ../examples/toss-effect-mlc-vs-ipl.md
+  - ../dossier/toss-effect-mlc-vs-ipl.md
 provenance:
   source: Cricsheet CC BY 3.0 · MLC 2023–2025 · 75 completed matches
   confidence: high
@@ -102,4 +102,4 @@ The pattern is consistent: in both leagues, **the decision after the toss matter
 
 - [Toss Effect in IPL](toss-effect-ipl.md) — 18-season IPL comparison
 - [Cricsheet source](../sources/cricsheet.md)
-- [Major League Cricket](../concepts/leagues/major-league-cricket.md)
+- [Major League Cricket](../scorebook/leagues/major-league-cricket.md)

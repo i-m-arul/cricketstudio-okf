@@ -2,11 +2,11 @@ const FOOTER_COLS = [
   {
     heading: 'Explore',
     links: [
-      { label: 'Concepts', href: '/concepts' },
+      { label: 'Scorebook', href: '/scorebook' },
       { label: 'Metrics', href: '/metrics' },
       { label: 'Methodology', href: '/methodology' },
       { label: 'Research', href: '/research' },
-      { label: 'Examples', href: '/examples' },
+      { label: 'Dossier', href: '/dossier' },
       { label: 'Search', href: '/search' },
     ],
   },

@@ -10,8 +10,8 @@ export const metadata = {
 
 const SECTIONS = [
   {
-    href: '/concepts',
-    label: 'Concepts',
+    href: '/scorebook',
+    label: 'Scorebook',
     Icon: Globe,
     desc: 'Players, teams, leagues, seasons, venues, and matches',
   },
@@ -34,8 +34,8 @@ const SECTIONS = [
     desc: 'IPL 2026 season, MLC seasons, toss effects, death overs',
   },
   {
-    href: '/examples',
-    label: 'Examples',
+    href: '/dossier',
+    label: 'Dossier',
     Icon: MessageSquare,
     desc: 'Verified Q&A patterns with citations and scope',
   },
@@ -48,7 +48,7 @@ export default async function HomePage() {
   const counts = {
     total: nonIndex.length,
     metrics: nonIndex.filter((f) => f.type === 'metric').length,
-    examples: nonIndex.filter((f) => f.type === 'example').length,
+    examples: nonIndex.filter((f) => f.type === 'dossier').length,
     research: nonIndex.filter((f) => f.type === 'research').length,
     methodology: nonIndex.filter((f) => f.type === 'methodology').length,
   }
@@ -77,7 +77,7 @@ export default async function HomePage() {
         </p>
         <div className="flex flex-wrap justify-center gap-3">
           <Link
-            href="/concepts"
+            href="/scorebook"
             className="bg-green-700 hover:bg-green-600 text-white px-5 py-2.5 rounded-lg font-medium transition-colors"
           >
             Browse concepts
@@ -104,7 +104,7 @@ export default async function HomePage() {
           { label: 'Metrics', value: counts.metrics },
           { label: 'Methodology', value: counts.methodology },
           { label: 'Research', value: counts.research },
-          { label: 'Examples', value: counts.examples },
+          { label: 'Dossier', value: counts.examples },
         ].map((stat) => (
           <div key={stat.label} className="bg-gray-900 border border-gray-800 rounded-lg p-4 text-center">
             <div className="text-2xl font-bold text-green-400">{stat.value}</div>

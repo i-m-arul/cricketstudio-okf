@@ -21,10 +21,10 @@ tags:
   - bowl-first
 related:
   - toss-effect-mlc.md
-  - ../concepts/leagues/indian-premier-league.md
+  - ../scorebook/leagues/indian-premier-league.md
   - ../methodology/sample-size-floors.md
   - ../sources/cricsheet.md
-  - ../examples/toss-effect-mlc-vs-ipl.md
+  - ../dossier/toss-effect-mlc-vs-ipl.md
 provenance:
   source: Cricsheet CC BY 3.0 (1,146 historical toss decisions) + CricketStudio IPL 2026 ball-by-ball
   confidence: high
@@ -99,6 +99,6 @@ Across 18 IPL seasons (2007/08–2025) and 1,219 completed matches, toss winners
 ## Related Concepts
 
 - [Toss Effect in MLC](toss-effect-mlc.md) — same analysis across 75 MLC matches
-- [Indian Premier League](../concepts/leagues/indian-premier-league.md)
+- [Indian Premier League](../scorebook/leagues/indian-premier-league.md)
 - [Cricsheet source](../sources/cricsheet.md)
 - [Sample-size floors](../methodology/sample-size-floors.md)

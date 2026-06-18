@@ -20,7 +20,7 @@ tags:
   - Major-League-Cricket
   - Cricsheet
 related:
-  - ../concepts/leagues/major-league-cricket.md
+  - ../scorebook/leagues/major-league-cricket.md
   - mlc-three-seasons.md
   - toss-effect-mlc.md
   - death-overs-mlc.md
@@ -140,6 +140,6 @@ Source: CricketStudio internal dataset/2026-06-11 · Cricsheet CC BY 3.0.
 ## Related Concepts
 
 - [Three Seasons of MLC](mlc-three-seasons.md)
-- [Major League Cricket](../concepts/leagues/major-league-cricket.md)
+- [Major League Cricket](../scorebook/leagues/major-league-cricket.md)
 - [Cricsheet source](../sources/cricsheet.md)
 - [Death Overs Intelligence: MLC](death-overs-mlc.md)
