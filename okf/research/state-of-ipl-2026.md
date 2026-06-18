@@ -79,9 +79,19 @@ RCB topped on NRR (all three teams on 18 pts). Source: SETU standings snapshot �
 
 ## Season Leaders
 
-Season leaders for Orange Cap (most runs), Purple Cap (most wickets), batting strike rate (floor ≥30 balls), and bowling economy (floor ≥15 balls) are live-computed from the ball-by-ball corpus. See the canonical page for current-ranked values — they update as the SETU snapshot refreshes.
+From CricketStudio season hub (`cricketstudio.ai/season/ipl-2026`) · snapshot 2026-06-11:
 
-Canonical leaderboard URLs:
+| Award | Winner | Team | Value | Sample |
+|-------|--------|------|-------|--------|
+| Orange Cap (most runs) | Vaibhav Suryavanshi | Rajasthan Royals | 776 runs · SR 237.31 | 16 matches · 327 balls |
+| Purple Cap (most wickets) | Kagiso Rabada | Gujarat Titans | 29 wickets | 74-match corpus |
+| Fastest fifty | Urvil Patel | — | 13 balls | — |
+| Fastest century | Vaibhav Suryavanshi | Rajasthan Royals | 36 balls | — |
+
+Suryavanshi's 237.31 strike rate over 327 balls is the highest by a full-season IPL Orange
+Cap winner in the sport's history. Rabada led all bowlers across the 74-match IPL 2026 corpus.
+
+For live-refreshed leaderboard rankings, see the canonical pages:
 - Most runs: <https://players.cricketstudio.ai/season/ipl-2026/most-runs>
 - Most wickets: <https://players.cricketstudio.ai/season/ipl-2026/most-wickets>
 - Strike rate: <https://players.cricketstudio.ai/season/ipl-2026/strike-rate>

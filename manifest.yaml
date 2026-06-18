@@ -27,7 +27,7 @@ data_sources:
 counts:
   research: 7
   leagues: 2
-  seasons: 1
+  seasons: 2
   teams: 3
   players: 3
   venues: 2

@@ -37,8 +37,10 @@ provenance:
 ## Summary
 
 Vaibhav Suryavanshi is an Indian batter who plays for
-[Rajasthan Royals](../teams/rajasthan-royals.md) in the IPL. Born 2011-03-27, he is a young
-batting talent noted for an exceptionally high strike rate in IPL 2026.
+[Rajasthan Royals](../teams/rajasthan-royals.md) in the IPL. Born 2011-03-27, he is the
+**IPL 2026 Orange Cap winner** (776 runs, SR 237.31) — the highest strike rate by a
+full-season Orange Cap winner in IPL history. He also holds the record for the fastest
+century in IPL 2026 (36 balls).
 
 ## Why This Matters
 
