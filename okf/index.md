@@ -30,6 +30,7 @@ maintainers keep it correct).
 
 ## How to navigate
 
+- **Research** — [research/index.md](research/index.md) — 7 citation-grade analysis reports (IPL + MLC series)
 - **Concepts**
   - [Leagues](concepts/leagues/index.md) — IPL, MLC
   - [Seasons](concepts/seasons/index.md) — IPL 2026

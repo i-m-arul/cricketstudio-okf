@@ -72,10 +72,39 @@ interpreted. Almost every player, team, and metric concept here is IPL-scoped.
 - Historical archive: Cricsheet (CC BY 3.0) — see [Cricsheet](../../sources/cricsheet.md).
 - Snapshot `dataset_version`: 2026-06-11.
 
+## Coverage Scope
+
+| Scope | Matches | Source | Boundary |
+|-------|---------|--------|----------|
+| IPL 2026 (live) | 74 | CricketStudio licensed live feed | derived_claims_only |
+| Historical (2007/08–2025) | 1,219 | Cricsheet CC BY 3.0 | public_open_data |
+
+CricketStudio ingests IPL 2026 ball-by-ball with sub-4h SLA. The 18-season historical archive (2007/08–2025) is sourced from Cricsheet CC BY 3.0.
+
+## IPL 2026 Final Standings — Top 4
+
+| # | Team | Pts | NRR |
+|---|------|-----|-----|
+| 1 | Royal Challengers Bengaluru | 18 | +0.684 |
+| 2 | Sunrisers Hyderabad | 18 | +0.577 |
+| 3 | Gujarat Titans | 18 | +0.320 |
+| 4 | Rajasthan Royals | 16 | +0.280 |
+
+Champion: RCB (beat GT by 5 wickets in final · 2026-06-01 · Narendra Modi Stadium).
+
+## Research Reports
+
+- [The State of IPL 2026](../../research/state-of-ipl-2026.md)
+- [The Toss Effect in IPL](../../research/toss-effect-ipl.md)
+- [Death Overs Intelligence: IPL 2026](../../research/death-overs-ipl-2026.md)
+
 ## Examples
 
 - [Who won IPL 2026?](../../examples/who-won-ipl-2026.md)
 - [Top run-scorer, IPL 2026](../../examples/top-run-scorer-ipl-2026.md)
+- [Does the toss matter in IPL?](../../examples/does-toss-matter-in-ipl.md)
+- [Best death-overs bowler, IPL 2026](../../examples/best-death-overs-bowler-ipl-2026.md)
+- [IPL 2026 playoffs teams](../../examples/ipl-2026-playoffs-teams.md)
 
 ## Related Concepts
 

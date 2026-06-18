@@ -68,9 +68,54 @@ to open Cricsheet data.
   required (see [Cricsheet](../../sources/cricsheet.md) and `ATTRIBUTION.md`).
 - Snapshot `dataset_version`: 2026-06-11.
 
+## Coverage Scope
+
+| Season | Matches | Deliveries | Source |
+|--------|---------|------------|--------|
+| MLC 2023 | 19 | — | Cricsheet CC BY 3.0 |
+| MLC 2024 | 23 | — | Cricsheet CC BY 3.0 |
+| MLC 2025 | 33 | 7,736 | Cricsheet CC BY 3.0 |
+| **All-time** | **75** | **17,413** | **Cricsheet CC BY 3.0** |
+
+**MLC 2026 (Season 4)** starts 2026-06-18. Pre-season rosters are live at the canonical hub.
+
+## MLC Champions
+
+| Season | Champion | Runner-up |
+|--------|----------|-----------|
+| MLC 2023 | MI New York | Texas Super Kings |
+| MLC 2024 | Washington Freedom | — |
+| MLC 2025 | MI New York | Washington Freedom |
+
+## MLC All-Time Leaders
+
+| Category | Leader | Value | Sample |
+|----------|--------|-------|--------|
+| Most runs | F du Plessis (TSK) | 934 runs | 571 balls · 25 matches |
+| Most wickets | TA Boult (MINY) | 46 wkts | 629 balls · 27 matches |
+| Best economy | Imad Wasim (SEA) | 6.41 RPO | 247 balls · floor ≥15 |
+| Best SR | D Ferreira (TSK) | 213.8 | 116 balls · floor ≥30 |
+
+Source: cricketstudio-mcp/data/snapshot/mlc-leaderboards.json · 2026-06-11 · Cricsheet CC BY 3.0.
+
+## Franchises
+
+MI New York · Washington Freedom · San Francisco Unicorns · Seattle Orcas · Texas Super Kings · Los Angeles Knight Riders
+
+## Research Reports
+
+- [The State of MLC 2025](../../research/state-of-mlc-2025.md)
+- [Three Seasons of MLC](../../research/mlc-three-seasons.md)
+- [The Toss Effect in MLC](../../research/toss-effect-mlc.md)
+- [Death Overs Intelligence: MLC](../../research/death-overs-mlc.md)
+
 ## Examples
 
-- See the [examples index](../../examples/index.md) for cross-league answer patterns.
+- [Who won MLC 2025?](../../examples/who-won-mlc-2025.md)
+- [MLC all-time run-scorer](../../examples/mlc-all-time-run-scorer.md)
+- [MLC all-time wicket-taker](../../examples/mlc-all-time-wicket-taker.md)
+- [When does MLC 2026 start?](../../examples/when-does-mlc-2026-start.md)
+- [MLC franchises](../../examples/mlc-franchises.md)
 
 ## Related Concepts
 
