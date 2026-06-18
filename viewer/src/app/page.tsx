@@ -1,0 +1,167 @@
+import Link from 'next/link'
+import { getAllFiles, getFilesByType } from '@/lib/okf'
+import OKFCard from '@/components/OKFCard'
+import { Globe, BarChart2, BookOpen, FlaskConical, MessageSquare } from 'lucide-react'
+
+export const metadata = {
+  title: 'CricketStudio OKF — Open Cricket Knowledge',
+  description: 'A curated, open knowledge catalog for cricket. IPL, MLC, metrics, methodology, and examples — built by CricketStudio.',
+}
+
+const SECTIONS = [
+  {
+    href: '/concepts',
+    label: 'Concepts',
+    Icon: Globe,
+    desc: 'Players, teams, leagues, seasons, venues, and matches',
+  },
+  {
+    href: '/metrics',
+    label: 'Metrics',
+    Icon: BarChart2,
+    desc: 'Batting SR, economy, death-overs economy, Orange/Purple Cap',
+  },
+  {
+    href: '/methodology',
+    label: 'Methodology',
+    Icon: BookOpen,
+    desc: 'Sample-size floors, ranking eligibility, citation policy',
+  },
+  {
+    href: '/research',
+    label: 'Research',
+    Icon: FlaskConical,
+    desc: 'IPL 2026 season, MLC seasons, toss effects, death overs',
+  },
+  {
+    href: '/examples',
+    label: 'Examples',
+    Icon: MessageSquare,
+    desc: 'Verified Q&A patterns with citations and scope',
+  },
+]
+
+export default async function HomePage() {
+  const allFiles = await getAllFiles()
+  const nonIndex = allFiles.filter((f) => !f.slug.endsWith('/index') && f.slug !== 'index')
+
+  const counts = {
+    total: nonIndex.length,
+    metrics: nonIndex.filter((f) => f.type === 'metric').length,
+    examples: nonIndex.filter((f) => f.type === 'example').length,
+    research: nonIndex.filter((f) => f.type === 'research').length,
+    methodology: nonIndex.filter((f) => f.type === 'methodology').length,
+  }
+
+  const featured = await getFilesByType('research')
+  const recentResearch = featured.slice(0, 3)
+
+  return (
+    <>
+      {/* Hero */}
+      <section className="pt-10 pb-12 text-center">
+        <div className="inline-flex items-center gap-2 bg-green-900/20 border border-green-800 text-green-400 text-xs font-medium px-3 py-1 rounded-full mb-6">
+          <span className="w-1.5 h-1.5 bg-green-400 rounded-full" />
+          v0.1 · Open
+        </div>
+        <h1 className="text-4xl md:text-5xl font-bold text-white mb-3 tracking-tight">
+          The Open Cricket<br />Knowledge Catalog
+        </h1>
+        <p className="text-green-400 text-xl font-medium mb-6 tracking-wide">
+          Every claim. Every source. Open.
+        </p>
+        <p className="text-gray-400 text-base max-w-xl mx-auto mb-8">
+          <a href="https://cricketstudio.ai" className="text-green-500 hover:underline">CricketStudio.ai</a> gives
+          you the live stats. OKF gives you the open standard behind them — metric definitions,
+          methodology, provenance, and canonical links. Portable, citable, and forkable.
+        </p>
+        <div className="flex flex-wrap justify-center gap-3">
+          <Link
+            href="/concepts"
+            className="bg-green-700 hover:bg-green-600 text-white px-5 py-2.5 rounded-lg font-medium transition-colors"
+          >
+            Browse concepts
+          </Link>
+          <Link
+            href="/search"
+            className="bg-gray-800 hover:bg-gray-700 text-gray-200 px-5 py-2.5 rounded-lg font-medium transition-colors"
+          >
+            Search
+          </Link>
+          <Link
+            href="/about"
+            className="bg-gray-800 hover:bg-gray-700 text-gray-200 px-5 py-2.5 rounded-lg font-medium transition-colors"
+          >
+            About
+          </Link>
+        </div>
+      </section>
+
+      {/* Stats */}
+      <section className="grid grid-cols-2 sm:grid-cols-5 gap-3 mb-12">
+        {[
+          { label: 'Total files', value: counts.total },
+          { label: 'Metrics', value: counts.metrics },
+          { label: 'Methodology', value: counts.methodology },
+          { label: 'Research', value: counts.research },
+          { label: 'Examples', value: counts.examples },
+        ].map((stat) => (
+          <div key={stat.label} className="bg-gray-900 border border-gray-800 rounded-lg p-4 text-center">
+            <div className="text-2xl font-bold text-green-400">{stat.value}</div>
+            <div className="text-xs text-gray-500 mt-0.5">{stat.label}</div>
+          </div>
+        ))}
+      </section>
+
+      {/* Section grid */}
+      <section className="mb-14">
+        <h2 className="text-xl font-semibold text-white mb-4">Browse by category</h2>
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {SECTIONS.map((s) => (
+            <Link
+              key={s.href}
+              href={s.href}
+              className="bg-gray-900 border border-gray-800 hover:border-green-700 rounded-lg p-5 transition-all group"
+            >
+              <s.Icon className="w-5 h-5 text-green-500 mb-3" strokeWidth={1.5} />
+              <h3 className="font-semibold text-white group-hover:text-green-300 mb-1">{s.label}</h3>
+              <p className="text-sm text-gray-400">{s.desc}</p>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      {/* Latest research */}
+      {recentResearch.length > 0 && (
+        <section className="mb-14">
+          <div className="flex items-center justify-between mb-4">
+            <h2 className="text-xl font-semibold text-white">Latest research</h2>
+            <Link href="/research" className="text-sm text-green-500 hover:text-green-400">
+              All reports →
+            </Link>
+          </div>
+          <div className="grid sm:grid-cols-3 gap-4">
+            {recentResearch.map((f) => (
+              <OKFCard key={f.slug} {...f} />
+            ))}
+          </div>
+        </section>
+      )}
+
+      {/* About strip */}
+      <section className="bg-gray-900 border border-gray-800 rounded-xl p-6 mb-10">
+        <h2 className="font-semibold text-white mb-2">What is CricketStudio OKF?</h2>
+        <p className="text-gray-400 text-sm mb-4">
+          OKF stands for Open Knowledge Format — a structured bundle of Markdown + YAML files
+          that defines cricket concepts with formulas, scope, provenance, and canonical links.
+          Every file is readable by humans and parseable by tools. No invented facts, no raw data dumps.
+        </p>
+        <div className="flex gap-4 flex-wrap">
+          <Link href="/about" className="text-sm text-green-400 hover:underline">Full story →</Link>
+          <Link href="/methodology/citation-policy" className="text-sm text-green-400 hover:underline">Citation policy →</Link>
+          <a href="https://github.com/i-m-arul/cricketstudio-okf" target="_blank" rel="noopener noreferrer" className="text-sm text-green-400 hover:underline">GitHub →</a>
+        </div>
+      </section>
+    </>
+  )
+}

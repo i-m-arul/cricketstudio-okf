@@ -21,6 +21,10 @@ Thumbs.db
 
 # Generated viewer output (built in CI, not committed)
 viewer/dist/
+viewer/out/
+viewer/.next/
+viewer/node_modules/
+viewer/public/search-index.json
 
 # Private governance and internal tooling docs — do not publish
 CLAUDE.md
@@ -32,8 +36,8 @@ OPERATING_SYSTEM.md
 docs/
 
 # Internal tooling and tests — not for public OKF repo
-scripts/
-tests/
+/scripts/
+/tests/
 requirements.txt
 okf/runbooks/
 okf/methodology/data-refresh-policy.md
