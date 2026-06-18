@@ -1,0 +1,53 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://okf.cricketstudio.ai/schema/okf.schema.json",
+  "title": "CricketStudio OKF Manifest",
+  "description": "Schema for manifest.yaml — bundle-level metadata for the CricketStudio OKF bundle.",
+  "type": "object",
+  "required": ["name", "version", "description", "license", "okf_root", "schema"],
+  "additionalProperties": true,
+  "properties": {
+    "name": { "type": "string" },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "description": { "type": "string" },
+    "license": { "type": "string" },
+    "homepage": { "type": "string", "format": "uri" },
+    "repository": { "type": "string", "format": "uri" },
+    "okf_root": {
+      "description": "Directory (relative to repo root) holding OKF markdown files.",
+      "type": "string"
+    },
+    "schema": {
+      "description": "Path to the frontmatter schema this bundle validates against.",
+      "type": "string"
+    },
+    "dataset_version": {
+      "description": "Snapshot date/version backing the current content.",
+      "type": "string"
+    },
+    "source_systems": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "data_sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "license", "boundary"],
+        "properties": {
+          "name": { "type": "string" },
+          "license": { "type": "string" },
+          "boundary": { "type": "string" },
+          "attribution": { "type": "string" }
+        }
+      }
+    },
+    "counts": {
+      "type": "object",
+      "additionalProperties": { "type": "integer" }
+    }
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://okf.cricketstudio.ai/schema/frontmatter.schema.json",
+  "title": "CricketStudio OKF Frontmatter",
+  "description": "Schema for the YAML frontmatter block of every CricketStudio OKF markdown file. Authoritative field set per CLAUDE.md §7; fields from REQUIREMENTS.md §14 are accepted as documented aliases.",
+  "type": "object",
+  "required": [
+    "type",
+    "title",
+    "description",
+    "status",
+    "last_verified",
+    "license",
+    "source_system",
+    "source_boundary"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "type": {
+      "description": "The concept type. One of the 15 approved values (REQUIREMENTS.md §14.3).",
+      "type": "string",
+      "enum": [
+        "index",
+        "player",
+        "team",
+        "league",
+        "season",
+        "match",
+        "venue",
+        "metric",
+        "methodology",
+        "source",
+        "example",
+        "runbook",
+        "reference",
+        "claim",
+        "api"
+      ]
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "description": "Lifecycle state of the document.",
+      "type": "string",
+      "enum": ["active", "draft", "deprecated", "archived"]
+    },
+    "last_verified": {
+      "description": "ISO-8601 date the content was last verified against source.",
+      "type": "string",
+      "format": "date"
+    },
+    "license": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_system": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_boundary": {
+      "description": "Licensing/redistribution boundary for the data this file relies on (REQUIREMENTS.md §21.3).",
+      "type": "string",
+      "enum": [
+        "derived_claims_only",
+        "public_open_data",
+        "proprietary_source_not_redistributed",
+        "manual_curated_knowledge",
+        "methodology_only"
+      ]
+    },
+
+    "resource": {
+      "description": "Best canonical CricketStudio page or API resource. Required for concept-bearing types (enforced by validate_okf.py).",
+      "type": "string",
+      "format": "uri"
+    },
+    "canonical_page": {
+      "type": "string",
+      "format": "uri"
+    },
+    "api_resource": {
+      "type": "string",
+      "format": "uri"
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "entity_id": {
+      "description": "Stable entity id, e.g. cricketstudio:player:virat-kohli.",
+      "type": "string"
+    },
+    "aliases": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "related": {
+      "description": "Relative paths to related OKF files (forms the concept graph).",
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "provenance": {
+      "description": "Provenance block. Required for files that carry data-dependent claims (enforced by validate_okf.py).",
+      "type": "object",
+      "required": ["source", "confidence"],
+      "additionalProperties": false,
+      "properties": {
+        "source": { "type": "string" },
+        "confidence": {
+          "type": "string",
+          "enum": ["high", "medium", "low"]
+        },
+        "notes": { "type": "string" },
+        "computed_at": {
+          "type": "string",
+          "description": "ISO-8601 timestamp the underlying claim was computed (from snapshot)."
+        },
+        "snapshot": { "type": "string" }
+      }
+    },
+    "dataset_version": {
+      "description": "Snapshot date/version the data was drawn from.",
+      "type": "string"
+    },
+    "review_required": {
+      "description": "When true, the file is not release-ready (validate_okf.py fails on this in release paths).",
+      "type": "boolean"
+    },
+    "generated": {
+      "description": "Reserved for v0.2: marks a file emitted by scripts/generate_okf.py vs. hand-curated.",
+      "type": "boolean"
+    },
+
+    "timestamp": {
+      "description": "Alias of last_verified accepted from REQUIREMENTS.md §14.1.",
+      "type": "string",
+      "format": "date"
+    },
+    "version": {
+      "description": "Document version (REQUIREMENTS.md §14.1), e.g. 0.1.0.",
+      "type": "string"
+    },
+    "cricketstudio_id": {
+      "description": "Alias of entity_id accepted from REQUIREMENTS.md §14.2.",
+      "type": "string"
+    },
+    "confidence": {
+      "description": "Flat confidence accepted from REQUIREMENTS.md §14.2 (prefer provenance.confidence).",
+      "type": "string",
+      "enum": ["high", "medium", "low"]
+    },
+    "review_status": {
+      "description": "Curation status accepted from REQUIREMENTS.md §14.2.",
+      "type": "string",
+      "enum": ["curated", "generated", "draft"]
+    }
+  },
+
+  "allOf": [
+    {
+      "if": { "properties": { "type": { "const": "metric" } } },
+      "then": { "required": ["resource"] }
+    }
+  ]
+}

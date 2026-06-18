@@ -1,0 +1,49 @@
+name: Publish OKF
+
+# Builds the bundle manifest on merge to main. Viewer publishing and release artifacts
+# are added in v0.3 (see docs/VIEWER_REQUIREMENTS.md); kept minimal until the schema and
+# validation pipeline are proven stable.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build-manifest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Validate before publishing
+        run: |
+          python scripts/validate_okf.py
+          python scripts/check_links.py
+
+      - name: Upload bundle artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: cricketstudio-okf-bundle
+          path: |
+            okf/**
+            schema/**
+            manifest.yaml
+            README.md
+            LICENSE.md
+            ATTRIBUTION.md
+            DATA_LICENSE_BOUNDARIES.md
+            CONSTITUTION.md
