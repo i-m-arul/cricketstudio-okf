@@ -21,3 +21,9 @@ Thumbs.db
 
 # Generated viewer output (built in CI, not committed)
 viewer/dist/
+
+# Private governance and internal tooling docs — do not publish
+CLAUDE.md
+CricketStudio_OKF_Requirements.md
+CONSTITUTION.md
+OPERATING_SYSTEM.md
