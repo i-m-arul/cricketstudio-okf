@@ -35,14 +35,11 @@ OPERATING_SYSTEM.md
 # Internal development planning docs — not OKF content
 docs/
 
-# Internal tooling and tests — not for public OKF repo
-/scripts/
-/tests/
-requirements.txt
-okf/runbooks/
+# Generator script uses local private snapshot paths — not for public repo
+scripts/generate_players.py
+
+# Internal OKF files — excluded from public repo
 okf/methodology/data-refresh-policy.md
 okf/methodology/correction-policy.md
 okf/sources/licensed-feed-boundaries.md
-
-# Internal CI/CD — calls private scripts; not for public repo
-.github/
+requirements.txt
