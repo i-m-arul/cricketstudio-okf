@@ -25,6 +25,7 @@ related:
   - ../concepts/leagues/major-league-cricket.md
   - ../sources/cricsheet.md
   - ../methodology/sample-size-floors.md
+  - ../examples/toss-effect-mlc-vs-ipl.md
 provenance:
   source: Cricsheet CC BY 3.0 · MLC 2023–2025 · 75 completed matches
   confidence: high

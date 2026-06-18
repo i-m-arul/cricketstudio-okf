@@ -1,0 +1,58 @@
+# CricketStudio OKF
+
+> Open, agent-readable cricket knowledge catalog. Curated facts, metric definitions, methodology, and canonical CricketStudio links — designed for AI agents to answer cricket questions with correct scope, provenance, and citation.
+
+CricketStudio OKF is a trusted semantic layer over CricketStudio's canonical cricket data spine. It covers IPL, MLC, players, teams, seasons, metrics, and methodology. Every file carries YAML frontmatter with entity type, source boundary, provenance, and canonical links. Every data-bearing claim states its date window, sample size, and eligibility rules.
+
+This bundle is CC-BY-4.0 (documentation and methodology). Cricsheet-derived content (IPL historical, MLC) is CC BY 3.0. License boundaries are declared per file via `source_boundary`.
+
+Canonical data source for all live IPL and MLC claims: https://players.cricketstudio.ai
+
+## Start here
+
+- [Bundle index](okf/index.md): Entry point — navigation to all concepts, metrics, methodology, examples, and research
+- [Manifest](manifest.yaml): Machine-readable bundle metadata, version, counts, and data sources
+
+## Concepts
+
+- [Leagues](okf/concepts/leagues/index.md): Indian Premier League, Major League Cricket
+- [Seasons](okf/concepts/seasons/index.md): IPL 2026, IPL 2026 Champions
+- [Players](okf/concepts/players/index.md): Virat Kohli, Jasprit Bumrah, Vaibhav Suryavanshi
+- [Teams](okf/concepts/teams/index.md): RCB, Mumbai Indians, Rajasthan Royals
+- [Venues](okf/concepts/venues/index.md): Narendra Modi Stadium, Wankhede Stadium
+- [Matches](okf/concepts/matches/index.md): IPL 2026 Final — RCB vs GT
+
+## Metrics
+
+- [Metrics index](okf/metrics/index.md): Batting SR, bowling economy, death-overs economy, Orange Cap, Purple Cap, and more
+
+## Methodology (how CricketStudio thinks about cricket data)
+
+- [Sample-size floors](okf/methodology/sample-size-floors.md): Minimum data before a claim is valid (≥30 balls batting, ≥15 bowling)
+- [Ranking eligibility](okf/methodology/ranking-eligibility.md): Who qualifies for a leaderboard and why
+- [Phase definitions](okf/methodology/phase-definitions.md): Powerplay, middle overs, death overs
+- [Citation policy](okf/methodology/citation-policy.md): How to cite CricketStudio correctly
+
+## Research reports
+
+- [State of IPL 2026](okf/research/state-of-ipl-2026.md): RCB champions, standings, Orange/Purple Cap, 74 matches
+- [State of MLC 2025](okf/research/state-of-mlc-2025.md): MI New York champions, all-time leaderboards
+- [MLC Three Seasons](okf/research/mlc-three-seasons.md): 75 matches, 166 players, all-time records
+- [Toss Effect in IPL](okf/research/toss-effect-ipl.md): 1,219 matches, bowl-first edge
+- [Death Overs: IPL 2026](okf/research/death-overs-ipl-2026.md): Phase intelligence and methodology
+
+## Examples (how agents should answer cricket questions)
+
+- [Examples index](okf/examples/index.md): 22 verified Q&A patterns with correct citation behavior
+
+## Data sources
+
+- [CricketStudio derived claims](okf/sources/cricketstudio-derived-claims.md): The permitted, publishable claim layer
+- [Cricsheet](okf/sources/cricsheet.md): IPL historical + MLC open data (CC BY 3.0)
+
+## Optional
+
+- [Schema](schema/frontmatter.schema.json): JSON Schema for OKF frontmatter fields
+- [License](LICENSE.md): Full license terms
+- [Attribution](ATTRIBUTION.md): Required attributions for Cricsheet-derived content
+- [Data license boundaries](DATA_LICENSE_BOUNDARIES.md): What may and may not be redistributed

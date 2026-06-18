@@ -1,0 +1,78 @@
+{
+  "name": "cricketstudio-okf",
+  "title": "CricketStudio Open Knowledge Format",
+  "description": "A curated, agent-readable Open Knowledge Format bundle of cricket concepts, metrics, methodology, sources, and examples. A trusted knowledge catalog layered over CricketStudio's canonical data spine — covering IPL, MLC, players, teams, seasons, venues, and matches.",
+  "version": "0.1.0",
+  "homepage": "https://okf.cricketstudio.ai",
+  "repository": "https://github.com/i-m-arul/cricketstudio-okf",
+  "created": "2026-06-18",
+  "keywords": [
+    "cricket",
+    "IPL",
+    "MLC",
+    "sports-data",
+    "open-knowledge",
+    "ai-ready",
+    "knowledge-graph",
+    "agent-context"
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0 International",
+      "path": "LICENSE.md"
+    },
+    {
+      "name": "CC-BY-3.0",
+      "title": "Creative Commons Attribution 3.0 Unported (Cricsheet-derived content only)",
+      "path": "ATTRIBUTION.md"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "CricketStudio",
+      "role": "author",
+      "path": "https://cricketstudio.ai"
+    }
+  ],
+  "sources": [
+    {
+      "title": "CricketStudio",
+      "path": "https://players.cricketstudio.ai"
+    },
+    {
+      "title": "Cricsheet",
+      "path": "https://cricsheet.org"
+    }
+  ],
+  "resources": [
+    {
+      "name": "okf-index",
+      "path": "okf/index.md",
+      "title": "OKF Bundle Index",
+      "description": "Entry point for the full CricketStudio OKF knowledge bundle",
+      "mediatype": "text/markdown"
+    },
+    {
+      "name": "manifest",
+      "path": "manifest.yaml",
+      "title": "Bundle Manifest",
+      "description": "Machine-readable bundle metadata, version, and file counts",
+      "mediatype": "text/yaml"
+    },
+    {
+      "name": "frontmatter-schema",
+      "path": "schema/frontmatter.schema.json",
+      "title": "Frontmatter JSON Schema",
+      "description": "JSON Schema defining valid frontmatter fields for all OKF files",
+      "mediatype": "application/json"
+    },
+    {
+      "name": "okf-schema",
+      "path": "schema/okf.schema.json",
+      "title": "OKF Manifest Schema",
+      "description": "JSON Schema for manifest.yaml validation",
+      "mediatype": "application/json"
+    }
+  ]
+}

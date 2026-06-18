@@ -22,6 +22,7 @@ aliases:
 related:
   - indian-premier-league.md
   - ../../sources/cricsheet.md
+  - ../../examples/mlc-best-economy-all-time.md
 provenance:
   source: Cricsheet (CC BY 3.0), via CricketStudio derived claim layer
   confidence: high
