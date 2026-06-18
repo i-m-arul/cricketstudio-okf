@@ -22,7 +22,7 @@ related:
 provenance:
   source: Cricsheet CC BY 3.0 (both MLC and IPL historical)
   confidence: high
-  snapshot: cricketstudio-mcp/data/snapshot (2026-06-11)
+  snapshot: CricketStudio internal dataset (2026-06-11)
 ---
 
 # Example — Toss effect in MLC vs IPL

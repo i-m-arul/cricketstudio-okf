@@ -28,7 +28,7 @@ related:
 provenance:
   source: Cricsheet CC BY 3.0 · MLC 2023–2025 · 75 completed matches
   confidence: high
-  snapshot: cricketstudio-mcp/data/snapshot (2026-06-11)
+  snapshot: CricketStudio internal dataset (2026-06-11)
   notes: All MLC ball-by-ball data from Cricsheet (cricsheet.org) under CC BY 3.0.
 ---
 

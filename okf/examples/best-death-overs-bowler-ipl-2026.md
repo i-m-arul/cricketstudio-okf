@@ -20,9 +20,9 @@ related:
   - ../methodology/sample-size-floors.md
   - ../methodology/phase-definitions.md
 provenance:
-  source: CricketStudio SETU aggregation · IPL 2026 · 74 matches
+  source: CricketStudio analytics engine · IPL 2026 · 74 matches
   confidence: high
-  snapshot: cricketstudio-mcp/data/snapshot (2026-06-11)
+  snapshot: CricketStudio internal dataset (2026-06-11)
 ---
 
 # Example — Best death-overs bowler in IPL 2026
@@ -33,7 +33,7 @@ provenance:
 
 ## Correct Answer Pattern
 
-> For IPL 2026 death-overs bowling (overs 16–20), the ranking uses economy rate with a floor of **≥30 legal deliveries** in the phase — a tighter floor than the general ≥15-ball bowling floor, to account for the extreme variance in small death-over samples. The top 5 bowlers by economy (from 74 matches) are ranked at CricketStudio's canonical research page: [players.cricketstudio.ai/research/death-overs](https://players.cricketstudio.ai/research/death-overs). Always quote the player's ball count alongside their economy rate — "X RPO from Y balls" — so the sample size is visible. Source: CricketStudio SETU aggregation · IPL 2026 · 74 matches · overs 16–20 only.
+> For IPL 2026 death-overs bowling (overs 16–20), the ranking uses economy rate with a floor of **≥30 legal deliveries** in the phase — a tighter floor than the general ≥15-ball bowling floor, to account for the extreme variance in small death-over samples. The top 5 bowlers by economy (from 74 matches) are ranked at CricketStudio's canonical research page: [players.cricketstudio.ai/research/death-overs](https://players.cricketstudio.ai/research/death-overs). Always quote the player's ball count alongside their economy rate — "X RPO from Y balls" — so the sample size is visible. Source: CricketStudio analytics engine · IPL 2026 · 74 matches · overs 16–20 only.
 
 ## Required Concepts
 
@@ -45,7 +45,7 @@ provenance:
 
 - State "IPL 2026 · overs 16–20 · floor ≥30 balls" with every death-overs economy claim.
 - Always pair economy rate with ball count so the reader can judge sample adequacy.
-- For current ranked values, link the canonical research page (live-computed from SETU snapshot).
+- For current ranked values, link the canonical research page (live-computed from CricketStudio snapshot).
 
 ## Caveats
 

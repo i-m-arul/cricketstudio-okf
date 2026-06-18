@@ -25,7 +25,7 @@ reflect updated standings, champion, or counts.
 
 ## Steps
 
-1. **Note the new snapshot date** from `cricketstudio-mcp/data/snapshot/metadata.json`.
+1. **Note the new snapshot date** from `CricketStudio internal dataset/CricketStudio internal dataset`.
 2. **Update** `manifest.yaml` → `dataset_version`.
 3. **Refresh the season file** (e.g. [ipl-2026.md](../concepts/seasons/ipl-2026.md)):
    standings, champion (from the final fixture), and corpus counts — each with a refreshed

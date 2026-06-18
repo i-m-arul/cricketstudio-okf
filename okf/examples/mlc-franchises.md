@@ -19,9 +19,9 @@ related:
   - ../research/state-of-mlc-2025.md
   - ../sources/cricsheet.md
 provenance:
-  source: CricketStudio MLC league hub · mlc-teams.json · 2026-06-11
+  source: CricketStudio MLC league hub · mlc-2026-06-11
   confidence: high
-  snapshot: cricketstudio-mcp/data/snapshot (2026-06-11)
+  snapshot: CricketStudio internal dataset (2026-06-11)
 ---
 
 # Example — What are the MLC franchises?

@@ -21,9 +21,9 @@ related:
   - ../metrics/orange-cap.md
   - ../sources/cricsheet.md
 provenance:
-  source: Cricsheet CC BY 3.0 · mlc-leaderboards.json · 2026-06-11
+  source: Cricsheet CC BY 3.0 · 2026-06-11
   confidence: high
-  snapshot: cricketstudio-mcp/data/snapshot (2026-06-11)
+  snapshot: CricketStudio internal dataset (2026-06-11)
 ---
 
 # Example — MLC all-time leading run-scorer
@@ -49,7 +49,7 @@ provenance:
 | 2 | N Pooran | MI New York | 928 | 640 | 28 |
 | 3 | Q de Kock | MI NY / Seattle Orcas | 807 | 569 | 26 |
 
-Source: cricketstudio-mcp/data/snapshot/mlc-leaderboards.json · Cricsheet CC BY 3.0.
+Source: CricketStudio internal dataset/Cricsheet CC BY 3.0.
 
 ## Citation Behavior
 

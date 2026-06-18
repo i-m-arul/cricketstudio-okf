@@ -21,9 +21,9 @@ related:
   - ../methodology/sample-size-floors.md
   - ../sources/cricsheet.md
 provenance:
-  source: Cricsheet CC BY 3.0 · mlc-leaderboards.json · 2026-06-11
+  source: Cricsheet CC BY 3.0 · 2026-06-11
   confidence: high
-  snapshot: cricketstudio-mcp/data/snapshot (2026-06-11)
+  snapshot: CricketStudio internal dataset (2026-06-11)
 ---
 
 # Example — Best economy rate in MLC history
@@ -44,7 +44,7 @@ provenance:
 | 2 | Rashid Khan | MI New York | 6.48 | 300 | 13 |
 | 3 | SP Narine | LA Knight Riders | 6.56 | 408 | 17 |
 
-Source: cricketstudio-mcp/data/snapshot/mlc-leaderboards.json · Cricsheet CC BY 3.0.
+Source: CricketStudio internal dataset/Cricsheet CC BY 3.0.
 
 ## Citation Behavior
 

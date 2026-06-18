@@ -28,7 +28,7 @@ provenance:
   source: CricketStudio derived claim layer
   confidence: high
   computed_at: "2026-05-29T14:17:58.285Z"
-  snapshot: cricketstudio-mcp/data/snapshot (2026-06-11)
+  snapshot: CricketStudio internal dataset (2026-06-11)
   notes: Stats are a dated snapshot; use the canonical page for current values.
 ---
 
@@ -88,7 +88,7 @@ strike rate is exceptional and should always be reported with the ball count and
 
 ## Data and Source Notes
 
-- `source_boundary: derived_claims_only`; Sportmonks-derived, raw feed not redistributed.
+- `source_boundary: derived_claims_only`; derived from licensed data feed; raw data not redistributed.
 - Values are a 2026-06-11 snapshot projection; canonical pages are fresher.
 
 ## Examples

@@ -26,7 +26,7 @@ related:
 provenance:
   source: CricketStudio derived claim layer
   confidence: high
-  snapshot: cricketstudio-mcp/data/snapshot (2026-06-11)
+  snapshot: CricketStudio internal dataset (2026-06-11)
   notes: See canonical page for current standing and squad.
 ---
 
@@ -63,7 +63,7 @@ bundle.
 
 ## Data and Source Notes
 
-- `source_boundary: derived_claims_only`; Sportmonks-derived, raw feed not redistributed.
+- `source_boundary: derived_claims_only`; derived from licensed data feed; raw data not redistributed.
 - Where a specific MI statistic is not sourced here, defer to the canonical team page.
 
 ## Related Concepts

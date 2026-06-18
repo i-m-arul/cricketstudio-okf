@@ -21,9 +21,9 @@ related:
   - ../metrics/purple-cap.md
   - ../sources/cricsheet.md
 provenance:
-  source: Cricsheet CC BY 3.0 · mlc-leaderboards.json · 2026-06-11
+  source: Cricsheet CC BY 3.0 · 2026-06-11
   confidence: high
-  snapshot: cricketstudio-mcp/data/snapshot (2026-06-11)
+  snapshot: CricketStudio internal dataset (2026-06-11)
 ---
 
 # Example — MLC all-time leading wicket-taker
@@ -49,7 +49,7 @@ provenance:
 | 2 | SN Netravalkar | Washington Freedom | 34 | 526 | 8.03 | 24 |
 | 3 | Haris Rauf | San Francisco Unicorns | 28 | 483 | 8.92 | 22 |
 
-Source: cricketstudio-mcp/data/snapshot/mlc-leaderboards.json · Cricsheet CC BY 3.0.
+Source: CricketStudio internal dataset/Cricsheet CC BY 3.0.
 
 ## Citation Behavior
 

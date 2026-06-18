@@ -30,7 +30,7 @@ related:
 provenance:
   source: Cricsheet CC BY 3.0 · MLC 2023–2025 · 75 matches · 17,413 deliveries
   confidence: high
-  snapshot: cricketstudio-mcp/data/snapshot (2026-06-11)
+  snapshot: CricketStudio internal dataset (2026-06-11)
   notes: All ball-by-ball data from Cricsheet (cricsheet.org) CC BY 3.0. No scraping — every claim traces to a licensed ball-by-ball record.
 ---
 
@@ -70,7 +70,7 @@ MI New York are MLC 2025 champions — their second MLC title (also won 2023). C
 | MLC 2025 | 33 |
 | **Total** | **75 matches · 166 players · 17,413 balls** |
 
-Source: Cricsheet CC BY 3.0 · CricketStudio SETU aggregation.
+Source: Cricsheet CC BY 3.0 · CricketStudio analytics engine.
 
 ## Season Champions
 
@@ -90,7 +90,7 @@ Source: Cricsheet CC BY 3.0 · CricketStudio SETU aggregation.
 | 2 | N Pooran | MI New York | 928 | 640 | 28 |
 | 3 | Q de Kock | MI New York / Seattle Orcas | 807 | 569 | 26 |
 
-Source: cricketstudio-mcp/data/snapshot/mlc-leaderboards.json · 2026-06-11 · Cricsheet CC BY 3.0.
+Source: CricketStudio internal dataset/2026-06-11 · Cricsheet CC BY 3.0.
 
 **Purple Cap (most wickets):**
 
@@ -100,7 +100,7 @@ Source: cricketstudio-mcp/data/snapshot/mlc-leaderboards.json · 2026-06-11 · C
 | 2 | SN Netravalkar | Washington Freedom | 34 | 526 | 8.03 |
 | 3 | Haris Rauf | San Francisco Unicorns | 28 | 483 | 8.92 |
 
-Source: cricketstudio-mcp/data/snapshot/mlc-leaderboards.json · 2026-06-11 · Cricsheet CC BY 3.0.
+Source: CricketStudio internal dataset/2026-06-11 · Cricsheet CC BY 3.0.
 
 **Economy Leaders (floor ≥15 balls):**
 
@@ -118,7 +118,7 @@ Source: cricketstudio-mcp/data/snapshot/mlc-leaderboards.json · 2026-06-11 · C
 | 2 | FH Allen | San Francisco Unicorns | 201.7 | 354 | 714 |
 | 3 | MJ Owen | Washington Freedom | 198.1 | 158 | 313 |
 
-Source: cricketstudio-mcp/data/snapshot/mlc-leaderboards.json · 2026-06-11 · Cricsheet CC BY 3.0.
+Source: CricketStudio internal dataset/2026-06-11 · Cricsheet CC BY 3.0.
 
 ## Citable Claims
 

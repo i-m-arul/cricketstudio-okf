@@ -20,7 +20,7 @@ related:
 provenance:
   source: Cricsheet CC BY 3.0 · MLC 2025 final · match mlc-1482025
   confidence: high
-  snapshot: cricketstudio-mcp/data/snapshot (2026-06-11)
+  snapshot: CricketStudio internal dataset (2026-06-11)
 ---
 
 # Example — Who won MLC 2025?

@@ -19,9 +19,9 @@ related:
   - ../metrics/death-overs-economy.md
   - ../methodology/sample-size-floors.md
 provenance:
-  source: Cricsheet CC BY 3.0 · mlc-leaderboards.json · 2026-06-11
+  source: Cricsheet CC BY 3.0 · 2026-06-11
   confidence: high
-  snapshot: cricketstudio-mcp/data/snapshot (2026-06-11)
+  snapshot: CricketStudio internal dataset (2026-06-11)
 ---
 
 # Example — Best death-overs bowler in MLC history
@@ -47,7 +47,7 @@ provenance:
 | 2 | PJ Cummins | San Francisco Unicorns | 7.38 | 48 | 1 |
 | 3 | LH Ferguson | LA KR / Wash Freedom | 7.54 | 74 | 6 |
 
-Source: cricketstudio-mcp/data/snapshot/mlc-leaderboards.json · Cricsheet CC BY 3.0.
+Source: CricketStudio internal dataset/Cricsheet CC BY 3.0.
 
 ## Citation Behavior
 

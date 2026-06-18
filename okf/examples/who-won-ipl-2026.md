@@ -19,7 +19,7 @@ provenance:
   source: CricketStudio derived claim layer
   confidence: high
   computed_at: "2026-05-31"
-  snapshot: cricketstudio-mcp/data/snapshot (2026-06-11)
+  snapshot: CricketStudio internal dataset (2026-06-11)
 ---
 
 # Example — Who won IPL 2026?

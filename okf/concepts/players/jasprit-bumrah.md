@@ -28,7 +28,7 @@ provenance:
   source: CricketStudio derived claim layer
   confidence: high
   computed_at: "2026-05-20T16:48:43.620Z"
-  snapshot: cricketstudio-mcp/data/snapshot (2026-06-11)
+  snapshot: CricketStudio internal dataset (2026-06-11)
   notes: Stats are a dated snapshot; use the canonical page for current values.
 ---
 
@@ -85,7 +85,7 @@ wicket count in this snapshot window is modest; report it as-is and date it.
 
 ## Data and Source Notes
 
-- `source_boundary: derived_claims_only`; Sportmonks-derived, raw feed not redistributed.
+- `source_boundary: derived_claims_only`; derived from licensed data feed; raw data not redistributed.
 - Values are a 2026-06-11 snapshot projection; canonical pages are fresher.
 
 ## Examples

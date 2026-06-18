@@ -21,7 +21,7 @@ related:
 provenance:
   source: Cricsheet CC BY 3.0 + CricketStudio IPL 2026 ball-by-ball
   confidence: high
-  snapshot: cricketstudio-mcp/data/snapshot (2026-06-11)
+  snapshot: CricketStudio internal dataset (2026-06-11)
 ---
 
 # Example — Bat first vs bowl first in IPL

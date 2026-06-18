@@ -27,7 +27,7 @@ provenance:
   source: CricketStudio champions hub · IPL 2026
   confidence: high
   computed_at: "2026-05-31"
-  snapshot: cricketstudio-mcp/data/snapshot (2026-06-11)
+  snapshot: CricketStudio internal dataset (2026-06-11)
   notes: Finals history from CricketStudio's champions page; cite canonical page for current records.
 ---
 
@@ -117,7 +117,7 @@ Source: CricketStudio champions hub · snapshot 2026-06-11.
 
 ## Provenance and Data Notes
 
-- `source_boundary: derived_claims_only` (Sportmonks-derived; raw feed not redistributed).
+- `source_boundary: derived_claims_only` (derived from licensed data feed; raw feed not redistributed).
 - Finals history sourced from CricketStudio's champions hub (`cricketstudio.ai/season/ipl-2026/champions`);
   snapshot 2026-06-11.
 - Some venue fields in the historical table are incomplete — use the canonical champions

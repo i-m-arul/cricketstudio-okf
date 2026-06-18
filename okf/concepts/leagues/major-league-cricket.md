@@ -96,7 +96,7 @@ to open Cricsheet data.
 | Best economy | Imad Wasim (SEA) | 6.41 RPO | 247 balls · floor ≥15 |
 | Best SR | D Ferreira (TSK) | 213.8 | 116 balls · floor ≥30 |
 
-Source: cricketstudio-mcp/data/snapshot/mlc-leaderboards.json · 2026-06-11 · Cricsheet CC BY 3.0.
+Source: CricketStudio internal dataset/2026-06-11 · Cricsheet CC BY 3.0.
 
 ## Franchises
 

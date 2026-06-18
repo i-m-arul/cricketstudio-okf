@@ -27,10 +27,10 @@ related:
   - toss-effect-ipl.md
   - death-overs-ipl-2026.md
 provenance:
-  source: CricketStudio SETU aggregation · IPL 2026 · 74 matches · ball-by-ball corpus
+  source: CricketStudio analytics engine · IPL 2026 · 74 matches · ball-by-ball corpus
   confidence: high
-  snapshot: cricketstudio-mcp/data/snapshot (2026-06-11)
-  notes: Standings and leaderboards from SETU canonical snapshot; individual claims carry their own sample sizes.
+  snapshot: CricketStudio internal dataset (2026-06-11)
+  notes: Standings and leaderboards from CricketStudio canonical snapshot; individual claims carry their own sample sizes.
 ---
 
 # The State of IPL 2026
@@ -67,13 +67,13 @@ Royal Challengers Bengaluru are IPL 2026 champions — their back-to-back title 
 | 3 | Gujarat Titans | 14 | 9 | 5 | 18 | +0.320 |
 | 4 | Rajasthan Royals | 14 | 8 | 6 | 16 | +0.280 |
 
-RCB topped on NRR (all three teams on 18 pts). Source: SETU standings snapshot · league stage only · 2026-06-11.
+RCB topped on NRR (all three teams on 18 pts). Source: CricketStudio standings snapshot · league stage only · 2026-06-11.
 
 ## Citable Claims
 
 **RCB-champion-2026:** Royal Challengers Bengaluru won IPL 2026, defeating Gujarat Titans by 5 wickets in the final at Narendra Modi Stadium, Ahmedabad on 2026-06-01. Sample: IPL 2026 final · fixture 69668 · CricketStudio ball-by-ball corpus · 74 matches.
 
-**Table-topper-2026:** RCB topped the IPL 2026 league table with 18 points (9W–5L, NRR +0.684) across 14 league matches — leading SRH and GT on net run rate, all three level on points. Sample: IPL 2026 league stage · 14 matches per team · SETU standings.
+**Table-topper-2026:** RCB topped the IPL 2026 league table with 18 points (9W–5L, NRR +0.684) across 14 league matches — leading SRH and GT on net run rate, all three level on points. Sample: IPL 2026 league stage · 14 matches per team · CricketStudio standings.
 
 **Kohli-final-2026:** Virat Kohli scored 75 off 42 balls in the IPL 2026 final, anchoring RCB's chase of 156 to win by 5 wickets. Sample: IPL 2026 final · 2026-06-01 · fixture 69668.
 

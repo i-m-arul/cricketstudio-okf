@@ -28,10 +28,10 @@ related:
   - ../methodology/phase-definitions.md
   - ../methodology/sample-size-floors.md
 provenance:
-  source: CricketStudio SETU aggregation · IPL 2026 · 74 matches · overs 16–20 only
+  source: CricketStudio analytics engine · IPL 2026 · 74 matches · overs 16–20 only
   confidence: high
-  snapshot: cricketstudio-mcp/data/snapshot (2026-06-11)
-  notes: All figures are snapshot-derived; individual leaderboard positions update as the SETU snapshot refreshes. See canonical page for current ranked values.
+  snapshot: CricketStudio internal dataset (2026-06-11)
+  notes: All figures are snapshot-derived; individual leaderboard positions update as the CricketStudio snapshot refreshes. See canonical page for current ranked values.
 ---
 
 # Death Overs Intelligence — IPL 2026
@@ -67,7 +67,7 @@ Death overs = overs 16–20 (over_id > 15 in ball-by-ball record). Consistent wi
 
 ## Current Ranked Values
 
-Individual death-overs leaderboards are live-computed from the ball-by-ball SETU snapshot. See the canonical page for the current top 5:
+Individual death-overs leaderboards are live-computed from the ball-by-ball CricketStudio snapshot. See the canonical page for the current top 5:
 
 - Death-overs bowlers (economy): <https://players.cricketstudio.ai/research/death-overs>
 - Death-overs batters (strike rate): <https://players.cricketstudio.ai/research/death-overs>
@@ -80,8 +80,8 @@ Individual death-overs leaderboards are live-computed from the ball-by-ball SETU
 - **Batting strike rate floor:** ≥30 legal deliveries faced in death overs.
 - **Economy rate formula:** `(runs_conceded / legal_balls_bowled) × 6`. Wides and no-balls excluded from legal ball count; their runs included in runs conceded.
 - **Strike rate formula:** `(runs_scored / legal_balls_faced) × 100`. Wides excluded from balls faced.
-- **Team aggregates:** Summed across all players with that `teamCode` in the SETU snapshot. Batting and bowling attributed to player's team per season roster.
-- **Source:** CricketStudio ball-by-ball aggregation (SETU canonical snapshot · `data/_season-stats.json` · snapshot computed 2026-06-11).
+- **Team aggregates:** Summed across all players with that `teamCode` in the CricketStudio snapshot. Batting and bowling attributed to player's team per season roster.
+- **Source:** CricketStudio ball-by-ball aggregation (CricketStudio canonical snapshot · `data/_CricketStudio internal dataset` · snapshot computed 2026-06-11).
 
 ## What Agents Should Know
 
@@ -94,7 +94,7 @@ Individual death-overs leaderboards are live-computed from the ball-by-ball SETU
 
 **What counts as "death overs" in this analysis?** Overs 16–20 (over_id > 15 in ball-by-ball record). Consistent with CricketStudio's phase classification: Powerplay = 1–6; Middle = 7–15; Death = 16–20.
 
-**Who bowled best in IPL 2026 death overs?** See canonical page for current ranked values. Floor is ≥30 legal deliveries in overs 16–20. Source: CricketStudio SETU aggregation · IPL 2026 · 74 matches.
+**Who bowled best in IPL 2026 death overs?** See canonical page for current ranked values. Floor is ≥30 legal deliveries in overs 16–20. Source: CricketStudio analytics engine · IPL 2026 · 74 matches.
 
 **Who hit best in IPL 2026 death overs?** See canonical page for current ranked values. Floor is ≥30 balls faced in overs 16–20.
 

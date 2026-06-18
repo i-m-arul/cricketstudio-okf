@@ -25,8 +25,8 @@ reflect it.
 
 ## Inputs
 
-- Source of truth: `cricketstudio-mcp/data/snapshot/*.json`
-- The snapshot date in `metadata.json` (`generatedAt`).
+- Source of truth: `CricketStudio internal dataset`
+- The snapshot date in `CricketStudio internal dataset` (`generatedAt`).
 
 ## Steps (v0.1 — curated)
 

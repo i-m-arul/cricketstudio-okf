@@ -26,7 +26,7 @@ Someone reports that a number, result, or claim in the bundle looks wrong.
 
 1. **Capture the claim.** Record the exact file, the disputed value, and the claimed
    correct value with any evidence.
-2. **Check the snapshot.** Compare against `cricketstudio-mcp/data/snapshot/*.json` and the
+2. **Check the snapshot.** Compare against `CricketStudio internal dataset` and the
    `computed_at` date. Is the bundle faithfully reflecting the snapshot, or did it drift?
 3. **Check the canonical page.** The live CricketStudio page may already be fresher than the
    snapshot (see [Data Refresh Policy](../methodology/data-refresh-policy.md)).

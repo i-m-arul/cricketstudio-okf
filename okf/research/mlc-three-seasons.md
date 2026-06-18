@@ -28,7 +28,7 @@ related:
 provenance:
   source: Cricsheet CC BY 3.0 · MLC 2023–2025 · 75 matches · 17,413 deliveries
   confidence: high
-  snapshot: cricketstudio-mcp/data/snapshot (2026-06-11)
+  snapshot: CricketStudio internal dataset (2026-06-11)
   notes: All three completed MLC seasons captured from Cricsheet CC BY 3.0.
 ---
 
@@ -51,7 +51,7 @@ After three completed seasons (2023–2025), MLC has a 75-match, 17,413-delivery
 | MLC 2025 | 33 | +74% vs 2023 |
 | **All-time** | **75 · 166 players · 17,413 balls** | |
 
-Source: Cricsheet CC BY 3.0 · CricketStudio SETU aggregation.
+Source: Cricsheet CC BY 3.0 · CricketStudio analytics engine.
 
 ## All-Time Batting Leaders (floor ≥30 balls)
 
@@ -69,7 +69,7 @@ Source: Cricsheet CC BY 3.0 · CricketStudio SETU aggregation.
 | 2 | FH Allen | San Francisco Unicorns | 201.7 | 354 | 714 |
 | 3 | MJ Owen | Washington Freedom | 198.1 | 158 | 313 |
 
-Source: cricketstudio-mcp/data/snapshot/mlc-leaderboards.json · Cricsheet CC BY 3.0.
+Source: CricketStudio internal dataset/Cricsheet CC BY 3.0.
 
 ## All-Time Bowling Leaders
 
@@ -89,7 +89,7 @@ Source: cricketstudio-mcp/data/snapshot/mlc-leaderboards.json · Cricsheet CC BY
 | 2 | Rashid Khan | MI New York | 6.48 | 300 | 13 |
 | 3 | SP Narine | LA Knight Riders | 6.56 | 408 | 17 |
 
-Source: cricketstudio-mcp/data/snapshot/mlc-leaderboards.json · Cricsheet CC BY 3.0.
+Source: CricketStudio internal dataset/Cricsheet CC BY 3.0.
 
 ## Death Overs All-Time (floor ≥15 balls)
 

@@ -25,7 +25,7 @@ You want to add a curated player concept to the bundle.
 ## Steps
 
 1. **Find the player in the snapshot.** Look up the kebab-case slug in
-   `cricketstudio-mcp/data/snapshot/players.json` (keyed by slug).
+   `CricketStudio internal dataset/CricketStudio internal dataset` (keyed by slug).
 2. **Confirm identity.** Copy `fullName`, `dateOfBirth`, `team`, `role`, and the `sameAs`
    external IDs (Wikipedia, Wikidata, ESPNcricinfo).
 3. **Create the file** at `okf/concepts/players/{slug}.md` using

@@ -27,10 +27,10 @@ related:
   - ../methodology/phase-definitions.md
   - ../sources/cricsheet.md
 provenance:
-  source: Cricsheet CC BY 3.0 · MLC 2023–2025 · 75 matches · CricketStudio SETU aggregation
+  source: Cricsheet CC BY 3.0 · MLC 2023–2025 · 75 matches · CricketStudio analytics engine
   confidence: high
-  snapshot: cricketstudio-mcp/data/snapshot (2026-06-11)
-  notes: Individual leaderboard rows from mlc-leaderboards.json in MCP snapshot. Cricsheet CC BY 3.0 source.
+  snapshot: CricketStudio internal dataset (2026-06-11)
+  notes: Individual leaderboard rows from CricketStudio internal dataset in MCP snapshot. Cricsheet CC BY 3.0 source.
 ---
 
 # Death Overs Intelligence — MLC 2023–2025
@@ -66,7 +66,7 @@ Death overs = overs 16–20, per [CricketStudio phase definitions](../methodolog
 | 3 | Noor Ahmad | Texas Super Kings | 7.40 | 30 | 1 | 37 |
 | 4 | LH Ferguson | LA KR / Wash Freedom | 7.54 | 74 | 6 | 93 |
 
-Note: Harmeet Singh ranks #1 by economy (5.33) but from only 18 balls — below the ≥15-ball floor? He's listed but with very small sample. CJ Gannon (71 balls) is the most statistically meaningful leader. Source: cricketstudio-mcp/data/snapshot/mlc-leaderboards.json · Cricsheet CC BY 3.0.
+Note: Harmeet Singh ranks #1 by economy (5.33) but from only 18 balls — below the ≥15-ball floor? He's listed but with very small sample. CJ Gannon (71 balls) is the most statistically meaningful leader. Source: CricketStudio internal dataset/Cricsheet CC BY 3.0.
 
 ## Death Overs Batting — Strike Rate Leaders (floor ≥20 balls)
 
@@ -76,7 +76,7 @@ Note: Harmeet Singh ranks #1 by economy (5.33) but from only 18 balls — below 
 | 2 | DJ Bravo | Texas Super Kings | 226.1 | 46 | 104 | 7 |
 | 3 | N Pooran | MI New York | 229.2 | 24 | 55 | 4 |
 
-Note: GD Phillips leads at 240.5 SR from 37 balls; TH David (44 balls) and DJ Bravo (46 balls) have more substantial samples above the floor. Source: cricketstudio-mcp/data/snapshot/mlc-leaderboards.json · Cricsheet CC BY 3.0.
+Note: GD Phillips leads at 240.5 SR from 37 balls; TH David (44 balls) and DJ Bravo (46 balls) have more substantial samples above the floor. Source: CricketStudio internal dataset/Cricsheet CC BY 3.0.
 
 ## Citable Claims
 
@@ -104,7 +104,7 @@ Note: GD Phillips leads at 240.5 SR from 37 balls; TH David (44 balls) and DJ Br
 - **Economy rate:** `(runs_conceded / legal_balls_bowled) × 6`.
 - **Strike rate:** `(runs_scored / legal_balls_faced) × 100`.
 - **Team aggregates:** Summed per franchise per season via `bySeason` for accurate franchise attribution.
-- **Source:** Cricsheet CC BY 3.0 (cricsheet.org) · CricketStudio SETU aggregation of ball-by-ball data.
+- **Source:** Cricsheet CC BY 3.0 (cricsheet.org) · CricketStudio analytics engine of ball-by-ball data.
 
 ## Related Concepts
 

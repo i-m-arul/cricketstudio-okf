@@ -21,7 +21,7 @@ related:
 provenance:
   source: CricketStudio derived claim layer
   confidence: high
-  snapshot: cricketstudio-mcp/data/snapshot (2026-06-11)
+  snapshot: CricketStudio internal dataset (2026-06-11)
   notes: Fixture count from snapshot; venue effects require a 3-fixture floor.
 ---
 
@@ -62,7 +62,7 @@ high-traffic venue query.
 
 ## Data and Source Notes
 
-- `source_boundary: derived_claims_only`; Sportmonks-derived, raw feed not redistributed.
+- `source_boundary: derived_claims_only`; derived from licensed data feed; raw data not redistributed.
 
 ## Related Concepts
 

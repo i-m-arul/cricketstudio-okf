@@ -27,7 +27,7 @@ related:
 provenance:
   source: Cricsheet CC BY 3.0 (1,146 historical toss decisions) + CricketStudio IPL 2026 ball-by-ball
   confidence: high
-  snapshot: cricketstudio-mcp/data/snapshot (2026-06-11)
+  snapshot: CricketStudio internal dataset (2026-06-11)
   notes: Historical corpus from Cricsheet CC BY 3.0; IPL 2026 from CricketStudio licensed live feed (derived_claims_only for 2026 portion).
 ---
 

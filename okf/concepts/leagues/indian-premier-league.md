@@ -63,11 +63,11 @@ interpreted. Almost every player, team, and metric concept here is IPL-scoped.
   historical archive — they are different scopes and must not be mixed
   ([Ranking Eligibility](../../methodology/ranking-eligibility.md)).
 - IPL uses the T20 [phase structure](../../methodology/phase-definitions.md).
-- Live IPL 2026 data is Sportmonks-derived; historical IPL is Cricsheet-derived.
+- Live IPL 2026 data is derived from licensed data feed; historical IPL is Cricsheet-derived.
 
 ## Data and Source Notes
 
-- Current season: `source_boundary: derived_claims_only` (Sportmonks-derived; raw feed not
+- Current season: `source_boundary: derived_claims_only` (derived from licensed data feed; raw feed not
   redistributed — see [Licensed Feed Boundaries](../../sources/licensed-feed-boundaries.md)).
 - Historical archive: Cricsheet (CC BY 3.0) — see [Cricsheet](../../sources/cricsheet.md).
 - Snapshot `dataset_version`: 2026-06-11.

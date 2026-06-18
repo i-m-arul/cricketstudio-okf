@@ -20,7 +20,7 @@ related:
 provenance:
   source: CricketStudio league hub
   confidence: high
-  snapshot: cricketstudio-mcp/data/snapshot (2026-06-11)
+  snapshot: CricketStudio internal dataset (2026-06-11)
 ---
 
 # Example — When does MLC 2026 start?

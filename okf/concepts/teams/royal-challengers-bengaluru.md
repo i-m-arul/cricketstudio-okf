@@ -29,7 +29,7 @@ provenance:
   source: CricketStudio derived claim layer
   confidence: high
   computed_at: "2026-05-31"
-  snapshot: cricketstudio-mcp/data/snapshot (2026-06-11)
+  snapshot: CricketStudio internal dataset (2026-06-11)
   notes: Standing and champion status from snapshot; see canonical page for current detail.
 ---
 
@@ -74,7 +74,7 @@ From the snapshot (`computed_at` 2026-05-31; see canonical page for current valu
 
 ## Data and Source Notes
 
-- `source_boundary: derived_claims_only`; Sportmonks-derived, raw feed not redistributed.
+- `source_boundary: derived_claims_only`; derived from licensed data feed; raw data not redistributed.
 
 ## Examples
 
