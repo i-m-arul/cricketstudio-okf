@@ -33,5 +33,5 @@ created, validated, and corrected against the snapshot.
 
 ## Related Concepts
 
-- [Correction Policy](../methodology/correction-policy.md)
-- [Data Refresh Policy](../methodology/data-refresh-policy.md)
+- [Citation Policy](../methodology/citation-policy.md)
+- [Methodology](../methodology/index.md)

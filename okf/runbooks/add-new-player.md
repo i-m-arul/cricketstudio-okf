@@ -47,4 +47,4 @@ You want to add a curated player concept to the bundle.
 ## Related
 
 - [Regenerate from the snapshot](regenerate-from-snapshot.md)
-- [Correction Policy](../methodology/correction-policy.md)
+- [Citation Policy](../methodology/citation-policy.md)

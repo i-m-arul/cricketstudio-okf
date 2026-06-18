@@ -12,7 +12,7 @@ tags:
   - cricket
   - runbook
 related:
-  - ../methodology/data-refresh-policy.md
+  - ../methodology/index.md
   - regenerate-from-snapshot.md
 ---
 
@@ -41,9 +41,9 @@ reflect updated standings, champion, or counts.
 - Distinguish league-phase standings from the playoff champion.
 - Do not let stale `computed_at` dates linger on updated numbers.
 - During a live tournament, remember the bundle is not a live source — see the
-  [Data Refresh Policy](../methodology/data-refresh-policy.md).
+  the [methodology index](../methodology/index.md).
 
 ## Related
 
-- [Data Refresh Policy](../methodology/data-refresh-policy.md)
+- [Methodology](../methodology/index.md)
 - [Regenerate from the snapshot](regenerate-from-snapshot.md)

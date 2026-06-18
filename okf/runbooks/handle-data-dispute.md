@@ -12,7 +12,7 @@ tags:
   - cricket
   - runbook
 related:
-  - ../methodology/correction-policy.md
+  - ../methodology/citation-policy.md
   - update-season.md
 ---
 
@@ -29,7 +29,7 @@ Someone reports that a number, result, or claim in the bundle looks wrong.
 2. **Check the snapshot.** Compare against `CricketStudio internal dataset` and the
    `computed_at` date. Is the bundle faithfully reflecting the snapshot, or did it drift?
 3. **Check the canonical page.** The live CricketStudio page may already be fresher than the
-   snapshot (see [Data Refresh Policy](../methodology/data-refresh-policy.md)).
+   snapshot (see the [methodology index](../methodology/index.md)).
 4. **Classify:**
    - *Bundle drift* (bundle ≠ snapshot) → correct the file to match the snapshot.
    - *Stale snapshot* (snapshot ≠ live) → note the staleness; wait for the next snapshot or
@@ -37,7 +37,7 @@ Someone reports that a number, result, or claim in the bundle looks wrong.
    - *Source error* (snapshot ≠ reality) → document in the relevant
      [source](../sources/index.md) file; do not silently override.
    - *Unresolved* → set `review_required: true` and remove the claim from release paths.
-5. **Apply the [Correction Policy](../methodology/correction-policy.md):** update dates,
+5. **Apply the the [citation policy](../methodology/citation-policy.md):** update dates,
    provenance, CHANGELOG; open a PR.
 
 ## Pitfalls
@@ -47,5 +47,5 @@ Someone reports that a number, result, or claim in the bundle looks wrong.
 
 ## Related
 
-- [Correction Policy](../methodology/correction-policy.md)
+- [Citation Policy](../methodology/citation-policy.md)
 - [Update a season](update-season.md)

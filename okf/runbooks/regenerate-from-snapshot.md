@@ -12,7 +12,7 @@ tags:
   - cricket
   - runbook
 related:
-  - ../methodology/data-refresh-policy.md
+  - ../methodology/index.md
   - update-season.md
 ---
 
@@ -56,5 +56,5 @@ See the generator design notes in [README.md](../../README.md) and the [methodol
 
 ## Related
 
-- [Data Refresh Policy](../methodology/data-refresh-policy.md)
+- [Methodology](../methodology/index.md)
 - [Update a season](update-season.md)
