@@ -5,7 +5,7 @@ import { Globe, BarChart2, BookOpen, FlaskConical, MessageSquare } from 'lucide-
 
 export const metadata = {
   title: 'CricketStudio OKF — Open Cricket Knowledge',
-  description: 'A curated, open knowledge catalog for cricket. IPL, MLC, metrics, methodology, and examples — built by CricketStudio.',
+  description: 'A curated, open knowledge catalog for cricket. IPL, MLC, metrics, methodology, and dossier — built by CricketStudio.',
 }
 
 const SECTIONS = [
@@ -62,7 +62,7 @@ export default async function HomePage() {
       <section className="pt-10 pb-12 text-center">
         <div className="inline-flex items-center gap-2 bg-green-900/20 border border-green-800 text-green-400 text-xs font-medium px-3 py-1 rounded-full mb-6">
           <span className="w-1.5 h-1.5 bg-green-400 rounded-full" />
-          v0.1 · Open
+          v0.2 · Open
         </div>
         <h1 className="text-4xl md:text-5xl font-bold text-white mb-3 tracking-tight">
           The Open Cricket<br />Knowledge Catalog
@@ -80,7 +80,7 @@ export default async function HomePage() {
             href="/scorebook"
             className="bg-green-700 hover:bg-green-600 text-white px-5 py-2.5 rounded-lg font-medium transition-colors"
           >
-            Browse concepts
+            Browse Scorebook
           </Link>
           <Link
             href="/search"
