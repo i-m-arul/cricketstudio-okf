@@ -32,4 +32,4 @@ cite the canonical match page for ball-by-ball detail. See
 ## Related Concepts
 
 - [IPL 2026](../seasons/ipl-2026.md)
-- [Narendra Modi Stadium](../venues/narendra-modi-stadium.md)
+- [Narendra Modi Stadium](../ipl/venues/narendra-modi-stadium.md)
