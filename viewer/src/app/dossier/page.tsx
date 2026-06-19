@@ -1,5 +1,5 @@
 import { getFilesByType } from '@/lib/okf'
-import OKFCard from '@/components/OKFCard'
+import TagFilter from '@/components/TagFilter'
 
 export const metadata = {
   title: 'Dossier',
@@ -13,15 +13,11 @@ export default async function DossierPage() {
   return (
     <div>
       <h1 className="text-3xl font-bold text-white mb-2">Dossier</h1>
-      <p className="text-gray-400 mb-8">
+      <p className="text-gray-400 mb-6">
         Verified question-and-answer patterns. Each shows the right way to cite scope, sample size,
         and canonical resources — and the wrong way to answer without context.
       </p>
-      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
-        {nonIndex.map((f) => (
-          <OKFCard key={f.slug} {...f} />
-        ))}
-      </div>
+      <TagFilter files={nonIndex} pinnedTags={['IPL', 'MLC', 'batting', 'bowling']} />
     </div>
   )
 }

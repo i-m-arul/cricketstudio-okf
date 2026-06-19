@@ -1,5 +1,5 @@
 import { getFilesByType } from '@/lib/okf'
-import OKFCard from '@/components/OKFCard'
+import TagFilter from '@/components/TagFilter'
 
 export const metadata = {
   title: 'Research',
@@ -13,15 +13,11 @@ export default async function ResearchPage() {
   return (
     <div>
       <h1 className="text-3xl font-bold text-white mb-2">Research</h1>
-      <p className="text-gray-400 mb-8">
+      <p className="text-gray-400 mb-6">
         Season reports, strategic analysis, toss effects, death overs, and cross-league comparisons.
         Each report includes source boundary, dataset version, and provenance.
       </p>
-      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
-        {nonIndex.map((f) => (
-          <OKFCard key={f.slug} {...f} />
-        ))}
-      </div>
+      <TagFilter files={nonIndex} pinnedTags={['IPL', 'MLC', 'season', 'analysis']} />
     </div>
   )
 }
