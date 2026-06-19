@@ -92,7 +92,7 @@ export default async function HomePage() {
             href="https://github.com/i-m-arul/cricketstudio-okf/archive/refs/heads/main.zip"
             className="bg-gray-800 hover:bg-gray-700 text-gray-200 px-5 py-2.5 rounded-lg font-medium transition-colors"
           >
-            Download bundle ↓ · as of next
+            Download bundle ↓
           </a>
         </div>
       </section>
