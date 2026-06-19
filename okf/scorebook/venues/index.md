@@ -37,14 +37,23 @@ All 13 IPL 2026 host venues, sourced from the CricketStudio snapshot (2026-06-11
 - [Barsapara Cricket Stadium](../ipl/venues/barsapara-cricket-stadium.md) — Guwahati (3 fixtures)
 - [Shaheed Veer Narayan Singh Stadium](../ipl/venues/shaheed-veer-narayan-singh-international-stadium.md) — Raipur (2 fixtures)
 
-## MLC Venues (4)
+## MLC Venues (8)
 
-All 4 Major League Cricket host venues across seasons 2023–2025, sourced from Cricsheet CC BY 3.0.
+Major League Cricket host venues across all seasons (2023–2026). Completed-match counts are from
+Cricsheet CC BY 3.0 (snapshot 2026-06-11). MLC 2026 starts 2026-06-18; those venues have 0
+completed matches at snapshot date.
+
+**Venues with match data (seasons 2023–2025):**
 
 - [Grand Prairie Stadium](../mlc/venues/grand-prairie-stadium.md) — Grand Prairie, TX (43 matches)
 - [Church Street Park](../mlc/venues/church-street-park.md) — Morrisville, NC (14 matches)
 - [Oakland Coliseum](../mlc/venues/oakland-coliseum.md) — Oakland, CA (9 matches)
 - [Central Broward Regional Park](../mlc/venues/central-broward-regional-park.md) — Lauderhill, FL (9 matches)
+
+**MLC 2026 venues (registered; match data pending):**
+
+- [Knight Riders Cricket Field at Fairplex](../mlc/venues/knight-riders-cricket-field-fairplex.md) — Pomona, CA
+- 3 additional MLC 2026 venues — slugs not yet in snapshot; files pending snapshot refresh after season begins.
 
 ## What Agents Should Know
 
