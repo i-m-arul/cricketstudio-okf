@@ -10,6 +10,15 @@ export const metadata: Metadata = {
   openGraph: {
     siteName: 'CricketStudio OKF',
     type: 'website',
+    title: 'CricketStudio OKF — Open Cricket Knowledge',
+    description: 'The open, agent-readable knowledge layer for cricket. Curated facts, metric definitions, methodology, and canonical CricketStudio links.',
+    url: 'https://okf.cricketstudio.ai',
+  },
+  twitter: {
+    card: 'summary',
+    site: '@cricketstudio',
+    title: 'CricketStudio OKF — Open Cricket Knowledge',
+    description: 'The open, agent-readable knowledge layer for cricket. Curated facts, metric definitions, methodology, and canonical CricketStudio links.',
   },
 }
 
