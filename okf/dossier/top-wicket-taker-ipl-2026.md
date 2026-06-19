@@ -10,7 +10,7 @@ source_boundary: manual_curated_knowledge
 canonical_page: https://players.cricketstudio.ai/leagues/ipl/leaderboards/purple-cap
 tags:
   - cricket
-  - example
+  - dossier
   - IPL
 related:
   - ../metrics/purple-cap.md

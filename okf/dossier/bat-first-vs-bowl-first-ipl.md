@@ -10,7 +10,7 @@ source_boundary: public_open_data
 canonical_page: https://players.cricketstudio.ai/research/toss-effect
 tags:
   - cricket
-  - example
+  - dossier
   - toss
   - IPL
   - strategy

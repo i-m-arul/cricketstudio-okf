@@ -10,7 +10,7 @@ source_boundary: public_open_data
 canonical_page: https://players.cricketstudio.ai/research/state-of-mlc-2025
 tags:
   - cricket
-  - example
+  - dossier
   - MLC-2025
   - champions
 related:

@@ -10,7 +10,7 @@ source_boundary: derived_claims_only
 canonical_page: https://players.cricketstudio.ai/research/state-of-ipl-2026
 tags:
   - cricket
-  - example
+  - dossier
   - IPL-2026
   - standings
   - playoffs

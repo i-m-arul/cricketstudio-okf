@@ -10,7 +10,7 @@ source_boundary: public_open_data
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/leaderboards/orange-cap
 tags:
   - cricket
-  - example
+  - dossier
   - MLC
   - all-time
   - batting

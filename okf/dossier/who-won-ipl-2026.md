@@ -10,7 +10,7 @@ source_boundary: derived_claims_only
 canonical_page: https://players.cricketstudio.ai/matches/69668
 tags:
   - cricket
-  - example
+  - dossier
   - IPL
 related:
   - ../scorebook/seasons/ipl-2026.md

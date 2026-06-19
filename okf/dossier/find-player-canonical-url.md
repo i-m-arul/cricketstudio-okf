@@ -10,7 +10,7 @@ source_boundary: manual_curated_knowledge
 canonical_page: https://players.cricketstudio.ai/players/virat-kohli
 tags:
   - cricket
-  - example
+  - dossier
   - canonical-url
 related:
   - ../scorebook/players/virat-kohli.md

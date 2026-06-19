@@ -10,7 +10,7 @@ source_boundary: methodology_only
 canonical_page: https://players.cricketstudio.ai/season/ipl-2026/death-overs-economy
 tags:
   - cricket
-  - example
+  - dossier
   - bowling
 related:
   - ../metrics/death-overs-economy.md
