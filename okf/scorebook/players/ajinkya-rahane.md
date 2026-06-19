@@ -1,7 +1,7 @@
 ---
 type: player
 title: Ajinkya Rahane
-description: "CricketStudio OKF concept for Ajinkya Rahane. IPL career — 5,032 runs and 1 wickets across IPL 2007/08 – IPL 2025."
+description: "CricketStudio OKF entry for Ajinkya Rahane. IPL career — 5,032 runs and 1 wickets across IPL 2007/08 – IPL 2025."
 resource: https://players.cricketstudio.ai/players/ajinkya-rahane
 tags:
   - cricket

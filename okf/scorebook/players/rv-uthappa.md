@@ -1,7 +1,7 @@
 ---
 type: player
 title: RV Uthappa
-description: "CricketStudio OKF concept for RV Uthappa. IPL career — 4,954 runs and 0 wickets across IPL 2007/08 – IPL 2025."
+description: "CricketStudio OKF entry for RV Uthappa. IPL career — 4,954 runs and 0 wickets across IPL 2007/08 – IPL 2025."
 resource: https://players.cricketstudio.ai/players/rv-uthappa
 tags:
   - cricket

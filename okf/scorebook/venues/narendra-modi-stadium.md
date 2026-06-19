@@ -1,7 +1,7 @@
 ---
 type: venue
 title: Narendra Modi Stadium
-description: Canonical CricketStudio OKF concept for Narendra Modi Stadium, Ahmedabad.
+description: Canonical CricketStudio OKF entry for Narendra Modi Stadium, Ahmedabad.
 resource: https://players.cricketstudio.ai/venues/narendra-modi-stadium
 status: active
 last_verified: 2026-06-18

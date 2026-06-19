@@ -1,7 +1,7 @@
 ---
 type: player
 title: Pat Cummins
-description: "CricketStudio OKF concept for Pat Cummins. IPL career — 612 runs and 79 wickets across IPL 2007/08 – IPL 2025."
+description: "CricketStudio OKF entry for Pat Cummins. IPL career — 612 runs and 79 wickets across IPL 2007/08 – IPL 2025."
 resource: https://players.cricketstudio.ai/players/pat-cummins
 tags:
   - cricket

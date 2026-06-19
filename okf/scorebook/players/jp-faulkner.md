@@ -1,7 +1,7 @@
 ---
 type: player
 title: JP Faulkner
-description: "CricketStudio OKF concept for JP Faulkner. IPL career — 527 runs and 61 wickets across IPL 2007/08 – IPL 2025."
+description: "CricketStudio OKF entry for JP Faulkner. IPL career — 527 runs and 61 wickets across IPL 2007/08 – IPL 2025."
 resource: https://players.cricketstudio.ai/players/jp-faulkner
 tags:
   - cricket

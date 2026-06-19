@@ -1,7 +1,7 @@
 ---
 type: player
 title: G Gambhir
-description: "CricketStudio OKF concept for G Gambhir. IPL career — 4,217 runs and 0 wickets across IPL 2007/08 – IPL 2025."
+description: "CricketStudio OKF entry for G Gambhir. IPL career — 4,217 runs and 0 wickets across IPL 2007/08 – IPL 2025."
 resource: https://players.cricketstudio.ai/players/g-gambhir
 tags:
   - cricket

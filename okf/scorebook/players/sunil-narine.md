@@ -1,7 +1,7 @@
 ---
 type: player
 title: Sunil Narine
-description: "CricketStudio OKF concept for Sunil Narine. IPL career — 1,780 runs and 192 wickets across IPL 2007/08 – IPL 2025."
+description: "CricketStudio OKF entry for Sunil Narine. IPL career — 1,780 runs and 192 wickets across IPL 2007/08 – IPL 2025."
 resource: https://players.cricketstudio.ai/players/sunil-narine
 tags:
   - cricket

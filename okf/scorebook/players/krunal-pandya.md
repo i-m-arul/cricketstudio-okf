@@ -1,7 +1,7 @@
 ---
 type: player
 title: Krunal Pandya
-description: "CricketStudio OKF concept for Krunal Pandya. IPL career — 1,756 runs and 93 wickets across IPL 2007/08 – IPL 2025."
+description: "CricketStudio OKF entry for Krunal Pandya. IPL career — 1,756 runs and 93 wickets across IPL 2007/08 – IPL 2025."
 resource: https://players.cricketstudio.ai/players/krunal-pandya
 tags:
   - cricket

@@ -1,7 +1,7 @@
 ---
 type: player
 title: SM Curran
-description: "CricketStudio OKF concept for SM Curran. IPL career — 997 runs and 59 wickets across IPL 2007/08 – IPL 2025."
+description: "CricketStudio OKF entry for SM Curran. IPL career — 997 runs and 59 wickets across IPL 2007/08 – IPL 2025."
 resource: https://players.cricketstudio.ai/players/sm-curran
 tags:
   - cricket

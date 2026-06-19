@@ -1,7 +1,7 @@
 ---
 type: player
 title: Jaydev Unadkat
-description: "CricketStudio OKF concept for Jaydev Unadkat. IPL career — 197 runs and 110 wickets across IPL 2007/08 – IPL 2025."
+description: "CricketStudio OKF entry for Jaydev Unadkat. IPL career — 197 runs and 110 wickets across IPL 2007/08 – IPL 2025."
 resource: https://players.cricketstudio.ai/players/jaydev-unadkat
 tags:
   - cricket

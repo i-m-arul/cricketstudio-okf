@@ -1,7 +1,7 @@
 ---
 type: team
 title: Mumbai Indians
-description: Canonical CricketStudio OKF concept for the IPL franchise Mumbai Indians (MI).
+description: Canonical CricketStudio OKF entry for the IPL franchise Mumbai Indians (MI).
 resource: https://players.cricketstudio.ai/teams/mi
 status: active
 last_verified: 2026-06-18

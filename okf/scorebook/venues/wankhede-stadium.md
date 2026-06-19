@@ -1,7 +1,7 @@
 ---
 type: venue
 title: Wankhede Stadium
-description: Canonical CricketStudio OKF concept for Wankhede Stadium, Mumbai.
+description: Canonical CricketStudio OKF entry for Wankhede Stadium, Mumbai.
 resource: https://players.cricketstudio.ai/venues/wankhede-stadium
 status: active
 last_verified: 2026-06-18

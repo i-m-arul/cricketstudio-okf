@@ -1,7 +1,7 @@
 ---
 type: player
 title: Vaibhav Suryavanshi
-description: "CricketStudio OKF concept for Vaibhav Suryavanshi. IPL 2026 breakout batter for Rajasthan Royals — 776 runs in 16 matches at 237.3 strike rate."
+description: "CricketStudio OKF entry for Vaibhav Suryavanshi. IPL 2026 breakout batter for Rajasthan Royals — 776 runs in 16 matches at 237.3 strike rate."
 resource: https://players.cricketstudio.ai/players/vaibhav-suryavanshi
 tags:
   - cricket

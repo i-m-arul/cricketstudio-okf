@@ -1,7 +1,7 @@
 ---
 type: player
 title: Rohit Sharma
-description: "CricketStudio OKF concept for Rohit Sharma. IPL career — 7,048 runs and 15 wickets across IPL 2007/08 – IPL 2025."
+description: "CricketStudio OKF entry for Rohit Sharma. IPL career — 7,048 runs and 15 wickets across IPL 2007/08 – IPL 2025."
 resource: https://players.cricketstudio.ai/players/rohit-sharma
 tags:
   - cricket

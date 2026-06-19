@@ -1,7 +1,7 @@
 ---
 type: player
 title: Kagiso Rabada
-description: "CricketStudio OKF concept for Kagiso Rabada. IPL career — 215 runs and 122 wickets across IPL 2007/08 – IPL 2025."
+description: "CricketStudio OKF entry for Kagiso Rabada. IPL career — 215 runs and 122 wickets across IPL 2007/08 – IPL 2025."
 resource: https://players.cricketstudio.ai/players/kagiso-rabada
 tags:
   - cricket

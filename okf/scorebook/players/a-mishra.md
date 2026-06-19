@@ -1,7 +1,7 @@
 ---
 type: player
 title: A Mishra
-description: "CricketStudio OKF concept for A Mishra. IPL career — 381 runs and 174 wickets across IPL 2007/08 – IPL 2025."
+description: "CricketStudio OKF entry for A Mishra. IPL career — 381 runs and 174 wickets across IPL 2007/08 – IPL 2025."
 resource: https://players.cricketstudio.ai/players/a-mishra
 tags:
   - cricket

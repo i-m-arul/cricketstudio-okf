@@ -1,7 +1,7 @@
 ---
 type: player
 title: MM Sharma
-description: "CricketStudio OKF concept for MM Sharma. IPL career — 125 runs and 134 wickets across IPL 2007/08 – IPL 2025."
+description: "CricketStudio OKF entry for MM Sharma. IPL career — 125 runs and 134 wickets across IPL 2007/08 – IPL 2025."
 resource: https://players.cricketstudio.ai/players/mm-sharma
 tags:
   - cricket

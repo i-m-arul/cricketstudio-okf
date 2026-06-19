@@ -1,7 +1,7 @@
 ---
 type: player
 title: Axar Patel
-description: "CricketStudio OKF concept for Axar Patel. IPL career — 1,916 runs and 128 wickets across IPL 2007/08 – IPL 2025."
+description: "CricketStudio OKF entry for Axar Patel. IPL career — 1,916 runs and 128 wickets across IPL 2007/08 – IPL 2025."
 resource: https://players.cricketstudio.ai/players/axar-patel
 tags:
   - cricket

@@ -1,7 +1,7 @@
 ---
 type: league
 title: Indian Premier League
-description: Canonical CricketStudio OKF concept for the Indian Premier League (IPL).
+description: Canonical CricketStudio OKF entry for the Indian Premier League (IPL).
 resource: https://players.cricketstudio.ai/leagues/ipl
 status: active
 last_verified: 2026-06-18

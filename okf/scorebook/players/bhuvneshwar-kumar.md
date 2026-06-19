@@ -1,7 +1,7 @@
 ---
 type: player
 title: Bhuvneshwar Kumar
-description: "CricketStudio OKF concept for Bhuvneshwar Kumar. IPL career — 320 runs and 198 wickets across IPL 2007/08 – IPL 2025."
+description: "CricketStudio OKF entry for Bhuvneshwar Kumar. IPL career — 320 runs and 198 wickets across IPL 2007/08 – IPL 2025."
 resource: https://players.cricketstudio.ai/players/bhuvneshwar-kumar
 tags:
   - cricket

@@ -1,7 +1,7 @@
 ---
 type: player
 title: UT Yadav
-description: "CricketStudio OKF concept for UT Yadav. IPL career — 208 runs and 144 wickets across IPL 2007/08 – IPL 2025."
+description: "CricketStudio OKF entry for UT Yadav. IPL career — 208 runs and 144 wickets across IPL 2007/08 – IPL 2025."
 resource: https://players.cricketstudio.ai/players/ut-yadav
 tags:
   - cricket

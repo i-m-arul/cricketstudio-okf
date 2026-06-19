@@ -1,7 +1,7 @@
 ---
 type: team
 title: Royal Challengers Bengaluru
-description: Canonical CricketStudio OKF concept for the IPL franchise Royal Challengers Bengaluru (RCB).
+description: Canonical CricketStudio OKF entry for the IPL franchise Royal Challengers Bengaluru (RCB).
 resource: https://players.cricketstudio.ai/teams/rcb
 status: active
 last_verified: 2026-06-18

@@ -1,7 +1,7 @@
 ---
 type: player
 title: Sandeep Sharma
-description: "CricketStudio OKF concept for Sandeep Sharma. IPL career — 60 runs and 146 wickets across IPL 2007/08 – IPL 2025."
+description: "CricketStudio OKF entry for Sandeep Sharma. IPL career — 60 runs and 146 wickets across IPL 2007/08 – IPL 2025."
 resource: https://players.cricketstudio.ai/players/sandeep-sharma
 tags:
   - cricket

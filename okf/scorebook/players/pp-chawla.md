@@ -1,7 +1,7 @@
 ---
 type: player
 title: PP Chawla
-description: "CricketStudio OKF concept for PP Chawla. IPL career — 624 runs and 192 wickets across IPL 2007/08 – IPL 2025."
+description: "CricketStudio OKF entry for PP Chawla. IPL career — 624 runs and 192 wickets across IPL 2007/08 – IPL 2025."
 resource: https://players.cricketstudio.ai/players/pp-chawla
 tags:
   - cricket

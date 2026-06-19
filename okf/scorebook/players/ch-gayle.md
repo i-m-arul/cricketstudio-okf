@@ -1,7 +1,7 @@
 ---
 type: player
 title: CH Gayle
-description: "CricketStudio OKF concept for CH Gayle. IPL career — 4,997 runs and 18 wickets across IPL 2007/08 – IPL 2025."
+description: "CricketStudio OKF entry for CH Gayle. IPL career — 4,997 runs and 18 wickets across IPL 2007/08 – IPL 2025."
 resource: https://players.cricketstudio.ai/players/ch-gayle
 tags:
   - cricket

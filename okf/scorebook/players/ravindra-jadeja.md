@@ -1,7 +1,7 @@
 ---
 type: player
 title: Ravindra Jadeja
-description: "CricketStudio OKF concept for Ravindra Jadeja. IPL career — 3,260 runs and 170 wickets across IPL 2007/08 – IPL 2025."
+description: "CricketStudio OKF entry for Ravindra Jadeja. IPL career — 3,260 runs and 170 wickets across IPL 2007/08 – IPL 2025."
 resource: https://players.cricketstudio.ai/players/ravindra-jadeja
 tags:
   - cricket

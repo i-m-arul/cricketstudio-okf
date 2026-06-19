@@ -1,7 +1,7 @@
 ---
 type: player
 title: SL Malinga
-description: "CricketStudio OKF concept for SL Malinga. IPL career — 88 runs and 170 wickets across IPL 2007/08 – IPL 2025."
+description: "CricketStudio OKF entry for SL Malinga. IPL career — 88 runs and 170 wickets across IPL 2007/08 – IPL 2025."
 resource: https://players.cricketstudio.ai/players/sl-malinga
 tags:
   - cricket

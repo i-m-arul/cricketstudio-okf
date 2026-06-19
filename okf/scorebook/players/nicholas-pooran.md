@@ -1,7 +1,7 @@
 ---
 type: player
 title: Nicholas Pooran
-description: "CricketStudio OKF concept for Nicholas Pooran. IPL career — 2,293 runs and 0 wickets across IPL 2007/08 – IPL 2025."
+description: "CricketStudio OKF entry for Nicholas Pooran. IPL career — 2,293 runs and 0 wickets across IPL 2007/08 – IPL 2025."
 resource: https://players.cricketstudio.ai/players/nicholas-pooran
 tags:
   - cricket

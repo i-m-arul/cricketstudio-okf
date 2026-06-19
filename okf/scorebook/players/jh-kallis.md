@@ -1,7 +1,7 @@
 ---
 type: player
 title: JH Kallis
-description: "CricketStudio OKF concept for JH Kallis. IPL career — 2,427 runs and 65 wickets across IPL 2007/08 – IPL 2025."
+description: "CricketStudio OKF entry for JH Kallis. IPL career — 2,427 runs and 65 wickets across IPL 2007/08 – IPL 2025."
 resource: https://players.cricketstudio.ai/players/jh-kallis
 tags:
   - cricket

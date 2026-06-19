@@ -1,7 +1,7 @@
 ---
 type: player
 title: Shreyas Iyer
-description: "CricketStudio OKF concept for Shreyas Iyer. IPL career — 3,735 runs and 0 wickets across IPL 2007/08 – IPL 2025."
+description: "CricketStudio OKF entry for Shreyas Iyer. IPL career — 3,735 runs and 0 wickets across IPL 2007/08 – IPL 2025."
 resource: https://players.cricketstudio.ai/players/shreyas-iyer
 tags:
   - cricket

@@ -1,7 +1,7 @@
 ---
 type: player
 title: Suryakumar Yadav
-description: "CricketStudio OKF concept for Suryakumar Yadav. IPL career — 4,311 runs and 0 wickets across IPL 2007/08 – IPL 2025."
+description: "CricketStudio OKF entry for Suryakumar Yadav. IPL career — 4,311 runs and 0 wickets across IPL 2007/08 – IPL 2025."
 resource: https://players.cricketstudio.ai/players/suryakumar-yadav
 tags:
   - cricket

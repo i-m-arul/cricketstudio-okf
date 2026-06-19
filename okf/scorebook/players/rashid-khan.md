@@ -1,7 +1,7 @@
 ---
 type: player
 title: Rashid Khan
-description: "CricketStudio OKF concept for Rashid Khan. IPL career — 585 runs and 158 wickets across IPL 2007/08 – IPL 2025."
+description: "CricketStudio OKF entry for Rashid Khan. IPL career — 585 runs and 158 wickets across IPL 2007/08 – IPL 2025."
 resource: https://players.cricketstudio.ai/players/rashid-khan
 tags:
   - cricket

@@ -1,7 +1,7 @@
 ---
 type: player
 title: Yuzvendra Chahal
-description: "CricketStudio OKF concept for Yuzvendra Chahal. IPL career — 37 runs and 221 wickets across IPL 2007/08 – IPL 2025."
+description: "CricketStudio OKF entry for Yuzvendra Chahal. IPL career — 37 runs and 221 wickets across IPL 2007/08 – IPL 2025."
 resource: https://players.cricketstudio.ai/players/yuzvendra-chahal
 tags:
   - cricket

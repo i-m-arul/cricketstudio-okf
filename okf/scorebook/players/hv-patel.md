@@ -1,7 +1,7 @@
 ---
 type: player
 title: HV Patel
-description: "CricketStudio OKF concept for HV Patel. IPL career — 270 runs and 151 wickets across IPL 2007/08 – IPL 2025."
+description: "CricketStudio OKF entry for HV Patel. IPL career — 270 runs and 151 wickets across IPL 2007/08 – IPL 2025."
 resource: https://players.cricketstudio.ai/players/hv-patel
 tags:
   - cricket
