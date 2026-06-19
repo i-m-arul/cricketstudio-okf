@@ -88,12 +88,12 @@ export default async function HomePage() {
           >
             Search
           </Link>
-          <Link
-            href="/about"
+          <a
+            href="https://github.com/i-m-arul/cricketstudio-okf/archive/refs/heads/main.zip"
             className="bg-gray-800 hover:bg-gray-700 text-gray-200 px-5 py-2.5 rounded-lg font-medium transition-colors"
           >
-            About
-          </Link>
+            Download bundle ↓
+          </a>
         </div>
       </section>
 
@@ -160,6 +160,7 @@ export default async function HomePage() {
           <Link href="/about" className="text-sm text-green-400 hover:underline">Full story →</Link>
           <Link href="/methodology/citation-policy" className="text-sm text-green-400 hover:underline">Citation policy →</Link>
           <a href="https://github.com/i-m-arul/cricketstudio-okf" target="_blank" rel="noopener noreferrer" className="text-sm text-green-400 hover:underline">GitHub →</a>
+          <a href="https://github.com/i-m-arul/cricketstudio-okf/archive/refs/heads/main.zip" className="text-sm text-green-400 hover:underline">Download bundle ↓</a>
         </div>
       </section>
     </>

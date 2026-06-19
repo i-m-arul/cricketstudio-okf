@@ -1,7 +1,10 @@
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
+import Script from 'next/script'
 import { getAllFiles, getFileBySlug, TYPE_LABELS, SOURCE_BOUNDARY_LABELS } from '@/lib/okf'
 import OKFCard from '@/components/OKFCard'
+
+const BASE = 'https://okf.cricketstudio.ai'
 
 interface Props {
   params: { slug: string[] }
@@ -16,10 +19,63 @@ export async function generateMetadata({ params }: Props) {
   const slug = params.slug.join('/')
   const file = await getFileBySlug(slug)
   if (!file) return {}
+  const url = `${BASE}${file.urlPath}`
   return {
     title: file.title,
     description: file.description,
+    alternates: { canonical: url },
+    openGraph: {
+      title: file.title,
+      description: file.description,
+      url,
+      siteName: 'CricketStudio OKF',
+      type: 'article',
+      ...(file.last_verified ? { modifiedTime: file.last_verified } : {}),
+    },
+    twitter: {
+      card: 'summary',
+      title: file.title,
+      description: file.description,
+      site: '@cricketstudio',
+    },
   }
+}
+
+function buildJsonLd(file: Awaited<ReturnType<typeof getFileBySlug>>) {
+  if (!file) return null
+  const url = `${BASE}${file.urlPath}`
+  const base = {
+    '@context': 'https://schema.org',
+    name: file.title,
+    description: file.description,
+    url,
+    ...(file.last_verified ? { dateModified: file.last_verified } : {}),
+    publisher: {
+      '@type': 'Organization',
+      name: 'CricketStudio',
+      url: 'https://cricketstudio.ai',
+    },
+  }
+
+  if (file.type === 'player') {
+    return { '@type': 'Person', ...base, ...(file.canonical_page ? { sameAs: [file.canonical_page] } : {}) }
+  }
+  if (file.type === 'team') {
+    return { '@type': 'SportsTeam', sport: 'Cricket', ...base, ...(file.canonical_page ? { sameAs: [file.canonical_page] } : {}) }
+  }
+  if (file.type === 'league') {
+    return { '@type': 'SportsOrganization', sport: 'Cricket', ...base }
+  }
+  if (file.type === 'match') {
+    return { '@type': 'SportsEvent', sport: 'Cricket', ...base }
+  }
+  if (file.type === 'venue') {
+    return { '@type': 'StadiumOrArena', ...base }
+  }
+  if (file.type === 'metric' || file.type === 'methodology' || file.type === 'research') {
+    return { '@type': 'Article', ...base, articleSection: TYPE_LABELS[file.type] ?? file.type }
+  }
+  return { '@type': 'WebPage', ...base }
 }
 
 export default async function OKFFilePage({ params }: Props) {
@@ -56,8 +112,18 @@ export default async function OKFFilePage({ params }: Props) {
     href: '/' + crumbs.slice(0, i + 1).join('/'),
   }))
 
+  const jsonLd = buildJsonLd(file)
+
   return (
     <div className="max-w-5xl mx-auto">
+      {jsonLd && (
+        <Script
+          id="json-ld"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+          strategy="beforeInteractive"
+        />
+      )}
       {/* Breadcrumb */}
       <nav className="flex items-center gap-1 text-sm text-gray-500 mb-6 flex-wrap">
         <Link href="/" className="hover:text-gray-300">Home</Link>
