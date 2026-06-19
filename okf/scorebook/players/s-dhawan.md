@@ -1,7 +1,7 @@
 ---
 type: player
 title: S Dhawan
-description: "CricketStudio OKF concept for S Dhawan. IPL career — 6,769 runs and 4 wickets across IPL 2007/08 – IPL 2025."
+description: "CricketStudio OKF entry for S Dhawan. IPL career — 6,769 runs and 4 wickets across IPL 2007/08 – IPL 2025."
 resource: https://players.cricketstudio.ai/players/s-dhawan
 tags:
   - cricket

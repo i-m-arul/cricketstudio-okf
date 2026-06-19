@@ -1,7 +1,7 @@
 ---
 type: player
 title: AD Russell
-description: "CricketStudio OKF concept for AD Russell. IPL career — 2,655 runs and 123 wickets across IPL 2007/08 – IPL 2025."
+description: "CricketStudio OKF entry for AD Russell. IPL career — 2,655 runs and 123 wickets across IPL 2007/08 – IPL 2025."
 resource: https://players.cricketstudio.ai/players/ad-russell
 tags:
   - cricket

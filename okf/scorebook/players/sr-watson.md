@@ -1,7 +1,7 @@
 ---
 type: player
 title: SR Watson
-description: "CricketStudio OKF concept for SR Watson. IPL career — 3,880 runs and 92 wickets across IPL 2007/08 – IPL 2025."
+description: "CricketStudio OKF entry for SR Watson. IPL career — 3,880 runs and 92 wickets across IPL 2007/08 – IPL 2025."
 resource: https://players.cricketstudio.ai/players/sr-watson
 tags:
   - cricket

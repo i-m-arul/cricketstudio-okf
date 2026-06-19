@@ -1,7 +1,7 @@
 ---
 type: player
 title: Virat Kohli
-description: "CricketStudio OKF concept for Virat Kohli. IPL career — 8,671 runs and 4 wickets across IPL 2007/08 – IPL 2025."
+description: "CricketStudio OKF entry for Virat Kohli. IPL career — 8,671 runs and 4 wickets across IPL 2007/08 – IPL 2025."
 resource: https://players.cricketstudio.ai/players/virat-kohli
 tags:
   - cricket

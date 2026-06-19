@@ -1,7 +1,7 @@
 ---
 type: player
 title: R Ashwin
-description: "CricketStudio OKF concept for R Ashwin. IPL career — 833 runs and 187 wickets across IPL 2007/08 – IPL 2025."
+description: "CricketStudio OKF entry for R Ashwin. IPL career — 833 runs and 187 wickets across IPL 2007/08 – IPL 2025."
 resource: https://players.cricketstudio.ai/players/r-ashwin
 tags:
   - cricket

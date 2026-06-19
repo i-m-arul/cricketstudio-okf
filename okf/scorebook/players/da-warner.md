@@ -1,7 +1,7 @@
 ---
 type: player
 title: DA Warner
-description: "CricketStudio OKF concept for DA Warner. IPL career — 6,567 runs and 0 wickets across IPL 2007/08 – IPL 2025."
+description: "CricketStudio OKF entry for DA Warner. IPL career — 6,567 runs and 0 wickets across IPL 2007/08 – IPL 2025."
 resource: https://players.cricketstudio.ai/players/da-warner
 tags:
   - cricket

@@ -1,7 +1,7 @@
 ---
 type: player
 title: Hardik Pandya
-description: "CricketStudio OKF concept for Hardik Pandya. IPL career — 2,758 runs and 78 wickets across IPL 2007/08 – IPL 2025."
+description: "CricketStudio OKF entry for Hardik Pandya. IPL career — 2,758 runs and 78 wickets across IPL 2007/08 – IPL 2025."
 resource: https://players.cricketstudio.ai/players/hardik-pandya
 tags:
   - cricket

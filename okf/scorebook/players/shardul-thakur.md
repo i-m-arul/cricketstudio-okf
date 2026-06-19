@@ -1,7 +1,7 @@
 ---
 type: player
 title: Shardul Thakur
-description: "CricketStudio OKF concept for Shardul Thakur. IPL career — 325 runs and 107 wickets across IPL 2007/08 – IPL 2025."
+description: "CricketStudio OKF entry for Shardul Thakur. IPL career — 325 runs and 107 wickets across IPL 2007/08 – IPL 2025."
 resource: https://players.cricketstudio.ai/players/shardul-thakur
 tags:
   - cricket

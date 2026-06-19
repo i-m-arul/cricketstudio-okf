@@ -1,7 +1,7 @@
 ---
 type: player
 title: DJ Bravo
-description: "CricketStudio OKF concept for DJ Bravo. IPL career — 1,560 runs and 183 wickets across IPL 2007/08 – IPL 2025."
+description: "CricketStudio OKF entry for DJ Bravo. IPL career — 1,560 runs and 183 wickets across IPL 2007/08 – IPL 2025."
 resource: https://players.cricketstudio.ai/players/dj-bravo
 tags:
   - cricket

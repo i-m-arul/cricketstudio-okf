@@ -1,7 +1,7 @@
 ---
 type: player
 title: IK Pathan
-description: "CricketStudio OKF concept for IK Pathan. IPL career — 1,150 runs and 80 wickets across IPL 2007/08 – IPL 2025."
+description: "CricketStudio OKF entry for IK Pathan. IPL career — 1,150 runs and 80 wickets across IPL 2007/08 – IPL 2025."
 resource: https://players.cricketstudio.ai/players/ik-pathan
 tags:
   - cricket

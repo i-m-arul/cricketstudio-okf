@@ -1,7 +1,7 @@
 ---
 type: player
 title: JA Morkel
-description: "CricketStudio OKF concept for JA Morkel. IPL career — 975 runs and 85 wickets across IPL 2007/08 – IPL 2025."
+description: "CricketStudio OKF entry for JA Morkel. IPL career — 975 runs and 85 wickets across IPL 2007/08 – IPL 2025."
 resource: https://players.cricketstudio.ai/players/ja-morkel
 tags:
   - cricket

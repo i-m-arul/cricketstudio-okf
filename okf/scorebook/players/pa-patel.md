@@ -1,7 +1,7 @@
 ---
 type: player
 title: PA Patel
-description: "CricketStudio OKF concept for PA Patel. IPL career — 2,848 runs and 0 wickets across IPL 2007/08 – IPL 2025."
+description: "CricketStudio OKF entry for PA Patel. IPL career — 2,848 runs and 0 wickets across IPL 2007/08 – IPL 2025."
 resource: https://players.cricketstudio.ai/players/pa-patel
 tags:
   - cricket

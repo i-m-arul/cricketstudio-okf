@@ -1,7 +1,7 @@
 ---
 type: player
 title: A Nehra
-description: "CricketStudio OKF concept for A Nehra. IPL career — 41 runs and 106 wickets across IPL 2007/08 – IPL 2025."
+description: "CricketStudio OKF entry for A Nehra. IPL career — 41 runs and 106 wickets across IPL 2007/08 – IPL 2025."
 resource: https://players.cricketstudio.ai/players/a-nehra
 tags:
   - cricket

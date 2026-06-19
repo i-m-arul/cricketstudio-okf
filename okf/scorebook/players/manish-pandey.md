@@ -1,7 +1,7 @@
 ---
 type: player
 title: Manish Pandey
-description: "CricketStudio OKF concept for Manish Pandey. IPL career — 3,951 runs and 0 wickets across IPL 2007/08 – IPL 2025."
+description: "CricketStudio OKF entry for Manish Pandey. IPL career — 3,951 runs and 0 wickets across IPL 2007/08 – IPL 2025."
 resource: https://players.cricketstudio.ai/players/manish-pandey
 tags:
   - cricket

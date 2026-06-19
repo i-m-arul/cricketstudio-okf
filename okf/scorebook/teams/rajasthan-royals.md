@@ -1,7 +1,7 @@
 ---
 type: team
 title: Rajasthan Royals
-description: Canonical CricketStudio OKF concept for the IPL franchise Rajasthan Royals (RR).
+description: Canonical CricketStudio OKF entry for the IPL franchise Rajasthan Royals (RR).
 resource: https://players.cricketstudio.ai/teams/rr
 status: active
 last_verified: 2026-06-18

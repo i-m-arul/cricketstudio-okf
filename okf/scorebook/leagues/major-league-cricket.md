@@ -1,7 +1,7 @@
 ---
 type: league
 title: Major League Cricket
-description: Canonical CricketStudio OKF concept for Major League Cricket (MLC), the US T20 league.
+description: Canonical CricketStudio OKF entry for Major League Cricket (MLC), the US T20 league.
 resource: https://players.cricketstudio.ai/leagues/mlc
 status: active
 last_verified: 2026-06-18

@@ -1,7 +1,7 @@
 ---
 type: player
 title: Harbhajan Singh
-description: "CricketStudio OKF concept for Harbhajan Singh. IPL career — 833 runs and 150 wickets across IPL 2007/08 – IPL 2025."
+description: "CricketStudio OKF entry for Harbhajan Singh. IPL career — 833 runs and 150 wickets across IPL 2007/08 – IPL 2025."
 resource: https://players.cricketstudio.ai/players/harbhajan-singh
 tags:
   - cricket

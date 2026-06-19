@@ -1,7 +1,7 @@
 ---
 type: player
 title: Sanju Samson
-description: "CricketStudio OKF concept for Sanju Samson. IPL career — 4,704 runs and 0 wickets across IPL 2007/08 – IPL 2025."
+description: "CricketStudio OKF entry for Sanju Samson. IPL career — 4,704 runs and 0 wickets across IPL 2007/08 – IPL 2025."
 resource: https://players.cricketstudio.ai/players/sanju-samson
 tags:
   - cricket
