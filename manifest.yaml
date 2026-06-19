@@ -27,13 +27,13 @@ data_sources:
 counts:
   players: 66
   records: 8
-  teams: 4
+  teams: 10
   leagues: 3
-  seasons: 3
+  seasons: 7
   venues: 3
   matches: 2
   metrics: 11
   methodology: 7
   sources: 4
-  dossier: 23
-  research: 8
+  dossier: 28
+  research: 9
