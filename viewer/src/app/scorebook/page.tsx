@@ -29,7 +29,15 @@ export default async function ScorebookPage() {
 
       <TagFilter
         files={concepts}
-        pinnedTags={['IPL', 'MLC', 'batter', 'bowler', 'all-rounder', 'wicket-keeper']}
+        pinnedTags={[
+          // League
+          'IPL', 'MLC',
+          // Role
+          'batter', 'bowler', 'all-rounder', 'wicket-keeper',
+          // Format / topic
+          'T20', 'records', 'batting',
+        ]}
+        minCount={2}
         groupByType={byType}
         typeLabels={TYPE_LABELS}
       />

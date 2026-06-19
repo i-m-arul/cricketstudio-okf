@@ -17,7 +17,18 @@ export default async function DossierPage() {
         Verified question-and-answer patterns. Each shows the right way to cite scope, sample size,
         and canonical resources — and the wrong way to answer without context.
       </p>
-      <TagFilter files={nonIndex} pinnedTags={['IPL', 'MLC', 'batting', 'bowling']} />
+      <TagFilter
+        files={nonIndex}
+        pinnedTags={[
+          // League
+          'IPL', 'MLC',
+          // Discipline
+          'bowling', 'batting',
+          // Topic
+          'leaderboard', 'toss', 'all-time', 'death-overs', 'comparison',
+        ]}
+        minCount={2}
+      />
     </div>
   )
 }

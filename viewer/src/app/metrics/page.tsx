@@ -16,7 +16,16 @@ export default async function MetricsPage() {
       <p className="text-gray-400 mb-6">
         Every metric file includes formula, eligibility rules, sample-size floors, edge cases, and agent answering guidance.
       </p>
-      <TagFilter files={nonIndex} pinnedTags={['IPL', 'MLC', 'batting', 'bowling']} />
+      <TagFilter
+        files={nonIndex}
+        pinnedTags={[
+          // Discipline
+          'batting', 'bowling',
+          // Topic
+          'award', 'death-overs', 'powerplay',
+        ]}
+        minCount={1}
+      />
     </div>
   )
 }
