@@ -80,7 +80,7 @@ export default async function HomePage() {
             href="/scorebook"
             className="bg-green-700 hover:bg-green-600 text-white px-5 py-2.5 rounded-lg font-medium transition-colors"
           >
-            Browse Scorebook
+            Scorebook
           </Link>
           <Link
             href="/search"
@@ -92,7 +92,7 @@ export default async function HomePage() {
             href="https://github.com/i-m-arul/cricketstudio-okf/archive/refs/heads/main.zip"
             className="bg-gray-800 hover:bg-gray-700 text-gray-200 px-5 py-2.5 rounded-lg font-medium transition-colors"
           >
-            Download bundle ↓
+            Download Bundle ↓
           </a>
         </div>
       </section>
@@ -100,16 +100,16 @@ export default async function HomePage() {
       {/* Stats */}
       <section className="grid grid-cols-2 sm:grid-cols-5 gap-3 mb-12">
         {[
-          { label: 'Total files', value: counts.total },
-          { label: 'Metrics', value: counts.metrics },
-          { label: 'Methodology', value: counts.methodology },
-          { label: 'Research', value: counts.research },
-          { label: 'Dossier', value: counts.examples },
+          { label: 'Total files', value: counts.total, href: '/scorebook' },
+          { label: 'Metrics', value: counts.metrics, href: '/metrics' },
+          { label: 'Methodology', value: counts.methodology, href: '/methodology' },
+          { label: 'Research', value: counts.research, href: '/research' },
+          { label: 'Dossier', value: counts.examples, href: '/dossier' },
         ].map((stat) => (
-          <div key={stat.label} className="bg-gray-900 border border-gray-800 rounded-lg p-4 text-center">
+          <Link key={stat.label} href={stat.href} className="bg-gray-900 border border-gray-800 rounded-lg p-4 text-center hover:border-green-700 hover:bg-gray-800/50 transition-all">
             <div className="text-2xl font-bold text-green-400">{stat.value}</div>
             <div className="text-xs text-gray-500 mt-0.5">{stat.label}</div>
-          </div>
+          </Link>
         ))}
       </section>
 
