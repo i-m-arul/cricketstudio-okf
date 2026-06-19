@@ -2,6 +2,7 @@ import { getAllFiles, TYPE_LABELS } from '@/lib/okf'
 import TagFilter from '@/components/TagFilter'
 
 export const metadata = {
+  alternates: { canonical: '/scorebook' },
   title: 'Scorebook',
   description: 'Players, teams, leagues, seasons, venues, and matches in the CricketStudio OKF knowledge catalog.',
 }

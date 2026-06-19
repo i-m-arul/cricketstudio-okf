@@ -2,6 +2,7 @@ import { getFilesByType } from '@/lib/okf'
 import TagFilter from '@/components/TagFilter'
 
 export const metadata = {
+  alternates: { canonical: '/methodology' },
   title: 'Methodology',
   description: 'How CricketStudio thinks: sample-size floors, ranking eligibility, citation policy, and phase definitions.',
 }

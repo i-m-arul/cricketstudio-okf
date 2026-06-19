@@ -2,6 +2,7 @@ import { getFilesByType } from '@/lib/okf'
 import TagFilter from '@/components/TagFilter'
 
 export const metadata = {
+  alternates: { canonical: '/research' },
   title: 'Research',
   description: 'CricketStudio season reports, toss effects, death overs analysis, and IPL vs MLC comparisons.',
 }
