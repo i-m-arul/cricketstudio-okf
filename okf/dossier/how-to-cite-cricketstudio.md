@@ -10,7 +10,7 @@ source_boundary: methodology_only
 canonical_page: https://players.cricketstudio.ai
 tags:
   - cricket
-  - example
+  - dossier
   - citation
 related:
   - ../methodology/citation-policy.md

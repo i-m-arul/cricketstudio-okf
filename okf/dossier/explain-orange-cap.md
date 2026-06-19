@@ -10,7 +10,7 @@ source_boundary: methodology_only
 canonical_page: https://players.cricketstudio.ai/leagues/ipl/leaderboards/orange-cap
 tags:
   - cricket
-  - example
+  - dossier
   - award
 related:
   - ../metrics/orange-cap.md

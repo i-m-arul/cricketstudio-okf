@@ -10,7 +10,7 @@ source_boundary: derived_claims_only
 canonical_page: https://players.cricketstudio.ai/research/death-overs
 tags:
   - cricket
-  - example
+  - dossier
   - death-overs
   - IPL-2026
   - bowling

@@ -10,7 +10,7 @@ source_boundary: derived_claims_only
 canonical_page: https://players.cricketstudio.ai/leagues/mlc
 tags:
   - cricket
-  - example
+  - dossier
   - MLC
   - MLC-2026
 related:

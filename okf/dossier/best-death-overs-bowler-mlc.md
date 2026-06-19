@@ -10,7 +10,7 @@ source_boundary: public_open_data
 canonical_page: https://players.cricketstudio.ai/research/death-overs-mlc
 tags:
   - cricket
-  - example
+  - dossier
   - MLC
   - death-overs
   - bowling

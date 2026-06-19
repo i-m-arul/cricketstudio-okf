@@ -10,7 +10,7 @@ source_boundary: derived_claims_only
 canonical_page: https://players.cricketstudio.ai
 tags:
   - cricket
-  - example
+  - dossier
   - comparison
 related:
   - ../scorebook/players/jasprit-bumrah.md

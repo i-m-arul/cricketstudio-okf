@@ -10,7 +10,7 @@ source_boundary: public_open_data
 canonical_page: https://players.cricketstudio.ai/leagues/mlc
 tags:
   - cricket
-  - example
+  - dossier
   - MLC
   - franchises
   - teams
