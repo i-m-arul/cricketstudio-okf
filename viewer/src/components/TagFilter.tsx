@@ -65,7 +65,7 @@ export default function TagFilter({
   const filtered = useMemo(() => {
     if (active.size === 0) return files
     const activeArr = Array.from(active)
-    return files.filter((f) => activeArr.every((t) => f.tags?.includes(t)))
+    return files.filter((f) => activeArr.some((t) => f.tags?.includes(t)))
   }, [files, active])
 
   function toggle(tag: string) {
