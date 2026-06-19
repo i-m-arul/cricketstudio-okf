@@ -25,6 +25,7 @@ viewer/out/
 viewer/.next/
 viewer/node_modules/
 viewer/public/search-index.json
+viewer/public/llms-full.txt
 
 # Private governance and internal tooling docs — do not publish
 CLAUDE.md

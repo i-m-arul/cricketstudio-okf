@@ -14,6 +14,7 @@ GitHub (full OKF bundle, raw markdown): https://github.com/i-m-arul/cricketstudi
 - [Bundle overview](https://okf.cricketstudio.ai/): Home page — navigation to scorebook, metrics, methodology, dossier, and research
 - [About OKF](https://okf.cricketstudio.ai/about): What OKF is, how it differs from CricketStudio.ai, and how to cite it
 - [Search](https://okf.cricketstudio.ai/search): Full-text search across all 180+ OKF files, including tag-based filtering
+- [Full content bundle](https://okf.cricketstudio.ai/llms-full.txt): Complete OKF text dump — all 173 concept entries concatenated for direct LLM ingestion
 
 ## Scorebook
 
