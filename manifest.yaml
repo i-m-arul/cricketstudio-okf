@@ -25,15 +25,15 @@ data_sources:
     attribution: Ball-by-ball data from Cricsheet (https://cricsheet.org), CC BY 3.0.
 
 counts:
-  players: 66
-  records: 8
-  teams: 10
-  leagues: 3
-  seasons: 7
-  venues: 3
-  matches: 2
-  metrics: 11
-  methodology: 7
-  sources: 4
-  dossier: 28
-  research: 9
+  players: 65
+  records: 7
+  teams: 9
+  leagues: 2
+  seasons: 6
+  venues: 2
+  matches: 1
+  metrics: 10
+  methodology: 6
+  sources: 3
+  dossier: 27
+  research: 8

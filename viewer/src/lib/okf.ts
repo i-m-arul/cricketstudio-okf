@@ -70,7 +70,7 @@ function safeStr(val: unknown): string | undefined {
 }
 
 // Rewrite relative .md links → clean viewer URLs at the current slug's level.
-// e.g. from slug 'concepts/records/ipl-most-runs':
+// e.g. from slug 'scorebook/records/ipl-most-runs':
 //   ./ipl-most-wickets.md  → /scorebook/records/ipl-most-wickets
 //   ../players/virat-kohli.md → /scorebook/players/virat-kohli
 //   ../../metrics/batting-strike-rate.md → /metrics/batting-strike-rate
