@@ -3,7 +3,7 @@
 **The open, agent-readable knowledge layer for cricket.**
 
 [![License: CC-BY-4.0](https://img.shields.io/badge/License-CC--BY--4.0-lightgrey.svg)](LICENSE.md)
-[![OKF v0.1](https://img.shields.io/badge/OKF-v0.1-green.svg)](CHANGELOG.md)
+[![OKF v0.2](https://img.shields.io/badge/OKF-v0.2-green.svg)](CHANGELOG.md)
 [![Cricsheet CC BY 3.0](https://img.shields.io/badge/data-Cricsheet%20CC%20BY%203.0-blue.svg)](ATTRIBUTION.md)
 
 Browse the live catalog → **[okf.cricketstudio.ai](https://okf.cricketstudio.ai)**
@@ -12,7 +12,7 @@ Browse the live catalog → **[okf.cricketstudio.ai](https://okf.cricketstudio.a
 
 CricketStudio OKF is a curated bundle of Markdown + YAML files that describes cricket
 entities — players, teams, leagues, seasons, matches, venues — plus the **metrics**,
-**methodology**, **sources**, and **examples** needed to use them correctly. It is a
+**methodology**, **sources**, and **dossier** needed to use them correctly. It is a
 *knowledge catalog*, not a raw data dump: a trusted semantic layer over
 [CricketStudio](https://players.cricketstudio.ai)'s canonical data.
 
@@ -55,8 +55,8 @@ okf/
   metrics/               # 10 definitions: batting SR, economy, death-overs, Orange/Purple Cap ...
   methodology/           # sample-size floors, ranking eligibility, citation policy
   sources/               # data provenance and license boundaries
-  dossier/              # 22 verified Q&A patterns for agents
-  research/              # 7 reports: IPL 2026 season, MLC seasons, toss effects, death overs
+  dossier/              # 27 verified Q&A patterns for agents
+  research/              # 8 reports: IPL 2026 season, MLC seasons, toss effects, death overs
 schema/
   frontmatter.schema.json
   okf.schema.json
@@ -104,7 +104,7 @@ Full terms: [`LICENSE.md`](LICENSE.md) · [`DATA_LICENSE_BOUNDARIES.md`](DATA_LI
 
 ## Status
 
-**v0.1** — curated MVP: 80 files · 10 metrics · 4 methodology · 7 research · 22 examples · 0 invented facts.  
+**v0.2** — curated bundle: 166 files · 10 metrics · 6 methodology · 8 research · 27 dossier · 0 invented facts.  
 See [`CHANGELOG.md`](CHANGELOG.md) for what's in this release.
 
 ## Viewer (`okf.cricketstudio.ai`)
