@@ -26,6 +26,9 @@ const FOOTER_COLS = [
       { label: 'Data sources', href: '/sources/cricketstudio-derived-claims' },
       { label: 'Cricsheet (CC BY 3.0)', href: 'https://cricsheet.org', external: true },
       { label: 'License (CC-BY-4.0)', href: 'https://creativecommons.org/licenses/by/4.0/', external: true },
+      { label: 'sitemap.xml', href: '/sitemap.xml', external: true },
+      { label: 'robots.txt', href: '/robots.txt', external: true },
+      { label: 'llms.txt', href: '/llms.txt', external: true },
     ],
   },
 ]
@@ -61,7 +64,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="border-t border-gray-800 pt-6 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-gray-600">
           <span>
-            <span className="text-green-500 font-semibold">CricketStudio</span> OKF v0.1
+            <span className="text-green-500 font-semibold">CricketStudio</span> OKF v0.2
           </span>
           <span>
             CC-BY-4.0 · IPL historical &amp; MLC data via{' '}
