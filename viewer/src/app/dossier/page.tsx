@@ -2,6 +2,7 @@ import { getFilesByType } from '@/lib/okf'
 import TagFilter from '@/components/TagFilter'
 
 export const metadata = {
+  alternates: { canonical: '/dossier' },
   title: 'Dossier',
   description: 'Verified Q&A patterns showing how AI agents should answer cricket questions with citations and scope.',
 }

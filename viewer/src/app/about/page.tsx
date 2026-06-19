@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { BarChart2, BookOpen, Globe, ShieldCheck, GitBranch } from 'lucide-react'
 
 export const metadata = {
+  alternates: { canonical: '/about' },
   title: 'About',
   description: 'What CricketStudio OKF is, why it exists, and how to use it.',
 }

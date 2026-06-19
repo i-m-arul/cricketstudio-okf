@@ -2,6 +2,7 @@ import { getFilesByType } from '@/lib/okf'
 import TagFilter from '@/components/TagFilter'
 
 export const metadata = {
+  alternates: { canonical: '/metrics' },
   title: 'Metrics',
   description: 'Cricket metric definitions: batting strike rate, bowling economy, death overs, Orange Cap, Purple Cap.',
 }

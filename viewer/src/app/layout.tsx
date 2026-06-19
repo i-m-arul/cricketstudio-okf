@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: { default: 'CricketStudio OKF', template: '%s | CricketStudio OKF' },
   description: 'The open, agent-readable knowledge layer for cricket. Curated facts, metric definitions, methodology, and canonical CricketStudio links.',
   metadataBase: new URL('https://okf.cricketstudio.ai'),
+  alternates: {
+    canonical: '/',
+  },
   openGraph: {
     siteName: 'CricketStudio OKF',
     type: 'website',
