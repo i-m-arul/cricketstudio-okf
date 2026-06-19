@@ -17,7 +17,14 @@ export default async function MethodologyPage() {
         The standards and rules that govern how CricketStudio computes, ranks, cites, and discloses uncertainty.
         These are the documents that teach agents how to answer cricket questions correctly.
       </p>
-      <TagFilter files={nonIndex} pinnedTags={['IPL', 'MLC', 'ranking', 'citation']} />
+      <TagFilter
+        files={nonIndex}
+        pinnedTags={[
+          // Topic — show all, ordered by usefulness
+          'ranking', 'sample-size', 'citation', 'phase', 'correction', 'freshness',
+        ]}
+        minCount={1}
+      />
     </div>
   )
 }

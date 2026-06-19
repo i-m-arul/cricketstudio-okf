@@ -17,7 +17,18 @@ export default async function ResearchPage() {
         Season reports, strategic analysis, toss effects, death overs, and cross-league comparisons.
         Each report includes source boundary, dataset version, and provenance.
       </p>
-      <TagFilter files={nonIndex} pinnedTags={['IPL', 'MLC', 'season', 'analysis']} />
+      <TagFilter
+        files={nonIndex}
+        pinnedTags={[
+          // League
+          'IPL', 'MLC',
+          // Season
+          'IPL-2026',
+          // Topic
+          'toss', 'death-overs', 'batting-analysis', 'bowling-analysis', 'season-analysis',
+        ]}
+        minCount={2}
+      />
     </div>
   )
 }
