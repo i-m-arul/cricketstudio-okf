@@ -36,11 +36,11 @@ export default function SearchPage() {
     }
     const fuse = new Fuse(index, {
       keys: [
-        { name: 'title', weight: 0.5 },
-        { name: 'description', weight: 0.3 },
-        { name: 'tags', weight: 0.2 },
+        { name: 'title', weight: 0.45 },
+        { name: 'description', weight: 0.25 },
+        { name: 'tags', weight: 0.3 },
       ],
-      threshold: 0.4,
+      threshold: 0.35,
       includeScore: true,
     })
     setResults(fuse.search(query).slice(0, 20).map((r) => r.item))

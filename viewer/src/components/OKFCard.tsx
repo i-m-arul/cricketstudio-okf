@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { TYPE_LABELS } from '@/lib/okf'
+import { TYPE_LABELS } from '@/lib/constants'
 
 interface Props {
   slug: string

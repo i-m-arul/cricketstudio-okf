@@ -56,8 +56,37 @@ export default async function HomePage() {
   const featured = await getFilesByType('research')
   const recentResearch = featured.slice(0, 3)
 
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Dataset',
+    name: 'CricketStudio OKF — Open Cricket Knowledge Catalog',
+    description:
+      'A curated, open knowledge catalog for cricket. Covers IPL and MLC players, teams, seasons, venues, metric definitions, methodology, and research. Every claim carries provenance, source boundary, and canonical CricketStudio links.',
+    url: 'https://okf.cricketstudio.ai',
+    license: 'https://creativecommons.org/licenses/by/4.0/',
+    creator: {
+      '@type': 'Organization',
+      name: 'CricketStudio',
+      url: 'https://cricketstudio.ai',
+    },
+    distribution: [
+      {
+        '@type': 'DataDownload',
+        encodingFormat: 'application/zip',
+        contentUrl: 'https://github.com/i-m-arul/cricketstudio-okf/archive/refs/heads/main.zip',
+      },
+    ],
+    keywords: ['cricket', 'IPL', 'MLC', 'cricket stats', 'cricket metrics', 'open data', 'knowledge graph'],
+    isAccessibleForFree: true,
+    inLanguage: 'en',
+  }
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* Hero */}
       <section className="pt-10 pb-12 text-center">
         <div className="inline-flex items-center gap-2 bg-green-900/20 border border-green-800 text-green-400 text-xs font-medium px-3 py-1 rounded-full mb-6">
