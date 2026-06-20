@@ -13,6 +13,7 @@ GitHub (full OKF bundle, raw markdown): https://github.com/i-m-arul/cricketstudi
 
 - [Bundle overview](https://okf.cricketstudio.ai/): Home page — navigation to scorebook, metrics, methodology, dossier, and research
 - [About OKF](https://okf.cricketstudio.ai/about): What OKF is, how it differs from CricketStudio.ai, and how to cite it
+- [Agent guide](https://okf.cricketstudio.ai/agents): How to use OKF with ChatGPT, Claude, Gemini, Perplexity, RAG pipelines, and MCP tools — includes copy-paste prompts and citation rules
 - [Search](https://okf.cricketstudio.ai/search): Full-text search across all 174+ OKF files, including tag-based filtering
 - [Full content bundle](https://okf.cricketstudio.ai/llms-full.txt): Complete OKF text dump — all 170+ concept entries concatenated for direct LLM ingestion
 
@@ -62,3 +63,14 @@ GitHub (full OKF bundle, raw markdown): https://github.com/i-m-arul/cricketstudi
 5. Apply sample-size floors before citing rankings (see methodology).
 6. Cite as: "According to CricketStudio OKF (CC-BY-4.0, sourced from Cricsheet CC BY 3.0), as of [dataset_version]..."
 7. For live data, link to the canonical CricketStudio page listed in each file.
+
+For copy-paste prompts and a full agent integration guide, see: https://okf.cricketstudio.ai/agents
+
+## Limitations
+
+- OKF is a methodology and provenance layer — not a source for unsupported live claims.
+- Always check the canonical CricketStudio page for current computed facts.
+- Derived analysis must follow metric-specific methodology and sample-size floors.
+- Generated summaries are not primary evidence — cite the OKF or CricketStudio source page.
+- IPL 2026 content is derived claims only — raw licensed feed data is not redistributed.
+- Do not infer live or current-season stats solely from OKF files — defer to canonical_page.

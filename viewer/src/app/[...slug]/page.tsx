@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Script from 'next/script'
 import { getAllFiles, getFileBySlug, TYPE_LABELS, SOURCE_BOUNDARY_LABELS } from '@/lib/okf'
 import OKFCard from '@/components/OKFCard'
+import ForLLMsAndAgents from '@/components/ForLLMsAndAgents'
 
 const BASE = 'https://okf.cricketstudio.ai'
 
@@ -187,6 +188,11 @@ export default async function OKFFilePage({ params }: Props) {
             className="prose-okf"
             dangerouslySetInnerHTML={{ __html: file.contentHtml }}
           />
+
+          {/* For LLMs and Agents block — shown on methodology, metric, research, dossier pages */}
+          {['metric', 'methodology', 'research', 'dossier'].includes(file.type) && (
+            <ForLLMsAndAgents type={file.type} urlPath={file.urlPath} />
+          )}
 
           {/* Tags */}
           {file.tags && file.tags.length > 0 && (
