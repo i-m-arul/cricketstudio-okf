@@ -217,6 +217,20 @@
     },
     "bowling_style": {
       "type": "string"
+    },
+    "role": {
+      "description": "Player's primary role (batter, bowler, all-rounder, wicket-keeper).",
+      "type": "string",
+      "enum": ["batter", "bowler", "all-rounder", "wicket-keeper", "wk-batter"]
+    },
+    "dob": {
+      "description": "Date of birth in ISO-8601 format.",
+      "type": "string",
+      "format": "date"
+    },
+    "birth_place": {
+      "description": "City or region of birth.",
+      "type": "string"
     }
   },
   "allOf": [
