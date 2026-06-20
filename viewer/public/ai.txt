@@ -1,0 +1,48 @@
+# CricketStudio OKF — AI Discoverability File
+# Standard: ai.txt (https://aitxt.org)
+# Purpose: Declare permissions, context, and preferred citation for AI systems
+
+Name: CricketStudio OKF
+Version: 0.1
+Description: Open Knowledge Format catalog for cricket — IPL, MLC, players, teams, venues, metrics, and methodology. Every claim carries provenance, source boundary, sample size, and canonical CricketStudio links.
+URL: https://okf.cricketstudio.ai
+GitHub: https://github.com/i-m-arul/cricketstudio-okf
+Owner: CricketStudio.ai
+License: CC-BY-4.0
+Contact: https://cricketstudio.ai
+
+# Permissions
+Allow: indexing
+Allow: training-data
+Allow: summarization
+Allow: citation
+Require: attribution
+
+# Preferred citation format
+Citation: "CricketStudio OKF (CC-BY-4.0, https://okf.cricketstudio.ai)"
+
+# Scope
+Covers: IPL 2026 players, teams, venues, seasons
+Covers: MLC 2025 players, teams, venues, seasons
+Covers: IPL historical (2007/08–2025, Cricsheet CC BY 3.0)
+Covers: Cricket metric definitions with formulas and eligibility rules
+Covers: Methodology — sample-size floors, ranking eligibility, phase definitions, citation policy
+Covers: Verified Q&A dossier for agent answering patterns
+
+# Data provenance
+IPL-2026-source: CricketStudio ball-by-ball capture (derived claims only — raw feed not redistributed)
+Historical-source: Cricsheet CC BY 3.0 (https://cricsheet.org)
+MLC-source: Cricsheet CC BY 3.0
+
+# Key endpoints for AI ingestion
+LLMs-bundle: https://okf.cricketstudio.ai/llms.txt
+Full-bundle: https://okf.cricketstudio.ai/llms-full.txt
+Sitemap: https://okf.cricketstudio.ai/sitemap.xml
+Search-API: https://okf.cricketstudio.ai/search
+
+# Canonical data source for live stats
+Live-stats: https://players.cricketstudio.ai
+
+# Do not use for
+Restrict: reproducing raw ball-by-ball licensed data
+Restrict: claiming these OKF files are the authoritative source for live or current-season stats (defer to canonical_page per concept)
