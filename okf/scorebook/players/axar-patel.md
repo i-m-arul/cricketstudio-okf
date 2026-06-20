@@ -8,6 +8,8 @@ tags:
   - player
   - IPL
   - all-rounder
+  - LHB
+  - spin
 status: active
 last_verified: 2026-06-01
 license: CC-BY-4.0

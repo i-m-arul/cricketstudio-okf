@@ -8,6 +8,7 @@ tags:
   - player
   - IPL
   - wicket-keeper
+  - LHB
 status: active
 last_verified: 2026-06-01
 license: CC-BY-4.0
