@@ -18,6 +18,7 @@ canonical_page: https://players.cricketstudio.ai/players/jos-buttler
 entity_id: cricketstudio:player:jos-buttler
 dataset_version: 2026-06-01
 team: "Gujarat Titans"
+batting_handedness: "right"
 nationality: "Indian"
 same_as:
   wikipedia: "https://en.wikipedia.org/wiki/Jos_Buttler"
@@ -40,6 +41,12 @@ Jos Buttler is an IPL wk-batter with 4,121 career runs and 0 career wickets acro
 ## Canonical Resource
 
 [https://players.cricketstudio.ai/players/jos-buttler](https://players.cricketstudio.ai/players/jos-buttler)
+
+## Player Profile
+
+| Attribute | Value |
+|-----------|-------|
+| Batting | Right-hand bat (RHB) |
 
 ## Career Statistics (IPL 2007/08 – IPL 2025)
 

@@ -19,6 +19,8 @@ canonical_page: https://players.cricketstudio.ai/players/virat-kohli
 entity_id: cricketstudio:player:virat-kohli
 dataset_version: 2026-06-01
 team: "Royal Challengers Bengaluru"
+batting_handedness: "right"
+bowling_style: "right arm fast medium"
 nationality: "Indian"
 same_as:
   wikipedia: "https://en.wikipedia.org/wiki/Virat_Kohli"
@@ -41,6 +43,13 @@ Virat Kohli is an IPL batter with 8,671 career runs and 4 career wickets across 
 ## Canonical Resource
 
 [https://players.cricketstudio.ai/players/virat-kohli](https://players.cricketstudio.ai/players/virat-kohli)
+
+## Player Profile
+
+| Attribute | Value |
+|-----------|-------|
+| Batting | Right-hand bat (RHB) |
+| Bowling | Right Arm Fast Medium |
 
 ## Career Statistics (IPL 2007/08 – IPL 2025)
 

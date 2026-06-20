@@ -18,6 +18,7 @@ canonical_page: https://players.cricketstudio.ai/players/sanju-samson
 entity_id: cricketstudio:player:sanju-samson
 dataset_version: 2026-06-01
 team: "Chennai Super Kings"
+batting_handedness: "right"
 nationality: "Indian"
 same_as:
   wikipedia: "https://en.wikipedia.org/wiki/Sanju_Samson"
@@ -39,6 +40,12 @@ Sanju Samson is an IPL wk-batter with 4,704 career runs and 0 career wickets acr
 ## Canonical Resource
 
 [https://players.cricketstudio.ai/players/sanju-samson](https://players.cricketstudio.ai/players/sanju-samson)
+
+## Player Profile
+
+| Attribute | Value |
+|-----------|-------|
+| Batting | Right-hand bat (RHB) |
 
 ## Career Statistics (IPL 2007/08 – IPL 2025)
 

@@ -19,6 +19,8 @@ canonical_page: https://players.cricketstudio.ai/players/mahendra-singh-dhoni
 entity_id: cricketstudio:player:mahendra-singh-dhoni
 dataset_version: 2026-06-01
 team: "Chennai Super Kings"
+batting_handedness: "right"
+bowling_style: "right arm fast medium"
 nationality: "Indian"
 
 provenance:
@@ -36,6 +38,13 @@ Mahendra Singh Dhoni is an IPL wk-batter with 5,439 career runs and 0 career wic
 ## Canonical Resource
 
 [https://players.cricketstudio.ai/players/mahendra-singh-dhoni](https://players.cricketstudio.ai/players/mahendra-singh-dhoni)
+
+## Player Profile
+
+| Attribute | Value |
+|-----------|-------|
+| Batting | Right-hand bat (RHB) |
+| Bowling | Right Arm Fast Medium |
 
 ## Career Statistics (IPL 2007/08 – IPL 2025)
 

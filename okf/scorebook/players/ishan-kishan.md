@@ -18,6 +18,7 @@ canonical_page: https://players.cricketstudio.ai/players/ishan-kishan
 entity_id: cricketstudio:player:ishan-kishan
 dataset_version: 2026-06-01
 team: "Sunrisers Hyderabad"
+batting_handedness: "left"
 nationality: "Indian"
 same_as:
   wikipedia: "https://en.wikipedia.org/wiki/Ishan_Kishan"
@@ -39,6 +40,12 @@ Ishan Kishan is an IPL wk-batter with 2,998 career runs and 0 career wickets acr
 ## Canonical Resource
 
 [https://players.cricketstudio.ai/players/ishan-kishan](https://players.cricketstudio.ai/players/ishan-kishan)
+
+## Player Profile
+
+| Attribute | Value |
+|-----------|-------|
+| Batting | Left-hand bat (LHB) |
 
 ## Career Statistics (IPL 2007/08 – IPL 2025)
 

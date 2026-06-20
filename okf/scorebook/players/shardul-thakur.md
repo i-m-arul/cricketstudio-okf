@@ -19,6 +19,8 @@ canonical_page: https://players.cricketstudio.ai/players/shardul-thakur
 entity_id: cricketstudio:player:shardul-thakur
 dataset_version: 2026-06-01
 team: "Mumbai Indians"
+batting_handedness: "right"
+bowling_style: "right arm fast medium"
 nationality: "Indian"
 same_as:
   wikipedia: "https://en.wikipedia.org/wiki/Shardul_Thakur"
@@ -40,6 +42,13 @@ Shardul Thakur is an IPL bowler with 325 career runs and 107 career wickets acro
 ## Canonical Resource
 
 [https://players.cricketstudio.ai/players/shardul-thakur](https://players.cricketstudio.ai/players/shardul-thakur)
+
+## Player Profile
+
+| Attribute | Value |
+|-----------|-------|
+| Batting | Right-hand bat (RHB) |
+| Bowling | Right Arm Fast Medium |
 
 ## Career Statistics (IPL 2007/08 – IPL 2025)
 

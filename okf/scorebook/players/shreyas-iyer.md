@@ -19,6 +19,8 @@ canonical_page: https://players.cricketstudio.ai/players/shreyas-iyer
 entity_id: cricketstudio:player:shreyas-iyer
 dataset_version: 2026-06-01
 team: "Punjab Kings"
+batting_handedness: "right"
+bowling_style: "legbreak googly"
 nationality: "Indian"
 same_as:
   wikipedia: "https://en.wikipedia.org/wiki/Shreyas_Iyer"
@@ -39,6 +41,13 @@ Shreyas Iyer is an IPL batter with 3,735 career runs and 0 career wickets across
 ## Canonical Resource
 
 [https://players.cricketstudio.ai/players/shreyas-iyer](https://players.cricketstudio.ai/players/shreyas-iyer)
+
+## Player Profile
+
+| Attribute | Value |
+|-----------|-------|
+| Batting | Right-hand bat (RHB) |
+| Bowling | Legbreak Googly |
 
 ## Career Statistics (IPL 2007/08 – IPL 2025)
 

@@ -19,6 +19,8 @@ canonical_page: https://players.cricketstudio.ai/players/shubman-gill
 entity_id: cricketstudio:player:shubman-gill
 dataset_version: 2026-06-01
 team: "Gujarat Titans"
+batting_handedness: "right"
+bowling_style: "right arm offbreak"
 nationality: "Indian"
 same_as:
   wikipedia: "https://en.wikipedia.org/wiki/Shubman_Gill"
@@ -41,6 +43,13 @@ Shubman Gill is an IPL batter with 3,866 career runs and 0 career wickets across
 ## Canonical Resource
 
 [https://players.cricketstudio.ai/players/shubman-gill](https://players.cricketstudio.ai/players/shubman-gill)
+
+## Player Profile
+
+| Attribute | Value |
+|-----------|-------|
+| Batting | Right-hand bat (RHB) |
+| Bowling | Right Arm Offbreak |
 
 ## Career Statistics (IPL 2007/08 – IPL 2025)
 

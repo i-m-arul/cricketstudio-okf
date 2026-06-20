@@ -18,6 +18,7 @@ canonical_page: https://players.cricketstudio.ai/players/heinrich-klaasen
 entity_id: cricketstudio:player:heinrich-klaasen
 dataset_version: 2026-06-01
 team: "Sunrisers Hyderabad"
+batting_handedness: "right"
 nationality: "Indian"
 same_as:
   wikipedia: "https://en.wikipedia.org/wiki/Heinrich_Klaasen"
@@ -38,6 +39,12 @@ Heinrich Klaasen is an IPL wk-batter with 1,480 career runs and 0 career wickets
 ## Canonical Resource
 
 [https://players.cricketstudio.ai/players/heinrich-klaasen](https://players.cricketstudio.ai/players/heinrich-klaasen)
+
+## Player Profile
+
+| Attribute | Value |
+|-----------|-------|
+| Batting | Right-hand bat (RHB) |
 
 ## Career Statistics (IPL 2007/08 – IPL 2025)
 

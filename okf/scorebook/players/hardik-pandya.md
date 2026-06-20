@@ -19,6 +19,8 @@ canonical_page: https://players.cricketstudio.ai/players/hardik-pandya
 entity_id: cricketstudio:player:hardik-pandya
 dataset_version: 2026-06-01
 team: "Mumbai Indians"
+batting_handedness: "right"
+bowling_style: "right-arm medium-fast"
 nationality: "Indian"
 same_as:
   wikipedia: "https://en.wikipedia.org/wiki/Hardik_Pandya"
@@ -41,6 +43,13 @@ Hardik Pandya is an IPL all-rounder with 2,758 career runs and 78 career wickets
 ## Canonical Resource
 
 [https://players.cricketstudio.ai/players/hardik-pandya](https://players.cricketstudio.ai/players/hardik-pandya)
+
+## Player Profile
+
+| Attribute | Value |
+|-----------|-------|
+| Batting | Right-hand bat (RHB) |
+| Bowling | Right-Arm Medium-Fast |
 
 ## Career Statistics (IPL 2007/08 – IPL 2025)
 

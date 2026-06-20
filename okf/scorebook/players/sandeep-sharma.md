@@ -19,6 +19,8 @@ canonical_page: https://players.cricketstudio.ai/players/sandeep-sharma
 entity_id: cricketstudio:player:sandeep-sharma
 dataset_version: 2026-06-01
 team: "Rajasthan Royals"
+batting_handedness: "right"
+bowling_style: "right arm fast medium"
 nationality: "Indian"
 same_as:
   wikipedia: "https://en.wikipedia.org/wiki/Sandeep_Sharma"
@@ -39,6 +41,13 @@ Sandeep Sharma is an IPL bowler with 60 career runs and 146 career wickets acros
 ## Canonical Resource
 
 [https://players.cricketstudio.ai/players/sandeep-sharma](https://players.cricketstudio.ai/players/sandeep-sharma)
+
+## Player Profile
+
+| Attribute | Value |
+|-----------|-------|
+| Batting | Right-hand bat (RHB) |
+| Bowling | Right Arm Fast Medium |
 
 ## Career Statistics (IPL 2007/08 – IPL 2025)
 

@@ -20,6 +20,8 @@ canonical_page: https://players.cricketstudio.ai/players/vaibhav-suryavanshi
 entity_id: cricketstudio:player:vaibhav-suryavanshi
 dataset_version: 2026-06-01
 team: "Rajasthan Royals"
+batting_handedness: "left"
+bowling_style: "slow left arm orthodox"
 nationality: "Indian"
 same_as:
   wikipedia: "https://en.wikipedia.org/wiki/Vaibhav_Sooryavanshi"

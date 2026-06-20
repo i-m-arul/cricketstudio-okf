@@ -19,6 +19,8 @@ canonical_page: https://players.cricketstudio.ai/players/suryakumar-yadav
 entity_id: cricketstudio:player:suryakumar-yadav
 dataset_version: 2026-06-01
 team: "Mumbai Indians"
+batting_handedness: "right"
+bowling_style: "right arm fast medium"
 nationality: "Indian"
 same_as:
   wikipedia: "https://en.wikipedia.org/wiki/Suryakumar_Yadav"
@@ -39,6 +41,13 @@ Suryakumar Yadav is an IPL batter with 4,311 career runs and 0 career wickets ac
 ## Canonical Resource
 
 [https://players.cricketstudio.ai/players/suryakumar-yadav](https://players.cricketstudio.ai/players/suryakumar-yadav)
+
+## Player Profile
+
+| Attribute | Value |
+|-----------|-------|
+| Batting | Right-hand bat (RHB) |
+| Bowling | Right Arm Fast Medium |
 
 ## Career Statistics (IPL 2007/08 – IPL 2025)
 

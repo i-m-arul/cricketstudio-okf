@@ -19,6 +19,8 @@ canonical_page: https://players.cricketstudio.ai/players/mohammed-shami
 entity_id: cricketstudio:player:mohammed-shami
 dataset_version: 2026-06-01
 team: "Lucknow Super Giants"
+batting_handedness: "right"
+bowling_style: "right arm fast"
 nationality: "Indian"
 same_as:
   wikipedia: "https://en.wikipedia.org/wiki/Mohammed_Shami"
@@ -40,6 +42,13 @@ Mohammed Shami is an IPL bowler with 84 career runs and 133 career wickets acros
 ## Canonical Resource
 
 [https://players.cricketstudio.ai/players/mohammed-shami](https://players.cricketstudio.ai/players/mohammed-shami)
+
+## Player Profile
+
+| Attribute | Value |
+|-----------|-------|
+| Batting | Right-hand bat (RHB) |
+| Bowling | Right Arm Fast |
 
 ## Career Statistics (IPL 2007/08 – IPL 2025)
 

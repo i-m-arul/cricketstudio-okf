@@ -19,6 +19,8 @@ canonical_page: https://players.cricketstudio.ai/players/axar-patel
 entity_id: cricketstudio:player:axar-patel
 dataset_version: 2026-06-01
 team: "Delhi Capitals"
+batting_handedness: "left"
+bowling_style: "slow left arm orthodox"
 nationality: "Indian"
 same_as:
   wikipedia: "https://en.wikipedia.org/wiki/Axar_Patel"
@@ -39,6 +41,13 @@ Axar Patel is an IPL all-rounder with 1,916 career runs and 128 career wickets a
 ## Canonical Resource
 
 [https://players.cricketstudio.ai/players/axar-patel](https://players.cricketstudio.ai/players/axar-patel)
+
+## Player Profile
+
+| Attribute | Value |
+|-----------|-------|
+| Batting | Left-hand bat (LHB) |
+| Bowling | Slow Left Arm Orthodox |
 
 ## Career Statistics (IPL 2007/08 – IPL 2025)
 

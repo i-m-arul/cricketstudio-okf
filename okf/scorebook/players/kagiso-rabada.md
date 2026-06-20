@@ -19,6 +19,8 @@ canonical_page: https://players.cricketstudio.ai/players/kagiso-rabada
 entity_id: cricketstudio:player:kagiso-rabada
 dataset_version: 2026-06-01
 team: "Gujarat Titans"
+batting_handedness: "left"
+bowling_style: "right arm fast"
 nationality: "Indian"
 same_as:
   wikipedia: "https://en.wikipedia.org/wiki/Kagiso_Rabada"
@@ -40,6 +42,13 @@ Kagiso Rabada is an IPL bowler with 215 career runs and 122 career wickets acros
 ## Canonical Resource
 
 [https://players.cricketstudio.ai/players/kagiso-rabada](https://players.cricketstudio.ai/players/kagiso-rabada)
+
+## Player Profile
+
+| Attribute | Value |
+|-----------|-------|
+| Batting | Left-hand bat (LHB) |
+| Bowling | Right Arm Fast |
 
 ## Career Statistics (IPL 2007/08 – IPL 2025)
 

@@ -19,6 +19,8 @@ canonical_page: https://players.cricketstudio.ai/players/rohit-sharma
 entity_id: cricketstudio:player:rohit-sharma
 dataset_version: 2026-06-01
 team: "Mumbai Indians"
+batting_handedness: "right"
+bowling_style: "right arm offbreak"
 nationality: "Indian"
 same_as:
   wikipedia: "https://en.wikipedia.org/wiki/Rohit_Sharma"
@@ -41,6 +43,13 @@ Rohit Sharma is an IPL batter with 7,048 career runs and 15 career wickets acros
 ## Canonical Resource
 
 [https://players.cricketstudio.ai/players/rohit-sharma](https://players.cricketstudio.ai/players/rohit-sharma)
+
+## Player Profile
+
+| Attribute | Value |
+|-----------|-------|
+| Batting | Right-hand bat (RHB) |
+| Bowling | Right Arm Offbreak |
 
 ## Career Statistics (IPL 2007/08 – IPL 2025)
 
