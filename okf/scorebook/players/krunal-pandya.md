@@ -19,6 +19,8 @@ canonical_page: https://players.cricketstudio.ai/players/krunal-pandya
 entity_id: cricketstudio:player:krunal-pandya
 dataset_version: 2026-06-01
 team: "Royal Challengers Bengaluru"
+batting_handedness: "left"
+bowling_style: "slow left arm orthodox"
 nationality: "Indian"
 same_as:
   wikipedia: "https://en.wikipedia.org/wiki/Krunal_Pandya"
@@ -40,6 +42,13 @@ Krunal Pandya is an IPL all-rounder with 1,756 career runs and 93 career wickets
 ## Canonical Resource
 
 [https://players.cricketstudio.ai/players/krunal-pandya](https://players.cricketstudio.ai/players/krunal-pandya)
+
+## Player Profile
+
+| Attribute | Value |
+|-----------|-------|
+| Batting | Left-hand bat (LHB) |
+| Bowling | Slow Left Arm Orthodox |
 
 ## Career Statistics (IPL 2007/08 – IPL 2025)
 

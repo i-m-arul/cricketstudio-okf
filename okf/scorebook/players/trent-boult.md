@@ -19,6 +19,8 @@ canonical_page: https://players.cricketstudio.ai/players/trent-boult
 entity_id: cricketstudio:player:trent-boult
 dataset_version: 2026-06-01
 team: "Mumbai Indians"
+batting_handedness: "right"
+bowling_style: "left arm fast medium"
 nationality: "Indian"
 same_as:
   wikipedia: "https://en.wikipedia.org/wiki/Trent_Boult"
@@ -40,6 +42,13 @@ Trent Boult is an IPL bowler with 85 career runs and 143 career wickets across I
 ## Canonical Resource
 
 [https://players.cricketstudio.ai/players/trent-boult](https://players.cricketstudio.ai/players/trent-boult)
+
+## Player Profile
+
+| Attribute | Value |
+|-----------|-------|
+| Batting | Right-hand bat (RHB) |
+| Bowling | Left Arm Fast Medium |
 
 ## Career Statistics (IPL 2007/08 – IPL 2025)
 

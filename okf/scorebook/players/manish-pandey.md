@@ -19,6 +19,8 @@ canonical_page: https://players.cricketstudio.ai/players/manish-pandey
 entity_id: cricketstudio:player:manish-pandey
 dataset_version: 2026-06-01
 team: "Kolkata Knight Riders"
+batting_handedness: "right"
+bowling_style: "right arm fast medium"
 nationality: "Indian"
 same_as:
   wikipedia: "https://en.wikipedia.org/wiki/Manish_Pandey"
@@ -40,6 +42,13 @@ Manish Pandey is an IPL batter with 3,951 career runs and 0 career wickets acros
 ## Canonical Resource
 
 [https://players.cricketstudio.ai/players/manish-pandey](https://players.cricketstudio.ai/players/manish-pandey)
+
+## Player Profile
+
+| Attribute | Value |
+|-----------|-------|
+| Batting | Right-hand bat (RHB) |
+| Bowling | Right Arm Fast Medium |
 
 ## Career Statistics (IPL 2007/08 – IPL 2025)
 

@@ -19,6 +19,8 @@ canonical_page: https://players.cricketstudio.ai/players/jasprit-bumrah
 entity_id: cricketstudio:player:jasprit-bumrah
 dataset_version: 2026-06-01
 team: "Mumbai Indians"
+batting_handedness: "right"
+bowling_style: "right-arm fast"
 nationality: "Indian"
 same_as:
   wikipedia: "https://en.wikipedia.org/wiki/Jasprit_Bumrah"
@@ -41,6 +43,13 @@ Jasprit Bumrah is an IPL bowler with 68 career runs and 186 career wickets acros
 ## Canonical Resource
 
 [https://players.cricketstudio.ai/players/jasprit-bumrah](https://players.cricketstudio.ai/players/jasprit-bumrah)
+
+## Player Profile
+
+| Attribute | Value |
+|-----------|-------|
+| Batting | Right-hand bat (RHB) |
+| Bowling | Right-Arm Fast |
 
 ## Career Statistics (IPL 2007/08 – IPL 2025)
 

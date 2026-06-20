@@ -19,6 +19,8 @@ canonical_page: https://players.cricketstudio.ai/players/pat-cummins
 entity_id: cricketstudio:player:pat-cummins
 dataset_version: 2026-06-01
 team: "Sunrisers Hyderabad"
+batting_handedness: "right"
+bowling_style: "right arm fast"
 nationality: "Indian"
 same_as:
   wikipedia: "https://en.wikipedia.org/wiki/Pat_Cummins"
@@ -41,6 +43,13 @@ Pat Cummins is an IPL bowler with 612 career runs and 79 career wickets across I
 ## Canonical Resource
 
 [https://players.cricketstudio.ai/players/pat-cummins](https://players.cricketstudio.ai/players/pat-cummins)
+
+## Player Profile
+
+| Attribute | Value |
+|-----------|-------|
+| Batting | Right-hand bat (RHB) |
+| Bowling | Right Arm Fast |
 
 ## Career Statistics (IPL 2007/08 – IPL 2025)
 

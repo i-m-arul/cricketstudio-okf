@@ -18,6 +18,7 @@ canonical_page: https://players.cricketstudio.ai/players/quinton-de-kock
 entity_id: cricketstudio:player:quinton-de-kock
 dataset_version: 2026-06-01
 team: "Mumbai Indians"
+batting_handedness: "left"
 nationality: "Indian"
 same_as:
   wikipedia: "https://en.wikipedia.org/wiki/Quinton_de_Kock"
@@ -39,6 +40,12 @@ Quinton de Kock is an IPL wk-batter with 3,312 career runs and 0 career wickets 
 ## Canonical Resource
 
 [https://players.cricketstudio.ai/players/quinton-de-kock](https://players.cricketstudio.ai/players/quinton-de-kock)
+
+## Player Profile
+
+| Attribute | Value |
+|-----------|-------|
+| Batting | Left-hand bat (LHB) |
 
 ## Career Statistics (IPL 2007/08 – IPL 2025)
 

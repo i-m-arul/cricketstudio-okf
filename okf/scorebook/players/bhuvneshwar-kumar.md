@@ -19,6 +19,8 @@ canonical_page: https://players.cricketstudio.ai/players/bhuvneshwar-kumar
 entity_id: cricketstudio:player:bhuvneshwar-kumar
 dataset_version: 2026-06-01
 team: "Royal Challengers Bengaluru"
+batting_handedness: "right"
+bowling_style: "right arm fast medium"
 nationality: "Indian"
 same_as:
   wikipedia: "https://en.wikipedia.org/wiki/Bhuvneshwar_Kumar"
@@ -41,6 +43,13 @@ Bhuvneshwar Kumar is an IPL bowler with 320 career runs and 198 career wickets a
 ## Canonical Resource
 
 [https://players.cricketstudio.ai/players/bhuvneshwar-kumar](https://players.cricketstudio.ai/players/bhuvneshwar-kumar)
+
+## Player Profile
+
+| Attribute | Value |
+|-----------|-------|
+| Batting | Right-hand bat (RHB) |
+| Bowling | Right Arm Fast Medium |
 
 ## Career Statistics (IPL 2007/08 – IPL 2025)
 

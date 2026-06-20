@@ -18,6 +18,7 @@ canonical_page: https://players.cricketstudio.ai/players/nicholas-pooran
 entity_id: cricketstudio:player:nicholas-pooran
 dataset_version: 2026-06-01
 team: "Lucknow Super Giants"
+batting_handedness: "left"
 nationality: "Indian"
 same_as:
   wikipedia: "https://en.wikipedia.org/wiki/Nicholas_Pooran"
@@ -40,6 +41,12 @@ Nicholas Pooran is an IPL wk-batter with 2,293 career runs and 0 career wickets 
 ## Canonical Resource
 
 [https://players.cricketstudio.ai/players/nicholas-pooran](https://players.cricketstudio.ai/players/nicholas-pooran)
+
+## Player Profile
+
+| Attribute | Value |
+|-----------|-------|
+| Batting | Left-hand bat (LHB) |
 
 ## Career Statistics (IPL 2007/08 – IPL 2025)
 

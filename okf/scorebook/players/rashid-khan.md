@@ -19,6 +19,8 @@ canonical_page: https://players.cricketstudio.ai/players/rashid-khan
 entity_id: cricketstudio:player:rashid-khan
 dataset_version: 2026-06-01
 team: "Gujarat Titans"
+batting_handedness: "right"
+bowling_style: "legbreak googly"
 nationality: "Indian"
 same_as:
   wikipedia: "https://en.wikipedia.org/wiki/Rashid_Khan"
@@ -39,6 +41,13 @@ Rashid Khan is an IPL bowler with 585 career runs and 158 career wickets across 
 ## Canonical Resource
 
 [https://players.cricketstudio.ai/players/rashid-khan](https://players.cricketstudio.ai/players/rashid-khan)
+
+## Player Profile
+
+| Attribute | Value |
+|-----------|-------|
+| Batting | Right-hand bat (RHB) |
+| Bowling | Legbreak Googly |
 
 ## Career Statistics (IPL 2007/08 – IPL 2025)
 

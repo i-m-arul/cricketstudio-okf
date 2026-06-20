@@ -18,6 +18,7 @@ canonical_page: https://players.cricketstudio.ai/players/lokesh-rahul
 entity_id: cricketstudio:player:lokesh-rahul
 dataset_version: 2026-06-01
 team: "Delhi Capitals"
+batting_handedness: "right"
 nationality: "Indian"
 same_as:
   wikipedia: "https://en.wikipedia.org/wiki/KL_Rahul"
@@ -39,6 +40,12 @@ Lokesh Rahul is an IPL wk-batter with 5,235 career runs and 0 career wickets acr
 ## Canonical Resource
 
 [https://players.cricketstudio.ai/players/lokesh-rahul](https://players.cricketstudio.ai/players/lokesh-rahul)
+
+## Player Profile
+
+| Attribute | Value |
+|-----------|-------|
+| Batting | Right-hand bat (RHB) |
 
 ## Career Statistics (IPL 2007/08 – IPL 2025)
 

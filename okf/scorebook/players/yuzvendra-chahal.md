@@ -19,6 +19,8 @@ canonical_page: https://players.cricketstudio.ai/players/yuzvendra-chahal
 entity_id: cricketstudio:player:yuzvendra-chahal
 dataset_version: 2026-06-01
 team: "Punjab Kings"
+batting_handedness: "right"
+bowling_style: "legbreak googly"
 
 same_as:
   wikipedia: "https://en.wikipedia.org/wiki/Yuzvendra_Chahal"
@@ -39,6 +41,13 @@ Yuzvendra Chahal is an IPL bowler with 37 career runs and 221 career wickets acr
 ## Canonical Resource
 
 [https://players.cricketstudio.ai/players/yuzvendra-chahal](https://players.cricketstudio.ai/players/yuzvendra-chahal)
+
+## Player Profile
+
+| Attribute | Value |
+|-----------|-------|
+| Batting | Right-hand bat (RHB) |
+| Bowling | Legbreak Googly |
 
 ## Career Statistics (IPL 2007/08 – IPL 2025)
 

@@ -35,6 +35,10 @@ export default async function ScorebookPage() {
           'IPL', 'MLC',
           // Role
           'batter', 'bowler', 'all-rounder', 'wicket-keeper',
+          // Batting hand
+          'RHB', 'LHB',
+          // Bowling style
+          'pace', 'spin',
           // Format / topic
           'T20', 'records', 'batting',
         ]}

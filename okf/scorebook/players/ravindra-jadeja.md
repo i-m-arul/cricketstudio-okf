@@ -19,6 +19,8 @@ canonical_page: https://players.cricketstudio.ai/players/ravindra-jadeja
 entity_id: cricketstudio:player:ravindra-jadeja
 dataset_version: 2026-06-01
 team: "Rajasthan Royals"
+batting_handedness: "left"
+bowling_style: "slow left arm orthodox"
 
 same_as:
   wikipedia: "https://en.wikipedia.org/wiki/Ravindra_Jadeja"
@@ -39,6 +41,13 @@ Ravindra Jadeja is an IPL all-rounder with 3,260 career runs and 170 career wick
 ## Canonical Resource
 
 [https://players.cricketstudio.ai/players/ravindra-jadeja](https://players.cricketstudio.ai/players/ravindra-jadeja)
+
+## Player Profile
+
+| Attribute | Value |
+|-----------|-------|
+| Batting | Left-hand bat (LHB) |
+| Bowling | Slow Left Arm Orthodox |
 
 ## Career Statistics (IPL 2007/08 – IPL 2025)
 

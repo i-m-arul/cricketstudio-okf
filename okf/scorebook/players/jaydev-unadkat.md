@@ -19,6 +19,8 @@ canonical_page: https://players.cricketstudio.ai/players/jaydev-unadkat
 entity_id: cricketstudio:player:jaydev-unadkat
 dataset_version: 2026-06-01
 team: "Sunrisers Hyderabad"
+batting_handedness: "right"
+bowling_style: "left arm fast medium"
 nationality: "Indian"
 same_as:
   wikipedia: "https://en.wikipedia.org/wiki/Jaydev_Unadkat"
@@ -40,6 +42,13 @@ Jaydev Unadkat is an IPL bowler with 197 career runs and 110 career wickets acro
 ## Canonical Resource
 
 [https://players.cricketstudio.ai/players/jaydev-unadkat](https://players.cricketstudio.ai/players/jaydev-unadkat)
+
+## Player Profile
+
+| Attribute | Value |
+|-----------|-------|
+| Batting | Right-hand bat (RHB) |
+| Bowling | Left Arm Fast Medium |
 
 ## Career Statistics (IPL 2007/08 – IPL 2025)
 

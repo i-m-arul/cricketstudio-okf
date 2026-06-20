@@ -18,6 +18,7 @@ canonical_page: https://players.cricketstudio.ai/players/rishabh-pant
 entity_id: cricketstudio:player:rishabh-pant
 dataset_version: 2026-06-01
 team: "Lucknow Super Giants"
+batting_handedness: "left"
 nationality: "Indian"
 same_as:
   wikipedia: "https://en.wikipedia.org/wiki/Rishabh_Pant"
@@ -40,6 +41,12 @@ Rishabh Pant is an IPL wk-batter with 3,566 career runs and 0 career wickets acr
 ## Canonical Resource
 
 [https://players.cricketstudio.ai/players/rishabh-pant](https://players.cricketstudio.ai/players/rishabh-pant)
+
+## Player Profile
+
+| Attribute | Value |
+|-----------|-------|
+| Batting | Left-hand bat (LHB) |
 
 ## Career Statistics (IPL 2007/08 – IPL 2025)
 

@@ -19,6 +19,8 @@ canonical_page: https://players.cricketstudio.ai/players/sunil-narine
 entity_id: cricketstudio:player:sunil-narine
 dataset_version: 2026-06-01
 team: "Kolkata Knight Riders"
+batting_handedness: "left"
+bowling_style: "right arm offbreak"
 nationality: "Indian"
 same_as:
   wikipedia: "https://en.wikipedia.org/wiki/Sunil_Narine"
@@ -39,6 +41,13 @@ Sunil Narine is an IPL bowler with 1,780 career runs and 192 career wickets acro
 ## Canonical Resource
 
 [https://players.cricketstudio.ai/players/sunil-narine](https://players.cricketstudio.ai/players/sunil-narine)
+
+## Player Profile
+
+| Attribute | Value |
+|-----------|-------|
+| Batting | Left-hand bat (LHB) |
+| Bowling | Right Arm Offbreak |
 
 ## Career Statistics (IPL 2007/08 – IPL 2025)
 
