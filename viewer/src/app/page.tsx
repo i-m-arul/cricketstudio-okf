@@ -61,7 +61,7 @@ export default async function HomePage() {
     '@type': 'Dataset',
     name: 'CricketStudio OKF — Open Cricket Knowledge Catalog',
     description:
-      'A curated, open knowledge catalog for cricket. Covers IPL and MLC players, teams, seasons, venues, metric definitions, methodology, and research. Every claim carries provenance, source boundary, and canonical CricketStudio links.',
+      'A curated, open knowledge catalog for cricket. 174+ files covering all 10 IPL 2026 franchises, 65 players with phase splits and pillar claims, 11 IPL venues, MLC teams, metric definitions, methodology, and research. Every claim carries provenance, sample size, source boundary, and canonical CricketStudio links.',
     url: 'https://okf.cricketstudio.ai',
     license: 'https://creativecommons.org/licenses/by/4.0/',
     creator: {
@@ -75,8 +75,14 @@ export default async function HomePage() {
         encodingFormat: 'application/zip',
         contentUrl: 'https://github.com/i-m-arul/cricketstudio-okf/archive/refs/heads/main.zip',
       },
+      {
+        '@type': 'DataDownload',
+        encodingFormat: 'text/plain',
+        contentUrl: 'https://okf.cricketstudio.ai/llms-full.txt',
+        name: 'Full OKF bundle for LLM ingestion',
+      },
     ],
-    keywords: ['cricket', 'IPL', 'MLC', 'cricket stats', 'cricket metrics', 'open data', 'knowledge graph'],
+    keywords: ['cricket', 'IPL', 'MLC', 'IPL 2026', 'cricket stats', 'cricket metrics', 'open data', 'knowledge graph', 'player profiles', 'cricket OKF'],
     isAccessibleForFree: true,
     inLanguage: 'en',
   }
