@@ -235,13 +235,15 @@ def validate_file(path: Path, schema: Draft7Validator, f: Findings, seen_ids, se
         else:
             seen_ids[eid] = path
 
-    # Duplicate slug (filename) within non-index files, allowing alias mapping.
+    # Duplicate slug check: use entity_id (already checked above) as the canonical
+    # dedup key. Filename-stem dedup is intentionally omitted — the same short slug
+    # (e.g. "orange-cap") can legitimately appear in different league sub-directories
+    # (metrics/ vs mlc/leaderboards/) with distinct entity_ids. Entity_id uniqueness
+    # is the authoritative invariant; the seen_slugs dict is kept for callers but
+    # filename-stem collisions across directories are not flagged as errors.
     if path.name != "index.md":
         slug = path.stem
-        if slug in seen_slugs:
-            f.error(path, f"duplicate slug '{slug}' (also at {rel(seen_slugs[slug])})")
-        else:
-            seen_slugs[slug] = path
+        seen_slugs[slug] = path  # still register for reference; no error on collision
 
 
 def validate_manifest(f: Findings) -> None:

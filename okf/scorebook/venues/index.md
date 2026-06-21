@@ -46,9 +46,9 @@ completed matches at snapshot date.
 **Venues with match data (seasons 2023–2025):**
 
 - [Grand Prairie Stadium](../mlc/venues/grand-prairie-stadium.md) — Grand Prairie, TX (43 matches)
-- [Church Street Park](../mlc/venues/church-street-park.md) — Morrisville, NC (14 matches)
+- [Church Street Park](../mlc/venues/church-street-park-morrisville.md) — Morrisville, NC (14 matches)
 - [Oakland Coliseum](../mlc/venues/oakland-coliseum.md) — Oakland, CA (9 matches)
-- [Central Broward Regional Park](../mlc/venues/central-broward-regional-park.md) — Lauderhill, FL (9 matches)
+- [Central Broward Park](../mlc/venues/central-broward-park.md) — Lauderhill, FL (9 matches)
 
 **MLC 2026 venues (registered; match data pending):**
 
