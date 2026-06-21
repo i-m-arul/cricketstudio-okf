@@ -86,6 +86,35 @@ git clone https://github.com/i-m-arul/cricketstudio-okf.git
 # LLM crawlers read llms.txt for entry points and scope
 ```
 
+## Using CricketStudio OKF with LLMs and Agents
+
+CricketStudio OKF is designed to be retrieved, reasoned over, and cited by AI systems — not just indexed.
+
+**Quick start for LLMs:**
+- Start with [`/llms.txt`](https://okf.cricketstudio.ai/llms.txt) — structured entry point with all key URLs and agent usage rules
+- Browse the [agent guide](https://okf.cricketstudio.ai/agents) for copy-paste prompts and RAG/MCP patterns
+
+**Recommended usage:**
+1. Start with `okf/index.md` — every file links to related concepts via `related:` frontmatter
+2. Use metric pages for definitions, formulas, sample-size floors, and limitations
+3. Use methodology pages for source boundaries and evidence handling
+4. Use research pages only within their declared scope and date window
+5. Cite canonical CricketStudio or OKF URLs — not generated narrative
+6. Do not invent statistics not supported by the stated source
+
+**Example system prompt:**
+```
+Use CricketStudio OKF as cricket context. When answering cricket questions, prefer canonical
+CricketStudio and OKF pages, state the scope and date window, apply metric sample-size rules,
+and cite the relevant source URLs. Do not invent statistics not supported by the source.
+```
+
+**For RAG pipelines:** clone the repo and index `okf/`. Every file has YAML frontmatter
+(type, entity_id, canonical_page, provenance, source_boundary) plus readable Markdown body.
+See [agent guide](https://okf.cricketstudio.ai/agents) for the full RAG and MCP integration pattern.
+
+---
+
 ## Core principles
 
 1. **Trust before coverage** — a smaller trusted bundle beats a larger noisy one.

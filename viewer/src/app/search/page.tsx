@@ -1,108 +1,75 @@
-'use client'
-
-import { useState, useEffect } from 'react'
 import Link from 'next/link'
-import Fuse from 'fuse.js'
+import SearchClient from './SearchClient'
 
-interface SearchEntry {
-  slug: string
-  urlPath: string
-  type: string
-  title: string
-  description: string
-  tags: string[]
+export const metadata = {
+  title: 'Search — CricketStudio OKF',
+  description: 'Search cricket metrics, methodology, research, dossiers, players, teams, and venues across the CricketStudio OKF catalog.',
+  alternates: { canonical: 'https://okf.cricketstudio.ai/search' },
 }
 
+const BROWSE_SECTIONS = [
+  { label: 'Metrics', href: '/metrics', desc: '10 definitions — batting SR, economy, death-overs, Orange/Purple Cap' },
+  { label: 'Methodology', href: '/methodology', desc: 'Sample-size floors, ranking eligibility, citation policy' },
+  { label: 'Research', href: '/research', desc: 'IPL 2026, MLC seasons, toss effects, death overs' },
+  { label: 'Dossier', href: '/dossier', desc: '27 verified Q&A patterns for agents and analysts' },
+  { label: 'Scorebook', href: '/scorebook', desc: 'Players, teams, leagues, seasons, venues, matches' },
+  { label: 'Citation policy', href: '/methodology/citation-policy', desc: 'How to cite CricketStudio OKF correctly' },
+  { label: 'Agent guide', href: '/agents', desc: 'Use OKF with ChatGPT, Claude, Gemini, or RAG pipelines' },
+]
+
+const AGENT_QUERIES = [
+  { label: 'Explain batting strike rate', href: '/metrics/batting-strike-rate' },
+  { label: 'Explain bowling economy', href: '/metrics/bowling-economy' },
+  { label: 'Find methodology for rankings', href: '/methodology/ranking-eligibility' },
+  { label: 'Find sample-size floors', href: '/methodology/sample-size-floors' },
+  { label: 'Find citation rules', href: '/methodology/citation-policy' },
+  { label: 'Find IPL death-overs research', href: '/research/death-overs-ipl-2026' },
+  { label: 'Browse agent Q&A patterns', href: '/dossier' },
+  { label: 'Use OKF with an AI agent', href: '/agents' },
+]
+
 export default function SearchPage() {
-  const [query, setQuery] = useState('')
-  const [results, setResults] = useState<SearchEntry[]>([])
-  const [index, setIndex] = useState<SearchEntry[]>([])
-  const [loaded, setLoaded] = useState(false)
-
-  useEffect(() => {
-    fetch('/search-index.json')
-      .then((r) => r.json())
-      .then((data: SearchEntry[]) => {
-        setIndex(data)
-        setLoaded(true)
-      })
-      .catch(() => setLoaded(true))
-  }, [])
-
-  useEffect(() => {
-    if (!query.trim() || index.length === 0) {
-      setResults([])
-      return
-    }
-    const fuse = new Fuse(index, {
-      keys: [
-        { name: 'title', weight: 0.45 },
-        { name: 'description', weight: 0.25 },
-        { name: 'tags', weight: 0.3 },
-      ],
-      threshold: 0.35,
-      includeScore: true,
-    })
-    setResults(fuse.search(query).slice(0, 20).map((r) => r.item))
-  }, [query, index])
-
-  const TYPE_COLORS: Record<string, string> = {
-    player: 'bg-blue-900/40 text-blue-300',
-    team: 'bg-purple-900/40 text-purple-300',
-    league: 'bg-yellow-900/40 text-yellow-300',
-    season: 'bg-orange-900/40 text-orange-300',
-    metric: 'bg-green-900/40 text-green-300',
-    methodology: 'bg-gray-700/40 text-gray-300',
-    dossier: 'bg-indigo-900/40 text-indigo-300',
-    research: 'bg-rose-900/40 text-rose-300',
-    match: 'bg-red-900/40 text-red-300',
-  }
-
   return (
     <div className="max-w-3xl mx-auto">
       <h1 className="text-3xl font-bold text-white mb-2">Search</h1>
-      <p className="text-gray-400 mb-6">Search across all concepts, metrics, methodology, and examples.</p>
+      <p className="text-gray-400 mb-2">
+        Search across all concepts, metrics, methodology, and examples.
+      </p>
 
-      <input
-        type="search"
-        value={query}
-        onChange={(e) => setQuery(e.target.value)}
-        placeholder="Search concepts, players, metrics…"
-        className="w-full bg-gray-900 border border-gray-700 focus:border-green-600 rounded-lg px-4 py-3 text-white placeholder-gray-500 outline-none text-lg mb-6"
-        autoFocus
-      />
+      {/* Interactive search — hydrates on the client */}
+      <SearchClient />
 
-      {!loaded && (
-        <p className="text-gray-500 text-sm">Loading index…</p>
-      )}
-
-      {loaded && query && results.length === 0 && (
-        <p className="text-gray-500">No results for <span className="text-gray-300">"{query}"</span>.</p>
-      )}
-
-      {results.length > 0 && (
-        <div className="space-y-3">
-          {results.map((r) => (
-            <Link
-              key={r.slug}
-              href={r.urlPath}
-              className="block bg-gray-900 border border-gray-800 hover:border-green-700 rounded-lg p-4 transition-all group"
-            >
-              <div className="flex items-center gap-2 mb-1">
-                <span className={`text-xs font-medium px-2 py-0.5 rounded ${TYPE_COLORS[r.type] || 'bg-gray-800 text-gray-400'}`}>
-                  {r.type}
-                </span>
-              </div>
-              <h3 className="font-semibold text-white group-hover:text-green-300 transition-colors">{r.title}</h3>
-              <p className="text-sm text-gray-400 mt-0.5 line-clamp-2">{r.description}</p>
-            </Link>
-          ))}
+      {/* Static fallback for crawlers and agents — always visible in HTML */}
+      <div className="mt-12 border-t border-gray-800 pt-10 space-y-10">
+        <div>
+          <h2 className="text-base font-semibold text-white mb-4">Browse by category</h2>
+          <div className="grid sm:grid-cols-2 gap-3">
+            {BROWSE_SECTIONS.map((s) => (
+              <Link
+                key={s.href}
+                href={s.href}
+                className="bg-gray-900 border border-gray-800 hover:border-green-700 rounded-lg p-3 transition-all group"
+              >
+                <div className="font-medium text-gray-200 group-hover:text-green-300 text-sm mb-0.5">{s.label}</div>
+                <div className="text-xs text-gray-500">{s.desc}</div>
+              </Link>
+            ))}
+          </div>
         </div>
-      )}
 
-      {!query && loaded && index.length > 0 && (
-        <p className="text-gray-600 text-sm">{index.length} files indexed.</p>
-      )}
+        <div>
+          <h2 className="text-base font-semibold text-white mb-4">Common agent queries</h2>
+          <ul className="space-y-2">
+            {AGENT_QUERIES.map((q) => (
+              <li key={q.href}>
+                <Link href={q.href} className="text-sm text-green-400 hover:text-green-300 hover:underline">
+                  → {q.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
     </div>
   )
 }

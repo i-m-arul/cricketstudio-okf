@@ -8,6 +8,7 @@ const FOOTER_COLS = [
       { label: 'Research', href: '/research' },
       { label: 'Dossier', href: '/dossier' },
       { label: 'Search', href: '/search' },
+      { label: 'AI Agents', href: '/agents' },
     ],
   },
   {

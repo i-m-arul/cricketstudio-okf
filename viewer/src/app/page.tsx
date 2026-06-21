@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { getAllFiles, getFilesByType } from '@/lib/okf'
 import OKFCard from '@/components/OKFCard'
-import { Globe, BarChart2, BookOpen, FlaskConical, MessageSquare } from 'lucide-react'
+import { Globe, BarChart2, BookOpen, FlaskConical, MessageSquare, Bot } from 'lucide-react'
 
 export const metadata = {
   title: 'CricketStudio OKF — Open Cricket Knowledge',
@@ -38,6 +38,12 @@ const SECTIONS = [
     label: 'Dossier',
     Icon: MessageSquare,
     desc: 'Verified Q&A patterns with citations and scope',
+  },
+  {
+    href: '/agents',
+    label: 'AI Agents',
+    Icon: Bot,
+    desc: 'Use OKF with ChatGPT, Claude, Gemini, or RAG pipelines',
   },
 ]
 

@@ -10,6 +10,7 @@ export default function Header() {
     { href: '/metrics', label: 'Metrics' },
     { href: '/research', label: 'Research' },
     { href: '/dossier', label: 'Dossier' },
+    { href: '/agents', label: 'Agents' },
     { href: '/search', label: 'Search' },
     { href: '/about', label: 'About' },
   ]
