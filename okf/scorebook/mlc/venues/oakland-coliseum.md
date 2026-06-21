@@ -1,57 +1,82 @@
 ---
 type: venue
 title: Oakland Coliseum
-description: CricketStudio OKF entry for Oakland Coliseum, California — MLC host venue.
+description: CricketStudio OKF entry for Oakland Coliseum — MLC host venue (seasons 2025). 9 matches hosted.
 resource: https://players.cricketstudio.ai/venues/oakland-coliseum
 status: active
-last_verified: 2026-06-19
+last_verified: 2026-06-21
 license: CC-BY-3.0
 source_system: CricketStudio
 source_boundary: public_open_data
 entity_id: cricketstudio:venue:oakland-coliseum
 canonical_page: https://players.cricketstudio.ai/venues/oakland-coliseum
-dataset_version: "2026-06-11"
+dataset_version: "2026-06-20"
 aliases:
   - RingCentral Coliseum
-  - Oakland Arena
 tags:
   - cricket
   - venue
   - MLC
   - T20
 provenance:
-  source: Cricsheet CC BY 3.0 via CricketStudio
+  source: Cricsheet CC BY 3.0 via CricketStudio derived claim layer
   confidence: high
-  snapshot: CricketStudio MLC dataset (2026-06-11)
-  notes: Match counts from Cricsheet open data; attribution required per CC BY 3.0.
+  computed_at: "2026-06-20"
+  notes: Match-level stats computed from Cricsheet open data. Attribution required per CC BY 3.0.
 ---
 
 # Oakland Coliseum
 
 ## Summary
 
-Oakland Coliseum is a multi-purpose stadium in Oakland, California, adapted for cricket as an MLC host venue. It staged **9 matches** across MLC seasons 2023–2025 and is the home venue of MI New York.
+Oakland Coliseum is located in Oakland, California, USA. It hosted **9 MLC matches** across seasons 2025. Iconic multi-sport venue repurposed for MLC 2025.
 
-## Canonical CricketStudio Resources
+## Canonical Resource
 
-- Venue page: <https://players.cricketstudio.ai/venues/oakland-coliseum>
+[players.cricketstudio.ai/venues/oakland-coliseum](https://players.cricketstudio.ai/venues/oakland-coliseum)
 
-## Snapshot Facts (sourced & dated)
+## Venue Stats (MLC 2025)
 
-- City: **Oakland, California, USA**
-- MLC matches hosted (2023–2025): **9**
-- League: **MLC**
+| Metric | Value |
+|--------|-------|
+| Total matches hosted | 9 |
+| Seasons active | 2025 |
+| Decided matches | 9 |
+| No results | 0 |
+| Chase success rate | 33.3% (3 of 9 decided matches) |
+| Toss tendency | Winner chose to field first (6/9 times = 66.7%) |
+
+## Innings Scores
+
+| Innings | Avg score | Highest | Lowest |
+|---------|-----------|---------|--------|
+| First innings | 193.6 | 269 | 145 |
+| Second innings | 148.2 | 203 | 60 |
+
+*Based on 9 decided matches at this venue (MLC 2025).*
+
+## Most Active Teams at This Venue
+
+  - San Francisco Unicorns: 3 innings (3 wins at this venue)
+  - Washington Freedom: 3 innings (2 wins at this venue)
+  - Texas Super Kings: 3 innings (3 wins at this venue)
 
 ## What Agents Should Know
 
-- With 9 matches, this venue has a reasonable sample for MLC venue tendency claims; always state the season context.
-- Source: Cricsheet CC BY 3.0 open data — attribution required.
+- Chase success rate of 33.3% (from 9 decided matches) indicates whether this is a bat-first or chase-friendly ground.
+- First-innings average of 193.6 gives a baseline for par scores when batting first at this venue.
+- Toss tendency: teams winning the toss typically chose to field first (6/9 times = 66.7%).
+- Scope is MLC seasons 2025 only. For live or current season data, use the canonical CricketStudio page.
+- Source: Cricsheet CC BY 3.0. Sample size is 9 matches — treat as indicative, not definitive.
 
 ## Data and Source Notes
 
-- `source_boundary: public_open_data` — Cricsheet CC BY 3.0. Attribution: Cricsheet (<https://cricsheet.org>).
+- `source_boundary: public_open_data` — Cricsheet CC BY 3.0.
+- Attribution: Cricsheet (<https://cricsheet.org>) required per CC BY 3.0.
+- Snapshot: 2026-06-20. MLC Season 4 (2026) matches not yet included.
 
 ## Related Concepts
 
-- [MI New York](../../teams/mi-new-york.md)
-- [MLC League](../../leagues/major-league-cricket.md)
+- [Major League Cricket](../../leagues/major-league-cricket.md)
+- [MLC Seasons](../../seasons/)
+- [MLC Teams](../../teams/)

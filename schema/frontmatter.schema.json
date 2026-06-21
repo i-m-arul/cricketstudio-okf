@@ -36,7 +36,8 @@
         "claim",
         "api",
         "research",
-        "record"
+        "record",
+        "leaderboard"
       ]
     },
     "title": {
