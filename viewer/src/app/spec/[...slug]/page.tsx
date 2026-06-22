@@ -8,11 +8,13 @@ interface Props {
 
 export async function generateStaticParams() {
   const files = await getAllFiles()
-  return files.map((f) => ({ slug: f.slug.split('/') }))
+  return files
+    .filter((f) => f.slug.startsWith('spec/') && !f.slug.endsWith('/index'))
+    .map((f) => ({ slug: f.slug.replace('spec/', '').split('/') }))
 }
 
 export async function generateMetadata({ params }: Props) {
-  const slug = params.slug.join('/')
+  const slug = 'spec/' + params.slug.join('/')
   const file = await getFileBySlug(slug)
   if (!file) return {}
   return buildPageMetadata(file)
@@ -35,8 +37,8 @@ function resolveRelated(file: Awaited<ReturnType<typeof getFileBySlug>>, allFile
     .filter(Boolean) as typeof allFiles
 }
 
-export default async function OKFFilePage({ params }: Props) {
-  const slug = params.slug.join('/')
+export default async function SpecSubPage({ params }: Props) {
+  const slug = 'spec/' + params.slug.join('/')
   const file = await getFileBySlug(slug)
   if (!file) notFound()
 
