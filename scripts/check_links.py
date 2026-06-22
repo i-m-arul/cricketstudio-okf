@@ -70,6 +70,9 @@ def collect_links(path: Path):
             external.append(target)
         elif target.startswith("#") or target.startswith("mailto:"):
             continue
+        elif target.startswith("/"):
+            # Absolute site-relative paths are viewer routes, not local files — skip
+            continue
         else:
             internal.append(target)
     return internal, external

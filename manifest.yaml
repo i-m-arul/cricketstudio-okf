@@ -1,10 +1,11 @@
 name: cricketstudio-okf
-version: 0.2.0
+version: 0.3.0
 description: >-
-  CricketStudio OKF — a curated, agent-readable Open Knowledge Format bundle of
-  cricket concepts, metrics, methodology, sources, and examples. A trusted
-  knowledge catalog layered over CricketStudio's canonical data spine, not a
-  raw mirror of its pages.
+  CricketStudio OKF — the Open Knowledge Framework for Cricket Data. A versioned
+  standard and reference bundle built on Google OKF v0.1, defining a cricket type
+  vocabulary, provenance convention, metric standard, claim discipline, identity
+  rules, and sample-size doctrine. Includes a curated catalog of IPL and MLC
+  cricket knowledge with 400+ files. Self-certified Level 2 (Evidence-Backed).
 license: See LICENSE.md (docs CC-BY-4.0; data per source — see DATA_LICENSE_BOUNDARIES.md)
 homepage: https://okf.cricketstudio.ai
 repository: https://github.com/i-m-arul/cricketstudio-okf
@@ -34,6 +35,8 @@ counts:
   matches: 1
   metrics: 10
   methodology: 6
-  sources: 3
-  dossier: 27
+  sources: 4
+  dossier: 38
   research: 8
+  spec: 8
+  leaderboard: 47
