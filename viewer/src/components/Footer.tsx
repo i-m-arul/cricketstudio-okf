@@ -12,12 +12,26 @@ const FOOTER_COLS = [
     ],
   },
   {
+    heading: 'Standards',
+    links: [
+      { label: 'Specification', href: '/spec' },
+      { label: 'Conformance', href: '/conformance' },
+      { label: 'Releases', href: '/releases' },
+      { label: 'Type vocabulary', href: '/spec/types' },
+      { label: 'Metric standard', href: '/spec/metrics' },
+      { label: 'Sample-size doctrine', href: '/spec/sample-size' },
+      { label: 'Claim discipline', href: '/spec/claims' },
+    ],
+  },
+  {
     heading: 'CricketStudio',
     links: [
       { label: 'CricketStudio.ai', href: 'https://cricketstudio.ai', external: true },
       { label: 'Live data', href: 'https://players.cricketstudio.ai', external: true },
       { label: 'About OKF', href: '/about' },
       { label: 'GitHub', href: 'https://github.com/i-m-arul/cricketstudio-okf', external: true },
+      { label: 'hello@cricketstudio.ai', href: 'mailto:hello@cricketstudio.ai' },
+      { label: '@CricketStudioAI', href: 'https://x.com/CricketStudioAI', external: true },
     ],
   },
   {
@@ -27,9 +41,9 @@ const FOOTER_COLS = [
       { label: 'Data sources', href: '/sources/cricketstudio-derived-claims' },
       { label: 'Cricsheet (CC BY 3.0)', href: 'https://cricsheet.org', external: true },
       { label: 'License (CC-BY-4.0)', href: 'https://creativecommons.org/licenses/by/4.0/', external: true },
+      { label: 'llms.txt', href: '/llms.txt', external: true },
       { label: 'sitemap.xml', href: '/sitemap.xml', external: true },
       { label: 'robots.txt', href: '/robots.txt', external: true },
-      { label: 'llms.txt', href: '/llms.txt', external: true },
     ],
   },
 ]
@@ -39,7 +53,7 @@ export default function Footer() {
     <footer className="border-t border-gray-800 mt-20 text-sm text-gray-500">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {/* Columns */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 gap-8 mb-10">
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-8 mb-10">
           {FOOTER_COLS.map((col) => (
             <div key={col.heading}>
               <div className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">
@@ -65,7 +79,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="border-t border-gray-800 pt-6 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-gray-600">
           <span>
-            <span className="text-green-500 font-semibold">CricketStudio</span> OKF v0.2
+            <span className="text-green-500 font-semibold">CricketStudio</span> OKF v0.3 · Level 2 (Evidence-Backed)
           </span>
           <span>
             CC-BY-4.0 · IPL historical &amp; MLC data via{' '}
