@@ -3,18 +3,22 @@
 **The open, agent-readable knowledge layer for cricket.**
 
 [![License: CC-BY-4.0](https://img.shields.io/badge/License-CC--BY--4.0-lightgrey.svg)](LICENSE.md)
-[![OKF v0.2](https://img.shields.io/badge/OKF-v0.2-green.svg)](CHANGELOG.md)
+[![OKF v0.3](https://img.shields.io/badge/OKF-v0.3-green.svg)](CHANGELOG.md)
+[![Google OKF v0.1 conformant](https://img.shields.io/badge/Google%20OKF-v0.1%20conformant-blue.svg)](okf/sources/google-okf-alignment.md)
 [![Cricsheet CC BY 3.0](https://img.shields.io/badge/data-Cricsheet%20CC%20BY%203.0-blue.svg)](ATTRIBUTION.md)
 
-Browse the live catalog → **[okf.cricketstudio.ai](https://okf.cricketstudio.ai)**
+Browse the live catalog → **[okf.cricketstudio.ai](https://okf.cricketstudio.ai)**  
+Read the spec → **[okf.cricketstudio.ai/spec](https://okf.cricketstudio.ai/spec)**
 
 ---
 
-CricketStudio OKF is a curated bundle of Markdown + YAML files that describes cricket
-entities — players, teams, leagues, seasons, matches, venues — plus the **metrics**,
-**methodology**, **sources**, and **dossier** needed to use them correctly. It is a
-*knowledge catalog*, not a raw data dump: a trusted semantic layer over
-[CricketStudio](https://players.cricketstudio.ai)'s canonical data.
+CricketStudio OKF is the **Open Knowledge Framework for Cricket Data** — a versioned
+standard and reference bundle built on [Google OKF v0.1](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md).
+
+It defines a **cricket type vocabulary**, **provenance convention**, **metric definition
+standard**, **claim discipline**, **entity identity rules**, and **sample-size doctrine**
+— and publishes a curated catalog of IPL and MLC cricket knowledge as the reference
+implementation. Self-certified [Level 2 (Evidence-Backed)](https://okf.cricketstudio.ai/conformance).
 
 ```yaml
 # Every OKF file looks like this
@@ -45,21 +49,32 @@ Four audiences:
 ```
 okf/
   index.md               # start here
+  spec/                  # Cricket OKF specification (8 documents)
+    types.md             # 19 type values — player, team, metric, dossier, leaderboard, spec...
+    provenance.md        # source_boundary, confidence, last_verified, dataset_version
+    metrics.md           # 10 required sections every metric file must include
+    claims.md            # claim discipline — scope, sample size, claim types
+    identity.md          # slug conventions, aliases, same_as, disambiguation
+    sample-size.md       # floors: ≥30 balls batting, ≥15 bowling, ≥60 phase
+    conformance.md       # Level 0–4 conformance requirements
   scorebook/
     leagues/             # IPL, MLC
     seasons/             # IPL 2026, IPL 2026 Champions
-    teams/               # RCB, Mumbai Indians, Rajasthan Royals
-    players/             # Virat Kohli, Jasprit Bumrah, Vaibhav Suryavanshi
-    venues/              # Narendra Modi Stadium, Wankhede
+    teams/               # All 10 IPL 2026 franchises + MLC teams
+    players/             # 65 players with phase splits, pillar claims, H2H records
+    venues/              # 11 IPL venues — innings averages, toss tendency
     matches/             # IPL 2026 Final
-  metrics/               # 10 definitions: batting SR, economy, death-overs, Orange/Purple Cap ...
+  metrics/               # 10 definitions: batting SR, economy, death-overs, Orange/Purple Cap...
   methodology/           # sample-size floors, ranking eligibility, citation policy
   sources/               # data provenance and license boundaries
-  dossier/              # 27 verified Q&A patterns for agents
+  dossier/               # 27 verified Q&A patterns for agents
   research/              # 8 reports: IPL 2026 season, MLC seasons, toss effects, death overs
+  releases/              # versioned release notes (v0.1, v0.2, v0.3)
 schema/
   frontmatter.schema.json
   okf.schema.json
+examples/
+  cricket/               # standalone contribution bundle for Google OKF upstream
 llms.txt                 # LLM crawler entry point
 datapackage.json         # OKFN Frictionless Data Package
 ```
@@ -133,7 +148,7 @@ Full terms: [`LICENSE.md`](LICENSE.md) · [`DATA_LICENSE_BOUNDARIES.md`](DATA_LI
 
 ## Status
 
-**v0.2** — curated bundle: 166 files · 10 metrics · 6 methodology · 8 research · 27 dossier · 0 invented facts.  
+**v0.3** — Cricket OKF Standards Layer: 424+ files · 8 spec documents · 10 metrics · 6 methodology · 8 research · 27 dossier · Level 2 conformance · 0 invented facts.  
 See [`CHANGELOG.md`](CHANGELOG.md) for what's in this release.
 
 ## Viewer (`okf.cricketstudio.ai`)

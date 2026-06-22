@@ -49,14 +49,25 @@ export default function AboutPage() {
         <h2 className="text-xl font-semibold text-white mb-3">What is OKF?</h2>
         <div className="text-gray-400 space-y-3 text-sm leading-relaxed">
           <p>
-            OKF stands for <strong className="text-gray-200">Open Knowledge Format</strong> — a structured bundle of
-            Markdown files with YAML frontmatter that describes cricket entities: players, teams, leagues, seasons,
-            venues, and matches, alongside the metrics and methodology needed to understand them correctly.
+            CricketStudio OKF is the <strong className="text-gray-200">Open Knowledge Framework for Cricket Data</strong> —
+            a versioned standard and reference bundle built on{' '}
+            <a href="https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md" className="text-green-400 hover:underline" target="_blank" rel="noopener noreferrer">
+              Google OKF v0.1
+            </a>
+            . It defines a cricket type vocabulary, provenance convention, metric definition standard, claim
+            discipline, entity identity rules, and sample-size doctrine.
           </p>
           <p>
-            Each file is plain text. It reads cleanly as a web page, embeds neatly into a developer pipeline, and
-            parses reliably as structured data. Every file declares its type, provenance, source boundary, and a
-            canonical link back to CricketStudio's live data.
+            Each file is plain text — Markdown with YAML frontmatter. It reads cleanly as a web page,
+            embeds neatly into a developer pipeline, and parses reliably as structured data. Every file
+            declares its type, provenance, source boundary, and a canonical link back to CricketStudio's
+            live data.
+          </p>
+          <p>
+            The <Link href="/spec" className="text-green-400 hover:underline">Specification</Link> documents
+            define the standard. The <code className="text-gray-300 bg-gray-800 px-1 rounded">okf/</code> bundle
+            in this repository is the reference implementation, self-certified at{' '}
+            <Link href="/conformance" className="text-green-400 hover:underline">Level 2 (Evidence-Backed)</Link>.
           </p>
         </div>
       </section>
@@ -134,11 +145,12 @@ export default function AboutPage() {
         <h2 className="text-xl font-semibold text-white mb-3">What's in the bundle</h2>
         <div className="grid sm:grid-cols-2 gap-3 text-sm">
           {[
+            { label: 'Specification', desc: 'Type vocabulary, provenance, metrics, claims, identity, sample-size, conformance' },
             { label: 'Scorebook', desc: 'Players, teams, leagues, seasons, venues, matches' },
             { label: 'Metrics', desc: '10 definitions — batting SR, economy, death-overs, Orange/Purple Cap' },
             { label: 'Methodology', desc: 'Sample-size floors, ranking eligibility, citation policy' },
-            { label: 'Research', desc: '7 reports — IPL 2026, MLC seasons, toss effects, death overs' },
-            { label: 'Dossier', desc: '22 verified Q&A patterns showing correct citation and scope' },
+            { label: 'Research', desc: '8 reports — IPL 2026, MLC seasons, toss effects, death overs' },
+            { label: 'Dossier', desc: '27 verified Q&A patterns showing correct citation and scope' },
             { label: 'Sources', desc: 'Data provenance and license boundaries for every source used' },
           ].map((item) => (
             <div key={item.label} className="bg-gray-900 border border-gray-800 rounded-lg p-3">

@@ -8,20 +8,22 @@ export const metadata = {
 }
 
 const BROWSE_SECTIONS = [
+  { label: 'Specification', href: '/spec', desc: 'Type vocabulary, provenance, metrics, claims, identity, sample-size — the Cricket OKF standard' },
   { label: 'Metrics', href: '/metrics', desc: '10 definitions — batting SR, economy, death-overs, Orange/Purple Cap' },
   { label: 'Methodology', href: '/methodology', desc: 'Sample-size floors, ranking eligibility, citation policy' },
   { label: 'Research', href: '/research', desc: 'IPL 2026, MLC seasons, toss effects, death overs' },
   { label: 'Dossier', href: '/dossier', desc: '27 verified Q&A patterns for agents and analysts' },
   { label: 'Scorebook', href: '/scorebook', desc: 'Players, teams, leagues, seasons, venues, matches' },
-  { label: 'Citation policy', href: '/methodology/citation-policy', desc: 'How to cite CricketStudio OKF correctly' },
+  { label: 'Conformance', href: '/conformance', desc: 'Level 0–4 checklist — self-certified Level 2 (Evidence-Backed)' },
   { label: 'Agent guide', href: '/agents', desc: 'Use OKF with ChatGPT, Claude, Gemini, or RAG pipelines' },
 ]
 
 const AGENT_QUERIES = [
+  { label: 'What is the Cricket OKF standard?', href: '/spec' },
   { label: 'Explain batting strike rate', href: '/metrics/batting-strike-rate' },
   { label: 'Explain bowling economy', href: '/metrics/bowling-economy' },
   { label: 'Find methodology for rankings', href: '/methodology/ranking-eligibility' },
-  { label: 'Find sample-size floors', href: '/methodology/sample-size-floors' },
+  { label: 'Find sample-size floors', href: '/spec/sample-size' },
   { label: 'Find citation rules', href: '/methodology/citation-policy' },
   { label: 'Find IPL death-overs research', href: '/research/death-overs-ipl-2026' },
   { label: 'Browse agent Q&A patterns', href: '/dossier' },

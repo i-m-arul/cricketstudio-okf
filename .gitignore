@@ -33,6 +33,11 @@ CricketStudio_OKF_Requirements.md
 CONSTITUTION.md
 OPERATING_SYSTEM.md
 
+# Claude session files and AI planning artifacts — never commit
+.claude/
+Claude-Recommendations-OKF.md
+Claude_CricketStudio_OKF_Standard.md
+
 # Internal development planning docs — not OKF content
 docs/
 
