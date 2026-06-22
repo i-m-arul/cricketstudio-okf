@@ -17,8 +17,6 @@ related:
   - ../methodology/phase-definitions.md
 ---
 
-# Example — What is death-over economy?
-
 ## User Question
 
 > What is death-over economy?

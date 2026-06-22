@@ -18,8 +18,6 @@ related:
   - ../sources/cricketstudio-derived-claims.md
 ---
 
-# Example — How to cite CricketStudio
-
 ## User Question
 
 > How should I cite CricketStudio when I use a stat?

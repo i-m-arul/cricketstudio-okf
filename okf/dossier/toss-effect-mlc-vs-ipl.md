@@ -25,8 +25,6 @@ provenance:
   snapshot: CricketStudio internal dataset (2026-06-11)
 ---
 
-# Example — Toss effect in MLC vs IPL
-
 ## User Question
 
 > How does the toss effect in MLC compare to IPL?

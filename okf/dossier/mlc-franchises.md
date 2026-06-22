@@ -24,8 +24,6 @@ provenance:
   snapshot: CricketStudio internal dataset (2026-06-11)
 ---
 
-# Example — What are the MLC franchises?
-
 ## User Question
 
 > How many teams are in MLC, and what are they?

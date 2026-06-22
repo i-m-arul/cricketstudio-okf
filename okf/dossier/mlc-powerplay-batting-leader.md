@@ -22,8 +22,6 @@ provenance:
   snapshot: CricketStudio MLC dataset (2026-06-20)
 ---
 
-# Example — Who leads MLC powerplay batting strike rate?
-
 ## User Question
 
 > Who has the best batting strike rate in the powerplay in MLC?

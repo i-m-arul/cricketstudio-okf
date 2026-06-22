@@ -25,8 +25,6 @@ provenance:
   snapshot: CricketStudio internal dataset (2026-06-11)
 ---
 
-# Example — Which teams made the IPL 2026 playoffs?
-
 ## User Question
 
 > Which teams qualified for the IPL 2026 playoffs?

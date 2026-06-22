@@ -21,8 +21,6 @@ provenance:
   snapshot: CricketStudio MLC dataset (2026-06-20)
 ---
 
-# Example — Who has won each MLC season?
-
 ## User Question
 
 > Who has won MLC? Which teams have been champions?

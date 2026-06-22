@@ -22,8 +22,6 @@ provenance:
   snapshot: CricketStudio MLC dataset (2026-06-20)
 ---
 
-# Example — Who leads MLC death-overs batting strike rate?
-
 ## User Question
 
 > Who hits best in death overs in MLC?

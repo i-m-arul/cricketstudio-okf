@@ -23,8 +23,6 @@ provenance:
   snapshot: CricketStudio internal dataset (2026-06-11)
 ---
 
-# Example — Who won MLC 2025?
-
 ## User Question
 
 > Who won MLC 2025?

@@ -21,8 +21,6 @@ provenance:
   snapshot: CricketStudio MLC dataset (2026-06-20)
 ---
 
-# Example — What is Washington Freedom's all-time MLC record?
-
 ## User Question
 
 > How has Washington Freedom performed across MLC seasons?

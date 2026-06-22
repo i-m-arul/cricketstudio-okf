@@ -22,8 +22,6 @@ provenance:
   snapshot: CricketStudio MLC dataset (2026-06-20)
 ---
 
-# Example — What is TA Boult's MLC career record?
-
 ## User Question
 
 > How many wickets has Trent Boult taken in MLC?

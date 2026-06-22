@@ -17,8 +17,6 @@ related:
   - how-to-cite-cricketstudio.md
 ---
 
-# Example — Find a player's canonical URL
-
 ## User Question
 
 > What's the CricketStudio page for Virat Kohli?

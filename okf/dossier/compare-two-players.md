@@ -18,8 +18,6 @@ related:
   - compare-bumrah-vs-suryavanshi.md
 ---
 
-# Example — Compare two players (pattern)
-
 ## User Question
 
 > Compare Player A and Player B.

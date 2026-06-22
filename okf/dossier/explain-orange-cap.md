@@ -17,8 +17,6 @@ related:
   - ../metrics/purple-cap.md
 ---
 
-# Example — Explain the Orange Cap
-
 ## User Question
 
 > What is the Orange Cap?

@@ -22,8 +22,6 @@ provenance:
   snapshot: CricketStudio MLC dataset (2026-06-20)
 ---
 
-# Example — Which MLC franchise has the best all-time win record?
-
 ## User Question
 
 > Which MLC team has the best overall record?

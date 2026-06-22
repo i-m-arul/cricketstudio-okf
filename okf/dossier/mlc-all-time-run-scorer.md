@@ -26,8 +26,6 @@ provenance:
   snapshot: CricketStudio internal dataset (2026-06-11)
 ---
 
-# Example — MLC all-time leading run-scorer
-
 ## User Question
 
 > Who has scored most runs in MLC history?

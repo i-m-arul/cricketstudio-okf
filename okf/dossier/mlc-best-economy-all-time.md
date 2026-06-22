@@ -26,8 +26,6 @@ provenance:
   snapshot: CricketStudio internal dataset (2026-06-11)
 ---
 
-# Example — Best economy rate in MLC history
-
 ## User Question
 
 > Who has the best bowling economy rate in MLC?
