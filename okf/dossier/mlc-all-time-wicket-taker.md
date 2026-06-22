@@ -26,8 +26,6 @@ provenance:
   snapshot: CricketStudio internal dataset (2026-06-11)
 ---
 
-# Example — MLC all-time leading wicket-taker
-
 ## User Question
 
 > Who has taken most wickets in MLC history?

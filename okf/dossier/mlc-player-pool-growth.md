@@ -22,8 +22,6 @@ provenance:
   snapshot: CricketStudio MLC dataset (2026-06-20)
 ---
 
-# Example — How has MLC player pool grown across seasons?
-
 ## User Question
 
 > How many players have appeared in MLC? How has the player pool grown?

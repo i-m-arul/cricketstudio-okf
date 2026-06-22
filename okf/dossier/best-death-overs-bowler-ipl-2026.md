@@ -25,8 +25,6 @@ provenance:
   snapshot: CricketStudio internal dataset (2026-06-11)
 ---
 
-# Example — Best death-overs bowler in IPL 2026
-
 ## User Question
 
 > Who bowled best in death overs in IPL 2026?

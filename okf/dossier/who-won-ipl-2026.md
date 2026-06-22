@@ -22,8 +22,6 @@ provenance:
   snapshot: CricketStudio internal dataset (2026-06-11)
 ---
 
-# Example — Who won IPL 2026?
-
 ## User Question
 
 > Who won IPL 2026?

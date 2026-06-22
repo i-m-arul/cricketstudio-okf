@@ -17,8 +17,6 @@ related:
   - ../methodology/ranking-eligibility.md
 ---
 
-# Example — When NOT to rank a player
-
 ## User Question
 
 > This player has a strike rate of 300 — are they the best batter in the league?

@@ -22,8 +22,6 @@ provenance:
   snapshot: CricketStudio MLC dataset (2026-06-20)
 ---
 
-# Example — What is F du Plessis's MLC career record?
-
 ## User Question
 
 > How many runs has Faf du Plessis scored in MLC?

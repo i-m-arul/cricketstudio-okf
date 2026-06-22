@@ -21,8 +21,6 @@ provenance:
   snapshot: CricketStudio MLC dataset (2026-06-20)
 ---
 
-# Example — Who has played the most MLC matches?
-
 ## User Question
 
 > Who has played the most games in MLC?

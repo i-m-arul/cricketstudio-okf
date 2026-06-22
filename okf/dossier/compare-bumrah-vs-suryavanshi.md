@@ -22,8 +22,6 @@ provenance:
   snapshot: CricketStudio internal dataset (2026-06-11)
 ---
 
-# Example — Compare Bumrah vs Suryavanshi
-
 ## User Question
 
 > Who is better, Bumrah or Suryavanshi?

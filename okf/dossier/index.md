@@ -14,8 +14,6 @@ tags:
   - index
 ---
 
-# Examples
-
 Examples are first-class assets: they teach agents how to answer cricket questions
 responsibly. Each shows the question, the correct answer pattern, required concepts and
 metrics, citation behavior, caveats, and a bad-answer counter-example.

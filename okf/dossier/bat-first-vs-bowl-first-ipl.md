@@ -24,8 +24,6 @@ provenance:
   snapshot: CricketStudio internal dataset (2026-06-11)
 ---
 
-# Example — Bat first vs bowl first in IPL
-
 ## User Question
 
 > Should IPL captains bat first or bowl first after winning the toss?

@@ -22,8 +22,6 @@ provenance:
   snapshot: CricketStudio MLC dataset (2026-06-20)
 ---
 
-# Example — Is Grand Prairie Stadium bat-first or chase-friendly?
-
 ## User Question
 
 > Is Grand Prairie Stadium in MLC better for batting first or chasing?

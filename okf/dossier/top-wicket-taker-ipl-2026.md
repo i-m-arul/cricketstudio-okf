@@ -17,8 +17,6 @@ related:
   - ../scorebook/seasons/ipl-2026.md
 ---
 
-# Example — Top wicket-taker, IPL 2026
-
 ## User Question
 
 > Who took the most wickets in IPL 2026?

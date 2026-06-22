@@ -24,8 +24,6 @@ provenance:
   snapshot: CricketStudio internal dataset (2026-06-11)
 ---
 
-# Example — Best death-overs bowler in MLC history
-
 ## User Question
 
 > Who has bowled best in MLC death overs?

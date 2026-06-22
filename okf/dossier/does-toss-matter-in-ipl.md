@@ -23,8 +23,6 @@ provenance:
   snapshot: CricketStudio internal dataset (2026-06-11)
 ---
 
-# Example — Does the toss matter in IPL?
-
 ## User Question
 
 > Does winning the toss guarantee a win in IPL?

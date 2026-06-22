@@ -17,8 +17,6 @@ related:
   - ../scorebook/seasons/ipl-2026.md
 ---
 
-# Example — Top run-scorer, IPL 2026
-
 ## User Question
 
 > Who scored the most runs in IPL 2026?
