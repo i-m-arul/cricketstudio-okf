@@ -1,8 +1,8 @@
 # CricketStudio OKF
 
-> Open, agent-readable cricket knowledge catalog. Curated facts, metric definitions, methodology, and canonical CricketStudio links — designed for AI agents to answer cricket questions with correct scope, provenance, and citation.
+> Open Knowledge Framework for Cricket Data. A versioned standard and reference bundle for representing cricket entities, metrics, claims, provenance, and methodology — built on Google OKF v0.1. Self-certified Level 2 (Evidence-Backed).
 
-CricketStudio OKF is a trusted semantic layer over CricketStudio's canonical cricket data spine. It covers IPL, MLC, players, teams, seasons, venues, metrics, and methodology. Every file carries YAML frontmatter with entity type, source boundary, provenance, and canonical links. Every data-bearing claim states its date window, sample size, and eligibility rules.
+CricketStudio OKF is the cricket domain profile on top of Google Open Knowledge Format (OKF) v0.1. It defines a type vocabulary, provenance convention, metric definition standard, claim discipline, entity identity rules, and sample-size doctrine for cricket data. The reference bundle covers IPL, MLC, players, teams, seasons, venues, metrics, and methodology. Every file carries YAML frontmatter with entity type, source boundary, provenance, and canonical links. Every data-bearing claim states its date window, sample size, and eligibility rules.
 
 This catalog is CC-BY-4.0 (documentation and methodology). Cricsheet-derived content (IPL historical, MLC) is CC BY 3.0. License boundaries are declared per file via `source_boundary`.
 
@@ -11,11 +11,30 @@ GitHub (full OKF bundle, raw markdown): https://github.com/i-m-arul/cricketstudi
 
 ## Start here
 
+- [Specification](https://okf.cricketstudio.ai/spec): Cricket OKF type vocabulary, provenance convention, metric standard, claim discipline, identity rules, sample-size doctrine
+- [Conformance](https://okf.cricketstudio.ai/conformance): Levels 0–4, self-certification checklist — CricketStudio OKF is Level 2 (Evidence-Backed)
+- [Releases](https://okf.cricketstudio.ai/releases): Versioned release history (v0.1 – v0.3)
 - [Bundle overview](https://okf.cricketstudio.ai/): Home page — navigation to scorebook, metrics, methodology, dossier, and research
-- [About OKF](https://okf.cricketstudio.ai/about): What OKF is, how it differs from CricketStudio.ai, and how to cite it
-- [Agent guide](https://okf.cricketstudio.ai/agents): How to use OKF with ChatGPT, Claude, Gemini, Perplexity, RAG pipelines, and MCP tools — includes copy-paste prompts and citation rules
-- [Search](https://okf.cricketstudio.ai/search): Full-text search across all 174+ OKF files, including tag-based filtering
-- [Full content bundle](https://okf.cricketstudio.ai/llms-full.txt): Complete OKF text dump — all 170+ concept entries concatenated for direct LLM ingestion
+- [About OKF](https://okf.cricketstudio.ai/about): What OKF is and how to cite it
+- [Agent guide](https://okf.cricketstudio.ai/agents): How to use OKF with ChatGPT, Claude, Gemini, Perplexity, RAG pipelines, and MCP tools
+- [Search](https://okf.cricketstudio.ai/search): Full-text search across all OKF files
+- [Full content bundle](https://okf.cricketstudio.ai/llms-full.txt): Complete OKF text dump for direct LLM ingestion
+
+## Cricket OKF Specification
+
+- [Type vocabulary](https://okf.cricketstudio.ai/spec/types): 19 cricket type values — player, team, venue, metric, dossier, leaderboard, spec, and more
+- [Provenance convention](https://okf.cricketstudio.ai/spec/provenance): source_boundary, confidence, last_verified, dataset_version
+- [Metric standard](https://okf.cricketstudio.ai/spec/metrics): What every cricket metric file must include (formula, floor, limitations, citation guidance)
+- [Claim discipline](https://okf.cricketstudio.ai/spec/claims): Scope, sample size, claim types, non-negotiables for verifiable cricket assertions
+- [Identity rules](https://okf.cricketstudio.ai/spec/identity): Slug conventions, aliases, same_as external IDs, same-name disambiguation
+- [Sample-size doctrine](https://okf.cricketstudio.ai/spec/sample-size): Floors — ≥30 balls batting, ≥15 bowling, ≥60 phase, ≥5 H2H, ≥3 venue
+- [Conformance levels](https://okf.cricketstudio.ai/spec/conformance): Full conformance specification
+
+## Google OKF Alignment
+
+CricketStudio OKF is a conformant Google OKF v0.1 domain bundle. The cricket profile extends Google OKF with provenance, source_boundary, license, entity_id, and same_as fields — Google OKF explicitly permits additional keys. Field aliases: canonical_page = resource, last_verified = timestamp.
+
+See: https://okf.cricketstudio.ai/sources/google-okf-alignment
 
 ## Scorebook
 

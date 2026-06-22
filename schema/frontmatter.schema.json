@@ -37,7 +37,8 @@
         "api",
         "research",
         "record",
-        "leaderboard"
+        "leaderboard",
+        "spec"
       ]
     },
     "title": {

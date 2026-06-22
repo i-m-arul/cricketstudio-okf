@@ -14,6 +14,10 @@ export const TYPE_LABELS: Record<string, string> = {
   runbook: 'Runbooks',
   reference: 'References',
   index: 'Index',
+  spec: 'Specification',
+  leaderboard: 'Leaderboards',
+  claim: 'Claims',
+  api: 'API',
 }
 
 export const SOURCE_BOUNDARY_LABELS: Record<string, { label: string; color: string }> = {

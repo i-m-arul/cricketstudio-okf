@@ -184,6 +184,14 @@ def check_metric(fm: dict, body: str, path: Path, f: Findings) -> None:
         f.warn(path, "metric file does not mention a sample-size floor")
 
 
+def check_google_okf_alignment(fm: dict, path: Path, f: Findings) -> None:
+    """Soft warnings for missing Google OKF v0.1 recommended fields."""
+    if "canonical_page" in fm and "resource" not in fm:
+        f.warn(path, "Google OKF alignment: has canonical_page but missing 'resource' (recommended alias)")
+    if "last_verified" in fm and "timestamp" not in fm:
+        f.warn(path, "Google OKF alignment: has last_verified but missing 'timestamp' (recommended alias)")
+
+
 def check_provenance(fm: dict, path: Path, f: Findings) -> None:
     typ = fm.get("type")
     boundary = fm.get("source_boundary")
@@ -219,6 +227,7 @@ def validate_file(path: Path, schema: Draft7Validator, f: Findings, seen_ids, se
     check_urls(fm, path, f)
     check_links(fm, body, path, f)
     check_restricted(body, path, f)
+    check_google_okf_alignment(fm, path, f)
     check_provenance(fm, path, f)
 
     if fm.get("type") == "metric":

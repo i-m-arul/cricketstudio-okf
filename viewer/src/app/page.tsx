@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { getAllFiles, getFilesByType } from '@/lib/okf'
 import OKFCard from '@/components/OKFCard'
-import { Globe, BarChart2, BookOpen, FlaskConical, MessageSquare, Bot } from 'lucide-react'
+import { Globe, BarChart2, BookOpen, FlaskConical, MessageSquare, Bot, FileText, ShieldCheck } from 'lucide-react'
 
 export const metadata = {
   title: 'CricketStudio OKF — Open Cricket Knowledge',
@@ -9,6 +9,12 @@ export const metadata = {
 }
 
 const SECTIONS = [
+  {
+    href: '/spec',
+    label: 'Specification',
+    Icon: FileText,
+    desc: 'Cricket OKF type vocabulary, provenance, metrics, claims, identity, sample-size',
+  },
   {
     href: '/scorebook',
     label: 'Scorebook',
@@ -38,6 +44,12 @@ const SECTIONS = [
     label: 'Dossier',
     Icon: MessageSquare,
     desc: 'Verified Q&A patterns with citations and scope',
+  },
+  {
+    href: '/conformance',
+    label: 'Conformance',
+    Icon: ShieldCheck,
+    desc: 'Conformance levels 0–4 and self-certification checklist',
   },
   {
     href: '/agents',
@@ -103,18 +115,19 @@ export default async function HomePage() {
       <section className="pt-10 pb-12 text-center">
         <div className="inline-flex items-center gap-2 bg-green-900/20 border border-green-800 text-green-400 text-xs font-medium px-3 py-1 rounded-full mb-6">
           <span className="w-1.5 h-1.5 bg-green-400 rounded-full" />
-          v0.2 · Open
+          v0.3 · Open
         </div>
         <h1 className="text-4xl md:text-5xl font-bold text-white mb-3 tracking-tight">
-          The Open Cricket<br />Knowledge Catalog
+          Open Knowledge Framework<br />for Cricket Data
         </h1>
         <p className="text-green-400 text-xl font-medium mb-6 tracking-wide">
           Every claim. Every source. Open.
         </p>
         <p className="text-gray-400 text-base max-w-xl mx-auto mb-8">
-          <a href="https://cricketstudio.ai" className="text-green-500 hover:underline">CricketStudio.ai</a> gives
-          you the live stats. OKF gives you the open standard behind them — metric definitions,
-          methodology, provenance, and canonical links. Portable, citable, and forkable.
+          CricketStudio OKF is a versioned open standard for representing cricket entities,
+          metrics, claims, provenance, and methodology — built on{' '}
+          <a href="https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md" className="text-green-500 hover:underline" target="_blank" rel="noopener noreferrer">Google OKF v0.1</a>.
+          Portable, citable, and agent-readable.
         </p>
         <div className="flex flex-wrap justify-center gap-3">
           <Link
@@ -193,9 +206,10 @@ export default async function HomePage() {
       <section className="bg-gray-900 border border-gray-800 rounded-xl p-6 mb-10">
         <h2 className="font-semibold text-white mb-2">What is CricketStudio OKF?</h2>
         <p className="text-gray-400 text-sm mb-4">
-          OKF stands for Open Knowledge Format — a structured bundle of Markdown + YAML files
-          that defines cricket concepts with formulas, scope, provenance, and canonical links.
-          Every file is readable by humans and parseable by tools. No invented facts, no raw data dumps.
+          CricketStudio OKF is the Open Knowledge Framework for Cricket Data — a versioned standard
+          and reference bundle for representing cricket knowledge with formulas, scope, provenance,
+          and canonical links. Built on Google OKF v0.1. Every file is readable by humans and
+          parseable by tools. No invented facts, no raw data dumps.
         </p>
         <div className="flex gap-4 flex-wrap">
           <Link href="/about" className="text-sm text-green-400 hover:underline">Full story →</Link>
