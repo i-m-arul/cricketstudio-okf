@@ -3,12 +3,13 @@
 **The open, agent-readable knowledge layer for cricket.**
 
 [![License: CC-BY-4.0](https://img.shields.io/badge/License-CC--BY--4.0-lightgrey.svg)](LICENSE.md)
-[![OKF v0.3](https://img.shields.io/badge/OKF-v0.3-green.svg)](CHANGELOG.md)
+[![OKF v0.4](https://img.shields.io/badge/OKF-v0.4-green.svg)](CHANGELOG.md)
 [![Google OKF v0.1 conformant](https://img.shields.io/badge/Google%20OKF-v0.1%20conformant-blue.svg)](okf/sources/google-okf-alignment.md)
 [![Cricsheet CC BY 3.0](https://img.shields.io/badge/data-Cricsheet%20CC%20BY%203.0-blue.svg)](ATTRIBUTION.md)
 
 Browse the live catalog → **[okf.cricketstudio.ai](https://okf.cricketstudio.ai)**  
-Read the spec → **[okf.cricketstudio.ai/spec](https://okf.cricketstudio.ai/spec)**
+Read the spec → **[okf.cricketstudio.ai/spec/](https://okf.cricketstudio.ai/spec/)**  
+Cricket stories → **[okf.cricketstudio.ai/stories/](https://okf.cricketstudio.ai/stories/)**
 
 ---
 
@@ -40,7 +41,7 @@ Four audiences:
 | **AI agents** | Context that reduces hallucination and improves citation quality |
 | **Developers** | Portable, versioned, schema-validated bundle — index, query, embed |
 | **Analysts & journalists** | Clean metric definitions, provenance, sample-size rules |
-| **Fans** | Explainable cricket, not just numbers |
+| **Fans** | Cricket stories grounded in provenance — the numbers behind the narrative |
 
 ---
 
@@ -50,7 +51,7 @@ Four audiences:
 okf/
   index.md               # start here
   spec/                  # Cricket OKF specification (8 documents)
-    types.md             # 19 type values — player, team, metric, dossier, leaderboard, spec...
+    types.md             # 20 type values — player, team, metric, dossier, story, leaderboard, spec...
     provenance.md        # source_boundary, confidence, last_verified, dataset_version
     metrics.md           # 10 required sections every metric file must include
     claims.md            # claim discipline — scope, sample size, claim types
@@ -62,17 +63,21 @@ okf/
     seasons/             # IPL 2026, IPL 2026 Champions
     teams/               # All 10 IPL 2026 franchises + MLC teams
     players/             # 65 players with phase splits, pillar claims, H2H records
-    venues/              # 11 IPL venues — innings averages, toss tendency
+    venues/              # 11 IPL venues + 5 MLC venues — innings averages, toss tendency
     matches/             # IPL 2026 Final
   metrics/               # 10 definitions: batting SR, economy, death-overs, Orange/Purple Cap...
   methodology/           # sample-size floors, ranking eligibility, citation policy
   sources/               # data provenance and license boundaries
-  dossier/               # 27 verified Q&A patterns for agents
+  dossier/               # 37 verified Q&A patterns for agents
   research/              # 8 reports: IPL 2026 season, MLC seasons, toss effects, death overs
-  releases/              # versioned release notes (v0.1, v0.2, v0.3)
+  stories/               # 5 cricket narratives (Journeys) grounded in provenance-backed OKF data
+  releases/              # versioned release notes (v0.1, v0.2, v0.3, v0.4)
 schema/
   frontmatter.schema.json
   okf.schema.json
+scripts/
+  validate_okf.py        # schema + provenance + link validator
+  build_llms_full.py     # regenerates llms-full.txt and llms.txt from all OKF files
 examples/
   cricket/               # standalone contribution bundle for Google OKF upstream
 llms.txt                 # LLM crawler entry point
@@ -107,15 +112,16 @@ CricketStudio OKF is designed to be retrieved, reasoned over, and cited by AI sy
 
 **Quick start for LLMs:**
 - Start with [`/llms.txt`](https://okf.cricketstudio.ai/llms.txt) — structured entry point with all key URLs and agent usage rules
-- Browse the [agent guide](https://okf.cricketstudio.ai/agents) for copy-paste prompts and RAG/MCP patterns
+- Browse the [agent guide](https://okf.cricketstudio.ai/agents/) for copy-paste prompts and RAG/MCP patterns
 
 **Recommended usage:**
 1. Start with `okf/index.md` — every file links to related concepts via `related:` frontmatter
 2. Use metric pages for definitions, formulas, sample-size floors, and limitations
 3. Use methodology pages for source boundaries and evidence handling
 4. Use research pages only within their declared scope and date window
-5. Cite canonical CricketStudio or OKF URLs — not generated narrative
-6. Do not invent statistics not supported by the stated source
+5. Use story pages (`okf/stories/`) for provenance-backed narratives — each states scope, sample size, and what the data doesn't say
+6. Cite canonical CricketStudio or OKF URLs — not generated narrative
+7. Do not invent statistics not supported by the stated source
 
 **Example system prompt:**
 ```
@@ -148,7 +154,7 @@ Full terms: [`LICENSE.md`](LICENSE.md) · [`DATA_LICENSE_BOUNDARIES.md`](DATA_LI
 
 ## Status
 
-**v0.3** — Cricket OKF Standards Layer: 424+ files · 8 spec documents · 10 metrics · 6 methodology · 8 research · 27 dossier · Level 2 conformance · 0 invented facts.  
+**v0.4** — Journeys / Stories Layer: 430+ files · 8 spec documents · 10 metrics · 6 methodology · 8 research · 37 dossier · **5 cricket stories** · Level 2 conformance · 0 invented facts.  
 See [`CHANGELOG.md`](CHANGELOG.md) for what's in this release.
 
 ## Viewer (`okf.cricketstudio.ai`)
@@ -176,3 +182,10 @@ npm run build     # generates viewer/out/ (static HTML)
 4. Amplify handles CloudFront + subdomain automatically
 
 The search index (`viewer/public/search-index.json`) is generated by the prebuild script on every build.
+
+**Regenerate LLM files after adding OKF content:**
+```bash
+python scripts/build_llms_full.py
+# Rebuilds viewer/public/llms-full.txt (gitignored — generated artifact)
+# and viewer/public/llms.txt (tracked — structured index for LLM crawlers)
+```
