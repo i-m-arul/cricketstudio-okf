@@ -1,9 +1,9 @@
 ---
 type: spec
 title: Cricket OKF Type Vocabulary
-description: Canonical cricket type values for use with Google OKF v0.1. Defines 15 cricket-specific types, their purpose, and example frontmatter. Extends Google OKF's open type system without forking it.
+description: Canonical cricket type values for use with Google OKF v0.1. Defines 20 cricket-specific types, their purpose, and example frontmatter. Extends Google OKF's open type system without forking it.
 status: active
-last_verified: 2026-06-22
+last_verified: 2026-06-23
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: methodology_only
@@ -16,7 +16,7 @@ tags:
 
 ## Overview
 
-Google OKF v0.1 uses an open `type` system — values are not centrally registered, and consumers must tolerate unknown types. This document defines the cricket domain vocabulary: 15 `type` values that cricket OKF bundles should use for interoperability.
+Google OKF v0.1 uses an open `type` system — values are not centrally registered, and consumers must tolerate unknown types. This document defines the cricket domain vocabulary: 20 `type` values that cricket OKF bundles should use for interoperability.
 
 These are **recommendations**, not a closed enum. A producer may use additional cricket-specific types as needed.
 
@@ -42,10 +42,15 @@ metric       — A cricket metric definition (formula, floor, limitations)
 methodology  — An operational rule or doctrine (sample-size, ranking eligibility)
 research     — An analytical report or investigation
 dossier      — A verified Q&A pattern for AI agents
+story        — A provenance-backed cricket narrative (scope, sample size, and "what it doesn't say" required)
 spec         — A formal specification document
 source       — A data source declaration (license, boundary)
 record       — An all-time or historical record
 leaderboard  — A ranked list for a specific metric and scope
+claim        — A single isolated, citable cricket assertion with full provenance
+runbook      — An operational procedure for data refresh, dispute resolution, or maintenance
+reference    — An external resource pointer (API endpoint, dataset, third-party tool)
+api          — An API endpoint descriptor with request/response schema
 ```
 
 ### Navigation Types
@@ -113,7 +118,7 @@ type: dossier
 title: Who leads T20 powerplay batting strike rate?
 description: Verified agent answer pattern for powerplay SR leader. Includes scope, floor, and citation behavior.
 status: active
-last_verified: 2026-06-22
+last_verified: 2026-06-23
 license: CC-BY-4.0
 source_system: CricketAnalytics
 source_boundary: public_open_data
@@ -127,6 +132,34 @@ tags:
   - cricket
   - dossier
   - powerplay
+---
+```
+
+### story
+
+```yaml
+---
+type: story
+title: Example Cricket Story
+description: A provenance-backed cricket narrative. Must include scope, sample size, what the data says, and what it doesn't say.
+status: active
+last_verified: 2026-06-23
+license: CC-BY-4.0
+source_system: ExampleCricketData
+source_boundary: derived_claims_only
+entity_id: example:story:t20-toss-effect
+canonical_page: https://example.org/stories/t20-toss-effect
+resource: https://example.org/stories/t20-toss-effect
+provenance:
+  source: Cricsheet CC BY 3.0 · example competition 2019–2025 · 500 matches
+  confidence: high
+  dataset_version: 2025-12-01
+  notes: All figures derived from Cricsheet open data. No licensed feed data included.
+tags:
+  - cricket
+  - story
+  - toss
+  - T20
 ---
 ```
 
