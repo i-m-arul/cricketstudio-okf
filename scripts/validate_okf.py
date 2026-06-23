@@ -50,7 +50,7 @@ RESTRICTED_PATTERNS = [
 DATE_FIELDS = ("last_verified", "timestamp")
 URL_FIELDS = ("resource", "canonical_page", "api_resource")
 # Concept types that assert data-dependent cricket facts and therefore need provenance.
-DATA_TYPES = {"player", "team", "season", "match", "venue", "league"}
+DATA_TYPES = {"player", "team", "season", "match", "venue", "league", "story"}
 
 
 class Findings:

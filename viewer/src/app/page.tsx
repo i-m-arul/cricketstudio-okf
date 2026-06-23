@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { getAllFiles, getFilesByType } from '@/lib/okf'
 import OKFCard from '@/components/OKFCard'
-import { Globe, BarChart2, BookOpen, FlaskConical, MessageSquare, Bot, FileText, ShieldCheck } from 'lucide-react'
+import { Globe, BarChart2, BookOpen, FlaskConical, MessageSquare, Bot, FileText, ShieldCheck, Sparkles } from 'lucide-react'
 
 export const metadata = {
   title: 'CricketStudio OKF — Open Cricket Knowledge',
@@ -50,6 +50,12 @@ const SECTIONS = [
     label: 'Conformance',
     Icon: ShieldCheck,
     desc: 'Conformance levels 0–4 and self-certification checklist',
+  },
+  {
+    href: '/stories/',
+    label: 'Journeys',
+    Icon: Sparkles,
+    desc: 'Cricket stories built on provenance-backed data — the numbers behind the narrative',
   },
   {
     href: '/agents/',

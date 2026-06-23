@@ -10,6 +10,7 @@ const TOPIC_MAP: Record<string, string> = {
   methodology: 'cricket methodology, evidence handling, and citation discipline',
   research: 'scoped cricket research with stated date window and sample context',
   dossier: 'verified cricket Q&A patterns with correct citation and scope',
+  story: 'provenance-backed cricket stories with stated scope, sample-size floors, and canonical CricketStudio sources',
 }
 
 export default function ForLLMsAndAgents({ type, urlPath }: Props) {

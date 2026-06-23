@@ -3,6 +3,34 @@
 All notable changes to CricketStudio OKF are documented here. This project follows
 [Semantic Versioning](https://semver.org/).
 
+## [0.4.0] — 2026-06-23
+
+Stories / Journeys layer — provenance-backed cricket narratives as a new OKF type.
+
+### Added
+
+- `okf/stories/` — 5 curated story files using real OKF catalog data:
+  - `toss-nobody-believes-in.md` — IPL toss win rate (52%, 1,219 matches) vs Grand Prairie's
+    bowl-first consensus that contradicts 3 seasons of venue data.
+  - `mlc-powerplay-batters-nobody-talks-about.md` — MJ Owen (194.3 SR), FH Allen (188.0 SR),
+    R Ravindra (187.6 SR) would all rank above Kohli (174.8 SR) in IPL 2026 powerplay leaderboard.
+  - `grand-prairie-dirty-secret.md` — 76.7% of toss winners bowl first; first-innings avg (177)
+    beats second-innings avg (160); chase success 48.8% across 43 MLC matches.
+  - `mlc-death-overs-revolution.md` — Gannon (7.18), Cummins (7.38), Ferguson (7.54) all below
+    Bumrah's IPL 2026 death economy (7.69) in a 3-year-old league.
+  - `teenager-who-broke-the-template.md` — Suryavanshi's IPL 2026 powerplay SR (233.6 from 223
+    balls) exceeds McCullum's historic 158* SR (216.43) — just in the first six overs.
+- `viewer/src/app/stories/page.tsx` — `/stories/` viewer route branded as "Journeys".
+- `"story"` added to type enum in `schema/frontmatter.schema.json`.
+- `"story"` added to `DATA_TYPES` in `scripts/validate_okf.py` (provenance required).
+- `story` added to `TOPIC_MAP` in `ForLLMsAndAgents.tsx` for correct agent guidance.
+
+### Changed
+
+- `viewer/src/components/Header.tsx` — "Journeys" nav link added between Dossier and Agents.
+- `viewer/src/components/Footer.tsx` — "Journeys" added to Explore column; version bumped to v0.4.
+- `viewer/src/app/page.tsx` — "Journeys" section card added to Browse grid with Sparkles icon.
+
 ## [0.3.0] — 2026-06-22
 
 Cricket OKF Standards Layer — formal specification, conformance levels, releases, Google OKF alignment, and contribution bundle.
