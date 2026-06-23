@@ -41,8 +41,17 @@ Claude_CricketStudio_OKF_Standard.md
 # Internal development planning docs — not OKF content
 docs/
 
-# Generator script uses local private snapshot paths — not for public repo
+# Generator scripts use local private snapshot paths (C:\Git\cricketstudio-mcp\data\snapshot)
+# They are internal development tools — only the public utility scripts are tracked:
+#   validate_okf.py, check_links.py, build_llms_full.py
 scripts/generate_players.py
+scripts/generate_players_enriched.py
+scripts/generate_teams_enriched.py
+scripts/generate_venues_enriched.py
+scripts/generate_mlc_players.py
+scripts/generate_mlc_teams.py
+scripts/generate_mlc_venues.py
+scripts/generate_mlc_leaderboards.py
 
 # Internal OKF files — excluded from public repo
 okf/methodology/data-refresh-policy.md
