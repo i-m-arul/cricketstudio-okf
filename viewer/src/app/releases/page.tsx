@@ -136,12 +136,12 @@ export default function ReleasesPage() {
                   ))}
                 </ul>
 
-                <Link
+                <a
                   href={`/${r.slug}/`}
                   className="text-sm text-green-400 hover:text-green-300 hover:underline"
                 >
                   Full release notes →
-                </Link>
+                </a>
               </div>
             </div>
           </div>
