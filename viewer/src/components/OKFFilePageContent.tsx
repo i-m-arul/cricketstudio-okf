@@ -55,7 +55,7 @@ export default function OKFFilePageContent({ file, relatedFiles }: Props) {
   const crumbs = file.slug.split('/')
   const breadcrumbs = crumbs.slice(0, -1).map((part, i) => ({
     label: part.replace(/-/g, ' '),
-    href: '/' + crumbs.slice(0, i + 1).join('/'),
+    href: '/' + crumbs.slice(0, i + 1).join('/') + '/',
   }))
   const jsonLd = buildJsonLd(file)
 

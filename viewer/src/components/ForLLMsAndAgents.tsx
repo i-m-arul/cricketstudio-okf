@@ -35,7 +35,7 @@ export default function ForLLMsAndAgents({ type, urlPath }: Props) {
         </ul>
         <div className="flex items-center justify-between gap-3 pt-3 border-t border-gray-800">
           <code className="text-xs text-gray-600 truncate flex-1">{canonicalUrl}</code>
-          <Link href="/agents" className="text-xs text-green-500 hover:text-green-400 shrink-0 whitespace-nowrap">
+          <Link href="/agents/" className="text-xs text-green-500 hover:text-green-400 shrink-0 whitespace-nowrap">
             Agent guide →
           </Link>
         </div>

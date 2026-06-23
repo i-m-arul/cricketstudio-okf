@@ -10,49 +10,49 @@ export const metadata = {
 
 const SECTIONS = [
   {
-    href: '/spec',
+    href: '/spec/',
     label: 'Specification',
     Icon: FileText,
     desc: 'Cricket OKF type vocabulary, provenance, metrics, claims, identity, sample-size',
   },
   {
-    href: '/scorebook',
+    href: '/scorebook/',
     label: 'Scorebook',
     Icon: Globe,
     desc: 'Players, teams, leagues, seasons, venues, and matches',
   },
   {
-    href: '/metrics',
+    href: '/metrics/',
     label: 'Metrics',
     Icon: BarChart2,
     desc: 'Batting SR, economy, death-overs economy, Orange/Purple Cap',
   },
   {
-    href: '/methodology',
+    href: '/methodology/',
     label: 'Methodology',
     Icon: BookOpen,
     desc: 'Sample-size floors, ranking eligibility, citation policy',
   },
   {
-    href: '/research',
+    href: '/research/',
     label: 'Research',
     Icon: FlaskConical,
     desc: 'IPL 2026 season, MLC seasons, toss effects, death overs',
   },
   {
-    href: '/dossier',
+    href: '/dossier/',
     label: 'Dossier',
     Icon: MessageSquare,
     desc: 'Verified Q&A patterns with citations and scope',
   },
   {
-    href: '/conformance',
+    href: '/conformance/',
     label: 'Conformance',
     Icon: ShieldCheck,
     desc: 'Conformance levels 0–4 and self-certification checklist',
   },
   {
-    href: '/agents',
+    href: '/agents/',
     label: 'AI Agents',
     Icon: Bot,
     desc: 'Use OKF with ChatGPT, Claude, Gemini, or RAG pipelines',
@@ -131,13 +131,13 @@ export default async function HomePage() {
         </p>
         <div className="flex flex-wrap justify-center gap-3">
           <Link
-            href="/scorebook"
+            href="/scorebook/"
             className="bg-green-700 hover:bg-green-600 text-white px-5 py-2.5 rounded-lg font-medium transition-colors"
           >
             Scorebook
           </Link>
           <Link
-            href="/search"
+            href="/search/"
             className="bg-gray-800 hover:bg-gray-700 text-gray-200 px-5 py-2.5 rounded-lg font-medium transition-colors"
           >
             Search
@@ -154,11 +154,11 @@ export default async function HomePage() {
       {/* Stats */}
       <section className="grid grid-cols-2 sm:grid-cols-5 gap-3 mb-12">
         {[
-          { label: 'Total files', value: counts.total, href: '/scorebook' },
-          { label: 'Metrics', value: counts.metrics, href: '/metrics' },
-          { label: 'Methodology', value: counts.methodology, href: '/methodology' },
-          { label: 'Research', value: counts.research, href: '/research' },
-          { label: 'Dossier', value: counts.examples, href: '/dossier' },
+          { label: 'Total files', value: counts.total, href: '/scorebook/' },
+          { label: 'Metrics', value: counts.metrics, href: '/metrics/' },
+          { label: 'Methodology', value: counts.methodology, href: '/methodology/' },
+          { label: 'Research', value: counts.research, href: '/research/' },
+          { label: 'Dossier', value: counts.examples, href: '/dossier/' },
         ].map((stat) => (
           <Link key={stat.label} href={stat.href} className="bg-gray-900 border border-gray-800 rounded-lg p-4 text-center hover:border-green-700 hover:bg-gray-800/50 transition-all">
             <div className="text-2xl font-bold text-green-400">{stat.value}</div>
@@ -190,7 +190,7 @@ export default async function HomePage() {
         <section className="mb-14">
           <div className="flex items-center justify-between mb-4">
             <h2 className="text-xl font-semibold text-white">Latest research</h2>
-            <Link href="/research" className="text-sm text-green-500 hover:text-green-400">
+            <Link href="/research/" className="text-sm text-green-500 hover:text-green-400">
               All reports →
             </Link>
           </div>
@@ -212,8 +212,8 @@ export default async function HomePage() {
           parseable by tools. No invented facts, no raw data dumps.
         </p>
         <div className="flex gap-4 flex-wrap">
-          <Link href="/about" className="text-sm text-green-400 hover:underline">Full story →</Link>
-          <Link href="/methodology/citation-policy" className="text-sm text-green-400 hover:underline">Citation policy →</Link>
+          <Link href="/about/" className="text-sm text-green-400 hover:underline">Full story →</Link>
+          <Link href="/methodology/citation-policy/" className="text-sm text-green-400 hover:underline">Citation policy →</Link>
           <a href="https://github.com/i-m-arul/cricketstudio-okf" target="_blank" rel="noopener noreferrer" className="text-sm text-green-400 hover:underline">GitHub →</a>
           <a href="https://github.com/i-m-arul/cricketstudio-okf/archive/refs/heads/main.zip" className="text-sm text-green-400 hover:underline">Download bundle ↓</a>
         </div>

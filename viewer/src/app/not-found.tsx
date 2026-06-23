@@ -12,7 +12,7 @@ export default function NotFound() {
         <Link href="/" className="bg-green-700 hover:bg-green-600 text-white px-4 py-2 rounded-lg transition-colors">
           Home
         </Link>
-        <Link href="/search" className="bg-gray-800 hover:bg-gray-700 text-gray-200 px-4 py-2 rounded-lg transition-colors">
+        <Link href="/search/" className="bg-gray-800 hover:bg-gray-700 text-gray-200 px-4 py-2 rounded-lg transition-colors">
           Search
         </Link>
       </div>

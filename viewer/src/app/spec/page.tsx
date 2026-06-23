@@ -2,7 +2,7 @@ import Link from 'next/link'
 import { getFilesByType } from '@/lib/okf'
 
 export const metadata = {
-  alternates: { canonical: 'https://okf.cricketstudio.ai/spec' },
+  alternates: { canonical: 'https://okf.cricketstudio.ai/spec/' },
   title: 'Cricket OKF Specification',
   description: 'The Cricket OKF domain profile — type vocabulary, provenance convention, metric standard, claim discipline, identity rules, sample-size doctrine, and conformance levels.',
 }

@@ -56,11 +56,12 @@ function slugFromPath(filePath: string): string {
 }
 
 function urlFromSlug(slug: string, type: string): string {
-  // index files → parent
+  // index files → parent directory
   if (slug.endsWith('/index') || slug === 'index') {
-    return '/' + slug.replace(/\/index$/, '').replace(/^index$/, '')
+    const base = slug.replace(/\/index$/, '').replace(/^index$/, '')
+    return base ? '/' + base + '/' : '/'
   }
-  return '/' + slug
+  return '/' + slug + '/'
 }
 
 function safeStr(val: unknown): string | undefined {
@@ -89,7 +90,7 @@ function rewriteLinks(html: string, slug: string): string {
     // Strip .md and trailing /index
     let clean = resolved.join('/').replace(/\.md$/, '')
     if (clean.endsWith('/index')) clean = clean.slice(0, -6)
-    return `href="/${clean}"`
+    return `href="/${clean}/"`
   })
 }
 

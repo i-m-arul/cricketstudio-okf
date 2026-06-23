@@ -2,13 +2,13 @@ const FOOTER_COLS = [
   {
     heading: 'Explore',
     links: [
-      { label: 'Scorebook', href: '/scorebook' },
-      { label: 'Metrics', href: '/metrics' },
-      { label: 'Methodology', href: '/methodology' },
-      { label: 'Research', href: '/research' },
-      { label: 'Dossier', href: '/dossier' },
-      { label: 'Search', href: '/search' },
-      { label: 'AI Agents', href: '/agents' },
+      { label: 'Scorebook', href: '/scorebook/' },
+      { label: 'Metrics', href: '/metrics/' },
+      { label: 'Methodology', href: '/methodology/' },
+      { label: 'Research', href: '/research/' },
+      { label: 'Dossier', href: '/dossier/' },
+      { label: 'Search', href: '/search/' },
+      { label: 'AI Agents', href: '/agents/' },
     ],
   },
   {
@@ -28,7 +28,7 @@ const FOOTER_COLS = [
     links: [
       { label: 'CricketStudio.ai', href: 'https://cricketstudio.ai', external: true },
       { label: 'Live data', href: 'https://players.cricketstudio.ai', external: true },
-      { label: 'About OKF', href: '/about' },
+      { label: 'About OKF', href: '/about/' },
       { label: 'GitHub', href: 'https://github.com/i-m-arul/cricketstudio-okf', external: true },
       { label: 'hello@cricketstudio.ai', href: 'mailto:hello@cricketstudio.ai' },
       { label: '@CricketStudioAI', href: 'https://x.com/CricketStudioAI', external: true },

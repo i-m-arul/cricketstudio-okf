@@ -173,7 +173,7 @@ export default function AboutPage() {
             IPL historical and MLC data is sourced from{' '}
             <a href="https://cricsheet.org" className="text-green-400 hover:underline">Cricsheet</a> under{' '}
             <strong className="text-gray-200">CC BY 3.0</strong>. See{' '}
-            <Link href="/sources/cricsheet" className="text-green-400 hover:underline">attribution</Link>.
+            <Link href="/sources/cricsheet/" className="text-green-400 hover:underline">attribution</Link>.
           </p>
           <p>
             IPL 2026 content is based on CricketStudio derived claims. Raw licensed feed data is not redistributed.
@@ -185,10 +185,10 @@ export default function AboutPage() {
       <section className="bg-gray-900 border border-gray-800 rounded-xl p-6">
         <h2 className="font-semibold text-white mb-2">Get started</h2>
         <div className="flex flex-wrap gap-3 mt-3">
-          <Link href="/scorebook" className="text-sm bg-green-700 hover:bg-green-600 text-white px-4 py-2 rounded-lg transition-colors">
+          <Link href="/scorebook/" className="text-sm bg-green-700 hover:bg-green-600 text-white px-4 py-2 rounded-lg transition-colors">
             Browse Scorebook
           </Link>
-          <Link href="/metrics" className="text-sm bg-gray-800 hover:bg-gray-700 text-gray-200 px-4 py-2 rounded-lg transition-colors">
+          <Link href="/metrics/" className="text-sm bg-gray-800 hover:bg-gray-700 text-gray-200 px-4 py-2 rounded-lg transition-colors">
             Read metrics
           </Link>
           <a

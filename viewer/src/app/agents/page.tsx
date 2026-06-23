@@ -61,14 +61,14 @@ const CITATION_RULES = [
 
 const KEY_PAGES = [
   { label: 'llms.txt', href: '/llms.txt', external: true },
-  { label: 'Metrics index', href: '/metrics' },
-  { label: 'Methodology index', href: '/methodology' },
-  { label: 'Citation policy', href: '/methodology/citation-policy' },
-  { label: 'Sample-size floors', href: '/methodology/sample-size-floors' },
-  { label: 'Research index', href: '/research' },
-  { label: 'Dossier — 27 Q&A patterns', href: '/dossier' },
-  { label: 'About OKF', href: '/about' },
-  { label: 'Search all content', href: '/search' },
+  { label: 'Metrics index', href: '/metrics/' },
+  { label: 'Methodology index', href: '/methodology/' },
+  { label: 'Citation policy', href: '/methodology/citation-policy/' },
+  { label: 'Sample-size floors', href: '/methodology/sample-size-floors/' },
+  { label: 'Research index', href: '/research/' },
+  { label: 'Dossier — 27 Q&A patterns', href: '/dossier/' },
+  { label: 'About OKF', href: '/about/' },
+  { label: 'Search all content', href: '/search/' },
   { label: 'GitHub repository', href: 'https://github.com/i-m-arul/cricketstudio-okf', external: true },
 ]
 
@@ -123,7 +123,7 @@ export default function AgentsPage() {
               View llms.txt
             </a>
             <Link
-              href="/dossier"
+              href="/dossier/"
               className="bg-gray-800 hover:bg-gray-700 text-gray-200 px-4 py-2 rounded-lg text-sm font-medium transition-colors"
             >
               Browse agent examples →
