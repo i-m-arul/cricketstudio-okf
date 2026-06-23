@@ -4,14 +4,19 @@ import type { MetadataRoute } from 'next'
 const BASE = 'https://okf.cricketstudio.ai'
 
 const SECTION_PAGES: MetadataRoute.Sitemap = [
-  { url: BASE, changeFrequency: 'weekly', priority: 1.0 },
-  { url: `${BASE}/scorebook`, changeFrequency: 'weekly', priority: 0.9 },
-  { url: `${BASE}/metrics`, changeFrequency: 'monthly', priority: 0.9 },
-  { url: `${BASE}/methodology`, changeFrequency: 'monthly', priority: 0.8 },
-  { url: `${BASE}/research`, changeFrequency: 'weekly', priority: 0.9 },
-  { url: `${BASE}/dossier`, changeFrequency: 'monthly', priority: 0.8 },
-  { url: `${BASE}/about`, changeFrequency: 'monthly', priority: 0.6 },
-  { url: `${BASE}/search`, changeFrequency: 'monthly', priority: 0.5 },
+  { url: `${BASE}/`, changeFrequency: 'weekly', priority: 1.0 },
+  { url: `${BASE}/scorebook/`, changeFrequency: 'weekly', priority: 0.9 },
+  { url: `${BASE}/metrics/`, changeFrequency: 'monthly', priority: 0.9 },
+  { url: `${BASE}/methodology/`, changeFrequency: 'monthly', priority: 0.8 },
+  { url: `${BASE}/research/`, changeFrequency: 'weekly', priority: 0.9 },
+  { url: `${BASE}/dossier/`, changeFrequency: 'monthly', priority: 0.8 },
+  { url: `${BASE}/stories/`, changeFrequency: 'monthly', priority: 0.85 },
+  { url: `${BASE}/spec/`, changeFrequency: 'monthly', priority: 0.8 },
+  { url: `${BASE}/conformance/`, changeFrequency: 'monthly', priority: 0.7 },
+  { url: `${BASE}/releases/`, changeFrequency: 'monthly', priority: 0.7 },
+  { url: `${BASE}/agents/`, changeFrequency: 'monthly', priority: 0.75 },
+  { url: `${BASE}/search/`, changeFrequency: 'monthly', priority: 0.5 },
+  { url: `${BASE}/about/`, changeFrequency: 'monthly', priority: 0.6 },
 ]
 
 const PRIORITY_BY_TYPE: Record<string, number> = {
@@ -26,7 +31,9 @@ const PRIORITY_BY_TYPE: Record<string, number> = {
   match: 0.7,
   venue: 0.7,
   dossier: 0.7,
+  story: 0.85,
   source: 0.5,
+  spec: 0.7,
 }
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {

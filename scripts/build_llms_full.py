@@ -1,3 +1,147 @@
+#!/usr/bin/env python3
+"""
+build_llms_full.py — regenerate viewer/public/llms-full.txt and viewer/public/llms.txt
+from all OKF markdown files in okf/.
+
+Usage:
+    python scripts/build_llms_full.py
+
+Outputs:
+    viewer/public/llms-full.txt   — flat text dump of every OKF file for LLM ingestion
+    viewer/public/llms.txt        — structured index (section headings + key links)
+"""
+import pathlib
+import re
+import sys
+from datetime import date
+
+try:
+    import yaml
+except ImportError:
+    print("ERROR: PyYAML required — pip install pyyaml", file=sys.stderr)
+    sys.exit(1)
+
+ROOT = pathlib.Path(__file__).parent.parent
+OKF_DIR = ROOT / "okf"
+PUBLIC_DIR = ROOT / "viewer" / "public"
+BASE_URL = "https://okf.cricketstudio.ai"
+
+FRONTMATTER_RE = re.compile(r"^---\s*\n(.*?)\n---\s*\n", re.DOTALL)
+
+
+def slug_from_path(path: pathlib.Path) -> str:
+    rel = path.relative_to(OKF_DIR).with_suffix("")
+    parts = rel.parts
+    if parts[-1] == "index":
+        parts = parts[:-1]
+    return "/".join(parts)
+
+
+def url_from_slug(slug: str) -> str:
+    return f"{BASE_URL}/{slug}/" if slug else f"{BASE_URL}/"
+
+
+def parse_file(path: pathlib.Path):
+    text = path.read_text(encoding="utf-8")
+    m = FRONTMATTER_RE.match(text)
+    if not m:
+        return None, text
+    try:
+        fm = yaml.safe_load(m.group(1))
+    except yaml.YAMLError:
+        return None, text
+    body = text[m.end():]
+    return fm, body
+
+
+def collect_files():
+    files = []
+    for md in sorted(OKF_DIR.rglob("*.md")):
+        fm, body = parse_file(md)
+        if fm is None:
+            continue
+        slug = slug_from_path(md)
+        files.append((md, fm, body, slug))
+    return files
+
+
+TYPE_ORDER = [
+    "index", "spec", "methodology", "metric", "source",
+    "league", "season", "team", "player", "venue", "match",
+    "record", "leaderboard", "research", "dossier", "story",
+    "runbook", "reference", "claim", "api",
+]
+
+
+def type_sort_key(entry):
+    _, fm, _, _ = entry
+    t = fm.get("type", "zzz")
+    try:
+        return (TYPE_ORDER.index(t), fm.get("title", ""))
+    except ValueError:
+        return (99, fm.get("title", ""))
+
+
+SEP = "=" * 72
+
+
+def build_full(files) -> str:
+    today = date.today().isoformat()
+    total = len(files)
+    lines = [
+        "# CricketStudio OKF — Full Knowledge Bundle",
+        f"# Generated from {total} OKF markdown files",
+        "# License: CC-BY-4.0 (docs/methodology). Cricsheet-derived content: CC BY 3.0.",
+        "# Canonical source: https://okf.cricketstudio.ai",
+        "# GitHub: https://github.com/i-m-arul/cricketstudio-okf",
+        '# For agent use: cite as "CricketStudio OKF (CC-BY-4.0)" with canonical_page link per concept.',
+        "",
+    ]
+
+    sorted_files = sorted(files, key=type_sort_key)
+
+    for _, fm, body, slug in sorted_files:
+        title = fm.get("title", slug)
+        ftype = fm.get("type", "unknown")
+        url = url_from_slug(slug)
+        canonical = fm.get("canonical_page") or fm.get("resource") or url
+        source_boundary = fm.get("source_boundary", "")
+        last_verified = fm.get("last_verified", today)
+
+        lines.append(SEP)
+        lines.append(f"# {title}")
+        lines.append(f"# Type: {ftype} | URL: {url}")
+        lines.append(f"Canonical: {canonical}")
+        lines.append(f"Source boundary: {source_boundary}")
+        lines.append(f"Last verified: {last_verified}")
+        lines.append(SEP)
+        lines.append("")
+        lines.append(body.strip())
+        lines.append("")
+
+    return "\n".join(lines) + "\n"
+
+
+# ------------------------------------------------------------------
+# llms.txt index builder — grouped by section
+# ------------------------------------------------------------------
+
+SECTION_TYPES = {
+    "Specification": ["spec"],
+    "Metrics": ["metric"],
+    "Methodology": ["methodology"],
+    "Research reports": ["research"],
+    "Dossier (agent Q&A patterns)": ["dossier"],
+    "Journeys (cricket stories)": ["story"],
+    "Scorebook — Players": ["player"],
+    "Scorebook — Teams": ["team"],
+    "Scorebook — Leagues & Seasons": ["league", "season"],
+    "Scorebook — Venues": ["venue"],
+    "Scorebook — Matches & Records": ["match", "record", "leaderboard"],
+    "Data sources": ["source"],
+}
+
+LLMS_HEADER = """\
 # CricketStudio OKF
 
 > Open Knowledge Framework for Cricket Data. A versioned standard and reference bundle for representing cricket entities, metrics, claims, provenance, and methodology — built on Google OKF v0.1. Self-certified Level 2 (Evidence-Backed).
@@ -106,3 +250,33 @@ For copy-paste prompts and a full agent integration guide, see: https://okf.cric
 - Generated summaries are not primary evidence — cite the OKF or CricketStudio source page.
 - IPL 2026 content is derived claims only — raw licensed feed data is not redistributed.
 - Do not infer live or current-season stats solely from OKF files — defer to canonical_page.
+"""
+
+
+def main():
+    print("Collecting OKF files...")
+    files = collect_files()
+    # Skip index files for the full dump
+    non_index = [(md, fm, body, slug) for md, fm, body, slug in files
+                 if not slug.endswith("/index") and slug != "index" and slug != ""]
+    print(f"  {len(non_index)} non-index files found")
+
+    # llms-full.txt
+    print("Building llms-full.txt...")
+    full_text = build_full(non_index)
+    out_full = PUBLIC_DIR / "llms-full.txt"
+    out_full.write_text(full_text, encoding="utf-8")
+    line_count = full_text.count("\n")
+    print(f"  Written: {out_full} ({line_count:,} lines)")
+
+    # llms.txt
+    print("Building llms.txt...")
+    out_llms = PUBLIC_DIR / "llms.txt"
+    out_llms.write_text(LLMS_HEADER, encoding="utf-8")
+    print(f"  Written: {out_llms}")
+
+    print("Done.")
+
+
+if __name__ == "__main__":
+    main()
