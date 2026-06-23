@@ -3,11 +3,10 @@ frontend:
   phases:
     preBuild:
       commands:
-        - cd viewer
-        - npm ci
+        - cd viewer && npm ci
     build:
       commands:
-        - npm run build
+        - cd viewer && npm run build
   artifacts:
     baseDirectory: viewer/out
     files:
