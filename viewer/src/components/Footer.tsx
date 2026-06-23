@@ -14,13 +14,13 @@ const FOOTER_COLS = [
   {
     heading: 'Standards',
     links: [
-      { label: 'Specification', href: '/spec' },
-      { label: 'Conformance', href: '/conformance' },
-      { label: 'Releases', href: '/releases' },
-      { label: 'Type vocabulary', href: '/spec/types' },
-      { label: 'Metric standard', href: '/spec/metrics' },
-      { label: 'Sample-size doctrine', href: '/spec/sample-size' },
-      { label: 'Claim discipline', href: '/spec/claims' },
+      { label: 'Specification', href: '/spec/' },
+      { label: 'Conformance', href: '/conformance/' },
+      { label: 'Releases', href: '/releases/' },
+      { label: 'Type vocabulary', href: '/spec/types/' },
+      { label: 'Metric standard', href: '/spec/metrics/' },
+      { label: 'Sample-size doctrine', href: '/spec/sample-size/' },
+      { label: 'Claim discipline', href: '/spec/claims/' },
     ],
   },
   {
@@ -37,8 +37,8 @@ const FOOTER_COLS = [
   {
     heading: 'Open Data',
     links: [
-      { label: 'Citation policy', href: '/methodology/citation-policy' },
-      { label: 'Data sources', href: '/sources/cricketstudio-derived-claims' },
+      { label: 'Citation policy', href: '/methodology/citation-policy/' },
+      { label: 'Data sources', href: '/sources/cricketstudio-derived-claims/' },
       { label: 'Cricsheet (CC BY 3.0)', href: 'https://cricsheet.org', external: true },
       { label: 'License (CC-BY-4.0)', href: 'https://creativecommons.org/licenses/by/4.0/', external: true },
       { label: 'llms.txt', href: '/llms.txt', external: true },

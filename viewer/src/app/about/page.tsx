@@ -64,10 +64,10 @@ export default function AboutPage() {
             live data.
           </p>
           <p>
-            The <Link href="/spec" className="text-green-400 hover:underline">Specification</Link> documents
+            The <Link href="/spec/" className="text-green-400 hover:underline">Specification</Link> documents
             define the standard. The <code className="text-gray-300 bg-gray-800 px-1 rounded">okf/</code> bundle
             in this repository is the reference implementation, self-certified at{' '}
-            <Link href="/conformance" className="text-green-400 hover:underline">Level 2 (Evidence-Backed)</Link>.
+            <Link href="/conformance/" className="text-green-400 hover:underline">Level 2 (Evidence-Backed)</Link>.
           </p>
         </div>
       </section>

@@ -43,7 +43,7 @@ export default async function SpecPage() {
           cricketstudio-okf
         </a>{' '}
         bundle is the reference implementation — self-certified{' '}
-        <Link href="/conformance" className="text-green-400 hover:underline">Level 2 (Evidence-Backed)</Link>.
+        <Link href="/conformance/" className="text-green-400 hover:underline">Level 2 (Evidence-Backed)</Link>.
       </p>
 
       {/* Layer diagram */}
@@ -70,7 +70,7 @@ export default async function SpecPage() {
         {SPEC_PAGES.map((s) => (
           <Link
             key={s.slug}
-            href={`/${s.slug}`}
+            href={`/${s.slug}/`}
             className="flex items-start gap-4 bg-gray-900 border border-gray-800 hover:border-green-700 rounded-lg p-4 transition-all group"
           >
             <div>
@@ -83,8 +83,8 @@ export default async function SpecPage() {
 
       {/* Quick links */}
       <div className="flex flex-wrap gap-3 text-sm">
-        <Link href="/conformance" className="text-green-400 hover:underline">Conformance page →</Link>
-        <Link href="/releases" className="text-green-400 hover:underline">Release notes →</Link>
+        <Link href="/conformance/" className="text-green-400 hover:underline">Conformance page →</Link>
+        <Link href="/releases/" className="text-green-400 hover:underline">Release notes →</Link>
         <a href="https://github.com/i-m-arul/cricketstudio-okf/tree/main/okf/spec" target="_blank" rel="noopener noreferrer" className="text-green-400 hover:underline">Source on GitHub ↗</a>
         <a href="https://github.com/GoogleCloudPlatform/knowledge-catalog" target="_blank" rel="noopener noreferrer" className="text-green-400 hover:underline">Google OKF upstream ↗</a>
       </div>

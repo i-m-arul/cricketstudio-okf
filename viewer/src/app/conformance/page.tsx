@@ -87,7 +87,7 @@ export default function ConformancePage() {
         <div className="flex items-center gap-2 text-sm text-gray-500 mb-3">
           <Link href="/" className="hover:text-green-400">Home</Link>
           <span>/</span>
-          <Link href="/spec" className="hover:text-green-400">Spec</Link>
+          <Link href="/spec/" className="hover:text-green-400">Spec</Link>
           <span>/</span>
           <span className="text-gray-300">Conformance</span>
         </div>
@@ -173,19 +173,19 @@ export default function ConformancePage() {
         </p>
         <ol className="space-y-2 text-sm text-gray-300 list-decimal list-inside">
           <li>Use <a href="https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md" className="text-green-400 hover:underline" target="_blank" rel="noopener noreferrer">Google OKF v0.1</a> as the base format</li>
-          <li>Follow the <Link href="/spec/types" className="text-green-400 hover:underline">cricket type vocabulary</Link></li>
-          <li>Declare provenance per the <Link href="/spec/provenance" className="text-green-400 hover:underline">provenance convention</Link></li>
-          <li>Write metric files per the <Link href="/spec/metrics" className="text-green-400 hover:underline">metric standard</Link></li>
-          <li>Apply floors from the <Link href="/spec/sample-size" className="text-green-400 hover:underline">sample-size doctrine</Link></li>
+          <li>Follow the <Link href="/spec/types/" className="text-green-400 hover:underline">cricket type vocabulary</Link></li>
+          <li>Declare provenance per the <Link href="/spec/provenance/" className="text-green-400 hover:underline">provenance convention</Link></li>
+          <li>Write metric files per the <Link href="/spec/metrics/" className="text-green-400 hover:underline">metric standard</Link></li>
+          <li>Apply floors from the <Link href="/spec/sample-size/" className="text-green-400 hover:underline">sample-size doctrine</Link></li>
           <li>Self-certify at the level you achieve using the checklist above</li>
         </ol>
       </div>
 
       {/* Links */}
       <div className="flex flex-wrap gap-3 text-sm">
-        <Link href="/spec" className="text-green-400 hover:text-green-300 hover:underline">← Spec index</Link>
-        <Link href="/spec/conformance" className="text-gray-400 hover:text-gray-300 hover:underline">Full conformance spec →</Link>
-        <Link href="/releases" className="text-gray-400 hover:text-gray-300 hover:underline">Releases →</Link>
+        <Link href="/spec/" className="text-green-400 hover:text-green-300 hover:underline">← Spec index</Link>
+        <Link href="/spec/conformance/" className="text-gray-400 hover:text-gray-300 hover:underline">Full conformance spec →</Link>
+        <Link href="/releases/" className="text-gray-400 hover:text-gray-300 hover:underline">Releases →</Link>
       </div>
     </div>
   )

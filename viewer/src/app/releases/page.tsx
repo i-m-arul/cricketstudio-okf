@@ -137,7 +137,7 @@ export default function ReleasesPage() {
                 </ul>
 
                 <Link
-                  href={`/${r.slug}`}
+                  href={`/${r.slug}/`}
                   className="text-sm text-green-400 hover:text-green-300 hover:underline"
                 >
                   Full release notes →
@@ -151,7 +151,7 @@ export default function ReleasesPage() {
       {/* Footer */}
       <div className="text-sm text-gray-500">
         <p className="mb-2">
-          All releases follow <Link href="/spec/conformance" className="text-green-400 hover:underline">Cricket OKF conformance levels</Link>.
+          All releases follow <Link href="/spec/conformance/" className="text-green-400 hover:underline">Cricket OKF conformance levels</Link>.
           Versioning uses semantic versioning (major.minor.patch).
         </p>
         <p>
