@@ -65,19 +65,23 @@ See: https://okf.cricketstudio.ai/sources/google-okf-alignment/
 - [Death Overs: IPL 2026](https://okf.cricketstudio.ai/research/death-overs-ipl-2026/): Phase intelligence and methodology
 - [Death Overs: MLC](https://okf.cricketstudio.ai/research/death-overs-mlc/): MLC all-time death bowling analysis
 - [MLC Three Seasons](https://okf.cricketstudio.ai/research/mlc-three-seasons/): League growth, player pool, franchise records
+- [IPL 2026 Powerplay Analysis](https://okf.cricketstudio.ai/research/ipl-2026-powerplay-analysis/): Top 15 powerplay batters, qualifying floors, cross-league context
+- [IPL 2026 Batting Season Review](https://okf.cricketstudio.ai/research/ipl-2026-batting-season-review/): Orange Cap race, volume vs rate, Suryavanshi 776 runs 237.3 SR
 
 ## Dossier (how agents should answer cricket questions)
 
-- [Dossier index](https://okf.cricketstudio.ai/dossier/): 37 verified Q&A patterns with correct citation behavior
+- [Dossier index](https://okf.cricketstudio.ai/dossier/): 48 verified Q&A patterns with correct citation behavior
 
 ## Journeys (cricket stories with provenance)
 
-- [Journeys index](https://okf.cricketstudio.ai/stories/): 5 cricket stories built on OKF data — each grounded in provenance, scoped by season and format
+- [Journeys index](https://okf.cricketstudio.ai/stories/): 7 cricket stories built on OKF data — each grounded in provenance, scoped by season and format
 - [The Toss Nobody Believes In](https://okf.cricketstudio.ai/stories/toss-nobody-believes-in/): 52% IPL toss win rate across 1,219 matches; Grand Prairie bowl-first consensus contradicted by data
 - [The Powerplay Batters Nobody Is Talking About](https://okf.cricketstudio.ai/stories/mlc-powerplay-batters-nobody-talks-about/): Owen 194.3, Allen 188.0, Ravindra 187.6 SR — above Kohli IPL 2026 (174.8) in powerplay
 - [Grand Prairie's Dirty Secret](https://okf.cricketstudio.ai/stories/grand-prairie-dirty-secret/): 76.7% bowl-first; first-innings avg 177 vs second-innings 160; 48.8% chase success
 - [How MLC Mastered Death Bowling in 3 Seasons](https://okf.cricketstudio.ai/stories/mlc-death-overs-revolution/): Gannon 7.18, Cummins 7.38, Ferguson 7.54 — all below Bumrah IPL 2026 (7.69)
 - [The Teenager Who Broke the Template](https://okf.cricketstudio.ai/stories/teenager-who-broke-the-template/): Suryavanshi IPL 2026 powerplay SR 233.6 (223 balls) exceeds McCullum 158* SR (216.43)
+- [The 206 Balls](https://okf.cricketstudio.ai/stories/the-206-balls/): Kohli's 206 powerplay balls at #13 of 45 — what sustained volume means at 37
+- [The Washington Freedom Powerplay](https://okf.cricketstudio.ai/stories/the-washington-freedom-powerplay/): Freedom hold 2 of MLC's top 3 all-time powerplay SR spots — Owen 194.3, Ravindra 187.6
 
 ## Data sources and licensing
 

@@ -60,7 +60,7 @@ Yashasvi Jaiswal is a left-handed opening batter playing for Rajasthan Royals in
 
 ## Provenance and Data Notes
 
-This file covers player identity and role context only. Season-specific statistics and phase-level splits are available at the canonical CricketStudio player page. Source boundary: `links_only` — this file makes no data claims.
+This file covers player identity and role context only. Season-specific statistics and phase-level splits are available at the canonical CricketStudio player page. Source boundary: `manual_curated_knowledge` — identity and role only, no data claims.
 
 ## Related Concepts
 

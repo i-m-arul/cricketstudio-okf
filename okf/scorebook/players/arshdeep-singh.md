@@ -62,7 +62,7 @@ Arshdeep Singh is a left-arm fast bowler for Punjab Kings in the IPL and India a
 
 ## Provenance and Data Notes
 
-This file covers player identity and bowling role context. Season-specific statistics and phase-level economy rates are at the canonical CricketStudio player page. Source boundary: `links_only`.
+This file covers player identity and bowling role context. Season-specific statistics and phase-level economy rates are at the canonical CricketStudio player page. Source boundary: `manual_curated_knowledge` — identity and role only, no data claims.
 
 ## Related Concepts
 

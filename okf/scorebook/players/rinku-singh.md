@@ -61,7 +61,7 @@ Rinku Singh is a left-handed death-overs finisher for Kolkata Knight Riders in t
 
 ## Provenance and Data Notes
 
-This file covers player identity and role context. Season-specific statistics and match records are at the canonical CricketStudio player page. Source boundary: `links_only`.
+This file covers player identity and role context. Season-specific statistics and match records are at the canonical CricketStudio player page. Source boundary: `manual_curated_knowledge` — identity and role only, no data claims.
 
 ## Related Concepts
 
