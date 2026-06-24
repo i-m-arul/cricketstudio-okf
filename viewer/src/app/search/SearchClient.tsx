@@ -21,6 +21,7 @@ const TYPE_COLORS: Record<string, string> = {
   metric: 'bg-green-900/40 text-green-300',
   methodology: 'bg-gray-700/40 text-gray-300',
   dossier: 'bg-indigo-900/40 text-indigo-300',
+  story: 'bg-amber-900/40 text-amber-300',
   research: 'bg-rose-900/40 text-rose-300',
   match: 'bg-red-900/40 text-red-300',
 }

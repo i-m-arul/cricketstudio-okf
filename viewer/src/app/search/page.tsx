@@ -4,18 +4,19 @@ import SearchClient from './SearchClient'
 export const metadata = {
   title: 'Search — CricketStudio OKF',
   description: 'Search cricket metrics, methodology, research, dossiers, players, teams, and venues across the CricketStudio OKF catalog.',
-  alternates: { canonical: 'https://okf.cricketstudio.ai/search' },
+  alternates: { canonical: 'https://okf.cricketstudio.ai/search/' },
 }
 
 const BROWSE_SECTIONS = [
-  { label: 'Specification', href: '/spec', desc: 'Type vocabulary, provenance, metrics, claims, identity, sample-size — the Cricket OKF standard' },
-  { label: 'Metrics', href: '/metrics', desc: '10 definitions — batting SR, economy, death-overs, Orange/Purple Cap' },
-  { label: 'Methodology', href: '/methodology', desc: 'Sample-size floors, ranking eligibility, citation policy' },
-  { label: 'Research', href: '/research', desc: 'IPL 2026, MLC seasons, toss effects, death overs' },
-  { label: 'Dossier', href: '/dossier', desc: '27 verified Q&A patterns for agents and analysts' },
-  { label: 'Scorebook', href: '/scorebook', desc: 'Players, teams, leagues, seasons, venues, matches' },
-  { label: 'Conformance', href: '/conformance', desc: 'Level 0–4 checklist — self-certified Level 2 (Evidence-Backed)' },
-  { label: 'Agent guide', href: '/agents', desc: 'Use OKF with ChatGPT, Claude, Gemini, or RAG pipelines' },
+  { label: 'Specification', href: '/spec/', desc: 'Type vocabulary, provenance, metrics, claims, identity, sample-size — the Cricket OKF standard' },
+  { label: 'Metrics', href: '/metrics/', desc: '10 definitions — batting SR, economy, death-overs, Orange/Purple Cap' },
+  { label: 'Methodology', href: '/methodology/', desc: 'Sample-size floors, ranking eligibility, citation policy' },
+  { label: 'Research', href: '/research/', desc: 'IPL 2026, MLC seasons, toss effects, death overs' },
+  { label: 'Dossier', href: '/dossier/', desc: '37 verified Q&A patterns for agents and analysts' },
+  { label: 'Journeys', href: '/stories/', desc: '5 cricket stories built on provenance-backed OKF data' },
+  { label: 'Scorebook', href: '/scorebook/', desc: 'Players, teams, leagues, seasons, venues, matches' },
+  { label: 'Conformance', href: '/conformance/', desc: 'Level 0–4 checklist — self-certified Level 2 (Evidence-Backed)' },
+  { label: 'Agent guide', href: '/agents/', desc: 'Use OKF with ChatGPT, Claude, Gemini, or RAG pipelines' },
 ]
 
 const AGENT_QUERIES = [
