@@ -3,6 +3,30 @@
 All notable changes to CricketStudio OKF are documented here. This project follows
 [Semantic Versioning](https://semver.org/).
 
+## [0.4.3] — 2026-06-24
+
+H2H Journey — top performer vs top loser, IPL 2026.
+
+### Added
+
+**Journeys (1 new):**
+- `stars-who-finished-last.md` — Gujarat Titans (#3, NRR +0.320) vs Mumbai Indians (#10, NRR -0.712).
+  Gill (732) + Sudharsan (722) = 1,454 combined runs; more than MI's top 4 batters (1,408).
+  Holder (17 wkts / 7.57 economy / 11 matches) outperformed every MI bowler including
+  Bumrah's 2026 overall season line (4 wkts / 8.35 economy / 13 matches).
+  NRR gap: 1.032 points. Collective craft vs assembled stardom.
+
+### Changed
+
+- Viewer search and about pages: Journeys count 7→8.
+- `llms.txt`: Journeys index updated to 8; new story entry added.
+
+### Validation
+
+448 files validated — 0 errors.
+
+---
+
 ## [0.4.2] — 2026-06-24
 
 Scorebook + Journeys expansion — 4 IPL player profiles and 2 new provenance-backed stories.

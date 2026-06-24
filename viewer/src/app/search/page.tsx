@@ -13,7 +13,7 @@ const BROWSE_SECTIONS = [
   { label: 'Methodology', href: '/methodology/', desc: 'Sample-size floors, ranking eligibility, citation policy' },
   { label: 'Research', href: '/research/', desc: '10 reports — IPL 2026, MLC seasons, toss effects, death overs, powerplay, batting' },
   { label: 'Dossier', href: '/dossier/', desc: '48 verified Q&A patterns for agents and analysts' },
-  { label: 'Journeys', href: '/stories/', desc: '7 cricket stories built on provenance-backed OKF data' },
+  { label: 'Journeys', href: '/stories/', desc: '8 cricket stories built on provenance-backed OKF data' },
   { label: 'Scorebook', href: '/scorebook/', desc: 'Players, teams, leagues, seasons, venues, matches' },
   { label: 'Conformance', href: '/conformance/', desc: 'Level 0–4 checklist — self-certified Level 2 (Evidence-Backed)' },
   { label: 'Agent guide', href: '/agents/', desc: 'Use OKF with ChatGPT, Claude, Gemini, or RAG pipelines' },

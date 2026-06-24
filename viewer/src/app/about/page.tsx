@@ -151,7 +151,7 @@ export default function AboutPage() {
             { label: 'Methodology', desc: 'Sample-size floors, ranking eligibility, citation policy' },
             { label: 'Research', desc: '10 reports — IPL 2026, MLC seasons, toss effects, death overs, powerplay, batting' },
             { label: 'Dossier', desc: '48 verified Q&A patterns showing correct citation and scope' },
-            { label: 'Journeys', desc: '7 provenance-backed cricket stories — powerplay revelations, venue quirks, franchise strategy' },
+            { label: 'Journeys', desc: '8 provenance-backed cricket stories — powerplay revelations, venue quirks, franchise strategy' },
             { label: 'Sources', desc: 'Data provenance and license boundaries for every source used' },
           ].map((item) => (
             <div key={item.label} className="bg-gray-900 border border-gray-800 rounded-lg p-3">
