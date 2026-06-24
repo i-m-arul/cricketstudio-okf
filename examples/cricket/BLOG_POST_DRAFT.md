@@ -81,11 +81,13 @@ The repo is public, the validator is open source, the content is CC-BY-4.0, and 
 
 ## What We're Submitting to Google
 
-We're contributing a standalone 15-file cricket domain slice to [GoogleCloudPlatform/knowledge-catalog](https://github.com/GoogleCloudPlatform/knowledge-catalog) — the same repo that hosts the Google OKF v0.1 spec.
+We've contributed a 14-file cricket domain bundle to [GoogleCloudPlatform/knowledge-catalog](https://github.com/GoogleCloudPlatform/knowledge-catalog) — the same repo that hosts the Google OKF v0.1 spec.
 
-The contribution is in `examples/cricket/`: spec documents, metric definitions, annotated entity examples, an agent dossier pattern, and the story format. No real player data — just the pattern language, documented and annotated, so any cricket data producer can implement the same profile.
+**The PR is open: [GoogleCloudPlatform/knowledge-catalog#144](https://github.com/GoogleCloudPlatform/knowledge-catalog/pull/144)**
 
-If Google merges it, Cricket OKF becomes the first sport with a first-party profile in the canonical OKF examples directory. If they don't, the profile still exists, the reference implementation still works, and any agent that reads `okf.cricketstudio.ai/llms.txt` gets it anyway.
+The bundle lives at `okf/bundles/cricket/`: spec documents, metric definitions, annotated entity examples, an agent dossier pattern, and the story format. No real player data — just the pattern language, documented and annotated, so any cricket data producer can implement the same profile.
+
+If Google merges it, Cricket OKF becomes the first sport with a curated domain knowledge bundle in their catalog. If they don't, the profile still exists, the reference implementation still works, and any agent that reads `okf.cricketstudio.ai/llms.txt` gets it anyway.
 
 ---
 
