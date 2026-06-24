@@ -3,6 +3,34 @@
 All notable changes to CricketStudio OKF are documented here. This project follows
 [Semantic Versioning](https://semver.org/).
 
+## [0.4.1] — 2026-06-24
+
+Catalog expansion — 10 new dossiers and 2 new research files targeting high-search-value cricket questions.
+
+### Added
+
+**Dossiers (10 new):**
+- `what-is-powerplay-in-cricket.md` — powerplay rules, fielding restrictions, overs 1–6 definition
+- `explain-purple-cap.md` — Purple Cap scope, limitations, agent citation guidance (mirrors explain-orange-cap)
+- `what-is-net-run-rate.md` — NRR formula, IPL points table tiebreaker, DLS caveats
+- `what-are-cricket-phases.md` — powerplay / middle overs / death overs overview with floors
+- `vaibhav-suryavanshi-ipl-2026.md` — 776 runs, 237.3 SR, 233.6 powerplay SR from 223 balls, Orange Cap
+- `jasprit-bumrah-ipl-2026.md` — death-overs economy 7.69 from 78 balls, cross-league context
+- `virat-kohli-ipl-2026.md` — powerplay #13 of 45 (174.8 SR, 206 balls), volume vs rate framing
+- `ipl-2026-powerplay-batting-leader.md` — Suryavanshi #1, Kohli #13, 45 qualifying batters
+- `how-does-ipl-points-table-work.md` — 2-point system, NRR tiebreaker, playoff bracket
+- `mlc-powerplay-vs-ipl-powerplay.md` — Owen/Allen/Ravindra vs IPL 2026 top 15, cross-league scope caveats
+
+**Research (2 new):**
+- `ipl-2026-powerplay-analysis.md` — comprehensive powerplay batting/bowling report with citable claims
+- `ipl-2026-batting-season-review.md` — Orange Cap season, volume-rate co-existence, agent FAQ
+
+### Validation
+
+441 files validated — 0 errors.
+
+---
+
 ## [0.4.0] — 2026-06-23
 
 Stories / Journeys layer — provenance-backed cricket narratives as a new OKF type.
