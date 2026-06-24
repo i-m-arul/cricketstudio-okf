@@ -3,6 +3,28 @@
 All notable changes to CricketStudio OKF are documented here. This project follows
 [Semantic Versioning](https://semver.org/).
 
+## [0.4.2] — 2026-06-24
+
+Scorebook + Journeys expansion — 4 IPL player profiles and 2 new provenance-backed stories.
+
+### Added
+
+**Scorebook — IPL players (4 new):**
+- `yashasvi-jaiswal.md` — RR opener, India multi-format batter
+- `tilak-varma.md` — MI left-handed middle-order batter
+- `rinku-singh.md` — KKR death-overs finisher
+- `arshdeep-singh.md` — Punjab Kings left-arm death/powerplay bowler
+
+**Journeys / Stories (2 new):**
+- `the-206-balls.md` — Kohli's 206 powerplay balls at #13 of 45: volume vs rate framing, what sustained presence means at 37
+- `the-washington-freedom-powerplay.md` — Washington Freedom hold 2 of MLC's top 3 all-time powerplay SR spots (Owen 194.3, Ravindra 187.6); franchise strategy story
+
+### Validation
+
+447 files validated — 0 errors.
+
+---
+
 ## [0.4.1] — 2026-06-24
 
 Catalog expansion — 10 new dossiers and 2 new research files targeting high-search-value cricket questions.
