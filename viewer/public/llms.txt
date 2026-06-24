@@ -74,7 +74,7 @@ See: https://okf.cricketstudio.ai/sources/google-okf-alignment/
 
 ## Journeys (cricket stories with provenance)
 
-- [Journeys index](https://okf.cricketstudio.ai/stories/): 8 cricket stories built on OKF data — each grounded in provenance, scoped by season and format
+- [Journeys index](https://okf.cricketstudio.ai/stories/): 11 cricket stories built on OKF data — each grounded in provenance, scoped by season and format
 - [The Toss Nobody Believes In](https://okf.cricketstudio.ai/stories/toss-nobody-believes-in/): 52% IPL toss win rate across 1,219 matches; Grand Prairie bowl-first consensus contradicted by data
 - [The Powerplay Batters Nobody Is Talking About](https://okf.cricketstudio.ai/stories/mlc-powerplay-batters-nobody-talks-about/): Owen 194.3, Allen 188.0, Ravindra 187.6 SR — above Kohli IPL 2026 (174.8) in powerplay
 - [Grand Prairie's Dirty Secret](https://okf.cricketstudio.ai/stories/grand-prairie-dirty-secret/): 76.7% bowl-first; first-innings avg 177 vs second-innings 160; 48.8% chase success
@@ -83,6 +83,9 @@ See: https://okf.cricketstudio.ai/sources/google-okf-alignment/
 - [The 206 Balls](https://okf.cricketstudio.ai/stories/the-206-balls/): Kohli's 206 powerplay balls at #13 of 45 — what sustained volume means at 37
 - [The Washington Freedom Powerplay](https://okf.cricketstudio.ai/stories/the-washington-freedom-powerplay/): Freedom hold 2 of MLC's top 3 all-time powerplay SR spots — Owen 194.3, Ravindra 187.6
 - [The Stars Who Finished Last](https://okf.cricketstudio.ai/stories/stars-who-finished-last/): GT Gill (732) + Sudharsan (722) = 1,454 runs; MI with Bumrah, Rohit, SKY, Hardik finished #10 — the 1.032 NRR gap
+- [The Metric Decides the Winner](https://okf.cricketstudio.ai/stories/suryavanshi-vs-kohli/): Suryavanshi 776R/237.3SR vs Kohli 675R/165.8SR — runs, average, sixes, phase splits: a different winner for each metric
+- [270 Balls and 275 Balls](https://okf.cricketstudio.ai/stories/rabada-vs-rashid/): Rabada 29wkts in 270 PP balls; Rashid 19wkts in 275 middle-overs balls — GT's pace/spin phase divide
+- [GT's Third Final](https://okf.cricketstudio.ai/stories/rcb-vs-gt-2026/): RCB vs GT — same 9W/5L record, Kohli hit Rabada at 237.8 SR (0 dismissals), RCB won the Final by 5 wkts
 
 ## Data sources and licensing
 

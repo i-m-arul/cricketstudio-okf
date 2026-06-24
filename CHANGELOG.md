@@ -3,6 +3,36 @@
 All notable changes to CricketStudio OKF are documented here. This project follows
 [Semantic Versioning](https://semver.org/).
 
+## [0.4.4] — 2026-06-24
+
+Rivalry Journeys — batter vs batter, bowler vs bowler, team vs team.
+
+### Added
+
+**Journeys (3 new):**
+- `suryavanshi-vs-kohli.md` — "The Metric Decides the Winner": Suryavanshi (776R, 237.3SR, 72 sixes)
+  vs Kohli (675R, 165.8SR, 56.25avg). Each metric picks a different winner. Phase splits reveal
+  Suryavanshi's middle-overs SR (238.7) exceeds his powerplay SR (233.6); Kohli's death SR (244.4)
+  exceeds his own powerplay SR (174.8).
+- `rabada-vs-rashid.md` — "270 Balls and 275 Balls": GT teammates Rabada (270 PP balls, 20 wkts,
+  9.69 econ) vs Rashid (275 middle balls, 19 wkts, 8.42 econ). Phase-specialised arsenal, not
+  true rivals. Career economy inflation: Rashid 7.08→9.08 (+2.0 RPO), Rabada 8.61→9.68 (+1.07).
+- `rcb-vs-gt-2026.md` — "GT's Third Final": RCB (#1, NRR +0.684) vs GT (#3, NRR +0.320) —
+  identical 9W/5L/18pts in league stage. Kohli vs Rabada H2H: 37 balls / 88R / 237.8 SR / 0
+  dismissals. Bhuvneshwar 28 wkts at 7.95 econ vs Rabada 29 at 9.68. RCB won the Final by
+  5 wkts (Kohli 75(42), GT 155, RCB 156/5 in 18 ov). GT: 3 finals in 5 seasons, 1 title.
+
+### Changed
+
+- Viewer search and about pages: Journeys count 8→11.
+- `llms.txt`: Journeys index 8→11; 3 new story entries added.
+
+### Validation
+
+451 files validated — 0 errors.
+
+---
+
 ## [0.4.3] — 2026-06-24
 
 H2H Journey — top performer vs top loser, IPL 2026.
