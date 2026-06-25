@@ -20,15 +20,9 @@ export default async function ResearchPage() {
       </p>
       <TagFilter
         files={nonIndex}
-        pinnedTags={[
-          // League
-          'IPL', 'MLC',
-          // Season
-          'IPL-2026',
-          // Topic
-          'toss', 'death-overs', 'batting-analysis', 'bowling-analysis', 'season-analysis',
-        ]}
+        pinnedTags={['IPL', 'MLC', 'IPL-2026', 'toss', 'powerplay', 'death-overs', 'batting', 'bowling']}
         minCount={2}
+        maxChips={8}
       />
     </div>
   )

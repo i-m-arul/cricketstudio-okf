@@ -20,6 +20,8 @@ interface Props {
   pinnedTags?: string[]
   /** Minimum number of files a tag must appear in to show as a chip */
   minCount?: number
+  /** Max total chips to display (default 12); prevents chip-bar overflow */
+  maxChips?: number
   /**
    * Optional: pre-grouped map for scorebook-style grouped default view.
    * When active filters are empty AND this is provided, renders grouped sections.
@@ -29,10 +31,24 @@ interface Props {
   typeLabels?: Record<string, string>
 }
 
+// Tags that are structural/meta — never useful as chips
+const HIDDEN = new Set([
+  'cricket', 'player', 'team', 'venue', 'league', 'season',
+  'match', 'metric', 'methodology', 'dossier', 'research', 'index', 'placeholder',
+])
+
+// Detect entity-name tags: proper nouns like Virat-Kohli, Gujarat-Titans,
+// Royal-Challengers-Bengaluru. Pattern: starts uppercase, contains a lowercase
+// letter, and has a hyphen — distinguishes them from IPL, MLC, RHB, IPL-2026.
+function isEntityTag(tag: string): boolean {
+  return /^[A-Z]/.test(tag) && /[a-z]/.test(tag) && tag.includes('-')
+}
+
 export default function TagFilter({
   files,
   pinnedTags = [],
   minCount = 1,
+  maxChips = 12,
   groupByType,
   typeLabels = {},
 }: Props) {
@@ -48,19 +64,19 @@ export default function TagFilter({
     return counts
   }, [files])
 
-  const HIDDEN = new Set([
-    'cricket', 'player', 'team', 'venue', 'league', 'season',
-    'match', 'metric', 'methodology', 'dossier', 'research', 'index', 'placeholder',
-  ])
-
   const chips = useMemo(() => {
     const pinned = pinnedTags.filter((t) => (tagCounts[t] ?? 0) >= minCount)
     const rest = Object.entries(tagCounts)
-      .filter(([t, n]) => n >= minCount && !HIDDEN.has(t) && !pinnedTags.includes(t))
+      .filter(([t, n]) =>
+        n >= minCount &&
+        !HIDDEN.has(t) &&
+        !pinnedTags.includes(t) &&
+        !isEntityTag(t)
+      )
       .sort((a, b) => b[1] - a[1])
       .map(([t]) => t)
-    return [...pinned, ...rest]
-  }, [tagCounts, pinnedTags, minCount])
+    return [...pinned, ...rest].slice(0, maxChips)
+  }, [tagCounts, pinnedTags, minCount, maxChips])
 
   const filtered = useMemo(() => {
     if (active.size === 0) return files

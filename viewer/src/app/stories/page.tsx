@@ -21,17 +21,9 @@ export default async function StoriesPage() {
       </p>
       <TagFilter
         files={nonIndex}
-        pinnedTags={[
-          'IPL',
-          'MLC',
-          'toss',
-          'powerplay',
-          'death-overs',
-          'batting',
-          'bowling',
-          'venue',
-        ]}
-        minCount={1}
+        pinnedTags={['IPL', 'MLC', 'rivalry', 'powerplay', 'death-overs', 'toss', 'batting', 'bowling', 'venue', 'finals']}
+        minCount={2}
+        maxChips={10}
       />
     </div>
   )

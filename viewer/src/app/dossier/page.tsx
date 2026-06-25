@@ -20,15 +20,9 @@ export default async function DossierPage() {
       </p>
       <TagFilter
         files={nonIndex}
-        pinnedTags={[
-          // League
-          'IPL', 'MLC',
-          // Discipline
-          'bowling', 'batting',
-          // Topic
-          'leaderboard', 'toss', 'all-time', 'death-overs', 'comparison',
-        ]}
-        minCount={2}
+        pinnedTags={['IPL', 'MLC', 'batting', 'bowling', 'powerplay', 'death-overs', 'leaderboard', 'toss', 'all-time']}
+        minCount={3}
+        maxChips={10}
       />
     </div>
   )

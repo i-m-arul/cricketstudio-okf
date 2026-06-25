@@ -30,19 +30,9 @@ export default async function ScorebookPage() {
 
       <TagFilter
         files={concepts}
-        pinnedTags={[
-          // League
-          'IPL', 'MLC',
-          // Role
-          'batter', 'bowler', 'all-rounder', 'wicket-keeper',
-          // Batting hand
-          'RHB', 'LHB',
-          // Bowling style
-          'pace', 'spin',
-          // Format / topic
-          'T20', 'records', 'batting',
-        ]}
-        minCount={2}
+        pinnedTags={['IPL', 'MLC', 'batter', 'bowler', 'all-rounder', 'pace', 'spin']}
+        minCount={3}
+        maxChips={10}
         groupByType={byType}
         typeLabels={TYPE_LABELS}
       />
