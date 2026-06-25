@@ -3,6 +3,37 @@
 All notable changes to CricketStudio OKF are documented here. This project follows
 [Semantic Versioning](https://semver.org/).
 
+## [0.4.6] — 2026-06-24
+
+IPL fan Q&A expansion — 20 new dossiers + 3 historical stories. Bundle grows to 474 files.
+
+### Added
+
+- **20 new dossiers** targeting the top IPL fan questions across all-time records, GOAT
+  debates, rules/concepts, team history, and batting evolution:
+  - All-time records: `ipl-all-time-run-scorer`, `ipl-all-time-wicket-taker`,
+    `ipl-highest-individual-innings` (Gayle 175*), `ipl-most-sixes-all-time`,
+    `ipl-highest-team-score` (SRH 277/3, May 2024)
+  - GOAT framing: `ipl-goat-debate`, `kohli-vs-rohit-ipl-career`,
+    `best-ipl-captain-all-time` (Dhoni + Rohit tied at 5 titles),
+    `best-overseas-ipl-player-all-time`, `ms-dhoni-ipl-career`
+  - Rules/concepts: `what-is-impact-player-rule`, `what-is-super-over`, `what-is-dls-method`
+  - Team history: `ipl-most-titles-by-team`, `ipl-champions-history` (2007/08–2026),
+    `ipl-defunct-franchises`, `ipl-2022-expansion`
+  - Season history: `orange-cap-winners-history`, `purple-cap-winners-history`
+  - Batting evolution: `how-has-ipl-batting-changed` (145→172 avg, 6.99%→29.68% 200+ scores)
+- **3 new historical stories** using verified Cricsheet CC BY 3.0 data:
+  - `ipl-scoring-revolution` — the 200+ innings explosion post-Impact Player Rule
+  - `gayle-storm-175` — Gayle 175* (23 April 2013) and what it meant for T20 ceilings
+  - `kohli-2016-season` — 973 runs, the single-season record that survived the Impact Player era
+
+### Changed
+
+- `manifest.yaml` — counts updated: dossier 47→67, story 11→14, total 451→474
+- `viewer/public/llms.txt` — count lines synced
+
+---
+
 ## [0.4.5] — 2026-06-24
 
 Auto-count system — counts are now generated from the catalog, not maintained by hand.
