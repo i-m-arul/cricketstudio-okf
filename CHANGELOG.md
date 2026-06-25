@@ -3,6 +3,56 @@
 All notable changes to CricketStudio OKF are documented here. This project follows
 [Semantic Versioning](https://semver.org/).
 
+## [0.5.0] — 2026-06-25
+
+27-story narrative expansion — all 5 tiers shipped. Bundle grows to 506 files, 41 stories.
+
+### Added
+
+**Tier 1 — IPL 2026 season + MLC narratives (10 stories):**
+- `rcb-back-to-back` — 18 seasons to a title, then two in a row
+- `suryavanshi-powerplay-every-bowler` — 0 dismissals across all H2H bowlers in IPL 2026 dataset
+- `bumrah-2026-economy` — 7.69 RPO from 78 death-overs balls vs MLC all-time benchmarks
+- `impact-player-lineup-revolution` — 6.99% → 29.68% 200+ innings post-2023
+- `ipl-2026-five-defining-moments` — framework for finding pivot matches via NRR/standings
+- `mlc-season-4-what-needs-proving` — 3 open questions after 75 MLC matches
+- `ipl-alumni-who-built-mlc` — Faf, Cummins, Ferguson, Boult bridging IPL to MLC
+- `mlc-seattle-orcas-overperform` — Gannon 7.18 death economy, MLC all-time best
+- `ipl-2026-bowling-took-a-beating` — bowling in a +18% run environment
+- `mlc-vs-ipl-what-numbers-show` — cross-league death bowling and powerplay comparison
+
+**Tier 2 — Player arc stories (5 stories):**
+- `gill-ipl-2026-732-runs` — 732 runs at 45.8 avg (GT, IPL 2026), 3,866 career pre-2026
+- `narine-the-batter-who-bowl` — 192 career wickets + 1780 runs; 6.60 economy in IPL 2026
+- `chahal-200-wickets-journey` — first to 200 IPL wickets (22 Apr 2024, 153rd match), 9-season table
+- `rohit-five-titles-mi-blueprint` — MI 2013/15/17/19/20, structural patterns across dynasties
+- `faf-mlc-orange-cap-trailblazer` — 934 runs / 571 balls / SR 163.6, all-time MLC Orange Cap
+
+**Tier 3 — Phase analysis stories (4 stories):**
+- `rashid-economy-nine-seasons` — 5.34 (2020) → 9.08 (2026), Impact Player era effect
+- `kohli-at-37-best-average` — 56.25 avg in IPL 2026; best sustained block since 2016
+- `kohli-244-death-sr` — 244.4 SR from 27 death-over balls; meets ≥15 floor, caveated
+- `spin-bowling-after-impact-player` — Chahal +1.43 RPO, Rashid +2.00, Narine 6.60 exception
+
+**Tier 4 — Historical stories (5 stories):**
+- `mi-csk-the-decade` — 10 of 14 titles 2010-2023, structural differences between dynasties
+- `deccan-chargers-won-then-vanished` — won 2009, terminated 2012; only champion ever erased
+- `ipl-2008-vs-2026-eighteen-seasons` — avg runs 145→172, 200+ innings 6.99%→29.68%, McCullum to Suryavanshi
+- `mccullum-april-18-2008` — 158* off 73 balls (216.4 SR), Cricsheet CC BY 3.0
+- `gt-three-finals-five-seasons` — 2022 won, 2023 runners-up, 2026 runners-up; best expansion franchise start
+
+**Tier 5 — Format/rules stories (3 stories):**
+- `dls-why-it-feels-unfair` — resource model vs intuitive fairness; methodology_only
+- `super-over-six-balls-everything` — each ball = 40x probability weight, strategy compression
+- `nrr-the-heartbreak-number` — bowled-out rule, 1.032-point MI vs GT spread in IPL 2026
+
+### Changed
+
+- `manifest.yaml` — story count updated: 14 → 41
+- `viewer/public/llms.txt` — story count synced
+
+---
+
 ## [0.4.6] — 2026-06-24
 
 IPL fan Q&A expansion — 20 new dossiers + 3 historical stories. Bundle grows to 474 files.
