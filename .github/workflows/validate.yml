@@ -29,3 +29,6 @@ jobs:
 
       - name: Run tests
         run: python -m pytest -q
+
+      - name: Check counts are current (manifest.yaml + llms.txt)
+        run: python scripts/update_counts.py --check

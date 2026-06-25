@@ -1,23 +1,12 @@
 import Link from 'next/link'
 import SearchClient from './SearchClient'
+import { getOKFCounts } from '@/lib/counts'
 
 export const metadata = {
   title: 'Search — CricketStudio OKF',
   description: 'Search cricket metrics, methodology, research, dossiers, players, teams, and venues across the CricketStudio OKF catalog.',
   alternates: { canonical: 'https://okf.cricketstudio.ai/search/' },
 }
-
-const BROWSE_SECTIONS = [
-  { label: 'Specification', href: '/spec/', desc: 'Type vocabulary, provenance, metrics, claims, identity, sample-size — the Cricket OKF standard' },
-  { label: 'Metrics', href: '/metrics/', desc: '10 definitions — batting SR, economy, death-overs, Orange/Purple Cap' },
-  { label: 'Methodology', href: '/methodology/', desc: 'Sample-size floors, ranking eligibility, citation policy' },
-  { label: 'Research', href: '/research/', desc: '10 reports — IPL 2026, MLC seasons, toss effects, death overs, powerplay, batting' },
-  { label: 'Dossier', href: '/dossier/', desc: '48 verified Q&A patterns for agents and analysts' },
-  { label: 'Journeys', href: '/stories/', desc: '11 cricket stories built on provenance-backed OKF data' },
-  { label: 'Scorebook', href: '/scorebook/', desc: 'Players, teams, leagues, seasons, venues, matches' },
-  { label: 'Conformance', href: '/conformance/', desc: 'Level 0–4 checklist — self-certified Level 2 (Evidence-Backed)' },
-  { label: 'Agent guide', href: '/agents/', desc: 'Use OKF with ChatGPT, Claude, Gemini, or RAG pipelines' },
-]
 
 const AGENT_QUERIES = [
   { label: 'What is the Cricket OKF standard?', href: '/spec' },
@@ -31,7 +20,21 @@ const AGENT_QUERIES = [
   { label: 'Use OKF with an AI agent', href: '/agents' },
 ]
 
-export default function SearchPage() {
+export default async function SearchPage() {
+  const { byType } = await getOKFCounts()
+
+  const BROWSE_SECTIONS = [
+    { label: 'Specification', href: '/spec/', desc: 'Type vocabulary, provenance, metrics, claims, identity, sample-size — the Cricket OKF standard' },
+    { label: 'Metrics', href: '/metrics/', desc: `${byType.metric ?? 10} definitions — batting SR, economy, death-overs, Orange/Purple Cap` },
+    { label: 'Methodology', href: '/methodology/', desc: 'Sample-size floors, ranking eligibility, citation policy' },
+    { label: 'Research', href: '/research/', desc: `${byType.research ?? 0} reports — IPL 2026, MLC seasons, toss effects, death overs, powerplay, batting` },
+    { label: 'Dossier', href: '/dossier/', desc: `${byType.dossier ?? 0} verified Q&A patterns for agents and analysts` },
+    { label: 'Journeys', href: '/stories/', desc: `${byType.story ?? 0} cricket stories built on provenance-backed OKF data` },
+    { label: 'Scorebook', href: '/scorebook/', desc: 'Players, teams, leagues, seasons, venues, matches' },
+    { label: 'Conformance', href: '/conformance/', desc: 'Level 0–4 checklist — self-certified Level 2 (Evidence-Backed)' },
+    { label: 'Agent guide', href: '/agents/', desc: 'Use OKF with ChatGPT, Claude, Gemini, or RAG pipelines' },
+  ]
+
   return (
     <div className="max-w-3xl mx-auto">
       <h1 className="text-3xl font-bold text-white mb-2">Search</h1>

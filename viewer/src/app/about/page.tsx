@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { BarChart2, BookOpen, Globe, ShieldCheck, GitBranch } from 'lucide-react'
+import { getOKFCounts } from '@/lib/counts'
 
 export const metadata = {
   alternates: { canonical: '/about' },
@@ -35,7 +36,8 @@ const PRINCIPLES = [
   },
 ]
 
-export default function AboutPage() {
+export default async function AboutPage() {
+  const { byType } = await getOKFCounts()
   return (
     <div className="max-w-3xl mx-auto">
       <h1 className="text-3xl font-bold text-white mb-2">About CricketStudio OKF</h1>
@@ -147,11 +149,11 @@ export default function AboutPage() {
           {[
             { label: 'Specification', desc: 'Type vocabulary, provenance, metrics, claims, identity, sample-size, conformance' },
             { label: 'Scorebook', desc: 'Players, teams, leagues, seasons, venues, matches' },
-            { label: 'Metrics', desc: '10 definitions — batting SR, economy, death-overs, Orange/Purple Cap' },
+            { label: 'Metrics', desc: `${byType.metric ?? 10} definitions — batting SR, economy, death-overs, Orange/Purple Cap` },
             { label: 'Methodology', desc: 'Sample-size floors, ranking eligibility, citation policy' },
-            { label: 'Research', desc: '10 reports — IPL 2026, MLC seasons, toss effects, death overs, powerplay, batting' },
-            { label: 'Dossier', desc: '48 verified Q&A patterns showing correct citation and scope' },
-            { label: 'Journeys', desc: '11 provenance-backed cricket stories — rivals, powerplay revelations, venue quirks, franchise strategy' },
+            { label: 'Research', desc: `${byType.research ?? 0} reports — IPL 2026, MLC seasons, toss effects, death overs, powerplay, batting` },
+            { label: 'Dossier', desc: `${byType.dossier ?? 0} verified Q&A patterns showing correct citation and scope` },
+            { label: 'Journeys', desc: `${byType.story ?? 0} provenance-backed cricket stories — rivals, powerplay revelations, venue quirks, franchise strategy` },
             { label: 'Sources', desc: 'Data provenance and license boundaries for every source used' },
           ].map((item) => (
             <div key={item.label} className="bg-gray-900 border border-gray-800 rounded-lg p-3">

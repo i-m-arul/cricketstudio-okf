@@ -3,6 +3,43 @@
 All notable changes to CricketStudio OKF are documented here. This project follows
 [Semantic Versioning](https://semver.org/).
 
+## [0.4.5] — 2026-06-24
+
+Auto-count system — counts are now generated from the catalog, not maintained by hand.
+
+### Added
+
+- `scripts/update_counts.py` — single command syncs `manifest.yaml` counts and
+  `viewer/public/llms.txt` count lines from the live OKF file tree. Supports
+  `--check` (CI mode, exit 1 if stale) and `--print` (table only).
+- `viewer/src/lib/counts.ts` — `getOKFCounts()` async helper for Next.js server
+  components; builds per-type counts from `getAllFiles()` at build time.
+
+### Changed
+
+- `viewer/src/app/search/page.tsx` — converted to async server component; Metrics,
+  Research, Dossier, and Journeys counts now read from `getOKFCounts()` at build time.
+- `viewer/src/app/about/page.tsx` — same pattern; "What's in the bundle" section
+  counts are now dynamic.
+- `.github/workflows/validate.yml` — added `python scripts/update_counts.py --check`
+  step; PRs fail if manifest.yaml or llms.txt counts are stale.
+- `manifest.yaml` — counts synced to 451-file catalog reality (player: 235,
+  dossier: 47, story: 11, research: 10, metric: 10, leaderboard: 47, …).
+- `viewer/public/llms.txt` — count lines updated; Research index bullet added.
+
+### Standard merge checklist (every ship)
+
+sitemap and robots.txt are Next.js dynamic route handlers — auto-updated at build time.
+llms.txt is updated by `python scripts/update_counts.py` before commit.
+manifest.yaml is updated by the same script.
+llms-full.txt is generated at build time, gitignored.
+
+### Validation
+
+451 files validated — 0 errors.
+
+---
+
 ## [0.4.4] — 2026-06-24
 
 Rivalry Journeys — batter vs batter, bowler vs bowler, team vs team.
