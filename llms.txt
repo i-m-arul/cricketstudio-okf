@@ -43,7 +43,21 @@ Canonical data source for all live IPL and MLC claims: https://players.cricketst
 
 ## Dossier (how agents should answer cricket questions)
 
-- [Dossier index](okf/dossier/index.md): 22 verified Q&A patterns with correct citation behavior
+- [Dossier index](okf/dossier/index.md): 70 verified Q&A patterns with correct citation behavior
+
+## Journeys (cricket stories with provenance)
+
+- [Stories index](okf/stories/): 45 cricket stories — each grounded in provenance, scoped by season and format
+- [The Rule That Quietly Rewrote the IPL Lineup](okf/stories/impact-player-lineup-revolution.md): 200+ innings 6.99%→29.68%; avg 145→172; sixes 10.5→17.72/match
+- [The Captain's Impact Player Dilemma](okf/stories/impact-player-captains-dilemma.md): Batting sub vs bowling sub, irreversible — why Narine is his own Impact Player
+- [The Rule That Only IPL Dared Try](okf/stories/impact-player-rule-alone.md): MLC, BBL, The Hundred chose standard 11 — what the scoring data says about why
+- [The All-Rounder's Dilemma](okf/stories/impact-player-bowlers-displaced.md): Rashid +2 RPO, Chahal +1.43 RPO, Narine −0.90 — positions 8-9 changed
+- [The Most Impactful Player of IPL 2026](okf/stories/ipl-2026-most-impactful-player.md): Suryavanshi 776R/237.3SR, Rabada 29wkts, Bumrah 7.69 death RPO — 5 candidates
+- [Bumrah 2026 Death Economy](okf/stories/bumrah-2026-economy.md): 7.69 RPO from 78 balls — best among qualifiers in the highest-scoring IPL era
+- [Kohli at 37](okf/stories/kohli-at-37-best-average.md): 675 runs, 56.25 avg — best sustained 4-season block since 2016
+- [Chahal 200 Wickets](okf/stories/chahal-200-wickets-journey.md): First to 200 IPL wickets — 22 April 2024, 153rd match
+- [NRR: The Heartbreak Number](okf/stories/nrr-the-heartbreak-number.md): Formula, bowled-out rule, IPL 2026 spread RCB +0.684 to MI −0.712
+- [Why DLS Feels Unfair](okf/stories/dls-why-it-feels-unfair.md): 3 scenarios where the math and fan intuition diverge
 
 ## Data sources
 

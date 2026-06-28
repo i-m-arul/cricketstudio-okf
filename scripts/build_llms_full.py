@@ -157,7 +157,7 @@ GitHub (full OKF bundle, raw markdown): https://github.com/i-m-arul/cricketstudi
 
 - [Specification](https://okf.cricketstudio.ai/spec/): Cricket OKF type vocabulary, provenance convention, metric standard, claim discipline, identity rules, sample-size doctrine
 - [Conformance](https://okf.cricketstudio.ai/conformance/): Levels 0–4, self-certification checklist — CricketStudio OKF is Level 2 (Evidence-Backed)
-- [Releases](https://okf.cricketstudio.ai/releases/): Versioned release history (v0.1 – v0.4)
+- [Releases](https://okf.cricketstudio.ai/releases/): Versioned release history (v0.1 – v0.5)
 - [Bundle overview](https://okf.cricketstudio.ai/): Home page — navigation to scorebook, metrics, methodology, dossier, research, and journeys
 - [About OKF](https://okf.cricketstudio.ai/about/): What OKF is and how to cite it
 - [Agent guide](https://okf.cricketstudio.ai/agents/): How to use OKF with ChatGPT, Claude, Gemini, Perplexity, RAG pipelines, and MCP tools
@@ -212,16 +212,28 @@ See: https://okf.cricketstudio.ai/sources/google-okf-alignment/
 
 ## Dossier (how agents should answer cricket questions)
 
-- [Dossier index](https://okf.cricketstudio.ai/dossier/): 37 verified Q&A patterns with correct citation behavior
+- [Dossier index](https://okf.cricketstudio.ai/dossier/): 70 verified Q&A patterns with correct citation behavior
 
 ## Journeys (cricket stories with provenance)
 
-- [Journeys index](https://okf.cricketstudio.ai/stories/): 5 cricket stories built on OKF data — each grounded in provenance, scoped by season and format
+- [Journeys index](https://okf.cricketstudio.ai/stories/): 45 cricket stories built on OKF data — each grounded in provenance, scoped by season and format
 - [The Toss Nobody Believes In](https://okf.cricketstudio.ai/stories/toss-nobody-believes-in/): 52% IPL toss win rate across 1,219 matches; Grand Prairie bowl-first consensus contradicted by data
 - [The Powerplay Batters Nobody Is Talking About](https://okf.cricketstudio.ai/stories/mlc-powerplay-batters-nobody-talks-about/): Owen 194.3, Allen 188.0, Ravindra 187.6 SR — above Kohli IPL 2026 (174.8) in powerplay
 - [Grand Prairie's Dirty Secret](https://okf.cricketstudio.ai/stories/grand-prairie-dirty-secret/): 76.7% bowl-first; first-innings avg 177 vs second-innings 160; 48.8% chase success
 - [How MLC Mastered Death Bowling in 3 Seasons](https://okf.cricketstudio.ai/stories/mlc-death-overs-revolution/): Gannon 7.18, Cummins 7.38, Ferguson 7.54 — all below Bumrah IPL 2026 (7.69)
 - [The Teenager Who Broke the Template](https://okf.cricketstudio.ai/stories/teenager-who-broke-the-template/): Suryavanshi IPL 2026 powerplay SR 233.6 (223 balls) exceeds McCullum 158* SR (216.43)
+- [The Rule That Quietly Rewrote the IPL Lineup](https://okf.cricketstudio.ai/stories/impact-player-lineup-revolution/): 200+ innings 6.99%→29.68%, avg first innings 145→172, sixes 10.5→17.72/match
+- [The Captain's Impact Player Dilemma](https://okf.cricketstudio.ai/stories/impact-player-captains-dilemma/): One card, irreversible — batting sub vs bowling sub, why Narine is his own Impact Player
+- [The Rule That Only IPL Dared Try](https://okf.cricketstudio.ai/stories/impact-player-rule-alone/): IPL's 4th season with the rule; MLC, BBL, The Hundred, CPL chose standard 11
+- [The All-Rounder's Dilemma](https://okf.cricketstudio.ai/stories/impact-player-bowlers-displaced/): Positions 8-9 changed; Rashid +2 RPO, Chahal +1.43 RPO, Narine −0.90 — the exception
+- [The Most Impactful Player of IPL 2026 (Both Meanings)](https://okf.cricketstudio.ai/stories/ipl-2026-most-impactful-player/): Suryavanshi 776R/237.3SR vs Rabada 29wkts Purple Cap vs Bumrah 7.69 death RPO — 5 candidates
+- [RCB Back-to-Back](https://okf.cricketstudio.ai/stories/rcb-back-to-back/): 18 seasons, 0 titles, then 2 in a row — 2025 and 2026 IPL champions
+- [Bumrah 2026 Death Economy](https://okf.cricketstudio.ai/stories/bumrah-2026-economy/): 7.69 RPO from 78 death balls — best in IPL 2026 in the highest-scoring era in history
+- [Kohli at 37 — Best Average](https://okf.cricketstudio.ai/stories/kohli-at-37-best-average/): 675 runs, 56.25 avg, 165.8 SR — best sustained 4-season average block since 2016
+- [Chahal 200 Wickets Journey](https://okf.cricketstudio.ai/stories/chahal-200-wickets-journey/): First IPL bowler to 200 wickets — 22 April 2024, match 153, full season-by-season table
+- [GT Three Finals Five Seasons](https://okf.cricketstudio.ai/stories/gt-three-finals-five-seasons/): Gujarat Titans' 3 finals in 5 seasons — 2022 champions, 2023 runners-up, 2026 runners-up
+- [NRR: The Heartbreak Number](https://okf.cricketstudio.ai/stories/nrr-the-heartbreak-number/): Formula, bowled-out rule, IPL 2026 spread RCB +0.684 to MI −0.712
+- [Why DLS Feels Unfair](https://okf.cricketstudio.ai/stories/dls-why-it-feels-unfair/): 3 scenarios where the math and fan intuition diverge — and why the model is more defensible
 
 ## Data sources and licensing
 
