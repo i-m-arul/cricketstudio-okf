@@ -19,6 +19,11 @@ const SECTION_PAGES: MetadataRoute.Sitemap = [
   { url: `${BASE}/about/`, changeFrequency: 'monthly', priority: 0.6 },
 ]
 
+const CHANGE_FREQ_BY_TYPE: Record<string, 'weekly' | 'monthly'> = {
+  story:    'weekly',
+  research: 'weekly',
+}
+
 const PRIORITY_BY_TYPE: Record<string, number> = {
   player: 0.8,
   team: 0.8,
@@ -43,7 +48,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     .map((f) => ({
       url: `${BASE}${f.urlPath}`,
       lastModified: f.last_verified ? new Date(f.last_verified) : undefined,
-      changeFrequency: 'monthly' as const,
+      changeFrequency: (CHANGE_FREQ_BY_TYPE[f.type] ?? 'monthly') as 'weekly' | 'monthly',
       priority: PRIORITY_BY_TYPE[f.type] ?? 0.6,
     }))
 

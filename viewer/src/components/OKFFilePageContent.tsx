@@ -6,7 +6,7 @@ import { OKFFile, TYPE_LABELS, SOURCE_BOUNDARY_LABELS } from '@/lib/okf'
 
 const BASE = 'https://okf.cricketstudio.ai'
 
-export function buildJsonLd(file: OKFFile) {
+export function buildJsonLd(file: OKFFile): object[] {
   const url = `${BASE}${file.urlPath}`
   const base = {
     '@context': 'https://schema.org',
@@ -16,28 +16,79 @@ export function buildJsonLd(file: OKFFile) {
     ...(file.last_verified ? { dateModified: file.last_verified } : {}),
     publisher: { '@type': 'Organization', name: 'CricketStudio', url: 'https://cricketstudio.ai' },
   }
-  if (file.type === 'player') return { '@type': 'Person', ...base, ...(file.canonical_page ? { sameAs: [file.canonical_page] } : {}) }
-  if (file.type === 'team') return { '@type': 'SportsTeam', sport: 'Cricket', ...base, ...(file.canonical_page ? { sameAs: [file.canonical_page] } : {}) }
-  if (file.type === 'league') return { '@type': 'SportsOrganization', sport: 'Cricket', ...base }
-  if (file.type === 'match') return { '@type': 'SportsEvent', sport: 'Cricket', ...base }
-  if (file.type === 'venue') return { '@type': 'StadiumOrArena', ...base }
-  if (file.type === 'metric' || file.type === 'methodology' || file.type === 'research')
-    return { '@type': 'Article', ...base, articleSection: TYPE_LABELS[file.type] ?? file.type }
-  return { '@type': 'WebPage', ...base }
+
+  // BreadcrumbList for all pages — visual breadcrumbs already rendered, now machine-readable
+  const parts = file.slug.split('/')
+  const crumbItems: object[] = [{ '@type': 'ListItem', position: 1, name: 'Home', item: `${BASE}/` }]
+  if (parts.length > 1) {
+    const section = parts[0].charAt(0).toUpperCase() + parts[0].slice(1).replace(/-/g, ' ')
+    crumbItems.push({ '@type': 'ListItem', position: 2, name: section, item: `${BASE}/${parts[0]}/` })
+  }
+  crumbItems.push({ '@type': 'ListItem', position: crumbItems.length + 1, name: file.title, item: url })
+  const breadcrumb = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: crumbItems }
+
+  // Main schema by type
+  let main: object
+  if (file.type === 'dossier') {
+    // FAQPage — dossier title IS the fan question; description is the short answer
+    main = {
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: [{
+        '@type': 'Question',
+        name: file.title,
+        acceptedAnswer: { '@type': 'Answer', text: file.description || file.title },
+      }],
+    }
+  } else if (file.type === 'story') {
+    main = { ...base, '@type': 'Article', articleSection: 'Cricket Story',
+      author: { '@type': 'Organization', name: 'CricketStudio', url: 'https://cricketstudio.ai' } }
+  } else if (file.type === 'player') {
+    main = { ...base, '@type': 'Person', ...(file.canonical_page ? { sameAs: [file.canonical_page] } : {}) }
+  } else if (file.type === 'team') {
+    main = { ...base, '@type': 'SportsTeam', sport: 'Cricket', ...(file.canonical_page ? { sameAs: [file.canonical_page] } : {}) }
+  } else if (file.type === 'league') {
+    main = { ...base, '@type': 'SportsOrganization', sport: 'Cricket' }
+  } else if (file.type === 'match') {
+    main = { ...base, '@type': 'SportsEvent', sport: 'Cricket' }
+  } else if (file.type === 'venue') {
+    main = { ...base, '@type': 'StadiumOrArena' }
+  } else if (file.type === 'metric' || file.type === 'methodology' || file.type === 'research') {
+    main = { ...base, '@type': 'Article', articleSection: TYPE_LABELS[file.type] ?? file.type }
+  } else {
+    main = { ...base, '@type': 'WebPage' }
+  }
+
+  return [main, breadcrumb]
+}
+
+const TYPE_TITLE_SUFFIX: Record<string, string> = {
+  metric:      '— Definition, Formula & IPL Examples',
+  methodology: '— CricketStudio Method',
+  research:    '— Cricket Research Report',
+  player:      '— IPL Stats & Profile',
+  team:        '— IPL Team Stats',
+  venue:       '— Cricket Ground Guide',
+}
+
+function enrichTitle(file: OKFFile): string {
+  const suffix = TYPE_TITLE_SUFFIX[file.type]
+  return suffix ? `${file.title} ${suffix}` : file.title
 }
 
 export function buildPageMetadata(file: OKFFile) {
   const url = `${BASE}${file.urlPath}`
+  const title = enrichTitle(file)
   const OG_CUSTOM_TYPES = new Set(['story', 'dossier', 'research', 'metric'])
   const ogImage = OG_CUSTOM_TYPES.has(file.type)
     ? `${BASE}/og-images/${file.slug}.png`
     : `${BASE}/og-image.png`
   return {
-    title: file.title,
+    title,
     description: file.description,
     alternates: { canonical: url },
     openGraph: {
-      title: file.title,
+      title,
       description: file.description,
       url,
       siteName: 'CricketStudio OKF',
@@ -47,7 +98,7 @@ export function buildPageMetadata(file: OKFFile) {
     },
     twitter: {
       card: 'summary_large_image' as const,
-      title: file.title,
+      title,
       description: file.description,
       site: '@cricketstudio',
       images: [ogImage],
