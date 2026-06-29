@@ -28,6 +28,7 @@ export function buildJsonLd(file: OKFFile) {
 
 export function buildPageMetadata(file: OKFFile) {
   const url = `${BASE}${file.urlPath}`
+  const ogImage = `${BASE}/og-image.png`
   return {
     title: file.title,
     description: file.description,
@@ -38,9 +39,16 @@ export function buildPageMetadata(file: OKFFile) {
       url,
       siteName: 'CricketStudio OKF',
       type: 'article' as const,
+      images: [{ url: ogImage, width: 1200, height: 630, alt: file.title }],
       ...(file.last_verified ? { modifiedTime: file.last_verified } : {}),
     },
-    twitter: { card: 'summary' as const, title: file.title, description: file.description, site: '@cricketstudio' },
+    twitter: {
+      card: 'summary_large_image' as const,
+      title: file.title,
+      description: file.description,
+      site: '@cricketstudio',
+      images: [ogImage],
+    },
   }
 }
 
