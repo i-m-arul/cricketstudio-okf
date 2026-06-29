@@ -28,7 +28,10 @@ export function buildJsonLd(file: OKFFile) {
 
 export function buildPageMetadata(file: OKFFile) {
   const url = `${BASE}${file.urlPath}`
-  const ogImage = `${BASE}/og-image.png`
+  const OG_CUSTOM_TYPES = new Set(['story', 'dossier', 'research', 'metric'])
+  const ogImage = OG_CUSTOM_TYPES.has(file.type)
+    ? `${BASE}/og-images/${file.slug}.png`
+    : `${BASE}/og-image.png`
   return {
     title: file.title,
     description: file.description,
