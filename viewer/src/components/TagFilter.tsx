@@ -38,6 +38,7 @@ interface Props {
 const HIDDEN = new Set([
   'cricket', 'player', 'team', 'venue', 'league', 'season',
   'match', 'metric', 'methodology', 'dossier', 'research', 'index', 'placeholder',
+  'Cricsheet', 'cricsheet', 'CricketStudio', 'open-data', 'CC-BY',
 ])
 
 // Detect entity-name tags: proper nouns like Virat-Kohli, Gujarat-Titans,
