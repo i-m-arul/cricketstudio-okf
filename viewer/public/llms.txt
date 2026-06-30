@@ -58,6 +58,7 @@ See: https://okf.cricketstudio.ai/sources/google-okf-alignment/
 
 ## Research reports
 
+- [Research index](https://okf.cricketstudio.ai/research/): 10 reports — IPL 2026, MLC seasons, toss effects, death overs, powerplay, batting
 - [State of IPL 2026](https://okf.cricketstudio.ai/research/state-of-ipl-2026/): RCB champions, standings, Orange/Purple Cap, 74 matches
 - [State of MLC 2025](https://okf.cricketstudio.ai/research/state-of-mlc-2025/): MI New York champions, all-time leaderboards
 - [Toss Effect in IPL](https://okf.cricketstudio.ai/research/toss-effect-ipl/): 1,219 matches, bowl-first edge

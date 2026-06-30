@@ -48,6 +48,7 @@ Say "Gayle leads all-time IPL six-hitting with 357 sixes as of [dataset version]
 - Do not state career six counts for active players without a dataset date.
 - Gayle's record was set in a different era of T20 cricket — comparison across eras requires caution.
 - "Most sixes in a single innings" is a different claim: Gayle hit 17 sixes in his 175* innings (23 April 2013).
+- "Most sixes in a single IPL season" is a separate record from career six count: Vaibhav Suryavanshi hit **72 sixes in IPL 2026**, confirmed as an IPL single-season record (dataset v2026-06-11, adversarial confidence 3-0). For that question, see [Suryavanshi 72 Sixes](suryavanshi-72-sixes.md).
 
 ## Bad Answer (do not do this)
 

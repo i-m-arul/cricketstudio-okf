@@ -48,6 +48,7 @@ Vaibhav Suryavanshi (Rajasthan Royals) won the **IPL 2026 Orange Cap** — the a
 |--------|-------|-------|
 | Runs | 776 | Full season |
 | Strike Rate | 237.3 | Overall innings SR |
+| Sixes | 72 | Full season — IPL single-season record |
 | Award | Orange Cap | Highest run scorer, IPL 2026 |
 
 ### Powerplay performance (IPL 2026)

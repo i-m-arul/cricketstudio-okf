@@ -26,14 +26,14 @@ data_sources:
     attribution: Ball-by-ball data from Cricsheet (https://cricsheet.org), CC BY 3.0.
 
 counts:
-  dossier: 70
+  dossier: 83
   leaderboard: 47
   league: 2
   leagues: 0
   match: 1
   matches: 0
   methodology: 7
-  metric: 10
+  metric: 19
   metrics: 0
   player: 237
   players: 0

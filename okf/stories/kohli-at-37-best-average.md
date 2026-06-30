@@ -51,9 +51,9 @@ If a batter's career average is 39.59 across 259 matches, what does it mean when
 | Matches | 16 |
 | Runs | 675 |
 | Average | 56.25 |
-| Strike rate | 165.8 |
+| Strike rate | 165.85 |
 | Fifties | 5 |
-| Hundreds | 1 |
+| Hundreds | 1 (105* vs KKR) |
 
 *(Source: CricketStudio IPL 2026 snapshot, version 2026-06-11)*
 
@@ -92,6 +92,14 @@ His career average is 39.59 pre-2026. He has averaged above that career figure i
 
 He is now 37. In T20 franchise cricket, most batters peak between 25 and 32. The data says Kohli's average performance is currently at a higher level than it was between ages 30 and 33.
 
+## The 9,000-Run Milestone
+
+Kohli's IPL 2026 season also contained the most significant individual milestone of the tournament: on **April 27, 2026 (Match 39, DC vs RCB)**, he became the **first batter in IPL history to cross 9,000 career runs**. The second-highest career total belongs to Rohit Sharma at approximately 7,183 runs — a gap of more than 1,800 runs. The milestone is confirmed 3-0 by independent sources including iplt20.com, Outlook India, and CricketAddictor.
+
+Then, in the **IPL 2026 final**, Kohli scored **75\* off 42 balls** — including his **fastest-ever IPL fifty (reached in 25 balls)** — to win **Player of the Match** as RCB defended their title for a second consecutive year.
+
+The 9,000-run milestone and the final performance sit alongside the 56.25 average as three separate data points all pointing to the same conclusion: Kohli at 37 is not declining. He is, by the numbers, in the best sustained form of his IPL career outside of 2016.
+
 ## What It Doesn't Say
 
 Average alone does not tell the full story. IPL 2026 batting environment has changed with the Impact Player Rule — scoring has risen, averages may have risen across the board. Kohli's 56.25 in a higher-scoring era may be contextually different from 81.1 in 2016.
@@ -99,6 +107,8 @@ Average alone does not tell the full story. IPL 2026 batting environment has cha
 The 2021–2022 dip has been widely analysed in cricket journalism. This story is not a diagnosis of what caused it. The data shows the pattern; the cause is more complex than a single metric.
 
 56.25 in IPL 2026 confirms he is performing well. It does not confirm he is performing at the peak of his career — 81.1 in 2016 from 973 runs remains the benchmark, and a 16-match 675-run season is different in scale from a 16-match 973-run season.
+
+The strike rate of 165.85 in IPL 2026 — notably higher than his career pre-2026 strike rate of 133.3 — also suggests an adaptation in approach, consistent with the higher-scoring Impact Player Rule era rather than a simple continuation of his historical style.
 
 ## Related Concepts
 
