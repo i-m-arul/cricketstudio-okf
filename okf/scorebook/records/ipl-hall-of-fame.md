@@ -72,10 +72,6 @@ A curated reference of landmark IPL records and season milestones. This is a hub
 | Record | Value | Player | Source |
 |--------|-------|--------|--------|
 | Most career runs | 9,000+ | [Virat Kohli](https://players.cricketstudio.ai/players/virat-kohli) (RCB) | [ipl-all-time-run-scorer.md](../../dossier/ipl-all-time-run-scorer.md) |
-| Most career sixes | source required | — | [ipl-most-sixes-all-time.md](../../dossier/ipl-most-sixes-all-time.md) |
-| Most career fifties | source required | — | [ipl-most-fifties.md](../records/ipl-most-fifties.md) |
-| Most career hundreds | source required | — | [ipl-most-hundreds.md](../records/ipl-most-hundreds.md) |
-| Most career matches | source required | — | [ipl-most-matches.md](../records/ipl-most-matches.md) |
 
 Kohli's 9,000-run milestone was reached on 27 April 2026 (Match 39, DC vs RCB) — the first batter in IPL history to reach the landmark. See [kohli-9000-ipl-runs.md](../../dossier/kohli-9000-ipl-runs.md) for the full milestone dossier.
 
@@ -84,8 +80,6 @@ Kohli's 9,000-run milestone was reached on 27 April 2026 (Match 39, DC vs RCB) �
 | Record | Value | Player | Source |
 |--------|-------|--------|--------|
 | Most career wickets (spin) | 200+ | [Yuzvendra Chahal](https://players.cricketstudio.ai/players/yuzvendra-chahal) | [ipl-all-time-wicket-taker.md](../../dossier/ipl-all-time-wicket-taker.md) |
-| Most career wickets (all) | source required | — | [ipl-most-wickets.md](../records/ipl-most-wickets.md) |
-| Best career economy (min. qualification) | source required | — | canonical leaderboard |
 
 Chahal's 200-wicket milestone was reached on 22 April 2024 (his 153rd IPL match) — the only spinner in IPL history to reach 200. See [chahal-200-wickets-journey.md](../../stories/chahal-200-wickets-journey.md).
 
