@@ -7,7 +7,7 @@ export const metadata = {
   description: 'Players, teams, leagues, seasons, venues, records, and matches in the CricketStudio OKF knowledge catalog.',
 }
 
-const CONCEPT_TYPES = ['player', 'record', 'team', 'league', 'season', 'venue', 'match']
+const CONCEPT_TYPES = ['player', 'team', 'league', 'season', 'record', 'venue', 'match']
 
 export default async function ScorebookPage() {
   const allFiles = await getAllFiles()
@@ -15,9 +15,11 @@ export default async function ScorebookPage() {
     (f) => CONCEPT_TYPES.includes(f.type) && !f.slug.endsWith('/index')
   )
 
-  const byType: Record<string, typeof concepts> = {}
+  // Pre-seed in display order so Object.entries() in TagFilter respects it
+  const byType: Record<string, typeof concepts> = Object.fromEntries(
+    CONCEPT_TYPES.map((t) => [t, []])
+  )
   for (const f of concepts) {
-    if (!byType[f.type]) byType[f.type] = []
     byType[f.type].push(f)
   }
 
