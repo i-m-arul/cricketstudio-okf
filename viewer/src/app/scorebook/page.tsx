@@ -4,7 +4,7 @@ import TagFilter from '@/components/TagFilter'
 export const metadata = {
   alternates: { canonical: '/scorebook' },
   title: 'Scorebook',
-  description: 'Players, teams, leagues, seasons, venues, and matches in the CricketStudio OKF knowledge catalog.',
+  description: 'Players, teams, leagues, seasons, venues, records, and matches in the CricketStudio OKF knowledge catalog.',
 }
 
 const CONCEPT_TYPES = ['player', 'record', 'team', 'league', 'season', 'venue', 'match']
@@ -25,7 +25,7 @@ export default async function ScorebookPage() {
     <div>
       <h1 className="text-3xl font-bold text-white mb-2">Scorebook</h1>
       <p className="text-gray-400 mb-6">
-        Players, teams, leagues, seasons, venues, and matches — each with canonical CricketStudio resources and provenance.
+        Players, teams, leagues, seasons, venues, records, and matches — each with canonical CricketStudio resources and provenance.
       </p>
 
       <TagFilter

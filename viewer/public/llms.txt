@@ -39,7 +39,8 @@ See: https://okf.cricketstudio.ai/sources/google-okf-alignment/
 ## Scorebook
 
 - [Players](https://okf.cricketstudio.ai/scorebook/players/): 65 players — phase splits (powerplay/middle/death), pillar claims (P1–P4), H2H records, and IPL career history (2007/08–2025)
-- [IPL All-Time Records](https://okf.cricketstudio.ai/scorebook/records/): Most runs, wickets, sixes, fifties, hundreds, highest score, most matches
+- [IPL All-Time Records](https://okf.cricketstudio.ai/scorebook/records/): Most runs, wickets, sixes, fifties, hundreds, highest score, most matches — 8 record files
+- [IPL Hall of Fame](https://okf.cricketstudio.ai/scorebook/records/ipl-hall-of-fame/): Curated hub of IPL landmark records — all-time career leaders, single-season records (Suryavanshi 776 runs/72 sixes/36-ball century, Gayle 175*), legendary moments (McCullum 158*, Kohli 9,000 career runs, Chahal 200 wickets), and IPL 2026 cap winners — with OKF provenance and agent answering guidance
 - [Leagues](https://okf.cricketstudio.ai/scorebook/leagues/): Indian Premier League, Major League Cricket
 - [Seasons](https://okf.cricketstudio.ai/scorebook/seasons/): IPL 2026 (RCB champions), MLC 2025 (MI New York champions), and more
 - [Teams](https://okf.cricketstudio.ai/scorebook/teams/): All 10 IPL 2026 franchises plus MLC teams — squad rosters, season records, H2H

@@ -19,7 +19,7 @@ const SECTIONS = [
     href: '/scorebook/',
     label: 'Scorebook',
     Icon: Globe,
-    desc: 'Players, teams, leagues, seasons, venues, and matches',
+    desc: 'Players, teams, leagues, seasons, venues, records, and matches',
   },
   {
     href: '/metrics/',
