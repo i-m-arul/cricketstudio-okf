@@ -25,7 +25,12 @@ dataset_version: "2026-06-11"
 provenance:
   source: CricketStudio IPL 2026 snapshot (derived claims). Team files — okf/scorebook/teams/mumbai-indians.md and okf/scorebook/teams/gujarat-titans.md.
   confidence: high
-  notes: All stats from CricketStudio 2026-06-11 snapshot. source_boundary derived_claims_only — raw licensed feed not redistributed. For current data use canonical team pages.
+  notes: >
+    All stats from CricketStudio 2026-06-11 snapshot. source_boundary derived_claims_only —
+    raw licensed feed not redistributed. For current data use canonical team pages.
+    Rabada 29 wickets sourced from CricketStudio primary dataset (v2026-06-11); secondary
+    web source verification returned mixed results — verify against the canonical Purple Cap
+    leaderboard for the final confirmed count.
 related:
   - ../scorebook/teams/mumbai-indians.md
   - ../scorebook/teams/gujarat-titans.md

@@ -3,6 +3,111 @@
 All notable changes to CricketStudio OKF are documented here. This project follows
 [Semantic Versioning](https://semver.org/).
 
+## [0.5.3] — 2026-06-29
+
+Deep-research sprint + OG images + SEO schemas + alias fix. Bundle grows to 532 files, 45 stories, 20 metrics, 83 dossiers.
+
+### Added
+
+**Viewer — per-page OG images (PR #29):**
+- 135 unique OG images for stories, dossier, research, and metrics pages
+- Static OG image fallback for X/Twitter cards (PR #28 fix)
+
+**SEO schemas:**
+- FAQPage + BreadcrumbList + Article JSON-LD across dossier and story pages
+- Type-aware `<title>` suffix enrichment (metric → "Metric · CricketStudio OKF", dossier → "Answer · …", etc.)
+- WebSite schema + SearchAction on homepage
+
+**Agent discovery:**
+- `.well-known/ai-plugin.json` — OpenAI plugin manifest pointing to `llms.txt` and `llms-full.txt`
+
+**Sprint 6 — deep-research dossier files (adversarially verified):**
+- `suryavanshi-72-sixes` — IPL single-season sixes record (72), confidence 3-0
+- `suryavanshi-youngest-500-runs-ipl` — youngest to 500+ IPL season runs (15y 27d), confidence 2-1
+- `kohli-9000-ipl-runs` — first batter to 9,000 IPL career runs (April 27 2026), confidence 3-0
+- `kohli-ipl-2026-final` — 75* off 42 balls, fastest IPL fifty (25 balls), Player of the Match, confidence 3-0
+- `ipl-2026-chase-dominance` — 8 of 12 completed early-phase matches won by chasers, confidence 3-0
+- `impact-player-rule-controversy-2026` — Axar Patel opposition (3-0) + top-5 run chases all post-2023 (2-1)
+
+**Sprint 6 — new metric files (research gaps confirmed):**
+- `fantasy-cricket-strike-rate` — Dream11 IPL SR tiers (-6 to +6), 10-ball floor, primary source confirmed 3-0
+- `expected-runs-xR` — delivery-difficulty-adjusted batting metric; academic concept (CricketSavant 2016)
+- `expected-wickets-xW` — 50-nearest-neighbour wicket probability; academic concept (CricketSavant 2017)
+- `win-probability` — two-model chain (first-innings score prediction + chase model); WPA formulation
+
+**Sprint 6 — world-class sprint dossiers (7 files):**
+- `fastest-century-ipl`, `best-spin-bowler-ipl-2026`, `ipl-2026-best-team`
+- `best-powerplay-batter-all-time-ipl`, `ipl-vs-other-t20-leagues`, `ipl-salary-cap-explained`
+- `best-all-time-death-bowler-ipl`
+
+**Sprint 6 — world-class sprint metrics (5 files):**
+- `net-run-rate`, `run-rate`, `average-vs-strike-rate`, `phase-split-economy`, `partnership-value`
+
+**Tooling:**
+- `scripts/fix_okf_aliases.py` — deterministic bulk script to add `resource` + `timestamp` alias fields
+
+### Changed
+
+- `okf/stories/kohli-at-37-best-average` — SR corrected 165.8 → 165.85; 9,000-run milestone section added; IPL 2026 final PoM performance added
+- `okf/dossier/vaibhav-suryavanshi-ipl-2026` — sixes row added (72, IPL single-season record)
+- `okf/dossier/ipl-most-sixes-all-time` — caveat added for Suryavanshi 72-sixes single-season record
+- All 532 OKF files — `resource` and `timestamp` alias fields added; validator now reports 0 errors 0 warnings (was 681 warnings)
+- `viewer/public/llms.txt` — metric count 10→19, dossier count 70→83
+
+### Removed
+
+- `ROADMAP.md` — internal Claude Code planning document removed from public repo; added to `.gitignore`
+
+### Validation
+
+```
+python scripts/validate_okf.py  → 532 files, 0 errors, 0 warnings
+pytest                          → 24 passed
+```
+
+---
+
+## [0.5.2] — 2026-06-25
+
+Fix: broken OG image route for X/Twitter card previews.
+
+### Changed
+
+- `viewer/src/app/og/route.tsx` replaced with static OG image served from `viewer/public/og-default.png`
+- Prevents 404 on X/Twitter card crawlers which reject dynamic Edge routes
+
+### Validation
+
+```
+npm run build  → clean build
+```
+
+---
+
+## [0.5.1] — 2026-06-25
+
+4 Impact Player narrative journeys added. Bundle grows to 510 files, 45 stories.
+
+### Added
+
+- `okf/stories/impact-player-captains-dilemma` — "The Card You Can Only Play Once": mid-match decision under pressure, batting sub dominance (29.68% of innings post-2023), irreversibility
+- `okf/stories/impact-player-rule-alone` — "The Rule That Only IPL Dared Try": MLC/BBL/CPL chose not to adopt; structural 18% scoring uplift unique to IPL
+- `okf/stories/impact-player-bowlers-displaced` — "The All-Rounder's Dilemma": how positions 8-9 changed; Rashid 9.08 economy vs 5.34 pre-Impact; Narine 6.60 as the counter-example
+- `okf/stories/ipl-2026-most-impactful-player` — "The Most Impactful Player of IPL 2026 (Both Meanings)": five candidates (Suryavanshi, Rabada, Kohli, Bumrah, Narine) examined by season data
+
+### Changed
+
+- `manifest.yaml` — story count synced
+
+### Validation
+
+```
+python scripts/validate_okf.py  → 0 errors, 0 warnings
+pytest                          → 24 passed
+```
+
+---
+
 ## [0.5.0] — 2026-06-25
 
 27-story narrative expansion — all 5 tiers shipped. Bundle grows to 506 files, 41 stories.
