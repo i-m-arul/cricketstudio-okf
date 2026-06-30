@@ -23,14 +23,14 @@ related:
 ---
 ## User Question
 
-> What is MS Dhoni's IPL legacy and career?
+> What is [MS Dhoni](https://players.cricketstudio.ai/players/mahendra-singh-dhoni)'s IPL legacy and career?
 
 ## Correct Answer Pattern
 
-> **MS Dhoni** is widely regarded as the greatest IPL captain. Key verified facts:
+> **MS [Dhoni](https://players.cricketstudio.ai/players/mahendra-singh-dhoni)** is widely regarded as the greatest IPL captain. Key verified facts:
 >
 > - Captained **Chennai Super Kings (CSK)** for the majority of their IPL history
-> - Led CSK to **5 IPL titles** (2010, 2011, 2018, 2021, 2023) — joint-record with Rohit Sharma
+> - Led CSK to **5 IPL titles** (2010, 2011, 2018, 2021, 2023) — joint-record with [Rohit Sharma](https://players.cricketstudio.ai/players/rohit-sharma)
 > - Known as **"Captain Cool"** for his composure in high-pressure situations and finishing ability
 > - CSK reached IPL playoffs in almost every season they competed — one of the most consistent franchises
 > - Wicket-keeper batsman known for late-innings finishing and helicopter shot

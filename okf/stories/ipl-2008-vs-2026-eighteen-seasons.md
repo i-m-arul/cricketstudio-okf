@@ -58,7 +58,7 @@ If you put IPL 2008 and IPL 2026 side by side as data tables, what would the num
 | Innings scoring 200+ | 6.99% | 29.68% |
 | Sixes per match | 10.5 | 17.72 |
 | Teams in IPL | 8 | 10 (since 2022) |
-| Highest individual innings (powerplay SR) | McCullum 216.4 SR (full innings) | Suryavanshi 233.6 SR (overs 1–6 only) |
+| Highest individual innings (powerplay SR) | McCullum 216.4 SR (full innings) | [Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi) 233.6 SR (overs 1–6 only) |
 
 *(Sources: Cricsheet CC BY 3.0 for 2008–2022 historical; CricketStudio IPL 2026 dataset for 2026 figures; BCCI for franchise count; Cricsheet CC BY 3.0 for McCullum SR)*
 

@@ -51,9 +51,9 @@ When the entire game shifts toward the batter, what does it mean for the one bow
 - Average first-innings score: ~**172 runs** (up from ~145 in 2008)
 - Sixes per match: **17.72** (up from 10.5 in 2008)
 
-This is the environment Bumrah bowled in during IPL 2026.
+This is the environment [Bumrah](https://players.cricketstudio.ai/players/jasprit-bumrah) bowled in during IPL 2026.
 
-**Jasprit Bumrah — IPL 2026 death overs:**
+**[Jasprit Bumrah](https://players.cricketstudio.ai/players/jasprit-bumrah) — IPL 2026 death overs:**
 
 | Metric | Value |
 |--------|-------|

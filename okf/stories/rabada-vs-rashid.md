@@ -44,8 +44,8 @@ related:
 
 They wore the same Gujarat Titans shirt. They bowled in the same 74-match tournament. They barely occupied the same 20 overs.
 
-Kagiso Rabada — right-arm fast, South Africa. 270 powerplay balls, 20 wickets.  
-Rashid Khan — legbreak googly, Afghanistan. 275 middle-overs balls, 19 wickets.
+[Kagiso Rabada](https://players.cricketstudio.ai/players/kagiso-rabada) — right-arm fast, South Africa. 270 powerplay balls, 20 wickets.  
+[Rashid Khan](https://players.cricketstudio.ai/players/rashid-khan) — legbreak googly, Afghanistan. 275 middle-overs balls, 19 wickets.
 
 Between them, GT's two most important bowlers divided the innings in half and took 50 wickets. The debate about who was better is really a debate about which half of the innings you value more.
 
@@ -55,7 +55,7 @@ Between them, GT's two most important bowlers divided the innings in half and to
 
 **Season totals:**
 
-| Metric | Rabada | Rashid |
+| Metric | [Rabada](https://players.cricketstudio.ai/players/kagiso-rabada) | Rashid |
 |--------|--------|--------|
 | Matches | 17 | 17 |
 | Wickets | **29** | 21 |

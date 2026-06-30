@@ -63,31 +63,31 @@ This is not about who was used as a designated Impact Player substitute. That ma
 
 Five candidates. Five types of impact. All figures from CricketStudio IPL 2026 dataset, version 2026-06-11.
 
-**Candidate 1 — Vaibhav Suryavanshi (Rajasthan Royals): The Record Breaker**
+**Candidate 1 — [Vaibhav Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi) (Rajasthan Royals): The Record Breaker**
 
 | Metric | Value |
 |--------|-------|
 | Total runs | 776 |
 | Strike rate | 237.3 |
-| Award | Orange Cap |
+| Award | [Orange Cap](https://players.cricketstudio.ai/leagues/ipl/leaderboards/orange-cap) |
 | Fastest century | 36 balls |
 | Powerplay SR | 233.6 from 223 balls (#1 of 45 qualifying batters) |
 | Powerplay sixes | 46 |
 | Powerplay fours | 48 |
 
-Suryavanshi is 14 years old and scored 776 runs at a strike rate of 237.3. His powerplay strike rate of 233.6 — from 223 balls, well above the 30-ball sample floor — ranked #1 among all 45 qualifying batters. He did not hit one or two spectacular innings and disappear. He sustained the highest powerplay strike rate in IPL 2026 across a full season sample.
+[Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi) is 14 years old and scored 776 runs at a strike rate of 237.3. His powerplay strike rate of 233.6 — from 223 balls, well above the 30-ball sample floor — ranked #1 among all 45 qualifying batters. He did not hit one or two spectacular innings and disappear. He sustained the highest powerplay strike rate in IPL 2026 across a full season sample.
 
-**Candidate 2 — Kagiso Rabada (Gujarat Titans): The Purple Cap in a Bowler's Graveyard**
+**Candidate 2 — [Kagiso Rabada](https://players.cricketstudio.ai/players/kagiso-rabada) (Gujarat Titans): The Purple Cap in a Bowler's Graveyard**
 
 | Metric | Value |
 |--------|-------|
 | Wickets | 29 |
-| Award | Purple Cap |
+| Award | [Purple Cap](https://players.cricketstudio.ai/leagues/ipl/leaderboards/purple-cap) |
 | Season context | Post-Impact Player era, first-innings average 172 |
 
-Rabada took 29 wickets in a season where average first-innings scores rose 18% compared to the pre-Impact Player era. Every wicket cost more. Every over was bowled against stronger batting lineups. The Purple Cap in 2026 is not the same object as the Purple Cap in 2018. Winning it in the era of 172-run averages and 29.68% of innings crossing 200 is structurally harder than winning it when 200-plus scores happened in 7% of innings.
+[Rabada](https://players.cricketstudio.ai/players/kagiso-rabada) took 29 wickets in a season where average first-innings scores rose 18% compared to the pre-Impact Player era. Every wicket cost more. Every over was bowled against stronger batting lineups. The Purple Cap in 2026 is not the same object as the Purple Cap in 2018. Winning it in the era of 172-run averages and 29.68% of innings crossing 200 is structurally harder than winning it when 200-plus scores happened in 7% of innings.
 
-**Candidate 3 — Virat Kohli (Royal Challengers Bengaluru): The Sustained Average**
+**Candidate 3 — [Virat Kohli](https://players.cricketstudio.ai/players/virat-kohli) (Royal Challengers Bengaluru): The Sustained Average**
 
 | Metric | Value |
 |--------|-------|
@@ -98,9 +98,9 @@ Rabada took 29 wickets in a season where average first-innings scores rose 18% c
 | Hundreds | 1 |
 | Age at IPL 2026 | 37 |
 
-Kohli's 56.25 IPL 2026 average is his best sustained period since his 2016 season peak of 81.1. His four-season block from 2023 to 2026 (53.2, 61.8, 54.8, 56.25) is the most consistent stretch of his IPL batting career outside of 2016. He is doing this at 37, in the most batting-favourable era IPL has ever produced — which means his average is built on a higher floor of opposition quality, too.
+[Kohli](https://players.cricketstudio.ai/players/virat-kohli)'s 56.25 IPL 2026 average is his best sustained period since his 2016 season peak of 81.1. His four-season block from 2023 to 2026 (53.2, 61.8, 54.8, 56.25) is the most consistent stretch of his IPL batting career outside of 2016. He is doing this at 37, in the most batting-favourable era IPL has ever produced — which means his average is built on a higher floor of opposition quality, too.
 
-**Candidate 4 — Jasprit Bumrah (Mumbai Indians): The Economy in the Hardest Over**
+**Candidate 4 — [Jasprit Bumrah](https://players.cricketstudio.ai/players/jasprit-bumrah) (Mumbai Indians): The Economy in the Hardest Over**
 
 | Metric | Value |
 |--------|-------|
@@ -109,9 +109,9 @@ Kohli's 56.25 IPL 2026 average is his best sustained period since his 2016 seaso
 | Season context | First-innings average 172, 29.68% of innings cross 200 |
 | Team finish | MI 10th, NRR −0.712 |
 
-Bumrah bowled 78 death-over balls at 7.69 economy in an environment where death bowling became structurally harder. MI finished last. Bumrah's numbers are the argument that individual performance can hold elite levels independent of team context. His 7.69 is the best death economy among IPL 2026 qualifiers — achieved on a last-placed team in the highest-scoring era in IPL history.
+[Bumrah](https://players.cricketstudio.ai/players/jasprit-bumrah) bowled 78 death-over balls at 7.69 economy in an environment where death bowling became structurally harder. MI finished last. Bumrah's numbers are the argument that individual performance can hold elite levels independent of team context. His 7.69 is the best death economy among IPL 2026 qualifiers — achieved on a last-placed team in the highest-scoring era in IPL history.
 
-**Candidate 5 — Sunil Narine (Kolkata Knight Riders): The Exception That Proves Everything**
+**Candidate 5 — [Sunil Narine](https://players.cricketstudio.ai/players/sunil-narine) (Kolkata Knight Riders): The Exception That Proves Everything**
 
 | Metric | Value |
 |--------|-------|
@@ -119,9 +119,9 @@ Bumrah bowled 78 death-over balls at 7.69 economy in an environment where death 
 | Economy | 6.60 |
 | Role | Opens batting + off-spin bowler |
 | Career economy baseline | ~7.50 (Cricsheet CC BY 3.0) |
-| Post-rule comparators | Rashid 9.08, Chahal 9.39 |
+| Post-rule comparators | Rashid 9.08, [Chahal](https://players.cricketstudio.ai/players/yuzvendra-chahal) 9.39 |
 
-Every elite spinner in IPL 2026 saw their economy rise in the post-Impact Player era. Every one except Narine. While Rashid went from 5.34–6.74 to 9.08, and Chahal went from 7.96 to 9.39, Narine's 6.60 is *lower* than his career average. The structural reason: Narine's batting value makes him almost impossible to Impact Player away. His dual role also means he faces different field placements and match contexts. He is the single data point that shows how to survive the Impact Player era as a spinner — by being too valuable with the bat to substitute out.
+Every elite spinner in IPL 2026 saw their economy rise in the post-Impact Player era. Every one except [Narine](https://players.cricketstudio.ai/players/sunil-narine). While Rashid went from 5.34–6.74 to 9.08, and Chahal went from 7.96 to 9.39, Narine's 6.60 is *lower* than his career average. The structural reason: Narine's batting value makes him almost impossible to Impact Player away. His dual role also means he faces different field placements and match contexts. He is the single data point that shows how to survive the Impact Player era as a spinner — by being too valuable with the bat to substitute out.
 
 ## The Wow
 

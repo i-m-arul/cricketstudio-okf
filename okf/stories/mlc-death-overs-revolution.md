@@ -40,7 +40,7 @@ related:
 
 How long does it take a T20 league to develop genuine death-bowling craft?
 
-The IPL started in 2008. It took years — and the emergence of specialists like Malinga, Bumrah, and Rashid — before the death-bowling standard reached its current level. MLC played its first season in 2023.
+The IPL started in 2008. It took years — and the emergence of specialists like Malinga, [Bumrah](https://players.cricketstudio.ai/players/jasprit-bumrah), and Rashid — before the death-bowling standard reached its current level. MLC played its first season in 2023.
 
 ## What the Data Says
 
@@ -54,7 +54,7 @@ The IPL started in 2008. It took years — and the emergence of specialists like
 
 **IPL 2026 death-overs context:**
 
-- Jasprit Bumrah (Mumbai Indians): **7.69 RPO** from 78 balls
+- [Jasprit Bumrah](https://players.cricketstudio.ai/players/jasprit-bumrah) (Mumbai Indians): **7.69 RPO** from 78 balls
 
 MLC's top 3 death bowlers are all below Bumrah's IPL 2026 figure — the benchmark for elite T20 death bowling.
 

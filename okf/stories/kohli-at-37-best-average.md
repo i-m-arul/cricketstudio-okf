@@ -46,7 +46,7 @@ If a batter's career average is 39.59 across 259 matches, what does it mean when
 
 ## What the Data Says
 
-**Kohli IPL 2026:**
+**[Kohli](https://players.cricketstudio.ai/players/virat-kohli) IPL 2026:**
 
 | Metric | Value |
 |--------|-------|
@@ -96,7 +96,7 @@ He is now 37. In T20 franchise cricket, most batters peak between 25 and 32. The
 
 ## The 9,000-Run Milestone
 
-Kohli's IPL 2026 season also contained the most significant individual milestone of the tournament: on **April 27, 2026 (Match 39, DC vs RCB)**, he became the **first batter in IPL history to cross 9,000 career runs**. The second-highest career total belongs to Rohit Sharma at approximately 7,183 runs — a gap of more than 1,800 runs. The milestone is confirmed 3-0 by independent sources including iplt20.com, Outlook India, and CricketAddictor.
+Kohli's IPL 2026 season also contained the most significant individual milestone of the tournament: on **April 27, 2026 (Match 39, DC vs RCB)**, he became the **first batter in IPL history to cross 9,000 career runs**. The second-highest career total belongs to [Rohit Sharma](https://players.cricketstudio.ai/players/rohit-sharma) at approximately 7,183 runs — a gap of more than 1,800 runs. The milestone is confirmed 3-0 by independent sources including iplt20.com, Outlook India, and CricketAddictor.
 
 Then, in the **IPL 2026 final**, Kohli scored **75\* off 42 balls** — including his **fastest-ever IPL fifty (reached in 25 balls)** — to win **Player of the Match** as RCB defended their title for a second consecutive year.
 

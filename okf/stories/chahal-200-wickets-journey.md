@@ -49,7 +49,7 @@ When the first bowler in IPL history reached 200 wickets, which kind of career d
 
 **The milestone:**
 
-On **22 April 2024** — his **153rd IPL match** — Yuzvendra Chahal became the first bowler in IPL history to take 200 wickets.
+On **22 April 2024** — his **153rd IPL match** — [Yuzvendra Chahal](https://players.cricketstudio.ai/players/yuzvendra-chahal) became the first bowler in IPL history to take 200 wickets.
 
 *(Source: Cricsheet CC BY 3.0)*
 
@@ -83,7 +83,7 @@ Two things stand out in the season table that are not obvious from the headline 
 
 **First: the peak year was 2022, not 2015.**
 
-Chahal's single-season best was **27 wickets** for Rajasthan Royals in 2022 — his first season away from RCB after nine years. After nearly a decade with one franchise, he arrived at a new team and produced his career-best season. He was 32.
+[Chahal](https://players.cricketstudio.ai/players/yuzvendra-chahal)'s single-season best was **27 wickets** for Rajasthan Royals in 2022 — his first season away from RCB after nine years. After nearly a decade with one franchise, he arrived at a new team and produced his career-best season. He was 32.
 
 **Second: the economy drift from 2022 onwards.**
 

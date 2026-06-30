@@ -47,7 +47,7 @@ below-floor figures.
 
 ## Caveats
 
-- A genuinely high season strike rate that clears the floor (e.g. Suryavanshi's 237 over
+- A genuinely high season strike rate that clears the floor (e.g. [Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi)'s 237 over
   327 balls) is rankable — but still requires season scope and comparison rules before
   "best".
 - Counting stats (total runs/wickets) have no floor; rates do.

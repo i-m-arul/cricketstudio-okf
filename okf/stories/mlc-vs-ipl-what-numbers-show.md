@@ -52,7 +52,7 @@ If you put MLC's best numbers alongside IPL's best numbers, where does a three-y
 | CJ Gannon | MLC all-time (Seasons 1–3) | 71 | 7.18 RPO |
 | PJ Cummins | MLC all-time (Seasons 1–3) | 48 | 7.38 RPO |
 | LH Ferguson | MLC all-time (Seasons 1–3) | 74 | 7.54 RPO |
-| Jasprit Bumrah | IPL 2026 | 78 | 7.69 RPO |
+| [Jasprit Bumrah](https://players.cricketstudio.ai/players/jasprit-bumrah) | IPL 2026 | 78 | 7.69 RPO |
 
 **Powerplay batting — MLC all-time best vs IPL 2026 (≥30 ball floor):**
 
@@ -61,7 +61,7 @@ If you put MLC's best numbers alongside IPL's best numbers, where does a three-y
 | MJ Owen | MLC all-time | 123 | 194.3 |
 | FH Allen | MLC all-time | 225 | 188.0 |
 | R Ravindra | MLC all-time | 129 | 187.6 |
-| Vaibhav Suryavanshi | IPL 2026 | 223 | 233.6 |
+| [Vaibhav Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi) | IPL 2026 | 223 | 233.6 |
 
 *(All figures: CricketStudio MLC and IPL 2026 datasets, version 2026-06-11)*
 
@@ -78,9 +78,9 @@ If you put MLC's best numbers alongside IPL's best numbers, where does a three-y
 
 MLC's best-ever powerplay strike rates (194.3, 188.0, 187.6) would rank in IPL 2026's top 10. A three-year-old league has produced powerplay batting that competes on the same data table as IPL's elite.
 
-Suryavanshi's 233.6 remains clearly ahead — that is an outlier figure even in the IPL 2026 context. But the gap between MLC's top powerplay batters and the middle of IPL's qualifying pool is smaller than franchise branding would suggest.
+[Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi)'s 233.6 remains clearly ahead — that is an outlier figure even in the IPL 2026 context. But the gap between MLC's top powerplay batters and the middle of IPL's qualifying pool is smaller than franchise branding would suggest.
 
-On death bowling, MLC's all-time leaders (7.18, 7.38, 7.54) are slightly better than Bumrah's IPL 2026 figure (7.69). This is a genuine data comparison — though it requires the cross-league caveats below.
+On death bowling, MLC's all-time leaders (7.18, 7.38, 7.54) are slightly better than [Bumrah](https://players.cricketstudio.ai/players/jasprit-bumrah)'s IPL 2026 figure (7.69). This is a genuine data comparison — though it requires the cross-league caveats below.
 
 ## What It Doesn't Say
 

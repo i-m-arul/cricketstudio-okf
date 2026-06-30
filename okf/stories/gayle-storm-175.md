@@ -53,7 +53,7 @@ Source: Cricsheet CC BY 3.0 — public domain historical scorecard.
 - **Sixes:** 17
 - **Match result:** RCB won by 130 runs
 
-The ball count: Gayle faced 66 deliveries and scored off boundaries on 34 of them. He was not dismissed.
+The ball count: [Gayle](https://players.cricketstudio.ai/players/ch-gayle) faced 66 deliveries and scored off boundaries on 34 of them. He was not dismissed.
 
 Over his full IPL career, Gayle hit **357 sixes** — the most any player has hit in IPL history.
 
@@ -63,7 +63,7 @@ Over his full IPL career, Gayle hit **357 sixes** — the most any player has hi
 
 In 2013, a 150+ IPL innings was something the sport had not seen routinely. Gayle did not score 150 and add a few more. He scored 175.
 
-The nearest comparable at the time was Brendon McCullum's 158\* in the first-ever IPL match (2008) — itself a landmark that stood for five years. Gayle surpassed it by 17 runs, not out, with 11 overs still remaining in the innings.
+The nearest comparable at the time was [Brendon McCullum](https://players.cricketstudio.ai/players/brendon-mccullum)'s 158\* in the first-ever IPL match (2008) — itself a landmark that stood for five years. Gayle surpassed it by 17 runs, not out, with 11 overs still remaining in the innings.
 
 That RCB reached 263/5 in the match — and Gayle contributed 175 of those runs — means **one batter contributed 66%** of his team's total in an innings that is still the highest individual score in IPL history.
 

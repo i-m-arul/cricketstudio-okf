@@ -77,13 +77,13 @@ Evidence this is used selectively: Economy rates for specialist spinners rose sh
 
 | Bowler | Career economy (pre-2023) | IPL 2026 economy | Change |
 |--------|--------------------------|-----------------|--------|
-| Rashid Khan | 5.34–6.74 | 9.08 | +2.00–3.74 |
-| Yuzvendra Chahal | 7.96 | 9.39 | +1.43 |
-| Sunil Narine | ~7.50 (career) | 6.60 | −0.90 |
+| [Rashid Khan](https://players.cricketstudio.ai/players/rashid-khan) | 5.34–6.74 | 9.08 | +2.00–3.74 |
+| [Yuzvendra Chahal](https://players.cricketstudio.ai/players/yuzvendra-chahal) | 7.96 | 9.39 | +1.43 |
+| [Sunil Narine](https://players.cricketstudio.ai/players/sunil-narine) | ~7.50 (career) | 6.60 | −0.90 |
 
 *(Source: Cricsheet CC BY 3.0 career baselines + CricketStudio IPL 2026 dataset, version 2026-06-11)*
 
-Rashid and Chahal's economies rose dramatically — suggesting opposing teams successfully used their bowling subs to bring in death specialists who targeted these spinners. Narine's economy *fell* — the exception, examined below.
+Rashid and Chahal's economies rose dramatically — suggesting opposing teams successfully used their bowling subs to bring in death specialists who targeted these spinners. [Narine](https://players.cricketstudio.ai/players/sunil-narine)'s economy *fell* — the exception, examined below.
 
 ## The Wow
 
@@ -95,7 +95,7 @@ If a captain uses the batting sub and later needs a bowling specialist in the fi
 
 **Why Narine is the most important data point:**
 
-Narine's economy *improved* while Rashid and Chahal's rose sharply. The structural reason: Narine is a legitimate batting specialist as well as a spinner. He opens the batting and bowls. A captain cannot easily substitute in a batting specialist for Narine because Narine already *is* one. His dual role makes the Impact Player card less useful against him than against a pure specialist bowler.
+Narine's economy *improved* while Rashid and [Chahal](https://players.cricketstudio.ai/players/yuzvendra-chahal)'s rose sharply. The structural reason: Narine is a legitimate batting specialist as well as a spinner. He opens the batting and bowls. A captain cannot easily substitute in a batting specialist for Narine because Narine already *is* one. His dual role makes the Impact Player card less useful against him than against a pure specialist bowler.
 
 Narine, in effect, is his own Impact Player — a player who makes the opposition's card harder to play.
 

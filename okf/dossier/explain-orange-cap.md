@@ -21,7 +21,7 @@ related:
 
 ## User Question
 
-> What is the Orange Cap?
+> What is the [Orange Cap](https://players.cricketstudio.ai/leagues/ipl/leaderboards/orange-cap)?
 
 ## Correct Answer Pattern
 

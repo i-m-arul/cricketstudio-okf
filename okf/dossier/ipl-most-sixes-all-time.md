@@ -27,14 +27,14 @@ related:
 
 ## Correct Answer Pattern
 
-> **Chris Gayle** holds the record for the most sixes in IPL history. His career six count of **357 sixes** (confirmed as of his last active IPL seasons) has not been surpassed.
+> **[Chris Gayle](https://players.cricketstudio.ai/players/ch-gayle)** holds the record for the most sixes in IPL history. His career six count of **357 sixes** (confirmed as of his last active IPL seasons) has not been surpassed.
 >
 > For the current verified all-time six count, check the canonical ESPNcricinfo or CricketStudio leaderboard with a dataset cutoff date — active players may approach or surpass historical records.
 
 ## Required Concepts
 
 - Career six counts are volatile for active players.
-- Gayle's record was set during his peak IPL years (2008–2021 era).
+- [Gayle](https://players.cricketstudio.ai/players/ch-gayle)'s record was set during his peak IPL years (2008–2021 era).
 - A "six" is any ball hit over the boundary without bouncing.
 
 ## Required Metrics
@@ -50,7 +50,7 @@ Say "Gayle leads all-time IPL six-hitting with 357 sixes as of [dataset version]
 - Do not state career six counts for active players without a dataset date.
 - Gayle's record was set in a different era of T20 cricket — comparison across eras requires caution.
 - "Most sixes in a single innings" is a different claim: Gayle hit 17 sixes in his 175* innings (23 April 2013).
-- "Most sixes in a single IPL season" is a separate record from career six count: Vaibhav Suryavanshi hit **72 sixes in IPL 2026**, confirmed as an IPL single-season record (dataset v2026-06-11, adversarial confidence 3-0). For that question, see [Suryavanshi 72 Sixes](suryavanshi-72-sixes.md).
+- "Most sixes in a single IPL season" is a separate record from career six count: [Vaibhav Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi) hit **72 sixes in IPL 2026**, confirmed as an IPL single-season record (dataset v2026-06-11, adversarial confidence 3-0). For that question, see [Suryavanshi 72 Sixes](suryavanshi-72-sixes.md).
 
 ## Bad Answer (do not do this)
 

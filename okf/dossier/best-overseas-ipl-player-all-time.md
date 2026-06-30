@@ -31,8 +31,8 @@ related:
 
 > Like the GOAT debate, the answer depends on which dimension you value. Strong contenders:
 >
-> - **Chris Gayle (West Indies):** IPL's highest individual innings (175*, 2013), 357 career sixes, 3 RCB seasons of dominance. The most feared T20 batter of his era.
-> - **AB de Villiers (South Africa):** Innovation in 360-degree batting, consistent over many RCB seasons alongside Kohli. Multiple Purple Heart performances in playoffs.
+> - **[Chris Gayle](https://players.cricketstudio.ai/players/ch-gayle) (West Indies):** IPL's highest individual innings (175*, 2013), 357 career sixes, 3 RCB seasons of dominance. The most feared T20 batter of his era.
+> - **AB de Villiers (South Africa):** Innovation in 360-degree batting, consistent over many RCB seasons alongside [Kohli](https://players.cricketstudio.ai/players/virat-kohli). Multiple Purple Heart performances in playoffs.
 > - **David Warner (Australia):** 3 Orange Caps (2015, 2017, 2019), IPL batting consistency across the longest active overseas career.
 > - **Shane Warne (Australia):** Led Rajasthan Royals to win the inaugural IPL title (2007/08) as captain — a leadership legacy.
 >
@@ -42,11 +42,11 @@ related:
 
 - "Overseas" means non-Indian-eligible players (typically non-Indian nationality).
 - Each IPL team can field a maximum of 4 overseas players at any time.
-- Era comparison is difficult: Gayle's 2012–2013 bowling attacks differ from Warner's or today's.
+- Era comparison is difficult: [Gayle](https://players.cricketstudio.ai/players/ch-gayle)'s 2012–2013 bowling attacks differ from Warner's or today's.
 
 ## Required Metrics
 
-- Orange Cap wins, career runs, career sixes (all require dataset dates for active players)
+- [Orange Cap](https://players.cricketstudio.ai/leagues/ipl/leaderboards/orange-cap) wins, career runs, career sixes (all require dataset dates for active players)
 
 ## Citation Behavior
 

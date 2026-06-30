@@ -41,8 +41,8 @@ related:
 
 Two batters. Same team match count. Completely different numbers — and every number tells a different story.
 
-Vaibhav Suryavanshi. Born 2011. Age 15 in IPL 2026. Rajasthan Royals.  
-Virat Kohli. Born 1988. Age 37. Royal Challengers Bengaluru.
+[Vaibhav Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi). Born 2011. Age 15 in IPL 2026. Rajasthan Royals.  
+[Virat Kohli](https://players.cricketstudio.ai/players/virat-kohli). Born 1988. Age 37. Royal Challengers Bengaluru.
 
 The 22-year age gap between them was IPL 2026's most discussed rivalry. The data is more interesting than the gap.
 
@@ -52,10 +52,10 @@ The 22-year age gap between them was IPL 2026's most discussed rivalry. The data
 
 **Head-to-head metrics — IPL 2026:**
 
-| Metric | Suryavanshi | Kohli | Winner |
+| Metric | [Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi) | Kohli | Winner |
 |--------|------------|-------|--------|
 | Runs | **776** | 675 | Suryavanshi +101 |
-| Average | 48.5 | **56.25** | Kohli +7.75 |
+| Average | 48.5 | **56.25** | [Kohli](https://players.cricketstudio.ai/players/virat-kohli) +7.75 |
 | Strike rate | **237.3** | 165.8 | Suryavanshi +71.5 |
 | Fifties | 5 | 5 | Tie |
 | Hundreds | 1 | 1 | Tie |

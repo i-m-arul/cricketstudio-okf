@@ -5,13 +5,13 @@ description: >-
   standard and reference bundle built on Google OKF v0.1, defining a cricket type
   vocabulary, provenance convention, metric standard, claim discipline, identity
   rules, and sample-size doctrine. Includes a curated catalog of IPL and MLC
-  cricket knowledge with 510+ files. Self-certified Level 2 (Evidence-Backed).
+  cricket knowledge with 541 files. Self-certified Level 2 (Evidence-Backed).
 license: See LICENSE.md (docs CC-BY-4.0; data per source — see DATA_LICENSE_BOUNDARIES.md)
 homepage: https://okf.cricketstudio.ai
 repository: https://github.com/i-m-arul/cricketstudio-okf
 okf_root: okf
 schema: schema/frontmatter.schema.json
-dataset_version: "2026-06-28"
+dataset_version: "2026-06-30"
 source_systems:
   - CricketStudio
 
@@ -26,28 +26,19 @@ data_sources:
     attribution: Ball-by-ball data from Cricsheet (https://cricsheet.org), CC BY 3.0.
 
 counts:
-  dossier: 83
+  dossier: 90
   leaderboard: 47
   league: 2
-  leagues: 0
   match: 1
-  matches: 0
   methodology: 7
   metric: 19
-  metrics: 0
   player: 237
-  players: 0
   record: 7
-  records: 0
   research: 10
   runbook: 5
   season: 6
-  seasons: 0
   source: 3
-  sources: 0
-  spec: 10
+  spec: 13
   story: 45
   team: 16
-  teams: 0
   venue: 18
-  venues: 0

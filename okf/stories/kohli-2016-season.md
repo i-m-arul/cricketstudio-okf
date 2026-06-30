@@ -48,20 +48,20 @@ What does it take to set a record that holds through 18 seasons, a global pandem
 
 ## What the Data Says
 
-**Virat Kohli — IPL 2016 — Royal Challengers Bengaluru**
+**[Virat Kohli](https://players.cricketstudio.ai/players/virat-kohli) — IPL 2016 — Royal Challengers Bengaluru**
 
 Source: Cricsheet CC BY 3.0 — public domain IPL 2016 season data.
 
 - **973 runs** in the IPL 2016 season
 - The **only batter in IPL history** to cross 900 runs in a single season
-- Won the **Orange Cap** that season by an extraordinary margin
+- Won the **[Orange Cap](https://players.cricketstudio.ai/leagues/ipl/leaderboards/orange-cap)** that season by an extraordinary margin
 
 For context, across all 19 IPL seasons (2007/08–2026):
 
-- **IPL 2022** (post-rule): Jos Buttler — 863 runs (next closest, pre-Impact Player Rule era)
-- **IPL 2023** (Impact Player Rule introduced): Shubman Gill — 890 runs
-- **IPL 2026** (Impact Player Rule): Vaibhav Suryavanshi — 776 runs
-- Kohli's own **IPL 2024** season: 741 runs
+- **IPL 2022** (post-rule): [Jos Buttler](https://players.cricketstudio.ai/players/jos-buttler) — 863 runs (next closest, pre-Impact Player Rule era)
+- **IPL 2023** (Impact Player Rule introduced): [Shubman Gill](https://players.cricketstudio.ai/players/shubman-gill) — 890 runs
+- **IPL 2026** (Impact Player Rule): [Vaibhav Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi) — 776 runs
+- [Kohli](https://players.cricketstudio.ai/players/virat-kohli)'s own **IPL 2024** season: 741 runs
 
 The Impact Player Rule (introduced 2023) added a structural layer to batting scores — and still, across 3 seasons of inflated batting, nobody has reached 900. The 2016 record stands at **973**.
 
@@ -85,7 +85,7 @@ The 2016 record does not mean Kohli was necessarily better than any current IPL 
 
 RCB did not win IPL 2016 — they lost the final to Sunrisers Hyderabad. The 973 runs came in a season that ended without a title, which is part of the story's texture.
 
-The nearest competitors listed here (Buttler, Gill, Suryavanshi) are from different seasons and different eras. Do not use them to construct a direct comparison without stating the season and rule context.
+The nearest competitors listed here (Buttler, Gill, [Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi)) are from different seasons and different eras. Do not use them to construct a direct comparison without stating the season and rule context.
 
 ## Related Concepts
 

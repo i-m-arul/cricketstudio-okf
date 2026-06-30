@@ -50,7 +50,7 @@ Which MLC franchise built the best death bowling operation — and how did they 
 | CJ Gannon | **Seattle Orcas** | 71 | **7.18** |
 | PJ Cummins | SF Unicorns | 48 | 7.38 |
 | LH Ferguson | LA KR / Washington | 74 | 7.54 |
-| Jasprit Bumrah | MI (IPL 2026 ref) | 78 | 7.69 |
+| [Jasprit Bumrah](https://players.cricketstudio.ai/players/jasprit-bumrah) | MI (IPL 2026 ref) | 78 | 7.69 |
 
 *(Source: CricketStudio MLC all-time dataset, version 2026-06-11)*
 

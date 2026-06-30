@@ -35,11 +35,11 @@ related:
 
 ## User Question
 
-> How did Jasprit Bumrah bowl in the death overs in IPL 2026?
+> How did [Jasprit Bumrah](https://players.cricketstudio.ai/players/jasprit-bumrah) bowl in the death overs in IPL 2026?
 
 ## Correct Answer Pattern
 
-Jasprit Bumrah (Mumbai Indians) is consistently regarded as one of the best death-overs bowlers in IPL history. In IPL 2026:
+Jasprit [Bumrah](https://players.cricketstudio.ai/players/jasprit-bumrah) (Mumbai Indians) is consistently regarded as one of the best death-overs bowlers in IPL history. In IPL 2026:
 
 ### Death-overs performance (IPL 2026)
 

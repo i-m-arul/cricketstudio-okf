@@ -54,7 +54,7 @@ Source: CricketStudio internal dataset/Cricsheet CC BY 3.0.
 ## Citation Behavior
 
 - Always state the scope: "MLC all-time (2023–2025) · 75 matches · Cricsheet CC BY 3.0."
-- The Orange Cap is a counting stat — no minimum sample floor.
+- The [Orange Cap](https://players.cricketstudio.ai/leagues/ipl/leaderboards/orange-cap) is a counting stat — no minimum sample floor.
 - MLC 2026 (Season 4) will extend these totals — note "as of MLC 2023–2025" when citing.
 
 ## Caveats

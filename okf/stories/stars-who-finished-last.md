@@ -46,13 +46,13 @@ related:
 
 In IPL 2026, one roster read like the cast list of India's greatest T20 era.
 
-Jasprit Bumrah. Rohit Sharma. Suryakumar Yadav. Hardik Pandya. Mumbai Indians carried four of the most recognizable names in T20 cricket into a 74-match season.
+[Jasprit Bumrah](https://players.cricketstudio.ai/players/jasprit-bumrah). Rohit Sharma. Suryakumar Yadav. Hardik Pandya. Mumbai Indians carried four of the most recognizable names in T20 cricket into a 74-match season.
 
 They won 4 of 14. Finished last. Posted NRR −0.712.
 
-Meanwhile, Gujarat Titans — built without the same individual mythology — won 9 of 14, posted NRR +0.320, and reached the IPL 2026 Final. Their leading scorer was Shubman Gill. Their most impactful bowler was Jason Holder.
+Meanwhile, Gujarat Titans — built without the same individual mythology — won 9 of 14, posted NRR +0.320, and reached the IPL 2026 Final. Their leading scorer was [Shubman Gill](https://players.cricketstudio.ai/players/shubman-gill). Their most impactful bowler was Jason Holder.
 
-Neither is a household name in the way Bumrah or Rohit is. Both had better IPL 2026 seasons than anyone at MI.
+Neither is a household name in the way [Bumrah](https://players.cricketstudio.ai/players/jasprit-bumrah) or Rohit is. Both had better IPL 2026 seasons than anyone at MI.
 
 ## What the Data Says
 
@@ -72,9 +72,9 @@ Neither is a household name in the way Bumrah or Rohit is. Both had better IPL 2
 Top run-scorer: Ryan Rickelton — 448 runs, 186.7 SR (12 matches)  
 Top wicket-taker: AM Ghazanfar — 15 wickets, 9.99 economy (11 matches)  
 Jasprit Bumrah: **4 wickets · 13 matches · 8.35 overall economy**  
-Hardik Pandya: 206 runs (138.3 SR) · 4 wickets (11.43 economy) · 10 matches  
-Suryakumar Yadav: 270 runs · 147.5 SR · 13 matches  
-Rohit Sharma: 283 runs · 157.2 SR · 9 matches
+[Hardik Pandya](https://players.cricketstudio.ai/players/hardik-pandya): 206 runs (138.3 SR) · 4 wickets (11.43 economy) · 10 matches  
+[Suryakumar Yadav](https://players.cricketstudio.ai/players/suryakumar-yadav): 270 runs · 147.5 SR · 13 matches  
+[Rohit Sharma](https://players.cricketstudio.ai/players/rohit-sharma): 283 runs · 157.2 SR · 9 matches
 
 ---
 
@@ -89,11 +89,11 @@ Rohit Sharma: 283 runs · 157.2 SR · 9 matches
 | Runs conceded | 2,434 |
 | Run differential | +124 |
 
-Shubman Gill: **732 runs · 163.0 SR · 6 fifties · 1 hundred · 16 matches**  
+Shubman [Gill](https://players.cricketstudio.ai/players/shubman-gill): **732 runs · 163.0 SR · 6 fifties · 1 hundred · 16 matches**  
 Sai Sudharsan: **722 runs · 158.0 SR · 8 fifties · 1 hundred · 17 matches**  
-Kagiso Rabada: **29 wickets · 9.68 economy · 17 matches**  
+[Kagiso Rabada](https://players.cricketstudio.ai/players/kagiso-rabada): **29 wickets · 9.68 economy · 17 matches**  
 Jason Holder: **17 wickets · 7.57 economy · 11 matches**  
-Rashid Khan: **21 wickets · 9.08 economy · 17 matches**
+[Rashid Khan](https://players.cricketstudio.ai/players/rashid-khan): **21 wickets · 9.08 economy · 17 matches**
 
 ---
 
@@ -103,7 +103,7 @@ The NRR gap between them: **1.032 points** (GT +0.320 vs MI −0.712).
 
 Two GT batters (Gill 732, Sudharsan 722) combined for **1,454 runs**.
 
-MI's top four batters combined for 1,408 — Rickelton (448) + Tilak Varma (359) + Naman Dhir (318) + Rohit (283).
+MI's top four batters combined for 1,408 — Rickelton (448) + Tilak Varma (359) + Naman Dhir (318) + [Rohit](https://players.cricketstudio.ai/players/rohit-sharma) (283).
 
 Two GT batters out-ran four MI batters across the same 14-match season.
 
@@ -111,7 +111,7 @@ Then there is Jason Holder: 17 wickets in 11 matches at 7.57 economy. That is GT
 
 Bumrah's **death-overs economy of 7.69 from 78 balls** (overs 16–20) was still elite — the phase-level craft was there. But 4 wickets across 13 matches total is an outlier return for someone of his quality. His overall economy (8.35) points to pressure in non-death phases that his death-over discipline could not offset.
 
-GT's attack took wickets consistently, controlled across formats, and varied their threats: Rabada's pace, Holder's seam, Rashid's spin. MI relied on Ghazanfar and Bosch to carry an attack that could not get Bumrah's wickets.
+GT's attack took wickets consistently, controlled across formats, and varied their threats: [Rabada](https://players.cricketstudio.ai/players/kagiso-rabada)'s pace, Holder's seam, Rashid's spin. MI relied on Ghazanfar and Bosch to carry an attack that could not get Bumrah's wickets.
 
 ## What It Doesn't Say
 

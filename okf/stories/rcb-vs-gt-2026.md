@@ -71,24 +71,24 @@ The 2026 edition of this story began with a tied league table and ended at the N
 
 | Player | Team | Runs | Avg | SR |
 |--------|------|------|-----|----|
-| Shubman Gill | GT | **732** | 45.8 | 163.0 |
+| [Shubman Gill](https://players.cricketstudio.ai/players/shubman-gill) | GT | **732** | 45.8 | 163.0 |
 | Sai Sudharsan | GT | 722 | 45.1 | 158.0 |
-| Virat Kohli | RCB | 675 | **56.2** | 165.8 |
+| [Virat Kohli](https://players.cricketstudio.ai/players/virat-kohli) | RCB | 675 | **56.2** | 165.8 |
 | Rajat Patidar | RCB | 501 | 41.8 | **192.7** |
 
 **Top bowlers:**
 
 | Player | Team | Wickets | Economy |
 |--------|------|---------|---------|
-| Kagiso Rabada | GT | **29** | 9.68 |
-| Bhuvneshwar Kumar | RCB | 28 | **7.95** |
-| Rashid Khan | GT | 21 | 9.08 |
+| [Kagiso Rabada](https://players.cricketstudio.ai/players/kagiso-rabada) | GT | **29** | 9.68 |
+| [Bhuvneshwar Kumar](https://players.cricketstudio.ai/players/bhuvneshwar-kumar) | RCB | 28 | **7.95** |
+| [Rashid Khan](https://players.cricketstudio.ai/players/rashid-khan) | GT | 21 | 9.08 |
 | Jason Holder | GT | 17 | **7.57** |
 
 **The IPL 2026 Final (2026-05-31 · Narendra Modi Stadium):**  
-RCB beat GT by 5 wickets. GT set 155. RCB chased in 18 overs. Kohli 75(42).
+RCB beat GT by 5 wickets. GT set 155. RCB chased in 18 overs. [Kohli](https://players.cricketstudio.ai/players/virat-kohli) 75(42).
 
-**Kohli vs Rabada — IPL 2026 H2H (≥5 deliveries, all encounters):**  
+**Kohli vs [Rabada](https://players.cricketstudio.ai/players/kagiso-rabada) — IPL 2026 H2H (≥5 deliveries, all encounters):**  
 37 balls · 88 runs · **237.8 SR** · 14 fours · 4 sixes · **0 dismissals**
 
 **Kohli vs Rashid — IPL 2026 H2H (≥5 deliveries, all encounters):**  
@@ -116,7 +116,7 @@ The final NRR gap in the league stage — 0.364 between two teams with identical
 
 GT reaching three finals in five seasons is genuinely exceptional. A franchise that young building a final-calibre team three times is not a failure story — it is a strategy story.
 
-The 2026 final result (RCB 5-wicket win) does not say RCB was definitively better at every position. GT's batting (Gill 732, Sudharsan 722) was as strong as any pair in the tournament. The final came down to a specific evening, a specific chase, and Kohli.
+The 2026 final result (RCB 5-wicket win) does not say RCB was definitively better at every position. GT's batting ([Gill](https://players.cricketstudio.ai/players/shubman-gill) 732, Sudharsan 722) was as strong as any pair in the tournament. The final came down to a specific evening, a specific chase, and Kohli.
 
 The H2H data (Kohli vs Rabada: 37 balls, 0 dismissals, 237.8 SR) is from all their 2026 encounters, not just the final. It is a season-long pattern, not a single match anomaly — but it reflects T20 cricket, where batter-bowler matchups can shift quickly across different phases, pitches, and conditions.
 

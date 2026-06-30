@@ -51,7 +51,7 @@ What did the first IPL match look like — and was anyone prepared for what McCu
 
 | Player | Innings | Balls | SR |
 |--------|---------|-------|----|
-| Brendon McCullum (KKR) | 158* | 73 | 216.4 |
+| [Brendon McCullum](https://players.cricketstudio.ai/players/brendon-mccullum) (KKR) | 158* | 73 | 216.4 |
 
 KKR posted their total. RCB chased. The result — that KKR won by 140 runs — is the margin that appeared in the scorebook.
 
@@ -73,9 +73,9 @@ But 158* off 73 balls — a strike rate of 216.4 — in the first match of the f
 
 The number 216.4 as a strike rate. In 2008, that was extraordinary. It remained the reference point for T20 batting brilliance for years.
 
-By 2026, Vaibhav Suryavanshi was operating at a **powerplay** strike rate of 233.6 across 223 balls of a full tournament — not one match, not one innings, but as his sustained average rate in overs 1 through 6.
+By 2026, [Vaibhav Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi) was operating at a **powerplay** strike rate of 233.6 across 223 balls of a full tournament — not one match, not one innings, but as his sustained average rate in overs 1 through 6.
 
-McCullum's SR became Suryavanshi's floor. That is the 18-year arc, quantified.
+McCullum's SR became [Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi)'s floor. That is the 18-year arc, quantified.
 
 ## What It Doesn't Say
 

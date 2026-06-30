@@ -45,7 +45,7 @@ When a powerplay anchor stays in and faces overs 16–20, what does the data act
 
 ## What the Data Says
 
-**Kohli IPL 2026 — phase splits:**
+**[Kohli](https://players.cricketstudio.ai/players/virat-kohli) IPL 2026 — phase splits:**
 
 | Phase | Balls | Runs | SR | Fours | Sixes |
 |-------|-------|------|-----|-------|-------|

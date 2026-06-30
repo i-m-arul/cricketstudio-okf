@@ -26,11 +26,11 @@ provenance:
 
 ## User Question
 
-> How many runs has Faf du Plessis scored in MLC?
+> How many runs has [Faf du Plessis](https://players.cricketstudio.ai/players/faf-du-plessis) scored in MLC?
 
 ## Correct Answer Pattern
 
-> **F du Plessis** (Texas Super Kings) is the all-time MLC run leader with **934 runs** from **571 balls** (SR 163.6) across **25 matches** (MLC 2023–2025). He holds the all-time MLC Orange Cap. N Pooran (MI New York) is second with 928 runs from 640 balls. Source: CricketStudio aggregation of Cricsheet CC BY 3.0 · snapshot 2026-06-20.
+> **F du Plessis** (Texas Super Kings) is the all-time MLC run leader with **934 runs** from **571 balls** (SR 163.6) across **25 matches** (MLC 2023–2025). He holds the all-time MLC [Orange Cap](https://players.cricketstudio.ai/leagues/ipl/leaderboards/orange-cap). N Pooran (MI New York) is second with 928 runs from 640 balls. Source: CricketStudio aggregation of Cricsheet CC BY 3.0 · snapshot 2026-06-20.
 
 ## F du Plessis MLC Career Batting
 

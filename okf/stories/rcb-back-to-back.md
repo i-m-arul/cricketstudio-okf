@@ -48,7 +48,7 @@ What does it actually take to turn eighteen years of nearly into two in a row?
 **RCB's title history (public record, Cricsheet CC BY 3.0 + CricketStudio dataset):**
 
 - IPL 2008–2024: 0 titles across 17 seasons
-- IPL 2016: Virat Kohli scores **973 runs** — the all-time single-season record — RCB reach the final, lose to Sunrisers Hyderabad
+- IPL 2016: [Virat Kohli](https://players.cricketstudio.ai/players/virat-kohli) scores **973 runs** — the all-time single-season record — RCB reach the final, lose to Sunrisers Hyderabad
 - IPL 2025: **RCB win their first IPL title**
 - IPL 2026: **RCB win back-to-back** (dataset version 2026-06-11)
 
@@ -56,7 +56,7 @@ That is the shape of it. Seventeen seasons. One of cricket's most naturally gift
 
 **The numbers that tell the waiting story:**
 
-In IPL 2016, Kohli scored 973 runs — the only batter in 18 seasons of IPL to cross 900. He averaged above 81. He scored four centuries in one IPL season. RCB reached the final.
+In IPL 2016, [Kohli](https://players.cricketstudio.ai/players/virat-kohli) scored 973 runs — the only batter in 18 seasons of IPL to cross 900. He averaged above 81. He scored four centuries in one IPL season. RCB reached the final.
 
 They lost. The 973 stayed in the record books. The trophy went to Hyderabad.
 

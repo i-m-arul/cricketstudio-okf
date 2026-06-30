@@ -43,8 +43,8 @@ provenance:
 | Rank | Player | Economy | Matches | Balls Bowled |
 |---|---|---|---|---|
 | 1 | Imad Wasim | 6.41 | 12 | 247 |
-| 2 | Rashid Khan | 6.48 | 13 | 300 |
-| 3 | SP Narine | 6.56 | 17 | 408 |
+| 2 | [Rashid Khan](https://players.cricketstudio.ai/players/rashid-khan) | 6.48 | 13 | 300 |
+| 3 | SP [Narine](https://players.cricketstudio.ai/players/sunil-narine) | 6.56 | 17 | 408 |
 | 4 | LH Ferguson | 6.65 | 11 | 248 |
 | 5 | DL Piedt | 6.69 | 5 | 78 |
 

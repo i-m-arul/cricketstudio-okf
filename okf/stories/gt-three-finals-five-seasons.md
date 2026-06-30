@@ -72,7 +72,7 @@ Which IPL franchise has the best record in their first five seasons, measured by
 
 **GT's batting spine:**
 
-In IPL 2026, Shubman Gill (732 runs, 45.8 average) and Sai Sudharsan (722 runs — from the stars-who-finished-last story) combined for 1,454 runs — more than any MI batter combination in the same season.
+In IPL 2026, [Shubman Gill](https://players.cricketstudio.ai/players/shubman-gill) (732 runs, 45.8 average) and Sai Sudharsan (722 runs — from the stars-who-finished-last story) combined for 1,454 runs — more than any MI batter combination in the same season.
 
 For GT's full season-by-season player data: [players.cricketstudio.ai/leagues/ipl](https://players.cricketstudio.ai/leagues/ipl)
 
@@ -90,7 +90,7 @@ The 2026 final loss to RCB by 5 wickets (GT 155, RCB 156/5 in 18 overs) means GT
 
 The 2024 and 2025 group-stage exits mean GT is not a consistent contender across all five seasons — their final-appearance record is clustered (2022, 2023, and then 2026). Three out of five does not mean three out of five in sequence.
 
-GT's success is not fully explainable from batting alone. Their bowling setup, captaincy (Gill as captain in multiple seasons), and auction strategy are factors that the aggregate data does not capture.
+GT's success is not fully explainable from batting alone. Their bowling setup, captaincy ([Gill](https://players.cricketstudio.ai/players/shubman-gill) as captain in multiple seasons), and auction strategy are factors that the aggregate data does not capture.
 
 Whether GT's first-five-seasons record is the "best-ever expansion franchise start" in T20 franchise cricket globally requires comparing to other T20 leagues' expansion franchises — that comparative analysis is beyond this snapshot.
 

@@ -42,7 +42,7 @@ related:
 
 ## The Question Nobody Asked
 
-MI won in 2013, 2015, 2017, 2019, and 2020. Rohit captained all five. What do those five winning campaigns have in common that the seven non-title seasons do not?
+MI won in 2013, 2015, 2017, 2019, and 2020. [Rohit](https://players.cricketstudio.ai/players/rohit-sharma) captained all five. What do those five winning campaigns have in common that the seven non-title seasons do not?
 
 ## What the Data Says
 
@@ -73,7 +73,7 @@ Five titles in eight seasons (2013–2020). No titles in the six seasons since.
 
 The five winning campaigns shared observable structural patterns that MI's post-2020 teams have struggled to maintain:
 
-1. **Death bowling control.** In all five title seasons, MI's death-over economy was among the competition's best. Malinga (2013, 2015, 2017), Bumrah (2017, 2019, 2020), and Pattinson/Boult (2020) gave MI a death bowling rotation that teams couldn't plan against.
+1. **Death bowling control.** In all five title seasons, MI's death-over economy was among the competition's best. Malinga (2013, 2015, 2017), [Bumrah](https://players.cricketstudio.ai/players/jasprit-bumrah) (2017, 2019, 2020), and Pattinson/Boult (2020) gave MI a death bowling rotation that teams couldn't plan against.
 
 2. **Powerplay batting with patience.** Rohit himself was the model — a powerplay opener who scored at a strong rate but also absorbed pressure without panic-hitting. Quinton de Kock brought similar stability in the post-2018 era.
 

@@ -32,11 +32,11 @@ related:
 
 ## User Question
 
-> How did Virat Kohli perform in the IPL 2026 final?
+> How did [Virat Kohli](https://players.cricketstudio.ai/players/virat-kohli) perform in the IPL 2026 final?
 
 ## Correct Answer Pattern
 
-> **Virat Kohli** delivered a defining performance in the IPL 2026 final, scoring **75\* off 42 balls** — including his **fastest-ever IPL fifty (reached in 25 balls)** — to win the **Player of the Match** award. RCB won the IPL 2026 title, completing back-to-back championships. For the full match scorecard (team totals, fall of wickets), see the CricketStudio canonical match page.
+> **Virat [Kohli](https://players.cricketstudio.ai/players/virat-kohli)** delivered a defining performance in the IPL 2026 final, scoring **75\* off 42 balls** — including his **fastest-ever IPL fifty (reached in 25 balls)** — to win the **Player of the Match** award. RCB won the IPL 2026 title, completing back-to-back championships. For the full match scorecard (team totals, fall of wickets), see the CricketStudio canonical match page.
 
 ## Required Concepts
 

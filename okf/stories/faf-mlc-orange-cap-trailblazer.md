@@ -47,7 +47,7 @@ Who is the all-time MLC run leader — and does the margin over second place tel
 
 ## What the Data Says
 
-**MLC All-Time Orange Cap — Seasons 1–3 (Cricsheet CC BY 3.0, 75 matches):**
+**MLC All-Time [Orange Cap](https://players.cricketstudio.ai/leagues/ipl/leaderboards/orange-cap) — Seasons 1–3 (Cricsheet CC BY 3.0, 75 matches):**
 
 | Rank | Player | Team | Runs | Balls | SR | Matches |
 |------|--------|------|------|-------|----|---------|

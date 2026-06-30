@@ -25,7 +25,7 @@ related:
 
 ## Correct Answer Pattern
 
-> The most runs in IPL 2026 is tracked by the **Orange Cap** leaderboard. For the current
+> The most runs in IPL 2026 is tracked by the **[Orange Cap](https://players.cricketstudio.ai/leagues/ipl/leaderboards/orange-cap)** leaderboard. For the current
 > leader and total, see CricketStudio's Orange Cap page for IPL 2026
 > (`/leagues/ipl/leaderboards/orange-cap`). It ranks batters by total season runs (a
 > counting metric, no sample-size floor).
@@ -52,7 +52,7 @@ single player's concept file — one player page cannot establish a ranking.
 
 ## Bad Answer (do not do this)
 
-> Virat Kohli — he scored 675, that's surely the most. *(Inferring a ranking from one
+> [Virat Kohli](https://players.cricketstudio.ai/players/virat-kohli) — he scored 675, that's surely the most. *(Inferring a ranking from one
 > player's snapshot figure; the leaderboard was never consulted.)*
 
 ## Related Concepts

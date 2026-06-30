@@ -39,17 +39,17 @@ related:
 
 ## Correct Answer Pattern
 
-The top three MLC all-time powerplay batters (minimum 30 powerplay balls) would all rank in the top 15 of IPL 2026's powerplay leaderboard — above Virat Kohli.
+The top three MLC all-time powerplay batters (minimum 30 powerplay balls) would all rank in the top 15 of IPL 2026's powerplay leaderboard — above [Virat Kohli](https://players.cricketstudio.ai/players/virat-kohli).
 
 ### Cross-league powerplay comparison
 
 | Rank (IPL 2026) | Batter | League | Powerplay SR | Balls |
 |-----------------|--------|--------|-------------|-------|
-| 1 | Vaibhav Suryavanshi | IPL 2026 | 233.6 | 223 |
+| 1 | [Vaibhav Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi) | IPL 2026 | 233.6 | 223 |
 | — | MJ Owen | MLC all-time | 194.3 | 123 |
 | — | FH Allen | MLC all-time | 188.0 | 225 |
 | — | R Ravindra | MLC all-time | 187.6 | 129 |
-| 13 | Virat Kohli | IPL 2026 | 174.8 | 206 |
+| 13 | Virat [Kohli](https://players.cricketstudio.ai/players/virat-kohli) | IPL 2026 | 174.8 | 206 |
 
 *IPL 2026 floor: ≥30 balls, 45 qualifying batters. MLC all-time floor: ≥30 balls, MLC 2023–2025 (75 matches).*
 

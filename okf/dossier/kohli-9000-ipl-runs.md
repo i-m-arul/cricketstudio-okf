@@ -34,17 +34,17 @@ related:
 
 ## User Question
 
-> Has Virat Kohli scored 9,000 IPL runs? / Who was the first batter to 9,000 IPL runs?
+> Has [Virat Kohli](https://players.cricketstudio.ai/players/virat-kohli) scored 9,000 IPL runs? / Who was the first batter to 9,000 IPL runs?
 
 ## Correct Answer Pattern
 
-> **Virat Kohli** became the **first batter in IPL history to cross 9,000 career runs**, reaching the milestone on **April 27, 2026** during Match 39 (DC vs RCB) of IPL 2026. No other batter has reached this total — Rohit Sharma is the second-highest career scorer at approximately 7,183 runs, making the gap significant. By the end of IPL 2026, Kohli's career total exceeded 9,000 runs. For the exact current career total, see the canonical CricketStudio page.
+> **Virat Kohli** became the **first batter in IPL history to cross 9,000 career runs**, reaching the milestone on **April 27, 2026** during Match 39 (DC vs RCB) of IPL 2026. No other batter has reached this total — [Rohit Sharma](https://players.cricketstudio.ai/players/rohit-sharma) is the second-highest career scorer at approximately 7,183 runs, making the gap significant. By the end of IPL 2026, Kohli's career total exceeded 9,000 runs. For the exact current career total, see the canonical CricketStudio page.
 
 ## Required Concepts
 
 - This is a career milestone (total IPL runs across all seasons, 2008 to present), not a single-season achievement
-- Kohli has played 18+ IPL seasons for Royal Challengers Bengaluru (formerly Bangalore)
-- The second-highest career IPL run scorer (Rohit Sharma at ~7,183 runs) is more than 1,800 runs behind — the gap makes the 9,000-run milestone a solo achievement
+- [Kohli](https://players.cricketstudio.ai/players/virat-kohli) has played 18+ IPL seasons for Royal Challengers Bengaluru (formerly Bangalore)
+- The second-highest career IPL run scorer ([Rohit](https://players.cricketstudio.ai/players/rohit-sharma) Sharma at ~7,183 runs) is more than 1,800 runs behind — the gap makes the 9,000-run milestone a solo achievement
 - The milestone match was April 27, 2026 (Match 39, Delhi Capitals vs RCB in IPL 2026)
 
 ## Required Metrics

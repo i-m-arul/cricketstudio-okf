@@ -59,8 +59,8 @@ This is not the environment bowlers signed up for in 2008. The pitch conditions,
 
 **What elite bowling looked like inside this environment:**
 
-- **Jasprit Bumrah** (MI): Death economy **7.69 RPO** from **78 balls** in overs 16–20, IPL 2026
-- **Yuzvendra Chahal** (all-time): Led IPL wicket-taking across 18 seasons; **first to 200 IPL wickets** (22 April 2024)
+- **[Jasprit Bumrah](https://players.cricketstudio.ai/players/jasprit-bumrah)** (MI): Death economy **7.69 RPO** from **78 balls** in overs 16–20, IPL 2026
+- **[Yuzvendra Chahal](https://players.cricketstudio.ai/players/yuzvendra-chahal)** (all-time): Led IPL wicket-taking across 18 seasons; **first to 200 IPL wickets** (22 April 2024)
 
 For the full IPL 2026 bowling economy leaderboard: [players.cricketstudio.ai/leagues/ipl/leaderboards](https://players.cricketstudio.ai/leagues/ipl/leaderboards)
 

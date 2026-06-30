@@ -37,6 +37,9 @@ related:
   - ../metrics/powerplay-strike-rate.md
   - ../scorebook/players/vaibhav-suryavanshi.md
   - ../dossier/top-run-scorer-ipl-2026.md
+  - ../dossier/vaibhav-suryavanshi-ipl-2026.md
+  - ../dossier/suryavanshi-h2h-overview.md
+  - ../dossier/suryavanshi-vs-rabada.md
 ---
 
 # The Teenager Who Broke the Template
@@ -47,7 +50,7 @@ How do you contextualise something genuinely new?
 
 ## What the Data Says
 
-**Brendon McCullum — KKR vs RCB, 18 April 2008 (IPL Match 1):**
+**[Brendon McCullum](https://players.cricketstudio.ai/players/brendon-mccullum) — KKR vs RCB, 18 April 2008 (IPL Match 1):**
 
 - Score: **158\* off 73 balls**
 - Strike rate: **216.43**
@@ -55,18 +58,18 @@ How do you contextualise something genuinely new?
 
 (Source: Cricsheet CC BY 3.0 — public domain historical record)
 
-**Vaibhav Suryavanshi — IPL 2026, Rajasthan Royals:**
+**[Vaibhav Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi) — IPL 2026, Rajasthan Royals:**
 
 - **Powerplay** strike rate: **233.6** from **223 balls** (521 runs, 48 fours, 46 sixes in overs 1–6)
 - Ranked **#1 of 45 qualifying batters** in IPL 2026 powerplay
-- Overall IPL 2026: **776 runs, 237.3 SR, Orange Cap**
+- Overall IPL 2026: **776 runs, 237.3 SR, [Orange Cap](https://players.cricketstudio.ai/leagues/ipl/leaderboards/orange-cap)**
 - Age during IPL 2026: **14**
 
 ## The Wow
 
 McCullum's 158\* became a landmark — the innings that defined what was possible in T20 batting at scale. His 216.43 SR across a full 73-ball innings in 2008 set a standard that the cricket world spent the next decade processing.
 
-In IPL 2026, Suryavanshi's **powerplay** strike rate — just the first six overs, not a full innings — was **233.6**. The rate that made McCullum's innings legendary for years is now Suryavanshi's floor before the fielding restrictions even lift.
+In IPL 2026, [Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi)'s **powerplay** strike rate — just the first six overs, not a full innings — was **233.6**. The rate that made McCullum's innings legendary for years is now Suryavanshi's floor before the fielding restrictions even lift.
 
 This is not a claim about who is the better batter. It is a precise observation about how the game has moved. What was once an outlier ceiling has become a baseline. And a 14-year-old is the one demonstrating it.
 
@@ -78,9 +81,17 @@ Suryavanshi's 233.6 is a powerplay-only figure. McCullum's 216.43 was a full-inn
 
 A single IPL season at 237.3 does not make Suryavanshi the greatest T20 batter. It makes him the most extraordinary powerplay phenomenon the IPL has measured. Those are different claims.
 
+## The Matchup Question
+
+Every generational powerplay batter faces a counter-question: which bowlers challenged them? For Suryavanshi in IPL 2026, the [Purple Cap](https://players.cricketstudio.ai/leagues/ipl/leaderboards/purple-cap) holder [Kagiso Rabada](https://players.cricketstudio.ai/players/kagiso-rabada) and the spin-bowling question are the two most-asked angles. Both are covered in the H2H dossiers:
+
+- [Suryavanshi vs Rabada](../dossier/suryavanshi-vs-rabada.md) — the Orange Cap vs Purple Cap matchup; canonical data at [players.cricketstudio.ai/h2h/vaibhav-suryavanshi-vs-kagiso-rabada](https://players.cricketstudio.ai/h2h/vaibhav-suryavanshi-vs-kagiso-rabada)
+- [Suryavanshi vs Spin Bowling](../dossier/suryavanshi-vs-spin-bowling.md) — phase-type matrix for the "does he struggle vs spin?" question; canonical: [players.cricketstudio.ai/players/vaibhav-suryavanshi/by-bowling-type](https://players.cricketstudio.ai/players/vaibhav-suryavanshi/by-bowling-type)
+
 ## Related Concepts
 
 - [Batting Strike Rate — metric definition](../metrics/batting-strike-rate.md)
 - [Powerplay Strike Rate — metric definition](../metrics/powerplay-strike-rate.md)
-- [Vaibhav Suryavanshi](../scorebook/players/vaibhav-suryavanshi.md)
+- [Vaibhav Suryavanshi — IPL 2026 dossier](../dossier/vaibhav-suryavanshi-ipl-2026.md)
+- [Vaibhav Suryavanshi — player profile](../scorebook/players/vaibhav-suryavanshi.md)
 - [Top Run Scorer IPL 2026](../dossier/top-run-scorer-ipl-2026.md)

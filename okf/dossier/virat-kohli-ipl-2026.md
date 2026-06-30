@@ -35,11 +35,11 @@ related:
 
 ## User Question
 
-> How did Virat Kohli perform in the IPL 2026 powerplay?
+> How did [Virat Kohli](https://players.cricketstudio.ai/players/virat-kohli) perform in the IPL 2026 powerplay?
 
 ## Correct Answer Pattern
 
-Virat Kohli (Royal Challengers Bengaluru) ranked **#13 of 45 qualifying batters** in IPL 2026 powerplay strike rate, with the second-largest powerplay ball sample in the top 15.
+Virat [Kohli](https://players.cricketstudio.ai/players/virat-kohli) (Royal Challengers Bengaluru) ranked **#13 of 45 qualifying batters** in IPL 2026 powerplay strike rate, with the second-largest powerplay ball sample in the top 15.
 
 ### IPL 2026 powerplay performance
 
@@ -53,7 +53,7 @@ Virat Kohli (Royal Challengers Bengaluru) ranked **#13 of 45 qualifying batters*
 
 174.8 SR from 206 powerplay balls is a high-volume, consistent powerplay record. Kohli's value is not purely in peak SR but in sustained volume and reliability — 206 balls means he played aggressively across most of RCB's IPL 2026 matches.
 
-For context: the #1 ranked powerplay batter (Suryavanshi) had 233.6 SR from 223 balls, which is historically exceptional. Kohli at #13 from 206 balls is a strong powerplay season by any normal comparison.
+For context: the #1 ranked powerplay batter ([Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi)) had 233.6 SR from 223 balls, which is historically exceptional. Kohli at #13 from 206 balls is a strong powerplay season by any normal comparison.
 
 ## Required Metrics
 

@@ -49,18 +49,18 @@ In IPL 2026, 45 batters qualified for the powerplay leaderboard — minimum 30 b
 
 | Batter | Team | Powerplay SR | Balls | Rank |
 |--------|------|-------------|-------|------|
-| Vaibhav Suryavanshi | Rajasthan Royals | 233.6 | 223 | #1 |
-| Virat Kohli | Royal Challengers Bengaluru | 174.8 | 206 | #13 |
+| [Vaibhav Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi) | Rajasthan Royals | 233.6 | 223 | #1 |
+| [Virat Kohli](https://players.cricketstudio.ai/players/virat-kohli) | Royal Challengers Bengaluru | 174.8 | 206 | #13 |
 
 *Dataset: CricketStudio IPL 2026 (2026-06-11). Floor: ≥30 powerplay balls.*
 
-Kohli ranked 13th by strike rate. But his 206 powerplay balls is among the highest ball counts in the top 15 — the second-largest sample in that tier. He was consistently present at the top of the order, consistently attacking in the powerplay, for nearly the entire season.
+[Kohli](https://players.cricketstudio.ai/players/virat-kohli) ranked 13th by strike rate. But his 206 powerplay balls is among the highest ball counts in the top 15 — the second-largest sample in that tier. He was consistently present at the top of the order, consistently attacking in the powerplay, for nearly the entire season.
 
 ## The Wow
 
 The narrative around ageing batters in T20 cricket focuses almost entirely on strike rate. Did it drop? Is it still enough? The 206 balls ask a different question: is the batter still there?
 
-Suryavanshi's 233.6 SR from 223 balls is historically remarkable — a once-in-a-generation powerplay rate. Kohli's 174.8 SR from 206 balls is not in the same tier. But 206 balls means he played RCB's powerplay nearly every time they batted. At 37, in the fastest, most physically and mentally demanding phase of T20 cricket, he was consistently one of the first two people at the crease.
+[Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi)'s 233.6 SR from 223 balls is historically remarkable — a once-in-a-generation powerplay rate. Kohli's 174.8 SR from 206 balls is not in the same tier. But 206 balls means he played RCB's powerplay nearly every time they batted. At 37, in the fastest, most physically and mentally demanding phase of T20 cricket, he was consistently one of the first two people at the crease.
 
 That's a different kind of value than leading the SR leaderboard. Not better or worse — different.
 

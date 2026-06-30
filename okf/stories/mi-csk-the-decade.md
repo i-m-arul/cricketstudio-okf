@@ -79,16 +79,16 @@ In 14 IPL seasons from 2010 to 2023, MI and CSK won 10. Every other franchise co
 The 10-out-of-14 figure is not a coincidence of era. Consider what each franchise had:
 
 **CSK's structural advantages:**
-- MS Dhoni as captain and finisher for the entire era — 2010, 2011, 2018, 2021, 2023
+- [MS Dhoni](https://players.cricketstudio.ai/players/mahendra-singh-dhoni) as captain and finisher for the entire era — 2010, 2011, 2018, 2021, 2023
 - A stable squad philosophy: CSK consistently retained core players rather than rebuilding at auction
 - The M. A. Chidambaram Stadium in Chennai, with its slower surfaces that suit spin — a genuine home advantage
 
 **MI's structural advantages:**
-- Death bowling: Malinga through 2017, Bumrah from 2017 onwards — two of T20 cricket's greatest death bowlers in consecutive generational slots
-- Rohit Sharma as captain from 2013 onwards — the only player to win the IPL five times as captain
+- Death bowling: Malinga through 2017, [Bumrah](https://players.cricketstudio.ai/players/jasprit-bumrah) from 2017 onwards — two of T20 cricket's greatest death bowlers in consecutive generational slots
+- [Rohit Sharma](https://players.cricketstudio.ai/players/rohit-sharma) as captain from 2013 onwards — the only player to win the IPL five times as captain
 - Deep batting: the Pollard slot (positions 6–7) carried matches when the top order failed
 
-What neither franchise built was a system dependent on any one batter's brilliance. The contrast with Kohli's RCB — where his 973-run season in 2016 didn't produce a title — is instructive. Both MI and CSK won without a single season-defining batting performance at the top.
+What neither franchise built was a system dependent on any one batter's brilliance. The contrast with [Kohli](https://players.cricketstudio.ai/players/virat-kohli)'s RCB — where his 973-run season in 2016 didn't produce a title — is instructive. Both MI and CSK won without a single season-defining batting performance at the top.
 
 For full historical data: [players.cricketstudio.ai/leagues/ipl/standings](https://players.cricketstudio.ai/leagues/ipl/)
 
@@ -96,7 +96,7 @@ For full historical data: [players.cricketstudio.ai/leagues/ipl/standings](https
 
 The two franchises have now both stalled: MI finished 10th (of 10) in IPL 2026 (NRR -0.712), and CSK's most recent title is 2023. The 2025 and 2026 IPL titles went to RCB in back-to-back seasons, suggesting the dominance pattern has broken.
 
-Whether MI and CSK's decade-long run was sustainable franchise-building or a specific player-era phenomenon (Bumrah + Rohit, Dhoni + CSK batting) is a question the data can describe but not resolve. Both explanations are consistent with the title record.
+Whether MI and CSK's decade-long run was sustainable franchise-building or a specific player-era phenomenon (Bumrah + Rohit, [Dhoni](https://players.cricketstudio.ai/players/mahendra-singh-dhoni) + CSK batting) is a question the data can describe but not resolve. Both explanations are consistent with the title record.
 
 ## Related Concepts
 

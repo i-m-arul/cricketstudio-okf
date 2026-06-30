@@ -42,11 +42,11 @@ related:
 
 ## The Question Nobody Asked
 
-In an IPL era defined by explosion — Suryavanshi's 233 strike rates, Impact Player specialists, 200-plus totals — what does a 45.8 average at 732 runs actually mean?
+In an IPL era defined by explosion — [Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi)'s 233 strike rates, Impact Player specialists, 200-plus totals — what does a 45.8 average at 732 runs actually mean?
 
 ## What the Data Says
 
-**Shubman Gill — IPL 2026:**
+**[Shubman Gill](https://players.cricketstudio.ai/players/shubman-gill) — IPL 2026:**
 
 | Metric | Value |
 |--------|-------|
@@ -61,7 +61,7 @@ In an IPL era defined by explosion — Suryavanshi's 233 strike rates, Impact Pl
 
 | Season | Notable |
 |--------|---------|
-| IPL 2023 | Orange Cap — 890 runs |
+| IPL 2023 | [Orange Cap](https://players.cricketstudio.ai/leagues/ipl/leaderboards/orange-cap) — 890 runs |
 | Career pre-2026 | 3,866 IPL runs |
 | IPL 2026 | 732 runs at 45.8 |
 
@@ -77,7 +77,7 @@ In an IPL era defined by explosion — Suryavanshi's 233 strike rates, Impact Pl
 
 *(GT debut season, results from public domain IPL records)*
 
-For GT's full 2026 season results and Gill's match-by-match data: [players.cricketstudio.ai/players/shubman-gill](https://players.cricketstudio.ai/players/shubman-gill)
+For GT's full 2026 season results and [Gill](https://players.cricketstudio.ai/players/shubman-gill)'s match-by-match data: [players.cricketstudio.ai/players/shubman-gill](https://players.cricketstudio.ai/players/shubman-gill)
 
 ## The Wow
 

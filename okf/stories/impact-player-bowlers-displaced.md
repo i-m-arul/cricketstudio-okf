@@ -83,19 +83,19 @@ The players most exposed by this architectural shift are specialist bowlers with
 
 | Bowler | Career economy (Cricsheet CC BY 3.0) | IPL 2026 economy | Change |
 |--------|-------------------------------------|-----------------|--------|
-| Rashid Khan (2017–2022 range) | 5.34–6.74 | 9.08 | +2.00–3.74 |
-| Yuzvendra Chahal (career) | 7.96 | 9.39 | +1.43 |
-| Sunil Narine | ~7.50 (career) | 6.60 | −0.90 |
+| [Rashid Khan](https://players.cricketstudio.ai/players/rashid-khan) (2017–2022 range) | 5.34–6.74 | 9.08 | +2.00–3.74 |
+| [Yuzvendra Chahal](https://players.cricketstudio.ai/players/yuzvendra-chahal) (career) | 7.96 | 9.39 | +1.43 |
+| [Sunil Narine](https://players.cricketstudio.ai/players/sunil-narine) | ~7.50 (career) | 6.60 | −0.90 |
 
 *(Source: Cricsheet CC BY 3.0 career baselines + CricketStudio IPL 2026 dataset, version 2026-06-11)*
 
-Rashid and Chahal saw significant economy increases in the post-rule era. Narine went the other direction.
+Rashid and Chahal saw significant economy increases in the post-rule era. [Narine](https://players.cricketstudio.ai/players/sunil-narine) went the other direction.
 
 **Why Narine is the counterexample:**
 
 Narine opens the batting for KKR and bowls. He contributes meaningfully at both ends of the game. A captain considering a batting sub to replace Narine faces a problem: the replacement batter would need to match Narine's bowling contribution — and no specialist batter can do that.
 
-Narine's dual role makes the Impact Player card less effective against him. He is, structurally, his own Impact Player. His 6.60 IPL 2026 economy is not just better than Rashid and Chahal — it is better than his own career average.
+Narine's dual role makes the Impact Player card less effective against him. He is, structurally, his own Impact Player. His 6.60 IPL 2026 economy is not just better than Rashid and [Chahal](https://players.cricketstudio.ai/players/yuzvendra-chahal) — it is better than his own career average.
 
 ## The Wow
 

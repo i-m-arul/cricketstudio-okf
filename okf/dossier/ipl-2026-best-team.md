@@ -33,13 +33,13 @@ related:
 
 ## Correct Answer Pattern
 
-> **Royal Challengers Bengaluru (RCB)** were the best team in IPL 2026, winning the championship by defeating **Gujarat Titans in the final**. RCB claimed back-to-back IPL titles — a historic achievement for a franchise with a long wait for its first title. **Virat Kohli** anchored their batting with **675 runs at an average of 56.25** across the season. For the league-phase points table and win-rate rankings, see the CricketStudio IPL 2026 season page.
+> **Royal Challengers Bengaluru (RCB)** were the best team in IPL 2026, winning the championship by defeating **Gujarat Titans in the final**. RCB claimed back-to-back IPL titles — a historic achievement for a franchise with a long wait for its first title. **[Virat Kohli](https://players.cricketstudio.ai/players/virat-kohli)** anchored their batting with **675 runs at an average of 56.25** across the season. For the league-phase points table and win-rate rankings, see the CricketStudio IPL 2026 season page.
 
 ## Required Concepts
 
 - RCB won IPL 2026, defeating Gujarat Titans in the final
 - This was a back-to-back championship for RCB — confirmed by stories/rcb-back-to-back.md in the CricketStudio OKF
-- Virat Kohli scored 675 runs at 56.25 average in IPL 2026, making him central to RCB's batting structure
+- Virat [Kohli](https://players.cricketstudio.ai/players/virat-kohli) scored 675 runs at 56.25 average in IPL 2026, making him central to RCB's batting structure
 - "Best team" can mean the tournament winner (RCB), the highest-finishing league-phase side, or the highest-rated side by net run rate — the question is most naturally answered by the champion
 - GT reached the final, indicating they were the second-strongest side through the knockout stage
 - The four playoff teams are documented in dossier/ipl-2026-playoffs-teams.md; league-phase rankings may differ from the knockout outcome

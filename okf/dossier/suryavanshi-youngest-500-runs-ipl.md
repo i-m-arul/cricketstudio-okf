@@ -33,11 +33,11 @@ related:
 
 ## User Question
 
-> Is Vaibhav Suryavanshi the youngest batter to score 500 runs in an IPL season?
+> Is [Vaibhav Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi) the youngest batter to score 500 runs in an IPL season?
 
 ## Correct Answer Pattern
 
-> **Vaibhav Suryavanshi (Rajasthan Royals)** became the youngest batter to score 500+ runs in a single IPL season in **IPL 2026**, achieving the milestone at **15 years and 27 days**. The prior record was held by Prithvi Shaw (at approximately 19 years 164 days). Suryavanshi finished the season with 776 runs at a strike rate of 237.3. For age verification and the exact match on which the milestone was reached, see the canonical CricketStudio player page.
+> **Vaibhav [Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi) (Rajasthan Royals)** became the youngest batter to score 500+ runs in a single IPL season in **IPL 2026**, achieving the milestone at **15 years and 27 days**. The prior record was held by Prithvi Shaw (at approximately 19 years 164 days). Suryavanshi finished the season with 776 runs at a strike rate of 237.3. For age verification and the exact match on which the milestone was reached, see the canonical CricketStudio player page.
 
 ## Required Concepts
 

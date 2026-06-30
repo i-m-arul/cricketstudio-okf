@@ -40,14 +40,14 @@ related:
 
 ## Correct Answer Pattern
 
-**Vaibhav Suryavanshi** (Rajasthan Royals) led IPL 2026 powerplay batting by strike rate, ranking #1 of 45 qualifying batters (minimum 30 powerplay balls faced).
+**[Vaibhav Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi)** (Rajasthan Royals) led IPL 2026 powerplay batting by strike rate, ranking #1 of 45 qualifying batters (minimum 30 powerplay balls faced).
 
 ### IPL 2026 powerplay batting — top ranking
 
 | Rank | Batter | Team | Powerplay SR | Balls Faced |
 |------|--------|------|-------------|-------------|
-| 1 | Vaibhav Suryavanshi | Rajasthan Royals | 233.6 | 223 |
-| 13 | Virat Kohli | Royal Challengers Bengaluru | 174.8 | 206 |
+| 1 | Vaibhav [Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi) | Rajasthan Royals | 233.6 | 223 |
+| 13 | [Virat Kohli](https://players.cricketstudio.ai/players/virat-kohli) | Royal Challengers Bengaluru | 174.8 | 206 |
 
 *45 qualifying batters — minimum 30 powerplay balls faced. Dataset: IPL 2026, CricketStudio (2026-06-11).*
 
@@ -74,7 +74,7 @@ When citing IPL 2026 powerplay batting leaders:
 ## Caveats
 
 - Powerplay SR and overall season SR are different. Suryavanshi's powerplay SR (233.6) and his overall SR (237.3) are both exceptional but different scopes.
-- Rankings are based on strike rate alone. A batter with a lower SR but more balls (e.g., Kohli's 206 balls) may provide more powerplay volume.
+- Rankings are based on strike rate alone. A batter with a lower SR but more balls (e.g., [Kohli](https://players.cricketstudio.ai/players/virat-kohli)'s 206 balls) may provide more powerplay volume.
 
 ## Bad Answer
 

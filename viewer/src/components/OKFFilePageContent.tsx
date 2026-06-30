@@ -44,13 +44,26 @@ export function buildJsonLd(file: OKFFile): object[] {
     main = { ...base, '@type': 'Article', articleSection: 'Cricket Story',
       author: { '@type': 'Organization', name: 'CricketStudio', url: 'https://cricketstudio.ai' } }
   } else if (file.type === 'player') {
-    main = { ...base, '@type': 'Person', ...(file.canonical_page ? { sameAs: [file.canonical_page] } : {}) }
+    const sameAsUrls: string[] = []
+    if (file.canonical_page) sameAsUrls.push(file.canonical_page)
+    if (file.same_as?.wikipedia) sameAsUrls.push(file.same_as.wikipedia)
+    if (file.same_as?.wikidata) sameAsUrls.push(file.same_as.wikidata)
+    main = {
+      ...base, '@type': 'Person',
+      sport: 'Cricket',
+      ...(file.nationality ? { nationality: { '@type': 'Country', name: file.nationality } } : {}),
+      ...(file.role ? { jobTitle: file.role } : {}),
+      ...(sameAsUrls.length ? { sameAs: sameAsUrls } : {}),
+    }
   } else if (file.type === 'team') {
     main = { ...base, '@type': 'SportsTeam', sport: 'Cricket', ...(file.canonical_page ? { sameAs: [file.canonical_page] } : {}) }
   } else if (file.type === 'league') {
     main = { ...base, '@type': 'SportsOrganization', sport: 'Cricket' }
   } else if (file.type === 'match') {
-    main = { ...base, '@type': 'SportsEvent', sport: 'Cricket' }
+    main = {
+      ...base, '@type': 'SportsEvent', sport: 'Cricket',
+      ...(file.dataset_version ? { startDate: file.dataset_version } : {}),
+    }
   } else if (file.type === 'venue') {
     main = { ...base, '@type': 'StadiumOrArena' }
   } else if (file.type === 'metric' || file.type === 'methodology' || file.type === 'research') {

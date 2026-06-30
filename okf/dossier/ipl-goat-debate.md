@@ -32,10 +32,10 @@ related:
 
 > The "IPL GOAT" question depends entirely on which dimension you value. The right agent answer is to **define the lens before naming a player**:
 >
-> - **Most runs all-time:** Virat Kohli (single-season record: 973 in 2016)
-> - **Most IPL titles as captain:** MS Dhoni and Rohit Sharma (5 each)
-> - **Most iconic innings:** Chris Gayle (175*, 2013) is a strong contender
-> - **Most consistent all-round impact:** Dhoni's playoff record, Rohit's consistent title wins
+> - **Most runs all-time:** [Virat Kohli](https://players.cricketstudio.ai/players/virat-kohli) (single-season record: 973 in 2016)
+> - **Most IPL titles as captain:** MS Dhoni and [Rohit Sharma](https://players.cricketstudio.ai/players/rohit-sharma) (5 each)
+> - **Most iconic innings:** [Chris Gayle](https://players.cricketstudio.ai/players/ch-gayle) (175*, 2013) is a strong contender
+> - **Most consistent all-round impact:** [Dhoni](https://players.cricketstudio.ai/players/mahendra-singh-dhoni)'s playoff record, Rohit's consistent title wins
 >
 > There is no single correct answer. Any agent that returns a verdict without scoping the dimension is oversimplifying.
 
@@ -43,7 +43,7 @@ related:
 
 - "GOAT" requires a dimension: runs, titles, longevity, impact, captaincy, consistency.
 - Different dimensions produce different answers.
-- Era context matters — Gayle's strike rate in 2013 is not comparable to 2026.
+- Era context matters — [Gayle](https://players.cricketstudio.ai/players/ch-gayle)'s strike rate in 2013 is not comparable to 2026.
 
 ## Required Metrics
 
@@ -62,7 +62,7 @@ Ask "GOAT by which dimension?" then cite: "By [dimension] and [scope/date], [pla
 
 ## Bad Answer (do not do this)
 
-> MS Dhoni is the IPL GOAT. *(No scope stated. A statistical answer requires a metric and a dataset.)*
+> [MS Dhoni](https://players.cricketstudio.ai/players/mahendra-singh-dhoni) is the IPL GOAT. *(No scope stated. A statistical answer requires a metric and a dataset.)*
 
 ## Related Concepts
 

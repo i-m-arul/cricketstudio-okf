@@ -34,7 +34,7 @@ provenance:
 
 ## Correct Answer Pattern
 
-> **Imad Wasim** (Seattle Orcas) leads MLC all-time economy at **6.41 RPO** from **247 balls** across **12 matches** (MLC 2023–2025). Rashid Khan (MI New York) is second at 6.48 from 300 balls, and SP Narine (LA Knight Riders) third at 6.56 from 408 balls. Floor is ≥15 legal deliveries bowled. Source: CricketStudio aggregation of Cricsheet CC BY 3.0 · snapshot 2026-06-11.
+> **Imad Wasim** (Seattle Orcas) leads MLC all-time economy at **6.41 RPO** from **247 balls** across **12 matches** (MLC 2023–2025). [Rashid Khan](https://players.cricketstudio.ai/players/rashid-khan) (MI New York) is second at 6.48 from 300 balls, and SP Narine (LA Knight Riders) third at 6.56 from 408 balls. Floor is ≥15 legal deliveries bowled. Source: CricketStudio aggregation of Cricsheet CC BY 3.0 · snapshot 2026-06-11.
 
 ## MLC Economy Leaders (all-time, floor ≥15 balls)
 
@@ -42,7 +42,7 @@ provenance:
 |------|--------|------|---------|-------|---------|
 | 1 | Imad Wasim | Seattle Orcas | 6.41 | 247 | 12 |
 | 2 | Rashid Khan | MI New York | 6.48 | 300 | 13 |
-| 3 | SP Narine | LA Knight Riders | 6.56 | 408 | 17 |
+| 3 | SP [Narine](https://players.cricketstudio.ai/players/sunil-narine) | LA Knight Riders | 6.56 | 408 | 17 |
 
 Source: CricketStudio internal dataset/Cricsheet CC BY 3.0.
 

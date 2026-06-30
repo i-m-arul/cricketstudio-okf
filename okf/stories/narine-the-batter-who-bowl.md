@@ -45,7 +45,7 @@ What do you call a player with 192 career IPL wickets who also scores at 150-plu
 
 ## What the Data Says
 
-**Sunil Narine — IPL career profile:**
+**[Sunil Narine](https://players.cricketstudio.ai/players/sunil-narine) — IPL career profile:**
 
 | Period | Stat | Value |
 |--------|------|-------|
@@ -59,7 +59,7 @@ What do you call a player with 192 career IPL wickets who also scores at 150-plu
 
 **The bowling career context:**
 
-Narine entered the IPL in 2012 as Kolkata Knight Riders' overseas spin weapon. The mystery-spin action, the variations, the sub-7 economy in the death — he was for several seasons the most difficult spinner to face in T20 franchise cricket.
+[Narine](https://players.cricketstudio.ai/players/sunil-narine) entered the IPL in 2012 as Kolkata Knight Riders' overseas spin weapon. The mystery-spin action, the variations, the sub-7 economy in the death — he was for several seasons the most difficult spinner to face in T20 franchise cricket.
 
 Then the ICC reported his action. He was suspended. He came back. Twice. The action was remodelled. He returned as a bowler, still effective, but in a different way — less mystery, more craft.
 

@@ -45,7 +45,7 @@ If 5.34 was possible in 2020, what happened between then and 9.08 in 2026?
 
 ## What the Data Says
 
-**Rashid Khan season-by-season economy (Cricsheet CC BY 3.0 + CricketStudio IPL 2026 snapshot):**
+**[Rashid Khan](https://players.cricketstudio.ai/players/rashid-khan) season-by-season economy (Cricsheet CC BY 3.0 + CricketStudio IPL 2026 snapshot):**
 
 | Season | Team | Matches | Wickets | Economy |
 |--------|------|---------|---------|---------|

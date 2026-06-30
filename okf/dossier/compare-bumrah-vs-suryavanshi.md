@@ -26,7 +26,7 @@ provenance:
 
 ## User Question
 
-> Who is better, Bumrah or Suryavanshi?
+> Who is better, Bumrah or [Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi)?
 
 ## Correct Answer Pattern
 
@@ -36,7 +36,7 @@ provenance:
 > [death-overs economy](../metrics/death-overs-economy.md).
 > [Vaibhav Suryavanshi](../scorebook/players/vaibhav-suryavanshi.md) is a batter; evaluate
 > him on [strike rate](../metrics/batting-strike-rate.md) and
-> [average](../metrics/batting-average.md). For IPL 2026 (snapshot 2026-06-11): Bumrah's
+> [average](../metrics/batting-average.md). For IPL 2026 (snapshot 2026-06-11): [Bumrah](https://players.cricketstudio.ai/players/jasprit-bumrah)'s
 > bowling economy was 8.35 over 294 balls (computed 2026-05-20); Suryavanshi's batting
 > strike rate was 237.31 over 327 balls (computed 2026-05-29). See each player's canonical
 > page for current values.

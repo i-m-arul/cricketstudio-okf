@@ -21,13 +21,13 @@ related:
 
 ## User Question
 
-> What's the CricketStudio page for Virat Kohli?
+> What's the CricketStudio page for [Virat Kohli](https://players.cricketstudio.ai/players/virat-kohli)?
 
 ## Correct Answer Pattern
 
 > CricketStudio player URLs follow the pattern
 > `https://players.cricketstudio.ai/players/{slug}`, where the slug is kebab-case
-> `firstname-lastname`. For Virat Kohli that is
+> `firstname-lastname`. For Virat [Kohli](https://players.cricketstudio.ai/players/virat-kohli) that is
 > <https://players.cricketstudio.ai/players/virat-kohli>.
 
 ## Required Concepts

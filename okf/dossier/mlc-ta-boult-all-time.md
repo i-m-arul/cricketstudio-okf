@@ -26,11 +26,11 @@ provenance:
 
 ## User Question
 
-> How many wickets has Trent Boult taken in MLC?
+> How many wickets has [Trent Boult](https://players.cricketstudio.ai/players/trent-boult) taken in MLC?
 
 ## Correct Answer Pattern
 
-> **TA Boult** (MI New York) is the all-time MLC wicket leader with **46 wickets** from **629 balls** (economy 8.14) across **27 matches** (MLC 2023–2025). He leads the all-time MLC Purple Cap. Source: CricketStudio aggregation of Cricsheet CC BY 3.0 · snapshot 2026-06-20.
+> **TA Boult** (MI New York) is the all-time MLC wicket leader with **46 wickets** from **629 balls** (economy 8.14) across **27 matches** (MLC 2023–2025). He leads the all-time MLC [Purple Cap](https://players.cricketstudio.ai/leagues/ipl/leaderboards/purple-cap). Source: CricketStudio aggregation of Cricsheet CC BY 3.0 · snapshot 2026-06-20.
 
 ## TA Boult MLC Career Bowling
 

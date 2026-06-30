@@ -50,9 +50,9 @@ Who are the best powerplay batters in franchise T20 cricket right now — and ar
 
 **IPL 2026 powerplay context (minimum 30 balls):**
 
-- Virat Kohli (Royal Challengers Bengaluru): **174.8 SR** from 206 balls — ranked #13 of 45 qualifying batters
+- [Virat Kohli](https://players.cricketstudio.ai/players/virat-kohli) (Royal Challengers Bengaluru): **174.8 SR** from 206 balls — ranked #13 of 45 qualifying batters
 
-All three MLC leaders would sit above Kohli if placed on the IPL 2026 powerplay leaderboard.
+All three MLC leaders would sit above [Kohli](https://players.cricketstudio.ai/players/virat-kohli) if placed on the IPL 2026 powerplay leaderboard.
 
 FH Allen's 225 balls is the largest powerplay sample in MLC history — this is not a small-sample outlier.
 

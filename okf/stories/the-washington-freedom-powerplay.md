@@ -74,7 +74,7 @@ It does not say Allen is less valuable because he plays for a different team —
 
 It does not say two good powerplay batters guarantee a good powerplay — they also need to survive the new ball, which requires some luck and some judgement beyond raw SR.
 
-The sample is 75 total MLC matches across 3 seasons. Fewer than one IPL season. Treat the rankings as directional, not definitive — Owen's 123 balls is above the ≥30 floor, but is smaller than Suryavanshi's 223 IPL powerplay balls for comparison.
+The sample is 75 total MLC matches across 3 seasons. Fewer than one IPL season. Treat the rankings as directional, not definitive — Owen's 123 balls is above the ≥30 floor, but is smaller than [Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi)'s 223 IPL powerplay balls for comparison.
 
 ## Related Concepts
 

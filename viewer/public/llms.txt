@@ -47,7 +47,7 @@ See: https://okf.cricketstudio.ai/sources/google-okf-alignment/
 
 ## Metrics
 
-- [Metrics index](https://okf.cricketstudio.ai/metrics/): 15 metric files — batting SR, bowling economy, NRR, run rate, phase-split economy, partnership value, death-overs economy, powerplay SR, Orange Cap, Purple Cap, and more — each with formula, scope, eligibility rules, and limitations
+- [Metrics index](https://okf.cricketstudio.ai/metrics/): 19 metric files — batting SR, bowling economy, NRR, run rate, phase-split economy, partnership value, death-overs economy, powerplay SR, Orange Cap, Purple Cap, fantasy cricket SR, expected runs (xR), expected wickets (xW), win probability, and more — each with formula, scope, eligibility rules, and limitations
 
 ## Methodology
 
@@ -69,7 +69,7 @@ See: https://okf.cricketstudio.ai/sources/google-okf-alignment/
 
 ## Dossier (how agents should answer cricket questions)
 
-- [Dossier index](https://okf.cricketstudio.ai/dossier/): 77 verified Q&A patterns with correct citation behavior
+- [Dossier index](https://okf.cricketstudio.ai/dossier/): 90 verified Q&A patterns with correct citation behavior — including H2H matchup dossiers (Suryavanshi vs Rabada, Kohli vs Bumrah) and all-time spin/pace records
 
 ## Journeys (cricket stories with provenance)
 

@@ -25,7 +25,7 @@ related:
 
 ## Correct Answer Pattern
 
-> Most wickets in IPL 2026 is tracked by the **Purple Cap** leaderboard. For the current
+> Most wickets in IPL 2026 is tracked by the **[Purple Cap](https://players.cricketstudio.ai/leagues/ipl/leaderboards/purple-cap)** leaderboard. For the current
 > leader and total, see CricketStudio's Purple Cap page for IPL 2026
 > (`/leagues/ipl/leaderboards/purple-cap`). It ranks bowlers by total season wickets (a
 > counting metric, no sample-size floor; run-outs are not credited to bowlers).
@@ -52,7 +52,7 @@ bowler's concept file.
 
 ## Bad Answer (do not do this)
 
-> Bumrah, obviously. *(No source, no scope; and Bumrah's snapshot shows a modest wicket
+> [Bumrah](https://players.cricketstudio.ai/players/jasprit-bumrah), obviously. *(No source, no scope; and Bumrah's snapshot shows a modest wicket
 > count — the leaderboard was never consulted.)*
 
 ## Related Concepts

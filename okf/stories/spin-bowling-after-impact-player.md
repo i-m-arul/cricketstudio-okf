@@ -52,9 +52,9 @@ When batting economies changed structurally in 2023, what happened to the spinne
 
 | Bowler | Career pre-2026 economy | IPL 2026 economy | Change |
 |--------|------------------------|-----------------|--------|
-| Yuzvendra Chahal | 7.96 (172 matches) | 9.39 | +1.43 |
-| Rashid Khan | 7.08 (136 matches) | 9.08 | +2.00 |
-| Sunil Narine | [see below] | 6.60 | — |
+| [Yuzvendra Chahal](https://players.cricketstudio.ai/players/yuzvendra-chahal) | 7.96 (172 matches) | 9.39 | +1.43 |
+| [Rashid Khan](https://players.cricketstudio.ai/players/rashid-khan) | 7.08 (136 matches) | 9.08 | +2.00 |
+| [Sunil Narine](https://players.cricketstudio.ai/players/sunil-narine) | [see below] | 6.60 | — |
 
 *(Sources: Cricsheet CC BY 3.0 for career pre-2026; CricketStudio IPL 2026 snapshot for 2026)*
 
@@ -70,7 +70,7 @@ When batting economies changed structurally in 2023, what happened to the spinne
 
 *(Cricsheet CC BY 3.0 + CricketStudio IPL 2026 snapshot)*
 
-**Chahal economy by era:**
+**[Chahal](https://players.cricketstudio.ai/players/yuzvendra-chahal) economy by era:**
 
 | Era | Economy |
 |-----|---------|
@@ -82,7 +82,7 @@ When batting economies changed structurally in 2023, what happened to the spinne
 
 *(Cricsheet CC BY 3.0 + CricketStudio IPL 2026 snapshot)*
 
-**Narine — the exception (IPL 2026):**
+**[Narine](https://players.cricketstudio.ai/players/sunil-narine) — the exception (IPL 2026):**
 - Economy: **6.60 RPO** in IPL 2026
 - This figure is *lower* than his career pre-2026 average
 

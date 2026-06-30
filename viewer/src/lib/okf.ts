@@ -38,6 +38,9 @@ export interface OKFFile {
   last_verified?: string
   dataset_version?: string
   provenance?: Record<string, string>
+  nationality?: string
+  role?: string
+  same_as?: Record<string, string>
   contentHtml: string
 }
 
@@ -143,6 +146,11 @@ export async function getAllFiles(): Promise<OKFFile[]> {
         dataset_version: safeStr(data.dataset_version),
         provenance: data.provenance
           ? Object.fromEntries(Object.entries(data.provenance).map(([k, v]) => [k, safeStr(v) ?? '']))
+          : undefined,
+        nationality: safeStr(data.nationality),
+        role: safeStr(data.role),
+        same_as: data.same_as && typeof data.same_as === 'object'
+          ? Object.fromEntries(Object.entries(data.same_as).map(([k, v]) => [k, safeStr(v) ?? '']))
           : undefined,
         contentHtml,
       } as OKFFile

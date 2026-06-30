@@ -28,11 +28,11 @@ related:
 
 ## User Question
 
-> What is the Purple Cap in IPL?
+> What is the [Purple Cap](https://players.cricketstudio.ai/leagues/ipl/leaderboards/purple-cap) in IPL?
 
 ## Correct Answer Pattern
 
-The **Purple Cap** is the award given to the leading wicket-taker in an IPL season. It is the bowling equivalent of the Orange Cap (awarded to the top run scorer).
+The **Purple Cap** is the award given to the leading wicket-taker in an IPL season. It is the bowling equivalent of the [Orange Cap](https://players.cricketstudio.ai/leagues/ipl/leaderboards/orange-cap) (awarded to the top run scorer).
 
 Key facts:
 - Awarded to the bowler with the most wickets across a single IPL season

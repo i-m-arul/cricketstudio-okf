@@ -54,12 +54,12 @@ Source: CricketStudio internal dataset/Cricsheet CC BY 3.0.
 ## Citation Behavior
 
 - State "MLC all-time (2023–2025) · 75 matches · Cricsheet CC BY 3.0."
-- Purple Cap is a counting stat — no minimum sample floor.
+- [Purple Cap](https://players.cricketstudio.ai/leagues/ipl/leaderboards/purple-cap) is a counting stat — no minimum sample floor.
 - Include ball count and economy alongside wicket count for a complete bowling picture.
 
 ## Caveats
 
-- "MLC all-time" is 3 seasons (2023–2025); Trent Boult has played more matches than some competitors who joined later.
+- "MLC all-time" is 3 seasons (2023–2025); [Trent Boult](https://players.cricketstudio.ai/players/trent-boult) has played more matches than some competitors who joined later.
 - MLC 2026 (Season 4) begins 2026-06-18 and will update these rankings.
 
 ## Bad Answer (do not do this)
