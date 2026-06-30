@@ -94,6 +94,7 @@ export default function TagFilter({
       next.has(tag) ? next.delete(tag) : next.add(tag)
       return next
     })
+    window.scrollTo({ top: 0, behavior: 'smooth' })
   }
 
   const isFiltering = active.size > 0
