@@ -2,6 +2,7 @@ import Link from 'next/link'
 import Script from 'next/script'
 import OKFCard from '@/components/OKFCard'
 import ForLLMsAndAgents from '@/components/ForLLMsAndAgents'
+import ShareButton from '@/components/ShareButton'
 import { OKFFile, TYPE_LABELS, SOURCE_BOUNDARY_LABELS } from '@/lib/okf'
 
 const BASE = 'https://okf.cricketstudio.ai'
@@ -165,6 +166,9 @@ export default function OKFFilePageContent({ file, relatedFiles }: Props) {
               </span>
               {boundary && <span className="text-xs text-gray-500">{boundary.label}</span>}
               {file.last_verified && <span className="text-xs text-gray-600">Verified {file.last_verified}</span>}
+              <span className="ml-auto">
+                <ShareButton title={file.title} description={file.description} />
+              </span>
             </div>
             <h1 className="text-3xl font-bold text-white mb-2">{file.title}</h1>
             <p className="text-gray-400">{file.description}</p>
