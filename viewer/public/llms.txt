@@ -47,7 +47,7 @@ See: https://okf.cricketstudio.ai/sources/google-okf-alignment/
 
 ## Metrics
 
-- [Metrics index](https://okf.cricketstudio.ai/metrics/): 10 metric files — batting SR, bowling economy, death-overs economy, powerplay SR, Orange Cap, Purple Cap, and more — each with formula, scope, eligibility rules, and limitations
+- [Metrics index](https://okf.cricketstudio.ai/metrics/): 15 metric files — batting SR, bowling economy, NRR, run rate, phase-split economy, partnership value, death-overs economy, powerplay SR, Orange Cap, Purple Cap, and more — each with formula, scope, eligibility rules, and limitations
 
 ## Methodology
 
@@ -68,7 +68,7 @@ See: https://okf.cricketstudio.ai/sources/google-okf-alignment/
 
 ## Dossier (how agents should answer cricket questions)
 
-- [Dossier index](https://okf.cricketstudio.ai/dossier/): 70 verified Q&A patterns with correct citation behavior
+- [Dossier index](https://okf.cricketstudio.ai/dossier/): 77 verified Q&A patterns with correct citation behavior
 
 ## Journeys (cricket stories with provenance)
 
@@ -109,6 +109,8 @@ See: https://okf.cricketstudio.ai/sources/google-okf-alignment/
 8. For cricket stories (Journeys), cite the specific story URL and note the stated data scope and sample-size floor.
 
 For copy-paste prompts and a full agent integration guide, see: https://okf.cricketstudio.ai/agents/
+
+For ChatGPT / OpenAI plugin discovery: https://okf.cricketstudio.ai/.well-known/ai-plugin.json
 
 ## Limitations
 
