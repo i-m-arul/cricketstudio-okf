@@ -71,15 +71,15 @@ This is the environment [Bumrah](https://players.cricketstudio.ai/players/jaspri
 | CJ Gannon | Seattle Orcas | 71 | 7.18 RPO |
 | PJ Cummins | SF Unicorns | 48 | 7.38 RPO |
 | LH Ferguson | LA KR / Washington | 74 | 7.54 RPO |
-| Jasprit Bumrah | MI (IPL 2026) | 78 | 7.69 RPO |
+| [Jasprit Bumrah](https://players.cricketstudio.ai/players/jasprit-bumrah) | MI (IPL 2026) | 78 | 7.69 RPO |
 
 *(MLC figures: CricketStudio MLC all-time dataset. IPL figure: CricketStudio IPL 2026 snapshot)*
 
-Bumrah's 7.69 in the most batting-friendly IPL era on record is above MLC's all-time best — which itself represents the best death bowling a younger league has produced.
+[Bumrah](https://players.cricketstudio.ai/players/jasprit-bumrah)'s 7.69 in the most batting-friendly IPL era on record is above MLC's all-time best — which itself represents the best death bowling a younger league has produced.
 
 ## The Wow
 
-MLC's best-ever death economy figures were built over three full seasons and 75 total matches. Bumrah posted 7.69 in a single IPL season — in conditions more aggressive, in a competition with more matches, against opposition who had a full season to study him.
+MLC's best-ever death economy figures were built over three full seasons and 75 total matches. [Bumrah](https://players.cricketstudio.ai/players/jasprit-bumrah) posted 7.69 in a single IPL season — in conditions more aggressive, in a competition with more matches, against opposition who had a full season to study him.
 
 The comparison is not perfectly clean (different eras, different competitions, different opposition quality). But the proximity of the numbers makes the point: in an IPL season where batting exploded, Bumrah's death economy stayed roughly where MLC's all-time best have averaged across three years of their entire history.
 

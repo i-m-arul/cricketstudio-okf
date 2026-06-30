@@ -94,9 +94,9 @@ Two things stand out in the season table that are not obvious from the headline 
 | 2023–2025 (3 seasons) | 8.18–9.56 |
 | 2026 | 9.39 |
 
-The economy has risen in the post-Impact Player era. This is not unique to Chahal — the entire IPL bowling environment changed after 2023. But for a leg-spinner whose economy was the foundation of his value, the drift is visible in the numbers.
+The economy has risen in the post-Impact Player era. This is not unique to [Chahal](https://players.cricketstudio.ai/players/yuzvendra-chahal) — the entire IPL bowling environment changed after 2023. But for a leg-spinner whose economy was the foundation of his value, the drift is visible in the numbers.
 
-221 wickets by May 2026 means Chahal has been consistently taking wickets across 13 seasons. He is not a single-peak bowler. He is an endurance study.
+221 wickets by May 2026 means [Chahal](https://players.cricketstudio.ai/players/yuzvendra-chahal) has been consistently taking wickets across 13 seasons. He is not a single-peak bowler. He is an endurance study.
 
 ## What It Doesn't Say
 

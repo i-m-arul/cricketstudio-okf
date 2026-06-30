@@ -57,7 +57,7 @@ When a powerplay anchor stays in and faces overs 16–20, what does the data act
 
 **The sample floor context:**
 
-| Floor | Minimum | Kohli's balls |
+| Floor | Minimum | [Kohli](https://players.cricketstudio.ai/players/virat-kohli)'s balls |
 |-------|---------|---------------|
 | Phase rate stats | ≥15 balls | Powerplay ✓ (206), Middle ✓ (173), Death ✓ (27) |
 | Phase comparatives | ≥60 balls | Powerplay ✓, Middle ✓, Death ✗ (27 < 60) |
@@ -68,7 +68,7 @@ So the 244.4 figure is real and the sample meets the ≥15 ball floor, but does 
 
 **The powerplay context:**
 
-Kohli's powerplay SR (174.8, #13 of 45 qualifying batters) ranks him in the mid-tier of IPL 2026 powerplay batters. The CricketStudio methodology file at [okf.cricketstudio.ai/methodology/sample-size-floors](https://okf.cricketstudio.ai/methodology/sample-size-floors/) defines the floor for comparative claims.
+[Kohli](https://players.cricketstudio.ai/players/virat-kohli)'s powerplay SR (174.8, #13 of 45 qualifying batters) ranks him in the mid-tier of IPL 2026 powerplay batters. The CricketStudio methodology file at [okf.cricketstudio.ai/methodology/sample-size-floors](https://okf.cricketstudio.ai/methodology/sample-size-floors/) defines the floor for comparative claims.
 
 ## The Wow
 

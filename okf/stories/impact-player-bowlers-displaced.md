@@ -89,11 +89,11 @@ The players most exposed by this architectural shift are specialist bowlers with
 
 *(Source: Cricsheet CC BY 3.0 career baselines + CricketStudio IPL 2026 dataset, version 2026-06-11)*
 
-Rashid and Chahal saw significant economy increases in the post-rule era. [Narine](https://players.cricketstudio.ai/players/sunil-narine) went the other direction.
+Rashid and [Chahal](https://players.cricketstudio.ai/players/yuzvendra-chahal) saw significant economy increases in the post-rule era. [Narine](https://players.cricketstudio.ai/players/sunil-narine) went the other direction.
 
-**Why Narine is the counterexample:**
+**Why [Narine](https://players.cricketstudio.ai/players/sunil-narine) is the counterexample:**
 
-Narine opens the batting for KKR and bowls. He contributes meaningfully at both ends of the game. A captain considering a batting sub to replace Narine faces a problem: the replacement batter would need to match Narine's bowling contribution — and no specialist batter can do that.
+[Narine](https://players.cricketstudio.ai/players/sunil-narine) opens the batting for KKR and bowls. He contributes meaningfully at both ends of the game. A captain considering a batting sub to replace Narine faces a problem: the replacement batter would need to match Narine's bowling contribution — and no specialist batter can do that.
 
 Narine's dual role makes the Impact Player card less effective against him. He is, structurally, his own Impact Player. His 6.60 IPL 2026 economy is not just better than Rashid and [Chahal](https://players.cricketstudio.ai/players/yuzvendra-chahal) — it is better than his own career average.
 
@@ -109,9 +109,9 @@ The all-rounders who survive this shift are the ones like Narine — whose batti
 
 ## What It Doesn't Say
 
-Economy increases for Rashid Khan and Yuzvendra Chahal correlate with the post-rule era but cannot be attributed solely to the Impact Player Rule. Pitch preparation changes, bat technology improvements, stronger batting lineups (from multiple structural causes), and the player pool's overall T20 specialisation all contribute.
+Economy increases for [Rashid Khan](https://players.cricketstudio.ai/players/rashid-khan) and [Yuzvendra Chahal](https://players.cricketstudio.ai/players/yuzvendra-chahal) correlate with the post-rule era but cannot be attributed solely to the Impact Player Rule. Pitch preparation changes, bat technology improvements, stronger batting lineups (from multiple structural causes), and the player pool's overall T20 specialisation all contribute.
 
-This story does not count how many times Rashid or Chahal were specifically the player substituted out in IPL 2026 matches. That match-level data is at CricketStudio's canonical match record pages.
+This story does not count how many times Rashid or [Chahal](https://players.cricketstudio.ai/players/yuzvendra-chahal) were specifically the player substituted out in IPL 2026 matches. That match-level data is at CricketStudio's canonical match record pages.
 
 The "adequate all-rounder" framing is structural inference about lineup value — not a claim about specific players' careers or franchise decisions.
 

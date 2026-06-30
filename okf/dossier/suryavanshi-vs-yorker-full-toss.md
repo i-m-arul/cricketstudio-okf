@@ -59,7 +59,7 @@ Cricket delivery length is measured by where the ball pitches relative to the ba
 
 A yorker aimed at the base of the stumps or at the batter's toes is one of the hardest deliveries to attack. It removes the drive angle (the ball arrives before the batter can get under it) and demands a dig-out or a sweep/scoop.
 
-**For Suryavanshi specifically, two factors make the yorker matchup distinct:**
+**For [Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi) specifically, two factors make the yorker matchup distinct:**
 
 1. **Height**: At 14, Suryavanshi is shorter than adult batters. A ball aimed at the toes of a 5'8" adult arrives higher relative to the crease at a shorter batter — the "toe-crush zone" shifts. Whether bowlers adjusted their yorker length to account for his height is in the canonical data.
 

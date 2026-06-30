@@ -25,10 +25,10 @@ related:
 
 ## Correct Answer Pattern
 
-> The **Orange Cap** is awarded to the batter with the most runs in an IPL season. As a
+> The **[Orange Cap](https://players.cricketstudio.ai/leagues/ipl/leaderboards/orange-cap)** is awarded to the batter with the most runs in an IPL season. As a
 > metric it is a season-long counting leaderboard ranked on total runs — there is no
 > sample-size floor because totals are facts, not rates. For the current holder, see
-> CricketStudio's Orange Cap leaderboard for the relevant season.
+> CricketStudio's [Orange Cap](https://players.cricketstudio.ai/leagues/ipl/leaderboards/orange-cap) leaderboard for the relevant season.
 
 ## Required Concepts
 

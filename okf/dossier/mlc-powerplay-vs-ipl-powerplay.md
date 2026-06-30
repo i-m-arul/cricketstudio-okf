@@ -53,7 +53,7 @@ The top three MLC all-time powerplay batters (minimum 30 powerplay balls) would 
 
 *IPL 2026 floor: ≥30 balls, 45 qualifying batters. MLC all-time floor: ≥30 balls, MLC 2023–2025 (75 matches).*
 
-If MLC all-time powerplay leaders were inserted into the IPL 2026 powerplay leaderboard, Owen (194.3), Allen (188.0), and Ravindra (187.6) would all rank above Kohli's #13 position.
+If MLC all-time powerplay leaders were inserted into the IPL 2026 powerplay leaderboard, Owen (194.3), Allen (188.0), and Ravindra (187.6) would all rank above [Kohli](https://players.cricketstudio.ai/players/virat-kohli)'s #13 position.
 
 ### Why this is significant
 

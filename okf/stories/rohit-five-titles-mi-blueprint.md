@@ -75,7 +75,7 @@ The five winning campaigns shared observable structural patterns that MI's post-
 
 1. **Death bowling control.** In all five title seasons, MI's death-over economy was among the competition's best. Malinga (2013, 2015, 2017), [Bumrah](https://players.cricketstudio.ai/players/jasprit-bumrah) (2017, 2019, 2020), and Pattinson/Boult (2020) gave MI a death bowling rotation that teams couldn't plan against.
 
-2. **Powerplay batting with patience.** Rohit himself was the model — a powerplay opener who scored at a strong rate but also absorbed pressure without panic-hitting. Quinton de Kock brought similar stability in the post-2018 era.
+2. **Powerplay batting with patience.** [Rohit](https://players.cricketstudio.ai/players/rohit-sharma) himself was the model — a powerplay opener who scored at a strong rate but also absorbed pressure without panic-hitting. Quinton de Kock brought similar stability in the post-2018 era.
 
 3. **Match-winner at 7–8.** Kieron Pollard's career at MI (2010–2021) defined what a death-overs batter at position 7 could look like. The Pollard slot was the structural advantage that made MI's middle order unpredictable.
 
@@ -87,7 +87,7 @@ Five titles. Three in alternating years (2013, 2015, 2017). Then two in a row (2
 
 The alternating-year pattern suggested something structural about how MI reset and reloaded — they would win, then absorb the key-player losses that title teams face at auction, then rebuild, then win again.
 
-The 2019–2020 back-to-back was different. MI became the first team to win consecutive IPL titles. They did it with essentially the same core: Rohit, de Kock, Pollard, Hardik, Bumrah.
+The 2019–2020 back-to-back was different. MI became the first team to win consecutive IPL titles. They did it with essentially the same core: [Rohit](https://players.cricketstudio.ai/players/rohit-sharma), de Kock, Pollard, Hardik, [Bumrah](https://players.cricketstudio.ai/players/jasprit-bumrah).
 
 CSK and MI are the only teams with 5 IPL titles each as of the start of the post-2020 era. MI have not added a sixth since 2020. The question the data can't answer is whether the system was Rohit, or whether it was the specific combination of players who happened to be at MI during that era.
 

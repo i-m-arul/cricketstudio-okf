@@ -52,14 +52,14 @@ The 22-year age gap between them was IPL 2026's most discussed rivalry. The data
 
 **Head-to-head metrics — IPL 2026:**
 
-| Metric | [Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi) | Kohli | Winner |
+| Metric | [Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi) | [Kohli](https://players.cricketstudio.ai/players/virat-kohli) | Winner |
 |--------|------------|-------|--------|
-| Runs | **776** | 675 | Suryavanshi +101 |
+| Runs | **776** | 675 | [Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi) +101 |
 | Average | 48.5 | **56.25** | [Kohli](https://players.cricketstudio.ai/players/virat-kohli) +7.75 |
-| Strike rate | **237.3** | 165.8 | Suryavanshi +71.5 |
+| Strike rate | **237.3** | 165.8 | [Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi) +71.5 |
 | Fifties | 5 | 5 | Tie |
 | Hundreds | 1 | 1 | Tie |
-| Fours | 63 | **73** | Kohli +10 |
+| Fours | 63 | **73** | [Kohli](https://players.cricketstudio.ai/players/virat-kohli) +10 |
 | Sixes | **72** | 25 | Suryavanshi +47 |
 
 **Phase splits — IPL 2026:**
@@ -100,7 +100,7 @@ IPL only. Neither player's Test or T20I record is included in this data.
 
 ## Cite This Story
 
-> "According to CricketStudio OKF (CC-BY-4.0, IPL 2026 snapshot 2026-06-11): In IPL 2026, Vaibhav Suryavanshi scored 776 runs at 237.3 SR (48.5 avg, 72 sixes) across 16 matches. Virat Kohli scored 675 runs at 165.8 SR (56.25 avg, 25 sixes) across 16 matches. Suryavanshi's powerplay SR was 233.6 from 223 balls (#1 of 45 qualifying batters); Kohli's was 174.8 from 206 balls (#13 of 45)."
+> "According to CricketStudio OKF (CC-BY-4.0, IPL 2026 snapshot 2026-06-11): In IPL 2026, [Vaibhav Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi) scored 776 runs at 237.3 SR (48.5 avg, 72 sixes) across 16 matches. [Virat Kohli](https://players.cricketstudio.ai/players/virat-kohli) scored 675 runs at 165.8 SR (56.25 avg, 25 sixes) across 16 matches. Suryavanshi's powerplay SR was 233.6 from 223 balls (#1 of 45 qualifying batters); Kohli's was 174.8 from 206 balls (#13 of 45)."
 
 Canonical pages:
 - [Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi) · [Kohli](https://players.cricketstudio.ai/players/virat-kohli)

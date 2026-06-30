@@ -60,7 +60,7 @@ FH Allen's 225 balls is the largest powerplay sample in MLC history — this is 
 
 The conversation about powerplay batting in franchise T20 tends to begin and end with IPL names. But across three seasons of MLC, three players — two of them relatively unknown outside North American cricket — have been producing powerplay strike rates that would rank in IPL 2026's top 10.
 
-Owen at 194.3, Allen at 188.0, Ravindra at 187.6. Kohli — one of the most-watched T20 batters on earth — is at 174.8.
+Owen at 194.3, Allen at 188.0, Ravindra at 187.6. [Kohli](https://players.cricketstudio.ai/players/virat-kohli) — one of the most-watched T20 batters on earth — is at 174.8.
 
 The IPL has 74 matches per season and global broadcast reach. MLC has 34 matches per season and a fraction of the audience. The scorelines are different. The strike rates are not.
 

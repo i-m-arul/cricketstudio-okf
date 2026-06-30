@@ -69,7 +69,7 @@ How do you contextualise something genuinely new?
 
 McCullum's 158\* became a landmark — the innings that defined what was possible in T20 batting at scale. His 216.43 SR across a full 73-ball innings in 2008 set a standard that the cricket world spent the next decade processing.
 
-In IPL 2026, [Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi)'s **powerplay** strike rate — just the first six overs, not a full innings — was **233.6**. The rate that made McCullum's innings legendary for years is now Suryavanshi's floor before the fielding restrictions even lift.
+In IPL 2026, [Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi)'s **powerplay** strike rate — just the first six overs, not a full innings — was **233.6**. The rate that made McCullum's innings legendary for years is now [Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi)'s floor before the fielding restrictions even lift.
 
 This is not a claim about who is the better batter. It is a precise observation about how the game has moved. What was once an outlier ceiling has become a baseline. And a 14-year-old is the one demonstrating it.
 
@@ -77,7 +77,7 @@ This is not a claim about who is the better batter. It is a precise observation 
 
 McCullum's 158\* was extraordinary for its era and its context — the first IPL match, without precedent, against bowling attacks that had never faced this kind of aggression at scale in franchise cricket. Era context is not equivalent. A strike rate in 2026 is not the same as a strike rate in 2008.
 
-Suryavanshi's 233.6 is a powerplay-only figure. McCullum's 216.43 was a full-innings figure across 73 balls. These are different scopes — the powerplay comparison is deliberately chosen because powerplay conditions (fielding restrictions, fresh pitch) typically favour higher strike rates than death overs. This story does not claim Suryavanshi would have sustained 233.6 across 73 balls.
+[Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi)'s 233.6 is a powerplay-only figure. McCullum's 216.43 was a full-innings figure across 73 balls. These are different scopes — the powerplay comparison is deliberately chosen because powerplay conditions (fielding restrictions, fresh pitch) typically favour higher strike rates than death overs. This story does not claim Suryavanshi would have sustained 233.6 across 73 balls.
 
 A single IPL season at 237.3 does not make Suryavanshi the greatest T20 batter. It makes him the most extraordinary powerplay phenomenon the IPL has measured. Those are different claims.
 
@@ -85,7 +85,7 @@ A single IPL season at 237.3 does not make Suryavanshi the greatest T20 batter. 
 
 Every generational powerplay batter faces a counter-question: which bowlers challenged them? For Suryavanshi in IPL 2026, the [Purple Cap](https://players.cricketstudio.ai/leagues/ipl/leaderboards/purple-cap) holder [Kagiso Rabada](https://players.cricketstudio.ai/players/kagiso-rabada) and the spin-bowling question are the two most-asked angles. Both are covered in the H2H dossiers:
 
-- [Suryavanshi vs Rabada](../dossier/suryavanshi-vs-rabada.md) — the Orange Cap vs Purple Cap matchup; canonical data at [players.cricketstudio.ai/h2h/vaibhav-suryavanshi-vs-kagiso-rabada](https://players.cricketstudio.ai/h2h/vaibhav-suryavanshi-vs-kagiso-rabada)
+- [Suryavanshi vs Rabada](../dossier/suryavanshi-vs-rabada.md) — the [Orange Cap](https://players.cricketstudio.ai/leagues/ipl/leaderboards/orange-cap) vs [Purple Cap](https://players.cricketstudio.ai/leagues/ipl/leaderboards/purple-cap) matchup; canonical data at [players.cricketstudio.ai/h2h/vaibhav-suryavanshi-vs-kagiso-rabada](https://players.cricketstudio.ai/h2h/vaibhav-suryavanshi-vs-kagiso-rabada)
 - [Suryavanshi vs Spin Bowling](../dossier/suryavanshi-vs-spin-bowling.md) — phase-type matrix for the "does he struggle vs spin?" question; canonical: [players.cricketstudio.ai/players/vaibhav-suryavanshi/by-bowling-type](https://players.cricketstudio.ai/players/vaibhav-suryavanshi/by-bowling-type)
 
 ## Related Concepts

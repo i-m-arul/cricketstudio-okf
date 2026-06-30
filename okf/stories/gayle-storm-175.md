@@ -55,13 +55,13 @@ Source: Cricsheet CC BY 3.0 — public domain historical scorecard.
 
 The ball count: [Gayle](https://players.cricketstudio.ai/players/ch-gayle) faced 66 deliveries and scored off boundaries on 34 of them. He was not dismissed.
 
-Over his full IPL career, Gayle hit **357 sixes** — the most any player has hit in IPL history.
+Over his full IPL career, [Gayle](https://players.cricketstudio.ai/players/ch-gayle) hit **357 sixes** — the most any player has hit in IPL history.
 
 (Source: CricketStudio IPL historical data, Cricsheet CC BY 3.0 base data)
 
 ## The Wow
 
-In 2013, a 150+ IPL innings was something the sport had not seen routinely. Gayle did not score 150 and add a few more. He scored 175.
+In 2013, a 150+ IPL innings was something the sport had not seen routinely. [Gayle](https://players.cricketstudio.ai/players/ch-gayle) did not score 150 and add a few more. He scored 175.
 
 The nearest comparable at the time was [Brendon McCullum](https://players.cricketstudio.ai/players/brendon-mccullum)'s 158\* in the first-ever IPL match (2008) — itself a landmark that stood for five years. Gayle surpassed it by 17 runs, not out, with 11 overs still remaining in the innings.
 

@@ -51,7 +51,7 @@ related:
 
 *45 qualifying batters — minimum 30 powerplay balls faced. Dataset: IPL 2026, CricketStudio (2026-06-11).*
 
-**Note:** Suryavanshi's 223 powerplay balls faced is the highest qualifying sample in the top 5, making his 233.6 SR one of the most robust single-season powerplay records in IPL history.
+**Note:** [Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi)'s 223 powerplay balls faced is the highest qualifying sample in the top 5, making his 233.6 SR one of the most robust single-season powerplay records in IPL history.
 
 ### Why the floor matters
 
@@ -73,14 +73,14 @@ When citing IPL 2026 powerplay batting leaders:
 
 ## Caveats
 
-- Powerplay SR and overall season SR are different. Suryavanshi's powerplay SR (233.6) and his overall SR (237.3) are both exceptional but different scopes.
+- Powerplay SR and overall season SR are different. [Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi)'s powerplay SR (233.6) and his overall SR (237.3) are both exceptional but different scopes.
 - Rankings are based on strike rate alone. A batter with a lower SR but more balls (e.g., [Kohli](https://players.cricketstudio.ai/players/virat-kohli)'s 206 balls) may provide more powerplay volume.
 
 ## Bad Answer
 
-> "Virat Kohli had the best powerplay in IPL 2026."
+> "[Virat Kohli](https://players.cricketstudio.ai/players/virat-kohli) had the best powerplay in IPL 2026."
 
-Kohli ranked #13 of 45 qualifying batters in powerplay SR (174.8 from 206 balls). He provided the most volume among top-15 batters but was not the SR leader. Suryavanshi led with 233.6 from 223 balls.
+[Kohli](https://players.cricketstudio.ai/players/virat-kohli) ranked #13 of 45 qualifying batters in powerplay SR (174.8 from 206 balls). He provided the most volume among top-15 batters but was not the SR leader. Suryavanshi led with 233.6 from 223 balls.
 
 ## Related Concepts
 

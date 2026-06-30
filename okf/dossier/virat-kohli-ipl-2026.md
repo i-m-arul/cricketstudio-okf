@@ -51,9 +51,9 @@ Virat [Kohli](https://players.cricketstudio.ai/players/virat-kohli) (Royal Chall
 
 ### What the numbers mean
 
-174.8 SR from 206 powerplay balls is a high-volume, consistent powerplay record. Kohli's value is not purely in peak SR but in sustained volume and reliability — 206 balls means he played aggressively across most of RCB's IPL 2026 matches.
+174.8 SR from 206 powerplay balls is a high-volume, consistent powerplay record. [Kohli](https://players.cricketstudio.ai/players/virat-kohli)'s value is not purely in peak SR but in sustained volume and reliability — 206 balls means he played aggressively across most of RCB's IPL 2026 matches.
 
-For context: the #1 ranked powerplay batter ([Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi)) had 233.6 SR from 223 balls, which is historically exceptional. Kohli at #13 from 206 balls is a strong powerplay season by any normal comparison.
+For context: the #1 ranked powerplay batter ([Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi)) had 233.6 SR from 223 balls, which is historically exceptional. [Kohli](https://players.cricketstudio.ai/players/virat-kohli) at #13 from 206 balls is a strong powerplay season by any normal comparison.
 
 ## Required Metrics
 
@@ -72,7 +72,7 @@ When citing Kohli's IPL 2026 powerplay:
 ## Caveats
 
 - Powerplay SR ≠ overall SR. Kohli's powerplay SR (174.8) and overall season SR are different figures.
-- Ranking by SR and ranking by ball volume tell different stories — Kohli scores high on volume; Suryavanshi scores highest on rate.
+- Ranking by SR and ranking by ball volume tell different stories — Kohli scores high on volume; [Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi) scores highest on rate.
 - Career context requires the canonical page.
 
 ## Bad Answer

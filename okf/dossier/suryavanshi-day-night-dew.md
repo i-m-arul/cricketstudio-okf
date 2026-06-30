@@ -81,7 +81,7 @@ Dew is atmospheric moisture that condenses on the outfield grass during evening 
 
 From CricketStudio's IPL toss research ([toss-effect-ipl.md](../research/toss-effect-ipl.md)): bowlers winning the toss choose to bowl first at a high rate in IPL. Part of this decision is dew management — bowling under dry ball conditions in the first innings, then batting with a wet ball advantage in the second.
 
-**This means**: if Suryavanshi batted in the second innings of a night match (chasing), he was likely doing so under dew conditions — potentially facing bowlers who had lost conventional swing. If he batted first in the same match, his powerplay figures were under dry-ball conditions.
+**This means**: if [Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi) batted in the second innings of a night match (chasing), he was likely doing so under dew conditions — potentially facing bowlers who had lost conventional swing. If he batted first in the same match, his powerplay figures were under dry-ball conditions.
 
 Whether Suryavanshi's day match SR, night-first-innings SR, and night-second-innings SR vary significantly is at the canonical by-match-type data.
 

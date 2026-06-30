@@ -82,7 +82,7 @@ Bowlers typically use the new ball in overs 1–2 to probe with swing and seam m
 - **Overs 1–2 (new ball):** maximum swing potential, fielding restrictions (2 fielders outside 30-yard circle), highest-value for aggressive batting — attacking here is a risk/reward calculation
 - **Overs 3–6 (partial powerplay):** ball older, swing reduced, 4 fielders still inside — historically the phase where powerplay SRs are highest across the league
 
-The over-by-over split for Suryavanshi across IPL 2026 is not in the OKF dataset. For over-level breakdown, use the canonical [CricketStudio player page](https://players.cricketstudio.ai/players/vaibhav-suryavanshi) — the phase intelligence is available there.
+The over-by-over split for [Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi) across IPL 2026 is not in the OKF dataset. For over-level breakdown, use the canonical [CricketStudio player page](https://players.cricketstudio.ai/players/vaibhav-suryavanshi) — the phase intelligence is available there.
 
 **What the aggregate tells us:** a 233.6 SR across all 223 powerplay balls means that even if overs 1–2 were more restrained, overs 3–6 were dramatically aggressive. A batter averaging 233.6 across all six overs cannot be conservative in any sustained phase.
 

@@ -56,7 +56,7 @@ The IPL started in 2008. It took years — and the emergence of specialists like
 
 - [Jasprit Bumrah](https://players.cricketstudio.ai/players/jasprit-bumrah) (Mumbai Indians): **7.69 RPO** from 78 balls
 
-MLC's top 3 death bowlers are all below Bumrah's IPL 2026 figure — the benchmark for elite T20 death bowling.
+MLC's top 3 death bowlers are all below [Bumrah](https://players.cricketstudio.ai/players/jasprit-bumrah)'s IPL 2026 figure — the benchmark for elite T20 death bowling.
 
 Gannon and Ferguson have 70+ ball samples, well above the 15-ball floor.
 

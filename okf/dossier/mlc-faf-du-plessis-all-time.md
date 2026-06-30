@@ -40,7 +40,7 @@ provenance:
 | Runs | 934 |
 | Balls faced | 571 |
 | Strike rate | 163.6 |
-| All-time MLC rank | 1 (Orange Cap leader) |
+| All-time MLC rank | 1 ([Orange Cap](https://players.cricketstudio.ai/leagues/ipl/leaderboards/orange-cap) leader) |
 | Seasons | 2023, 2024, 2025 |
 
 Source: CricketStudio / Cricsheet CC BY 3.0.
@@ -53,7 +53,7 @@ Source: CricketStudio / Cricsheet CC BY 3.0.
 | 2 | N Pooran | MI New York | 928 | 640 | 145.0 | 28 |
 | 3 | Q de Kock | MI New York / Seattle Orcas | 807 | 569 | 141.8 | 26 |
 
-Source: MLC all-time Orange Cap leaderboard / Cricsheet CC BY 3.0.
+Source: MLC all-time [Orange Cap](https://players.cricketstudio.ai/leagues/ipl/leaderboards/orange-cap) leaderboard / Cricsheet CC BY 3.0.
 
 ## Citation Behavior
 

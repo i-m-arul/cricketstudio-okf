@@ -78,11 +78,11 @@ If you put IPL 2008 and IPL 2026 side by side as data tables, what would the num
 
 ## The Wow
 
-The gap between McCullum's 216.4 SR (across a full 73-ball innings in 2008) and Suryavanshi's 233.6 powerplay SR (across 223 powerplay balls in 2026) is the most precise measurement of how T20 batting has evolved.
+The gap between McCullum's 216.4 SR (across a full 73-ball innings in 2008) and [Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi)'s 233.6 powerplay SR (across 223 powerplay balls in 2026) is the most precise measurement of how T20 batting has evolved.
 
 McCullum's innings was a world-stopping event. It opened the first match of the first IPL season and showed cricket fans what the format could produce. Every scorecard that referenced 200+ in the years after pointed back to McCullum as the proof of concept.
 
-Suryavanshi's 233.6 is not from a single innings. It is his sustained powerplay rate across 223 balls — nearly a full tournament's worth of powerplay deliveries. He exceeded McCullum's all-time landmark strike rate, not in one special match, but as his normal operating rate in overs 1–6.
+[Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi)'s 233.6 is not from a single innings. It is his sustained powerplay rate across 223 balls — nearly a full tournament's worth of powerplay deliveries. He exceeded McCullum's all-time landmark strike rate, not in one special match, but as his normal operating rate in overs 1–6.
 
 18 years. The extraordinary became the average.
 

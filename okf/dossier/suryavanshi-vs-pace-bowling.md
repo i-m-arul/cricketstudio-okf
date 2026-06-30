@@ -60,7 +60,7 @@ Pace bowlers have four primary attacking plans against an aggressive powerplay o
 | Wide outside off (corridor) | Force batter to reach, induce outside edge | Width punished through covers | Edge to keeper |
 | Bouncer | Surprise, cramp for room | Top-edged six | Fend off, pulled, hit batter |
 
-Against a 14-year-old standing shorter than adult batters, pace bowlers may target the **back-of-a-length short ball** specifically — it comes at a different height relative to the body and the pull-shot angle is different. Whether this plan succeeded against Suryavanshi in IPL 2026 requires the canonical by-bowling-type breakdown.
+Against a 14-year-old standing shorter than adult batters, pace bowlers may target the **back-of-a-length short ball** specifically — it comes at a different height relative to the body and the pull-shot angle is different. Whether this plan succeeded against [Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi) in IPL 2026 requires the canonical by-bowling-type breakdown.
 
 ## What the Aggregate Tells Us
 

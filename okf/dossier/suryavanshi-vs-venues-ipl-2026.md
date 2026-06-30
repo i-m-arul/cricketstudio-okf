@@ -52,7 +52,7 @@ On slower, low pitches, the ball stops on the batter — mistimed strokes that w
 ### 2. Boundary Dimensions
 Shorter boundaries (straight or square) increase six-hit frequency for any batter. IPL venues vary significantly — Wankhede (Mumbai) and M. Chinnaswamy Stadium (Bengaluru) have famously short square boundaries; some grounds are deeper straight.
 
-Suryavanshi's 46 powerplay sixes from 223 balls — one every 4.85 balls — would be affected by boundary dimensions. On a small ground, some of those 46 sixes may have been boundary stops on a large ground. The canonical by-venue data captures this.
+[Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi)'s 46 powerplay sixes from 223 balls — one every 4.85 balls — would be affected by boundary dimensions. On a small ground, some of those 46 sixes may have been boundary stops on a large ground. The canonical by-venue data captures this.
 
 ### 3. Outfield Speed
 A dry, fast outfield converts drives into boundaries more consistently. A wet or slow outfield (common in cities with high humidity or recent rain) turns driven balls into threes rather than fours, reducing boundary count without changing the batter's quality.

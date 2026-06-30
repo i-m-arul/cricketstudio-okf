@@ -88,7 +88,7 @@ This comparison is illustrative, not definitive. MLC has 75 matches. IPL has 1,0
 
 Opposition quality differs. IPL bowlers face IPL batting lineups; MLC bowlers face MLC batting lineups. The run environments are similar but not identical.
 
-Suryavanshi's IPL 2026 powerplay SR (233.6) is not directly comparable to MLC all-time figures — it is one IPL season vs multi-season MLC careers. The comparison works as context, not as a ranking.
+[Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi)'s IPL 2026 powerplay SR (233.6) is not directly comparable to MLC all-time figures — it is one IPL season vs multi-season MLC careers. The comparison works as context, not as a ranking.
 
 ## Related Concepts
 

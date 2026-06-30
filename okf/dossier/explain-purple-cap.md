@@ -32,7 +32,7 @@ related:
 
 ## Correct Answer Pattern
 
-The **Purple Cap** is the award given to the leading wicket-taker in an IPL season. It is the bowling equivalent of the [Orange Cap](https://players.cricketstudio.ai/leagues/ipl/leaderboards/orange-cap) (awarded to the top run scorer).
+The **[Purple Cap](https://players.cricketstudio.ai/leagues/ipl/leaderboards/purple-cap)** is the award given to the leading wicket-taker in an IPL season. It is the bowling equivalent of the [Orange Cap](https://players.cricketstudio.ai/leagues/ipl/leaderboards/orange-cap) (awarded to the top run scorer).
 
 Key facts:
 - Awarded to the bowler with the most wickets across a single IPL season
@@ -50,7 +50,7 @@ Raw wicket count only. It does not account for:
 
 ### What the Purple Cap does not measure
 
-The Purple Cap identifies the **most prolific wicket-taker** of the season, not necessarily the **best bowler**. A bowler with 22 wickets at an economy of 9.5 may win the cap over a bowler with 18 wickets at 7.2. The cap rewards volume, not efficiency.
+The [Purple Cap](https://players.cricketstudio.ai/leagues/ipl/leaderboards/purple-cap) identifies the **most prolific wicket-taker** of the season, not necessarily the **best bowler**. A bowler with 22 wickets at an economy of 9.5 may win the cap over a bowler with 18 wickets at 7.2. The cap rewards volume, not efficiency.
 
 ## Required Metrics
 

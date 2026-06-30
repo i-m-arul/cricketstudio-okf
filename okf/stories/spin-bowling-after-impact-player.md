@@ -58,7 +58,7 @@ When batting economies changed structurally in 2023, what happened to the spinne
 
 *(Sources: Cricsheet CC BY 3.0 for career pre-2026; CricketStudio IPL 2026 snapshot for 2026)*
 
-**Rashid Khan economy by era:**
+**[Rashid Khan](https://players.cricketstudio.ai/players/rashid-khan) economy by era:**
 
 | Era | Economy |
 |-----|---------|
@@ -86,15 +86,15 @@ When batting economies changed structurally in 2023, what happened to the spinne
 - Economy: **6.60 RPO** in IPL 2026
 - This figure is *lower* than his career pre-2026 average
 
-For the full Narine career economy from Cricsheet CC BY 3.0, see: [players.cricketstudio.ai/players/sunil-narine](https://players.cricketstudio.ai/players/sunil-narine)
+For the full [Narine](https://players.cricketstudio.ai/players/sunil-narine) career economy from Cricsheet CC BY 3.0, see: [players.cricketstudio.ai/players/sunil-narine](https://players.cricketstudio.ai/players/sunil-narine)
 
 ## The Wow
 
-Both Rashid and Chahal experienced a ~2-RPO economy increase in the post-2023 Impact Player era. Two bowlers, different styles, both affected in similar magnitude.
+Both Rashid and [Chahal](https://players.cricketstudio.ai/players/yuzvendra-chahal) experienced a ~2-RPO economy increase in the post-2023 Impact Player era. Two bowlers, different styles, both affected in similar magnitude.
 
-Narine posted 6.60 in IPL 2026 — while the environment around him was producing 9.08 and 9.39 for comparable high-volume spinners.
+[Narine](https://players.cricketstudio.ai/players/sunil-narine) posted 6.60 in IPL 2026 — while the environment around him was producing 9.08 and 9.39 for comparable high-volume spinners.
 
-The difference is not just the bowling style. Narine's unique action remains difficult for batters to read, even after 15 IPL seasons. But the structural difference is more specific: Narine is classified as a specialist spinner who also opens the batting. Teams deploy him differently than they deploy Rashid or Chahal. The Impact Player Rule's substitution patterns may create different scenarios for a batter-spinner versus a pure bowling option.
+The difference is not just the bowling style. Narine's unique action remains difficult for batters to read, even after 15 IPL seasons. But the structural difference is more specific: Narine is classified as a specialist spinner who also opens the batting. Teams deploy him differently than they deploy Rashid or [Chahal](https://players.cricketstudio.ai/players/yuzvendra-chahal). The Impact Player Rule's substitution patterns may create different scenarios for a batter-spinner versus a pure bowling option.
 
 What the data doesn't fully explain is why 6.60 survived when 9.08 and 9.39 didn't. The full answer requires a detailed match-state analysis beyond what this snapshot provides.
 

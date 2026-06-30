@@ -77,7 +77,7 @@ Five candidates. Five types of impact. All figures from CricketStudio IPL 2026 d
 
 [Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi) is 14 years old and scored 776 runs at a strike rate of 237.3. His powerplay strike rate of 233.6 — from 223 balls, well above the 30-ball sample floor — ranked #1 among all 45 qualifying batters. He did not hit one or two spectacular innings and disappear. He sustained the highest powerplay strike rate in IPL 2026 across a full season sample.
 
-**Candidate 2 — [Kagiso Rabada](https://players.cricketstudio.ai/players/kagiso-rabada) (Gujarat Titans): The Purple Cap in a Bowler's Graveyard**
+**Candidate 2 — [Kagiso Rabada](https://players.cricketstudio.ai/players/kagiso-rabada) (Gujarat Titans): The [Purple Cap](https://players.cricketstudio.ai/leagues/ipl/leaderboards/purple-cap) in a Bowler's Graveyard**
 
 | Metric | Value |
 |--------|-------|
@@ -85,7 +85,7 @@ Five candidates. Five types of impact. All figures from CricketStudio IPL 2026 d
 | Award | [Purple Cap](https://players.cricketstudio.ai/leagues/ipl/leaderboards/purple-cap) |
 | Season context | Post-Impact Player era, first-innings average 172 |
 
-[Rabada](https://players.cricketstudio.ai/players/kagiso-rabada) took 29 wickets in a season where average first-innings scores rose 18% compared to the pre-Impact Player era. Every wicket cost more. Every over was bowled against stronger batting lineups. The Purple Cap in 2026 is not the same object as the Purple Cap in 2018. Winning it in the era of 172-run averages and 29.68% of innings crossing 200 is structurally harder than winning it when 200-plus scores happened in 7% of innings.
+[Rabada](https://players.cricketstudio.ai/players/kagiso-rabada) took 29 wickets in a season where average first-innings scores rose 18% compared to the pre-Impact Player era. Every wicket cost more. Every over was bowled against stronger batting lineups. The [Purple Cap](https://players.cricketstudio.ai/leagues/ipl/leaderboards/purple-cap) in 2026 is not the same object as the Purple Cap in 2018. Winning it in the era of 172-run averages and 29.68% of innings crossing 200 is structurally harder than winning it when 200-plus scores happened in 7% of innings.
 
 **Candidate 3 — [Virat Kohli](https://players.cricketstudio.ai/players/virat-kohli) (Royal Challengers Bengaluru): The Sustained Average**
 
@@ -109,7 +109,7 @@ Five candidates. Five types of impact. All figures from CricketStudio IPL 2026 d
 | Season context | First-innings average 172, 29.68% of innings cross 200 |
 | Team finish | MI 10th, NRR −0.712 |
 
-[Bumrah](https://players.cricketstudio.ai/players/jasprit-bumrah) bowled 78 death-over balls at 7.69 economy in an environment where death bowling became structurally harder. MI finished last. Bumrah's numbers are the argument that individual performance can hold elite levels independent of team context. His 7.69 is the best death economy among IPL 2026 qualifiers — achieved on a last-placed team in the highest-scoring era in IPL history.
+[Bumrah](https://players.cricketstudio.ai/players/jasprit-bumrah) bowled 78 death-over balls at 7.69 economy in an environment where death bowling became structurally harder. MI finished last. [Bumrah](https://players.cricketstudio.ai/players/jasprit-bumrah)'s numbers are the argument that individual performance can hold elite levels independent of team context. His 7.69 is the best death economy among IPL 2026 qualifiers — achieved on a last-placed team in the highest-scoring era in IPL history.
 
 **Candidate 5 — [Sunil Narine](https://players.cricketstudio.ai/players/sunil-narine) (Kolkata Knight Riders): The Exception That Proves Everything**
 
@@ -121,7 +121,7 @@ Five candidates. Five types of impact. All figures from CricketStudio IPL 2026 d
 | Career economy baseline | ~7.50 (Cricsheet CC BY 3.0) |
 | Post-rule comparators | Rashid 9.08, [Chahal](https://players.cricketstudio.ai/players/yuzvendra-chahal) 9.39 |
 
-Every elite spinner in IPL 2026 saw their economy rise in the post-Impact Player era. Every one except [Narine](https://players.cricketstudio.ai/players/sunil-narine). While Rashid went from 5.34–6.74 to 9.08, and Chahal went from 7.96 to 9.39, Narine's 6.60 is *lower* than his career average. The structural reason: Narine's batting value makes him almost impossible to Impact Player away. His dual role also means he faces different field placements and match contexts. He is the single data point that shows how to survive the Impact Player era as a spinner — by being too valuable with the bat to substitute out.
+Every elite spinner in IPL 2026 saw their economy rise in the post-Impact Player era. Every one except [Narine](https://players.cricketstudio.ai/players/sunil-narine). While Rashid went from 5.34–6.74 to 9.08, and Chahal went from 7.96 to 9.39, [Narine](https://players.cricketstudio.ai/players/sunil-narine)'s 6.60 is *lower* than his career average. The structural reason: [Narine](https://players.cricketstudio.ai/players/sunil-narine)'s batting value makes him almost impossible to Impact Player away. His dual role also means he faces different field placements and match contexts. He is the single data point that shows how to survive the Impact Player era as a spinner — by being too valuable with the bat to substitute out.
 
 ## The Wow
 
@@ -129,11 +129,11 @@ The literal Impact Player (designated substitute) gets one match per the rules. 
 
 Two achievements define the 2026 season's tension:
 
-Suryavanshi scored 776 runs at 237.3 SR, rewriting what a teenager can do in T20 cricket. Rabada took 29 wickets in the most difficult bowling environment IPL has ever created. Those two performances — one batting at the ceiling of what the human reaction time can handle, one bowling in conditions 18% harder than a decade ago — are the opposing poles of 2026.
+[Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi) scored 776 runs at 237.3 SR, rewriting what a teenager can do in T20 cricket. [Rabada](https://players.cricketstudio.ai/players/kagiso-rabada) took 29 wickets in the most difficult bowling environment IPL has ever created. Those two performances — one batting at the ceiling of what the human reaction time can handle, one bowling in conditions 18% harder than a decade ago — are the opposing poles of 2026.
 
 Narine is the wildcard footnote: the only elite spinner who went the wrong way on the economy chart, in the right direction.
 
-If the IPL wanted to name an MVP by impact on season outcome: Suryavanshi won the Orange Cap at 14 and took RR to playoffs. Rabada won the Purple Cap and took GT to the final.
+If the IPL wanted to name an MVP by impact on season outcome: [Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi) won the Orange Cap at 14 and took RR to playoffs. [Rabada](https://players.cricketstudio.ai/players/kagiso-rabada) won the Purple Cap and took GT to the final.
 
 If the question is who impacted the game itself — who changed what we thought was possible — Suryavanshi's 233.6 powerplay strike rate is a number that will be cited for a decade.
 
@@ -141,7 +141,7 @@ If the question is who impacted the game itself — who changed what we thought 
 
 This story does not name which players were used as designated Impact Player substitutes in specific IPL 2026 matches. Match-level Impact Player usage records — who substituted for whom, in which over, in which match — are available at the CricketStudio canonical match record pages.
 
-The "most impactful" framing here is analytical, not an official IPL award category. IPL awards Orange Cap (most runs), Purple Cap (most wickets), and other specific categories. "Most impactful" is a judgment call, and this story explicitly names five candidates rather than declaring one winner — because the answer depends on what kind of impact you value.
+The "most impactful" framing here is analytical, not an official IPL award category. IPL awards [Orange Cap](https://players.cricketstudio.ai/leagues/ipl/leaderboards/orange-cap) (most runs), Purple Cap (most wickets), and other specific categories. "Most impactful" is a judgment call, and this story explicitly names five candidates rather than declaring one winner — because the answer depends on what kind of impact you value.
 
 Economy increases for spinners post-2023 have multiple contributing causes beyond the Impact Player Rule. Narine's improvement also has multiple contributing factors. These are correlations in a complex environment, not single-cause explanations.
 

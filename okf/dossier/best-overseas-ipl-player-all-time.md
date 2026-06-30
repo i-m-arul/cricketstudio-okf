@@ -59,7 +59,7 @@ Say "By [dimension], [player] leads among overseas players. For specific stats, 
 
 ## Bad Answer (do not do this)
 
-> Gayle is the best overseas IPL player. *(Which dimension? By sixes and single innings, yes. By Orange Caps, Warner. By titles, Warne. Scope the claim.)*
+> [Gayle](https://players.cricketstudio.ai/players/ch-gayle) is the best overseas IPL player. *(Which dimension? By sixes and single innings, yes. By Orange Caps, Warner. By titles, Warne. Scope the claim.)*
 
 ## Related Concepts
 

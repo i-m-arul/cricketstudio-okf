@@ -96,7 +96,7 @@ For full historical data: [players.cricketstudio.ai/leagues/ipl/standings](https
 
 The two franchises have now both stalled: MI finished 10th (of 10) in IPL 2026 (NRR -0.712), and CSK's most recent title is 2023. The 2025 and 2026 IPL titles went to RCB in back-to-back seasons, suggesting the dominance pattern has broken.
 
-Whether MI and CSK's decade-long run was sustainable franchise-building or a specific player-era phenomenon (Bumrah + Rohit, [Dhoni](https://players.cricketstudio.ai/players/mahendra-singh-dhoni) + CSK batting) is a question the data can describe but not resolve. Both explanations are consistent with the title record.
+Whether MI and CSK's decade-long run was sustainable franchise-building or a specific player-era phenomenon ([Bumrah](https://players.cricketstudio.ai/players/jasprit-bumrah) + [Rohit](https://players.cricketstudio.ai/players/rohit-sharma), [Dhoni](https://players.cricketstudio.ai/players/mahendra-singh-dhoni) + CSK batting) is a question the data can describe but not resolve. Both explanations are consistent with the title record.
 
 ## Related Concepts
 

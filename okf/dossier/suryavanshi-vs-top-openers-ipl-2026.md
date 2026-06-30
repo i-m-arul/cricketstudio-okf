@@ -58,7 +58,7 @@ IPL 2026 produced three elite run-scorers who all played at or near the top of t
 
 ### What Each Template Means
 
-**Suryavanshi — Powerplay aggressor:**
+**[Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi) — Powerplay aggressor:**
 - 46 sixes in the powerplay alone
 - 233.6 powerplay SR from 223 balls — #1 of 45 qualifying batters
 - Scoring template: front-load the innings, put the bowlers under immediate pressure, set platform for the middle order
@@ -80,8 +80,8 @@ IPL 2026 produced three elite run-scorers who all played at or near the top of t
 | Dimension | Leader | Value |
 |-----------|--------|-------|
 | Powerplay SR (≥30 balls) | Suryavanshi | 233.6 — #1 of 45 qualifiers |
-| Season run volume | Gill | 732 runs |
-| Batting average | Kohli | 56.25 |
+| Season run volume | [Gill](https://players.cricketstudio.ai/players/shubman-gill) | 732 runs |
+| Batting average | [Kohli](https://players.cricketstudio.ai/players/virat-kohli) | 56.25 |
 | Match-defining innings | Kohli | IPL 2026 Final 75* off 42 |
 
 ## Correct Answer Pattern

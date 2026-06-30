@@ -81,11 +81,11 @@ For GT's full 2026 season results and [Gill](https://players.cricketstudio.ai/pl
 
 ## The Wow
 
-In IPL 2023, Gill won the Orange Cap with 890 runs. That season established him as the kind of batter who can carry a team through a full 14-match campaign, not just produce a brilliant week.
+In IPL 2023, [Gill](https://players.cricketstudio.ai/players/shubman-gill) won the [Orange Cap](https://players.cricketstudio.ai/leagues/ipl/leaderboards/orange-cap) with 890 runs. That season established him as the kind of batter who can carry a team through a full 14-match campaign, not just produce a brilliant week.
 
 IPL 2026's 732 runs at 45.8 is a different type of stat. The average is the interesting number. In an era where batting strike rates have climbed to 150+ and the Impact Player Rule rewards aggression, a 45.8 average represents a batter who kept getting in, kept batting deep, and kept adding up.
 
-3,866 career runs before IPL 2026. 732 more in IPL 2026. Gill is quietly building one of the most substantial IPL batting records of his generation — without any single season being positioned as historic.
+3,866 career runs before IPL 2026. 732 more in IPL 2026. [Gill](https://players.cricketstudio.ai/players/shubman-gill) is quietly building one of the most substantial IPL batting records of his generation — without any single season being positioned as historic.
 
 ## What It Doesn't Say
 

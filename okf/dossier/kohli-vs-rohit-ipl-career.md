@@ -25,16 +25,16 @@ related:
 ---
 ## User Question
 
-> Who is better in the IPL — Kohli or [Rohit Sharma](https://players.cricketstudio.ai/players/rohit-sharma)?
+> Who is better in the IPL — [Kohli](https://players.cricketstudio.ai/players/virat-kohli) or [Rohit Sharma](https://players.cricketstudio.ai/players/rohit-sharma)?
 
 ## Correct Answer Pattern
 
 > This is a dimension question, not a simple factual one. The right agent answer defines the lens first:
 >
 > - **By all-time runs:** [Kohli](https://players.cricketstudio.ai/players/virat-kohli) is ahead (single-season record: 973 in 2016; all-time IPL run leader)
-> - **By IPL titles:** [Rohit](https://players.cricketstudio.ai/players/rohit-sharma) has won 5 IPL titles as captain of Mumbai Indians (2013, 2015, 2017, 2019, 2020) vs Kohli's 2 as RCB captain/player (2025, 2026)
+> - **By IPL titles:** [Rohit](https://players.cricketstudio.ai/players/rohit-sharma) has won 5 IPL titles as captain of Mumbai Indians (2013, 2015, 2017, 2019, 2020) vs [Kohli](https://players.cricketstudio.ai/players/virat-kohli)'s 2 as RCB captain/player (2025, 2026)
 > - **By strike rate:** Both played different eras and roles — SR comparison requires era and phase context
-> - **By captaincy impact:** Rohit led MI to 5 titles; Kohli captained RCB for many seasons and won 2025 and 2026
+> - **By captaincy impact:** [Rohit](https://players.cricketstudio.ai/players/rohit-sharma) led MI to 5 titles; Kohli captained RCB for many seasons and won 2025 and 2026
 >
 > No single verdict is supportable. The comparison requires a metric, a date window, and an era caveat.
 
@@ -42,7 +42,7 @@ related:
 
 - "Better" without a metric is not a factual question.
 - Title count and run count are different dimensions that favour different players.
-- Era context: Rohit's MI titles were pre-Impact Player Rule; RCB's 2025–2026 wins were post-2023.
+- Era context: [Rohit](https://players.cricketstudio.ai/players/rohit-sharma)'s MI titles were pre-Impact Player Rule; RCB's 2025–2026 wins were post-2023.
 
 ## Required Metrics
 

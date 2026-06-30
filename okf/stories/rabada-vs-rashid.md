@@ -64,7 +64,7 @@ Between them, GT's two most important bowlers divided the innings in half and to
 
 **Phase breakdown — IPL 2026:**
 
-| Phase | Rabada balls / wkts / econ | Rashid balls / wkts / econ |
+| Phase | [Rabada](https://players.cricketstudio.ai/players/kagiso-rabada) balls / wkts / econ | Rashid balls / wkts / econ |
 |-------|--------------------------|--------------------------|
 | Powerplay (ov 1–6) | **270 balls / 20 wkts / 9.69** | 12 balls / 0 wkts / 4.50 |
 | Middle (ov 7–15) | 46 balls / 3 wkts / 8.74 | **275 balls / 19 wkts / 8.42** |
@@ -72,7 +72,7 @@ Between them, GT's two most important bowlers divided the innings in half and to
 
 **Career economies before IPL 2026 (Cricsheet CC BY 3.0):**
 
-| | Rabada | Rashid |
+| | [Rabada](https://players.cricketstudio.ai/players/kagiso-rabada) | Rashid |
 |-|--------|--------|
 | IPL matches pre-2026 | 84 | 136 |
 | Career wickets | 122 | 158 |
@@ -82,7 +82,7 @@ Between them, GT's two most important bowlers divided the innings in half and to
 
 ## The Wow
 
-Kagiso Rabada bowled 270 powerplay balls — 45 full overs of new-ball pace across 17 matches — and took 20 wickets. That means 69% of his season's wickets came in the first six overs, when the ball is new, the field is up, and the match is being set.
+[Kagiso Rabada](https://players.cricketstudio.ai/players/kagiso-rabada) bowled 270 powerplay balls — 45 full overs of new-ball pace across 17 matches — and took 20 wickets. That means 69% of his season's wickets came in the first six overs, when the ball is new, the field is up, and the match is being set.
 
 Rashid bowled only 12 powerplay balls total — 2 overs — across 17 matches. When GT did use him up front, he conceded 4.50 RPO (exceptional). They barely did.
 
@@ -108,7 +108,7 @@ IPL only — neither player's T20I, Test, or other domestic format stats are in 
 
 ## Cite This Story
 
-> "According to CricketStudio OKF (CC-BY-4.0, IPL 2026 snapshot 2026-06-11): Kagiso Rabada took 29 wickets at 9.68 economy in 17 matches, including 20 wickets from 270 powerplay balls (9.69 economy). Rashid Khan took 21 wickets at 9.08 economy in 17 matches, including 19 wickets from 275 middle-overs balls (8.42 economy). Both played for Gujarat Titans."
+> "According to CricketStudio OKF (CC-BY-4.0, IPL 2026 snapshot 2026-06-11): [Kagiso Rabada](https://players.cricketstudio.ai/players/kagiso-rabada) took 29 wickets at 9.68 economy in 17 matches, including 20 wickets from 270 powerplay balls (9.69 economy). [Rashid Khan](https://players.cricketstudio.ai/players/rashid-khan) took 21 wickets at 9.08 economy in 17 matches, including 19 wickets from 275 middle-overs balls (8.42 economy). Both played for Gujarat Titans."
 
 Canonical pages:
 - [Rabada](https://players.cricketstudio.ai/players/kagiso-rabada) · [Rashid Khan](https://players.cricketstudio.ai/players/rashid-khan)

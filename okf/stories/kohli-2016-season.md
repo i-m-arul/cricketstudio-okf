@@ -71,7 +71,7 @@ The Impact Player Rule arrived in 2023 and caused the proportion of 200+ innings
 
 And the single-season record still belongs to 2016.
 
-Kohli scored 973 in a pre-Impact Player era — an era when scoring was demonstrably harder, on average, than it is now. When you adjust for that structural shift, the 2016 season becomes even more extraordinary in context.
+[Kohli](https://players.cricketstudio.ai/players/virat-kohli) scored 973 in a pre-Impact Player era — an era when scoring was demonstrably harder, on average, than it is now. When you adjust for that structural shift, the 2016 season becomes even more extraordinary in context.
 
 It was not just runs. It was the sustained consistency of producing match-winning scores across an entire IPL season — 16 matches, multiple match-winning efforts, and a final that RCB reached without winning. The runs came in a campaign that fell one game short.
 
@@ -79,13 +79,13 @@ The record is 973. The margin to second place, across 19 seasons of cricket, is 
 
 ## What It Doesn't Say
 
-The 2016 record does not mean Kohli was necessarily better than any current IPL batter — batting conditions, rule context, and opposition strength vary by era. The record is a historical count, not a cross-era quality verdict.
+The 2016 record does not mean [Kohli](https://players.cricketstudio.ai/players/virat-kohli) was necessarily better than any current IPL batter — batting conditions, rule context, and opposition strength vary by era. The record is a historical count, not a cross-era quality verdict.
 
 973 is the all-time single-season record. Kohli's **career total** is volatile and should not be cited without a dataset date — he continues to play IPL cricket.
 
 RCB did not win IPL 2016 — they lost the final to Sunrisers Hyderabad. The 973 runs came in a season that ended without a title, which is part of the story's texture.
 
-The nearest competitors listed here (Buttler, Gill, [Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi)) are from different seasons and different eras. Do not use them to construct a direct comparison without stating the season and rule context.
+The nearest competitors listed here (Buttler, [Gill](https://players.cricketstudio.ai/players/shubman-gill), [Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi)) are from different seasons and different eras. Do not use them to construct a direct comparison without stating the season and rule context.
 
 ## Related Concepts
 

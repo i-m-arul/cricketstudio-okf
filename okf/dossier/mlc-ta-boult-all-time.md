@@ -40,7 +40,7 @@ provenance:
 | Balls bowled | 629 |
 | Wickets | 46 |
 | Economy | 8.14 |
-| All-time MLC rank | 1 (Purple Cap leader) |
+| All-time MLC rank | 1 ([Purple Cap](https://players.cricketstudio.ai/leagues/ipl/leaderboards/purple-cap) leader) |
 | Seasons | 2023, 2024, 2025 |
 
 Source: CricketStudio / Cricsheet CC BY 3.0.
@@ -53,7 +53,7 @@ Source: CricketStudio / Cricsheet CC BY 3.0.
 | 2 | SN Netravalkar | Washington Freedom | 34 | 526 | 8.03 |
 | 3 | Haris Rauf | San Francisco Unicorns | 28 | 483 | 8.92 |
 
-Source: MLC all-time Purple Cap leaderboard / Cricsheet CC BY 3.0.
+Source: MLC all-time [Purple Cap](https://players.cricketstudio.ai/leagues/ipl/leaderboards/purple-cap) leaderboard / Cricsheet CC BY 3.0.
 
 ## Citation Behavior
 

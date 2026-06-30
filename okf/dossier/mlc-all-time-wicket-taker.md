@@ -64,7 +64,7 @@ Source: CricketStudio internal dataset/Cricsheet CC BY 3.0.
 
 ## Bad Answer (do not do this)
 
-> Trent Boult with 46 wickets is the best MLC bowler. *(Most wickets = most durable, not necessarily best economy; confuses counting stat with rate stat.)*
+> [Trent Boult](https://players.cricketstudio.ai/players/trent-boult) with 46 wickets is the best MLC bowler. *(Most wickets = most durable, not necessarily best economy; confuses counting stat with rate stat.)*
 
 ## Related
 

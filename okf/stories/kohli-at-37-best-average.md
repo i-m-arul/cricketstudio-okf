@@ -84,7 +84,7 @@ If a batter's career average is 39.59 across 259 matches, what does it mean when
 
 ## The Wow
 
-Between 2021 and 2022, Kohli's average dropped to 22.7 — his lowest full-season figure since his early IPL years. Across 16 matches and 16 innings, he could not convert starts. The dot on the career graph looks like decline.
+Between 2021 and 2022, [Kohli](https://players.cricketstudio.ai/players/virat-kohli)'s average dropped to 22.7 — his lowest full-season figure since his early IPL years. Across 16 matches and 16 innings, he could not convert starts. The dot on the career graph looks like decline.
 
 Then 2023: 53.2. Then 2024: 61.8 — his second-best IPL average after the 81.1 in 2016.
 
@@ -92,7 +92,7 @@ Something changed. Not dramatically — not in his technique or role — but in 
 
 His career average is 39.59 pre-2026. He has averaged above that career figure in each of the last four seasons, each time above 50.
 
-He is now 37. In T20 franchise cricket, most batters peak between 25 and 32. The data says Kohli's average performance is currently at a higher level than it was between ages 30 and 33.
+He is now 37. In T20 franchise cricket, most batters peak between 25 and 32. The data says [Kohli](https://players.cricketstudio.ai/players/virat-kohli)'s average performance is currently at a higher level than it was between ages 30 and 33.
 
 ## The 9,000-Run Milestone
 

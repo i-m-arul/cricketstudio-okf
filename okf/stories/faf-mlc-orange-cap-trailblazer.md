@@ -69,7 +69,7 @@ For full MLC career stats and match-level data: [players.cricketstudio.ai/league
 
 934 vs 928 — du Plessis leads Pooran by 6 runs across three entire MLC seasons.
 
-That is the margin between first and second on the all-time MLC Orange Cap: six runs. Across 75 matches, 25 appearances, three seasons.
+That is the margin between first and second on the all-time MLC [Orange Cap](https://players.cricketstudio.ai/leagues/ipl/leaderboards/orange-cap): six runs. Across 75 matches, 25 appearances, three seasons.
 
 The six-run gap is not the interesting number. The interesting numbers are the strike rates: **163.6 vs 145.0.** Du Plessis scored 6 more runs in 3 fewer matches and 69 fewer balls. He was the more efficient scorer across the same span — yet Pooran played more innings and had a different accumulation profile.
 

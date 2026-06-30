@@ -83,7 +83,7 @@ Evidence this is used selectively: Economy rates for specialist spinners rose sh
 
 *(Source: Cricsheet CC BY 3.0 career baselines + CricketStudio IPL 2026 dataset, version 2026-06-11)*
 
-Rashid and Chahal's economies rose dramatically — suggesting opposing teams successfully used their bowling subs to bring in death specialists who targeted these spinners. [Narine](https://players.cricketstudio.ai/players/sunil-narine)'s economy *fell* — the exception, examined below.
+Rashid and [Chahal](https://players.cricketstudio.ai/players/yuzvendra-chahal)'s economies rose dramatically — suggesting opposing teams successfully used their bowling subs to bring in death specialists who targeted these spinners. [Narine](https://players.cricketstudio.ai/players/sunil-narine)'s economy *fell* — the exception, examined below.
 
 ## The Wow
 
@@ -93,9 +93,9 @@ The batting sub is almost always correct. The bowling sub requires reading a mat
 
 If a captain uses the batting sub and later needs a bowling specialist in the final overs, the card is gone. If they save the card for a bowling sub but their batting collapses and they needed the extra batter, the card is gone. There is no hedge.
 
-**Why Narine is the most important data point:**
+**Why [Narine](https://players.cricketstudio.ai/players/sunil-narine) is the most important data point:**
 
-Narine's economy *improved* while Rashid and [Chahal](https://players.cricketstudio.ai/players/yuzvendra-chahal)'s rose sharply. The structural reason: Narine is a legitimate batting specialist as well as a spinner. He opens the batting and bowls. A captain cannot easily substitute in a batting specialist for Narine because Narine already *is* one. His dual role makes the Impact Player card less useful against him than against a pure specialist bowler.
+[Narine](https://players.cricketstudio.ai/players/sunil-narine)'s economy *improved* while Rashid and [Chahal](https://players.cricketstudio.ai/players/yuzvendra-chahal)'s rose sharply. The structural reason: Narine is a legitimate batting specialist as well as a spinner. He opens the batting and bowls. A captain cannot easily substitute in a batting specialist for Narine because Narine already *is* one. His dual role makes the Impact Player card less useful against him than against a pure specialist bowler.
 
 Narine, in effect, is his own Impact Player — a player who makes the opposition's card harder to play.
 
@@ -109,7 +109,7 @@ This makes the Impact Player Rule as much a pre-match planning exercise as a mid
 
 This story does not identify which specific captains made which Impact Player substitutions in which IPL 2026 matches. That match-level data is available at CricketStudio's canonical match record pages.
 
-The economy increases for Rashid and Chahal are attributed here to the broader post-rule batting environment, not exclusively to opposition bowling subs. Multiple factors — stronger batting lineups at positions 8-9, impact of pitch preparation changes, ball technology — all contribute. The correlation is directional, not causal from a single factor.
+The economy increases for Rashid and [Chahal](https://players.cricketstudio.ai/players/yuzvendra-chahal) are attributed here to the broader post-rule batting environment, not exclusively to opposition bowling subs. Multiple factors — stronger batting lineups at positions 8-9, impact of pitch preparation changes, ball technology — all contribute. The correlation is directional, not causal from a single factor.
 
 The batting sub/bowling sub split is structural inference from outcome data (scoring averages, economy rates). The OKF catalog does not contain per-match Impact Player usage breakdowns.
 

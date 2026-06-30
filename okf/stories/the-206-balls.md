@@ -60,17 +60,17 @@ In IPL 2026, 45 batters qualified for the powerplay leaderboard — minimum 30 b
 
 The narrative around ageing batters in T20 cricket focuses almost entirely on strike rate. Did it drop? Is it still enough? The 206 balls ask a different question: is the batter still there?
 
-[Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi)'s 233.6 SR from 223 balls is historically remarkable — a once-in-a-generation powerplay rate. Kohli's 174.8 SR from 206 balls is not in the same tier. But 206 balls means he played RCB's powerplay nearly every time they batted. At 37, in the fastest, most physically and mentally demanding phase of T20 cricket, he was consistently one of the first two people at the crease.
+[Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi)'s 233.6 SR from 223 balls is historically remarkable — a once-in-a-generation powerplay rate. [Kohli](https://players.cricketstudio.ai/players/virat-kohli)'s 174.8 SR from 206 balls is not in the same tier. But 206 balls means he played RCB's powerplay nearly every time they batted. At 37, in the fastest, most physically and mentally demanding phase of T20 cricket, he was consistently one of the first two people at the crease.
 
 That's a different kind of value than leading the SR leaderboard. Not better or worse — different.
 
 ## What It Doesn't Say
 
-This story does not argue Kohli was the best powerplay batter of IPL 2026. He wasn't — Suryavanshi was, by a wide margin.
+This story does not argue [Kohli](https://players.cricketstudio.ai/players/virat-kohli) was the best powerplay batter of IPL 2026. He wasn't — [Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi) was, by a wide margin.
 
 It doesn't say 174.8 SR is "enough." Whether it is depends entirely on what you need from your opening pair.
 
-It doesn't say volume at a lower rate is better than peak rate at slightly lower volume — it isn't, necessarily. Suryavanshi's 223 balls at 233.6 SR generates meaningfully more expected powerplay runs than Kohli's 206 balls at 174.8.
+It doesn't say volume at a lower rate is better than peak rate at slightly lower volume — it isn't, necessarily. [Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi)'s 223 balls at 233.6 SR generates meaningfully more expected powerplay runs than Kohli's 206 balls at 174.8.
 
 What it does say: sustained powerplay presence at a qualifying rate, across a full IPL season, at 37, is not a given. The 206 balls are evidence of something — consistency, willingness, fitness — that doesn't show up in the strike rate column.
 

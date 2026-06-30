@@ -35,11 +35,11 @@ related:
 > - CSK reached IPL playoffs in almost every season they competed — one of the most consistent franchises
 > - Wicket-keeper batsman known for late-innings finishing and helicopter shot
 >
-> For Dhoni's career batting statistics (runs, averages, innings), see canonical ESPNcricinfo or CricketStudio — these figures are volatile for active players.
+> For [Dhoni](https://players.cricketstudio.ai/players/mahendra-singh-dhoni)'s career batting statistics (runs, averages, innings), see canonical ESPNcricinfo or CricketStudio — these figures are volatile for active players.
 
 ## Required Concepts
 
-- Dhoni's batting role is primarily as a finisher (lower-middle order), not an opener or anchor.
+- [Dhoni](https://players.cricketstudio.ai/players/mahendra-singh-dhoni)'s batting role is primarily as a finisher (lower-middle order), not an opener or anchor.
 - CSK was suspended in 2016–2017; Dhoni captained Rising Pune Supergiant in those seasons.
 - The 5 titles count CSK's 5 titles under Dhoni's captaincy only.
 

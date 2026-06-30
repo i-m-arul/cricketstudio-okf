@@ -46,13 +46,13 @@ related:
 
 In IPL 2026, one roster read like the cast list of India's greatest T20 era.
 
-[Jasprit Bumrah](https://players.cricketstudio.ai/players/jasprit-bumrah). Rohit Sharma. Suryakumar Yadav. Hardik Pandya. Mumbai Indians carried four of the most recognizable names in T20 cricket into a 74-match season.
+[Jasprit Bumrah](https://players.cricketstudio.ai/players/jasprit-bumrah). [Rohit Sharma](https://players.cricketstudio.ai/players/rohit-sharma). Suryakumar Yadav. [Hardik Pandya](https://players.cricketstudio.ai/players/hardik-pandya). Mumbai Indians carried four of the most recognizable names in T20 cricket into a 74-match season.
 
 They won 4 of 14. Finished last. Posted NRR −0.712.
 
 Meanwhile, Gujarat Titans — built without the same individual mythology — won 9 of 14, posted NRR +0.320, and reached the IPL 2026 Final. Their leading scorer was [Shubman Gill](https://players.cricketstudio.ai/players/shubman-gill). Their most impactful bowler was Jason Holder.
 
-Neither is a household name in the way [Bumrah](https://players.cricketstudio.ai/players/jasprit-bumrah) or Rohit is. Both had better IPL 2026 seasons than anyone at MI.
+Neither is a household name in the way [Bumrah](https://players.cricketstudio.ai/players/jasprit-bumrah) or [Rohit](https://players.cricketstudio.ai/players/rohit-sharma) is. Both had better IPL 2026 seasons than anyone at MI.
 
 ## What the Data Says
 
@@ -71,7 +71,7 @@ Neither is a household name in the way [Bumrah](https://players.cricketstudio.ai
 
 Top run-scorer: Ryan Rickelton — 448 runs, 186.7 SR (12 matches)  
 Top wicket-taker: AM Ghazanfar — 15 wickets, 9.99 economy (11 matches)  
-Jasprit Bumrah: **4 wickets · 13 matches · 8.35 overall economy**  
+[Jasprit Bumrah](https://players.cricketstudio.ai/players/jasprit-bumrah): **4 wickets · 13 matches · 8.35 overall economy**  
 [Hardik Pandya](https://players.cricketstudio.ai/players/hardik-pandya): 206 runs (138.3 SR) · 4 wickets (11.43 economy) · 10 matches  
 [Suryakumar Yadav](https://players.cricketstudio.ai/players/suryakumar-yadav): 270 runs · 147.5 SR · 13 matches  
 [Rohit Sharma](https://players.cricketstudio.ai/players/rohit-sharma): 283 runs · 157.2 SR · 9 matches
@@ -101,15 +101,15 @@ The NRR gap between them: **1.032 points** (GT +0.320 vs MI −0.712).
 
 ## The Wow
 
-Two GT batters (Gill 732, Sudharsan 722) combined for **1,454 runs**.
+Two GT batters ([Gill](https://players.cricketstudio.ai/players/shubman-gill) 732, Sudharsan 722) combined for **1,454 runs**.
 
 MI's top four batters combined for 1,408 — Rickelton (448) + Tilak Varma (359) + Naman Dhir (318) + [Rohit](https://players.cricketstudio.ai/players/rohit-sharma) (283).
 
 Two GT batters out-ran four MI batters across the same 14-match season.
 
-Then there is Jason Holder: 17 wickets in 11 matches at 7.57 economy. That is GT's most economical wicket-taker, and the most efficient combined bowling line in either team's squad. Better economy and more wickets than Ghazanfar (MI's leading wicket-taker at 9.99). Far better economy than Bumrah's 2026 overall season line (8.35 from 13 matches).
+Then there is Jason Holder: 17 wickets in 11 matches at 7.57 economy. That is GT's most economical wicket-taker, and the most efficient combined bowling line in either team's squad. Better economy and more wickets than Ghazanfar (MI's leading wicket-taker at 9.99). Far better economy than [Bumrah](https://players.cricketstudio.ai/players/jasprit-bumrah)'s 2026 overall season line (8.35 from 13 matches).
 
-Bumrah's **death-overs economy of 7.69 from 78 balls** (overs 16–20) was still elite — the phase-level craft was there. But 4 wickets across 13 matches total is an outlier return for someone of his quality. His overall economy (8.35) points to pressure in non-death phases that his death-over discipline could not offset.
+[Bumrah](https://players.cricketstudio.ai/players/jasprit-bumrah)'s **death-overs economy of 7.69 from 78 balls** (overs 16–20) was still elite — the phase-level craft was there. But 4 wickets across 13 matches total is an outlier return for someone of his quality. His overall economy (8.35) points to pressure in non-death phases that his death-over discipline could not offset.
 
 GT's attack took wickets consistently, controlled across formats, and varied their threats: [Rabada](https://players.cricketstudio.ai/players/kagiso-rabada)'s pace, Holder's seam, Rashid's spin. MI relied on Ghazanfar and Bosch to carry an attack that could not get Bumrah's wickets.
 
@@ -127,7 +127,7 @@ Sample note: Both teams played 14 league matches. All stats are IPL 2026 only (s
 
 ## Cite This Story
 
-> "According to CricketStudio OKF (CC-BY-4.0, IPL 2026 snapshot 2026-06-11): Gujarat Titans (#3, NRR +0.320) and Mumbai Indians (#10, NRR −0.712) both played 14 league matches in IPL 2026. GT's Gill (732 runs) and Sudharsan (722 runs) combined for 1,454 runs — more than MI's top four batters combined (1,408). GT's Jason Holder took 17 wickets at 7.57 economy in 11 matches."
+> "According to CricketStudio OKF (CC-BY-4.0, IPL 2026 snapshot 2026-06-11): Gujarat Titans (#3, NRR +0.320) and Mumbai Indians (#10, NRR −0.712) both played 14 league matches in IPL 2026. GT's [Gill](https://players.cricketstudio.ai/players/shubman-gill) (732 runs) and Sudharsan (722 runs) combined for 1,454 runs — more than MI's top four batters combined (1,408). GT's Jason Holder took 17 wickets at 7.57 economy in 11 matches."
 
 Canonical team pages for current data:
 - [GT](https://players.cricketstudio.ai/teams/gt) · [MI](https://players.cricketstudio.ai/teams/mi)

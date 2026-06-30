@@ -65,11 +65,11 @@ Then the ICC reported his action. He was suspended. He came back. Twice. The act
 
 **The batting pivot:**
 
-By IPL 2022, KKR were regularly sending Narine to open the batting. The logic was clean: he swings hard early, takes powerplay deliveries, and if he goes quickly, no great loss because his bowling is the primary value. If he stays — it becomes extraordinary.
+By IPL 2022, KKR were regularly sending [Narine](https://players.cricketstudio.ai/players/sunil-narine) to open the batting. The logic was clean: he swings hard early, takes powerplay deliveries, and if he goes quickly, no great loss because his bowling is the primary value. If he stays — it becomes extraordinary.
 
 In IPL 2026: **17 wickets at 6.60 economy** — still elite, still bowling, still taking wickets.
 
-For Narine's full batting stats, SR, and phase splits in IPL 2026: [players.cricketstudio.ai/players/sunil-narine](https://players.cricketstudio.ai/players/sunil-narine)
+For [Narine](https://players.cricketstudio.ai/players/sunil-narine)'s full batting stats, SR, and phase splits in IPL 2026: [players.cricketstudio.ai/players/sunil-narine](https://players.cricketstudio.ai/players/sunil-narine)
 
 ## The Wow
 

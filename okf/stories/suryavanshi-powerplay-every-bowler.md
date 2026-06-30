@@ -66,7 +66,7 @@ What does a bowler's data look like when a 14-year-old is treating them like bat
 
 *(Source: CricketStudio IPL 2026 H2H dataset, ≥5 ball floor, version 2026-06-11)*
 
-Mohammed Siraj — India's first-choice new-ball bowler. Kagiso Rabada — one of the most decorated fast bowlers in T20 history. Neither dismissed [Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi) in IPL 2026 across the deliveries in this dataset.
+[Mohammed Siraj](https://players.cricketstudio.ai/players/mohammed-siraj) — India's first-choice new-ball bowler. [Kagiso Rabada](https://players.cricketstudio.ai/players/kagiso-rabada) — one of the most decorated fast bowlers in T20 history. Neither dismissed [Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi) in IPL 2026 across the deliveries in this dataset.
 
 Siraj bowled 29 balls to him. 60 runs. 9 fours. 2 sixes. Zero dismissals.
 
@@ -74,9 +74,9 @@ Siraj bowled 29 balls to him. 60 runs. 9 fours. 2 sixes. Zero dismissals.
 
 The interesting number is not any individual SR. It is the last column.
 
-Across every bowler in this dataset who sent Suryavanshi five or more balls in IPL 2026, the dismissal count is: **0, 0, 0, 0, 0.**
+Across every bowler in this dataset who sent [Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi) five or more balls in IPL 2026, the dismissal count is: **0, 0, 0, 0, 0.**
 
-This is a small dataset — IPL 2026 is one season. Suryavanshi will face more deliveries. Bowlers will adapt. He will be dismissed, probably by some of these same bowlers. That is how cricket works.
+This is a small dataset — IPL 2026 is one season. [Suryavanshi](https://players.cricketstudio.ai/players/vaibhav-suryavanshi) will face more deliveries. Bowlers will adapt. He will be dismissed, probably by some of these same bowlers. That is how cricket works.
 
 But for IPL 2026, as captured in the CricketStudio dataset: the bowler who solved Suryavanshi in the powerplay does not appear in this table.
 

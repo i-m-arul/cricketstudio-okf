@@ -64,11 +64,11 @@ For the next nine seasons, RCB kept arriving. Kept assembling talent. Kept scori
 
 Then 2025. Then 2026.
 
-For current IPL 2026 season statistics — Kohli's runs, RCB's match-level data, and the full title-run scorecard — see: [players.cricketstudio.ai/players/virat-kohli](https://players.cricketstudio.ai/players/virat-kohli)
+For current IPL 2026 season statistics — [Kohli](https://players.cricketstudio.ai/players/virat-kohli)'s runs, RCB's match-level data, and the full title-run scorecard — see: [players.cricketstudio.ai/players/virat-kohli](https://players.cricketstudio.ai/players/virat-kohli)
 
 ## The Wow
 
-The gap between Kohli's 973-run season and RCB's first title is nine years.
+The gap between [Kohli](https://players.cricketstudio.ai/players/virat-kohli)'s 973-run season and RCB's first title is nine years.
 
 That is not a data point. That is a timeline that almost defies T20's short attention span. Most IPL dynasties are built in three-to-five year windows. RCB spent nearly two decades learning how not to lose a final before winning two in succession.
 
