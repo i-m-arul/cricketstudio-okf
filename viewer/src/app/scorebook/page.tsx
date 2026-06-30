@@ -23,18 +23,36 @@ export default async function ScorebookPage() {
     byType[f.type].push(f)
   }
 
+  const sectionCounts = Object.fromEntries(
+    CONCEPT_TYPES.map((t) => [t, byType[t]?.length ?? 0])
+  )
+
   return (
     <div>
       <h1 className="text-3xl font-bold text-white mb-2">Scorebook</h1>
-      <p className="text-gray-400 mb-6">
+      <p className="text-gray-400 mb-4">
         Players, teams, leagues, seasons, venues, records, and matches — each with canonical CricketStudio resources and provenance.
       </p>
 
+      {/* Section jump chips */}
+      <div className="flex flex-wrap gap-2 mb-6">
+        {CONCEPT_TYPES.filter((t) => sectionCounts[t] > 0).map((t) => (
+          <a
+            key={t}
+            href={`#section-${t}`}
+            className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-sm border border-gray-700 text-gray-400 hover:border-green-700 hover:text-gray-200 transition-all"
+          >
+            {TYPE_LABELS[t] || t}
+            <span className="text-xs text-gray-600">{sectionCounts[t]}</span>
+          </a>
+        ))}
+      </div>
+
       <TagFilter
         files={concepts}
-        pinnedTags={['IPL', 'MLC', 'batter', 'bowler', 'all-rounder', 'pace', 'spin']}
+        pinnedTags={['IPL', 'MLC', 'batter', 'bowler']}
         minCount={3}
-        maxChips={10}
+        maxChips={4}
         groupByType={byType}
         typeLabels={TYPE_LABELS}
       />

@@ -141,7 +141,7 @@ export default function TagFilter({
         Object.entries(groupByType)
           .filter(([, items]) => items.length > 0)
           .map(([type, items]) => (
-            <section key={type} className="mb-10">
+            <section key={type} id={`section-${type}`} className="mb-10 scroll-mt-20">
               <h2 className="text-lg font-semibold text-gray-300 mb-3 capitalize flex items-center gap-2">
                 {typeLabels[type] || type}
                 <span className="text-xs font-normal text-gray-600">{items.length} entries</span>
