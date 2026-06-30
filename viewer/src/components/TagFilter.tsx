@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useMemo } from 'react'
+import type { ReactNode } from 'react'
 import OKFCard from './OKFCard'
 
 interface FileEntry {
@@ -29,6 +30,8 @@ interface Props {
    */
   groupByType?: Record<string, FileEntry[]>
   typeLabels?: Record<string, string>
+  /** Rendered above the tag chips inside the shared sticky bar */
+  topSlot?: ReactNode
 }
 
 // Tags that are structural/meta — never useful as chips
@@ -51,6 +54,7 @@ export default function TagFilter({
   maxChips = 12,
   groupByType,
   typeLabels = {},
+  topSlot,
 }: Props) {
   const [active, setActive] = useState<Set<string>>(new Set())
 
@@ -94,37 +98,44 @@ export default function TagFilter({
 
   const isFiltering = active.size > 0
 
+  const hasChips = chips.length > 0 || !!topSlot
+
   return (
     <div>
-      {/* Chip bar */}
-      {chips.length > 0 && (
-        <div className="flex flex-wrap gap-2 mb-6">
-          {chips.map((tag) => {
-            const on = active.has(tag)
-            return (
-              <button
-                key={tag}
-                onClick={() => toggle(tag)}
-                className={`inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-sm font-medium border transition-all ${
-                  on
-                    ? 'bg-green-700 border-green-600 text-white'
-                    : 'bg-gray-900 border-gray-700 text-gray-400 hover:border-green-700 hover:text-gray-200'
-                }`}
-              >
-                {tag}
-                <span className={`text-xs ${on ? 'text-green-200' : 'text-gray-600'}`}>
-                  {tagCounts[tag]}
-                </span>
-              </button>
-            )
-          })}
-          {isFiltering && (
-            <button
-              onClick={() => setActive(new Set())}
-              className="px-3 py-1 rounded-full text-sm text-gray-500 hover:text-gray-300 border border-transparent hover:border-gray-700 transition-all"
-            >
-              Clear
-            </button>
+      {/* Sticky bar — section jumps (topSlot) + tag filter chips */}
+      {hasChips && (
+        <div className="sticky top-14 z-40 bg-[#0a0f1a]/95 backdrop-blur -mx-4 px-4 pt-3 pb-2 mb-4 border-b border-gray-800/50">
+          {topSlot && <div className="mb-2">{topSlot}</div>}
+          {chips.length > 0 && (
+            <div className="flex flex-wrap gap-2">
+              {chips.map((tag) => {
+                const on = active.has(tag)
+                return (
+                  <button
+                    key={tag}
+                    onClick={() => toggle(tag)}
+                    className={`inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-sm font-medium border transition-all ${
+                      on
+                        ? 'bg-green-700 border-green-600 text-white'
+                        : 'bg-gray-900 border-gray-700 text-gray-400 hover:border-green-700 hover:text-gray-200'
+                    }`}
+                  >
+                    {tag}
+                    <span className={`text-xs ${on ? 'text-green-200' : 'text-gray-600'}`}>
+                      {tagCounts[tag]}
+                    </span>
+                  </button>
+                )
+              })}
+              {isFiltering && (
+                <button
+                  onClick={() => setActive(new Set())}
+                  className="px-3 py-1 rounded-full text-sm text-gray-500 hover:text-gray-300 border border-transparent hover:border-gray-700 transition-all"
+                >
+                  Clear
+                </button>
+              )}
+            </div>
           )}
         </div>
       )}
@@ -141,7 +152,7 @@ export default function TagFilter({
         Object.entries(groupByType)
           .filter(([, items]) => items.length > 0)
           .map(([type, items]) => (
-            <section key={type} id={`section-${type}`} className="mb-10 scroll-mt-20">
+            <section key={type} id={`section-${type}`} className="mb-10 scroll-mt-40">
               <h2 className="text-lg font-semibold text-gray-300 mb-3 capitalize flex items-center gap-2">
                 {typeLabels[type] || type}
                 <span className="text-xs font-normal text-gray-600">{items.length} entries</span>

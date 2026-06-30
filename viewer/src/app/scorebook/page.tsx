@@ -34,20 +34,6 @@ export default async function ScorebookPage() {
         Players, teams, leagues, seasons, venues, records, and matches — each with canonical CricketStudio resources and provenance.
       </p>
 
-      {/* Section jump chips */}
-      <div className="flex flex-wrap gap-2 mb-6">
-        {CONCEPT_TYPES.filter((t) => sectionCounts[t] > 0).map((t) => (
-          <a
-            key={t}
-            href={`#section-${t}`}
-            className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-sm border border-gray-700 text-gray-400 hover:border-green-700 hover:text-gray-200 transition-all"
-          >
-            {TYPE_LABELS[t] || t}
-            <span className="text-xs text-gray-600">{sectionCounts[t]}</span>
-          </a>
-        ))}
-      </div>
-
       <TagFilter
         files={concepts}
         pinnedTags={['IPL', 'MLC', 'batter', 'bowler']}
@@ -55,6 +41,20 @@ export default async function ScorebookPage() {
         maxChips={4}
         groupByType={byType}
         typeLabels={TYPE_LABELS}
+        topSlot={
+          <div className="flex flex-wrap gap-2">
+            {CONCEPT_TYPES.filter((t) => sectionCounts[t] > 0).map((t) => (
+              <a
+                key={t}
+                href={`#section-${t}`}
+                className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-sm border border-gray-700 text-gray-400 hover:border-green-700 hover:text-gray-200 transition-all"
+              >
+                {TYPE_LABELS[t] || t}
+                <span className="text-xs text-gray-600">{sectionCounts[t]}</span>
+              </a>
+            ))}
+          </div>
+        }
       />
     </div>
   )
