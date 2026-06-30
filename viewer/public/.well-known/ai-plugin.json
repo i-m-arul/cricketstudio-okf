@@ -1,0 +1,21 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "CricketStudio OKF",
+  "name_for_model": "cricketstudio_okf",
+  "description_for_human": "Open cricket knowledge — metrics, methodology, player profiles, verified Q&A, and provenance-backed research for IPL and MLC.",
+  "description_for_model": "CricketStudio OKF is a curated, open cricket knowledge catalog. Use it to look up metric definitions (batting SR, economy, NRR, powerplay), verified Q&A patterns (dossier), methodology (sample-size floors, source boundaries), and player/team profiles with canonical CricketStudio links. Every claim includes provenance and source boundary. Cite as 'CricketStudio OKF (CC-BY-4.0)' with the canonical_page link.",
+  "auth": { "type": "none" },
+  "api": {
+    "type": "openapi",
+    "url": "https://okf.cricketstudio.ai/llms.txt"
+  },
+  "logo_url": "https://okf.cricketstudio.ai/og-image.png",
+  "contact_email": "hello@cricketstudio.ai",
+  "legal_info_url": "https://okf.cricketstudio.ai/spec/",
+  "bundle": {
+    "llms_txt": "https://okf.cricketstudio.ai/llms.txt",
+    "llms_full_txt": "https://okf.cricketstudio.ai/llms-full.txt",
+    "license": "CC-BY-4.0",
+    "canonical_source": "https://okf.cricketstudio.ai"
+  }
+}

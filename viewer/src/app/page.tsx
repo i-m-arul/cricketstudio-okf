@@ -80,6 +80,18 @@ export default async function HomePage() {
   const featured = await getFilesByType('research')
   const recentResearch = featured.slice(0, 3)
 
+  const websiteSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'CricketStudio OKF',
+    url: 'https://okf.cricketstudio.ai',
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: { '@type': 'EntryPoint', urlTemplate: 'https://okf.cricketstudio.ai/search/?q={search_term_string}' },
+      'query-input': 'required name=search_term_string',
+    },
+  }
+
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Dataset',
@@ -113,6 +125,10 @@ export default async function HomePage() {
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
