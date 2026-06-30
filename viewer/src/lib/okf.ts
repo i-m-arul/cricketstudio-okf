@@ -167,7 +167,7 @@ export async function getFilesByType(type: string): Promise<OKFFile[]> {
 
 export async function getFileBySlug(slug: string): Promise<OKFFile | null> {
   const all = await getAllFiles()
-  return all.find((f) => f.slug === slug) ?? null
+  return all.find((f) => f.slug === slug || f.slug === slug + '/index') ?? null
 }
 
 export async function buildSearchIndex(): Promise<SearchEntry[]> {

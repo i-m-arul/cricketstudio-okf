@@ -18,8 +18,8 @@ export function buildJsonLd(file: OKFFile): object[] {
     publisher: { '@type': 'Organization', name: 'CricketStudio', url: 'https://cricketstudio.ai' },
   }
 
-  // BreadcrumbList for all pages — visual breadcrumbs already rendered, now machine-readable
-  const parts = file.slug.split('/')
+  // BreadcrumbList — filter trailing 'index' so index files don't add a spurious crumb
+  const parts = file.slug.split('/').filter((s, i, arr) => !(s === 'index' && i === arr.length - 1))
   const crumbItems: object[] = [{ '@type': 'ListItem', position: 1, name: 'Home', item: `${BASE}/` }]
   if (parts.length > 1) {
     const section = parts[0].charAt(0).toUpperCase() + parts[0].slice(1).replace(/-/g, ' ')
@@ -128,7 +128,8 @@ interface Props {
 export default function OKFFilePageContent({ file, relatedFiles }: Props) {
   const typeLabel = TYPE_LABELS[file.type] || file.type
   const boundary = file.source_boundary ? SOURCE_BOUNDARY_LABELS[file.source_boundary] : null
-  const crumbs = file.slug.split('/')
+  // Filter out trailing 'index' so index files don't show "index" as last crumb
+  const crumbs = file.slug.split('/').filter((s, i, arr) => !(s === 'index' && i === arr.length - 1))
   const breadcrumbs = crumbs.slice(0, -1).map((part, i) => ({
     label: part.replace(/-/g, ' '),
     href: '/' + crumbs.slice(0, i + 1).join('/') + '/',

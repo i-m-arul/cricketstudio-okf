@@ -6,9 +6,27 @@ interface Props {
   params: { slug: string[] }
 }
 
+// Next.js pages that have their own dedicated handler — don't let the catch-all
+// shadow them with an index-file variant.
+const DEDICATED_PAGES = new Set([
+  '', 'dossier', 'scorebook', 'metrics', 'research',
+  'methodology', 'stories', 'agents', 'about',
+  'conformance', 'releases', 'spec', 'search', 'sources',
+])
+
 export async function generateStaticParams() {
   const files = await getAllFiles()
-  return files.map((f) => ({ slug: f.slug.split('/') }))
+  return files.flatMap((f) => {
+    // Root index (okf/index.md) → homepage handles it
+    if (f.slug === 'index') return []
+    // Sub-directory index files: serve at canonical parent URL, not at /parent/index/
+    if (f.slug.endsWith('/index')) {
+      const parent = f.slug.replace(/\/index$/, '')
+      if (DEDICATED_PAGES.has(parent)) return []
+      return [{ slug: parent.split('/') }]
+    }
+    return [{ slug: f.slug.split('/') }]
+  })
 }
 
 export async function generateMetadata({ params }: Props) {
