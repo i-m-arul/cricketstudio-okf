@@ -4,10 +4,12 @@ title: IPL All-Time Wicket Taker
 description: Verified answer pattern for "Who has taken the most IPL wickets?" — framing, milestone facts, and correct citation.
 status: active
 last_verified: 2026-06-24
+timestamp: 2026-06-24
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: manual_curated_knowledge
 canonical_page: https://players.cricketstudio.ai/leagues/ipl/leaderboards/purple-cap
+resource: https://players.cricketstudio.ai/leagues/ipl/leaderboards/purple-cap
 tags:
   - cricket
   - dossier

@@ -4,10 +4,12 @@ title: Examples
 description: Index of verified question/answer patterns teaching agents how to use the bundle.
 status: active
 last_verified: 2026-06-18
+timestamp: 2026-06-18
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: manual_curated_knowledge
 canonical_page: https://players.cricketstudio.ai
+resource: https://players.cricketstudio.ai
 tags:
   - cricket
   - dossier

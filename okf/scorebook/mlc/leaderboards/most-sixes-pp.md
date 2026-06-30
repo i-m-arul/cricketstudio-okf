@@ -5,6 +5,7 @@ description: "Most sixes hit in the powerplay (overs 1â€“6) across captured
 resource: https://players.cricketstudio.ai/leagues/mlc/leaderboards/most-sixes-pp
 status: active
 last_verified: 2026-06-21
+timestamp: 2026-06-21
 license: CC-BY-3.0
 source_system: CricketStudio
 source_boundary: public_open_data

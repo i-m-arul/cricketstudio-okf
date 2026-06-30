@@ -17,6 +17,7 @@ tags:
   - rivalry
 status: active
 last_verified: 2026-06-24
+timestamp: 2026-06-24
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: public_open_data

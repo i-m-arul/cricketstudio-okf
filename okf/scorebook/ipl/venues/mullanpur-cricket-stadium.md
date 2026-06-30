@@ -5,6 +5,7 @@ description: CricketStudio OKF entry for Mullanpur Cricket Stadium, Chandigarh â
 resource: https://players.cricketstudio.ai/venues/maharaja-yadavindra-singh-international-cricket-stadium-mullanpu
 status: active
 last_verified: 2026-06-19
+timestamp: 2026-06-19
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: derived_claims_only

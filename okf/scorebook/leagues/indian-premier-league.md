@@ -5,6 +5,7 @@ description: Canonical CricketStudio OKF entry for the Indian Premier League (IP
 resource: https://players.cricketstudio.ai/leagues/ipl
 status: active
 last_verified: 2026-06-18
+timestamp: 2026-06-18
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: derived_claims_only

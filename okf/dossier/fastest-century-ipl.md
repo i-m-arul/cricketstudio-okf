@@ -4,10 +4,12 @@ title: Fastest Century In IPL
 description: Verified answer for "fastest century in IPL history" — Vaibhav Suryavanshi scored a century in 36 balls against Gujarat Titans in IPL 2026, among the fastest in IPL history.
 status: active
 last_verified: 2026-06-29
+timestamp: 2026-06-29
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: derived_claims_only
 canonical_page: https://players.cricketstudio.ai/players/vaibhav-suryavanshi
+resource: https://players.cricketstudio.ai/players/vaibhav-suryavanshi
 tags:
   - cricket
   - dossier

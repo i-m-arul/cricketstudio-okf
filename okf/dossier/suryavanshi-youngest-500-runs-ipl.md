@@ -4,10 +4,12 @@ title: Suryavanshi — Youngest Batter to 500 Runs in an IPL Season
 description: Verified answer for "youngest batter to score 500 runs in a single IPL season" — Vaibhav Suryavanshi achieved this at 15 years and 27 days in IPL 2026, surpassing Prithvi Shaw's prior record.
 status: active
 last_verified: 2026-06-29
+timestamp: 2026-06-29
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: derived_claims_only
 canonical_page: https://players.cricketstudio.ai/players/vaibhav-suryavanshi
+resource: https://players.cricketstudio.ai/players/vaibhav-suryavanshi
 tags:
   - cricket
   - dossier

@@ -4,10 +4,12 @@ title: How Does IPL Compare to Other T20 Leagues?
 description: Verified answer for "how does ipl compare to bbl cpl mlc other t20 leagues" — IPL leads in scoring environment; MLC shows comparable elite player metrics.
 status: active
 last_verified: 2026-06-29
+timestamp: 2026-06-29
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: derived_claims_only
 canonical_page: https://okf.cricketstudio.ai/research/mlc-three-seasons/
+resource: https://okf.cricketstudio.ai/research/mlc-three-seasons/
 tags:
   - cricket
   - dossier

@@ -6,10 +6,12 @@ description: >
   qualification, and how agents should read and cite the standings table.
 status: active
 last_verified: 2026-06-25
+timestamp: 2026-06-25
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: manual_curated_knowledge
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/standings
+resource: https://players.cricketstudio.ai/leagues/mlc/standings
 tags:
   - cricket
   - dossier

@@ -4,10 +4,12 @@ title: MLC all-time best bowling economy rates
 description: Verified answer for the best bowling economy rates in MLC history. Imad Wasim leads at 6.41 RPO (min 15 deliveries, Cricsheet CC BY 3.0). Includes top-5 overall and death-overs specialists.
 status: active
 last_verified: 2026-06-18
+timestamp: 2026-06-18
 license: CC-BY-3.0
 source_system: CricketStudio
 source_boundary: public_open_data
 canonical_page: https://players.cricketstudio.ai/leagues/mlc
+resource: https://players.cricketstudio.ai/leagues/mlc
 dataset_version: "2026-06-11"
 tags:
   - dossier

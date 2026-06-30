@@ -4,6 +4,7 @@ title: Cricket OKF Type Vocabulary
 description: Canonical list of OKF type values for cricket domain bundles. Extends Google OKF's open type system with 19 cricket-specific types, each with a definition, required extra fields, and an example frontmatter block.
 status: active
 last_verified: 2026-06-22
+timestamp: 2026-06-22
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: methodology_only

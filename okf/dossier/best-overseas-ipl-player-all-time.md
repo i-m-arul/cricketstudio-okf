@@ -4,10 +4,12 @@ title: Best Overseas IPL Player All-Time
 description: How to frame "who is the best overseas IPL player?" — Gayle, de Villiers, Warner, Warne as era-specific contenders across different dimensions.
 status: active
 last_verified: 2026-06-24
+timestamp: 2026-06-24
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: methodology_only
 canonical_page: https://okf.cricketstudio.ai/dossier/best-overseas-ipl-player-all-time/
+resource: https://okf.cricketstudio.ai/dossier/best-overseas-ipl-player-all-time/
 tags:
   - cricket
   - dossier

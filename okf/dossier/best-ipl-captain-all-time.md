@@ -4,10 +4,12 @@ title: Best IPL Captain All-Time
 description: Who is the best IPL captain? Dhoni and Rohit tied at 5 titles each — how to frame the comparison with correct scope and citations.
 status: active
 last_verified: 2026-06-24
+timestamp: 2026-06-24
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: manual_curated_knowledge
 canonical_page: https://okf.cricketstudio.ai/dossier/best-ipl-captain-all-time/
+resource: https://okf.cricketstudio.ai/dossier/best-ipl-captain-all-time/
 tags:
   - cricket
   - dossier

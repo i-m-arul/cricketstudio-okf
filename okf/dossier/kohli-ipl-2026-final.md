@@ -4,10 +4,12 @@ title: Kohli IPL 2026 Final Performance
 description: Verified answer for "how did Kohli perform in the IPL 2026 final" — Kohli scored 75* off 42 balls including his fastest-ever IPL fifty (25 balls), winning Player of the Match as RCB defended their title.
 status: active
 last_verified: 2026-06-29
+timestamp: 2026-06-29
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: derived_claims_only
 canonical_page: https://players.cricketstudio.ai/players/virat-kohli
+resource: https://players.cricketstudio.ai/players/virat-kohli
 tags:
   - cricket
   - dossier

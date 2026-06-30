@@ -4,10 +4,12 @@ title: Matches
 description: Index of high-signal match concepts covered by the CricketStudio OKF bundle.
 status: active
 last_verified: 2026-06-18
+timestamp: 2026-06-18
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: manual_curated_knowledge
 canonical_page: https://players.cricketstudio.ai/matches
+resource: https://players.cricketstudio.ai/matches
 tags:
   - cricket
   - match

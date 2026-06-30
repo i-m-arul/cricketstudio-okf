@@ -4,11 +4,13 @@ title: Who leads MLC death-overs batting strike rate?
 description: Verified answer for MLC death-over batting strike rate leader. GD Phillips (SF Unicorns) leads at 240.5 SR from 37 death-over balls. TH David second at 236.4 from 44 balls. Floor ≥20 death-over balls.
 status: active
 last_verified: 2026-06-21
+timestamp: 2026-06-21
 license: CC-BY-3.0
 source_system: CricketStudio
 source_boundary: public_open_data
 entity_id: cricketstudio:dossier:mlc-death-batting-leader
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/leaderboards/death-overs-strike-rate
+resource: https://players.cricketstudio.ai/leagues/mlc/leaderboards/death-overs-strike-rate
 tags:
   - cricket
   - dossier

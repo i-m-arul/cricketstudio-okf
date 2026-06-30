@@ -5,6 +5,7 @@ description: "Fewest balls per wicket in death overs (overs 17â€“20). Lower
 resource: https://players.cricketstudio.ai/leagues/mlc/leaderboards/death-bowling-strike-rate
 status: active
 last_verified: 2026-06-21
+timestamp: 2026-06-21
 license: CC-BY-3.0
 source_system: CricketStudio
 source_boundary: public_open_data

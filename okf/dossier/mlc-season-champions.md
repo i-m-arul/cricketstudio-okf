@@ -4,11 +4,13 @@ title: Who has won each MLC season?
 description: Verified answer for MLC season champions. MI New York won Season 1 (2023) and Season 3 (2025). Season 2 (2024) champion requires canonical page confirmation.
 status: active
 last_verified: 2026-06-21
+timestamp: 2026-06-21
 license: CC-BY-3.0
 source_system: CricketStudio
 source_boundary: public_open_data
 entity_id: cricketstudio:dossier:mlc-season-champions
 canonical_page: https://players.cricketstudio.ai/leagues/mlc
+resource: https://players.cricketstudio.ai/leagues/mlc
 tags:
   - cricket
   - dossier

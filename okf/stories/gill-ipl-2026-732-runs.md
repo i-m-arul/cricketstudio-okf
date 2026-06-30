@@ -12,10 +12,12 @@ tags:
   - records
 status: active
 last_verified: 2026-06-25
+timestamp: 2026-06-25
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: derived_claims_only
 canonical_page: https://okf.cricketstudio.ai/stories/gill-ipl-2026-732-runs/
+resource: https://okf.cricketstudio.ai/stories/gill-ipl-2026-732-runs/
 entity_id: cricketstudio:story:gill-ipl-2026-732-runs
 dataset_version: 2026-06-11
 provenance:

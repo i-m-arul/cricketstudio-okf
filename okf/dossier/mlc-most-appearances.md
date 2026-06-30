@@ -4,11 +4,13 @@ title: Who has played the most MLC matches?
 description: Verified answer for most MLC appearances. N Pooran (MI New York) leads with 28 matches across MLC 2023–2025, followed by MD Patel and Q de Kock at 26 each.
 status: active
 last_verified: 2026-06-21
+timestamp: 2026-06-21
 license: CC-BY-3.0
 source_system: CricketStudio
 source_boundary: public_open_data
 entity_id: cricketstudio:dossier:mlc-most-appearances
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/leaderboards/most-appearances
+resource: https://players.cricketstudio.ai/leagues/mlc/leaderboards/most-appearances
 tags:
   - cricket
   - dossier

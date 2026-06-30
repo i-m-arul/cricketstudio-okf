@@ -11,10 +11,12 @@ tags:
   - methodology
 status: active
 last_verified: 2026-06-24
+timestamp: 2026-06-24
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: methodology_only
 canonical_page: https://okf.cricketstudio.ai/dossier/what-is-net-run-rate/
+resource: https://okf.cricketstudio.ai/dossier/what-is-net-run-rate/
 related:
   - ../dossier/how-does-ipl-points-table-work.md
   - ../dossier/ipl-2026-playoffs-teams.md

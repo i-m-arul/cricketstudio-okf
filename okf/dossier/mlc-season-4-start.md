@@ -4,10 +4,12 @@ title: MLC Season 4 — key facts for 2026
 description: Verified facts about MLC Season 4 (2026). Season started 2026-06-18, ends 2026-07-18. Six franchises, 115 registered players, 4 venues. MI New York are defending champions.
 status: active
 last_verified: 2026-06-18
+timestamp: 2026-06-18
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: derived_claims_only
 canonical_page: https://players.cricketstudio.ai/leagues/mlc
+resource: https://players.cricketstudio.ai/leagues/mlc
 dataset_version: "2026-06-11"
 tags:
   - dossier

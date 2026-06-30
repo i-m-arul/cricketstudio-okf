@@ -4,6 +4,7 @@ title: Cricket OKF Provenance Convention
 description: How to declare source, boundary, confidence, and freshness in a cricket OKF file. Addresses what Google OKF v0.1 leaves undefined — no provenance fields are in the base spec. This convention adds them for cricket data trust and AI-safe citation.
 status: active
 last_verified: 2026-06-22
+timestamp: 2026-06-22
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: methodology_only

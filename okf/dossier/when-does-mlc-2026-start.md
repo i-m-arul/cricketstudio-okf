@@ -4,10 +4,12 @@ title: When does MLC 2026 start?
 description: Verified answer for MLC Season 4 start date. MLC 2026 begins 2026-06-18. Pre-season rosters are live at CricketStudio.
 status: active
 last_verified: 2026-06-18
+timestamp: 2026-06-18
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: derived_claims_only
 canonical_page: https://players.cricketstudio.ai/leagues/mlc
+resource: https://players.cricketstudio.ai/leagues/mlc
 tags:
   - cricket
   - dossier

@@ -5,6 +5,7 @@ description: "Most times dismissed for fewer than 10 runs. MLC all-time leaderbo
 resource: https://players.cricketstudio.ai/leagues/mlc/leaderboards/single-digit-outs
 status: active
 last_verified: 2026-06-21
+timestamp: 2026-06-21
 license: CC-BY-3.0
 source_system: CricketStudio
 source_boundary: public_open_data

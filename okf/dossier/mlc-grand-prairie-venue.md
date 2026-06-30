@@ -4,11 +4,13 @@ title: Is Grand Prairie Stadium bat-first or chase-friendly?
 description: Verified venue analysis for Grand Prairie Stadium (MLC). 43 matches hosted; 48.8% chase success rate; first-innings average 177.0. Neither decisively bat-first nor chase-dominant.
 status: active
 last_verified: 2026-06-21
+timestamp: 2026-06-21
 license: CC-BY-3.0
 source_system: CricketStudio
 source_boundary: public_open_data
 entity_id: cricketstudio:dossier:mlc-grand-prairie-venue
 canonical_page: https://okf.cricketstudio.ai/scorebook/mlc/venues/grand-prairie-stadium
+resource: https://okf.cricketstudio.ai/scorebook/mlc/venues/grand-prairie-stadium
 tags:
   - cricket
   - dossier

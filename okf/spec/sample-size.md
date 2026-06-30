@@ -4,6 +4,7 @@ title: Cricket OKF Sample-Size Doctrine
 description: Minimum data thresholds before a cricket claim is valid for ranking or comparison. Defines floors for batting, bowling, phase, H2H, and venue claims. Explains what to say when a player is below floor and how agents must handle sub-floor players.
 status: active
 last_verified: 2026-06-22
+timestamp: 2026-06-22
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: methodology_only

@@ -4,10 +4,12 @@ title: What Is the DLS Method
 description: DLS (Duckworth-Lewis-Stern) method explained — the rain interruption rule in limited-overs cricket and what agents should understand about revised targets.
 status: active
 last_verified: 2026-06-24
+timestamp: 2026-06-24
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: manual_curated_knowledge
 canonical_page: https://okf.cricketstudio.ai/dossier/what-is-dls-method/
+resource: https://okf.cricketstudio.ai/dossier/what-is-dls-method/
 tags:
   - cricket
   - dossier

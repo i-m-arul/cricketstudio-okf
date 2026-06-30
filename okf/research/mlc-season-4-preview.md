@@ -5,6 +5,7 @@ description: Pre-season intelligence for MLC 2026 (Season 4). 115 registered pla
 resource: https://players.cricketstudio.ai/leagues/mlc
 status: active
 last_verified: 2026-06-18
+timestamp: 2026-06-18
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: public_open_data

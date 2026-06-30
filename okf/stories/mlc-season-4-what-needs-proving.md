@@ -12,10 +12,12 @@ tags:
   - methodology
 status: active
 last_verified: 2026-06-25
+timestamp: 2026-06-25
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: derived_claims_only
 canonical_page: https://okf.cricketstudio.ai/stories/mlc-season-4-what-needs-proving/
+resource: https://okf.cricketstudio.ai/stories/mlc-season-4-what-needs-proving/
 entity_id: cricketstudio:story:mlc-season-4-what-needs-proving
 dataset_version: 2026-06-11
 provenance:

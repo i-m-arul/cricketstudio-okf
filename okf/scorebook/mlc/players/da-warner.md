@@ -5,6 +5,7 @@ description: DA Warner — MLC batter profile. MLC 2025. Played for Seattle Orca
 resource: https://players.cricketstudio.ai/leagues/mlc/players/da-warner
 status: active
 last_verified: 2026-06-21
+timestamp: 2026-06-21
 license: CC-BY-3.0
 source_system: CricketStudio
 source_boundary: public_open_data

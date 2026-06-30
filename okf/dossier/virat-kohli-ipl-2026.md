@@ -12,10 +12,12 @@ tags:
   - Royal-Challengers-Bengaluru
 status: active
 last_verified: 2026-06-24
+timestamp: 2026-06-24
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: derived_claims_only
 canonical_page: https://players.cricketstudio.ai/players/virat-kohli
+resource: https://players.cricketstudio.ai/players/virat-kohli
 entity_id: cricketstudio:dossier:virat-kohli-ipl-2026
 dataset_version: "2026-06-11"
 provenance:

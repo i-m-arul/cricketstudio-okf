@@ -5,6 +5,7 @@ description: Balls bowled per wicket — how quickly a bowler takes wickets.
 resource: https://players.cricketstudio.ai/season/ipl-2026/bowling-strike-rate
 status: active
 last_verified: 2026-06-18
+timestamp: 2026-06-18
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: methodology_only

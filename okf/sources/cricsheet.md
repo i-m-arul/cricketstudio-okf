@@ -5,6 +5,7 @@ description: Open ball-by-ball cricket data source (CC BY 3.0) behind IPL histor
 resource: https://cricsheet.org
 status: active
 last_verified: 2026-06-18
+timestamp: 2026-06-18
 license: CC-BY-3.0
 source_system: Cricsheet
 source_boundary: public_open_data

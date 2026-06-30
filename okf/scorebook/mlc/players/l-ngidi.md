@@ -5,6 +5,7 @@ description: L Ngidi — MLC bowler profile. MLC 2024. Played for Seattle Orcas.
 resource: https://players.cricketstudio.ai/leagues/mlc/players/l-ngidi
 status: active
 last_verified: 2026-06-21
+timestamp: 2026-06-21
 license: CC-BY-3.0
 source_system: CricketStudio
 source_boundary: public_open_data

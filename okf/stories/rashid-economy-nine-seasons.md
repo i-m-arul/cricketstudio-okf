@@ -13,10 +13,12 @@ tags:
   - evolution
 status: active
 last_verified: 2026-06-25
+timestamp: 2026-06-25
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: public_open_data
 canonical_page: https://okf.cricketstudio.ai/stories/rashid-economy-nine-seasons/
+resource: https://okf.cricketstudio.ai/stories/rashid-economy-nine-seasons/
 entity_id: cricketstudio:story:rashid-economy-nine-seasons
 dataset_version: 2026-06-11
 provenance:

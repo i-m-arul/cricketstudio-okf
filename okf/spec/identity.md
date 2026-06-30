@@ -4,6 +4,7 @@ title: Cricket OKF Entity Identity Rules
 description: How to uniquely and stably identify cricket entities in an OKF bundle. Defines slug conventions, alias handling, same-name player disambiguation, external ID fields, team name scoping, and venue disambiguation. Warns AI agents not to infer identity from name alone.
 status: active
 last_verified: 2026-06-22
+timestamp: 2026-06-22
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: methodology_only

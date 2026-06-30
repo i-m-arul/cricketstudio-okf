@@ -5,6 +5,7 @@ description: Los Angeles Knight Riders — MLC franchise. 21 matches played acro
 resource: https://players.cricketstudio.ai/leagues/mlc/teams/los-angeles-knight-riders
 status: active
 last_verified: 2026-06-21
+timestamp: 2026-06-21
 license: CC-BY-3.0
 source_system: CricketStudio
 source_boundary: public_open_data

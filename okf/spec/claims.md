@@ -4,6 +4,7 @@ title: Cricket OKF Claim Discipline
 description: How to make a verifiable cricket assertion in an OKF bundle. Defines what constitutes a valid cricket claim, the required scope elements, claim types, confidence levels, and citation behavior for humans and AI agents.
 status: active
 last_verified: 2026-06-22
+timestamp: 2026-06-22
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: methodology_only

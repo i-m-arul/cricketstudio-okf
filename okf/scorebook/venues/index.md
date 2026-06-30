@@ -4,10 +4,12 @@ title: Venues
 description: Index of cricket venues covered by the CricketStudio OKF bundle, organised by league.
 status: active
 last_verified: 2026-06-19
+timestamp: 2026-06-19
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: manual_curated_knowledge
 canonical_page: https://players.cricketstudio.ai/venues
+resource: https://players.cricketstudio.ai/venues
 tags:
   - cricket
   - venue

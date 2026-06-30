@@ -5,6 +5,7 @@ description: San Francisco Unicorns — MLC franchise. 25 matches played across 
 resource: https://players.cricketstudio.ai/leagues/mlc/teams/san-francisco-unicorns
 status: active
 last_verified: 2026-06-21
+timestamp: 2026-06-21
 license: CC-BY-3.0
 source_system: CricketStudio
 source_boundary: public_open_data

@@ -5,6 +5,7 @@ description: Share of runs scored in boundaries (fours and sixes) — a measure 
 resource: https://players.cricketstudio.ai/season/ipl-2026/boundary-percentage
 status: active
 last_verified: 2026-06-18
+timestamp: 2026-06-18
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: methodology_only

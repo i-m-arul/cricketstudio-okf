@@ -4,11 +4,13 @@ title: How has MLC player pool grown across seasons?
 description: Verified answer for MLC player pool growth by season. 83 players in 2023, 103 in 2024, 110 in 2025 — 166 unique players across all three seasons. Season 4 has 115 registered (pre-season).
 status: active
 last_verified: 2026-06-21
+timestamp: 2026-06-21
 license: CC-BY-3.0
 source_system: CricketStudio
 source_boundary: public_open_data
 entity_id: cricketstudio:dossier:mlc-player-pool-growth
 canonical_page: https://players.cricketstudio.ai/leagues/mlc
+resource: https://players.cricketstudio.ai/leagues/mlc
 tags:
   - cricket
   - dossier

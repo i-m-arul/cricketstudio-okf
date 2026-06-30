@@ -11,10 +11,12 @@ tags:
   - batting
 status: active
 last_verified: 2026-06-23
+timestamp: 2026-06-23
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: derived_claims_only
 canonical_page: https://okf.cricketstudio.ai/stories/mlc-powerplay-batters-nobody-talks-about/
+resource: https://okf.cricketstudio.ai/stories/mlc-powerplay-batters-nobody-talks-about/
 entity_id: cricketstudio:story:mlc-powerplay-batters-nobody-talks-about
 dataset_version: 2026-06-11
 provenance:

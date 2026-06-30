@@ -4,10 +4,12 @@ title: What Is a Super Over
 description: Super Over explained — the one-over tie-breaker in T20 cricket, IPL rules, and what agents should know about when it applies.
 status: active
 last_verified: 2026-06-24
+timestamp: 2026-06-24
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: manual_curated_knowledge
 canonical_page: https://okf.cricketstudio.ai/dossier/what-is-super-over/
+resource: https://okf.cricketstudio.ai/dossier/what-is-super-over/
 tags:
   - cricket
   - dossier

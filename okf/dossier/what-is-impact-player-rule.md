@@ -4,10 +4,12 @@ title: What Is the Impact Player Rule in IPL
 description: The IPL Impact Player Rule (introduced 2023) explained — what it does, how it affects stats, and why agents must disclose it when citing post-2023 data.
 status: active
 last_verified: 2026-06-24
+timestamp: 2026-06-24
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: manual_curated_knowledge
 canonical_page: https://okf.cricketstudio.ai/dossier/what-is-impact-player-rule/
+resource: https://okf.cricketstudio.ai/dossier/what-is-impact-player-rule/
 tags:
   - cricket
   - dossier

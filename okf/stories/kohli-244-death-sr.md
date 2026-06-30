@@ -12,10 +12,12 @@ tags:
   - records
 status: active
 last_verified: 2026-06-25
+timestamp: 2026-06-25
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: derived_claims_only
 canonical_page: https://okf.cricketstudio.ai/stories/kohli-244-death-sr/
+resource: https://okf.cricketstudio.ai/stories/kohli-244-death-sr/
 entity_id: cricketstudio:story:kohli-244-death-sr
 dataset_version: 2026-06-11
 provenance:

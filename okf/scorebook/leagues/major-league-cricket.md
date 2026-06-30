@@ -5,6 +5,7 @@ description: Canonical CricketStudio OKF entry for Major League Cricket (MLC), t
 resource: https://players.cricketstudio.ai/leagues/mlc
 status: active
 last_verified: 2026-06-18
+timestamp: 2026-06-18
 license: CC-BY-3.0
 source_system: CricketStudio
 source_boundary: public_open_data

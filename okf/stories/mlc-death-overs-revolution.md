@@ -12,10 +12,12 @@ tags:
   - bowling
 status: active
 last_verified: 2026-06-23
+timestamp: 2026-06-23
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: derived_claims_only
 canonical_page: https://okf.cricketstudio.ai/stories/mlc-death-overs-revolution/
+resource: https://okf.cricketstudio.ai/stories/mlc-death-overs-revolution/
 entity_id: cricketstudio:story:mlc-death-overs-revolution
 dataset_version: 2026-06-11
 provenance:

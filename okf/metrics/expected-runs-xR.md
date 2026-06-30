@@ -5,6 +5,7 @@ description: A delivery-level batting metric that estimates how many runs an ave
 resource: https://players.cricketstudio.ai
 status: active
 last_verified: 2026-06-29
+timestamp: 2026-06-29
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: methodology_only

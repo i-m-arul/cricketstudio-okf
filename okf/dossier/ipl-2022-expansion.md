@@ -4,10 +4,12 @@ title: IPL 2022 Expansion
 description: Why did IPL expand to 10 teams in 2022? Gujarat Titans and Lucknow Super Giants added — market strategy, franchise fees, and GT's debut-season title.
 status: active
 last_verified: 2026-06-24
+timestamp: 2026-06-24
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: manual_curated_knowledge
 canonical_page: https://okf.cricketstudio.ai/dossier/ipl-2022-expansion/
+resource: https://okf.cricketstudio.ai/dossier/ipl-2022-expansion/
 tags:
   - cricket
   - dossier

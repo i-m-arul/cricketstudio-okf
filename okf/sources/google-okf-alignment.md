@@ -4,6 +4,7 @@ title: Alignment with Google Open Knowledge Format v0.1
 description: How cricketstudio-okf maps to Google OKF v0.1. Documents field-level alignment between CricketStudio's extended frontmatter and Google's recommended fields, confirms conformance as a domain bundle, and explains which extensions are cricket-specific additions vs. base spec fields.
 status: active
 last_verified: 2026-06-22
+timestamp: 2026-06-22
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: methodology_only

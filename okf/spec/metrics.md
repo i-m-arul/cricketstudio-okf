@@ -4,6 +4,7 @@ title: Cricket OKF Metric Definition Standard
 description: What every cricket metric file in an OKF bundle must include. Defines required sections (formula, scope, sample-size floor, limitations), field conventions, and agent citation guidance. Compliant examples are the CricketStudio batting-strike-rate and bowling-economy metric files.
 status: active
 last_verified: 2026-06-22
+timestamp: 2026-06-22
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: methodology_only

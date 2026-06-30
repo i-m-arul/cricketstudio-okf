@@ -13,10 +13,12 @@ tags:
   - bowling
 status: active
 last_verified: 2026-06-25
+timestamp: 2026-06-25
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: public_open_data
 canonical_page: https://okf.cricketstudio.ai/stories/ipl-2008-vs-2026-eighteen-seasons/
+resource: https://okf.cricketstudio.ai/stories/ipl-2008-vs-2026-eighteen-seasons/
 entity_id: cricketstudio:story:ipl-2008-vs-2026-eighteen-seasons
 dataset_version: 2026-06-11
 provenance:

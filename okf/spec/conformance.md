@@ -4,6 +4,7 @@ title: Cricket OKF Conformance Levels
 description: Five conformance levels (0–4) for cricket OKF bundles. Defines what each level requires, how to self-certify, and what the CricketStudio OKF reference bundle achieves. Allows any cricket data provider to assess their own OKF compliance.
 status: active
 last_verified: 2026-06-22
+timestamp: 2026-06-22
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: methodology_only

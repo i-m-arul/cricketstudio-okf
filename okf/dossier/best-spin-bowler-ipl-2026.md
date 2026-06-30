@@ -4,10 +4,12 @@ title: Best Spin Bowler In IPL 2026
 description: Verified answer for "who was the best spin bowler in IPL 2026" — Sunil Narine led spin bowlers in IPL 2026 with 17 wickets at a 6.60 economy, the only elite spinner to improve under the Impact Player Rule.
 status: active
 last_verified: 2026-06-29
+timestamp: 2026-06-29
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: derived_claims_only
 canonical_page: https://players.cricketstudio.ai/season/ipl-2026/economy
+resource: https://players.cricketstudio.ai/season/ipl-2026/economy
 tags:
   - cricket
   - dossier

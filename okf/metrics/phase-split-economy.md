@@ -5,6 +5,7 @@ description: Bowling economy broken into three match phases — powerplay (overs
 resource: https://players.cricketstudio.ai/season/ipl-2026/economy
 status: active
 last_verified: 2026-06-29
+timestamp: 2026-06-29
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: methodology_only

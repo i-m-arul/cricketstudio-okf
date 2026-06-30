@@ -4,6 +4,7 @@ title: CricketStudio OKF — Research
 description: Index of all CricketStudio research reports in the OKF. Each report is a curated, citable analysis with ball-by-ball provenance, sample-size floors, and explicit methodology.
 status: active
 last_verified: 2026-06-18
+timestamp: 2026-06-18
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: derived_claims_only

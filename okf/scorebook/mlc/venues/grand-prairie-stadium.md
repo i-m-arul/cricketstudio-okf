@@ -5,6 +5,7 @@ description: CricketStudio OKF entry for Grand Prairie Stadium — MLC host venu
 resource: https://players.cricketstudio.ai/venues/grand-prairie-stadium
 status: active
 last_verified: 2026-06-21
+timestamp: 2026-06-21
 license: CC-BY-3.0
 source_system: CricketStudio
 source_boundary: public_open_data

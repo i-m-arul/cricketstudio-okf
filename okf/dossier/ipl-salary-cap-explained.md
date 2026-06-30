@@ -4,10 +4,12 @@ title: How Does the IPL Salary Cap and Auction Work?
 description: Verified answer for "how does ipl auction work salary cap rtm" — covers purse, retention, RTM, and foreign player rules under BCCI public framework.
 status: active
 last_verified: 2026-06-29
+timestamp: 2026-06-29
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: public_open_data
 canonical_page: https://cricketstudio.ai
+resource: https://cricketstudio.ai
 tags:
   - cricket
   - dossier

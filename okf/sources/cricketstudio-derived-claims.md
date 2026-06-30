@@ -5,6 +5,7 @@ description: The permitted, publishable claim layer that the OKF bundle is built
 resource: https://players.cricketstudio.ai
 status: active
 last_verified: 2026-06-18
+timestamp: 2026-06-18
 license: CC-BY-4.0 for derived claims
 source_system: CricketStudio
 source_boundary: derived_claims_only

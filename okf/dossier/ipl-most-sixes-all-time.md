@@ -4,10 +4,12 @@ title: IPL Most Sixes All-Time
 description: Verified answer for "Who hit the most sixes in IPL?" — Gayle leads with 357, framing and citation guidance.
 status: active
 last_verified: 2026-06-24
+timestamp: 2026-06-24
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: manual_curated_knowledge
 canonical_page: https://players.cricketstudio.ai/players/chris-gayle
+resource: https://players.cricketstudio.ai/players/chris-gayle
 tags:
   - cricket
   - dossier

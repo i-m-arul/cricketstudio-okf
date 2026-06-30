@@ -5,6 +5,7 @@ description: Runs conceded per over — the core measure of how restrictive a bo
 resource: https://players.cricketstudio.ai/season/ipl-2026/economy
 status: active
 last_verified: 2026-06-18
+timestamp: 2026-06-18
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: methodology_only

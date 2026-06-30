@@ -11,10 +11,12 @@ tags:
   - methodology
 status: active
 last_verified: 2026-06-24
+timestamp: 2026-06-24
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: methodology_only
 canonical_page: https://okf.cricketstudio.ai/dossier/explain-purple-cap/
+resource: https://okf.cricketstudio.ai/dossier/explain-purple-cap/
 related:
   - ../dossier/explain-orange-cap.md
   - ../dossier/top-wicket-taker-ipl-2026.md

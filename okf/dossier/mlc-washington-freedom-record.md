@@ -4,11 +4,13 @@ title: What is Washington Freedom's all-time MLC record?
 description: Verified answer for Washington Freedom all-time MLC record. 18 wins from 26 matches (69.2% win rate) across MLC 2023–2025. One Finals appearance (2025, runners-up).
 status: active
 last_verified: 2026-06-21
+timestamp: 2026-06-21
 license: CC-BY-3.0
 source_system: CricketStudio
 source_boundary: public_open_data
 entity_id: cricketstudio:dossier:mlc-washington-freedom-record
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/teams/washington-freedom
+resource: https://players.cricketstudio.ai/leagues/mlc/teams/washington-freedom
 tags:
   - cricket
   - dossier

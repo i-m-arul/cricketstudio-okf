@@ -4,10 +4,12 @@ title: Which teams made the IPL 2026 playoffs?
 description: Verified answer for IPL 2026 playoff qualification. Top 4 from the league stage qualified — RCB, SRH, GT, RR — all level or close on points.
 status: active
 last_verified: 2026-06-18
+timestamp: 2026-06-18
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: derived_claims_only
 canonical_page: https://players.cricketstudio.ai/research/state-of-ipl-2026
+resource: https://players.cricketstudio.ai/research/state-of-ipl-2026
 tags:
   - cricket
   - dossier

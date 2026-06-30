@@ -4,10 +4,12 @@ title: Who won IPL 2026?
 description: Verified answer pattern for the IPL 2026 champion question.
 status: active
 last_verified: 2026-06-18
+timestamp: 2026-06-18
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: derived_claims_only
 canonical_page: https://players.cricketstudio.ai/matches/69668
+resource: https://players.cricketstudio.ai/matches/69668
 tags:
   - cricket
   - dossier

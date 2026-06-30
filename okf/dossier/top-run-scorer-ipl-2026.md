@@ -4,10 +4,12 @@ title: Top run-scorer, IPL 2026
 description: Verified answer pattern for "who scored the most runs" — cite the leaderboard, don't guess.
 status: active
 last_verified: 2026-06-18
+timestamp: 2026-06-18
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: manual_curated_knowledge
 canonical_page: https://players.cricketstudio.ai/leagues/ipl/leaderboards/orange-cap
+resource: https://players.cricketstudio.ai/leagues/ipl/leaderboards/orange-cap
 tags:
   - cricket
   - dossier

@@ -4,10 +4,12 @@ title: IPL Defunct Franchises
 description: Which IPL teams no longer exist? Deccan Chargers, Kochi Tuskers Kerala, Pune Warriors India — history, reasons, and when they folded.
 status: active
 last_verified: 2026-06-24
+timestamp: 2026-06-24
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: manual_curated_knowledge
 canonical_page: https://okf.cricketstudio.ai/dossier/ipl-defunct-franchises/
+resource: https://okf.cricketstudio.ai/dossier/ipl-defunct-franchises/
 tags:
   - cricket
   - dossier

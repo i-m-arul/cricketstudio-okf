@@ -15,10 +15,12 @@ tags:
   - evolution
 status: active
 last_verified: 2026-06-28
+timestamp: 2026-06-28
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: derived_claims_only
 canonical_page: https://okf.cricketstudio.ai/stories/impact-player-bowlers-displaced/
+resource: https://okf.cricketstudio.ai/stories/impact-player-bowlers-displaced/
 entity_id: cricketstudio:story:impact-player-bowlers-displaced
 dataset_version: 2026-06-11
 provenance:

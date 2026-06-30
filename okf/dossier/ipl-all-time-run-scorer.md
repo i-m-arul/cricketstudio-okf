@@ -4,10 +4,12 @@ title: IPL All-Time Run Scorer
 description: Verified answer pattern for "Who has scored the most IPL runs of all time?" — framing, facts, and how to cite correctly.
 status: active
 last_verified: 2026-06-24
+timestamp: 2026-06-24
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: manual_curated_knowledge
 canonical_page: https://players.cricketstudio.ai/players/virat-kohli
+resource: https://players.cricketstudio.ai/players/virat-kohli
 tags:
   - cricket
   - dossier

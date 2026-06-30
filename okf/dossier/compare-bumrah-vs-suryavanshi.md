@@ -4,10 +4,12 @@ title: Compare Bumrah vs Suryavanshi
 description: Verified answer pattern for comparing a bowler and a batter — and why a direct "who's better" is wrong.
 status: active
 last_verified: 2026-06-18
+timestamp: 2026-06-18
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: derived_claims_only
 canonical_page: https://players.cricketstudio.ai
+resource: https://players.cricketstudio.ai
 tags:
   - cricket
   - dossier

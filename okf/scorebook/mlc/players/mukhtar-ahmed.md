@@ -5,6 +5,7 @@ description: Mukhtar Ahmed — MLC batter profile. MLC 2023, 2024 and 2025. Play
 resource: https://players.cricketstudio.ai/leagues/mlc/players/mukhtar-ahmed
 status: active
 last_verified: 2026-06-21
+timestamp: 2026-06-21
 license: CC-BY-3.0
 source_system: CricketStudio
 source_boundary: public_open_data

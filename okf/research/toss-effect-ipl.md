@@ -5,6 +5,7 @@ description: 18-season IPL toss analysis (2007/08–2025 + IPL 2026). Toss winne
 resource: https://players.cricketstudio.ai/research/toss-effect
 status: active
 last_verified: 2026-06-18
+timestamp: 2026-06-18
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: public_open_data

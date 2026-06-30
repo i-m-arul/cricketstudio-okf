@@ -5,6 +5,7 @@ description: Death overs (overs 16–20) analysis across MLC 2023–2025 (75 mat
 resource: https://players.cricketstudio.ai/research/death-overs-mlc
 status: active
 last_verified: 2026-06-18
+timestamp: 2026-06-18
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: public_open_data

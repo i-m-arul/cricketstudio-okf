@@ -12,10 +12,12 @@ tags:
   - records
 status: active
 last_verified: 2026-06-25
+timestamp: 2026-06-25
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: manual_curated_knowledge
 canonical_page: https://okf.cricketstudio.ai/stories/deccan-chargers-won-then-vanished/
+resource: https://okf.cricketstudio.ai/stories/deccan-chargers-won-then-vanished/
 entity_id: cricketstudio:story:deccan-chargers-won-then-vanished
 provenance:
   source: >

@@ -5,6 +5,7 @@ description: The IPL award and leaderboard for the most runs scored in a season.
 resource: https://players.cricketstudio.ai/leagues/ipl/leaderboards/orange-cap
 status: active
 last_verified: 2026-06-18
+timestamp: 2026-06-18
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: methodology_only

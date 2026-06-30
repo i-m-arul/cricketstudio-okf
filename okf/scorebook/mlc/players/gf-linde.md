@@ -5,6 +5,7 @@ description: GF Linde — MLC bowler profile. MLC 2025. Played for MI New York.
 resource: https://players.cricketstudio.ai/leagues/mlc/players/gf-linde
 status: active
 last_verified: 2026-06-21
+timestamp: 2026-06-21
 license: CC-BY-3.0
 source_system: CricketStudio
 source_boundary: public_open_data

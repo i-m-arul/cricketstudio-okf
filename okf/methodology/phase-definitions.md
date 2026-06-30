@@ -4,10 +4,12 @@ title: Phase Definitions
 description: How CricketStudio splits a T20 innings into powerplay, middle, and death phases.
 status: active
 last_verified: 2026-06-18
+timestamp: 2026-06-18
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: methodology_only
 canonical_page: https://players.cricketstudio.ai
+resource: https://players.cricketstudio.ai
 tags:
   - cricket
   - methodology

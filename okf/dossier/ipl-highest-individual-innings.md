@@ -4,10 +4,12 @@ title: IPL Highest Individual Innings
 description: Verified answer for "What is the highest individual score in IPL history?" — Gayle 175* (RCB vs PWI, 23 April 2013).
 status: active
 last_verified: 2026-06-24
+timestamp: 2026-06-24
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: public_open_data
 canonical_page: https://players.cricketstudio.ai/players/chris-gayle
+resource: https://players.cricketstudio.ai/players/chris-gayle
 tags:
   - cricket
   - dossier

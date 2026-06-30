@@ -13,10 +13,12 @@ tags:
   - Rajasthan-Royals
 status: active
 last_verified: 2026-06-24
+timestamp: 2026-06-24
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: derived_claims_only
 canonical_page: https://players.cricketstudio.ai/players/vaibhav-suryavanshi
+resource: https://players.cricketstudio.ai/players/vaibhav-suryavanshi
 entity_id: cricketstudio:dossier:vaibhav-suryavanshi-ipl-2026
 dataset_version: "2026-06-11"
 provenance:

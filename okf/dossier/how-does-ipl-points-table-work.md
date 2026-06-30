@@ -11,10 +11,12 @@ tags:
   - format
 status: active
 last_verified: 2026-06-24
+timestamp: 2026-06-24
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: methodology_only
 canonical_page: https://okf.cricketstudio.ai/dossier/how-does-ipl-points-table-work/
+resource: https://okf.cricketstudio.ai/dossier/how-does-ipl-points-table-work/
 related:
   - ../dossier/what-is-net-run-rate.md
   - ../dossier/ipl-2026-playoffs-teams.md

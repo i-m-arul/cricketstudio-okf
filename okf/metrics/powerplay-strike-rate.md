@@ -5,6 +5,7 @@ description: Batting strike rate restricted to the powerplay (overs 1–6).
 resource: https://players.cricketstudio.ai/season/ipl-2026/powerplay-strike-rate
 status: active
 last_verified: 2026-06-18
+timestamp: 2026-06-18
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: methodology_only

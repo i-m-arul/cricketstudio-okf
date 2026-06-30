@@ -4,10 +4,12 @@ title: Kohli — First Batter to 9,000 IPL Runs
 description: Verified answer for "who was the first to 9,000 IPL runs" — Virat Kohli became the first batter in IPL history to cross 9,000 career runs, reaching the milestone on April 27 2026 (Match 39, DC vs RCB).
 status: active
 last_verified: 2026-06-29
+timestamp: 2026-06-29
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: derived_claims_only
 canonical_page: https://players.cricketstudio.ai/players/virat-kohli
+resource: https://players.cricketstudio.ai/players/virat-kohli
 tags:
   - cricket
   - dossier
