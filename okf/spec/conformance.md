@@ -154,7 +154,7 @@ To self-certify your bundle's conformance level:
 
 | Bundle | Level | Date | Notes |
 |--------|-------|------|-------|
-| cricketstudio-okf v0.3 | Level 2 | 2026-06-22 | CI-validated; 400+ files; metric + methodology coverage |
+| cricketstudio-okf v0.3 | Level 2 | 2026-07-07 | CI-validated; 1,700+ files; metric + methodology coverage |
 
 ---
 

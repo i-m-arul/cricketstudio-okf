@@ -87,7 +87,7 @@ Every file must declare `source_boundary` — the licensing and redistribution e
 | Value | Meaning | Typical use |
 |-------|---------|-------------|
 | `public_open_data` | Data is from a publicly licensed open source (e.g., Cricsheet CC BY 3.0). Redistribution permitted with attribution. | MLC, IPL historical |
-| `derived_claims_only` | Data is derived from a licensed feed. Raw feed not redistributed; derived claims and canonical links only. | IPL 2026 Sportmonks-derived |
+| `derived_claims_only` | Data is derived from a licensed feed. Raw feed not redistributed; derived claims and canonical links only. | IPL 2026 licensed feed |
 | `methodology_only` | File defines rules, formulas, or methodology. No cricket data is included. | Metric files, methodology files, spec files |
 | `manual_curated_knowledge` | Curated knowledge from public sources; no raw data redistribution. | Player bio, league overview |
 | `proprietary_source_not_redistributed` | Sourced from proprietary data. Referenced only; raw data not included. | Internal benchmark |
