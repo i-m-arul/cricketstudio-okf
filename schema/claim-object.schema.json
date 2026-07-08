@@ -1,0 +1,80 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://okf.cricketstudio.ai/schema/claim-object.schema.json",
+  "title": "CricketStudio OKF Claim Object",
+  "description": "Schema for a single atomic claim in the CricketStudio claim ledger, served at https://players.cricketstudio.ai/claims.jsonl. Every claim traces to a ball-by-ball source with an explicit metric definition, sample size, and date window. Required for OKF Level 3 (Agent-Safe) conformance.",
+  "type": "object",
+  "required": ["id", "metric", "value", "period", "sampleSize", "computedAt", "headline", "provenance", "canonicalUrl"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^cs_claim_[a-z0-9_-]+$",
+      "description": "Stable permanent identifier for this claim. Format: cs_claim_{slug}_{metricId}. Never reused; append-only ledger."
+    },
+    "metric": {
+      "type": "string",
+      "description": "The OKF metric this claim uses. Must correspond to a metric defined in /metrics.json (players.cricketstudio.ai)."
+    },
+    "value": {
+      "type": ["string", "number", "null"],
+      "description": "The numeric or string result of the claim. Null when suppressed by sample-size floor."
+    },
+    "period": {
+      "type": ["string", "null"],
+      "description": "Human-readable date window for this claim (e.g. 'IPL 2026', 'last 5 matches', '2026-04-12 to 2026-06-01')."
+    },
+    "comparator": {
+      "type": ["string", "null"],
+      "description": "Optional rank or comparison context (e.g. '#1 among qualified bowlers', 'above league average')."
+    },
+    "sampleSize": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Number of deliveries or events backing this claim. Zero means the claim was suppressed by the sample-size floor."
+    },
+    "computedAt": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 UTC timestamp when this claim was computed from ball-by-ball data."
+    },
+    "headline": {
+      "type": ["string", "null"],
+      "description": "Atomic claim prose under 30 words. Follows the OKF atomic claim format: [Entity] [metric] [value] [comparator] [period]."
+    },
+    "context": {
+      "type": ["string", "null"],
+      "description": "Optional supporting sentence providing match or situational context for the claim."
+    },
+    "pillar": {
+      "type": ["string", "null"],
+      "enum": ["P1", "P2", "P3", "P4", "P5", null],
+      "description": "Content pillar assignment: P1=match recaps, P2=moments, P3=form & phase, P4=season comparatives, P5=notebook."
+    },
+    "provenance": {
+      "type": ["string", "null"],
+      "description": "Source attribution. Value: 'CricketStudio ball-by-ball aggregation' for all live data. See /trust-manifest.json for full provenance chain."
+    },
+    "canonicalUrl": {
+      "type": "string",
+      "format": "uri",
+      "description": "Stable canonical URL of the CricketStudio page where this claim appears. Permanent per URL doctrine (CLAUDE.md §4)."
+    }
+  },
+  "examples": [
+    {
+      "id": "cs_claim_jasprit-bumrah_bowling-economy",
+      "metric": "Bowling Economy Rate",
+      "value": 7.12,
+      "period": "IPL 2026",
+      "comparator": "#3 among qualified bowlers",
+      "sampleSize": 342,
+      "computedAt": "2026-06-02T10:00:00.000Z",
+      "headline": "Jasprit Bumrah conceded 7.12 runs per over in IPL 2026 (342 balls, #3 among qualified bowlers).",
+      "context": "Qualification floor: 15 balls bowled in phase.",
+      "pillar": "P4",
+      "provenance": "CricketStudio ball-by-ball aggregation",
+      "canonicalUrl": "https://players.cricketstudio.ai/players/jasprit-bumrah"
+    }
+  ]
+}

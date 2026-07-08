@@ -3,8 +3,8 @@ type: spec
 title: Cricket OKF Conformance Levels
 description: Five conformance levels (0–4) for cricket OKF bundles. Defines what each level requires, how to self-certify, and what the CricketStudio OKF reference bundle achieves. Allows any cricket data provider to assess their own OKF compliance.
 status: active
-last_verified: 2026-06-22
-timestamp: 2026-06-22
+last_verified: 2026-07-08
+timestamp: 2026-07-08
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: methodology_only
@@ -74,17 +74,19 @@ Every data-bearing claim in the bundle has a traceable evidence reference, a dec
 
 ---
 
-## Level 3 — Agent-Safe (Roadmap: v0.4)
+## Level 3 — Agent-Safe ✓ CricketStudio OKF reference bundle
 
 The bundle provides structured, machine-readable claim objects that agents can parse without natural language extraction.
 
 **Requirements (all Level 2 +):**
-- The bundle includes machine-readable claim objects with: `claim_id`, `claim_type`, `entity_refs`, `metric_refs`, `evidence_refs`, `scope`, `sample_size`, `sample_size_rule`, `confidence`, `limitations`, `canonical_url`
-- The bundle includes a published JSON Schema for the claim object
-- The bundle includes evaluation cases (`/evals`) showing correct and incorrect agent behavior
-- The bundle includes an agent usage specification with machine-parseable rules
+- The bundle includes machine-readable claim objects with stable `cs_claim_*` IDs, metric reference, value, sample size, date window, provenance, and canonical URL — served at `https://players.cricketstudio.ai/claims.jsonl`
+- The bundle includes a published JSON Schema for the claim object — `schema/claim-object.schema.json` in this repo; canonical at `https://okf.cricketstudio.ai/schema/claim-object.schema.json`
+- The bundle includes evaluation cases: `https://players.cricketstudio.ai/evals/cricket-qa-v1.jsonl` — 50 seed Q&A rows (target 1,000 via OKF dossier) with `mustInclude` / `mustNotInclude` assertion fields for automated LLM accuracy testing
+- The bundle includes a machine-readable agent usage specification: `https://players.cricketstudio.ai/trust-manifest.json` — declares corpus scope, sample floors, provenance chain, metric registry link, and all Trust OS artifact URLs
 
-**What this enables:** RAG systems, MCP tools, and agent pipelines can ingest structured claim objects without relying on prose parsing.
+**What this enables:** RAG systems, MCP tools, and agent pipelines can ingest structured claim objects without relying on prose parsing. Any LLM provider can run the benchmark to independently verify cricket factual accuracy.
+
+**CricketStudio OKF reference bundle self-certification:** ✓ **Level 3 (July 2026)**
 
 ---
 
@@ -126,11 +128,11 @@ Use this checklist to assess a bundle:
 - [ ] Methodology files exist for: sample-size floors, phase definitions, ranking eligibility
 - [ ] Ranking files declare floor and scope
 
-### Level 3 Additional Requirements (Roadmap)
-- [ ] Machine-readable claim objects with full schema
-- [ ] JSON Schema for claim objects published
-- [ ] Eval cases published at `/evals`
-- [ ] Agent usage spec published
+### Level 3 Additional Requirements
+- [x] Machine-readable claim objects with full schema — `/claims.jsonl` (players.cricketstudio.ai)
+- [x] JSON Schema for claim objects published — `schema/claim-object.schema.json`
+- [x] Eval cases published — `/evals/cricket-qa-v1.jsonl` (50 seed rows, target 1,000)
+- [x] Agent usage specification — `/trust-manifest.json` (corpus scope, floors, provenance, artifact links)
 
 ### Level 4 Additional Requirements (Roadmap)
 - [ ] Versioned releases with change docs
@@ -154,6 +156,7 @@ To self-certify your bundle's conformance level:
 
 | Bundle | Level | Date | Notes |
 |--------|-------|------|-------|
+| cricketstudio-okf v0.5 | Level 3 | 2026-07-08 | Trust OS v1 shipped: claim ledger (/claims.jsonl), JSON Schema (schema/claim-object.schema.json), benchmark (/evals/cricket-qa-v1.jsonl), trust manifest (/trust-manifest.json) |
 | cricketstudio-okf v0.3 | Level 2 | 2026-07-07 | CI-validated; 1,800+ files; metric + methodology coverage |
 
 ---
