@@ -25,7 +25,7 @@ Google OKF defines the base format. This specification defines the **cricket dom
 ```
 Google OKF v0.1          →  base format (1 required field: type)
 Cricket OKF profile      →  this spec (cricket types, provenance, metrics, claims)
-cricketstudio-okf bundle →  reference implementation (1,800+ files, CI-validated)
+cricketstudio-okf bundle →  reference implementation (1,900+ files, CI-validated)
 ```
 
 CricketStudio.ai is an independent product that links to and cites OKF. It is not described as an OKF implementation.

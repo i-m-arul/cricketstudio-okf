@@ -157,7 +157,7 @@ To self-certify your bundle's conformance level:
 | Bundle | Level | Date | Notes |
 |--------|-------|------|-------|
 | cricketstudio-okf v0.5 | Level 3 | 2026-07-08 | Trust OS v1 shipped: claim ledger (/claims.jsonl), JSON Schema (schema/claim-object.schema.json), benchmark (/evals/cricket-qa-v1.jsonl), trust manifest (/trust-manifest.json) |
-| cricketstudio-okf v0.3 | Level 2 | 2026-07-07 | CI-validated; 1,800+ files; metric + methodology coverage |
+| cricketstudio-okf v0.3 | Level 2 | 2026-07-07 | CI-validated; 1,900+ files; metric + methodology coverage |
 
 ---
 
