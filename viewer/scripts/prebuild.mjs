@@ -45,6 +45,8 @@ for (const filePath of files) {
       title: data.title,
       description: data.description || '',
       tags: data.tags || [],
+      confidence: data.provenance?.confidence || '',
+      canonical_page: data.canonical_page || '',
     })
   } catch {}
 }
