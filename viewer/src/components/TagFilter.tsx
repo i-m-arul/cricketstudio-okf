@@ -13,6 +13,7 @@ interface FileEntry {
   tags?: string[]
   canonical_page?: string
   source_boundary?: string
+  confidence?: string
 }
 
 interface Props {

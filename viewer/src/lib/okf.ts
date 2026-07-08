@@ -35,6 +35,7 @@ export interface OKFFile {
   tags?: string[]
   related?: string[]
   source_boundary?: string
+  confidence?: string
   last_verified?: string
   dataset_version?: string
   provenance?: Record<string, string>
@@ -142,6 +143,7 @@ export async function getAllFiles(): Promise<OKFFile[]> {
         tags: (data.tags || []).map(safeStr).filter(Boolean) as string[],
         related: (data.related || []).map(safeStr).filter(Boolean) as string[],
         source_boundary: safeStr(data.source_boundary),
+        confidence: safeStr(data.provenance?.confidence),
         last_verified: safeStr(data.last_verified),
         dataset_version: safeStr(data.dataset_version),
         provenance: data.provenance

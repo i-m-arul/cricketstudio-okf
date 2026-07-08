@@ -10,6 +10,7 @@ interface Props {
   tags?: string[]
   canonical_page?: string
   source_boundary?: string
+  confidence?: string
 }
 
 const TYPE_COLORS: Record<string, string> = {
@@ -26,9 +27,21 @@ const TYPE_COLORS: Record<string, string> = {
   source: 'bg-slate-700/40 text-slate-300 border-slate-600',
 }
 
-export default function OKFCard({ slug, urlPath, type, title, description, tags, canonical_page }: Props) {
+const CONF_STYLES: Record<string, { pill: string; dot: string }> = {
+  medium: {
+    pill: 'bg-amber-950/50 text-amber-400',
+    dot: 'bg-amber-400',
+  },
+  low: {
+    pill: 'bg-red-950/50 text-red-400',
+    dot: 'bg-red-400',
+  },
+}
+
+export default function OKFCard({ slug, urlPath, type, title, description, tags, canonical_page, confidence }: Props) {
   const colorClass = TYPE_COLORS[type] || 'bg-gray-800/40 text-gray-300 border-gray-700'
   const typeLabel = TYPE_LABELS[type] || type
+  const confStyle = type === 'dossier' && confidence && CONF_STYLES[confidence] ? CONF_STYLES[confidence] : null
 
   return (
     <Link
@@ -36,9 +49,17 @@ export default function OKFCard({ slug, urlPath, type, title, description, tags,
       className="group block bg-gray-900 border border-gray-800 rounded-lg p-4 hover:border-green-700 hover:bg-gray-800/50 transition-all"
     >
       <div className="flex items-start justify-between gap-2 mb-2">
-        <span className={`inline-flex text-xs font-medium px-2 py-0.5 rounded border ${colorClass}`}>
-          {typeLabel}
-        </span>
+        <div className="flex items-center gap-1.5 flex-wrap">
+          <span className={`inline-flex text-xs font-medium px-2 py-0.5 rounded border ${colorClass}`}>
+            {typeLabel}
+          </span>
+          {confStyle && (
+            <span className={`inline-flex items-center gap-1 text-xs font-medium px-1.5 py-0.5 rounded ${confStyle.pill}`}>
+              <span className={`w-1.5 h-1.5 rounded-full flex-shrink-0 ${confStyle.dot}`} aria-hidden="true" />
+              {confidence}
+            </span>
+          )}
+        </div>
         {canonical_page && (
           <span className="text-xs text-gray-600 group-hover:text-gray-400 transition-colors">↗ canonical</span>
         )}
