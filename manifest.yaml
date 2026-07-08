@@ -26,7 +26,7 @@ data_sources:
     attribution: Ball-by-ball data from Cricsheet (https://cricsheet.org), CC BY 3.0.
 
 counts:
-  dossier: 491
+  dossier: 533
   leaderboard: 47
   league: 2
   match: 1
