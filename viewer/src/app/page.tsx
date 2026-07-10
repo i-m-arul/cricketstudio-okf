@@ -69,12 +69,15 @@ export default async function HomePage() {
   const allFiles = await getAllFiles()
   const nonIndex = allFiles.filter((f) => !f.slug.endsWith('/index') && f.slug !== 'index')
 
+  const SCOREBOOK_TYPES = ['player', 'team', 'venue', 'league', 'season', 'match', 'record']
   const counts = {
-    total: nonIndex.length,
-    metrics: nonIndex.filter((f) => f.type === 'metric').length,
-    examples: nonIndex.filter((f) => f.type === 'dossier').length,
+    scorebook: nonIndex.filter((f) => SCOREBOOK_TYPES.includes(f.type ?? '')).length,
+    dossier: nonIndex.filter((f) => f.type === 'dossier').length,
     research: nonIndex.filter((f) => f.type === 'research').length,
+    journeys: nonIndex.filter((f) => f.type === 'story').length,
+    metrics: nonIndex.filter((f) => f.type === 'metric').length,
     methodology: nonIndex.filter((f) => f.type === 'methodology').length,
+    totalLabel: `${(Math.floor(nonIndex.length / 100) * 100).toLocaleString()}+`,
   }
 
   const featured = await getFilesByType('research')
@@ -135,9 +138,14 @@ export default async function HomePage() {
       />
       {/* Hero */}
       <section className="pt-10 pb-12 text-center">
-        <div className="inline-flex items-center gap-2 bg-green-900/20 border border-green-800 text-green-400 text-xs font-medium px-3 py-1 rounded-full mb-6">
-          <span className="w-1.5 h-1.5 bg-green-400 rounded-full" />
-          v0.5 · Open
+        <div className="flex flex-wrap justify-center gap-2 mb-6">
+          <div className="inline-flex items-center gap-2 bg-green-900/20 border border-green-800 text-green-400 text-xs font-medium px-3 py-1 rounded-full">
+            <span className="w-1.5 h-1.5 bg-green-400 rounded-full" />
+            v0.5 · Open
+          </div>
+          <div className="inline-flex items-center gap-2 bg-gray-900 border border-gray-700 text-gray-400 text-xs font-medium px-3 py-1 rounded-full">
+            {counts.totalLabel} files
+          </div>
         </div>
         <h1 className="text-4xl md:text-5xl font-bold text-white mb-3 tracking-tight">
           Open Knowledge Framework<br />for Cricket Data
@@ -174,13 +182,14 @@ export default async function HomePage() {
       </section>
 
       {/* Stats */}
-      <section className="grid grid-cols-2 sm:grid-cols-5 gap-3 mb-12">
+      <section className="grid grid-cols-3 sm:grid-cols-6 gap-3 mb-12">
         {[
-          { label: 'Total files', value: counts.total, href: '/scorebook/' },
+          { label: 'Scorebook', value: counts.scorebook, href: '/scorebook/' },
+          { label: 'Dossier', value: counts.dossier, href: '/dossier/' },
+          { label: 'Research', value: counts.research, href: '/research/' },
+          { label: 'Journeys', value: counts.journeys, href: '/stories/' },
           { label: 'Metrics', value: counts.metrics, href: '/metrics/' },
           { label: 'Methodology', value: counts.methodology, href: '/methodology/' },
-          { label: 'Research', value: counts.research, href: '/research/' },
-          { label: 'Dossier', value: counts.examples, href: '/dossier/' },
         ].map((stat) => (
           <Link key={stat.label} href={stat.href} className="bg-gray-900 border border-gray-800 rounded-lg p-4 text-center hover:border-green-700 hover:bg-gray-800/50 transition-all">
             <div className="text-2xl font-bold text-green-400">{stat.value}</div>
@@ -229,9 +238,9 @@ export default async function HomePage() {
         <h2 className="font-semibold text-white mb-2">What is CricketStudio OKF?</h2>
         <p className="text-gray-400 text-sm mb-4">
           CricketStudio OKF is the Open Knowledge Framework for Cricket Data — a versioned standard
-          and reference bundle for representing cricket knowledge with formulas, scope, provenance,
-          and canonical links. Built on Google OKF v0.1. Every file is readable by humans and
-          parseable by tools. No invented facts, no raw data dumps.
+          and reference bundle with {counts.totalLabel} CI-validated files covering cricket entities,
+          metrics, methodology, and research. Built on Google OKF v0.1. Every file is readable by
+          humans and parseable by tools. No invented facts, no raw data dumps.
         </p>
         <div className="flex gap-4 flex-wrap">
           <Link href="/about/" className="text-sm text-green-400 hover:underline">Full story →</Link>
