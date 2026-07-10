@@ -3,16 +3,35 @@ import { Tag } from 'lucide-react'
 
 export const metadata = {
   title: 'Cricket OKF Releases — CricketStudio OKF',
-  description: 'Version history for CricketStudio OKF. v0.1 — initial bundle; v0.2 — MLC enrichment; v0.3 — Cricket OKF Standards layer and Google OKF alignment.',
+  description: 'Version history for CricketStudio OKF. v0.5 — Trust OS v1, Level 3 Agent-Safe; v0.3 — Cricket OKF Standards layer; v0.2 — MLC enrichment; v0.1 — initial bundle.',
 }
 
 const releases = [
+  {
+    version: 'v0.5',
+    date: '2026-07-08',
+    slug: 'releases/v0.5',
+    title: 'Trust OS v1 — Agent-Safe',
+    status: 'current',
+    conformance: 'Level 3 — Agent-Safe',
+    summary: 'Adds Trust OS v1: machine-readable claim ledger, JSON Schema, 1,000-row eval benchmark, and trust manifest. Self-certified Level 3 (Agent-Safe) 2026-07-08. 2,200+ files total.',
+    highlights: [
+      '/claims.jsonl — machine-readable claim ledger (Trust OS v1)',
+      'schema/claim-object.schema.json — JSON Schema for claim objects',
+      '/evals/cricket-qa-v1.jsonl — 1,000-row eval benchmark',
+      '/trust-manifest.json — machine-readable trust declaration',
+      '6 adversarially verified dossier files (3-vote majority per claim)',
+      '4 advanced metric files: xR, xW, win-probability, fantasy-cricket-SR',
+      'Per-page OG images (135 unique), FAQPage/BreadcrumbList/Article JSON-LD',
+      '.well-known/ai-plugin.json — OpenAI plugin manifest for agent discovery',
+    ],
+  },
   {
     version: 'v0.3',
     date: '2026-06-22',
     slug: 'releases/v0.3',
     title: 'Cricket OKF Standards Layer',
-    status: 'current',
+    status: 'previous',
     conformance: 'Level 2 — Evidence-Backed',
     summary: 'Adds the formal Cricket OKF specification (/spec), conformance levels, releases, Google OKF alignment, and a standalone contribution bundle for GoogleCloudPlatform/knowledge-catalog.',
     highlights: [
@@ -88,8 +107,7 @@ export default function ReleasesPage() {
       {/* Roadmap note */}
       <div className="bg-gray-900 border border-gray-700 rounded-xl p-4 mb-8 text-sm text-gray-400">
         <strong className="text-gray-200">Roadmap:</strong>{' '}
-        v0.4 — Machine-readable claim objects (Level 3 Agent-Safe) ·
-        v1.0 — Auditable standard with versioned schema, conformance reports, and eval results (Level 4)
+        v1.0 — Auditable standard with versioned schema, automated conformance reports, and certified eval results (Level 4 target)
       </div>
 
       {/* Releases */}

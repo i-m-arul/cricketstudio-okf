@@ -176,6 +176,27 @@ def _rules(m: dict) -> list:
             ],
             f"okf/releases/v{pv}.md -> Conformance Level: {lf}",
         ),
+        # ── viewer/src/app/spec/page.tsx  ────────────────────────────────
+        (
+            ROOT / "viewer" / "src" / "app" / "spec" / "page.tsx",
+            [
+                # Link text inside conformance link: >Level N (Name)</Link>
+                (r'(<Link href="/conformance/"[^>]*>)Level \d+ \([A-Za-z-]+\)(</Link>)',
+                 rf'\g<1>{lp}\g<2>'),
+                # Layer diagram sub-label: "N,N00+ files, CI-validated, Level N (Name)"
+                (r"(\d[\d,]+\+) files, CI-validated, Level \d+ \([A-Za-z-]+\)",
+                 rf"{cl} files, CI-validated, {lp}"),
+            ],
+            f"viewer/src/app/spec/page.tsx -> {lp}, {cl}",
+        ),
+        # ── viewer/src/app/search/page.tsx  ──────────────────────────────
+        (
+            ROOT / "viewer" / "src" / "app" / "search" / "page.tsx",
+            [
+                (r"self-certified Level \d+ \([A-Za-z-]+\)", f"self-certified {lp}"),
+            ],
+            f"viewer/src/app/search/page.tsx -> {lp}",
+        ),
     ]
     return rules
 

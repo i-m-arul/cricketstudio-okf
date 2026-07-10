@@ -31,7 +31,7 @@ export default async function SearchPage() {
     { label: 'Dossier', href: '/dossier/', desc: `${byType.dossier ?? 0} verified Q&A patterns for agents and analysts` },
     { label: 'Journeys', href: '/stories/', desc: `${byType.story ?? 0} cricket stories built on provenance-backed OKF data` },
     { label: 'Scorebook', href: '/scorebook/', desc: 'Players, teams, leagues, seasons, venues, matches' },
-    { label: 'Conformance', href: '/conformance/', desc: 'Level 0–4 checklist — self-certified Level 2 (Evidence-Backed)' },
+    { label: 'Conformance', href: '/conformance/', desc: 'Level 0–4 checklist — self-certified Level 3 (Agent-Safe)' },
     { label: 'Agent guide', href: '/agents/', desc: 'Use OKF with ChatGPT, Claude, Gemini, or RAG pipelines' },
   ]
 
