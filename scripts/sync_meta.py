@@ -205,6 +205,14 @@ def _rules(m: dict) -> list:
             ],
             f"viewer/src/app/page.tsx -> v{pv} badge",
         ),
+        # ── viewer/src/components/Footer.tsx (footer version + level)  ───
+        (
+            ROOT / "viewer" / "src" / "components" / "Footer.tsx",
+            [
+                (r"OKF v\d+\.\d+ · Level \d+ \([A-Za-z-]+\)", f"OKF v{pv} · {lp}"),
+            ],
+            f"viewer/src/components/Footer.tsx -> OKF v{pv} · {lp}",
+        ),
     ]
     return rules
 
