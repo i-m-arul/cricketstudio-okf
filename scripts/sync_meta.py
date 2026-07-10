@@ -197,6 +197,14 @@ def _rules(m: dict) -> list:
             ],
             f"viewer/src/app/search/page.tsx -> {lp}",
         ),
+        # ── viewer/src/app/page.tsx (homepage badge)  ────────────────────
+        (
+            ROOT / "viewer" / "src" / "app" / "page.tsx",
+            [
+                (r"v\d+\.\d+ · Open", f"v{pv} · Open"),
+            ],
+            f"viewer/src/app/page.tsx -> v{pv} badge",
+        ),
     ]
     return rules
 
