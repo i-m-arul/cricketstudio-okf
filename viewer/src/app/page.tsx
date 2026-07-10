@@ -77,7 +77,7 @@ export default async function HomePage() {
     journeys: nonIndex.filter((f) => f.type === 'story').length,
     metrics: nonIndex.filter((f) => f.type === 'metric').length,
     methodology: nonIndex.filter((f) => f.type === 'methodology').length,
-    totalLabel: `${(Math.floor(nonIndex.length / 100) * 100).toLocaleString()}+`,
+    totalLabel: `${(Math.floor(allFiles.length / 100) * 100).toLocaleString()}+`,
   }
 
   const featured = await getFilesByType('research')
@@ -182,7 +182,7 @@ export default async function HomePage() {
       </section>
 
       {/* Credentials bar */}
-      <div className="flex flex-wrap justify-center items-center gap-x-5 gap-y-2 text-xs text-gray-500 mb-10">
+      <div className="flex flex-col sm:flex-row sm:flex-wrap justify-center items-center gap-y-1.5 sm:gap-x-5 sm:gap-y-2 text-xs text-gray-500 mb-10">
         <Link href="/conformance/" className="flex items-center gap-1.5 hover:text-green-400 transition-colors">
           <span className="text-green-500 font-semibold">✓</span>
           <span>Self-certified <span className="text-gray-300">Level 3 (Agent-Safe)</span></span>
@@ -194,7 +194,7 @@ export default async function HomePage() {
       </div>
 
       {/* Stats */}
-      <section className="grid grid-cols-3 sm:grid-cols-6 gap-3 mb-12">
+      <section className="grid grid-cols-3 sm:grid-cols-6 gap-2 sm:gap-3 mb-12">
         {[
           { label: 'Scorebook', value: counts.scorebook, href: '/scorebook/' },
           { label: 'Dossier', value: counts.dossier, href: '/dossier/' },
@@ -203,9 +203,9 @@ export default async function HomePage() {
           { label: 'Metrics', value: counts.metrics, href: '/metrics/' },
           { label: 'Methodology', value: counts.methodology, href: '/methodology/' },
         ].map((stat) => (
-          <Link key={stat.label} href={stat.href} className="bg-gray-900 border border-gray-800 rounded-lg p-4 text-center hover:border-green-700 hover:bg-gray-800/50 transition-all">
-            <div className="text-2xl font-bold text-green-400">{stat.value}</div>
-            <div className="text-xs text-gray-500 mt-0.5">{stat.label}</div>
+          <Link key={stat.label} href={stat.href} className="bg-gray-900 border border-gray-800 rounded-lg p-2 sm:p-4 text-center hover:border-green-700 hover:bg-gray-800/50 transition-all">
+            <div className="text-xl sm:text-2xl font-bold text-green-400">{stat.value}</div>
+            <div className="text-[10px] sm:text-xs text-gray-500 mt-0.5 leading-tight">{stat.label}</div>
           </Link>
         ))}
       </section>
