@@ -68,7 +68,7 @@ This specification does **not** cover:
 
 ## Version
 
-This is **Cricket OKF Profile v0.3**. See [/releases](/releases) for the version history.
+This is **Cricket OKF Profile v0.5**. See [/releases](/releases) for the version history.
 
 ---
 
@@ -78,7 +78,7 @@ Google OKF v0.1 requires only one field: `type`. All other fields are optional.
 
 This cricket profile extends Google OKF with domain-specific required fields (`source_boundary`, `license`, `last_verified`) and a richer provenance model. Extensions use additional YAML keys, which Google OKF explicitly permits: *"Producers MAY include any additional keys."*
 
-The `cricketstudio-okf` bundle is a conformant Google OKF domain bundle at Level 2 (Evidence-Backed). See [conformance](./conformance.md).
+The `cricketstudio-okf` bundle is a conformant Google OKF domain bundle at Level 3 (Agent-Safe). See [conformance](./conformance.md).
 
 ---
 

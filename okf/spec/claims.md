@@ -123,7 +123,7 @@ Limitations:
 
 ## Claim Pattern in OKF Files
 
-OKF files do not use a separate machine-readable claim object at the current conformance level (Level 2). Claims appear as verified assertions in the markdown body, backed by the file's `provenance` frontmatter.
+At Level 3 (Agent-Safe), the bundle ships machine-readable claim objects at `/claims.jsonl` (players.cricketstudio.ai) alongside the prose assertions in each OKF file. Claims in OKF files appear as verified assertions in the markdown body, backed by the file's `provenance` frontmatter — the `/claims.jsonl` ledger is the structured projection of the same claims for agent pipelines that need parseable objects without natural language extraction.
 
 The standard pattern (used in Dossier files):
 

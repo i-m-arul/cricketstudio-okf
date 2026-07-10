@@ -101,8 +101,8 @@ The contribution bundle is clean of CricketStudio-internal paths and prepared fo
 
 - Format: Google OKF v0.1 (Markdown + YAML frontmatter, open `type`)
 - Domain: Cricket
-- Profile: Cricket OKF v0.3
-- Conformance level: Level 2 — Evidence-Backed (per [spec/conformance](../spec/conformance.md))
+- Profile: Cricket OKF v0.5
+- Conformance level: Level 3 — Agent-Safe (per [spec/conformance](../spec/conformance.md))
 - CI validation: `python scripts/validate_okf.py && pytest` on every PR
 
 ---
