@@ -181,6 +181,18 @@ export default async function HomePage() {
         </div>
       </section>
 
+      {/* Credentials bar */}
+      <div className="flex flex-wrap justify-center items-center gap-x-5 gap-y-2 text-xs text-gray-500 mb-10">
+        <Link href="/conformance/" className="flex items-center gap-1.5 hover:text-green-400 transition-colors">
+          <span className="text-green-500 font-semibold">✓</span>
+          <span>Self-certified <span className="text-gray-300">Level 3 (Agent-Safe)</span></span>
+        </Link>
+        <span className="text-gray-700 hidden sm:inline">·</span>
+        <Link href="/releases/v0.5/" className="hover:text-green-400 transition-colors">Trust OS v1</Link>
+        <span className="text-gray-700 hidden sm:inline">·</span>
+        <Link href="/spec/conformance/" className="hover:text-green-400 transition-colors">CC-BY-4.0</Link>
+      </div>
+
       {/* Stats */}
       <section className="grid grid-cols-3 sm:grid-cols-6 gap-3 mb-12">
         {[
