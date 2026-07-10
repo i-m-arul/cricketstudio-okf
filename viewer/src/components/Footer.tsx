@@ -80,7 +80,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="border-t border-gray-800 pt-6 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-gray-600">
           <span>
-            <span className="text-green-500 font-semibold">CricketStudio</span> OKF v0.4 · Level 2 (Evidence-Backed)
+            <span className="text-green-500 font-semibold">CricketStudio</span> OKF v0.4 · Level 3 (Agent-Safe)
           </span>
           <span>
             CC-BY-4.0 · IPL historical &amp; MLC data via{' '}

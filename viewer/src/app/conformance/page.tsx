@@ -3,7 +3,7 @@ import { CheckCircle2, Circle, Clock } from 'lucide-react'
 
 export const metadata = {
   title: 'Cricket OKF Conformance Levels — CricketStudio OKF',
-  description: 'Five conformance levels (0–4) for cricket OKF bundles. What each level requires, how to self-certify, and the CricketStudio OKF reference bundle self-certification at Level 2 — Evidence-Backed.',
+  description: 'Five conformance levels (0–4) for cricket OKF bundles. What each level requires, how to self-certify, and the CricketStudio OKF reference bundle self-certification at Level 3 — Agent-Safe.',
 }
 
 const levels = [
@@ -43,7 +43,6 @@ const levels = [
       'Ranking files declare floor and scope',
     ],
     status: 'achieved',
-    selfCert: true,
   },
   {
     level: 3,
@@ -55,8 +54,8 @@ const levels = [
       'Evaluation cases published at /evals',
       'Agent usage spec with machine-parseable rules',
     ],
-    status: 'roadmap',
-    roadmapVersion: 'v0.4',
+    status: 'achieved',
+    selfCert: true,
   },
   {
     level: 4,
@@ -106,7 +105,7 @@ export default function ConformancePage() {
             <h2 className="font-semibold text-green-300 mb-1">CricketStudio OKF self-certification</h2>
             <p className="text-green-200/80 text-sm">
               The <span className="font-mono text-green-300">cricketstudio-okf</span> reference bundle
-              is self-certified at <strong className="text-green-300">Level 2 — Evidence-Backed</strong> (June 2026).
+              is self-certified at <strong className="text-green-300">Level 3 — Agent-Safe</strong> (July 2026).
               CI-validated on every PR via <span className="font-mono text-xs">python scripts/validate_okf.py &amp;&amp; pytest</span>.
             </p>
           </div>

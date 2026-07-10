@@ -19,7 +19,7 @@ standard and reference bundle built on [Google OKF v0.1](https://github.com/Goog
 It defines a **cricket type vocabulary**, **provenance convention**, **metric definition
 standard**, **claim discipline**, **entity identity rules**, and **sample-size doctrine**
 — and publishes a curated catalog of IPL and MLC cricket knowledge as the reference
-implementation. Self-certified [Level 2 (Evidence-Backed)](https://okf.cricketstudio.ai/conformance).
+implementation. Self-certified [Level 3 (Agent-Safe)](https://okf.cricketstudio.ai/conformance).
 
 ```yaml
 # Every OKF file looks like this
@@ -154,7 +154,7 @@ Full terms: [`LICENSE.md`](LICENSE.md) · [`DATA_LICENSE_BOUNDARIES.md`](DATA_LI
 
 ## Status
 
-**v0.4** — Journeys / Stories Layer: 430+ files · 8 spec documents · 10 metrics · 6 methodology · 8 research · 37 dossier · **5 cricket stories** · Level 2 conformance · 0 invented facts.  
+**v0.4** — Journeys / Stories Layer: 430+ files · 8 spec documents · 10 metrics · 6 methodology · 8 research · 37 dossier · **5 cricket stories** · Level 3 conformance · 0 invented facts.  
 See [`CHANGELOG.md`](CHANGELOG.md) for what's in this release.
 
 ## Viewer (`okf.cricketstudio.ai`)
