@@ -4,9 +4,10 @@ pre_ship.py — mandatory gate before every OKF commit.
 
 Runs:
   1. Vendor-name leak scan (Sportmonks must not appear in any committed .md file)
-  2. update_counts.py  → syncs manifest.yaml + llms.txt
-  3. Spec-file count sync  → okf/spec/index.md + okf/spec/conformance.md
-  4. validate_okf.py  → 0 errors required
+  2. update_counts.py  → syncs manifest.yaml counts block + llms.txt
+  3. sync_meta.py      → syncs level/profile-version/count to all consumer files
+  4. Spec-file count sync  → okf/spec/index.md + okf/spec/conformance.md (legacy guard)
+  5. validate_okf.py  → 0 errors required
 
 Exit 0 = ship. Exit 1 = block.
 
@@ -77,7 +78,7 @@ def step_vendor_scan(check_only: bool) -> bool:
 
 def step_update_counts(check_only: bool) -> bool:
     """Run update_counts.py to sync manifest + llms.txt."""
-    print("\n[2/4] Syncing counts (manifest.yaml + llms.txt)...")
+    print("\n[2/5] Syncing counts (manifest.yaml + llms.txt)...")
     flag = ["--check"] if check_only else []
     result = subprocess.run(
         [sys.executable, str(ROOT / "scripts" / "update_counts.py")] + flag,
@@ -94,9 +95,29 @@ def step_update_counts(check_only: bool) -> bool:
     return True
 
 
+def step_sync_meta(check_only: bool) -> bool:
+    """Run sync_meta.py to propagate level/version/count to all consumer files."""
+    print("\n[3/5] Syncing metadata (level, profile version, file count)...")
+    flag = ["--check"] if check_only else []
+    result = subprocess.run(
+        [sys.executable, str(ROOT / "scripts" / "sync_meta.py")] + flag,
+        capture_output=True,
+        text=True,
+    )
+    output = (result.stdout + result.stderr).strip()
+    for line in output.splitlines():
+        print(f"  {line}")
+    if result.returncode != 0:
+        print("  FAIL — consumer files are stale; run `python scripts/sync_meta.py`")
+        return False
+    print("  PASS")
+    return True
+
+
 def step_sync_spec_files(check_only: bool) -> bool:
-    """Sync the total file count into spec/index.md and spec/conformance.md."""
-    print("\n[3/4] Syncing spec file counts...")
+    """Legacy guard: verify spec/index.md and spec/conformance.md have the current file count.
+    sync_meta.py (step 3) already handles this — this step catches any pattern mismatches."""
+    print("\n[4/5] Verifying spec file counts...")
     total = _count_okf_files()
     if total < TOTAL_FILE_THRESHOLD:
         print(f"  WARN — only {total} files; expected >{TOTAL_FILE_THRESHOLD}. Skipping spec sync.")
@@ -152,7 +173,7 @@ def step_sync_spec_files(check_only: bool) -> bool:
 
 def step_validate(check_only: bool) -> bool:
     """Run validate_okf.py and require 0 errors."""
-    print("\n[4/4] Running OKF validator...")
+    print("\n[5/5] Running OKF validator...")
     result = subprocess.run(
         [sys.executable, str(ROOT / "scripts" / "validate_okf.py")],
         capture_output=True,
@@ -186,6 +207,7 @@ def main():
     results = [
         step_vendor_scan(args.check),
         step_update_counts(args.check),
+        step_sync_meta(args.check),
         step_sync_spec_files(args.check),
         step_validate(args.check),
     ]

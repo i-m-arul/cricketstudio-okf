@@ -13,6 +13,8 @@ repository: https://github.com/i-m-arul/cricketstudio-okf
 okf_root: okf
 schema: schema/frontmatter.schema.json
 dataset_version: "2026-07-08"
+conformance_level: 3
+conformance_level_name: "Agent-Safe"
 source_systems:
   - CricketStudio
 
