@@ -104,7 +104,9 @@ writeFileSync(LLMS_FULL_PATH, sections.join('\n'))
 console.log(`llms-full.txt: ${sections.length - 1} entries written to public/llms-full.txt`)
 
 // ── OG image generation ───────────────────────────────────────────────────────
-const OG_TYPES = new Set(['story', 'dossier', 'research', 'metric'])
+// 'dossier' excluded: 2,300+ dossier items have no individual routes (/dossier/ is a
+// single index page), so generating a PNG per item wastes 4+ minutes of CI build time.
+const OG_TYPES = new Set(['story', 'research', 'metric'])
 const OG_OUT = join(process.cwd(), 'public', 'og-images')
 const FONT_DIR = join(process.cwd(), 'node_modules', 'geist', 'dist', 'fonts', 'geist-sans')
 const ogTargets = index.filter(f => OG_TYPES.has(f.type) && !f.slug.endsWith('/index'))
