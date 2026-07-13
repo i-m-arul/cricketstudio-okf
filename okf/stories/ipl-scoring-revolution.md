@@ -29,7 +29,7 @@ provenance:
     Pre-2023 era: 2008–2022 (15 seasons). Post-2023 era: 2023–2025 (3 seasons including
     Impact Player Rule). Averages are seasonal aggregates, not per-match calculations.
 related:
-  - ../dossier/what-is-impact-player-rule.md
+  - ../dossier/what-is-impact-player-rule-ipl.md
   - ../dossier/how-has-ipl-batting-changed.md
   - ../metrics/batting-strike-rate.md
 ---
@@ -79,6 +79,6 @@ Pre-2023 and post-2023 IPL batting statistics are not directly comparable for pl
 
 ## Related Concepts
 
-- [What Is the Impact Player Rule](../dossier/what-is-impact-player-rule.md)
+- [What Is the Impact Player Rule](../dossier/what-is-impact-player-rule-ipl.md)
 - [How Has IPL Batting Changed](../dossier/how-has-ipl-batting-changed.md)
 - [Batting Strike Rate — metric definition](../metrics/batting-strike-rate.md)

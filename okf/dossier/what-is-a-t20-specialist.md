@@ -27,7 +27,7 @@ provenance:
   confidence: high
 related:
   - what-is-a-death-overs-bowler.md
-  - what-is-an-all-rounder-cricket.md
+  - what-is-an-all-rounder.md
   - what-is-bowling-economy-cricket.md
 ---
 

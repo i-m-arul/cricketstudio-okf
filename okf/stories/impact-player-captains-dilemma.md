@@ -35,7 +35,7 @@ provenance:
     the CricketStudio canonical match pages. All economy and scoring figures
     are from verified OKF dataset sources.
 related:
-  - ../dossier/what-is-impact-player-rule.md
+  - ../dossier/what-is-impact-player-rule-ipl.md
   - ../stories/impact-player-lineup-revolution.md
   - ../stories/impact-player-bowlers-displaced.md
   - ../stories/spin-bowling-after-impact-player.md
@@ -115,7 +115,7 @@ The batting sub/bowling sub split is structural inference from outcome data (sco
 
 ## Related Concepts
 
-- [What Is the Impact Player Rule](../dossier/what-is-impact-player-rule.md)
+- [What Is the Impact Player Rule](../dossier/what-is-impact-player-rule-ipl.md)
 - [The Rule That Quietly Rewrote the IPL Lineup](../stories/impact-player-lineup-revolution.md)
 - [The All-Rounder's Dilemma](../stories/impact-player-bowlers-displaced.md)
 - [Spin Bowling After the Impact Player Rule](../stories/spin-bowling-after-impact-player.md)

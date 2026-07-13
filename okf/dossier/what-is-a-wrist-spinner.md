@@ -28,7 +28,7 @@ provenance:
   confidence: high
 related:
   - ../dossier/what-is-spin-bowling-cricket.md
-  - ../dossier/what-is-a-googly.md
+  - ../dossier/what-is-a-googly-cricket.md
   - ../dossier/what-is-a-flipper-cricket.md
   - ../dossier/rashid-khan-ipl-2026-middle-overs.md
 ---
@@ -77,6 +77,6 @@ related:
 ## Related Concepts
 
 - [What is spin bowling](what-is-spin-bowling-cricket.md)
-- [What is a googly](what-is-a-googly.md)
+- [What is a googly](what-is-a-googly-cricket.md)
 - [What is a flipper](what-is-a-flipper-cricket.md)
 - [Rashid Khan IPL 2026 middle overs](rashid-khan-ipl-2026-middle-overs.md)

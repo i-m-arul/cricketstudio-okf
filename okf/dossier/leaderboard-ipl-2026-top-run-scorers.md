@@ -28,7 +28,7 @@ provenance:
   confidence: high
   snapshot: CricketStudio internal dataset (2026-06-11)
 related:
-  - ../dossier/ipl-2026-orange-cap-winner.md
+  - ../dossier/ipl-2026-orange-cap.md
   - ../dossier/vaibhav-suryavanshi-ipl-2026-full-season.md
   - ../dossier/shubman-gill-ipl-2026-season.md
   - ../dossier/virat-kohli-ipl-2026-season.md
@@ -86,6 +86,6 @@ related:
 
 ## Related Concepts
 
-- [Orange Cap IPL 2026](ipl-2026-orange-cap-winner.md)
+- [Orange Cap IPL 2026](ipl-2026-orange-cap.md)
 - [Batting average leaderboard IPL 2026](leaderboard-batting-average-ipl-2026.md)
 - [Strike rate leaderboard IPL 2026](leaderboard-strike-rate-batters-ipl-2026.md)

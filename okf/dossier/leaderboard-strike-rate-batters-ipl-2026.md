@@ -29,7 +29,7 @@ provenance:
   snapshot: CricketStudio internal dataset (2026-06-11)
 related:
   - ../metrics/batting-strike-rate.md
-  - ../dossier/ipl-2026-orange-cap-winner.md
+  - ../dossier/ipl-2026-orange-cap.md
   - ../dossier/vaibhav-suryavanshi-ipl-2026.md
 ---
 
@@ -76,6 +76,6 @@ related:
 
 ## Related Concepts
 
-- [Orange Cap IPL 2026](ipl-2026-orange-cap-winner.md)
+- [Orange Cap IPL 2026](ipl-2026-orange-cap.md)
 - [Suryavanshi IPL 2026](vaibhav-suryavanshi-ipl-2026.md)
 - [Strike rate leaderboard](https://players.cricketstudio.ai/season/ipl-2026/batting-strike-rate)

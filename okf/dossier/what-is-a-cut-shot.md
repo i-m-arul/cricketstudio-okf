@@ -26,7 +26,7 @@ provenance:
   source: CricketStudio methodology — cricket rules and terminology
   confidence: high
 related:
-  - ../dossier/what-is-a-bouncer.md
+  - ../dossier/what-is-a-bouncer-cricket.md
   - ../dossier/what-is-strike-rate-cricket.md
 ---
 
@@ -68,5 +68,5 @@ related:
 
 ## Related Concepts
 
-- [What is a bouncer](what-is-a-bouncer.md)
+- [What is a bouncer](what-is-a-bouncer-cricket.md)
 - [What is strike rate](what-is-strike-rate-cricket.md)

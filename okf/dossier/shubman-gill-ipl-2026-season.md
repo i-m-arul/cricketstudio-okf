@@ -28,7 +28,7 @@ provenance:
   snapshot: CricketStudio internal dataset (2026-06-11)
 related:
   - ../scorebook/players/shubman-gill.md
-  - ../dossier/ipl-2026-orange-cap-winner.md
+  - ../dossier/ipl-2026-orange-cap.md
   - ../dossier/shubman-gill-ipl-2026-powerplay.md
 ---
 
@@ -81,6 +81,6 @@ related:
 
 ## Related Concepts
 
-- [Orange Cap IPL 2026](ipl-2026-orange-cap-winner.md)
+- [Orange Cap IPL 2026](ipl-2026-orange-cap.md)
 - [Shubman Gill powerplay batting](shubman-gill-ipl-2026-powerplay.md)
 - [IPL 2026 final](ipl-2026-final-scorecard.md)

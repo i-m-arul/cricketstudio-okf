@@ -28,7 +28,7 @@ provenance:
   source: CricketStudio cricket methodology layer
   confidence: high
 related:
-  - what-is-run-rate-cricket.md
+  - what-is-a-run-rate-cricket.md
   - what-is-bowling-economy-cricket.md
   - what-are-cricket-phases.md
 ---
@@ -81,6 +81,6 @@ related:
 
 ## Related Concepts
 
-- [What is run rate cricket](what-is-run-rate-cricket.md)
+- [What is run rate cricket](what-is-a-run-rate-cricket.md)
 - [What is bowling economy cricket](what-is-bowling-economy-cricket.md)
 - [What are cricket phases](what-are-cricket-phases.md)

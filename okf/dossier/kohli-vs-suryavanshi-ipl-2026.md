@@ -30,7 +30,7 @@ provenance:
   confidence: high
   snapshot: CricketStudio internal dataset (2026-06-11)
 related:
-  - ../dossier/ipl-2026-orange-cap-winner.md
+  - ../dossier/ipl-2026-orange-cap.md
   - ../dossier/virat-kohli-ipl-2026-season.md
   - ../dossier/suryavanshi-ipl-2026-powerplay.md
 ---
@@ -92,6 +92,6 @@ related:
 
 ## Related Concepts
 
-- [Orange Cap IPL 2026](ipl-2026-orange-cap-winner.md)
+- [Orange Cap IPL 2026](ipl-2026-orange-cap.md)
 - [Kohli IPL 2026 season](virat-kohli-ipl-2026-season.md)
 - [Suryavanshi powerplay batting](suryavanshi-ipl-2026-powerplay.md)

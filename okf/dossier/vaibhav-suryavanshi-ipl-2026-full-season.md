@@ -29,7 +29,7 @@ provenance:
   snapshot: CricketStudio internal dataset (2026-06-11)
 related:
   - ../scorebook/players/vaibhav-suryavanshi.md
-  - ../dossier/ipl-2026-orange-cap-winner.md
+  - ../dossier/ipl-2026-orange-cap.md
   - ../dossier/ipl-2026-fastest-century.md
   - ../dossier/suryavanshi-ipl-2026-powerplay.md
   - ../dossier/ipl-2026-sixes-record.md
@@ -95,7 +95,7 @@ related:
 
 ## Related Concepts
 
-- [Orange Cap IPL 2026](ipl-2026-orange-cap-winner.md)
+- [Orange Cap IPL 2026](ipl-2026-orange-cap.md)
 - [Fastest century IPL 2026](ipl-2026-fastest-century.md)
 - [Suryavanshi powerplay batting](suryavanshi-ipl-2026-powerplay.md)
 - [Kohli vs Suryavanshi comparison](kohli-vs-suryavanshi-ipl-2026.md)

@@ -28,7 +28,7 @@ provenance:
   source: CricketStudio methodology — cricket rules and terminology
   confidence: high
 related:
-  - ../dossier/what-is-batting-average.md
+  - ../dossier/what-is-batting-average-cricket.md
   - ../dossier/what-is-strike-rate-cricket.md
 ---
 
@@ -71,6 +71,6 @@ related:
 
 ## Related Concepts
 
-- [What is batting average](what-is-batting-average.md)
+- [What is batting average](what-is-batting-average-cricket.md)
 - [What is strike rate](what-is-strike-rate-cricket.md)
-- [Suryavanshi IPL 2026 orange cap](ipl-2026-suryavanshi-orange-cap.md)
+- [Suryavanshi IPL 2026 orange cap](ipl-2026-orange-cap.md)

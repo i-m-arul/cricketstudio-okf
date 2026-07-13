@@ -27,7 +27,7 @@ provenance:
   source: CricketStudio methodology — cricket rules and terminology
   confidence: high
 related:
-  - ../dossier/what-is-a-slower-ball.md
+  - ../dossier/what-is-a-slower-ball-cricket.md
   - ../dossier/what-is-spin-bowling-cricket.md
 ---
 
@@ -73,5 +73,5 @@ related:
 
 ## Related Concepts
 
-- [What is a slower ball](what-is-a-slower-ball.md)
+- [What is a slower ball](what-is-a-slower-ball-cricket.md)
 - [What is spin bowling](what-is-spin-bowling-cricket.md)

@@ -26,7 +26,7 @@ provenance:
   confidence: high
 related:
   - ../dossier/what-is-drs-cricket.md
-  - ../dossier/what-is-a-stumping.md
+  - ../dossier/what-is-a-stumping-cricket.md
 ---
 
 ## User Question
@@ -78,4 +78,4 @@ related:
 ## Related Concepts
 
 - [What is DRS in cricket](what-is-drs-cricket.md)
-- [What is a stumping](what-is-a-stumping.md)
+- [What is a stumping](what-is-a-stumping-cricket.md)

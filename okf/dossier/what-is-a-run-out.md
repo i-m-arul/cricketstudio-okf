@@ -26,7 +26,7 @@ provenance:
   source: CricketStudio methodology — cricket rules and terminology
   confidence: high
 related:
-  - ../dossier/what-is-a-wide.md
+  - ../dossier/what-is-a-wide-cricket.md
 ---
 
 ## User Question
@@ -71,5 +71,5 @@ related:
 
 ## Related Concepts
 
-- [What is a wide](what-is-a-wide.md)
-- [What is batting average](what-is-batting-average.md)
+- [What is a wide](what-is-a-wide-cricket.md)
+- [What is batting average](what-is-batting-average-cricket.md)

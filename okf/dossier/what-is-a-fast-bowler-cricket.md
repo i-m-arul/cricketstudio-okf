@@ -30,8 +30,8 @@ related:
   - what-is-pace-bowling-cricket.md
   - what-is-a-seam-delivery-cricket.md
   - what-is-a-swing-bowler.md
-  - what-is-a-yorker-cricket.md
-  - what-is-a-bouncer.md
+  - what-is-a-yorker.md
+  - what-is-a-bouncer-cricket.md
 ---
 
 ## User Question
@@ -84,5 +84,5 @@ related:
 
 - [What is pace bowling cricket](what-is-pace-bowling-cricket.md)
 - [What is a swing bowler](what-is-a-swing-bowler.md)
-- [What is a yorker in cricket](what-is-a-yorker-cricket.md)
+- [What is a yorker in cricket](what-is-a-yorker.md)
 - [What is a death bowler](what-is-a-death-bowler.md)

@@ -29,7 +29,7 @@ provenance:
   confidence: high
 related:
   - what-is-a-fast-bowler-cricket.md
-  - what-is-a-yorker-cricket.md
+  - what-is-a-yorker.md
   - what-is-ipl-death-overs.md
 ---
 
@@ -80,5 +80,5 @@ related:
 
 ## Related Concepts
 
-- [What is a yorker cricket](what-is-a-yorker-cricket.md)
+- [What is a yorker cricket](what-is-a-yorker.md)
 - [What is a fast bowler cricket](what-is-a-fast-bowler-cricket.md)

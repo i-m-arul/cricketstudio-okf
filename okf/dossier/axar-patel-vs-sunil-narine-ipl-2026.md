@@ -84,4 +84,4 @@ related:
 
 - [Axar Patel IPL 2026 season](axar-patel-ipl-2026-season.md)
 - [Narine IPL 2026 season](narine-ipl-2026-season.md)
-- [What is a mystery spinner](what-is-a-mystery-spinner.md)
+- [What is a mystery spinner](what-is-a-mystery-spinner-cricket.md)

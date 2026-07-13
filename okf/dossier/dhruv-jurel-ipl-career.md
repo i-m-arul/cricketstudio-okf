@@ -93,4 +93,4 @@ related:
 ## Related Concepts
 
 - [Dhruv Jurel scorebook](../scorebook/players/dhruv-jurel.md)
-- [What is a wicket keeper](what-is-a-wicket-keeper.md)
+- [What is a wicket keeper](what-is-a-wicket-keeper-cricket.md)

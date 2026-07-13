@@ -38,7 +38,7 @@ provenance:
     Structural inferences (protecting bowlers, conservatism) are framed as
     questions, not assertions.
 related:
-  - ../dossier/what-is-impact-player-rule.md
+  - ../dossier/what-is-impact-player-rule-ipl.md
   - ../stories/impact-player-lineup-revolution.md
   - ../stories/mlc-vs-ipl-what-numbers-show.md
   - ../stories/impact-player-captains-dilemma.md
@@ -123,7 +123,7 @@ MLC and IPL operate in different contexts (75 vs 74+ matches per season, differe
 
 ## Related Concepts
 
-- [What Is the Impact Player Rule](../dossier/what-is-impact-player-rule.md)
+- [What Is the Impact Player Rule](../dossier/what-is-impact-player-rule-ipl.md)
 - [The Rule That Quietly Rewrote the IPL Lineup](../stories/impact-player-lineup-revolution.md)
 - [MLC vs IPL: What the Numbers Show](../stories/mlc-vs-ipl-what-numbers-show.md)
 - [The Captain's Impact Player Dilemma](../stories/impact-player-captains-dilemma.md)

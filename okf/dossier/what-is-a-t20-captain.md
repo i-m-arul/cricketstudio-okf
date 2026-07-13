@@ -26,7 +26,7 @@ provenance:
   confidence: high
 related:
   - ../dossier/what-is-ipl-playoff-format.md
-  - ../dossier/what-is-a-super-over.md
+  - ../dossier/what-is-a-super-over-cricket.md
 ---
 
 ## User Question

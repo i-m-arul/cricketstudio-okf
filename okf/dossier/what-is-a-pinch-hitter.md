@@ -27,7 +27,7 @@ provenance:
   confidence: high
 related:
   - ../dossier/what-is-death-overs.md
-  - ../dossier/what-is-impact-player-rule.md
+  - ../dossier/what-is-impact-player-rule-ipl.md
 ---
 
 ## User Question
@@ -68,4 +68,4 @@ related:
 ## Related Concepts
 
 - [What are death overs](what-is-death-overs.md)
-- [What is the Impact Player rule](what-is-impact-player-rule.md)
+- [What is the Impact Player rule](what-is-impact-player-rule-ipl.md)

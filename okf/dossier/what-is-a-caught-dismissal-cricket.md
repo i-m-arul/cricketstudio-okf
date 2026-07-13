@@ -28,7 +28,7 @@ provenance:
   confidence: high
 related:
   - what-is-a-cricket-wicket.md
-  - what-is-a-leg-before-wicket-cricket.md
+  - what-is-an-lbw.md
 ---
 
 ## User Question
@@ -84,4 +84,4 @@ related:
 ## Related Concepts
 
 - [What is a cricket wicket](what-is-a-cricket-wicket.md)
-- [What is LBW cricket](what-is-a-leg-before-wicket-cricket.md)
+- [What is LBW cricket](what-is-an-lbw.md)

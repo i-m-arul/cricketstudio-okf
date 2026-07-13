@@ -26,7 +26,7 @@ provenance:
   confidence: high
   snapshot: CricketStudio internal dataset (2026-06-11)
 related:
-  - ../dossier/ipl-2026-orange-cap-winner.md
+  - ../dossier/ipl-2026-orange-cap.md
   - ../dossier/ipl-2026-purple-cap-winner.md
   - ../dossier/ipl-2026-fastest-century.md
   - ../dossier/ipl-2026-highest-team-score.md
@@ -84,7 +84,7 @@ related:
 
 ## Related Concepts
 
-- [Orange Cap IPL 2026](ipl-2026-orange-cap-winner.md)
+- [Orange Cap IPL 2026](ipl-2026-orange-cap.md)
 - [Purple Cap IPL 2026](ipl-2026-purple-cap-winner.md)
 - [Fastest century IPL 2026](ipl-2026-fastest-century.md)
 - [IPL 2026 final scorecard](ipl-2026-final-scorecard.md)

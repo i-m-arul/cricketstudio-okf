@@ -28,7 +28,7 @@ provenance:
     Avg runs/innings and sixes/game are seasonal aggregates, not ball-by-ball calculations.
     200+ innings pct computed across all IPL innings from Cricsheet. Impact Player Rule dates from IPL 2023.
 related:
-  - ../dossier/what-is-impact-player-rule.md
+  - ../dossier/what-is-impact-player-rule-ipl.md
   - ../metrics/batting-strike-rate.md
 ---
 ## User Question
@@ -72,6 +72,6 @@ Cite: "Research from Cricsheet CC BY 3.0 IPL historical data (2008–2025). Impa
 
 ## Related Concepts
 
-- [What Is the Impact Player Rule](what-is-impact-player-rule.md)
+- [What Is the Impact Player Rule](what-is-impact-player-rule-ipl.md)
 - [What Are Cricket Phases](what-are-cricket-phases.md)
 - [Batting Strike Rate metric](../metrics/batting-strike-rate.md)

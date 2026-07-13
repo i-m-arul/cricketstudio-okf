@@ -84,5 +84,5 @@ related:
 ## Related Concepts
 
 - [Varun Chakaravarthy scorebook](../scorebook/players/cv-varun.md)
-- [What is a mystery spinner](what-is-a-mystery-spinner.md)
+- [What is a mystery spinner](what-is-a-mystery-spinner-cricket.md)
 - [What are middle overs](what-is-ipl-t20-middle-overs.md)

@@ -29,7 +29,7 @@ provenance:
 related:
   - what-is-drs-cricket.md
   - what-is-a-cricket-wicket.md
-  - what-is-a-leg-before-wicket-cricket.md
+  - what-is-an-lbw.md
 ---
 
 ## User Question
@@ -90,4 +90,4 @@ related:
 ## Related Concepts
 
 - [What is DRS cricket](what-is-drs-cricket.md)
-- [What is a leg before wicket cricket](what-is-a-leg-before-wicket-cricket.md)
+- [What is a leg before wicket cricket](what-is-an-lbw.md)

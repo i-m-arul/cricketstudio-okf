@@ -82,5 +82,5 @@ related:
 
 ## Related Concepts
 
-- [What is a yorker cricket](what-is-a-yorker-cricket.md)
+- [What is a yorker cricket](what-is-a-yorker.md)
 - [What is a death-overs bowler cricket](what-is-a-death-overs-bowler.md)

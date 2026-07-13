@@ -25,7 +25,7 @@ provenance:
   source: CricketStudio methodology — cricket rules and terminology
   confidence: high
 related:
-  - ../dossier/what-is-a-maiden-over.md
+  - ../dossier/what-is-a-maiden-over-cricket.md
   - ../dossier/what-is-ipl-powerplay.md
 ---
 
@@ -68,6 +68,6 @@ related:
 
 ## Related Concepts
 
-- [What is a maiden over](what-is-a-maiden-over.md)
+- [What is a maiden over](what-is-a-maiden-over-cricket.md)
 - [What is the IPL Powerplay](what-is-ipl-powerplay.md)
 - [What is economy rate](what-is-economy-rate-cricket.md)

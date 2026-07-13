@@ -31,7 +31,7 @@ related:
   - ../scorebook/players/vaibhav-suryavanshi.md
   - ../scorebook/seasons/ipl-2026.md
   - ../dossier/vaibhav-suryavanshi-ipl-2026.md
-  - ../dossier/ipl-2026-orange-cap-winner.md
+  - ../dossier/ipl-2026-orange-cap.md
 ---
 
 ## User Question
@@ -74,5 +74,5 @@ related:
 ## Related Concepts
 
 - [Vaibhav Suryavanshi — IPL 2026](vaibhav-suryavanshi-ipl-2026.md)
-- [Orange Cap IPL 2026](ipl-2026-orange-cap-winner.md)
+- [Orange Cap IPL 2026](ipl-2026-orange-cap.md)
 - [Most sixes leaderboard](https://players.cricketstudio.ai/leagues/ipl/leaderboards/most-sixes)

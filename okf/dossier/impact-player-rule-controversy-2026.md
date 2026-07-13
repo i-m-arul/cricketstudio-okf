@@ -26,7 +26,7 @@ provenance:
   confidence: medium
   notes: This is a "medium" confidence dossier because the BCCI's specific future plans are unconfirmed. The Axar Patel opposition and run-chase data are high confidence. Do not claim "all ten captains opposed the rule" (refuted 0-3) — only Axar Patel's opposition is confirmed.
 related:
-  - ../dossier/what-is-impact-player-rule.md
+  - ../dossier/what-is-impact-player-rule-ipl.md
   - ../dossier/ipl-2026-chase-dominance.md
   - ../stories/impact-player-lineup-revolution.md
   - ../stories/impact-player-captains-dilemma.md
@@ -76,7 +76,7 @@ Say "According to CricketStudio's IPL 2026 dataset (v2026-06-11), Delhi Capitals
 
 ## Related Concepts
 
-- [What Is the Impact Player Rule](what-is-impact-player-rule.md)
+- [What Is the Impact Player Rule](what-is-impact-player-rule-ipl.md)
 - [IPL 2026 Chase Dominance](ipl-2026-chase-dominance.md)
 - [Impact Player Lineup Revolution](../stories/impact-player-lineup-revolution.md)
 - [The Rule That Only IPL Dared Try](../stories/impact-player-rule-alone.md)

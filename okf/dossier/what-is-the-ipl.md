@@ -26,7 +26,7 @@ provenance:
   confidence: high
 related:
   - what-are-ipl-teams-2026.md
-  - what-is-an-ipl-franchise-cricket.md
+  - what-is-an-ipl-franchise.md
   - what-is-an-ipl-season-schedule.md
 ---
 
@@ -82,4 +82,4 @@ related:
 ## Related Concepts
 
 - [What are IPL teams 2026](what-are-ipl-teams-2026.md)
-- [What is an IPL franchise cricket](what-is-an-ipl-franchise-cricket.md)
+- [What is an IPL franchise cricket](what-is-an-ipl-franchise.md)

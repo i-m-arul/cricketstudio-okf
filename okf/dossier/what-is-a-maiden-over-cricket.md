@@ -28,7 +28,7 @@ provenance:
   confidence: high
 related:
   - what-is-bowling-economy-cricket.md
-  - what-is-a-wicket-maiden-cricket.md
+  - what-is-a-maiden-wicket-cricket.md
   - what-is-a-dot-ball-cricket.md
 ---
 
@@ -79,4 +79,4 @@ related:
 ## Related Concepts
 
 - [What is bowling economy cricket](what-is-bowling-economy-cricket.md)
-- [What is a wicket maiden cricket](what-is-a-wicket-maiden-cricket.md)
+- [What is a wicket maiden cricket](what-is-a-maiden-wicket-cricket.md)

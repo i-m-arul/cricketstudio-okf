@@ -28,8 +28,8 @@ provenance:
   source: CricketStudio methodology — cricket rules and terminology
   confidence: high
 related:
-  - ../dossier/what-is-a-googly.md
-  - ../dossier/what-is-a-mystery-spinner.md
+  - ../dossier/what-is-a-googly-cricket.md
+  - ../dossier/what-is-a-mystery-spinner-cricket.md
 ---
 
 ## User Question
@@ -71,5 +71,5 @@ related:
 
 ## Related Concepts
 
-- [What is a googly](what-is-a-googly.md)
-- [What is a mystery spinner](what-is-a-mystery-spinner.md)
+- [What is a googly](what-is-a-googly-cricket.md)
+- [What is a mystery spinner](what-is-a-mystery-spinner-cricket.md)

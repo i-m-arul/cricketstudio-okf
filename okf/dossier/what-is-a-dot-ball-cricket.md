@@ -30,7 +30,7 @@ provenance:
 related:
   - what-is-bowling-economy-cricket.md
   - what-is-a-maiden-over-cricket.md
-  - what-is-a-wicket-maiden-cricket.md
+  - what-is-a-maiden-wicket-cricket.md
 ---
 
 ## User Question

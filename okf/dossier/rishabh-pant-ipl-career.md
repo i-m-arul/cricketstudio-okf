@@ -88,4 +88,4 @@ related:
 
 - [Rishabh Pant scorebook](../scorebook/players/rishabh-pant.md)
 - [Rishabh Pant IPL 2026](rishabh-pant-ipl-2026-season.md)
-- [What is a wicket keeper](what-is-a-wicket-keeper.md)
+- [What is a wicket keeper](what-is-a-wicket-keeper-cricket.md)

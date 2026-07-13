@@ -39,7 +39,7 @@ provenance:
     rule is the sole cause. The archetype-value argument (specialist beats all-rounder)
     is structural inference, not a direct measurement of selection decisions.
 related:
-  - ../dossier/what-is-impact-player-rule.md
+  - ../dossier/what-is-impact-player-rule-ipl.md
   - ../stories/spin-bowling-after-impact-player.md
   - ../stories/impact-player-lineup-revolution.md
   - ../stories/impact-player-captains-dilemma.md
@@ -117,7 +117,7 @@ The "adequate all-rounder" framing is structural inference about lineup value â€
 
 ## Related Concepts
 
-- [What Is the Impact Player Rule](../dossier/what-is-impact-player-rule.md)
+- [What Is the Impact Player Rule](../dossier/what-is-impact-player-rule-ipl.md)
 - [Spin Bowling After the Impact Player Rule](../stories/spin-bowling-after-impact-player.md)
 - [The Rule That Quietly Rewrote the IPL Lineup](../stories/impact-player-lineup-revolution.md)
 - [The Captain's Impact Player Dilemma](../stories/impact-player-captains-dilemma.md)

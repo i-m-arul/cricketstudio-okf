@@ -81,4 +81,4 @@ related:
 
 - [Strike rate leaderboard IPL 2026](leaderboard-strike-rate-batters-ipl-2026.md)
 - [Virat Kohli IPL 2026 season](virat-kohli-ipl-2026-season.md)
-- [Orange Cap IPL 2026](ipl-2026-orange-cap-winner.md)
+- [Orange Cap IPL 2026](ipl-2026-orange-cap.md)

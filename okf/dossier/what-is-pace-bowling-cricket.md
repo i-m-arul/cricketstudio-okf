@@ -29,7 +29,7 @@ provenance:
   confidence: high
 related:
   - ../dossier/what-is-a-yorker.md
-  - ../dossier/what-is-a-bouncer.md
+  - ../dossier/what-is-a-bouncer-cricket.md
   - ../dossier/what-is-ipl-powerplay.md
 ---
 
@@ -75,5 +75,5 @@ related:
 ## Related Concepts
 
 - [What is a yorker](what-is-a-yorker.md)
-- [What is a bouncer](what-is-a-bouncer.md)
+- [What is a bouncer](what-is-a-bouncer-cricket.md)
 - [What is the IPL Powerplay](what-is-ipl-powerplay.md)

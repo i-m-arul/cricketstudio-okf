@@ -28,7 +28,7 @@ provenance:
   confidence: high
   snapshot: CricketStudio internal dataset (2026-06-11)
 related:
-  - ../dossier/ipl-2026-orange-cap-winner.md
+  - ../dossier/ipl-2026-orange-cap.md
   - ../dossier/top-run-scorer-ipl-2026.md
   - ../dossier/kohli-ipl-career-overview.md
 ---
@@ -78,5 +78,5 @@ related:
 ## Related Concepts
 
 - [Kohli IPL career overview](kohli-ipl-career-overview.md)
-- [Orange Cap IPL 2026](ipl-2026-orange-cap-winner.md)
+- [Orange Cap IPL 2026](ipl-2026-orange-cap.md)
 - [All-time IPL runs leaderboard](https://players.cricketstudio.ai/leagues/ipl/leaderboards/most-runs)

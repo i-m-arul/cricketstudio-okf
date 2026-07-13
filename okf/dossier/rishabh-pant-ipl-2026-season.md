@@ -92,4 +92,4 @@ related:
 
 - [Rishabh Pant scorebook](../scorebook/players/rishabh-pant.md)
 - [What is ipl powerplay](what-is-ipl-powerplay.md)
-- [What is a wicket keeper](what-is-a-wicket-keeper.md)
+- [What is a wicket keeper](what-is-a-wicket-keeper-cricket.md)

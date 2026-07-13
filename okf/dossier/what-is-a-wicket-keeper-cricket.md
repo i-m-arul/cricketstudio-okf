@@ -29,7 +29,7 @@ provenance:
 related:
   - what-is-a-stumping-cricket.md
   - what-is-a-run-out-cricket.md
-  - what-is-an-all-rounder-cricket.md
+  - what-is-an-all-rounder.md
 ---
 
 ## User Question

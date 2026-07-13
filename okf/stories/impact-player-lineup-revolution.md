@@ -31,7 +31,7 @@ provenance:
     (pre-rule era) and CricketStudio IPL 2023-onwards dataset (post-rule era).
     Rule description based on BCCI IPL Playing Conditions (2023).
 related:
-  - ../dossier/what-is-impact-player-rule.md
+  - ../dossier/what-is-impact-player-rule-ipl.md
   - ../stories/ipl-scoring-revolution.md
   - ../dossier/how-has-ipl-batting-changed.md
   - ../metrics/batting-strike-rate.md
@@ -82,6 +82,6 @@ Bowling also adapted — teams found Impact Player substitutions for bowling spe
 
 ## Related Concepts
 
-- [What Is the Impact Player Rule](../dossier/what-is-impact-player-rule.md)
+- [What Is the Impact Player Rule](../dossier/what-is-impact-player-rule-ipl.md)
 - [How Has IPL Batting Changed](../dossier/how-has-ipl-batting-changed.md)
 - [IPL Scoring Revolution](../stories/ipl-scoring-revolution.md)

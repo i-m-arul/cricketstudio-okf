@@ -28,7 +28,7 @@ provenance:
   confidence: high
 related:
   - what-is-death-overs-cricket.md
-  - what-is-a-yorker-cricket.md
+  - what-is-a-yorker.md
   - what-is-death-over-economy.md
 ---
 
@@ -84,5 +84,5 @@ related:
 ## Related Concepts
 
 - [What is death overs cricket](what-is-death-overs-cricket.md)
-- [What is a yorker in cricket](what-is-a-yorker-cricket.md)
+- [What is a yorker in cricket](what-is-a-yorker.md)
 - [What is death-over economy](what-is-death-over-economy.md)

@@ -25,7 +25,7 @@ provenance:
   source: CricketStudio methodology — cricket rules and terminology
   confidence: high
 related:
-  - ../dossier/what-is-middle-overs-cricket.md
+  - ../dossier/what-is-ipl-t20-middle-overs.md
   - ../dossier/best-death-overs-bowler-ipl-2026.md
 ---
 

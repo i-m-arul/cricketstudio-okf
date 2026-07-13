@@ -28,7 +28,7 @@ provenance:
   source: CricketStudio methodology — cricket rules and terminology
   confidence: high
 related:
-  - ../dossier/what-is-lbw.md
+  - ../dossier/what-is-an-lbw.md
 ---
 
 ## User Question
@@ -73,5 +73,5 @@ related:
 
 ## Related Concepts
 
-- [What is LBW](what-is-lbw.md)
-- [What is a no-ball](what-is-a-no-ball.md)
+- [What is LBW](what-is-an-lbw.md)
+- [What is a no-ball](what-is-a-no-ball-cricket.md)

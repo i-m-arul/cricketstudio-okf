@@ -26,7 +26,7 @@ provenance:
   source: CricketStudio methodology — cricket rules and terminology
   confidence: high
 related:
-  - ../dossier/what-is-batting-average.md
+  - ../dossier/what-is-batting-average-cricket.md
   - ../dossier/what-is-an-innings-cricket.md
 ---
 
@@ -70,5 +70,5 @@ related:
 
 ## Related Concepts
 
-- [What is batting average](what-is-batting-average.md)
+- [What is batting average](what-is-batting-average-cricket.md)
 - [What is an innings](what-is-an-innings-cricket.md)

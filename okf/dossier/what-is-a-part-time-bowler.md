@@ -27,7 +27,7 @@ provenance:
   source: CricketStudio cricket methodology layer
   confidence: high
 related:
-  - what-is-an-all-rounder-cricket.md
+  - what-is-an-all-rounder.md
   - what-is-spin-bowling-cricket.md
   - what-is-bowling-economy-cricket.md
 ---
@@ -79,5 +79,5 @@ related:
 
 ## Related Concepts
 
-- [What is an all-rounder in cricket](what-is-an-all-rounder-cricket.md)
+- [What is an all-rounder in cricket](what-is-an-all-rounder.md)
 - [What is bowling economy cricket](what-is-bowling-economy-cricket.md)

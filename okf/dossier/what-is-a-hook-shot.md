@@ -26,8 +26,8 @@ provenance:
   source: CricketStudio methodology — cricket rules and terminology
   confidence: high
 related:
-  - ../dossier/what-is-a-pull-shot.md
-  - ../dossier/what-is-a-bouncer.md
+  - ../dossier/what-is-a-pull-shot-cricket.md
+  - ../dossier/what-is-a-bouncer-cricket.md
 ---
 
 ## User Question
@@ -72,5 +72,5 @@ related:
 
 ## Related Concepts
 
-- [What is a pull shot](what-is-a-pull-shot.md)
-- [What is a bouncer](what-is-a-bouncer.md)
+- [What is a pull shot](what-is-a-pull-shot-cricket.md)
+- [What is a bouncer](what-is-a-bouncer-cricket.md)

@@ -25,7 +25,7 @@ provenance:
   confidence: high
   notes: Core auction mechanics (purse, retention, RTM, foreign player slots) are stable public-knowledge rules. Specific purse amounts vary by season — agents must verify current season figures rather than citing historical amounts as current.
 related:
-  - ../dossier/what-is-impact-player-rule.md
+  - ../dossier/what-is-impact-player-rule-ipl.md
   - ../dossier/ipl-2022-expansion.md
   - ../dossier/ipl-defunct-franchises.md
 ---

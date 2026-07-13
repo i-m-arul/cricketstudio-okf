@@ -84,5 +84,5 @@ related:
 
 - [Kohli IPL 2026 powerplay batting](kohli-ipl-2026-powerplay.md)
 - [Kohli IPL career overview](kohli-ipl-career-overview.md)
-- [Orange Cap IPL 2026](ipl-2026-orange-cap-winner.md)
+- [Orange Cap IPL 2026](ipl-2026-orange-cap.md)
 - [Who won IPL 2026?](who-won-ipl-2026.md)

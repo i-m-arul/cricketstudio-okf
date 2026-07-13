@@ -34,7 +34,7 @@ provenance:
 related:
   - ../stories/ipl-scoring-revolution.md
   - ../stories/bumrah-2026-economy.md
-  - ../dossier/what-is-impact-player-rule.md
+  - ../dossier/what-is-impact-player-rule-ipl.md
   - ../metrics/bowling-economy.md
   - ../metrics/death-overs-economy.md
 ---
@@ -81,6 +81,6 @@ The aggregate improvement in batting does not mean bowling skills declined. It m
 ## Related Concepts
 
 - [IPL Scoring Revolution](../stories/ipl-scoring-revolution.md)
-- [What Is the Impact Player Rule](../dossier/what-is-impact-player-rule.md)
+- [What Is the Impact Player Rule](../dossier/what-is-impact-player-rule-ipl.md)
 - [Bumrah 2026 Economy](../stories/bumrah-2026-economy.md)
 - [Bowling Economy — metric](../metrics/bowling-economy.md)

@@ -25,7 +25,7 @@ provenance:
   source: CricketStudio methodology — cricket rules and terminology
   confidence: high
 related:
-  - ../dossier/what-is-a-dot-ball.md
+  - ../dossier/what-is-a-dot-ball-cricket.md
 ---
 
 ## User Question
@@ -79,4 +79,4 @@ related:
 
 ## Related Concepts
 
-- [What is a dot ball](what-is-a-dot-ball.md)
+- [What is a dot ball](what-is-a-dot-ball-cricket.md)

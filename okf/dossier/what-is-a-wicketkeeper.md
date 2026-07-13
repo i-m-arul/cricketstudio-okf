@@ -26,8 +26,8 @@ provenance:
   source: CricketStudio cricket methodology layer
   confidence: high
 related:
-  - what-is-a-stumping.md
-  - what-is-a-caught-dismissal.md
+  - what-is-a-stumping-cricket.md
+  - what-is-a-caught-dismissal-cricket.md
 ---
 
 ## User Question
@@ -75,5 +75,5 @@ related:
 
 ## Related Concepts
 
-- [What is a stumping](what-is-a-stumping.md)
-- [What is a caught dismissal](what-is-a-caught-dismissal.md)
+- [What is a stumping](what-is-a-stumping-cricket.md)
+- [What is a caught dismissal](what-is-a-caught-dismissal-cricket.md)

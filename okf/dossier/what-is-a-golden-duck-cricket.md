@@ -28,7 +28,7 @@ provenance:
   confidence: high
 related:
   - ../dossier/what-is-a-duck-cricket.md
-  - ../dossier/what-is-batting-average.md
+  - ../dossier/what-is-batting-average-cricket.md
 ---
 
 ## User Question
@@ -72,4 +72,4 @@ related:
 ## Related Concepts
 
 - [What is a duck](what-is-a-duck-cricket.md)
-- [What is batting average](what-is-batting-average.md)
+- [What is batting average](what-is-batting-average-cricket.md)

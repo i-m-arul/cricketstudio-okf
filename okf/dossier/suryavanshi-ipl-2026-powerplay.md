@@ -83,5 +83,5 @@ related:
 
 - [Suryavanshi IPL 2026 season overview](vaibhav-suryavanshi-ipl-2026.md)
 - [Kohli powerplay IPL 2026](kohli-ipl-2026-powerplay.md)
-- [Orange Cap IPL 2026](ipl-2026-orange-cap-winner.md)
+- [Orange Cap IPL 2026](ipl-2026-orange-cap.md)
 - [IPL 2026 powerplay leaderboard](https://players.cricketstudio.ai/season/ipl-2026/powerplay-batting)

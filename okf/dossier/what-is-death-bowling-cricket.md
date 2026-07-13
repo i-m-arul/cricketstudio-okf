@@ -29,7 +29,7 @@ provenance:
   confidence: high
 related:
   - what-is-a-death-overs-batting-strategy.md
-  - what-is-a-yorker-cricket.md
+  - what-is-a-yorker.md
   - what-is-a-slower-ball-cricket.md
 ---
 

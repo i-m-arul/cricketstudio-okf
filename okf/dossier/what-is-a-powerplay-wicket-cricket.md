@@ -29,7 +29,7 @@ provenance:
 related:
   - what-is-ipl-powerplay.md
   - what-is-powerplay-bowling-strategy.md
-  - what-is-a-batting-collapse.md
+  - what-is-a-batting-collapse-cricket.md
 ---
 
 ## User Question

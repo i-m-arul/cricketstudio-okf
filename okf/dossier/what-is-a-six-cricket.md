@@ -29,7 +29,7 @@ provenance:
 related:
   - ../dossier/what-is-a-four-cricket.md
   - ../dossier/what-is-strike-rate-cricket.md
-  - ../dossier/ipl-2026-suryavanshi-orange-cap.md
+  - ../dossier/ipl-2026-orange-cap.md
 ---
 
 ## User Question
@@ -79,4 +79,4 @@ related:
 
 - [What is a four](what-is-a-four-cricket.md)
 - [What is strike rate](what-is-strike-rate-cricket.md)
-- [Suryavanshi IPL 2026 Orange Cap](ipl-2026-suryavanshi-orange-cap.md)
+- [Suryavanshi IPL 2026 Orange Cap](ipl-2026-orange-cap.md)

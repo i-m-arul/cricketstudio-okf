@@ -28,7 +28,7 @@ provenance:
   source: CricketStudio methodology — cricket rules and terminology
   confidence: high
 related:
-  - ../dossier/what-is-a-googly.md
+  - ../dossier/what-is-a-googly-cricket.md
   - ../dossier/what-is-a-doosra.md
   - ../dossier/what-is-ipl-t20-middle-overs.md
 ---
@@ -77,6 +77,6 @@ related:
 
 ## Related Concepts
 
-- [What is a googly](what-is-a-googly.md)
+- [What is a googly](what-is-a-googly-cricket.md)
 - [What is a doosra](what-is-a-doosra.md)
 - [What are middle overs](what-is-ipl-t20-middle-overs.md)

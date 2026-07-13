@@ -29,7 +29,7 @@ provenance:
 related:
   - ../dossier/what-is-ipl-powerplay.md
   - ../dossier/what-is-strike-rate-cricket.md
-  - ../dossier/ipl-2026-suryavanshi-orange-cap.md
+  - ../dossier/ipl-2026-orange-cap.md
 ---
 
 ## User Question
@@ -76,4 +76,4 @@ related:
 
 - [What is the IPL Powerplay](what-is-ipl-powerplay.md)
 - [What is strike rate](what-is-strike-rate-cricket.md)
-- [Suryavanshi IPL 2026 Orange Cap](ipl-2026-suryavanshi-orange-cap.md)
+- [Suryavanshi IPL 2026 Orange Cap](ipl-2026-orange-cap.md)

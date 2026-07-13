@@ -37,7 +37,7 @@ related:
   - ../scorebook/players/rashid-khan.md
   - ../scorebook/players/yuzvendra-chahal.md
   - ../scorebook/players/sunil-narine.md
-  - ../dossier/what-is-impact-player-rule.md
+  - ../dossier/what-is-impact-player-rule-ipl.md
 ---
 
 # What the Post-2023 IPL Did to Spin Bowling

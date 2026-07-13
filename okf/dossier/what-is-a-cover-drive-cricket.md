@@ -29,7 +29,7 @@ provenance:
   confidence: high
 related:
   - what-is-a-pull-shot-cricket.md
-  - what-is-a-sweep-shot-cricket.md
+  - what-is-a-sweep-shot.md
   - what-is-a-batting-lineup-cricket.md
 ---
 
@@ -85,4 +85,4 @@ related:
 ## Related Concepts
 
 - [What is a pull shot cricket](what-is-a-pull-shot-cricket.md)
-- [What is a sweep shot cricket](what-is-a-sweep-shot-cricket.md)
+- [What is a sweep shot cricket](what-is-a-sweep-shot.md)
