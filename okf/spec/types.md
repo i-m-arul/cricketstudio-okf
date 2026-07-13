@@ -1,7 +1,7 @@
 ---
 type: spec
 title: Cricket OKF Type Vocabulary
-description: Canonical list of OKF type values for cricket domain bundles. Extends Google OKF's open type system with 19 cricket-specific types, each with a definition, required extra fields, and an example frontmatter block.
+description: Canonical list of OKF type values for cricket domain bundles. Extends Google OKF's open type system with 20 cricket-specific types, each with a definition, required extra fields, and an example frontmatter block.
 status: active
 last_verified: 2026-06-22
 timestamp: 2026-06-22
@@ -19,7 +19,7 @@ tags:
 
 ## Overview
 
-Google OKF v0.1 uses an open `type` system — values are not registered centrally and producers choose descriptive, self-explanatory strings. This document defines the canonical cricket domain vocabulary: 19 `type` values that any cricket OKF bundle should use for interoperability.
+Google OKF v0.1 uses an open `type` system — values are not registered centrally and producers choose descriptive, self-explanatory strings. This document defines the canonical cricket domain vocabulary: 20 `type` values that any cricket OKF bundle should use for interoperability.
 
 Consumers must tolerate unknown types. These values are **not** a closed enum imposed on all OKF producers — they are the vocabulary CricketStudio OKF uses, offered as a community standard for cricket data.
 
@@ -46,6 +46,7 @@ Consumers must tolerate unknown types. These values are **not** a closed enum im
 | `methodology` | An operational rule or doctrine | Sample-size floors, ranking rules |
 | `research` | An analytical report or investigation | Season analysis, trend research |
 | `dossier` | A verified Q&A pattern for AI agents | Agent answering guidance |
+| `story` | A provenance-backed cricket narrative | Journeys — numbers behind the narrative |
 | `spec` | A formal specification document | This file and its siblings |
 | `source` | A data source declaration | Cricsheet, licensed feed boundary |
 | `record` | An all-time or historical record | Most runs, most wickets all-time |

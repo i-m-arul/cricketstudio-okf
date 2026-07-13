@@ -9,12 +9,12 @@ export const metadata = {
 const releases = [
   {
     version: 'v0.5',
-    date: '2026-07-08',
+    date: '2026-06-25',
     slug: 'releases/v0.5',
     title: 'Trust OS v1 — Agent-Safe',
     status: 'current',
     conformance: 'Level 3 — Agent-Safe',
-    summary: 'Adds Trust OS v1: machine-readable claim ledger, JSON Schema, 1,000-row eval benchmark, and trust manifest. Self-certified Level 3 (Agent-Safe) 2026-07-08. 3,500+ files total.',
+    summary: 'Deep-research sprint + OG images + SEO schemas + Trust OS v1 (claim ledger, JSON Schema, eval benchmark, trust manifest). Self-certified Level 3 (Agent-Safe) 2026-07-08. 3,500+ files total.',
     highlights: [
       '/claims.jsonl — machine-readable claim ledger (Trust OS v1)',
       'schema/claim-object.schema.json — JSON Schema for claim objects',
@@ -24,6 +24,22 @@ const releases = [
       '4 advanced metric files: xR, xW, win-probability, fantasy-cricket-SR',
       'Per-page OG images (135 unique), FAQPage/BreadcrumbList/Article JSON-LD',
       '.well-known/ai-plugin.json — OpenAI plugin manifest for agent discovery',
+    ],
+  },
+  {
+    version: 'v0.4',
+    date: '2026-06-23',
+    slug: 'releases/v0.4',
+    title: 'Narrative Journeys + IPL Fan Q&A',
+    status: 'previous',
+    conformance: 'Level 2 — Evidence-Backed',
+    summary: 'Adds the Stories / Journeys layer (27 narrative files across 5 tiers), 20 IPL fan dossier entries, 3 historical stories, and auto-count infrastructure. Bundle grows 506 → 532 files.',
+    highlights: [
+      '"story" type added to frontmatter schema and validator',
+      '27 Journeys across: Impact Player, RCB champions, Bumrah economy, Kohli at 37, Chahal 200, GT finals',
+      '20 IPL fan Q&A dossier entries (t20-cricket-basics, captaincy, DLS, NRR, Impact Player mechanics)',
+      'auto-count system — update_counts.py syncs manifest + llms.txt on every commit',
+      'okf/releases/v0.4.md — release notes for this series',
     ],
   },
   {

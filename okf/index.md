@@ -3,8 +3,8 @@ type: index
 title: CricketStudio OKF Index
 description: Entry point for the CricketStudio Open Knowledge Format bundle.
 status: active
-last_verified: 2026-06-18
-timestamp: 2026-06-18
+last_verified: 2026-07-13
+timestamp: 2026-07-13
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: manual_curated_knowledge
@@ -32,19 +32,20 @@ maintainers keep it correct).
 
 ## How to navigate
 
-- **Research** — [research/index.md](research/index.md) — 7 citation-grade analysis reports (IPL + MLC series)
-- **Concepts**
+- **Research** — [research/index.md](research/index.md) — 49 citation-grade analysis reports (IPL + MLC series)
+- **Scorebook**
   - [Leagues](scorebook/leagues/index.md) — IPL, MLC
   - [Seasons](scorebook/seasons/index.md) — IPL 2026
   - [Teams](scorebook/teams/index.md) — franchises
-  - [Players](scorebook/players/index.md) — player identity concepts
-  - [Venues](scorebook/venues/index.md) — grounds
+  - [Players](scorebook/players/index.md) — 922 player profiles (IPL + MLC)
+  - [Venues](scorebook/venues/index.md) — 18 IPL + 5 MLC grounds
   - [Matches](scorebook/matches/index.md) — high-signal fixtures
-- [Metrics](metrics/index.md) — metric definitions, formulas, eligibility
+- [Metrics](metrics/index.md) — 19 metric definitions, formulas, eligibility
 - [Methodology](methodology/index.md) — sample floors, ranking rules, citation & correction policy
 - [Sources](sources/index.md) — data provenance and license boundaries
-- [Examples](dossier/index.md) — verified question/answer patterns
-
+- [Dossier](dossier/index.md) — 2,317 verified Q&A patterns for AI agents
+- [Journeys](stories/bumrah-2026-economy.md) — 45 provenance-backed cricket stories (see `/stories/` directory)
+- [Releases](releases/index.md) — versioned release history (v0.1–v0.5)
 - [References](references/index.md) — external pointers
 
 ## What Agents Should Know
@@ -62,7 +63,7 @@ See [Citation Policy](methodology/citation-policy.md) and the
 
 ## Provenance and Data Notes
 
-IPL 2026 content is derived from CricketStudio's claim layer (snapshot dated 2026-06-11).
+IPL 2026 content is derived from CricketStudio's claim layer (snapshot dated 2026-07-08).
 IPL historical and MLC content derives from Cricsheet (CC BY 3.0). Raw licensed feeds are
 never included. See [Sources](sources/index.md) and `DATA_LICENSE_BOUNDARIES.md`.
 

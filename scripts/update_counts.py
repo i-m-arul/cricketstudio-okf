@@ -302,6 +302,106 @@ def _update_page_jsonld(by_type: Counter, total: int, check_only: bool) -> bool:
     return True
 
 
+def _update_agents_page(by_type: Counter, check_only: bool) -> bool:
+    """Sync dossier count label in viewer/src/app/agents/page.tsx KEY_PAGES array."""
+    agents = ROOT / "viewer" / "src" / "app" / "agents" / "page.tsx"
+    if not agents.exists():
+        return True
+    content = agents.read_text(encoding="utf-8")
+    original = content
+    dossier_n = by_type.get("dossier", 0)
+    content = re.sub(
+        r"(\{ label: 'Dossier — )[\d,]+( Q&A patterns',)",
+        rf"\g<1>{dossier_n:,}\2",
+        content,
+    )
+    if content == original:
+        return True
+    if check_only:
+        print("  [STALE] agents/page.tsx dossier count is out of date")
+        return False
+    agents.write_text(content, encoding="utf-8")
+    print(f"  agents/page.tsx: dossier count → {dossier_n:,}")
+    return True
+
+
+def _update_datapackage(by_type: Counter, check_only: bool) -> bool:
+    """Sync version and dataset_version in datapackage.json from manifest.yaml."""
+    dp = ROOT / "datapackage.json"
+    if not dp.exists():
+        return True
+    import json
+    manifest_data = yaml.safe_load((ROOT / "manifest.yaml").read_text(encoding="utf-8"))
+    version = manifest_data.get("version", "0.5")
+    dataset_version = manifest_data.get("dataset_version", "")
+
+    content = dp.read_text(encoding="utf-8")
+    original = content
+
+    content = re.sub(r'"version":\s*"[^"]+"', f'"version": "{version}"', content)
+    if dataset_version:
+        content = re.sub(r'"dataset_version":\s*"[^"]+"', f'"dataset_version": "{dataset_version}"', content)
+
+    if content == original:
+        return True
+    if check_only:
+        print("  [STALE] datapackage.json version or dataset_version is out of date")
+        return False
+    dp.write_text(content, encoding="utf-8")
+    print(f"  datapackage.json: version → {version}, dataset_version → {dataset_version}")
+    return True
+
+
+def _update_okf_index(by_type: Counter, check_only: bool) -> bool:
+    """Sync counts in okf/index.md navigation section."""
+    idx = ROOT / "okf" / "index.md"
+    if not idx.exists():
+        return True
+    content = idx.read_text(encoding="utf-8")
+    original = content
+
+    research_n = by_type.get("research", 0)
+    player_n = by_type.get("player", 0)
+    dossier_n = by_type.get("dossier", 0)
+    story_n = by_type.get("story", 0)
+    metric_n = by_type.get("metric", 0)
+
+    content = re.sub(
+        r"(research/index\.md\]\s*—\s*)\d+( citation-grade analysis reports)",
+        rf"\g<1>{research_n}\2",
+        content,
+    )
+    content = re.sub(
+        r"(\[Players\][^—\n]*—\s*)\d+( player profiles)",
+        rf"\g<1>{player_n}\2",
+        content,
+    )
+    content = re.sub(
+        r"(\[Dossier\][^—\n]*—\s*)[\d,]+( verified Q&A patterns)",
+        rf"\g<1>{dossier_n:,}\2",
+        content,
+    )
+    content = re.sub(
+        r"(\[Journeys\][^—\n]*—\s*)\d+( provenance-backed cricket stories)",
+        rf"\g<1>{story_n}\2",
+        content,
+    )
+    content = re.sub(
+        r"(\[Metrics\][^—\n]*—\s*)\d+( metric definitions)",
+        rf"\g<1>{metric_n}\2",
+        content,
+    )
+
+    if content == original:
+        return True
+    if check_only:
+        print("  [STALE] okf/index.md navigation counts are out of date")
+        return False
+    idx.write_text(content, encoding="utf-8")
+    print(f"  okf/index.md: updated navigation counts")
+    return True
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Sync OKF counts to manifest and llms.txt.")
     parser.add_argument(
@@ -329,6 +429,9 @@ def main() -> None:
     ok = _update_root_llms_txt(by_type, check_only=args.check) and ok
     ok = _update_readme(by_type, total, check_only=args.check) and ok
     ok = _update_page_jsonld(by_type, total, check_only=args.check) and ok
+    ok = _update_agents_page(by_type, check_only=args.check) and ok
+    ok = _update_datapackage(by_type, check_only=args.check) and ok
+    ok = _update_okf_index(by_type, check_only=args.check) and ok
 
     if args.check and not ok:
         print(

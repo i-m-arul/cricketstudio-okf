@@ -17,7 +17,7 @@
   "additionalProperties": false,
   "properties": {
     "type": {
-      "description": "The concept type. One of the 15 approved values (REQUIREMENTS.md \u00c2\u00a714.3).",
+      "description": "The concept type. One of the 20 approved values defined in okf/spec/types.md.",
       "type": "string",
       "enum": [
         "index",

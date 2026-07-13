@@ -1,20 +1,93 @@
 #!/usr/bin/env python3
 """
-pre_ship.py — mandatory gate before every OKF commit.
+pre_ship.py — MANDATORY GATE. Nothing in the OKF repo ships without this passing.
+================================================================================
 
-Runs:
-  1. Vendor-name leak scan (Sportmonks must not appear in any committed .md file)
-  2. update_counts.py  → syncs manifest.yaml + llms.txt (both) + README + page.tsx JSON-LD
-  3. sync_meta.py      → syncs level/profile-version/count to all consumer files
-  4. Spec-file count sync  → okf/spec/index.md + okf/spec/conformance.md (legacy guard)
-  5. build_llms_full.py   → regenerates viewer/public/llms-full.txt from all OKF files
-  6. validate_okf.py  → 0 errors required
-
-Exit 0 = ship. Exit 1 = block.
+Run before EVERY commit that touches any .md, .json, .ts, or .tsx file.
+Exit 0 = safe to commit + push.  Exit 1 = blocked; do not ship.
 
 Usage:
-  python scripts/pre_ship.py           # Full gate
-  python scripts/pre_ship.py --check   # Check only, no writes, exit 1 if stale
+  python scripts/pre_ship.py           # Full gate (writes updates in place)
+  python scripts/pre_ship.py --check   # Read-only audit; exit 1 if anything is stale
+
+What this gate covers (8 steps)
+--------------------------------
+[1] Vendor-name leak scan
+    - Scans every .md file under okf/ for banned vendor names (e.g. "Sportmonks")
+    - Public/LLM-facing files must never name the upstream data vendor
+    - Blocks if ANY violation found
+
+[2] Rebuild llms-full.txt + llms.txt template  ← MUST run before step 3
+    - Regenerates viewer/public/llms-full.txt from all OKF source files
+    - Regenerates viewer/public/llms.txt from build_llms_full.py template
+    - Template must have the correct Level text ("Level 3 — Agent-Safe"), not stale Level 2
+    - Blocks on build_llms_full.py exit != 0
+
+[3] Count sync (update_counts.py)
+    - Reads manifest.yaml as single source of truth for all counts
+    - Syncs counts to ALL of these consumer files:
+        • viewer/public/llms.txt         (dossier N, journeys N, players N, metrics N)
+        • viewer/public/llms-full.txt    (header line)
+        • README.md                      (badge + stats section)
+        • viewer/src/app/page.tsx        (hero stats block)
+        • viewer/src/app/agents/page.tsx (dossier count label in agent specs)
+        • datapackage.json               (version + dataset_version from manifest)
+        • okf/index.md                   (research / player / dossier / story / metric counts)
+    - Blocks if any consumer file diverges from manifest
+
+[4] Metadata sync (sync_meta.py)
+    - Propagates conformance level, profile version, and file count to all consumer files:
+        • viewer/public/llms.txt
+        • viewer/public/llms-full.txt
+        • viewer/src/app/page.tsx
+        • viewer/src/app/agents/page.tsx
+        • okf/spec/conformance.md
+        • okf/spec/index.md
+        • manifest.yaml (as written source)
+    - Blocks if level/version/count strings are stale in any consumer
+
+[5] Spec-file count sync (legacy guard)
+    - Separately verifies spec/index.md and spec/conformance.md show the correct
+      rounded file count label (e.g. "3,500+" for 3,512 actual files)
+    - Catches pattern mismatches that sync_meta.py might miss due to regex differences
+    - Non-blocking warn below TOTAL_FILE_THRESHOLD (sanity check)
+
+[6] Releases page completeness
+    - Reads all okf/releases/v*.md files
+    - Verifies viewer/src/app/releases/page.tsx has a matching entry for EVERY version
+    - Blocks if any release file is missing from the viewer UI
+    - Prevents "shipped a release note but never linked it to the UI" mistakes
+
+[7] search-index freshness (NON-BLOCKING — warn only)
+    - Checks if viewer/public/search-index.json is older than the newest OKF .md file
+    - The index is rebuilt by `cd viewer && npm run build` (or Amplify on deploy)
+    - Only warns; does not block. Reminder to rebuild locally if you need search to work.
+
+[8] OKF validator (validate_okf.py) — HARD GATE
+    - Validates EVERY .md file in okf/ against the OKF schema:
+        • Required frontmatter fields present + valid YAML
+        • `type` is one of the 20 approved values (okf/spec/types.md)
+        • All internal links resolve to real files
+        • source_boundary declared; no restricted raw-data patterns
+        • Metric files have formula + limitations
+    - 0 errors required to pass. Warnings are logged but do not block.
+
+Key invariants enforced across all steps
+-----------------------------------------
+- manifest.yaml is the SINGLE SOURCE OF TRUTH for counts, version, and conformance level
+- Every consumer file (llms.txt, README, page.tsx, agents/page.tsx, datapackage.json,
+  okf/index.md, spec files) must agree with manifest before anything ships
+- "Sportmonks" must never appear in any public file
+- Every okf/releases/v*.md must have a matching entry in the viewer releases page
+- OKF validator must show 0 errors
+
+Authoring reminder
+------------------
+After editing OKF files:
+  1. python scripts/pre_ship.py   (runs all 8 steps; writes any stale counts)
+  2. git add -p                   (review exactly what changed)
+  3. git commit -m "..."          (with both Co-Authored-By trailers per §29)
+  4. Wait for explicit push instruction — do NOT push speculatively
 """
 
 import argparse
@@ -54,7 +127,7 @@ def _read_manifest_total():
 
 def step_vendor_scan(check_only: bool) -> bool:
     """Scan all committed .md files for banned vendor names."""
-    print("\n[1/4] Vendor-name leak scan...")
+    print("\n[1/8] Vendor-name leak scan...")
     violations = []
     for md in sorted(OKF_DIR.rglob("*.md")):
         try:
@@ -79,7 +152,7 @@ def step_vendor_scan(check_only: bool) -> bool:
 
 def step_update_counts(check_only: bool) -> bool:
     """Run update_counts.py to sync manifest + llms.txt."""
-    print("\n[3/6] Syncing counts (manifest + llms.txt + root llms.txt + README + page.tsx)...")
+    print("\n[3/8] Syncing counts (manifest + llms.txt + root llms.txt + README + page.tsx)...")
     flag = ["--check"] if check_only else []
     result = subprocess.run(
         [sys.executable, str(ROOT / "scripts" / "update_counts.py")] + flag,
@@ -98,7 +171,7 @@ def step_update_counts(check_only: bool) -> bool:
 
 def step_sync_meta(check_only: bool) -> bool:
     """Run sync_meta.py to propagate level/version/count to all consumer files."""
-    print("\n[4/6] Syncing metadata (level, profile version, file count)...")
+    print("\n[4/8] Syncing metadata (level, profile version, file count)...")
     flag = ["--check"] if check_only else []
     result = subprocess.run(
         [sys.executable, str(ROOT / "scripts" / "sync_meta.py")] + flag,
@@ -118,7 +191,7 @@ def step_sync_meta(check_only: bool) -> bool:
 def step_sync_spec_files(check_only: bool) -> bool:
     """Legacy guard: verify spec/index.md and spec/conformance.md have the current file count.
     sync_meta.py (step 4) already handles this — this step catches any pattern mismatches."""
-    print("\n[5/6] Verifying spec file counts...")
+    print("\n[5/8] Verifying spec file counts...")
     total = _count_okf_files()
     if total < TOTAL_FILE_THRESHOLD:
         print(f"  WARN — only {total} files; expected >{TOTAL_FILE_THRESHOLD}. Skipping spec sync.")
@@ -175,7 +248,7 @@ def step_sync_spec_files(check_only: bool) -> bool:
 def step_rebuild_llms_full(check_only: bool) -> bool:
     """Rebuild viewer/public/llms-full.txt from all OKF files."""
     llms_full = ROOT / "viewer" / "public" / "llms-full.txt"
-    print("\n[2/6] Rebuilding llms-full.txt + llms.txt template (count sync runs after)...")
+    print("\n[2/8] Rebuilding llms-full.txt + llms.txt template (count sync runs after)...")
     if check_only:
         # In check-only mode, verify the header count matches actual file count
         if llms_full.exists():
@@ -206,9 +279,63 @@ def step_rebuild_llms_full(check_only: bool) -> bool:
     return True
 
 
+def step_check_releases_page(check_only: bool) -> bool:
+    """Verify releases/page.tsx has an entry for every okf/releases/v*.md file."""
+    print("\n[6/8] Checking releases page completeness...")
+    releases_dir = ROOT / "okf" / "releases"
+    releases_page = ROOT / "viewer" / "src" / "app" / "releases" / "page.tsx"
+
+    # Find all versioned release note files (exclude index.md)
+    release_files = sorted(
+        f.stem for f in releases_dir.glob("v*.md")
+    )  # e.g. ["v0.1", "v0.2", ...]
+
+    if not releases_page.exists():
+        print("  WARN — releases/page.tsx not found; skipping")
+        return True
+
+    page_content = releases_page.read_text(encoding="utf-8")
+    missing = [v for v in release_files if f"version: '{v}'" not in page_content]
+
+    if missing:
+        print(f"  FAIL — releases/page.tsx is missing entries for: {', '.join(missing)}")
+        print("    Add a version entry to the `releases` array in viewer/src/app/releases/page.tsx")
+        return False
+
+    print(f"  PASS — all {len(release_files)} releases present in releases/page.tsx")
+    return True
+
+
+def step_check_search_index_freshness(_check_only: bool) -> bool:
+    """Warn (non-blocking) if search-index.json is older than the newest OKF file."""
+    print("\n[7/8] Checking search-index freshness...")
+    search_index = ROOT / "viewer" / "public" / "search-index.json"
+    if not search_index.exists():
+        print("  WARN — search-index.json not found (rebuilt by `cd viewer && npm run build`)")
+        return True  # non-blocking
+
+    import os
+    idx_mtime = search_index.stat().st_mtime
+    newest_okf = max(
+        (f.stat().st_mtime for f in (ROOT / "okf").rglob("*.md")),
+        default=0,
+    )
+    if newest_okf > idx_mtime:
+        # Compute seconds difference
+        delta = int(newest_okf - idx_mtime)
+        minutes = delta // 60
+        print(
+            f"  WARN — search-index.json is {minutes}min older than newest OKF file. "
+            "Run `cd viewer && npm run build` to regenerate. (non-blocking — Amplify rebuilds on deploy)"
+        )
+    else:
+        print("  PASS — search-index.json is up to date")
+    return True  # always non-blocking
+
+
 def step_validate(check_only: bool) -> bool:
     """Run validate_okf.py and require 0 errors."""
-    print("\n[6/6] Running OKF validator (0 errors required)...")
+    print("\n[8/8] Running OKF validator (0 errors required)...")
     result = subprocess.run(
         [sys.executable, str(ROOT / "scripts" / "validate_okf.py")],
         capture_output=True,
@@ -245,6 +372,8 @@ def main():
         step_update_counts(args.check),
         step_sync_meta(args.check),
         step_sync_spec_files(args.check),
+        step_check_releases_page(args.check),
+        step_check_search_index_freshness(args.check),
         step_validate(args.check),
     ]
 
