@@ -144,7 +144,7 @@ SECTION_TYPES = {
 LLMS_HEADER = """\
 # CricketStudio OKF
 
-> Open Knowledge Framework for Cricket Data. A versioned standard and reference bundle for representing cricket entities, metrics, claims, provenance, and methodology — built on Google OKF v0.1. Self-certified Level 2 (Evidence-Backed).
+> Open Knowledge Framework for Cricket Data. A versioned standard and reference bundle for representing cricket entities, metrics, claims, provenance, and methodology — built on Google OKF v0.1. Self-certified Level 3 (Agent-Safe).
 
 CricketStudio OKF is the cricket domain profile on top of Google Open Knowledge Format (OKF) v0.1. It defines a type vocabulary, provenance convention, metric definition standard, claim discipline, entity identity rules, and sample-size doctrine for cricket data. The reference bundle covers IPL, MLC, players, teams, seasons, venues, metrics, methodology, and cricket stories. Every file carries YAML frontmatter with entity type, source boundary, provenance, and canonical links. Every data-bearing claim states its date window, sample size, and eligibility rules.
 
@@ -156,7 +156,7 @@ GitHub (full OKF bundle, raw markdown): https://github.com/i-m-arul/cricketstudi
 ## Start here
 
 - [Specification](https://okf.cricketstudio.ai/spec/): Cricket OKF type vocabulary, provenance convention, metric standard, claim discipline, identity rules, sample-size doctrine
-- [Conformance](https://okf.cricketstudio.ai/conformance/): Levels 0–4, self-certification checklist — CricketStudio OKF is Level 2 (Evidence-Backed)
+- [Conformance](https://okf.cricketstudio.ai/conformance/): Levels 0–4, self-certification checklist — CricketStudio OKF is Level 3 (Agent-Safe)
 - [Releases](https://okf.cricketstudio.ai/releases/): Versioned release history (v0.1 – v0.5)
 - [Bundle overview](https://okf.cricketstudio.ai/): Home page — navigation to scorebook, metrics, methodology, dossier, research, and journeys
 - [About OKF](https://okf.cricketstudio.ai/about/): What OKF is and how to cite it

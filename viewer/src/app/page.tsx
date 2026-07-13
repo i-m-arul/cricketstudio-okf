@@ -100,7 +100,7 @@ export default async function HomePage() {
     '@type': 'Dataset',
     name: 'CricketStudio OKF — Open Cricket Knowledge Catalog',
     description:
-      'A curated, open knowledge catalog for cricket. 174+ files covering all 10 IPL 2026 franchises, 65 players with phase splits and pillar claims, 11 IPL venues, MLC teams, metric definitions, methodology, and research. Every claim carries provenance, sample size, source boundary, and canonical CricketStudio links.',
+      'A curated, open knowledge catalog for cricket. 3,500+ files covering 922 players, 18 venues, 10 IPL franchises, MLC teams, metric definitions, methodology, and 2,317 verified Q\&A dossier entries. Every claim carries provenance, sample size, source boundary, and canonical CricketStudio links.',
     url: 'https://okf.cricketstudio.ai',
     license: 'https://creativecommons.org/licenses/by/4.0/',
     creator: {

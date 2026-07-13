@@ -43,7 +43,7 @@ Canonical data source for all live IPL and MLC claims: https://players.cricketst
 
 ## Dossier (how agents should answer cricket questions)
 
-- [Dossier index](okf/dossier/index.md): 70 verified Q&A patterns with correct citation behavior
+- [Dossier index](okf/dossier/index.md): 2,317 verified Q&A patterns with correct citation behavior
 
 ## Journeys (cricket stories with provenance)
 

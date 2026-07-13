@@ -3,7 +3,7 @@
 **The open, agent-readable knowledge layer for cricket.**
 
 [![License: CC-BY-4.0](https://img.shields.io/badge/License-CC--BY--4.0-lightgrey.svg)](LICENSE.md)
-[![OKF v0.4](https://img.shields.io/badge/OKF-v0.4-green.svg)](CHANGELOG.md)
+[![OKF v0.5.2](https://img.shields.io/badge/OKF-v0.5.2-green.svg)](CHANGELOG.md)
 [![Google OKF v0.1 conformant](https://img.shields.io/badge/Google%20OKF-v0.1%20conformant-blue.svg)](okf/sources/google-okf-alignment.md)
 [![Cricsheet CC BY 3.0](https://img.shields.io/badge/data-Cricsheet%20CC%20BY%203.0-blue.svg)](ATTRIBUTION.md)
 
@@ -62,16 +62,16 @@ okf/
     leagues/             # IPL, MLC
     seasons/             # IPL 2026, IPL 2026 Champions
     teams/               # All 10 IPL 2026 franchises + MLC teams
-    players/             # 65 players with phase splits, pillar claims, H2H records
-    venues/              # 11 IPL venues + 5 MLC venues — innings averages, toss tendency
+    players/             # 922 players with phase splits, pillar claims, H2H records
+    venues/              # 18 IPL venues + 5 MLC venues — innings averages, toss tendency
     matches/             # IPL 2026 Final
-  metrics/               # 10 definitions: batting SR, economy, death-overs, Orange/Purple Cap...
+  metrics/               # 19 definitions: batting SR, economy, death-overs, Orange/Purple Cap...
   methodology/           # sample-size floors, ranking eligibility, citation policy
   sources/               # data provenance and license boundaries
-  dossier/               # 37 verified Q&A patterns for agents
-  research/              # 8 reports: IPL 2026 season, MLC seasons, toss effects, death overs
-  stories/               # 5 cricket narratives (Journeys) grounded in provenance-backed OKF data
-  releases/              # versioned release notes (v0.1, v0.2, v0.3, v0.4)
+  dossier/               # 2,317 verified Q&A patterns for agents
+  research/              # 49 reports: IPL seasons, MLC seasons, toss effects, death overs
+  stories/               # 45 cricket narratives (Journeys) grounded in provenance-backed OKF data
+  releases/              # versioned release notes (v0.1–v0.5)
 schema/
   frontmatter.schema.json
   okf.schema.json
@@ -154,7 +154,7 @@ Full terms: [`LICENSE.md`](LICENSE.md) · [`DATA_LICENSE_BOUNDARIES.md`](DATA_LI
 
 ## Status
 
-**v0.4** — Journeys / Stories Layer: 430+ files · 8 spec documents · 10 metrics · 6 methodology · 8 research · 37 dossier · **5 cricket stories** · Level 3 conformance · 0 invented facts.  
+**v0.5.2** — Dossier expansion + Level 3: 3,500+ files · 12 spec documents · 19 metrics · 2,317 dossier · 49 research · **45 cricket stories** · Level 3 (Agent-Safe) conformance · 0 invented facts.  
 See [`CHANGELOG.md`](CHANGELOG.md) for what's in this release.
 
 ## Viewer (`okf.cricketstudio.ai`)

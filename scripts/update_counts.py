@@ -121,30 +121,33 @@ def _update_llms_txt(by_type: Counter, check_only: bool) -> bool:
     metric_n = by_type.get("metric", 0)
     research_n = by_type.get("research", 0)
 
-    # Dossier index: "N verified Q&A patterns"
+    # Dossier index: "N verified Q&A patterns" (may be comma-formatted e.g. "1,007")
+    # Pattern must match the markdown link syntax [Dossier index](URL): N ...
+    # [^:]+ would stop at the colon in https: — use \([^)]+\) to match the (URL) part
     content = re.sub(
-        r"(\[Dossier index\][^:]+:\s*)\d+( verified Q&A patterns)",
-        rf"\g<1>{dossier_n}\2",
+        r"(\[Dossier index\]\([^)]+\):\s*)[\d,]+( verified Q&A patterns)",
+        rf"\g<1>{dossier_n:,}\2",
         content,
     )
 
     # Journeys index: "N cricket stories"
+    # Use \([^)]+\) to match (URL) without stopping at colon in https:
     content = re.sub(
-        r"(\[Journeys index\][^:]+:\s*)\d+( cricket stories)",
+        r"(\[Journeys index\]\([^)]+\):\s*)\d+( cricket stories)",
         rf"\g<1>{story_n}\2",
         content,
     )
 
     # Players: "N players"
     content = re.sub(
-        r"(\[Players\][^:]+:\s*)\d+( players\b)",
+        r"(\[Players\]\([^)]+\):\s*)\d+( players\b)",
         rf"\g<1>{player_n}\2",
         content,
     )
 
     # Metrics index: "N metric files"
     content = re.sub(
-        r"(\[Metrics index\][^:]+:\s*)\d+( metric files)",
+        r"(\[Metrics index\]\([^)]+\):\s*)\d+( metric files)",
         rf"\g<1>{metric_n}\2",
         content,
     )
@@ -156,7 +159,7 @@ def _update_llms_txt(by_type: Counter, check_only: bool) -> bool:
     )
     if re.search(r"\[Research index\]", content):
         content = re.sub(
-            r"(\[Research index\][^:]+:\s*)\d+( reports\b)",
+            r"(\[Research index\]\([^)]+\):\s*)\d+( reports\b)",
             rf"\g<1>{research_n}\2",
             content,
         )
@@ -177,6 +180,125 @@ def _update_llms_txt(by_type: Counter, check_only: bool) -> bool:
 
     LLMS_TXT.write_text(content, encoding="utf-8")
     print("  llms.txt: updated count lines")
+    return True
+
+
+def _update_root_llms_txt(by_type: Counter, check_only: bool) -> bool:
+    """Sync dossier count in root llms.txt (used by git-clone RAG consumers)."""
+    root_llms = ROOT / "llms.txt"
+    if not root_llms.exists():
+        return True
+    content = root_llms.read_text(encoding="utf-8")
+    original = content
+    dossier_n = by_type.get("dossier", 0)
+    content = re.sub(
+        r"(\[Dossier index\]\([^)]+\):\s*)[\d,]+( verified Q&A patterns)",
+        rf"\g<1>{dossier_n:,}\2",
+        content,
+    )
+    if content == original:
+        return True
+    if check_only:
+        print("  [STALE] root llms.txt dossier count is out of date")
+        return False
+    root_llms.write_text(content, encoding="utf-8")
+    print(f"  llms.txt (root): dossier count → {dossier_n:,}")
+    return True
+
+
+def _update_readme(by_type: Counter, total: int, check_only: bool) -> bool:
+    """Sync README.md badge version + directory listing counts + status line."""
+    readme = ROOT / "README.md"
+    if not readme.exists():
+        return True
+    content = readme.read_text(encoding="utf-8")
+    original = content
+
+    dossier_n = by_type.get("dossier", 0)
+    player_n = by_type.get("player", 0)
+    venue_n = by_type.get("venue", 0)
+    metric_n = by_type.get("metric", 0)
+    research_n = by_type.get("research", 0)
+    story_n = by_type.get("story", 0)
+    spec_n = by_type.get("spec", 0)
+    rounded = (total // 100) * 100
+    label = f"{rounded:,}+"
+
+    # Badge version: [![OKF vX.Y](…)]
+    import yaml
+    manifest_data = yaml.safe_load((ROOT / "manifest.yaml").read_text(encoding="utf-8"))
+    version = manifest_data.get("version", "0.5")
+    content = re.sub(
+        r"(\[OKF v)([\d.]+)(\]\(https://img\.shields\.io/badge/OKF-v)([\d.]+)(-green\.svg\)\])",
+        rf"\g<1>{version}\g<3>{version}\5",
+        content,
+    )
+
+    # Directory listing counts
+    content = re.sub(r"(players/\s+#\s*)[\d,]+ players", rf"\g<1>{player_n:,} players", content)
+    content = re.sub(r"(venues/\s+#\s*)[\d,]+ IPL venues", rf"\g<1>{venue_n} IPL venues", content)
+    content = re.sub(r"(metrics/\s+#\s*)[\d,]+ definitions", rf"\g<1>{metric_n} definitions", content)
+    content = re.sub(r"(dossier/\s+#\s*)[\d,]+ verified Q&A patterns", rf"\g<1>{dossier_n:,} verified Q&A patterns", content)
+    content = re.sub(r"(research/\s+#\s*)[\d,]+ reports", rf"\g<1>{research_n} reports", content)
+    content = re.sub(r"(stories/\s+#\s*)[\d,]+ cricket narratives", rf"\g<1>{story_n} cricket narratives", content)
+
+    # Status line: **vX.Y** — ...
+    content = re.sub(
+        r"(\*\*v)([\d.]+)(\*\* — [^\n]+files)[^\n]*\n",
+        rf"\g<1>{version}\3 · {spec_n} spec documents · {metric_n} metrics · {dossier_n:,} dossier · {research_n} research · **{story_n} cricket stories** · Level 3 (Agent-Safe) conformance · 0 invented facts.  \n",
+        content,
+    )
+
+    if content == original:
+        return True
+    if check_only:
+        print("  [STALE] README.md counts are out of date")
+        return False
+    readme.write_text(content, encoding="utf-8")
+    print(f"  README.md: updated badge v{version}, counts, status line")
+    return True
+
+
+def _update_page_jsonld(by_type: Counter, total: int, check_only: bool) -> bool:
+    """Sync JSON-LD Dataset description in viewer/src/app/page.tsx."""
+    page = ROOT / "viewer" / "src" / "app" / "page.tsx"
+    if not page.exists():
+        return True
+    content = page.read_text(encoding="utf-8")
+    original = content
+
+    dossier_n = by_type.get("dossier", 0)
+    player_n = by_type.get("player", 0)
+    venue_n = by_type.get("venue", 0)
+    rounded = (total // 100) * 100
+    label = f"{rounded:,}+"
+
+    new_desc = (
+        f"A curated, open knowledge catalog for cricket. {label} files covering "
+        f"{player_n:,} players, {venue_n} venues, 10 IPL franchises, MLC teams, metric definitions, "
+        f"methodology, and {dossier_n:,} verified Q\\&A dossier entries. Every claim carries provenance, "
+        f"sample size, source boundary, and canonical CricketStudio links."
+    )
+    content = re.sub(
+        r"(      'A curated, open knowledge catalog for cricket\. )[\d,+A-Za-z ,\\.\\&;/–—]+(\. Every claim carries provenance,\s+sample size, source boundary, and canonical CricketStudio links\.',)",
+        rf"\g<1>{new_desc[len('A curated, open knowledge catalog for cricket. '):]}\g<2>",
+        content,
+        flags=re.DOTALL,
+    )
+    # Simpler single-line approach if above doesn't match
+    content = re.sub(
+        r"'A curated, open knowledge catalog for cricket\.[^']+canonical CricketStudio links\.'",
+        f"'{new_desc}'",
+        content,
+    )
+
+    if content == original:
+        return True
+    if check_only:
+        print("  [STALE] viewer/src/app/page.tsx JSON-LD description is out of date")
+        return False
+    page.write_text(content, encoding="utf-8")
+    print(f"  page.tsx JSON-LD: updated to {label} files, {player_n:,} players, {dossier_n:,} dossier")
     return True
 
 
@@ -204,6 +326,9 @@ def main() -> None:
     ok = True
     ok = _update_manifest(by_type, check_only=args.check) and ok
     ok = _update_llms_txt(by_type, check_only=args.check) and ok
+    ok = _update_root_llms_txt(by_type, check_only=args.check) and ok
+    ok = _update_readme(by_type, total, check_only=args.check) and ok
+    ok = _update_page_jsonld(by_type, total, check_only=args.check) and ok
 
     if args.check and not ok:
         print(
