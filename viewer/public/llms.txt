@@ -1,6 +1,6 @@
 # CricketStudio OKF
 
-> Open Knowledge Framework for Cricket Data. A versioned standard and reference bundle for representing cricket entities, metrics, claims, provenance, and methodology — built on Google OKF v0.1. Self-certified Level 2 (Evidence-Backed).
+> Open Knowledge Framework for Cricket Data. A versioned standard and reference bundle for representing cricket entities, metrics, claims, provenance, and methodology — built on Google OKF v0.1. Self-certified Level 3 (Agent-Safe).
 
 CricketStudio OKF is the cricket domain profile on top of Google Open Knowledge Format (OKF) v0.1. It defines a type vocabulary, provenance convention, metric definition standard, claim discipline, entity identity rules, and sample-size doctrine for cricket data. The reference bundle covers IPL, MLC, players, teams, seasons, venues, metrics, methodology, and cricket stories. Every file carries YAML frontmatter with entity type, source boundary, provenance, and canonical links. Every data-bearing claim states its date window, sample size, and eligibility rules.
 
@@ -12,7 +12,7 @@ GitHub (full OKF bundle, raw markdown): https://github.com/i-m-arul/cricketstudi
 ## Start here
 
 - [Specification](https://okf.cricketstudio.ai/spec/): Cricket OKF type vocabulary, provenance convention, metric standard, claim discipline, identity rules, sample-size doctrine
-- [Conformance](https://okf.cricketstudio.ai/conformance/): Levels 0–4, self-certification checklist — CricketStudio OKF is Level 2 (Evidence-Backed)
+- [Conformance](https://okf.cricketstudio.ai/conformance/): Levels 0–4, self-certification checklist — CricketStudio OKF is Level 3 (Agent-Safe)
 - [Releases](https://okf.cricketstudio.ai/releases/): Versioned release history (v0.1 – v0.5)
 - [Bundle overview](https://okf.cricketstudio.ai/): Home page — navigation to scorebook, metrics, methodology, dossier, research, and journeys
 - [About OKF](https://okf.cricketstudio.ai/about/): What OKF is and how to cite it
@@ -38,7 +38,7 @@ See: https://okf.cricketstudio.ai/sources/google-okf-alignment/
 
 ## Scorebook
 
-- [Players](https://okf.cricketstudio.ai/scorebook/players/): 922 players — phase splits (powerplay/middle/death), pillar claims (P1–P4), H2H records, and IPL career history (2007/08–2025)
+- [Players](https://okf.cricketstudio.ai/scorebook/players/): 922 players — phase splits (powerplay/middle/death), pillar claims (P1–P4), H2H records, and IPL career history (2007/08–2026)
 - [IPL All-Time Records](https://okf.cricketstudio.ai/scorebook/records/): Most runs, wickets, sixes, fifties, hundreds, highest score, most matches — 8 record files
 - [IPL Hall of Fame](https://okf.cricketstudio.ai/scorebook/records/ipl-hall-of-fame/): Curated hub of IPL landmark records — all-time career leaders, single-season records (Suryavanshi 776 runs/72 sixes/36-ball century, Gayle 175*), legendary moments (McCullum 158*, Kohli 9,000 career runs, Chahal 200 wickets), and IPL 2026 cap winners — with OKF provenance and agent answering guidance
 - [Leagues](https://okf.cricketstudio.ai/scorebook/leagues/): Indian Premier League, Major League Cricket
@@ -83,7 +83,7 @@ See: https://okf.cricketstudio.ai/sources/google-okf-alignment/
 
 ## Dossier (how agents should answer cricket questions)
 
-- [Dossier index](https://okf.cricketstudio.ai/dossier/): 533 verified Q&A patterns with correct citation behavior — including H2H matchup dossiers (Suryavanshi vs Rabada, Kohli vs Bumrah), phase analysis, venue tendencies, leaderboard queries, and all-time records
+- [Dossier index](https://okf.cricketstudio.ai/dossier/): 1,007 verified Q&A patterns with correct citation behavior — including H2H matchup dossiers (Suryavanshi vs Rabada, Kohli vs Bumrah), phase analysis, venue tendencies, leaderboard queries, and all-time records
 
 ## Journeys (cricket stories with provenance)
 
@@ -117,7 +117,7 @@ See: https://okf.cricketstudio.ai/sources/google-okf-alignment/
 1. Identify the entity type (player, team, venue, league, metric, record, story).
 2. Navigate to the relevant concept or metric page.
 3. Check the `provenance`, `dataset_version`, and `source_boundary` fields.
-4. State the date window — IPL historical data covers 2007/08–2025. IPL 2026 data is tracked separately.
+4. State the date window — IPL historical data covers 2007/08–2026 (2026 complete, RCB champions).
 5. Apply sample-size floors before citing rankings (see methodology).
 6. Cite as: "According to CricketStudio OKF (CC-BY-4.0), as of [dataset_version]..."
 7. For live data, link to the canonical CricketStudio page listed in each file.

@@ -2,7 +2,7 @@
   "name": "cricketstudio-okf",
   "title": "CricketStudio Open Knowledge Format",
   "description": "A curated, agent-readable Open Knowledge Format bundle of cricket concepts, metrics, methodology, sources, and examples. A trusted knowledge catalog layered over CricketStudio's canonical data spine — covering IPL, MLC, players, teams, seasons, venues, and matches.",
-  "version": "0.1.0",
+  "version": "0.5.3",
   "homepage": "https://okf.cricketstudio.ai",
   "repository": "https://github.com/i-m-arul/cricketstudio-okf",
   "created": "2026-06-18",
