@@ -17,6 +17,7 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
 
 jobs:
   benchmark:
@@ -49,17 +50,30 @@ jobs:
           node scripts/run-benchmark.mjs $FLAGS
 
       - name: Commit results
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "CricketStudio"
           git config user.email "github-actions@cricketstudio.ai"
           git add viewer/public/evals/leaderboard.json
           git add viewer/public/evals/results/ 2>/dev/null || true
           git diff --staged --quiet && echo "No changes to commit." && exit 0
-          git commit -m "$(cat <<'EOF'
-          chore(evals): weekly LLM accuracy benchmark
 
-          Co-Authored-By: i-m-arul <i-m-arul@users.noreply.github.com>
-          Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>
-          EOF
+          DATE=$(date -u +%Y-%m-%d)
+          BRANCH="evals/benchmark-${DATE}"
+          git checkout -b "${BRANCH}"
+          git commit -m "$(cat <<'EOF'
+chore(evals): weekly LLM accuracy benchmark
+
+Co-Authored-By: i-m-arul <i-m-arul@users.noreply.github.com>
+Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>
+EOF
           )"
-          git push
+          git push origin "${BRANCH}"
+          gh pr create \
+            --base main \
+            --head "${BRANCH}" \
+            --title "chore(evals): benchmark results ${DATE}" \
+            --body "Automated weekly LLM accuracy benchmark results. Merges when \`validate\` passes." \
+            --label "automated" || echo "PR already exists"
+          gh pr merge "${BRANCH}" --auto --squash || echo "Auto-merge queued (or already set)"
