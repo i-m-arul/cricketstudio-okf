@@ -12,8 +12,11 @@ Usage:
 
 What this gate covers (9 steps)
 --------------------------------
-[1] Vendor-name leak scan
+[1] Vendor-name + API-key leak scan
     - Scans every .md file under okf/ for banned vendor names (e.g. "Sportmonks")
+    - Scans ALL tracked repo files for real API key patterns:
+        Anthropic (sk-ant-api...), OpenAI (sk-proj-...), Google (AIzaSy...),
+        Perplexity (pplx-UUID). Placeholder strings in .env.example do NOT match.
     - Public/LLM-facing files must never name the upstream data vendor
     - Blocks if ANY violation found
 
@@ -90,6 +93,7 @@ Key invariants enforced across all steps
 - Every consumer file (llms.txt, README, page.tsx, agents/page.tsx, spec/page.tsx,
   datapackage.json, okf/index.md, spec files) must agree with manifest before shipping
 - "Sportmonks" must never appear in any public file
+- Real API keys (Anthropic, OpenAI, Google, Perplexity) must never appear in any tracked file
 - No hardcoded exact count values in .tsx files — all counts must flow from manifest
 - Every okf/releases/v*.md must have a matching entry in the viewer releases page
 - OKF validator must show 0 errors
@@ -121,6 +125,21 @@ BANNED_VENDOR_PATTERNS = [
     r"\bsportmonks\b",
 ]
 
+# Real API key patterns — specific enough to avoid false positives against
+# placeholder strings like "sk-ant-..." in .env.example.
+# Matches actual key formats used by each provider.
+API_KEY_PATTERNS = [
+    (r"sk-ant-api[0-9]{2}-[A-Za-z0-9_-]{20,}", "Anthropic API key (sk-ant-api...)"),
+    (r"sk-proj-[A-Za-z0-9_-]{20,}", "OpenAI project key (sk-proj-...)"),
+    (r"AIzaSy[A-Za-z0-9_\-]{30,}", "Google/Gemini API key (AIzaSy...)"),
+    (r"pplx-[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}", "Perplexity API key (pplx-UUID)"),
+]
+
+# Directories and files to skip in the API key scan
+_SKIP_DIRS = {".git", "node_modules", ".next", "out", "dist", "build", "__pycache__", ".venv"}
+_SKIP_FILES = {".env", ".env.local"}  # gitignored; shouldn't exist, but skip if present
+_SCAN_EXTENSIONS = {".md", ".mjs", ".js", ".ts", ".tsx", ".json", ".yaml", ".yml", ".txt", ".py"}
+
 TOTAL_FILE_THRESHOLD = 1000  # If total < this something is wrong
 
 
@@ -138,10 +157,26 @@ def _read_manifest_total():
         return None
 
 
+def _iter_repo_files():
+    """Yield every file in the repo that should be scanned for leaks."""
+    for path in sorted(ROOT.rglob("*")):
+        if not path.is_file():
+            continue
+        if any(part in _SKIP_DIRS for part in path.parts):
+            continue
+        if path.name in _SKIP_FILES:
+            continue
+        if path.suffix not in _SCAN_EXTENSIONS:
+            continue
+        yield path
+
+
 def step_vendor_scan(check_only: bool) -> bool:
-    """Scan all committed .md files for banned vendor names."""
-    print("\n[1/9] Vendor-name leak scan...")
+    """Scan for (1) vendor-name leaks in OKF .md files and (2) API keys in all repo files."""
+    print("\n[1/9] Vendor-name + API-key leak scan...")
     violations = []
+
+    # Part A — vendor names in OKF markdown
     for md in sorted(OKF_DIR.rglob("*.md")):
         try:
             text = md.read_text(encoding="utf-8")
@@ -150,16 +185,29 @@ def step_vendor_scan(check_only: bool) -> bool:
         for pat in BANNED_VENDOR_PATTERNS:
             if re.search(pat, text):
                 rel = md.relative_to(ROOT)
-                violations.append(str(rel))
+                violations.append(f"{rel}  [vendor name]")
                 break
 
+    # Part B — real API keys anywhere in tracked files
+    for fpath in _iter_repo_files():
+        try:
+            text = fpath.read_text(encoding="utf-8", errors="ignore")
+        except OSError:
+            continue
+        for pat, label in API_KEY_PATTERNS:
+            if re.search(pat, text):
+                rel = fpath.relative_to(ROOT)
+                violations.append(f"{rel}  [{label}]")
+                break  # one violation per file is enough
+
     if violations:
-        print(f"  FAIL — {len(violations)} file(s) contain banned vendor names:")
+        print(f"  FAIL -- {len(violations)} leak(s) found:")
         for v in violations:
             print(f"    {v}")
         return False
 
-    print(f"  PASS — no vendor name leaks in {sum(1 for _ in OKF_DIR.rglob('*.md'))} files")
+    md_count = sum(1 for _ in OKF_DIR.rglob("*.md"))
+    print(f"  PASS -- no vendor name leaks in {md_count} files; no API keys in repo")
     return True
 
 
