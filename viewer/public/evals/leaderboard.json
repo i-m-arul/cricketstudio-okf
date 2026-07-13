@@ -1,8 +1,8 @@
 {
-  "version": 1,
+  "version": 2,
   "benchmark": "cricket-qa-v1",
   "benchmark_url": "https://players.cricketstudio.ai/evals/cricket-qa-v1.jsonl",
   "judge": "claude-haiku-4-5-20251001",
-  "scoring": "binary — 1 if correct, 0 if incorrect (per question)",
+  "scoring": "binary — 1 if correct, 0 if incorrect (per question); two passes: raw knowledge + with CricketStudio OKF context",
   "runs": []
 }

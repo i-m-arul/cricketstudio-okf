@@ -4,21 +4,29 @@ import Link from 'next/link'
 
 export const metadata = {
   alternates: { canonical: '/evals/leaderboard' },
-  title: 'LLM Accuracy Leaderboard',
+  title: 'LLM Cricket Accuracy Leaderboard',
   description:
-    'Which LLM knows cricket best? CricketStudio runs 1,000 verified Q&A pairs against leading AI models — no context, raw knowledge only. Updated weekly.',
+    'CricketStudio runs 1,000 verified cricket Q&A pairs against GPT-4o, Claude, Gemini, and Perplexity — with and without CricketStudio data as context. See which LLM knows cricket best, and how much CricketStudio data improves accuracy.',
 }
 
 // ── Types ────────────────────────────────────────────────────────────────────
 
-interface CategoryScore { correct: number; total: number }
+interface CategoryScore {
+  correct_raw: number
+  correct_with_cs?: number
+  total: number
+}
 
 interface ModelRun {
   id: string
   label: string
   provider: string
-  score: number
-  correct: number
+  // v2 schema
+  score_raw: number
+  score_with_cs: number | null
+  delta: number | null
+  correct_raw: number
+  correct_with_cs?: number
   total: number
   byCategory?: Record<string, CategoryScore>
 }
@@ -27,6 +35,8 @@ interface Run {
   date: string
   questions: number
   judge: string
+  with_context?: boolean
+  context_source?: string
   models: ModelRun[]
 }
 
@@ -44,7 +54,7 @@ interface Leaderboard {
 function getData(): Leaderboard {
   const p = join(process.cwd(), 'public', 'evals', 'leaderboard.json')
   if (!existsSync(p)) {
-    return { version: 1, benchmark: 'cricket-qa-v1', benchmark_url: '', judge: '', scoring: '', runs: [] }
+    return { version: 2, benchmark: 'cricket-qa-v1', benchmark_url: '', judge: '', scoring: '', runs: [] }
   }
   return JSON.parse(readFileSync(p, 'utf8')) as Leaderboard
 }
@@ -53,60 +63,57 @@ function getData(): Leaderboard {
 
 const PROVIDER_COLORS: Record<string, string> = {
   Anthropic: 'text-purple-400 bg-purple-950',
-  OpenAI: 'text-emerald-400 bg-emerald-950',
-  Google: 'text-indigo-400 bg-indigo-950',
-  Perplexity: 'text-blue-400 bg-blue-950',
+  OpenAI:    'text-emerald-400 bg-emerald-950',
+  Google:    'text-indigo-400 bg-indigo-950',
+  Perplexity:'text-blue-400 bg-blue-950',
 }
 
 const RANK_COLORS = ['text-yellow-400', 'text-gray-300', 'text-amber-600', 'text-gray-500']
 
-const BAR_COLORS = [
-  'bg-green-500',
-  'bg-blue-500',
-  'bg-indigo-500',
-  'bg-red-400',
-]
+const BAR_COLORS = ['bg-green-500', 'bg-blue-500', 'bg-indigo-500', 'bg-red-400']
 
 function pct(score: number) {
   return (score * 100).toFixed(1) + '%'
 }
 
-function deltaLabel(score: number, baseline: number) {
-  if (score === baseline) return { label: 'baseline', cls: 'text-gray-500 italic' }
-  const diff = ((score - baseline) * 100).toFixed(1)
-  return score > baseline
-    ? { label: `+${diff}pp`, cls: 'text-green-400' }
-    : { label: `${diff}pp`, cls: 'text-red-400' }
+function pp(delta: number | null) {
+  if (delta === null) return null
+  const v = (delta * 100).toFixed(1)
+  return delta >= 0 ? `+${v}pp` : `${v}pp`
 }
 
 const CATEGORY_LABELS: Record<string, string> = {
   player_stats: 'Player stats',
-  ipl_history: 'IPL history',
-  rules: 'Rules / laws',
-  venue: 'Venue facts',
-  recent_ipl: 'Recent IPL',
-  general: 'General',
+  ipl_history:  'IPL history',
+  rules:        'Rules / laws',
+  venue:        'Venue facts',
+  recent_ipl:   'Recent IPL',
+  general:      'General',
 }
 
 // ── Page ─────────────────────────────────────────────────────────────────────
 
 export default function LeaderboardPage() {
-  const data = getData()
+  const data     = getData()
   const latestRun = data.runs[0] ?? null
-  const winner = latestRun?.models[0] ?? null
+  // Sort by score_with_cs if the run has it, else score_raw
+  const sortedModels = latestRun
+    ? [...latestRun.models].sort((a, b) =>
+        ((b.score_with_cs ?? b.score_raw)) - ((a.score_with_cs ?? a.score_raw))
+      )
+    : []
+  const winner     = sortedModels[0] ?? null
+  const hasContext = latestRun?.with_context === true
 
-  // Gather all categories across all models in latest run
+  // Gather categories
   const allCategories = latestRun
     ? Array.from(
         new Set(latestRun.models.flatMap(m => Object.keys(m.byCategory ?? {})))
       ).filter(c => c !== 'general')
     : []
 
-  // Baseline = GPT-4o if present, else second model
-  const baseline = latestRun?.models.find(m => m.id === 'gpt-4o') ?? latestRun?.models[1]
-
   return (
-    <div className="max-w-3xl mx-auto">
+    <div className="max-w-4xl mx-auto">
       {/* Breadcrumb */}
       <nav className="text-xs text-gray-600 mb-6 flex gap-1.5 items-center">
         <Link href="/" className="hover:text-gray-400">OKF</Link>
@@ -121,19 +128,24 @@ export default function LeaderboardPage() {
           LLM Accuracy Evals
         </div>
         <h1 className="text-3xl font-bold text-white mb-3 leading-tight">
-          Which LLM knows cricket <span className="text-green-400">best?</span>
+          Which LLM knows cricket{' '}
+          <span className="text-green-400">best?</span>
         </h1>
-        <p className="text-gray-400 text-sm leading-relaxed max-w-xl">
-          CricketStudio runs 1,000 verified cricket Q&amp;A pairs against leading AI models — no
-          context injected, raw knowledge only. Each response scored by Claude Haiku. Updated weekly.
+        <p className="text-gray-400 text-sm leading-relaxed max-w-2xl">
+          CricketStudio runs 1,000 verified cricket Q&amp;A pairs against leading AI models — twice.
+          First with <strong className="text-gray-300">no context</strong> (raw cricket knowledge),
+          then with <strong className="text-green-400">CricketStudio OKF data injected</strong>.
+          The accuracy delta is the value proof: how much does structured, provenance-backed cricket
+          data make AI answers better?
         </p>
         <div className="flex flex-wrap gap-4 mt-4 text-xs text-gray-500">
           <span><strong className="text-gray-400">1,000</strong> questions</span>
           <span><strong className="text-gray-400">4</strong> models</span>
+          <span><strong className="text-gray-400">2</strong> passes — raw + OKF context</span>
           <span><strong className="text-gray-400">Claude Haiku</strong> judge</span>
           <span><strong className="text-gray-400">Weekly</strong> · Mon 06:00 UTC</span>
           <span>
-            Source:{' '}
+            Benchmark:{' '}
             <a
               href="https://players.cricketstudio.ai/evals/cricket-qa-v1.jsonl"
               className="text-green-500 hover:underline"
@@ -170,24 +182,70 @@ export default function LeaderboardPage() {
         <>
           {/* Winner card */}
           {winner && (
-            <div className="bg-gradient-to-r from-green-950/60 to-gray-900 border border-green-900 rounded-xl p-5 mb-6 flex items-center gap-5">
-              <span className="text-4xl">🏆</span>
-              <div className="flex-1 min-w-0">
-                <div className="text-xs font-bold tracking-wider text-green-700 uppercase mb-1">
-                  Current leader · {latestRun.date}
+            <div className="bg-gradient-to-r from-green-950/60 to-gray-900 border border-green-900 rounded-xl p-5 mb-6">
+              <div className="flex items-start gap-5">
+                <span className="text-4xl mt-0.5">🏆</span>
+                <div className="flex-1 min-w-0">
+                  <div className="text-xs font-bold tracking-wider text-green-700 uppercase mb-1">
+                    Current leader · {latestRun.date}
+                  </div>
+                  <div className="text-xl font-bold text-green-400">{winner.label}</div>
+                  <div className="text-sm text-gray-400 mt-0.5">
+                    <strong className="text-gray-200 font-mono">{winner.correct_raw}</strong> /{' '}
+                    {winner.total} correct (raw)
+                    {hasContext && winner.correct_with_cs !== undefined && (
+                      <>
+                        {' '}→{' '}
+                        <strong className="text-green-300 font-mono">{winner.correct_with_cs}</strong>
+                        {' '}with CricketStudio
+                      </>
+                    )}
+                  </div>
                 </div>
-                <div className="text-xl font-bold text-green-400">{winner.label}</div>
-                <div className="text-sm text-gray-400 mt-0.5">
-                  <strong className="text-gray-200 font-mono">{winner.correct}</strong> /{' '}
-                  {winner.total} questions correct
+                {/* Score display */}
+                <div className="text-right shrink-0">
+                  {hasContext && winner.score_with_cs !== null ? (
+                    <>
+                      <div className="flex items-baseline gap-2 justify-end">
+                        <span className="text-sm text-gray-500 font-mono">{pct(winner.score_raw)}</span>
+                        <span className="text-gray-600">→</span>
+                        <span className="text-4xl font-extrabold text-green-400 font-mono leading-none tracking-tight">
+                          {pct(winner.score_with_cs)}
+                        </span>
+                      </div>
+                      <div className="mt-1 flex items-center justify-end gap-2">
+                        <span className="text-xs bg-green-900/60 text-green-300 px-2 py-0.5 rounded-full font-semibold">
+                          {pp(winner.delta)} with CricketStudio
+                        </span>
+                      </div>
+                    </>
+                  ) : (
+                    <>
+                      <div className="text-4xl font-extrabold text-green-400 font-mono leading-none tracking-tight">
+                        {pct(winner.score_raw)}
+                      </div>
+                      <div className="text-xs text-gray-500 mt-1">cricket accuracy</div>
+                    </>
+                  )}
                 </div>
               </div>
-              <div className="text-right shrink-0">
-                <div className="text-5xl font-extrabold text-green-400 font-mono leading-none tracking-tight">
-                  {pct(winner.score)}
-                </div>
-                <div className="text-xs text-gray-500 mt-1">cricket accuracy</div>
-              </div>
+            </div>
+          )}
+
+          {/* Column legend when both passes present */}
+          {hasContext && (
+            <div className="flex gap-4 text-xs mb-3 pl-1">
+              <span className="flex items-center gap-1.5 text-gray-500">
+                <span className="w-2 h-2 rounded-full bg-gray-600 inline-block" />
+                Raw — no context
+              </span>
+              <span className="flex items-center gap-1.5 text-green-500">
+                <span className="w-2 h-2 rounded-full bg-green-600 inline-block" />
+                +CS — with CricketStudio OKF
+              </span>
+              <span className="flex items-center gap-1.5 text-emerald-400">
+                Δ accuracy improvement
+              </span>
             </div>
           )}
 
@@ -202,24 +260,29 @@ export default function LeaderboardPage() {
                 <tr className="border-b border-gray-800">
                   <th className="text-left py-3 px-4 text-gray-600 font-medium text-xs tracking-wide w-8">#</th>
                   <th className="text-left py-3 px-4 text-gray-600 font-medium text-xs tracking-wide">Model</th>
-                  <th className="py-3 px-4 text-gray-600 font-medium text-xs tracking-wide w-40 hidden sm:table-cell">Accuracy</th>
-                  <th className="text-right py-3 px-4 text-gray-600 font-medium text-xs tracking-wide">Score</th>
-                  <th className="text-right py-3 px-4 text-gray-600 font-medium text-xs tracking-wide hidden sm:table-cell">
-                    Correct
-                  </th>
-                  {baseline && (
-                    <th className="text-right py-3 px-4 text-gray-600 font-medium text-xs tracking-wide hidden md:table-cell">
-                      vs GPT-4o
-                    </th>
+                  <th className="text-right py-3 px-4 text-gray-600 font-medium text-xs tracking-wide">Raw</th>
+                  {hasContext && (
+                    <>
+                      <th className="text-right py-3 px-4 text-gray-600 font-medium text-xs tracking-wide hidden sm:table-cell">
+                        +CS
+                      </th>
+                      <th className="text-right py-3 px-4 text-gray-600 font-medium text-xs tracking-wide hidden md:table-cell">
+                        Δ
+                      </th>
+                    </>
                   )}
+                  <th className="py-3 px-4 text-gray-600 font-medium text-xs tracking-wide w-32 hidden lg:table-cell">
+                    {hasContext ? '+CS bar' : 'Accuracy'}
+                  </th>
                 </tr>
               </thead>
               <tbody>
-                {latestRun.models.map((model, i) => {
-                  const delta = baseline && model.id !== baseline.id
-                    ? deltaLabel(model.score, baseline.score)
-                    : null
+                {sortedModels.map((model, i) => {
                   const providerCls = PROVIDER_COLORS[model.provider] ?? 'text-gray-400 bg-gray-800'
+                  const deltaStr    = pp(model.delta)
+                  const deltaPos    = model.delta !== null && model.delta > 0
+                  // bar fills based on with-CS score if available, else raw
+                  const barPct      = ((model.score_with_cs ?? model.score_raw) * 100).toFixed(1)
                   return (
                     <tr key={model.id} className="border-b border-gray-800/60 hover:bg-gray-900/50">
                       <td className="py-4 px-4">
@@ -238,31 +301,37 @@ export default function LeaderboardPage() {
                           </div>
                         </div>
                       </td>
-                      <td className="py-4 px-4 hidden sm:table-cell">
+                      <td className="py-4 px-4 text-right">
+                        <span className="text-gray-400 font-mono text-sm">
+                          {pct(model.score_raw)}
+                        </span>
+                      </td>
+                      {hasContext && (
+                        <>
+                          <td className="py-4 px-4 text-right hidden sm:table-cell">
+                            <span className={`font-bold font-mono text-sm ${i === 0 ? 'text-green-400' : 'text-gray-200'}`}>
+                              {model.score_with_cs !== null ? pct(model.score_with_cs) : '—'}
+                            </span>
+                          </td>
+                          <td className="py-4 px-4 text-right hidden md:table-cell">
+                            {deltaStr ? (
+                              <span className={`text-xs font-semibold px-2 py-0.5 rounded-full ${deltaPos ? 'bg-green-950 text-green-400' : 'bg-red-950 text-red-400'}`}>
+                                {deltaStr}
+                              </span>
+                            ) : (
+                              <span className="text-gray-600 text-xs">—</span>
+                            )}
+                          </td>
+                        </>
+                      )}
+                      <td className="py-4 px-4 hidden lg:table-cell">
                         <div className="h-1.5 bg-gray-800 rounded-full overflow-hidden w-full">
                           <div
                             className={`h-full rounded-full ${BAR_COLORS[i] ?? 'bg-gray-500'}`}
-                            style={{ width: `${(model.score * 100).toFixed(1)}%` }}
+                            style={{ width: `${barPct}%` }}
                           />
                         </div>
                       </td>
-                      <td className="py-4 px-4 text-right">
-                        <span className={`text-lg font-bold font-mono ${i === 0 ? 'text-green-400' : 'text-gray-300'}`}>
-                          {pct(model.score)}
-                        </span>
-                      </td>
-                      <td className="py-4 px-4 text-right text-xs text-gray-500 font-mono hidden sm:table-cell">
-                        {model.correct} / {model.total}
-                      </td>
-                      {baseline && (
-                        <td className="py-4 px-4 text-right text-xs font-semibold hidden md:table-cell">
-                          {model.id === baseline.id ? (
-                            <span className="text-gray-600 italic">baseline</span>
-                          ) : delta ? (
-                            <span className={delta.cls}>{delta.label}</span>
-                          ) : null}
-                        </td>
-                      )}
                     </tr>
                   )
                 })}
@@ -275,6 +344,7 @@ export default function LeaderboardPage() {
             <>
               <div className="mb-2 text-xs font-bold tracking-wider text-gray-600 uppercase flex items-center gap-3">
                 By category
+                <span className="text-gray-700 font-normal normal-case tracking-normal">(raw accuracy)</span>
                 <span className="flex-1 h-px bg-gray-800" />
               </div>
               <div className="overflow-x-auto rounded-lg border border-gray-800 mb-8">
@@ -284,7 +354,7 @@ export default function LeaderboardPage() {
                       <th className="text-left py-2.5 px-4 text-gray-600 font-medium text-xs tracking-wide">
                         Category
                       </th>
-                      {latestRun.models.map((m) => (
+                      {sortedModels.map((m) => (
                         <th key={m.id} className="text-right py-2.5 px-4 text-gray-600 font-medium text-xs tracking-wide">
                           {m.label.split(' ')[0]}
                         </th>
@@ -297,9 +367,11 @@ export default function LeaderboardPage() {
                         <td className="py-3 px-4 text-gray-400 text-xs">
                           {CATEGORY_LABELS[cat] ?? cat}
                         </td>
-                        {latestRun.models.map((m, mi) => {
+                        {sortedModels.map((m, mi) => {
                           const cs = m.byCategory?.[cat]
-                          const catPct = cs ? (cs.correct / cs.total * 100).toFixed(0) + '%' : '—'
+                          const catPct = cs
+                            ? (cs.correct_raw / cs.total * 100).toFixed(0) + '%'
+                            : '—'
                           return (
                             <td
                               key={m.id}
@@ -323,84 +395,85 @@ export default function LeaderboardPage() {
             <span className="flex-1 h-px bg-gray-800" />
           </div>
           <div className="rounded-lg border border-gray-800 overflow-hidden mb-8">
-            {data.runs.map((run, ri) => (
-              <div
-                key={run.date}
-                className={`flex items-center gap-4 px-4 py-3 text-xs ${ri < data.runs.length - 1 ? 'border-b border-gray-800' : ''}`}
-              >
-                <span className="font-mono text-gray-500 w-24 shrink-0">{run.date}</span>
-                <span className="text-green-400 font-semibold flex-1 truncate">
-                  🥇 {run.models[0]?.label}
-                </span>
-                <span className="text-gray-600">{run.questions} Q</span>
-                <div className="hidden sm:flex gap-3">
-                  {run.models.slice(0, 4).map((m, mi) => (
-                    <span key={m.id} className={`font-mono ${mi === 0 ? 'text-green-400' : 'text-gray-500'}`}>
-                      {pct(m.score)}
+            {data.runs.map((run, ri) => {
+              const leader     = run.models[0]
+              const hasCtx     = run.with_context === true
+              return (
+                <div
+                  key={run.date}
+                  className={`flex items-center gap-4 px-4 py-3 text-xs ${ri < data.runs.length - 1 ? 'border-b border-gray-800' : ''}`}
+                >
+                  <span className="font-mono text-gray-500 w-24 shrink-0">{run.date}</span>
+                  <span className="text-green-400 font-semibold flex-1 truncate">
+                    🥇 {leader?.label}
+                  </span>
+                  <span className="text-gray-600">{run.questions} Q</span>
+                  {hasCtx && leader?.delta !== null && leader?.delta !== undefined ? (
+                    <span className="text-green-500 font-mono hidden sm:inline">
+                      {pct(leader.score_raw)} → {pct(leader.score_with_cs!)} ({pp(leader.delta)})
                     </span>
-                  ))}
+                  ) : (
+                    <div className="hidden sm:flex gap-3">
+                      {run.models.slice(0, 4).map((m, mi) => (
+                        <span key={m.id} className={`font-mono ${mi === 0 ? 'text-green-400' : 'text-gray-500'}`}>
+                          {pct(m.score_raw)}
+                        </span>
+                      ))}
+                    </div>
+                  )}
                 </div>
-              </div>
-            ))}
+              )
+            })}
           </div>
         </>
       )}
 
-      {/* Methodology */}
+      {/* How it works */}
       <div className="mb-2 text-xs font-bold tracking-wider text-gray-600 uppercase flex items-center gap-3">
         How it works
         <span className="flex-1 h-px bg-gray-800" />
       </div>
       <div className="grid sm:grid-cols-2 gap-4 mb-8">
         <div className="bg-gray-900 border border-gray-800 rounded-lg p-4">
-          <div className="text-xs font-bold text-green-600 uppercase tracking-wide mb-3">Test set</div>
+          <div className="text-xs font-bold text-green-600 uppercase tracking-wide mb-3">Pass A — Raw knowledge</div>
           <ul className="space-y-2 text-xs text-gray-400">
+            <li className="flex gap-2"><span className="text-green-800 mt-0.5">▸</span>Question sent with no context — model answers from training data alone</li>
             <li className="flex gap-2"><span className="text-green-800 mt-0.5">▸</span>1,000 Q&amp;A pairs from <strong className="text-gray-300">OKF cricket-qa-v1</strong></li>
             <li className="flex gap-2"><span className="text-green-800 mt-0.5">▸</span>Categories: player stats, IPL history, rules, venues, recent seasons</li>
-            <li className="flex gap-2"><span className="text-green-800 mt-0.5">▸</span>All answers derived from ball-by-ball data with explicit provenance</li>
-            <li className="flex gap-2"><span className="text-green-800 mt-0.5">▸</span>Questions span IPL 2026, IPL historical (2007/08–2025), MLC 2023–2026</li>
-            <li className="flex gap-2">
-              <span className="text-green-800 mt-0.5">▸</span>
-              Benchmark is public —{' '}
-              <a
-                href="https://players.cricketstudio.ai/evals/cricket-qa-v1.jsonl"
-                className="text-green-500 hover:underline"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                /evals/cricket-qa-v1.jsonl
-              </a>
-            </li>
+            <li className="flex gap-2"><span className="text-green-800 mt-0.5">▸</span>This score reflects what the model &quot;knows&quot; about cricket without any help</li>
           </ul>
         </div>
-        <div className="bg-gray-900 border border-gray-800 rounded-lg p-4">
-          <div className="text-xs font-bold text-green-600 uppercase tracking-wide mb-3">Scoring</div>
+        <div className="bg-gray-900 border border-green-900/40 rounded-lg p-4">
+          <div className="text-xs font-bold text-green-500 uppercase tracking-wide mb-3">Pass B — With CricketStudio OKF</div>
           <ul className="space-y-2 text-xs text-gray-400">
-            <li className="flex gap-2"><span className="text-green-800 mt-0.5">▸</span>No context provided to models — raw cricket knowledge only</li>
-            <li className="flex gap-2"><span className="text-green-800 mt-0.5">▸</span>Judge: <strong className="text-gray-300">Claude Haiku</strong> — scores each response 0 or 1</li>
-            <li className="flex gap-2"><span className="text-green-800 mt-0.5">▸</span>Partial answers: counted correct if core fact is accurate</li>
-            <li className="flex gap-2"><span className="text-green-800 mt-0.5">▸</span>Models run in parallel batches, rate-limited to avoid throttling</li>
-            <li className="flex gap-2"><span className="text-green-800 mt-0.5">▸</span>Run weekly · Mon 06:00 UTC · results committed to this repo</li>
+            <li className="flex gap-2"><span className="text-green-600 mt-0.5">▸</span>Same question, but CricketStudio&apos;s OKF knowledge bundle injected as context</li>
+            <li className="flex gap-2"><span className="text-green-600 mt-0.5">▸</span>Context source: <a href="https://okf.cricketstudio.ai/llms.txt" className="text-green-500 hover:underline" target="_blank" rel="noopener noreferrer">okf.cricketstudio.ai/llms.txt</a></li>
+            <li className="flex gap-2"><span className="text-green-600 mt-0.5">▸</span>All OKF facts derived from ball-by-ball data with explicit provenance</li>
+            <li className="flex gap-2"><span className="text-green-600 mt-0.5">▸</span>The Δ (delta) is the accuracy improvement — the value of structured cricket data</li>
           </ul>
         </div>
       </div>
 
-      {/* Coming next — Thing A */}
-      <div className="bg-green-950/20 border border-green-900/40 rounded-xl p-5 flex items-start gap-4 mb-8">
-        <span className="text-2xl mt-0.5">⚗️</span>
-        <div className="flex-1">
-          <div className="font-semibold text-white mb-1">Coming next: Does CricketStudio data make LLMs more accurate?</div>
-          <div className="text-sm text-gray-500">
-            Same 1,000 questions — but with CricketStudio OKF context injected. We&apos;ll publish the accuracy
-            delta per model. &quot;Claude goes from 84% → 97% with CricketStudio context.&quot;
-          </div>
-        </div>
-        <Link
-          href="/about"
-          className="shrink-0 text-xs text-green-400 border border-green-900 px-3 py-1.5 rounded-md hover:border-green-700 transition-colors"
-        >
-          Learn more →
-        </Link>
+      <div className="bg-gray-900 border border-gray-800 rounded-lg p-4 mb-8">
+        <div className="text-xs font-bold text-green-600 uppercase tracking-wide mb-3">Scoring</div>
+        <ul className="space-y-2 text-xs text-gray-400">
+          <li className="flex gap-2"><span className="text-green-800 mt-0.5">▸</span>Judge: <strong className="text-gray-300">Claude Haiku</strong> — scores each response binary 0 or 1</li>
+          <li className="flex gap-2"><span className="text-green-800 mt-0.5">▸</span>Partial answers counted correct when the core fact is accurate</li>
+          <li className="flex gap-2"><span className="text-green-800 mt-0.5">▸</span>Models run in parallel batches, rate-limited to avoid throttling</li>
+          <li className="flex gap-2"><span className="text-green-800 mt-0.5">▸</span>Run weekly · Mon 06:00 UTC · results committed to this repo</li>
+          <li className="flex gap-2">
+            <span className="text-green-800 mt-0.5">▸</span>
+            Benchmark is public —{' '}
+            <a
+              href="https://players.cricketstudio.ai/evals/cricket-qa-v1.jsonl"
+              className="text-green-500 hover:underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              /evals/cricket-qa-v1.jsonl
+            </a>
+          </li>
+        </ul>
       </div>
 
       {/* Footer note */}

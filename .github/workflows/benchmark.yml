@@ -9,6 +9,11 @@ on:
         description: 'Questions to sample (blank = full 1,000)'
         required: false
         default: ''
+      raw_only:
+        description: 'Skip OKF context pass (faster / cheaper validation run)'
+        type: boolean
+        required: false
+        default: false
 
 permissions:
   contents: write
@@ -32,13 +37,16 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           PERPLEXITY_API_KEY: ${{ secrets.PERPLEXITY_API_KEY }}
-          BENCHMARK_COST_CAP: '50'
+          BENCHMARK_COST_CAP: '100'
         run: |
-          SAMPLE_FLAG=""
+          FLAGS=""
           if [ -n "${{ inputs.sample }}" ]; then
-            SAMPLE_FLAG="--sample ${{ inputs.sample }}"
+            FLAGS="$FLAGS --sample ${{ inputs.sample }}"
           fi
-          node scripts/run-benchmark.mjs $SAMPLE_FLAG
+          if [ "${{ inputs.raw_only }}" = "true" ]; then
+            FLAGS="$FLAGS --raw-only"
+          fi
+          node scripts/run-benchmark.mjs $FLAGS
 
       - name: Commit results
         run: |

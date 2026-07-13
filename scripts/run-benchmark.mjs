@@ -2,15 +2,22 @@
 /**
  * CricketStudio LLM Accuracy Benchmark runner
  *
- * Fetches 1,000 cricket Q&A pairs from the Trust OS endpoint, sends each question
- * to configured LLMs with NO context (raw knowledge only), then judges each
- * response with Claude Haiku. Writes:
- *   viewer/public/evals/leaderboard.json  — aggregated scores (committed)
+ * Fetches 1,000 cricket Q&A pairs from the Trust OS endpoint and runs TWO passes
+ * against each configured LLM:
+ *   Pass A — raw knowledge (no context)
+ *   Pass B — with CricketStudio OKF context injected (llms.txt)
+ *
+ * Both scores are committed so the leaderboard can show the accuracy delta:
+ *   "GPT-4o: 71% raw → 89% with CricketStudio. +18pp"
+ *
+ * Writes:
+ *   viewer/public/evals/leaderboard.json   — aggregated scores (committed)
  *   viewer/public/evals/results/YYYY-MM-DD.jsonl  — raw per-question results
  *
  * Usage:
- *   node scripts/run-benchmark.mjs              # full 1,000-question run
- *   node scripts/run-benchmark.mjs --sample 50  # validation run
+ *   node scripts/run-benchmark.mjs               # full run: raw + OKF context
+ *   node scripts/run-benchmark.mjs --raw-only    # raw pass only (faster / cheaper)
+ *   node scripts/run-benchmark.mjs --sample 50  # sample validation run
  *   node scripts/run-benchmark.mjs --dry-run    # print config, fetch Q&A, exit
  *
  * Env (loaded from .env / .env.local in repo root, or set directly):
@@ -21,7 +28,7 @@
  *   GEMINI_API_KEY      — Gemini 2.0 Pro
  *   PERPLEXITY_API_KEY  — Perplexity Sonar Pro
  *
- *   BENCHMARK_COST_CAP  — hard stop in USD (default 50)
+ *   BENCHMARK_COST_CAP  — hard stop in USD (default 100; both passes ~2× a raw-only run)
  */
 
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'fs'
@@ -58,14 +65,19 @@ loadEnvFile(join(ROOT, '.env.local'))
 // ── Config ────────────────────────────────────────────────────────────────────
 
 const BENCHMARK_URL = 'https://players.cricketstudio.ai/evals/cricket-qa-v1.jsonl'
+const OKF_LLMS_URL  = 'https://okf.cricketstudio.ai/llms.txt'
 const LEADERBOARD_PATH = join(ROOT, 'viewer', 'public', 'evals', 'leaderboard.json')
 const RESULTS_DIR = join(ROOT, 'viewer', 'public', 'evals', 'results')
+
+// Context is capped at 50K chars to keep token costs predictable
+const CONTEXT_CHAR_LIMIT = 50_000
 
 const JUDGE_MODEL = 'claude-haiku-4-5-20251001'
 const BATCH_SIZE = 5        // concurrent questions per model (keeps rate limits happy)
 const BATCH_PAUSE_MS = 600  // ms between batches
 const MAX_TOKENS = 512
-const COST_CAP = parseFloat(process.env.BENCHMARK_COST_CAP ?? '50')
+// Default cap is $100 — a full 2-pass run (raw + OKF context) costs roughly 2× raw-only
+const COST_CAP = parseFloat(process.env.BENCHMARK_COST_CAP ?? '100')
 
 // Rough cost per 1K tokens (input / output) in USD
 const COST_PER_1K = {
@@ -111,8 +123,9 @@ const MODELS = [
 
 const argv = process.argv.slice(2)
 const sampleIdx = argv.indexOf('--sample')
-const SAMPLE = sampleIdx !== -1 ? parseInt(argv[sampleIdx + 1]) : null
-const DRY_RUN = argv.includes('--dry-run')
+const SAMPLE   = sampleIdx !== -1 ? parseInt(argv[sampleIdx + 1]) : null
+const DRY_RUN  = argv.includes('--dry-run')
+const RAW_ONLY = argv.includes('--raw-only')
 
 // ── Cost tracking ─────────────────────────────────────────────────────────────
 
@@ -180,19 +193,35 @@ async function callOpenAICompat(modelId, userContent, apiKey, baseUrl) {
 
 async function askModel(model, question) {
   const key = process.env[model.keyVar]
+  return dispatch(model, question, key)
+}
+
+async function askModelWithContext(model, question, context) {
+  const key = process.env[model.keyVar]
+  const prompt = `You are answering a cricket question. Below is reference data from the CricketStudio Open Knowledge Framework (OKF) — verified, ball-by-ball-derived cricket statistics:
+
+${context}
+
+---
+Use the reference data above where relevant, then answer the following question accurately and concisely.
+
+Question: ${question}`
+  return dispatch(model, prompt, key)
+}
+
+async function dispatch(model, content, key) {
   switch (model.provider) {
     case 'Anthropic':
-      return callAnthropic(model.apiId, question, key)
+      return callAnthropic(model.apiId, content, key)
     case 'OpenAI':
-      return callOpenAICompat(model.apiId, question, key, 'https://api.openai.com/v1')
+      return callOpenAICompat(model.apiId, content, key, 'https://api.openai.com/v1')
     case 'Google':
-      // Gemini OpenAI-compatible endpoint
       return callOpenAICompat(
-        model.apiId, question, key,
+        model.apiId, content, key,
         'https://generativelanguage.googleapis.com/v1beta/openai'
       )
     case 'Perplexity':
-      return callOpenAICompat(model.apiId, question, key, 'https://api.perplexity.ai')
+      return callOpenAICompat(model.apiId, content, key, 'https://api.perplexity.ai')
     default:
       throw new Error(`Unknown provider: ${model.provider}`)
   }
@@ -267,9 +296,9 @@ async function main() {
 
   // Fetch questions
   console.log(`Fetching benchmark from ${BENCHMARK_URL} ...`)
-  const res = await fetch(BENCHMARK_URL)
-  if (!res.ok) throw new Error(`Failed to fetch Q&A: ${res.status} ${res.statusText}`)
-  const raw = await res.text()
+  const qRes = await fetch(BENCHMARK_URL)
+  if (!qRes.ok) throw new Error(`Failed to fetch Q&A: ${qRes.status} ${qRes.statusText}`)
+  const raw = await qRes.text()
   let questions = raw.trim().split('\n').map(l => JSON.parse(l))
   console.log(`  Loaded ${questions.length} questions`)
 
@@ -278,69 +307,125 @@ async function main() {
     console.log(`  Sampling first ${SAMPLE}`)
   }
 
+  // Fetch OKF context (used for the "+CS" pass)
+  let okfContext = null
+  if (!RAW_ONLY) {
+    console.log(`Fetching OKF context from ${OKF_LLMS_URL} ...`)
+    try {
+      const ctxRes = await fetch(OKF_LLMS_URL)
+      if (ctxRes.ok) {
+        const full = await ctxRes.text()
+        okfContext = full.length > CONTEXT_CHAR_LIMIT ? full.slice(0, CONTEXT_CHAR_LIMIT) + '\n[truncated]' : full
+        console.log(`  Context: ${okfContext.length.toLocaleString()} chars`)
+      } else {
+        console.warn(`  ⚠  Failed to fetch OKF context (${ctxRes.status}) — falling back to raw-only`)
+      }
+    } catch (err) {
+      console.warn(`  ⚠  OKF context fetch error: ${err.message} — falling back to raw-only`)
+    }
+  }
+
+  const withContext = !RAW_ONLY && okfContext !== null
+
   if (DRY_RUN) {
     console.log('\nDry run — config:')
     console.log('  Models:', activeModels.map(m => m.label).join(', '))
     console.log('  Questions:', questions.length)
     console.log('  Judge:', JUDGE_MODEL)
     console.log('  Cost cap: $' + COST_CAP)
+    console.log('  Passes:', withContext ? 'raw + with OKF context' : 'raw only')
     console.log('\nSample question:', questions[0])
     return
   }
 
   const date = new Date().toISOString().slice(0, 10)
   const allRawResults = []
+
+  // modelScores tracks both raw and with-context accuracy
   const modelScores = {}
 
   for (const model of activeModels) {
     console.log(`\n▶  ${model.label}`)
-    modelScores[model.id] = { correct: 0, total: 0, byCategory: {} }
+    modelScores[model.id] = {
+      correct_raw: 0,
+      correct_with_cs: 0,
+      total: 0,
+      byCategory: {},
+    }
 
     const modelResults = await runBatches(questions, async (q) => {
-      let response = null
-      let correct = false
-      let reason = ''
+      let responseRaw = null
+      let responseWithCs = null
+      let correctRaw = false
+      let correctWithCs = false
+      let reasonRaw = ''
+      let reasonWithCs = ''
 
+      // Pass A: raw knowledge, no context
       try {
-        response = await askModel(model, q.question)
-        const verdict = await judge(q.question, q.answer ?? q.expected, response)
-        correct = verdict.correct ?? false
-        reason = verdict.reason ?? ''
+        responseRaw = await askModel(model, q.question)
+        const verdict = await judge(q.question, q.answer ?? q.expected, responseRaw)
+        correctRaw = verdict.correct ?? false
+        reasonRaw = verdict.reason ?? ''
       } catch (err) {
-        reason = `error: ${err.message}`
+        reasonRaw = `error: ${err.message}`
         process.stdout.write('E')
       }
 
-      if (correct) {
-        modelScores[model.id].correct++
-        process.stdout.write('.')
-      } else {
-        process.stdout.write('x')
+      // Pass B: with OKF context
+      if (withContext) {
+        try {
+          responseWithCs = await askModelWithContext(model, q.question, okfContext)
+          const verdict = await judge(q.question, q.answer ?? q.expected, responseWithCs)
+          correctWithCs = verdict.correct ?? false
+          reasonWithCs = verdict.reason ?? ''
+        } catch (err) {
+          reasonWithCs = `error: ${err.message}`
+        }
       }
-      modelScores[model.id].total++
+
+      // Accumulate scores
+      const scores = modelScores[model.id]
+      if (correctRaw) scores.correct_raw++
+      if (correctWithCs) scores.correct_with_cs++
+      scores.total++
 
       const category = q.category ?? 'general'
-      if (!modelScores[model.id].byCategory[category]) {
-        modelScores[model.id].byCategory[category] = { correct: 0, total: 0 }
+      if (!scores.byCategory[category]) {
+        scores.byCategory[category] = { correct_raw: 0, correct_with_cs: 0, total: 0 }
       }
-      modelScores[model.id].byCategory[category].total++
-      if (correct) modelScores[model.id].byCategory[category].correct++
+      scores.byCategory[category].total++
+      if (correctRaw)   scores.byCategory[category].correct_raw++
+      if (correctWithCs) scores.byCategory[category].correct_with_cs++
+
+      // Progress indicator: raw correct = '.', raw wrong = 'x', error = 'E'
+      process.stdout.write(correctRaw ? '.' : reasonRaw.startsWith('error') ? 'E' : 'x')
 
       return {
         qid: q.id ?? null,
         category,
         question: q.question,
         expected: q.answer ?? q.expected ?? '',
-        response,
-        correct,
-        reason,
+        response_raw: responseRaw,
+        response_with_cs: withContext ? responseWithCs : undefined,
+        correct_raw: correctRaw,
+        correct_with_cs: withContext ? correctWithCs : undefined,
+        reason_raw: reasonRaw,
+        reason_with_cs: withContext ? reasonWithCs : undefined,
         model: model.id,
       }
     })
 
     allRawResults.push(...modelResults)
+
     const sc = modelScores[model.id]
-    console.log(`\n  ${model.label}: ${(sc.correct / sc.total * 100).toFixed(1)}% (${sc.correct}/${sc.total})`)
+    const rawPct  = (sc.correct_raw / sc.total * 100).toFixed(1)
+    const csPct   = withContext ? (sc.correct_with_cs / sc.total * 100).toFixed(1) : null
+    const deltaPp = withContext
+      ? ((sc.correct_with_cs - sc.correct_raw) / sc.total * 100).toFixed(1)
+      : null
+    const deltaStr = deltaPp !== null ? ` → ${csPct}% (+${deltaPp}pp with OKF)` : ''
+    console.log(`\n  ${model.label}: ${rawPct}%${deltaStr}  (${sc.correct_raw}/${sc.total} raw)`)
   }
 
   // Write raw results
@@ -354,22 +439,51 @@ async function main() {
     date,
     questions: questions.length,
     judge: JUDGE_MODEL,
+    with_context: withContext,
+    context_source: withContext ? OKF_LLMS_URL : undefined,
     models: activeModels
-      .map(m => ({
-        id: m.id,
-        label: m.label,
-        provider: m.provider,
-        score: parseFloat((modelScores[m.id].correct / modelScores[m.id].total).toFixed(4)),
-        correct: modelScores[m.id].correct,
-        total: modelScores[m.id].total,
-        byCategory: modelScores[m.id].byCategory,
-      }))
-      .sort((a, b) => b.score - a.score),
+      .map(m => {
+        const sc = modelScores[m.id]
+        const scoreRaw    = parseFloat((sc.correct_raw / sc.total).toFixed(4))
+        const scoreWithCs = withContext
+          ? parseFloat((sc.correct_with_cs / sc.total).toFixed(4))
+          : null
+        const delta = withContext
+          ? parseFloat((scoreWithCs - scoreRaw).toFixed(4))
+          : null
+
+        // byCategory: per-category raw score (+ with_cs if available)
+        const byCategory = {}
+        for (const [cat, cs] of Object.entries(sc.byCategory)) {
+          byCategory[cat] = {
+            correct_raw: cs.correct_raw,
+            correct_with_cs: withContext ? cs.correct_with_cs : undefined,
+            total: cs.total,
+          }
+        }
+
+        return {
+          id: m.id,
+          label: m.label,
+          provider: m.provider,
+          score_raw: scoreRaw,
+          score_with_cs: scoreWithCs,
+          delta,
+          correct_raw: sc.correct_raw,
+          correct_with_cs: withContext ? sc.correct_with_cs : undefined,
+          total: sc.total,
+          byCategory,
+        }
+      })
+      // Sort by score_with_cs if available, else score_raw
+      .sort((a, b) =>
+        (b.score_with_cs ?? b.score_raw) - (a.score_with_cs ?? a.score_raw)
+      ),
   }
 
   // Update leaderboard.json — prepend latest run, deduplicate by date
   let leaderboard = {
-    version: 1,
+    version: 2,
     benchmark: 'cricket-qa-v1',
     benchmark_url: BENCHMARK_URL,
     judge: JUDGE_MODEL,
@@ -379,6 +493,7 @@ async function main() {
   if (existsSync(LEADERBOARD_PATH)) {
     try {
       leaderboard = JSON.parse(readFileSync(LEADERBOARD_PATH, 'utf8'))
+      leaderboard.version = 2  // upgrade on write
     } catch {}
   }
   leaderboard.runs = [runSummary, ...leaderboard.runs.filter(r => r.date !== date)]
@@ -389,9 +504,20 @@ async function main() {
 
   // Summary
   console.log('\n── Final scores ──────────────────────────────────────')
+  if (withContext) {
+    console.log('   ' + 'Model'.padEnd(24) + 'Raw     +OKF    Delta')
+    console.log('   ' + '─'.repeat(50))
+  }
   runSummary.models.forEach((m, i) => {
     const medals = ['🥇', '🥈', '🥉', '  ']
-    console.log(`${medals[i] ?? '  '} ${m.label.padEnd(22)} ${(m.score * 100).toFixed(1)}% (${m.correct}/${m.total})`)
+    const rawStr = (m.score_raw * 100).toFixed(1).padEnd(7) + '%'
+    if (withContext && m.score_with_cs !== null) {
+      const csStr   = (m.score_with_cs * 100).toFixed(1).padEnd(7) + '%'
+      const deltaStr = `+${(m.delta * 100).toFixed(1)}pp`
+      console.log(`${medals[i] ?? '  '} ${m.label.padEnd(22)} ${rawStr} ${csStr} ${deltaStr}`)
+    } else {
+      console.log(`${medals[i] ?? '  '} ${m.label.padEnd(22)} ${rawStr}`)
+    }
   })
   console.log(`\n   Estimated cost: $${totalCostUsd.toFixed(2)} / cap $${COST_CAP}`)
 }
