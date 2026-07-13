@@ -2,7 +2,7 @@
 type: leaderboard
 title: "Most runs conceded"
 description: "Bowlers who conceded the most runs â€” high-volume context metric. MLC all-time leaderboard."
-resource: https://players.cricketstudio.ai/leagues/mlc/leaderboards/most-runs-conceded
+resource: https://players.cricketstudio.ai/leagues/mlc/leaderboards-conceded
 status: active
 last_verified: 2026-06-21
 timestamp: 2026-06-21
@@ -10,7 +10,7 @@ license: CC-BY-3.0
 source_system: CricketStudio
 source_boundary: public_open_data
 entity_id: cricketstudio:mlc:leaderboard:most-runs-conceded
-canonical_page: https://players.cricketstudio.ai/leagues/mlc/leaderboards/most-runs-conceded
+canonical_page: https://players.cricketstudio.ai/leagues/mlc/leaderboards-conceded
 dataset_version: "2026-06-20"
 tags:
   - cricket
@@ -40,7 +40,7 @@ Total runs conceded across all MLC matches bowled.
 
 ## Canonical Resource
 
-[players.cricketstudio.ai/leagues/mlc/leaderboards/most-runs-conceded](https://players.cricketstudio.ai/leagues/mlc/leaderboards/most-runs-conceded)
+[players.cricketstudio.ai/leagues/mlc/leaderboards/most-runs-conceded](https://players.cricketstudio.ai/leagues/mlc/leaderboards-conceded)
 
 ## Top 10 — Most runs conceded
 
@@ -57,7 +57,7 @@ Total runs conceded across all MLC matches bowled.
 | 9 | Ehsan Adil | MI New York | 486 | 318 legal deliveries bowled |
 | 10 | Hassan Khan | San Francisco Unicorns | 472 | 330 legal deliveries bowled |
 
-*Full leaderboard (100 entries) available at the [canonical CricketStudio page](https://players.cricketstudio.ai/leagues/mlc/leaderboards/most-runs-conceded).*
+*Full leaderboard (100 entries) available at the [canonical CricketStudio page](https://players.cricketstudio.ai/leagues/mlc/leaderboards-conceded).*
 
 ## What Agents Should Know
 

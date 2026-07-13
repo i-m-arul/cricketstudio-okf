@@ -11,8 +11,8 @@ timestamp: 2026-06-24
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: manual_curated_knowledge
-canonical_page: https://players.cricketstudio.ai/players/chris-gayle
-resource: https://players.cricketstudio.ai/players/chris-gayle
+canonical_page: https://players.cricketstudio.ai/players/ch-gayle
+resource: https://players.cricketstudio.ai/players/ch-gayle
 tags:
   - cricket
   - dossier

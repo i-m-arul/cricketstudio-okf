@@ -5,8 +5,8 @@ description: "Chris Gayle IPL career: 4,997 runs at 150 SR with 359 sixes and 6 
 question_type: T3
 debate_signal: "analyst,reddit,fantasy"
 llm_failure_mode: "May produce approximate or outdated career figures for Chris Gayle without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
-resource: https://players.cricketstudio.ai/players/chris-gayle
-canonical_page: https://players.cricketstudio.ai/players/chris-gayle
+resource: https://players.cricketstudio.ai/players/ch-gayle
+canonical_page: https://players.cricketstudio.ai/players/ch-gayle
 tags:
   - cricket
   - dossier
@@ -44,7 +44,7 @@ related:
 >
 > **Bowling:** 18 wickets · 7.9 economy · 40.5 average
 >
-> Source: Cricsheet CC BY 3.0 via CricketStudio ipl-historical dataset (2026-06-12). Canonical: [players.cricketstudio.ai/players/chris-gayle](https://players.cricketstudio.ai/players/chris-gayle).
+> Source: Cricsheet CC BY 3.0 via CricketStudio ipl-historical dataset (2026-06-12). Canonical: [players.cricketstudio.ai/players/chris-gayle](https://players.cricketstudio.ai/players/ch-gayle).
 
 ## Data Table
 

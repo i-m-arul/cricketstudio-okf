@@ -5,8 +5,8 @@ description: "IPL 2026 top run scorers: Suryavanshi 776R (#1), Gill 732R (#2), K
 question_type: T3
 debate_signal: "analyst,reddit,fantasy"
 llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
-resource: https://players.cricketstudio.ai/season/ipl-2026/most-runs
-canonical_page: https://players.cricketstudio.ai/season/ipl-2026/most-runs
+resource: https://players.cricketstudio.ai/season/ipl-2026
+canonical_page: https://players.cricketstudio.ai/season/ipl-2026
 tags:
   - cricket
   - dossier
@@ -53,7 +53,7 @@ related:
 >
 > Suryavanshi's 776R won the Orange Cap. Gill (732R, 45.75 avg) and Kohli (675R, 56.25 avg) are also confirmed from the CricketStudio scorebook.
 >
-> Full leaderboard: [players.cricketstudio.ai/season/ipl-2026/most-runs](https://players.cricketstudio.ai/season/ipl-2026/most-runs). Source: CricketStudio IPL 2026 snapshot (2026-06-11).
+> Full leaderboard: [players.cricketstudio.ai/season/ipl-2026/most-runs](https://players.cricketstudio.ai/season/ipl-2026). Source: CricketStudio IPL 2026 snapshot (2026-06-11).
 
 ## Required Concepts
 

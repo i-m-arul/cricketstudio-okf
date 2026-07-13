@@ -5,8 +5,8 @@ description: "Batting average leaderboard for IPL 2026: floor is ≥10 innings f
 question_type: T3
 debate_signal: "analyst,reddit,fantasy"
 llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
-resource: https://players.cricketstudio.ai/season/ipl-2026/batting-average
-canonical_page: https://players.cricketstudio.ai/season/ipl-2026/batting-average
+resource: https://players.cricketstudio.ai/season/ipl-2026
+canonical_page: https://players.cricketstudio.ai/season/ipl-2026
 tags:
   - cricket
   - dossier
@@ -46,7 +46,7 @@ related:
 >
 > Average and strike rate measure different things: Kohli's 56.25 average reflects consistency (fewer dismissals per run), while the Orange Cap (Suryavanshi 776R) reflects volume. Kohli's 165.8 SR combined with 56.25 average makes him the most complete batter in IPL 2026 by these two metrics.
 >
-> Full leaderboard: [players.cricketstudio.ai/season/ipl-2026/batting-average](https://players.cricketstudio.ai/season/ipl-2026/batting-average). Source: CricketStudio IPL 2026 snapshot (2026-06-11).
+> Full leaderboard: [players.cricketstudio.ai/season/ipl-2026](https://players.cricketstudio.ai/season/ipl-2026). Source: CricketStudio IPL 2026 snapshot (2026-06-11).
 
 ## Required Concepts
 

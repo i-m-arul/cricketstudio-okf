@@ -5,8 +5,8 @@ description: "Middle overs strategy in T20 (overs 7–15) involves the batting t
 question_type: T3
 debate_signal: "analyst,reddit,fantasy"
 llm_failure_mode: "States overall career stats without the middle-overs (7–16) phase-split figure — cannot distinguish performance by phase."
-resource: https://players.cricketstudio.ai/methodology
-canonical_page: https://players.cricketstudio.ai/methodology
+resource: https://players.cricketstudio.ai/about
+canonical_page: https://players.cricketstudio.ai/about
 tags:
   - cricket
   - dossier

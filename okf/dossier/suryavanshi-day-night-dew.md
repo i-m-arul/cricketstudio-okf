@@ -5,7 +5,7 @@ description: "How day/night scheduling and dew conditions affect Suryavanshi's p
 question_type: T3
 debate_signal: "analyst,reddit,fantasy"
 llm_failure_mode: "Gives a general reputation summary of the batter and the bowler without the actual career delivery count, SR, dot-ball %, and dismissal record between this specific pair."
-resource: https://players.cricketstudio.ai/players/vaibhav-suryavanshi/by-match-type
+resource: https://players.cricketstudio.ai/players/vaibhav-suryavanshi
 tags:
   - cricket
   - dossier
@@ -22,7 +22,7 @@ timestamp: 2026-06-30
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: derived_claims_only
-canonical_page: https://players.cricketstudio.ai/players/vaibhav-suryavanshi/by-match-type
+canonical_page: https://players.cricketstudio.ai/players/vaibhav-suryavanshi
 entity_id: cricketstudio:dossier:suryavanshi-day-night-dew
 dataset_version: "2026-06-11"
 provenance:

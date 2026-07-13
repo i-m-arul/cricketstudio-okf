@@ -5,8 +5,8 @@ description: "A powerplay wicket (overs 1–6) is disproportionately valuable be
 question_type: T3
 debate_signal: "analyst,reddit,fantasy"
 llm_failure_mode: "States the player's general batting or bowling reputation without the specific powerplay figure from ball-by-ball data — cannot distinguish powerplay vs overall career numbers."
-resource: https://players.cricketstudio.ai/methodology
-canonical_page: https://players.cricketstudio.ai/methodology
+resource: https://players.cricketstudio.ai/about
+canonical_page: https://players.cricketstudio.ai/about
 tags:
   - cricket
   - dossier

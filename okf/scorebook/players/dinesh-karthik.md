@@ -2,7 +2,7 @@
 type: player
 title: KD Karthik
 description: "CricketStudio OKF entry for KD Karthik. IPL career — 4,843 runs and 0 wickets across IPL 2007/08 – IPL 2025."
-resource: https://players.cricketstudio.ai/players/dinesh-karthik
+resource: https://players.cricketstudio.ai/leagues/ipl/records
 tags:
   - cricket
   - player
@@ -14,7 +14,7 @@ timestamp: 2026-06-01
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: public_open_data
-canonical_page: https://players.cricketstudio.ai/players/dinesh-karthik
+canonical_page: https://players.cricketstudio.ai/leagues/ipl/records
 entity_id: cricketstudio:player:dinesh-karthik
 dataset_version: 2026-06-01
 
@@ -34,7 +34,7 @@ KD Karthik is an IPL cricketer with 4,843 career runs and 0 career wickets acros
 
 ## Canonical Resource
 
-[https://players.cricketstudio.ai/players/dinesh-karthik](https://players.cricketstudio.ai/players/dinesh-karthik)
+[https://players.cricketstudio.ai/leagues/ipl/records](https://players.cricketstudio.ai/leagues/ipl/records)
 
 ## Career Statistics (IPL 2007/08 – IPL 2025)
 

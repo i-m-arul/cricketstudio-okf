@@ -11,8 +11,8 @@ timestamp: 2026-06-18
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: methodology_only
-canonical_page: https://players.cricketstudio.ai/season/ipl-2026/death-overs-economy
-resource: https://players.cricketstudio.ai/season/ipl-2026/death-overs-economy
+canonical_page: https://players.cricketstudio.ai/season/ipl-2026
+resource: https://players.cricketstudio.ai/season/ipl-2026
 tags:
   - cricket
   - dossier

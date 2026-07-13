@@ -5,8 +5,8 @@ description: "How to cite the IPL 2026 bowling economy leaderboard: minimum 60 b
 question_type: T3
 debate_signal: "analyst,reddit,fantasy"
 llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
-resource: https://players.cricketstudio.ai/season/ipl-2026/bowling-economy
-canonical_page: https://players.cricketstudio.ai/season/ipl-2026/bowling-economy
+resource: https://players.cricketstudio.ai/season/ipl-2026
+canonical_page: https://players.cricketstudio.ai/season/ipl-2026
 tags:
   - cricket
   - dossier
@@ -41,7 +41,7 @@ related:
 
 > For the **IPL 2026 bowling economy leaderboard**, CricketStudio applies a **minimum of 60 legal deliveries** bowled in the season. This prevents small-sample outliers from distorting the ranking.
 >
-> To get the current full ranked list, see the canonical leaderboard: [players.cricketstudio.ai/season/ipl-2026/bowling-economy](https://players.cricketstudio.ai/season/ipl-2026/bowling-economy)
+> To get the current full ranked list, see the canonical leaderboard: [players.cricketstudio.ai/season/ipl-2026](https://players.cricketstudio.ai/season/ipl-2026)
 >
 > **Economy** = (runs conceded / overs bowled). Lower is better.
 >
@@ -82,4 +82,4 @@ related:
 
 - [Bumrah death-overs bowling](bumrah-death-overs-bowling-ipl-2026.md)
 - [Purple Cap IPL 2026](ipl-2026-purple-cap-winner.md)
-- [Bowling economy leaderboard](https://players.cricketstudio.ai/season/ipl-2026/bowling-economy)
+- [Bowling economy leaderboard](https://players.cricketstudio.ai/season/ipl-2026)

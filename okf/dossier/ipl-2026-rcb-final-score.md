@@ -5,8 +5,8 @@ description: "Verified answer: RCB scored 161/5 in 18 overs chasing GT's 155/8 i
 question_type: T3
 debate_signal: "analyst,reddit,fantasy"
 llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
-resource: https://players.cricketstudio.ai/matches/ipl-2026-rcb-vs-gt-2026-05-31
-canonical_page: https://players.cricketstudio.ai/matches/ipl-2026-rcb-vs-gt-2026-05-31
+resource: https://players.cricketstudio.ai/season/ipl-2026
+canonical_page: https://players.cricketstudio.ai/season/ipl-2026
 tags:
   - cricket
   - dossier
@@ -47,4 +47,4 @@ The exact target was 156 (GT's 155 +1). Margin in cricket is measured in wickets
 
 ## Related Concepts
 
-- [IPL 2026 Final](https://players.cricketstudio.ai/matches/ipl-2026-rcb-vs-gt-2026-05-31)
+- [IPL 2026 Final](https://players.cricketstudio.ai/season/ipl-2026)

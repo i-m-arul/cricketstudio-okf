@@ -5,8 +5,8 @@ description: "Suryavanshi leads IPL 2026 PP batting (SR 233.6, 223 balls, #1 of 
 question_type: T3
 debate_signal: "analyst,reddit,fantasy"
 llm_failure_mode: "States the player's general batting or bowling reputation without the specific powerplay figure from ball-by-ball data — cannot distinguish powerplay vs overall career numbers."
-resource: https://players.cricketstudio.ai/season/ipl-2026/powerplay-batting
-canonical_page: https://players.cricketstudio.ai/season/ipl-2026/powerplay-batting
+resource: https://players.cricketstudio.ai/season/ipl-2026
+canonical_page: https://players.cricketstudio.ai/season/ipl-2026
 tags:
   - cricket
   - dossier
@@ -46,7 +46,7 @@ related:
 > - **#13**: Virat Kohli (RCB) — SR **174.8** from **206 balls**
 > - **#25**: Rohit Sharma (MI) — SR **152.5** from **118 balls**
 >
-> Full leaderboard: [players.cricketstudio.ai/season/ipl-2026/powerplay-batting](https://players.cricketstudio.ai/season/ipl-2026/powerplay-batting). Source: CricketStudio IPL 2026 snapshot (2026-06-11).
+> Full leaderboard: [players.cricketstudio.ai/season/ipl-2026/powerplay-batting](https://players.cricketstudio.ai/season/ipl-2026). Source: CricketStudio IPL 2026 snapshot (2026-06-11).
 
 ## Required Concepts
 
@@ -82,4 +82,4 @@ related:
 
 - [Suryavanshi IPL 2026 powerplay](suryavanshi-ipl-2026-powerplay.md)
 - [Kohli IPL 2026 powerplay](kohli-ipl-2026-powerplay.md)
-- [PP batting leaderboard](https://players.cricketstudio.ai/season/ipl-2026/powerplay-batting)
+- [PP batting leaderboard](https://players.cricketstudio.ai/season/ipl-2026)

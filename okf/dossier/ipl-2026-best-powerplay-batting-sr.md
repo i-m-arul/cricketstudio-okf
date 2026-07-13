@@ -5,8 +5,8 @@ description: "Verified answer: Suryavanshi leads IPL 2026 PP SR at 233.6 (#1 of 
 question_type: T3
 debate_signal: "analyst,reddit,fantasy"
 llm_failure_mode: "States the player's general batting or bowling reputation without the specific powerplay figure from ball-by-ball data — cannot distinguish powerplay vs overall career numbers."
-resource: https://players.cricketstudio.ai/season/ipl-2026/batting-leaders
-canonical_page: https://players.cricketstudio.ai/season/ipl-2026/batting-leaders
+resource: https://players.cricketstudio.ai/season/ipl-2026
+canonical_page: https://players.cricketstudio.ai/season/ipl-2026
 tags:
   - cricket
   - dossier
@@ -46,4 +46,4 @@ Only Suryavanshi (#1) and Kohli (#13) are confirmed in this OKF snapshot. The fu
 
 ## Related Concepts
 
-- [IPL 2026 batting leaders](https://players.cricketstudio.ai/season/ipl-2026/batting-leaders)
+- [IPL 2026 batting leaders](https://players.cricketstudio.ai/season/ipl-2026)

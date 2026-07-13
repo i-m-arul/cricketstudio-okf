@@ -2,7 +2,7 @@
 type: player
 title: F du Plessis
 description: "CricketStudio OKF entry for F du Plessis. IPL career — 4,773 runs and 0 wickets across IPL 2007/08 – IPL 2025."
-resource: https://players.cricketstudio.ai/players/faf-du-plessis
+resource: https://players.cricketstudio.ai/players/f-du-plessis
 tags:
   - cricket
   - player
@@ -14,7 +14,7 @@ timestamp: 2026-06-01
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: public_open_data
-canonical_page: https://players.cricketstudio.ai/players/faf-du-plessis
+canonical_page: https://players.cricketstudio.ai/players/f-du-plessis
 entity_id: cricketstudio:player:faf-du-plessis
 dataset_version: 2026-06-01
 
@@ -34,7 +34,7 @@ F du Plessis is an IPL cricketer with 4,773 career runs and 0 career wickets acr
 
 ## Canonical Resource
 
-[https://players.cricketstudio.ai/players/faf-du-plessis](https://players.cricketstudio.ai/players/faf-du-plessis)
+[https://players.cricketstudio.ai/players/f-du-plessis](https://players.cricketstudio.ai/players/f-du-plessis)
 
 ## Career Statistics (IPL 2007/08 – IPL 2025)
 

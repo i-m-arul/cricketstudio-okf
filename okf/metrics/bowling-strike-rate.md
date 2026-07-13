@@ -2,7 +2,7 @@
 type: metric
 title: Bowling Strike Rate
 description: Balls bowled per wicket — how quickly a bowler takes wickets.
-resource: https://players.cricketstudio.ai/season/ipl-2026/bowling-strike-rate
+resource: https://players.cricketstudio.ai/season/ipl-2026
 status: active
 last_verified: 2026-06-18
 timestamp: 2026-06-18
@@ -10,7 +10,7 @@ license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: methodology_only
 entity_id: cricketstudio:metric:bowling-strike-rate
-canonical_page: https://players.cricketstudio.ai/season/ipl-2026/bowling-strike-rate
+canonical_page: https://players.cricketstudio.ai/season/ipl-2026
 tags:
   - cricket
   - metric

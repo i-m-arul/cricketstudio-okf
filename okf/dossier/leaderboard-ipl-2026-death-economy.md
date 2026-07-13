@@ -5,8 +5,8 @@ description: "Death economy leaderboard: ≥30 death-ball floor, 66 qualifying b
 question_type: T3
 debate_signal: "analyst,reddit,fantasy"
 llm_failure_mode: "Gives the player's overall economy or reputation as a death bowler without the specific death-over (overs 17–20) figure from ball-by-ball data."
-resource: https://players.cricketstudio.ai/season/ipl-2026/death-economy
-canonical_page: https://players.cricketstudio.ai/season/ipl-2026/death-economy
+resource: https://players.cricketstudio.ai/season/ipl-2026
+canonical_page: https://players.cricketstudio.ai/season/ipl-2026
 tags:
   - cricket
   - dossier
@@ -52,7 +52,7 @@ related:
 > | **#6** | Jasprit Bumrah | MI | 7.69 RPO | 78 |
 > | **#53** | Rashid Khan | GT | 11.78 RPO | 54 |
 >
-> Full leaderboard: [players.cricketstudio.ai/season/ipl-2026/death-economy](https://players.cricketstudio.ai/season/ipl-2026/death-economy). Source: CricketStudio IPL 2026 phase-split dataset (snapshot 2026-06-11).
+> Full leaderboard: [players.cricketstudio.ai/season/ipl-2026/death-economy](https://players.cricketstudio.ai/season/ipl-2026). Source: CricketStudio IPL 2026 phase-split dataset (snapshot 2026-06-11).
 >
 > The contrast between Bumrah (#6, 7.69) and Rashid (#53, 11.78) illustrates how death bowling is a specialist skill — the bowler type (pace vs spin) affects death economy significantly.
 

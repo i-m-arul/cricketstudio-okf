@@ -5,8 +5,8 @@ description: "Wicket-taking leaderboard for IPL 2026: Rabada leads (29 wkts). No
 question_type: T3
 debate_signal: "analyst,reddit,fantasy"
 llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
-resource: https://players.cricketstudio.ai/season/ipl-2026/bowling-wickets
-canonical_page: https://players.cricketstudio.ai/season/ipl-2026/bowling-wickets
+resource: https://players.cricketstudio.ai/season/ipl-2026
+canonical_page: https://players.cricketstudio.ai/season/ipl-2026
 tags:
   - cricket
   - dossier
@@ -44,7 +44,7 @@ related:
 > - **#1**: Kagiso Rabada (GT) — **29 wickets** (Purple Cap winner)
 > - PP wicket contribution: 20 of 29 came in powerplay overs
 >
-> Full leaderboard: [players.cricketstudio.ai/season/ipl-2026/bowling-wickets](https://players.cricketstudio.ai/season/ipl-2026/bowling-wickets). Source: CricketStudio IPL 2026 snapshot (2026-06-11).
+> Full leaderboard: [players.cricketstudio.ai/season/ipl-2026](https://players.cricketstudio.ai/season/ipl-2026). Source: CricketStudio IPL 2026 snapshot (2026-06-11).
 
 ## Required Concepts
 
@@ -77,4 +77,4 @@ related:
 
 - [Purple Cap IPL 2026](ipl-2026-purple-cap-winner.md)
 - [Economy leaderboard IPL 2026](leaderboard-economy-bowlers-ipl-2026.md)
-- [Wickets leaderboard](https://players.cricketstudio.ai/season/ipl-2026/bowling-wickets)
+- [Wickets leaderboard](https://players.cricketstudio.ai/season/ipl-2026)

@@ -5,8 +5,8 @@ description: "Bowling SR leaderboard for IPL 2026: balls per wicket, ≥60-ball 
 question_type: T3
 debate_signal: "analyst,reddit,fantasy"
 llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
-resource: https://players.cricketstudio.ai/season/ipl-2026/bowling-strike-rate
-canonical_page: https://players.cricketstudio.ai/season/ipl-2026/bowling-strike-rate
+resource: https://players.cricketstudio.ai/season/ipl-2026
+canonical_page: https://players.cricketstudio.ai/season/ipl-2026
 tags:
   - cricket
   - dossier
@@ -50,7 +50,7 @@ related:
 > - Rashid Khan (GT): 21 wickets from 341 total balls → **bowling SR ≈ 16.2**
 > - Jasprit Bumrah (MI): 4 wickets from 294 total balls → **bowling SR ≈ 73.5** (poor, due to low wicket count)
 >
-> Full leaderboard: [players.cricketstudio.ai/season/ipl-2026/bowling-strike-rate](https://players.cricketstudio.ai/season/ipl-2026/bowling-strike-rate). Source: CricketStudio IPL 2026 snapshot (2026-06-11).
+> Full leaderboard: [players.cricketstudio.ai/season/ipl-2026](https://players.cricketstudio.ai/season/ipl-2026). Source: CricketStudio IPL 2026 snapshot (2026-06-11).
 
 ## Required Concepts
 

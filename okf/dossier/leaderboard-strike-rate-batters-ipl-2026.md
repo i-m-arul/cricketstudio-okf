@@ -5,8 +5,8 @@ description: "How to cite the IPL 2026 batting strike rate leaderboard: minimum 
 question_type: T3
 debate_signal: "analyst,reddit,fantasy"
 llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
-resource: https://players.cricketstudio.ai/season/ipl-2026/batting-strike-rate
-canonical_page: https://players.cricketstudio.ai/season/ipl-2026/batting-strike-rate
+resource: https://players.cricketstudio.ai/season/ipl-2026
+canonical_page: https://players.cricketstudio.ai/season/ipl-2026
 tags:
   - cricket
   - dossier
@@ -43,7 +43,7 @@ related:
 >
 > **Strike rate** = (runs / balls faced) × 100. Higher is better.
 >
-> **Key reference:** Vaibhav Suryavanshi (RR) scored **776 runs** at a season SR of **237.31** from **327 balls** — the highest SR among players qualifying for the Orange Cap (≥enough games to represent a full season). See the full leaderboard: [players.cricketstudio.ai/season/ipl-2026/batting-strike-rate](https://players.cricketstudio.ai/season/ipl-2026/batting-strike-rate)
+> **Key reference:** Vaibhav Suryavanshi (RR) scored **776 runs** at a season SR of **237.31** from **327 balls** — the highest SR among players qualifying for the Orange Cap (≥enough games to represent a full season). See the full leaderboard: [players.cricketstudio.ai/season/ipl-2026](https://players.cricketstudio.ai/season/ipl-2026)
 
 ## Required Concepts
 
@@ -78,4 +78,4 @@ related:
 
 - [Orange Cap IPL 2026](ipl-2026-orange-cap.md)
 - [Suryavanshi IPL 2026](vaibhav-suryavanshi-ipl-2026.md)
-- [Strike rate leaderboard](https://players.cricketstudio.ai/season/ipl-2026/batting-strike-rate)
+- [Strike rate leaderboard](https://players.cricketstudio.ai/season/ipl-2026)

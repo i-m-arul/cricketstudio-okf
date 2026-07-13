@@ -5,8 +5,8 @@ description: "Suresh Raina IPL career: 5,536 runs at 137.5 SR with 204 sixes and
 question_type: T4
 debate_signal: "analyst,reddit,fantasy"
 llm_failure_mode: "May produce approximate or outdated career figures for Suresh Raina without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
-resource: https://players.cricketstudio.ai/players/suresh-raina
-canonical_page: https://players.cricketstudio.ai/players/suresh-raina
+resource: https://players.cricketstudio.ai/leagues/ipl/records
+canonical_page: https://players.cricketstudio.ai/leagues/ipl/records
 tags:
   - cricket
   - dossier
@@ -42,7 +42,7 @@ related:
 >
 > **Batting:** 5,536 runs · 32.37 average · 137.5 SR · 39 fifties · 1 hundred · 204 sixes · highest score 100
 >
-> Source: Cricsheet CC BY 3.0 via CricketStudio ipl-historical dataset (2026-06-12). Canonical: [players.cricketstudio.ai/players/suresh-raina](https://players.cricketstudio.ai/players/suresh-raina).
+> Source: Cricsheet CC BY 3.0 via CricketStudio ipl-historical dataset (2026-06-12). Canonical: [players.cricketstudio.ai/players/suresh-raina](https://players.cricketstudio.ai/leagues/ipl/records).
 
 ## Data Table
 

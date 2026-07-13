@@ -5,8 +5,8 @@ description: "Death bowling refers to bowling in the final 4–5 overs of a T20 
 question_type: T3
 debate_signal: "analyst,reddit,fantasy"
 llm_failure_mode: "Gives the player's overall economy or reputation as a death bowler without the specific death-over (overs 17–20) figure from ball-by-ball data."
-resource: https://players.cricketstudio.ai/methodology
-canonical_page: https://players.cricketstudio.ai/methodology
+resource: https://players.cricketstudio.ai/about
+canonical_page: https://players.cricketstudio.ai/about
 tags:
   - cricket
   - dossier

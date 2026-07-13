@@ -5,8 +5,8 @@ description: "MLC leaderboard: Bowlers who conceded the most runs – high-volum
 question_type: T3
 debate_signal: "analyst,reddit,fantasy"
 llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
-resource: https://players.cricketstudio.ai/leagues/mlc/leaderboards/most-runs-conceded
-canonical_page: https://players.cricketstudio.ai/leagues/mlc/leaderboards/most-runs-conceded
+resource: https://players.cricketstudio.ai/leagues/mlc/leaderboards-conceded
+canonical_page: https://players.cricketstudio.ai/leagues/mlc/leaderboards-conceded
 tags:
   - cricket
   - dossier
@@ -47,7 +47,7 @@ related:
 > **#1: TA Boult** — 853 (629 legal deliveries bowled).
 >
 > Eligibility: Counting stat — all appearances included.
-> Source: Cricsheet CC BY 3.0 via CricketStudio, dataset 2026-06-20. Canonical: [https://players.cricketstudio.ai/leagues/mlc/leaderboards/most-runs-conceded](https://players.cricketstudio.ai/leagues/mlc/leaderboards/most-runs-conceded).
+> Source: Cricsheet CC BY 3.0 via CricketStudio, dataset 2026-06-20. Canonical: [https://players.cricketstudio.ai/leagues/mlc/leaderboards-conceded](https://players.cricketstudio.ai/leagues/mlc/leaderboards-conceded).
 
 ## Required Concepts
 

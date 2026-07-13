@@ -5,8 +5,8 @@ description: "Verified answer: Warner scored 6,567 runs in 184 IPL matches throu
 question_type: T3
 debate_signal: "analyst,reddit,fantasy"
 llm_failure_mode: "May produce approximate or outdated career figures for this player without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
-resource: https://players.cricketstudio.ai/players/david-warner
-canonical_page: https://players.cricketstudio.ai/players/david-warner
+resource: https://players.cricketstudio.ai/players/da-warner
+canonical_page: https://players.cricketstudio.ai/players/da-warner
 tags:
   - cricket
   - dossier

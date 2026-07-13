@@ -2,7 +2,7 @@
 type: player
 title: NA Saini
 description: "CricketStudio OKF entry for NA Saini. IPL career — 0 wickets across IPL 2023."
-resource: https://players.cricketstudio.ai/players/na-saini
+resource: https://players.cricketstudio.ai/players/navdeep-saini
 tags:
   - cricket
   - player
@@ -14,7 +14,7 @@ timestamp: 2026-06-12
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: public_open_data
-canonical_page: https://players.cricketstudio.ai/players/na-saini
+canonical_page: https://players.cricketstudio.ai/players/navdeep-saini
 entity_id: cricketstudio:player:na-saini
 dataset_version: 2026-06-12
 provenance:
@@ -31,7 +31,7 @@ NA Saini is an IPL cricketer who played for rr across IPL 2023 (1 season).
 
 ## Canonical Resource
 
-[https://players.cricketstudio.ai/players/na-saini](https://players.cricketstudio.ai/players/na-saini)
+[https://players.cricketstudio.ai/players/navdeep-saini](https://players.cricketstudio.ai/players/navdeep-saini)
 
 ## Career Statistics (IPL 2023)
 

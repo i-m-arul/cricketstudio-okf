@@ -29,7 +29,7 @@ provenance:
 
 ## User Question
 
-> How many runs has [Faf du Plessis](https://players.cricketstudio.ai/players/faf-du-plessis) scored in MLC?
+> How many runs has [Faf du Plessis](https://players.cricketstudio.ai/players/f-du-plessis) scored in MLC?
 
 ## Correct Answer Pattern
 

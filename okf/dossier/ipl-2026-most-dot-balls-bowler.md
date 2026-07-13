@@ -47,4 +47,4 @@ Dot-ball leaderboard across all bowlers not confirmed in this OKF snapshot — R
 ## Related Concepts
 
 - [Rabada profile](https://players.cricketstudio.ai/players/kagiso-rabada)
-- [IPL 2026 bowling leaders](https://players.cricketstudio.ai/season/ipl-2026/bowling-leaders)
+- [IPL 2026 bowling leaders](https://players.cricketstudio.ai/season/ipl-2026)

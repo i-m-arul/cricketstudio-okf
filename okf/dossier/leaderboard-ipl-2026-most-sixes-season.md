@@ -5,8 +5,8 @@ description: "IPL 2026 sixes leaderboard: Suryavanshi leads with 72. No minimum 
 question_type: T3
 debate_signal: "analyst,reddit,fantasy"
 llm_failure_mode: "Cannot produce IPL 2026 in-season figures — knowledge cutoff predates the tournament or stats are approximate without ball-by-ball provenance."
-resource: https://players.cricketstudio.ai/season/ipl-2026/most-sixes
-canonical_page: https://players.cricketstudio.ai/season/ipl-2026/most-sixes
+resource: https://players.cricketstudio.ai/season/ipl-2026
+canonical_page: https://players.cricketstudio.ai/season/ipl-2026
 tags:
   - cricket
   - dossier
@@ -43,7 +43,7 @@ related:
 >
 > - **#1**: Vaibhav Suryavanshi (RR) — **72 sixes** from 16 matches (a single-season IPL record as of snapshot 2026-06-11)
 >
-> Full leaderboard: [players.cricketstudio.ai/season/ipl-2026/most-sixes](https://players.cricketstudio.ai/season/ipl-2026/most-sixes). Source: CricketStudio IPL 2026 snapshot (2026-06-11).
+> Full leaderboard: [players.cricketstudio.ai/season/ipl-2026/most-sixes](https://players.cricketstudio.ai/season/ipl-2026). Source: CricketStudio IPL 2026 snapshot (2026-06-11).
 
 ## Required Concepts
 
@@ -74,4 +74,4 @@ related:
 
 - [IPL 2026 sixes record](ipl-2026-sixes-record.md)
 - [Suryavanshi IPL 2026](vaibhav-suryavanshi-ipl-2026.md)
-- [Season sixes leaderboard](https://players.cricketstudio.ai/season/ipl-2026/most-sixes)
+- [Season sixes leaderboard](https://players.cricketstudio.ai/season/ipl-2026)

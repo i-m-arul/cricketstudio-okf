@@ -2,7 +2,7 @@
 type: metric
 title: Dot-Ball Percentage
 description: Share of deliveries that yield no runs — a pressure metric for bowlers (and batters).
-resource: https://players.cricketstudio.ai/season/ipl-2026/dot-ball-percentage
+resource: https://players.cricketstudio.ai/season/ipl-2026
 status: active
 last_verified: 2026-06-18
 timestamp: 2026-06-18
@@ -10,7 +10,7 @@ license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: methodology_only
 entity_id: cricketstudio:metric:dot-ball-percentage
-canonical_page: https://players.cricketstudio.ai/season/ipl-2026/dot-ball-percentage
+canonical_page: https://players.cricketstudio.ai/season/ipl-2026
 tags:
   - cricket
   - metric

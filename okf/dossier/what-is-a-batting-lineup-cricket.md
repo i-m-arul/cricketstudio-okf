@@ -5,8 +5,8 @@ description: "A batting lineup is the ordered list of 11 batters for a team's in
 question_type: T6
 debate_signal: "analyst,reddit,fantasy"
 llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
-resource: https://players.cricketstudio.ai/methodology
-canonical_page: https://players.cricketstudio.ai/methodology
+resource: https://players.cricketstudio.ai/about
+canonical_page: https://players.cricketstudio.ai/about
 tags:
   - cricket
   - dossier

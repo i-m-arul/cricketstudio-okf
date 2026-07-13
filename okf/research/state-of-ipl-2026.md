@@ -93,10 +93,10 @@ Suryavanshi's 237.31 strike rate over 327 balls is the highest by a full-season 
 Cap winner in the sport's history. Rabada led all bowlers across the 74-match IPL 2026 corpus.
 
 For live-refreshed leaderboard rankings, see the canonical pages:
-- Most runs: <https://players.cricketstudio.ai/season/ipl-2026/most-runs>
-- Most wickets: <https://players.cricketstudio.ai/season/ipl-2026/most-wickets>
-- Strike rate: <https://players.cricketstudio.ai/season/ipl-2026/strike-rate>
-- Economy: <https://players.cricketstudio.ai/season/ipl-2026/economy>
+- Most runs: <https://players.cricketstudio.ai/season/ipl-2026>
+- Most wickets: <https://players.cricketstudio.ai/season/ipl-2026>
+- Strike rate: <https://players.cricketstudio.ai/season/ipl-2026>
+- Economy: <https://players.cricketstudio.ai/season/ipl-2026>
 
 ## Key Findings
 

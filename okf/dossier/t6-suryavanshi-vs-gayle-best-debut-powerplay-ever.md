@@ -52,5 +52,5 @@ Debut season defined as first IPL season with ≥5 innings. Gayle's IPL debut ye
 ## Related Concepts
 
 - [Suryavanshi player profile](https://players.cricketstudio.ai/players/vaibhav-suryavanshi)
-- [IPL Hall of Fame](https://players.cricketstudio.ai/leagues/ipl/records/ipl-hall-of-fame)
+- [IPL Hall of Fame](https://players.cricketstudio.ai/leagues/ipl/records)
 - [The Teenager Who Broke the Template](https://okf.cricketstudio.ai/stories/teenager-who-broke-the-template/)

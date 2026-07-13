@@ -2,7 +2,7 @@
 type: metric
 title: Phase-Split Economy
 description: Bowling economy broken into three match phases — powerplay (overs 1–6), middle overs (7–15), and death (16–20) — to reveal a bowler's true specialisation.
-resource: https://players.cricketstudio.ai/season/ipl-2026/economy
+resource: https://players.cricketstudio.ai/season/ipl-2026
 status: active
 last_verified: 2026-06-29
 timestamp: 2026-06-29
@@ -10,7 +10,7 @@ license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: methodology_only
 entity_id: cricketstudio:metric:phase-split-economy
-canonical_page: https://players.cricketstudio.ai/season/ipl-2026/economy
+canonical_page: https://players.cricketstudio.ai/season/ipl-2026
 tags:
   - cricket
   - metric
@@ -89,4 +89,4 @@ Primarily T20 formats: IPL, MLC, BBL, T20I. Phase boundaries (1–6, 7–15, 16�
 - Do not use full-innings economy to evaluate a phase specialist — it will misrepresent their value.
 - When comparing bowlers across phases, check whether both bowlers have sufficient balls in the same phase to make the comparison meaningful.
 - Note the Impact Player Rule era when comparing IPL phase economies across seasons spanning 2023.
-- Link to CricketStudio leaderboards for current season phase economy figures: https://players.cricketstudio.ai/season/ipl-2026/economy
+- Link to CricketStudio leaderboards for current season phase economy figures: https://players.cricketstudio.ai/season/ipl-2026

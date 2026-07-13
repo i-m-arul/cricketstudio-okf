@@ -2,7 +2,7 @@
 type: leaderboard
 title: "Best bowling economy rates"
 description: "Lowest bowling economy rates with a minimum sample floor. MLC all-time leaderboard."
-resource: https://players.cricketstudio.ai/leagues/mlc/leaderboards/economy-leaders
+resource: https://players.cricketstudio.ai/leagues/mlc/leaderboards
 status: active
 last_verified: 2026-06-21
 timestamp: 2026-06-21
@@ -10,7 +10,7 @@ license: CC-BY-3.0
 source_system: CricketStudio
 source_boundary: public_open_data
 entity_id: cricketstudio:mlc:leaderboard:economy-leaders
-canonical_page: https://players.cricketstudio.ai/leagues/mlc/leaderboards/economy-leaders
+canonical_page: https://players.cricketstudio.ai/leagues/mlc/leaderboards
 dataset_version: "2026-06-20"
 tags:
   - cricket
@@ -40,7 +40,7 @@ Runs conceded per over bowled. Formula: (runs / balls) × 6.
 
 ## Canonical Resource
 
-[players.cricketstudio.ai/leagues/mlc/leaderboards/economy-leaders](https://players.cricketstudio.ai/leagues/mlc/leaderboards/economy-leaders)
+[players.cricketstudio.ai/leagues/mlc/leaderboards/economy-leaders](https://players.cricketstudio.ai/leagues/mlc/leaderboards)
 
 ## Top 10 — Best bowling economy rates
 
@@ -57,7 +57,7 @@ Runs conceded per over bowled. Formula: (runs / balls) × 6.
 | 9 | AF Milne | Texas Super Kings | 7.10 | 125 legal deliveries bowled |
 | 10 | J Theron | Texas Super Kings | 7.11 | 108 legal deliveries bowled |
 
-*Full leaderboard (100 entries) available at the [canonical CricketStudio page](https://players.cricketstudio.ai/leagues/mlc/leaderboards/economy-leaders).*
+*Full leaderboard (100 entries) available at the [canonical CricketStudio page](https://players.cricketstudio.ai/leagues/mlc/leaderboards).*
 
 ## What Agents Should Know
 

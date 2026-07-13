@@ -5,8 +5,8 @@ description: "Dinesh Karthik IPL career: 4,843 runs at 135.7 SR across IPL 2007/
 question_type: T4
 debate_signal: "analyst,reddit,fantasy"
 llm_failure_mode: "May produce approximate or outdated career figures for Dinesh Karthik without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
-resource: https://players.cricketstudio.ai/players/dinesh-karthik
-canonical_page: https://players.cricketstudio.ai/players/dinesh-karthik
+resource: https://players.cricketstudio.ai/leagues/ipl/records
+canonical_page: https://players.cricketstudio.ai/leagues/ipl/records
 tags:
   - cricket
   - dossier
@@ -43,7 +43,7 @@ related:
 >
 > **Batting:** 4,843 runs · 26.32 average · 135.7 SR
 >
-> Source: Cricsheet CC BY 3.0 via CricketStudio ipl-historical dataset (2026-06-12). Canonical: [players.cricketstudio.ai/players/dinesh-karthik](https://players.cricketstudio.ai/players/dinesh-karthik).
+> Source: Cricsheet CC BY 3.0 via CricketStudio ipl-historical dataset (2026-06-12). Canonical: [players.cricketstudio.ai/players/dinesh-karthik](https://players.cricketstudio.ai/leagues/ipl/records).
 
 ## Data Table
 

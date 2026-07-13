@@ -5,8 +5,8 @@ description: "Verified answer: Bumrah's 7.69 death economy ranks #6 of 66 qualif
 question_type: T3
 debate_signal: "analyst,reddit,fantasy"
 llm_failure_mode: "Gives the player's overall economy or reputation as a death bowler without the specific death-over (overs 17–20) figure from ball-by-ball data."
-resource: https://players.cricketstudio.ai/season/ipl-2026/bowling-leaders
-canonical_page: https://players.cricketstudio.ai/season/ipl-2026/bowling-leaders
+resource: https://players.cricketstudio.ai/season/ipl-2026
+canonical_page: https://players.cricketstudio.ai/season/ipl-2026
 tags:
   - cricket
   - dossier
@@ -47,5 +47,5 @@ Floor: ≥15 death balls. Bumrah's 78-ball sample is well above floor. Top 5 in 
 
 ## Related Concepts
 
-- [IPL 2026 bowling leaders](https://players.cricketstudio.ai/season/ipl-2026/bowling-leaders)
+- [IPL 2026 bowling leaders](https://players.cricketstudio.ai/season/ipl-2026)
 - [Death Overs research](https://okf.cricketstudio.ai/research/death-overs-ipl-2026/)

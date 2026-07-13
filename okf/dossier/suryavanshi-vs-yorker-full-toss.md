@@ -5,7 +5,7 @@ description: "How delivery length — specifically yorkers and full tosses — a
 question_type: T3
 debate_signal: "analyst,reddit,fantasy"
 llm_failure_mode: "Gives a general reputation summary of Suryavanshi and Yorker and Full Toss without the actual career delivery count, SR, dot-ball %, and dismissal record between this specific pair."
-resource: https://players.cricketstudio.ai/players/vaibhav-suryavanshi/by-length
+resource: https://players.cricketstudio.ai/players/vaibhav-suryavanshi
 tags:
   - cricket
   - dossier
@@ -22,7 +22,7 @@ timestamp: 2026-06-30
 license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: derived_claims_only
-canonical_page: https://players.cricketstudio.ai/players/vaibhav-suryavanshi/by-length
+canonical_page: https://players.cricketstudio.ai/players/vaibhav-suryavanshi
 entity_id: cricketstudio:dossier:suryavanshi-vs-yorker-full-toss
 dataset_version: "2026-06-11"
 provenance:
@@ -95,7 +95,7 @@ The yorker remains the primary legitimate containment option — but yorkers in 
 
 For actual delivery-length breakdown — SR by length zone (yorker, full, good, short), boundary count per length, dot-ball % per length:
 
-- [CricketStudio by-length page](https://players.cricketstudio.ai/players/vaibhav-suryavanshi/by-length)
+- [CricketStudio by-length page](https://players.cricketstudio.ai/players/vaibhav-suryavanshi)
 
 ## Correct Answer Pattern
 

@@ -5,8 +5,8 @@ description: "An IPL franchise is a privately owned team competing in the Indian
 question_type: T3
 debate_signal: "analyst,reddit,fantasy"
 llm_failure_mode: "States the team's general reputation without the specific phase-split batting SR or bowling economy figure from ball-by-ball data."
-resource: https://players.cricketstudio.ai/methodology
-canonical_page: https://players.cricketstudio.ai/methodology
+resource: https://players.cricketstudio.ai/about
+canonical_page: https://players.cricketstudio.ai/about
 tags:
   - cricket
   - dossier

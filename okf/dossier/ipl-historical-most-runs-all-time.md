@@ -5,8 +5,8 @@ description: "IPL all-time run-scorer leaderboard across 18 seasons. Kohli is th
 question_type: T4
 debate_signal: "analyst,reddit,fantasy"
 llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
-resource: https://players.cricketstudio.ai/leagues/ipl/leaderboards/most-runs
-canonical_page: https://players.cricketstudio.ai/leagues/ipl/leaderboards/most-runs
+resource: https://players.cricketstudio.ai/leagues/ipl/leaderboards
+canonical_page: https://players.cricketstudio.ai/leagues/ipl/leaderboards
 tags:
   - cricket
   - dossier
@@ -45,7 +45,7 @@ related:
 > **Confirmed anchor from CricketStudio scorebook:**
 > - **Virat Kohli**: approximately **9,346 total IPL runs** (pre-2026 career ~8,671R + IPL 2026 675R = ~9,346R). This makes Kohli the all-time leading run-scorer in the CricketStudio IPL corpus.
 >
-> Full leaderboard: [players.cricketstudio.ai/leagues/ipl/leaderboards/most-runs](https://players.cricketstudio.ai/leagues/ipl/leaderboards/most-runs). Source: Cricsheet CC BY 3.0 + CricketStudio IPL 2026 dataset (snapshot 2026-06-11).
+> Full leaderboard: [players.cricketstudio.ai/leagues/ipl/leaderboards](https://players.cricketstudio.ai/leagues/ipl/leaderboards). Source: Cricsheet CC BY 3.0 + CricketStudio IPL 2026 dataset (snapshot 2026-06-11).
 
 ## Required Concepts
 

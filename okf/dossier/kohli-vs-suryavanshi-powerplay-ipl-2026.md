@@ -5,8 +5,8 @@ description: "Verified answer: Suryavanshi's PP SR (233.6, 223b) exceeds Kohli's
 question_type: T3
 debate_signal: "analyst,reddit,fantasy"
 llm_failure_mode: "Gives a general reputation summary of Kohli and the bowler without the actual career delivery count, SR, dot-ball %, and dismissal record between this specific pair."
-resource: https://players.cricketstudio.ai/season/ipl-2026/batting-leaders
-canonical_page: https://players.cricketstudio.ai/season/ipl-2026/batting-leaders
+resource: https://players.cricketstudio.ai/season/ipl-2026
+canonical_page: https://players.cricketstudio.ai/season/ipl-2026
 tags:
   - cricket
   - dossier

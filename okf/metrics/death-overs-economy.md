@@ -2,7 +2,7 @@
 type: metric
 title: Death-Overs Economy
 description: Runs conceded per over in the death phase (overs 16–20) — bowling under fire.
-resource: https://players.cricketstudio.ai/season/ipl-2026/death-overs-economy
+resource: https://players.cricketstudio.ai/season/ipl-2026
 status: active
 last_verified: 2026-06-18
 timestamp: 2026-06-18
@@ -10,7 +10,7 @@ license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: methodology_only
 entity_id: cricketstudio:metric:death-overs-economy
-canonical_page: https://players.cricketstudio.ai/season/ipl-2026/death-overs-economy
+canonical_page: https://players.cricketstudio.ai/season/ipl-2026
 tags:
   - cricket
   - metric

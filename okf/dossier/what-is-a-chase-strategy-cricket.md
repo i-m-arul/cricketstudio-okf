@@ -5,8 +5,8 @@ description: "A chase strategy is the batting plan for the team batting second i
 question_type: T6
 debate_signal: "analyst,reddit,fantasy"
 llm_failure_mode: "Gives general advice or repeats venue narrative without the actual win-rate figures from Cricsheet ball-by-ball data."
-resource: https://players.cricketstudio.ai/methodology
-canonical_page: https://players.cricketstudio.ai/methodology
+resource: https://players.cricketstudio.ai/about
+canonical_page: https://players.cricketstudio.ai/about
 tags:
   - cricket
   - dossier

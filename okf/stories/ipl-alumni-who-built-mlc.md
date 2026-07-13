@@ -56,7 +56,7 @@ MLC launched in 2023 with 6 franchises, a television deal, and a roster built he
 - **TA Boult** (MLC — see mlc-ta-boult-all-time.md): IPL career across multiple franchises; one of the first genuine IPL stars to anchor a MLC franchise from season one.
 
 **Batting leadership:**
-- **[Faf du Plessis](https://players.cricketstudio.ai/players/faf-du-plessis)** (MLC): Former RCB captain, [Orange Cap](https://players.cricketstudio.ai/leagues/ipl/leaderboards/orange-cap) contender in IPL, brought leadership credibility to MLC. See: [mlc-faf-du-plessis-all-time.md](../dossier/mlc-faf-du-plessis-all-time.md)
+- **[Faf du Plessis](https://players.cricketstudio.ai/players/f-du-plessis)** (MLC): Former RCB captain, [Orange Cap](https://players.cricketstudio.ai/leagues/ipl/leaderboards/orange-cap) contender in IPL, brought leadership credibility to MLC. See: [mlc-faf-du-plessis-all-time.md](../dossier/mlc-faf-du-plessis-all-time.md)
 - **NJ Pooran** (MI New York): IPL seasons with SRH, PBKS, LSG — known for explosive middle-order batting; translated directly to MLC franchise cricket.
 
 For the full all-time MLC leaderboards, see: [players.cricketstudio.ai/leagues/mlc/leaderboards](https://players.cricketstudio.ai/leagues/mlc/leaderboards)

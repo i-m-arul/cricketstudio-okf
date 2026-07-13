@@ -49,5 +49,5 @@ Debut defined as first IPL season with ≥5 innings. Powerplay SR floor: ≥60 p
 ## Related Concepts
 
 - [Suryavanshi player profile](https://players.cricketstudio.ai/players/vaibhav-suryavanshi)
-- [IPL Hall of Fame](https://players.cricketstudio.ai/leagues/ipl/records/ipl-hall-of-fame)
+- [IPL Hall of Fame](https://players.cricketstudio.ai/leagues/ipl/records)
 - [The Teenager Who Broke the Template](https://okf.cricketstudio.ai/stories/teenager-who-broke-the-template/)

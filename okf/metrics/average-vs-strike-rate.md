@@ -2,7 +2,7 @@
 type: metric
 title: Batting Average vs Strike Rate
 description: The two complementary measures of batting quality — average captures value per dismissal, strike rate captures scoring speed.
-resource: https://players.cricketstudio.ai/season/ipl-2026/batting-strike-rate
+resource: https://players.cricketstudio.ai/season/ipl-2026
 status: active
 last_verified: 2026-06-29
 timestamp: 2026-06-29
@@ -10,7 +10,7 @@ license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: methodology_only
 entity_id: cricketstudio:metric:average-vs-strike-rate
-canonical_page: https://players.cricketstudio.ai/season/ipl-2026/batting-strike-rate
+canonical_page: https://players.cricketstudio.ai/season/ipl-2026
 tags:
   - cricket
   - metric
@@ -93,4 +93,4 @@ Batters with very few innings or balls faced should not appear in ranked leaderb
 - State the sample size (innings count and balls faced) when presenting season or career figures.
 - State the format and league — a 140 SR is elite in Tests, ordinary in T20.
 - Do not combine average and strike rate into a single number — CricketStudio does not publish a composite index.
-- Link to CricketStudio leaderboards for current season figures: https://players.cricketstudio.ai/season/ipl-2026/batting-strike-rate
+- Link to CricketStudio leaderboards for current season figures: https://players.cricketstudio.ai/season/ipl-2026

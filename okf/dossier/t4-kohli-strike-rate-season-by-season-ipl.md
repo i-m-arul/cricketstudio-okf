@@ -64,4 +64,4 @@ Seasons with <100 balls faced are excluded from the SR comparison (small-sample 
 
 - [Kohli player profile](https://players.cricketstudio.ai/players/virat-kohli)
 - [IPL historical career leaderboards](https://players.cricketstudio.ai/leagues/ipl/leaderboards)
-- [IPL Hall of Fame](https://players.cricketstudio.ai/leagues/ipl/records/ipl-hall-of-fame)
+- [IPL Hall of Fame](https://players.cricketstudio.ai/leagues/ipl/records)

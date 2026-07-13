@@ -2,7 +2,7 @@
 type: metric
 title: Batting Strike Rate
 description: Runs scored per 100 balls faced — the core T20 batting tempo metric.
-resource: https://players.cricketstudio.ai/season/ipl-2026/strike-rate
+resource: https://players.cricketstudio.ai/season/ipl-2026
 status: active
 last_verified: 2026-06-18
 timestamp: 2026-06-18
@@ -10,7 +10,7 @@ license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: methodology_only
 entity_id: cricketstudio:metric:batting-strike-rate
-canonical_page: https://players.cricketstudio.ai/season/ipl-2026/strike-rate
+canonical_page: https://players.cricketstudio.ai/season/ipl-2026
 tags:
   - cricket
   - metric

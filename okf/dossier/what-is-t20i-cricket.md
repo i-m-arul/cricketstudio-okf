@@ -5,8 +5,8 @@ description: "T20I = Twenty20 International: a T20 match between two national te
 question_type: T3
 debate_signal: "analyst,reddit,fantasy"
 llm_failure_mode: "Gives a general reputation summary of the batter and the bowler without the actual career delivery count, SR, dot-ball %, and dismissal record between this specific pair."
-resource: https://players.cricketstudio.ai/methodology
-canonical_page: https://players.cricketstudio.ai/methodology
+resource: https://players.cricketstudio.ai/about
+canonical_page: https://players.cricketstudio.ai/about
 tags:
   - cricket
   - dossier

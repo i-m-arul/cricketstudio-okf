@@ -46,4 +46,4 @@ Match played 2026-05-31 at Narendra Modi Stadium, Ahmedabad.
 
 ## Related Concepts
 
-- [IPL 2026 Final match](https://players.cricketstudio.ai/matches/ipl-2026-rcb-vs-gt-2026-05-31)
+- [IPL 2026 Final match](https://players.cricketstudio.ai/season/ipl-2026)

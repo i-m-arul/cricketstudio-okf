@@ -2,7 +2,7 @@
 type: metric
 title: Net Run Rate
 description: Adjusted run-rate differential used to separate teams tied on points in T20 and ODI tournaments.
-resource: https://players.cricketstudio.ai/season/ipl-2026/points
+resource: https://players.cricketstudio.ai/season/ipl-2026
 status: active
 last_verified: 2026-06-29
 timestamp: 2026-06-29
@@ -10,7 +10,7 @@ license: CC-BY-4.0
 source_system: CricketStudio
 source_boundary: methodology_only
 entity_id: cricketstudio:metric:net-run-rate
-canonical_page: https://players.cricketstudio.ai/season/ipl-2026/points
+canonical_page: https://players.cricketstudio.ai/season/ipl-2026
 tags:
   - cricket
   - metric
@@ -74,5 +74,5 @@ NRR is a tournament-level aggregate metric, not a rate stat applied to individua
 - Always state the tournament stage and the set of matches the NRR is calculated across (e.g., IPL 2026 group stage, through match 74).
 - Explain the all-out convention when a user asks why a team's NRR dropped sharply after being dismissed cheaply.
 - Never rank teams by NRR alone — NRR is a tiebreaker, not a performance index.
-- Link to the CricketStudio points table for current season NRR standings: https://players.cricketstudio.ai/season/ipl-2026/points
+- Link to the CricketStudio points table for current season NRR standings: https://players.cricketstudio.ai/season/ipl-2026
 - When a user asks "who has the best NRR", confirm the tournament and stage first.
