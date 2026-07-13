@@ -65,14 +65,14 @@ An agent reading that file doesn't just get the numbers. It gets the scope, the 
 
 ## The Reference Implementation
 
-We didn't just write a spec. We built 430+ files implementing it.
+We didn't just write a spec. We built 3,500+ files implementing it.
 
 [CricketStudio OKF](https://okf.cricketstudio.ai) covers:
-- IPL and MLC player files with phase splits
-- 10 metric definitions with formulas, floors, and agent guidance
-- 37 dossier patterns (verified Q&A templates for common cricket questions)
-- 5 provenance-backed cricket stories (Journeys)
-- 8 research reports with full dataset provenance
+- IPL and MLC player files with phase splits (922 players)
+- 19 metric definitions with formulas, floors, and agent guidance
+- 2,317 dossier patterns (verified Q&A templates for common cricket questions)
+- 45 provenance-backed cricket stories (Journeys)
+- 49 research reports with full dataset provenance
 - CI validation on every push — `python scripts/validate_okf.py` runs schema checks, provenance enforcement, and broken link detection
 
 The repo is public, the validator is open source, the content is CC-BY-4.0, and the Cricsheet-derived content is CC BY 3.0.

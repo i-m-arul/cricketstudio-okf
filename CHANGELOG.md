@@ -5,7 +5,7 @@ All notable changes to CricketStudio OKF are documented here. This project follo
 
 ## [0.5.3] — 2026-06-29
 
-Deep-research sprint + OG images + SEO schemas + alias fix. Bundle grows to 532 files, 45 stories, 20 metrics, 83 dossiers.
+Deep-research sprint + OG images + SEO schemas + alias fix. Bundle grows to 532 files, 45 stories, 19 metrics, 83 dossiers.
 
 ### Added
 

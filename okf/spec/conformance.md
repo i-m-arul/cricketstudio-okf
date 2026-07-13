@@ -55,7 +55,7 @@ Every file in the bundle can be cited with a stable URL and a declared source bo
 
 ---
 
-## Level 2 — Evidence-Backed ✓ CricketStudio OKF reference bundle
+## Level 2 — Evidence-Backed
 
 Every data-bearing claim in the bundle has a traceable evidence reference, a declared freshness date, and is backed by explicit metric definitions and sample-size rules.
 
@@ -70,7 +70,7 @@ Every data-bearing claim in the bundle has a traceable evidence reference, a dec
 
 **What this enables:** Agents can safely answer questions with correct scope, sample size, and confidence. Claims are traceable to source and dated.
 
-**CricketStudio OKF reference bundle self-certification:** ✓ **Level 2 (June 2026)**
+**CricketStudio OKF reference bundle self-certification:** ✓ **Level 2 (June 2026)** — superseded by Level 3 (July 2026)
 
 ---
 

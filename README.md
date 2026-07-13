@@ -3,7 +3,7 @@
 **The open, agent-readable knowledge layer for cricket.**
 
 [![License: CC-BY-4.0](https://img.shields.io/badge/License-CC--BY--4.0-lightgrey.svg)](LICENSE.md)
-[![OKF v0.5.2](https://img.shields.io/badge/OKF-v0.5.2-green.svg)](CHANGELOG.md)
+[![OKF v0.5.3](https://img.shields.io/badge/OKF-v0.5.3-green.svg)](CHANGELOG.md)
 [![Google OKF v0.1 conformant](https://img.shields.io/badge/Google%20OKF-v0.1%20conformant-blue.svg)](okf/sources/google-okf-alignment.md)
 [![Cricsheet CC BY 3.0](https://img.shields.io/badge/data-Cricsheet%20CC%20BY%203.0-blue.svg)](ATTRIBUTION.md)
 
@@ -154,7 +154,7 @@ Full terms: [`LICENSE.md`](LICENSE.md) · [`DATA_LICENSE_BOUNDARIES.md`](DATA_LI
 
 ## Status
 
-**v0.5.2** — Dossier expansion + Level 3: 3,500+ files · 12 spec documents · 19 metrics · 2,317 dossier · 49 research · **45 cricket stories** · Level 3 (Agent-Safe) conformance · 0 invented facts.  
+**v0.5.3** — Dossier expansion + Level 3: 3,500+ files · 12 spec documents · 19 metrics · 2,317 dossier · 49 research · **45 cricket stories** · Level 3 (Agent-Safe) conformance · 0 invented facts.  
 See [`CHANGELOG.md`](CHANGELOG.md) for what's in this release.
 
 ## Viewer (`okf.cricketstudio.ai`)

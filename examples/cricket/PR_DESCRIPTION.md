@@ -10,7 +10,7 @@
 
 This PR adds a **cricket domain profile** on top of Google OKF v0.1 — a complete, standalone example bundle that extends the base spec with a cricket type vocabulary, provenance convention, sample-size doctrine, metric definition standard, and a narrative layer for agent-readable cricket stories.
 
-The bundle is a curated 15-file slice extracted from the [CricketStudio OKF reference implementation](https://github.com/i-m-arul/cricketstudio-okf), which is CI-validated, 430+ files, and self-certified Level 2 (Evidence-Backed). No real player data or licensed feed content is included — all entity files use annotated placeholders.
+The bundle is a curated 15-file slice extracted from the [CricketStudio OKF reference implementation](https://github.com/i-m-arul/cricketstudio-okf), which is CI-validated, 3,500+ files, and self-certified Level 3 (Agent-Safe). No real player data or licensed feed content is included — all entity files use annotated placeholders.
 
 ---
 

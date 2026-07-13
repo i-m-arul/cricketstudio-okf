@@ -66,7 +66,7 @@ const KEY_PAGES = [
   { label: 'Citation policy', href: '/methodology/citation-policy/' },
   { label: 'Sample-size floors', href: '/methodology/sample-size-floors/' },
   { label: 'Research index', href: '/research/' },
-  { label: 'Dossier — 67 Q&A patterns', href: '/dossier/' },
+  { label: 'Dossier — 2,317 Q&A patterns', href: '/dossier/' },
   { label: 'About OKF', href: '/about/' },
   { label: 'Search all content', href: '/search/' },
   { label: 'GitHub repository', href: 'https://github.com/i-m-arul/cricketstudio-okf', external: true },
@@ -275,7 +275,7 @@ export default function AgentsPage() {
                   <a href="/llms-full.txt" className="text-green-400 hover:underline" target="_blank" rel="noopener noreferrer">
                     /llms-full.txt
                   </a>{' '}
-                  — all 170+ concept entries concatenated
+                  — all 3,500+ OKF files concatenated
                 </li>
                 <li>
                   <a

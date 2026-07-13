@@ -42,12 +42,12 @@ examples/cricket/
 
 ## Live Reference Implementation
 
-The full CricketStudio OKF bundle at **https://okf.cricketstudio.ai** is a CI-validated, 430+ file implementation of this profile, including:
-- 65 IPL player profiles with phase splits (powerplay / middle / death)
-- 10 metric definitions
-- 37 dossier Q&A patterns
-- 5 provenance-backed cricket stories (Journeys)
-- 8 research reports
+The full CricketStudio OKF bundle at **https://okf.cricketstudio.ai** is a CI-validated, 3,500+ file implementation of this profile, including:
+- 922 IPL and MLC player profiles with phase splits (powerplay / middle / death)
+- 19 metric definitions
+- 2,317 dossier Q&A patterns
+- 45 provenance-backed cricket stories (Journeys)
+- 49 research reports
 
 GitHub: https://github.com/i-m-arul/cricketstudio-okf
 

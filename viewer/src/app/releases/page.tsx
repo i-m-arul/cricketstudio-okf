@@ -14,7 +14,7 @@ const releases = [
     title: 'Trust OS v1 — Agent-Safe',
     status: 'current',
     conformance: 'Level 3 — Agent-Safe',
-    summary: 'Adds Trust OS v1: machine-readable claim ledger, JSON Schema, 1,000-row eval benchmark, and trust manifest. Self-certified Level 3 (Agent-Safe) 2026-07-08. 2,200+ files total.',
+    summary: 'Adds Trust OS v1: machine-readable claim ledger, JSON Schema, 1,000-row eval benchmark, and trust manifest. Self-certified Level 3 (Agent-Safe) 2026-07-08. 3,500+ files total.',
     highlights: [
       '/claims.jsonl — machine-readable claim ledger (Trust OS v1)',
       'schema/claim-object.schema.json — JSON Schema for claim objects',

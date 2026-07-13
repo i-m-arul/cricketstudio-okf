@@ -1,5 +1,5 @@
 name: cricketstudio-okf
-version: 0.5.2
+version: 0.5.3
 description: >-
   CricketStudio OKF — the Open Knowledge Framework for Cricket Data. A versioned
   standard and reference bundle built on Google OKF v0.1, defining a cricket type
