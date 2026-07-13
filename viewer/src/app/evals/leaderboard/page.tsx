@@ -76,10 +76,11 @@ function pct(score: number) {
   return (score * 100).toFixed(1) + '%'
 }
 
-function pp(delta: number | null) {
+function lift(delta: number | null) {
   if (delta === null) return null
   const v = (delta * 100).toFixed(1)
-  return delta >= 0 ? `+${v}pp` : `${v}pp`
+  // "pts" = accuracy points — plain English, no jargon
+  return delta >= 0 ? `+${v} pts` : `${v} pts`
 }
 
 const CATEGORY_LABELS: Record<string, string> = {
@@ -132,16 +133,16 @@ export default function LeaderboardPage() {
           <span className="text-green-400">best?</span>
         </h1>
         <p className="text-gray-400 text-sm leading-relaxed max-w-2xl">
-          CricketStudio runs 1,000 verified cricket Q&amp;A pairs against leading AI models — twice.
-          First with <strong className="text-gray-300">no context</strong> (raw cricket knowledge),
-          then with <strong className="text-green-400">CricketStudio OKF data injected</strong>.
-          The accuracy delta is the value proof: how much does structured, provenance-backed cricket
-          data make AI answers better?
+          We test each AI model twice on 1,000 cricket questions.{' '}
+          <strong className="text-gray-300">First: no data provided</strong> — the model answers from
+          its training knowledge alone.{' '}
+          <strong className="text-green-400">Second: CricketStudio&apos;s verified cricket stats injected as context.</strong>{' '}
+          The score difference shows exactly how much accurate, structured cricket data improves AI answers.
         </p>
         <div className="flex flex-wrap gap-4 mt-4 text-xs text-gray-500">
           <span><strong className="text-gray-400">1,000</strong> questions</span>
-          <span><strong className="text-gray-400">4</strong> models</span>
-          <span><strong className="text-gray-400">2</strong> passes — raw + OKF context</span>
+          <span><strong className="text-gray-400">4</strong> models tested</span>
+          <span><strong className="text-gray-400">2 rounds</strong> — without data, then with CricketStudio</span>
           <span><strong className="text-gray-400">Claude Haiku</strong> judge</span>
           <span><strong className="text-gray-400">Weekly</strong> · Mon 06:00 UTC</span>
           <span>
@@ -187,35 +188,42 @@ export default function LeaderboardPage() {
                 <span className="text-4xl mt-0.5">🏆</span>
                 <div className="flex-1 min-w-0">
                   <div className="text-xs font-bold tracking-wider text-green-700 uppercase mb-1">
-                    Current leader · {latestRun.date}
+                    Highest accuracy · {latestRun.date}
                   </div>
                   <div className="text-xl font-bold text-green-400">{winner.label}</div>
-                  <div className="text-sm text-gray-400 mt-0.5">
-                    <strong className="text-gray-200 font-mono">{winner.correct_raw}</strong> /{' '}
-                    {winner.total} correct (raw)
-                    {hasContext && winner.correct_with_cs !== undefined && (
-                      <>
-                        {' '}→{' '}
-                        <strong className="text-green-300 font-mono">{winner.correct_with_cs}</strong>
-                        {' '}with CricketStudio
-                      </>
-                    )}
-                  </div>
+                  {hasContext && winner.score_with_cs !== null ? (
+                    <div className="text-sm text-gray-400 mt-1 leading-relaxed">
+                      Without CricketStudio data:{' '}
+                      <strong className="text-gray-300 font-mono">{pct(winner.score_raw)}</strong>
+                      {' '}({winner.correct_raw}/{winner.total} correct)
+                      <br />
+                      With CricketStudio data:{' '}
+                      <strong className="text-green-300 font-mono">{pct(winner.score_with_cs)}</strong>
+                      {winner.correct_with_cs !== undefined && (
+                        <> ({winner.correct_with_cs}/{winner.total} correct)</>
+                      )}
+                    </div>
+                  ) : (
+                    <div className="text-sm text-gray-400 mt-0.5">
+                      <strong className="text-gray-200 font-mono">{winner.correct_raw}</strong> /{' '}
+                      {winner.total} questions correct
+                    </div>
+                  )}
                 </div>
                 {/* Score display */}
                 <div className="text-right shrink-0">
                   {hasContext && winner.score_with_cs !== null ? (
                     <>
-                      <div className="flex items-baseline gap-2 justify-end">
+                      <div className="flex items-baseline gap-1.5 justify-end">
                         <span className="text-sm text-gray-500 font-mono">{pct(winner.score_raw)}</span>
                         <span className="text-gray-600">→</span>
                         <span className="text-4xl font-extrabold text-green-400 font-mono leading-none tracking-tight">
                           {pct(winner.score_with_cs)}
                         </span>
                       </div>
-                      <div className="mt-1 flex items-center justify-end gap-2">
-                        <span className="text-xs bg-green-900/60 text-green-300 px-2 py-0.5 rounded-full font-semibold">
-                          {pp(winner.delta)} with CricketStudio
+                      <div className="mt-1.5 flex items-center justify-end">
+                        <span className="text-xs bg-green-900/60 text-green-300 px-2.5 py-1 rounded-full font-semibold">
+                          {lift(winner.delta)} accuracy improvement
                         </span>
                       </div>
                     </>
@@ -234,17 +242,17 @@ export default function LeaderboardPage() {
 
           {/* Column legend when both passes present */}
           {hasContext && (
-            <div className="flex gap-4 text-xs mb-3 pl-1">
+            <div className="flex flex-wrap gap-x-5 gap-y-1 text-xs mb-3 pl-1">
               <span className="flex items-center gap-1.5 text-gray-500">
                 <span className="w-2 h-2 rounded-full bg-gray-600 inline-block" />
-                Raw — no context
+                Without data — AI&apos;s own training knowledge
               </span>
               <span className="flex items-center gap-1.5 text-green-500">
                 <span className="w-2 h-2 rounded-full bg-green-600 inline-block" />
-                +CS — with CricketStudio OKF
+                With CricketStudio — verified stats provided as context
               </span>
               <span className="flex items-center gap-1.5 text-emerald-400">
-                Δ accuracy improvement
+                Improvement — how many accuracy points CricketStudio adds
               </span>
             </div>
           )}
@@ -260,26 +268,26 @@ export default function LeaderboardPage() {
                 <tr className="border-b border-gray-800">
                   <th className="text-left py-3 px-4 text-gray-600 font-medium text-xs tracking-wide w-8">#</th>
                   <th className="text-left py-3 px-4 text-gray-600 font-medium text-xs tracking-wide">Model</th>
-                  <th className="text-right py-3 px-4 text-gray-600 font-medium text-xs tracking-wide">Raw</th>
+                  <th className="text-right py-3 px-4 text-gray-600 font-medium text-xs tracking-wide">Without data</th>
                   {hasContext && (
                     <>
                       <th className="text-right py-3 px-4 text-gray-600 font-medium text-xs tracking-wide hidden sm:table-cell">
-                        +CS
+                        With CricketStudio
                       </th>
                       <th className="text-right py-3 px-4 text-gray-600 font-medium text-xs tracking-wide hidden md:table-cell">
-                        Δ
+                        Improvement
                       </th>
                     </>
                   )}
                   <th className="py-3 px-4 text-gray-600 font-medium text-xs tracking-wide w-32 hidden lg:table-cell">
-                    {hasContext ? '+CS bar' : 'Accuracy'}
+                    {hasContext ? 'With CS' : 'Accuracy'}
                   </th>
                 </tr>
               </thead>
               <tbody>
                 {sortedModels.map((model, i) => {
                   const providerCls = PROVIDER_COLORS[model.provider] ?? 'text-gray-400 bg-gray-800'
-                  const deltaStr    = pp(model.delta)
+                  const deltaStr    = lift(model.delta)
                   const deltaPos    = model.delta !== null && model.delta > 0
                   // bar fills based on with-CS score if available, else raw
                   const barPct      = ((model.score_with_cs ?? model.score_raw) * 100).toFixed(1)
@@ -410,7 +418,7 @@ export default function LeaderboardPage() {
                   <span className="text-gray-600">{run.questions} Q</span>
                   {hasCtx && leader?.delta !== null && leader?.delta !== undefined ? (
                     <span className="text-green-500 font-mono hidden sm:inline">
-                      {pct(leader.score_raw)} → {pct(leader.score_with_cs!)} ({pp(leader.delta)})
+                      {pct(leader.score_raw)} → {pct(leader.score_with_cs!)} ({lift(leader.delta)})
                     </span>
                   ) : (
                     <div className="hidden sm:flex gap-3">
@@ -449,7 +457,7 @@ export default function LeaderboardPage() {
             <li className="flex gap-2"><span className="text-green-600 mt-0.5">▸</span>Same question, but CricketStudio&apos;s OKF knowledge bundle injected as context</li>
             <li className="flex gap-2"><span className="text-green-600 mt-0.5">▸</span>Context source: <a href="https://okf.cricketstudio.ai/llms.txt" className="text-green-500 hover:underline" target="_blank" rel="noopener noreferrer">okf.cricketstudio.ai/llms.txt</a></li>
             <li className="flex gap-2"><span className="text-green-600 mt-0.5">▸</span>All OKF facts derived from ball-by-ball data with explicit provenance</li>
-            <li className="flex gap-2"><span className="text-green-600 mt-0.5">▸</span>The Δ (delta) is the accuracy improvement — the value of structured cricket data</li>
+            <li className="flex gap-2"><span className="text-green-600 mt-0.5">▸</span>The &quot;Improvement&quot; column shows how many accuracy points CricketStudio adds per model</li>
           </ul>
         </div>
       </div>
