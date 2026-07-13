@@ -2,6 +2,9 @@
 type: dossier
 title: "Varun Chakaravarthy — IPL career overview (2019–2025)"
 description: "Varun Chakaravarthy (KKR) IPL career 2019–2025: 100 wickets, economy 7.60. Middle overs: 1,320 balls, 75 wkts, 7.35 econ — primary wicket-taking phase. Mystery spinner. Cricsheet CC BY 3.0."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Varun Chakaravarthy without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/cv-varun
 canonical_page: https://players.cricketstudio.ai/players/cv-varun
 tags:

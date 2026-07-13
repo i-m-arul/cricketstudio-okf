@@ -2,6 +2,9 @@
 type: dossier
 title: "When Did the IPL Start?"
 description: "Verified answer: The first IPL season was 2007/08, with matches played April–June 2008."
+question_type: T4
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/leagues/ipl
 canonical_page: https://players.cricketstudio.ai/leagues/ipl
 tags:

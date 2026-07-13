@@ -2,6 +2,9 @@
 type: dossier
 title: "Kagiso Rabada — IPL 2026 powerplay bowling"
 description: "Rabada IPL 2026 PP bowling: 270 balls, 20 wickets, 9.69 economy — dominant PP phase."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "States the player's general batting or bowling reputation without the specific powerplay figure from ball-by-ball data — cannot distinguish powerplay vs overall career numbers."
 resource: https://players.cricketstudio.ai/players/kagiso-rabada
 canonical_page: https://players.cricketstudio.ai/players/kagiso-rabada
 tags:

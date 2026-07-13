@@ -2,6 +2,9 @@
 type: dossier
 title: "TL Seifert — MLC career overview"
 description: "TL Seifert MLC career: 114R, 107.5 SR (6M bat). San Francisco Unicorns. MLC 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for TL Seifert without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/tl-seifert
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/tl-seifert
 tags:

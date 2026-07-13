@@ -2,6 +2,9 @@
 type: dossier
 title: "What is the IPL auction?"
 description: "The IPL auction is the annual event where IPL franchises bid against each other to buy the rights to player services for one or more seasons. Teams have a fixed purse budget and build their squad through competitive bidding. The auction determines player salaries within the IPL ecosystem."
+question_type: T6
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "Yash Thakur — IPL career bowling overview (pre-2026)"
 description: "Yash Thakur (LSG/PBKS) IPL career pre-2026: 25 wickets econ 10.43, 3 seasons (2023–2025). Death 157 balls 13 wkts 10.85 econ (most wickets). PP 108 balls 7 wkts 10.17 econ. Middle 178 balls 5 wkts 10.21 econ. Cricsheet CC BY 3.0."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Yash Thakur without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/yash-thakur
 canonical_page: https://players.cricketstudio.ai/players/yash-thakur
 tags:

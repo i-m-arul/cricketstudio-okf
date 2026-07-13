@@ -2,6 +2,9 @@
 type: dossier
 title: "What is batting strike rate in cricket?"
 description: "Batting strike rate = (runs scored / balls faced) × 100. Key T20 batting metric showing how quickly a batter scores. In IPL 2026, a SR of 130+ is average, 150+ is good, 180+ is exceptional. CricketStudio methodology."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

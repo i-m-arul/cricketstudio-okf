@@ -2,6 +2,9 @@
 type: dossier
 title: "JN Hamilton — MLC career overview"
 description: "JN Hamilton MLC career: 37R, 123.3 SR (2M bat). San Francisco Unicorns. MLC 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for JN Hamilton without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/jn-hamilton
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/jn-hamilton
 tags:

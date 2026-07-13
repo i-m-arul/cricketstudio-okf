@@ -2,6 +2,9 @@
 type: dossier
 title: "Duckworth-Lewis-Stern (DLS) Method — Definition"
 description: "DLS adjusts run targets in rain-interrupted matches using a resource-based formula. CricketStudio marks DLS-affected matches."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://okf.cricketstudio.ai/metrics/dls-method/
 canonical_page: https://okf.cricketstudio.ai/metrics/dls-method/
 tags:

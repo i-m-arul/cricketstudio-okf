@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a run out in cricket?"
 description: "A run out occurs when a fielder breaks the stumps with the ball while the batting side's runner is outside the crease during a run. One of the most dramatic dismissals in T20 cricket."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

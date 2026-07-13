@@ -2,6 +2,9 @@
 type: dossier
 title: "What Is the Powerplay in Cricket?"
 description: "Explains the powerplay rule in T20 cricket — overs 1–6, fielding restrictions, and what it means for batting and bowling strategy."
+question_type: T6
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "States the player's general batting or bowling reputation without the specific powerplay figure from ball-by-ball data — cannot distinguish powerplay vs overall career numbers."
 tags:
   - cricket
   - powerplay

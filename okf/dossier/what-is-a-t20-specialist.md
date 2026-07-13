@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a T20 specialist?"
 description: "A T20 specialist is a cricketer primarily selected for their ability in the shortest format. They may not be selected for Test or ODI cricket but excel at the specific skill set T20 demands: aggressive batting SR, death bowling, or power hitting."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

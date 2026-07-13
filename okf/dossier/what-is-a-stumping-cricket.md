@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a stumping in cricket?"
 description: "A stumping occurs when the batter misses the ball and is out of their crease — the wicket-keeper takes the ball and breaks the stumps before the batter can ground their bat behind the crease. Stumpings are most common off spin bowling."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "Bhuvneshwar Kumar — IPL 2026 season overview"
 description: "Bhuvneshwar Kumar (RCB) IPL 2026: 28 wickets, economy 7.95 in 16 matches. PP: 204 balls, 17 wkts, 6.68 econ — #3 PP wicket-taker in IPL 2026. Death: 144 balls, 10 wkts, 8.67 econ (#11 of 66)."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot produce IPL 2026 in-season figures — knowledge cutoff predates the tournament or stats are approximate without ball-by-ball provenance."
 resource: https://players.cricketstudio.ai/players/bhuvneshwar-kumar
 canonical_page: https://players.cricketstudio.ai/players/bhuvneshwar-kumar
 tags:

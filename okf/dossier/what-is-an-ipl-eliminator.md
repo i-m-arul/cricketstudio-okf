@@ -2,6 +2,9 @@
 type: dossier
 title: "What is the IPL Eliminator?"
 description: "The IPL Eliminator is the second playoff match in the IPL, played between the 3rd and 4th-place league-stage finishers. The loser is eliminated; the winner advances to Qualifier 2 for a second chance at the Final."
+question_type: T6
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

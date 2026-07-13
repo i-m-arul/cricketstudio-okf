@@ -2,6 +2,9 @@
 type: dossier
 title: "Yuvraj Singh — IPL death-overs batting (career)"
 description: "Yuvraj Singh IPL career death-overs batting: 332 balls, 181.0 SR. A specialist finisher across his 11 IPL seasons (2007/08–2019). Source: Cricsheet CC BY 3.0."
+question_type: T4
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives the player's overall economy or reputation as a death bowler without the specific death-over (overs 17–20) figure from ball-by-ball data."
 resource: https://players.cricketstudio.ai/players/yuvraj-singh
 canonical_page: https://players.cricketstudio.ai/players/yuvraj-singh
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "What are IPL death overs?"
 description: "IPL death overs refers to the final 4–5 overs of a T20 innings (overs 16–20). The death overs are the highest-scoring phase in T20 cricket — elite batters target 14–20 runs per over, while elite bowlers try to contain to under 10 runs per over."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives the player's overall economy or reputation as a death bowler without the specific death-over (overs 17–20) figure from ball-by-ball data."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "What is bowling average in cricket?"
 description: "Bowling average = runs conceded ÷ wickets taken. Measures how many runs a bowler concedes per wicket. Lower is better. Distinct from economy rate (runs per over)."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

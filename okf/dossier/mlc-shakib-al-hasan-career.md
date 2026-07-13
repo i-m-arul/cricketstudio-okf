@@ -2,6 +2,9 @@
 type: dossier
 title: "Shakib Al Hasan — MLC career overview"
 description: "Shakib Al Hasan MLC career: 60R, 125.0 SR (4M bat). 1 wkts, 11.10 econ (4M bowl). Los Angeles Knight Riders. MLC 2024."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Shakib Al Hasan without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/shakib-al-hasan
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/shakib-al-hasan
 tags:

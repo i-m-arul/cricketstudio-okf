@@ -2,6 +2,9 @@
 type: dossier
 title: "IPL 2026 top run scorers — leaderboard"
 description: "IPL 2026 top run scorers: Suryavanshi 776R (#1), Gill 732R (#2), Kohli 675R (#3). No floor for counting metric."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/season/ipl-2026/most-runs
 canonical_page: https://players.cricketstudio.ai/season/ipl-2026/most-runs
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "DA Warner — MLC batting phase profile"
 description: "David Warner MLC phase breakdown: PP 71b/116.9 SR (primary phase). Middle (19b) and death (0b) below floor. Seattle Orcas, MLC 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/da-warner
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/da-warner
 tags:

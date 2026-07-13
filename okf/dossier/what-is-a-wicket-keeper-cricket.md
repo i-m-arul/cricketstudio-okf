@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a wicket-keeper in cricket?"
 description: "A wicket-keeper is the fielding position behind the batsman's stumps, wearing gloves and pads. In T20/IPL, wicket-keepers are specialist positions — usually also strong batters due to the premium on batting depth."
+question_type: T6
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

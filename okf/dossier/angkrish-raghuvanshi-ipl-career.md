@@ -2,6 +2,9 @@
 type: dossier
 title: "Angkrish Raghuvanshi — IPL career phases (2024–2025)"
 description: "Angkrish Raghuvanshi IPL career (2024–2025): 463 runs, SR 145.1. Phase splits: PP 92 balls 167.4 SR, Middle 192 balls 133.9 SR, Death 35 balls 148.6 SR. KKR opener. Cricsheet CC BY 3.0."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Angkrish Raghuvanshi without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/angkrish-raghuvanshi
 canonical_page: https://players.cricketstudio.ai/players/angkrish-raghuvanshi
 tags:

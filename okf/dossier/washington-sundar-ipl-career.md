@@ -2,6 +2,9 @@
 type: dossier
 title: "Washington Sundar — IPL career all-rounder stats (pre-2026)"
 description: "Washington Sundar (GT/RCB/SRH/RPS) IPL career pre-2026: 511 runs SR 126.5; 39 wickets econ 7.70; 9 seasons (2017–2025). Middle bowling 695 balls 7.13 econ (best phase). Death batting 150 balls 159.3 SR. Cricsheet CC BY 3.0."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Washington Sundar without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/washington-sundar
 canonical_page: https://players.cricketstudio.ai/players/washington-sundar
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "Rohit Sharma — IPL 2026 middle overs batting"
 description: "Rohit Sharma IPL 2026 middle overs (7–15): 61 balls, 103 runs, SR 168.8."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "States overall career stats without the middle-overs (7–16) phase-split figure — cannot distinguish performance by phase."
 resource: https://players.cricketstudio.ai/players/rohit-sharma
 canonical_page: https://players.cricketstudio.ai/players/rohit-sharma
 tags:

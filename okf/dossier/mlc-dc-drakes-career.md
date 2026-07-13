@@ -2,6 +2,9 @@
 type: dossier
 title: "DC Drakes — MLC career overview"
 description: "DC Drakes MLC career: 1 wkts, 10.75 econ (1M bowl). Los Angeles Knight Riders. MLC 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for DC Drakes without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/dc-drakes
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/dc-drakes
 tags:

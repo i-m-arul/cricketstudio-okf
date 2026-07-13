@@ -2,6 +2,9 @@
 type: dossier
 title: "GJ Maxwell — MLC career all-rounder overview"
 description: "Glenn Maxwell MLC career: 15M, 405R at 173.8 SR (1 hundred), 20 wickets at 7.45 economy. Washington Freedom, 2024–2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for GJ Maxwell without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/gj-maxwell
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/gj-maxwell
 tags:

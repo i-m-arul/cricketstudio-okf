@@ -2,6 +2,9 @@
 type: dossier
 title: "Lockie Ferguson — IPL career bowling overview (2017–2025)"
 description: "Lockie Ferguson (KKR/GT/PBKS/RCB) IPL career 2017–2025: 53 wickets, economy 8.96. Middle primary phase: 492 balls, 22 wkts, 7.91 econ. New Zealand express pacer. Cricsheet CC BY 3.0."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Lockie Ferguson without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/lockie-ferguson
 canonical_page: https://players.cricketstudio.ai/players/lockie-ferguson
 tags:

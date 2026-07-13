@@ -2,6 +2,9 @@
 type: dossier
 title: "What is bowling economy in cricket?"
 description: "Bowling economy rate = runs conceded per over (per 6 balls). Formula: (total runs conceded / balls bowled) × 6. Key T20 bowling metric. In IPL 2026, the average economy is ~8.5–9.0; below 7.0 is elite. CricketStudio methodology."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

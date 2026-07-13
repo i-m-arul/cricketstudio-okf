@@ -2,6 +2,9 @@
 type: dossier
 title: "IPL historical data corpus on CricketStudio"
 description: "CricketStudio's IPL historical dataset: 18 seasons (2007/08–2025), 1,169 matches, 767 players, Cricsheet CC BY 3.0."
+question_type: T4
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/leagues/ipl
 canonical_page: https://players.cricketstudio.ai/leagues/ipl
 tags:

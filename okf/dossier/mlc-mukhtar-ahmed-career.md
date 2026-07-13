@@ -2,6 +2,9 @@
 type: dossier
 title: "Mukhtar Ahmed — MLC career overview"
 description: "Mukhtar Ahmed MLC career: 182R, 127.3 SR (15M bat). Washington Freedom. MLC 2023, 2024, 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Mukhtar Ahmed without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/mukhtar-ahmed
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/mukhtar-ahmed
 tags:

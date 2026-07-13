@@ -2,6 +2,9 @@
 type: dossier
 title: "Vaibhav Suryavanshi — IPL 2026 full season overview"
 description: "Suryavanshi IPL 2026: 776 runs, 237.31 SR, 72 sixes in 16 matches. Orange Cap winner. Fastest IPL century (36 balls). Powerplay leader #1 of 45."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot produce IPL 2026 in-season figures — knowledge cutoff predates the tournament or stats are approximate without ball-by-ball provenance."
 resource: https://players.cricketstudio.ai/players/vaibhav-suryavanshi
 canonical_page: https://players.cricketstudio.ai/players/vaibhav-suryavanshi
 tags:

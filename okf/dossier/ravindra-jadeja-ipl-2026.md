@@ -2,6 +2,9 @@
 type: dossier
 title: "Ravindra Jadeja — IPL 2026 season"
 description: "Ravindra Jadeja IPL 2026: 266 runs (avg 38.0, SR 163.2), 10 wickets (economy 8.39). CSK all-rounder — qualified both bat and bowl floors. CricketStudio derived claims."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot produce IPL 2026 in-season figures — knowledge cutoff predates the tournament or stats are approximate without ball-by-ball provenance."
 resource: https://players.cricketstudio.ai/players/ravindra-jadeja
 canonical_page: https://players.cricketstudio.ai/players/ravindra-jadeja
 tags:

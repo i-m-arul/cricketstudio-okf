@@ -2,6 +2,9 @@
 type: dossier
 title: "MR Adair — MLC career overview"
 description: "MR Adair MLC career: 1R, 16.7 SR (1M bat). 1 wkts, 10.14 econ (3M bowl). Washington Freedom. MLC 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for MR Adair without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/mr-adair
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/mr-adair
 tags:

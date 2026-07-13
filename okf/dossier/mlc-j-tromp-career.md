@@ -2,6 +2,9 @@
 type: dossier
 title: "J Tromp — MLC career overview"
 description: "J Tromp MLC career: 94R, 119.0 SR (6M bat). Texas Super Kings. MLC 2024."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for J Tromp without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/j-tromp
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/j-tromp
 tags:

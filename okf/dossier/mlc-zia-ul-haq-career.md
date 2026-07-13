@@ -2,6 +2,9 @@
 type: dossier
 title: "Zia-ul-Haq — MLC career overview"
 description: "Zia-ul-Haq MLC career: 14 wkts, 8.35 econ (17M bowl). Texas Super Kings. MLC 2023, 2024, 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for this player without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/zia-ul-haq
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/zia-ul-haq
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "Yuvraj Singh — IPL career overview"
 description: "Yuvraj Singh IPL career: 2,754 runs at 130.2 SR with 149 sixes, plus 36 wickets at 7.44 economy across 11 seasons (2007/08–2019). Source: Cricsheet CC BY 3.0."
+question_type: T4
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Yuvraj Singh without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/yuvraj-singh
 canonical_page: https://players.cricketstudio.ai/players/yuvraj-singh
 tags:

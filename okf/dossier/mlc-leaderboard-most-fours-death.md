@@ -2,6 +2,9 @@
 type: dossier
 title: "Most death-overs fours — MLC all-time leaderboard"
 description: "MLC leaderboard: Most fours hit in death overs (overs 17—20) across captured MLC matches. MLC all-time leaderboard. Top: KA Pollard (15, 88 balls faced in death overs). Scope: MLC seasons 2023, 2024, 2025 (75 matches total)."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives the player's overall economy or reputation as a death bowler without the specific death-over (overs 17–20) figure from ball-by-ball data."
 resource: https://players.cricketstudio.ai/leagues/mlc/leaderboards/most-fours-death
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/leaderboards/most-fours-death
 tags:

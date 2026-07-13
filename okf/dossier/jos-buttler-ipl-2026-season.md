@@ -2,6 +2,9 @@
 type: dossier
 title: "Jos Buttler — IPL 2026 season"
 description: "Jos Buttler (GT) IPL 2026: 17 matches, 526 runs, avg 37.57, SR 152.5. PP 103 balls 162.1 SR (#19/45). Middle 198 balls 143.4 SR. Death 44 balls 170.4 SR. 26 catches (keeper). CricketStudio derived claims."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot produce IPL 2026 in-season figures — knowledge cutoff predates the tournament or stats are approximate without ball-by-ball provenance."
 resource: https://players.cricketstudio.ai/players/jos-buttler
 canonical_page: https://players.cricketstudio.ai/players/jos-buttler
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "Virat Kohli vs Kagiso Rabada — IPL 2026 head-to-head"
 description: "Virat Kohli vs Kagiso Rabada in IPL 2026: Kohli scored 88 runs from 37 balls (SR 237.8) — 14 fours, 4 sixes, 0 dismissals. Dominant batter performance against the IPL 2026 Purple Cap winner. CricketStudio H2H dataset."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives a general reputation summary of Virat Kohli and Kagiso Rabada without the actual career delivery count, SR, dot-ball %, and dismissal record between this specific pair."
 resource: https://players.cricketstudio.ai/h2h/virat-kohli-vs-kagiso-rabada
 canonical_page: https://players.cricketstudio.ai/h2h/virat-kohli-vs-kagiso-rabada
 tags:

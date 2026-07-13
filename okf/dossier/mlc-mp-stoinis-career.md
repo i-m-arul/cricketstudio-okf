@@ -2,6 +2,9 @@
 type: dossier
 title: "MP Stoinis — MLC career all-rounder overview"
 description: "Marcus Stoinis MLC career: 20M batting (266R, 115.7 SR), 19M bowling (19 wkts, 9.45 econ, death specialist 9 wkts). SFU + TSK, 2023–2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for MP Stoinis without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/mp-stoinis
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/mp-stoinis
 tags:

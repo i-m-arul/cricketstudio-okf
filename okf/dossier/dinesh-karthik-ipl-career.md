@@ -2,6 +2,9 @@
 type: dossier
 title: "Dinesh Karthik — IPL career overview"
 description: "Dinesh Karthik IPL career: 4,843 runs at 135.7 SR across IPL 2007/08–2025. One of the leading wicket-keepers in IPL history. Source: Cricsheet CC BY 3.0."
+question_type: T4
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Dinesh Karthik without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/dinesh-karthik
 canonical_page: https://players.cricketstudio.ai/players/dinesh-karthik
 tags:

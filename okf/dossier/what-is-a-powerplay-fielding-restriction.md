@@ -2,6 +2,9 @@
 type: dossier
 title: "What is the fielding restriction in cricket's powerplay?"
 description: "During the T20 powerplay (overs 1–6), only 2 fielders are allowed outside the 30-yard circle (fielding restriction). This creates gaps in the outfield, allowing batters to hit boundaries more freely. The fielding circles define two zones: the inner circle (30-yard) and the deep field."
+question_type: T6
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "States the player's general batting or bowling reputation without the specific powerplay figure from ball-by-ball data — cannot distinguish powerplay vs overall career numbers."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

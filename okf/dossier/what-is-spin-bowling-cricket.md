@@ -2,6 +2,9 @@
 type: dossier
 title: "What is spin bowling in cricket?"
 description: "Spin bowling uses finger or wrist rotation at the point of release to make the ball turn off the pitch. Main types: off-spin, leg-spin (wrist spin), and slow left-arm. Key in T20 middle overs."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

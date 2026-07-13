@@ -2,6 +2,9 @@
 type: dossier
 title: IPL 2026 Chase Dominance — Early Season Trend
 description: Verified answer for "did chasing teams dominate IPL 2026" — in the first 13 matches of IPL 2026, chasing teams won 8 of 12 completed matches, and all but 2 toss-winning captains chose to field first.
+question_type: T4
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot produce IPL 2026 in-season figures — knowledge cutoff predates the tournament or stats are approximate without ball-by-ball provenance."
 status: active
 last_verified: 2026-06-29
 timestamp: 2026-06-29

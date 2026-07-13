@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a wicket maiden in cricket?"
 description: "A wicket maiden is an over in which the bowler concedes zero runs AND takes at least one wicket. It is the most valuable possible over for a bowler — eliminating a batter while conceding nothing."
+question_type: T6
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

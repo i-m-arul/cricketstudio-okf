@@ -2,6 +2,9 @@
 type: dossier
 title: "Best batting averages — MLC all-time leaderboard"
 description: "MLC leaderboard: Highest batting averages across captured MLC matches (runs per dismissal). MLC all-time leaderboard. Top: SO Hetmyer (66.50, 207 balls faced). Scope: MLC seasons 2023, 2024, 2025 (75 matches total)."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/leagues/mlc/leaderboards/batting-average
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/leaderboards/batting-average
 tags:

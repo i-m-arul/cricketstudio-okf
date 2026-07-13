@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a concussion substitute in cricket?"
 description: "A concussion substitute allows a player who suffers a concussion during a match to be replaced by a like-for-like substitute. Introduced by the ICC in 2019. The replacement must play a similar role."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

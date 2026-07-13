@@ -2,6 +2,9 @@
 type: dossier
 title: "Eden Gardens (Kolkata) — IPL 2026 venue profile"
 description: "Eden Gardens IPL 2026: 6 fixtures, avg 1st-innings 190, chase win rate 33%, bat-first dominant, bowl-first toss 83%."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/venues/eden-gardens
 canonical_page: https://players.cricketstudio.ai/venues/eden-gardens
 tags:

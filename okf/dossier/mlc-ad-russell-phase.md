@@ -2,6 +2,9 @@
 type: dossier
 title: "AD Russell — MLC phase profile (batting + bowling)"
 description: "Andre Russell MLC phases: Batting middle 173b/126 SR + death 98b/199 SR; Bowling PP 10.50 econ, middle 9.40 econ, death 10.47 econ (all expensive). LAKR, 2023–2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/ad-russell
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/ad-russell
 tags:

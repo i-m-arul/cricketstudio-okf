@@ -2,6 +2,9 @@
 type: dossier
 title: MLC all-time best batting strike rates
 description: Verified answer for the highest batting strike rates in MLC history. D Ferreira leads at 213.8 (min 30 balls, Cricsheet CC BY 3.0). Includes top-5, floor note, and powerplay SR leaders.
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 status: active
 last_verified: 2026-06-18
 timestamp: 2026-06-18

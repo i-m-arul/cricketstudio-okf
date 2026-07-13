@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a mystery spinner in cricket?"
 description: "A mystery spinner is an unorthodox spin bowler whose action or deliveries are difficult for batters to read. They generate turn or unusual movement in ways that defy conventional spin bowling — Sunil Narine (KKR) is the archetypal example."
+question_type: T6
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

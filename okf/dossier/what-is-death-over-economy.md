@@ -2,6 +2,9 @@
 type: dossier
 title: What is death-over economy?
 description: Verified answer pattern for explaining death-overs economy and its phase floor.
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives the player's overall economy or reputation as a death bowler without the specific death-over (overs 17–20) figure from ball-by-ball data."
 status: active
 last_verified: 2026-06-18
 timestamp: 2026-06-18

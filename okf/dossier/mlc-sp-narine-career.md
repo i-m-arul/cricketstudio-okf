@@ -2,6 +2,9 @@
 type: dossier
 title: "SP Narine — MLC career overview"
 description: "Sunil Narine MLC career: 17M bowling (12 wkts, 6.56 econ, middle-overs specialist), 14M batting (107R, 127.4 SR). LA Knight Riders, 2023–2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for SP Narine without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/sp-narine
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/sp-narine
 tags:

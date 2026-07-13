@@ -2,6 +2,9 @@
 type: dossier
 title: "M Jansen — MLC career overview"
 description: "M Jansen MLC career: 67R, 148.9 SR (5M bat). 18 wkts, 8.07 econ (14M bowl). Washington Freedom. MLC 2023, 2024."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for M Jansen without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/m-jansen
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/m-jansen
 tags:

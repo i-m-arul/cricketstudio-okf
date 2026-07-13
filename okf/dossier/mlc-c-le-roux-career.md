@@ -2,6 +2,9 @@
 type: dossier
 title: "C le Roux — MLC career overview"
 description: "C le Roux MLC career: 21R, 91.3 SR (4M bat). 10 wkts, 8.80 econ (14M bowl). San Francisco Unicorns. MLC 2023, 2024, 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for C le Roux without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/c-le-roux
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/c-le-roux
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "MA Aponso — MLC career overview"
 description: "MA Aponso MLC career: 1 wkts, 9.00 econ (2M bowl). Washington Freedom. MLC 2024, 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for MA Aponso without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/ma-aponso
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/ma-aponso
 tags:

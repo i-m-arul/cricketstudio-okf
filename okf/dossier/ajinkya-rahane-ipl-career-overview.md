@@ -2,6 +2,9 @@
 type: dossier
 title: "Ajinkya Rahane — IPL pre-2026 career overview"
 description: "Ajinkya Rahane IPL pre-2026 career: 5,032 runs in 183 matches, avg 30.50, SR 125.1, 33 fifties, 2 hundreds. One of the most experienced IPL batters. Source: Cricsheet CC BY 3.0."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Ajinkya Rahane without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/ajinkya-rahane
 canonical_page: https://players.cricketstudio.ai/players/ajinkya-rahane
 tags:

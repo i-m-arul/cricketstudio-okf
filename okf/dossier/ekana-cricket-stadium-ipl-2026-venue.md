@@ -2,6 +2,9 @@
 type: dossier
 title: "Ekana Cricket Stadium — IPL 2026 Venue Overview"
 description: "Dossier for Ekana Cricket Stadium in IPL 2026 (7 fixtures). Innings-profile stats not available in OKF snapshot — defer to canonical page."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/venues/ekana-cricket-stadium
 canonical_page: https://players.cricketstudio.ai/venues/ekana-cricket-stadium
 tags:

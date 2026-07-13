@@ -2,6 +2,9 @@
 type: dossier
 title: "IPL 2026 toss effect — season-level analysis"
 description: "Season-level toss analysis for IPL 2026: majority of captains chose to bowl first; results varied by venue."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot produce IPL 2026 in-season figures — knowledge cutoff predates the tournament or stats are approximate without ball-by-ball provenance."
 resource: https://players.cricketstudio.ai/trends/toss-ipl-2026
 canonical_page: https://players.cricketstudio.ai/trends/toss-ipl-2026
 tags:

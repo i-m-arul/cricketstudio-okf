@@ -2,6 +2,9 @@
 type: dossier
 title: "What Are Cricket Phases in T20?"
 description: "Explains the three phases of a T20 innings — powerplay (1–6), middle overs (7–15), and death overs (16–20) — and what each means for strategy and statistics."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 tags:
   - cricket
   - T20

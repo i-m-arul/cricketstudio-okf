@@ -2,6 +2,9 @@
 type: dossier
 title: "Sandeep Sharma — IPL career bowling overview (pre-2026)"
 description: "Sandeep Sharma IPL career pre-2026: 146 wickets, economy 8.05, avg 27.97, 136 matches, 13 seasons (2013–2025). One of the better sustained career economies for a pace bowler in the IPL corpus. Best economy: 2015 PBKS 7.00 (13 wkts). Teams: PBKS, SRH, RR. Cricsheet CC BY 3.0."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Sandeep Sharma without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/sandeep-sharma
 canonical_page: https://players.cricketstudio.ai/players/sandeep-sharma
 tags:

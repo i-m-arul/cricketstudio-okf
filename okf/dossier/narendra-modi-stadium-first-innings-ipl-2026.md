@@ -2,6 +2,9 @@
 type: dossier
 title: "Narendra Modi Stadium — first-innings scoring in IPL 2026"
 description: "Narendra Modi Stadium (Ahmedabad): average first-innings score 160 across 9 IPL 2026 fixtures (range 86–204). Chase win rate: 78% (7/9). CricketStudio derived claims."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/venues/narendra-modi-stadium
 canonical_page: https://players.cricketstudio.ai/venues/narendra-modi-stadium
 tags:

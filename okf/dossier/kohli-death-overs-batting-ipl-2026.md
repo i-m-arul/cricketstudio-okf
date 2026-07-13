@@ -2,6 +2,9 @@
 type: dossier
 title: "Kohli Death Overs Batting Stats IPL 2026"
 description: "Verified answer: Kohli faced 27 balls in IPL 2026 death overs at 244.4 SR — below the 30-ball sample floor."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives the player's overall economy or reputation as a death bowler without the specific death-over (overs 17–20) figure from ball-by-ball data."
 resource: https://players.cricketstudio.ai/players/virat-kohli
 canonical_page: https://players.cricketstudio.ai/players/virat-kohli
 tags:

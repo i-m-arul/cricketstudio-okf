@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a yorker in cricket?"
 description: "A yorker is a full-length delivery bowled at the base of the stumps or the batter's feet — the hardest delivery to execute under pressure. Used heavily in T20 death overs."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "Kohli Powerplay Batting Stats IPL 2026"
 description: "Verified answer: Kohli scored at 174.8 SR in the IPL 2026 powerplay from 206 balls, ranking #13 of 45."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "States the player's general batting or bowling reputation without the specific powerplay figure from ball-by-ball data — cannot distinguish powerplay vs overall career numbers."
 resource: https://players.cricketstudio.ai/players/virat-kohli
 canonical_page: https://players.cricketstudio.ai/players/virat-kohli
 tags:

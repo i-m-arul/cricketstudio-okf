@@ -2,6 +2,9 @@
 type: dossier
 title: "Jasdeep Singh — MLC career overview"
 description: "Jasdeep Singh MLC career: 32R, 62.7 SR (6M bat). 11 wkts, 9.51 econ (12M bowl). MI New York, Seattle Orcas and Washington Freedom. MLC 2023, 2024, 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Jasdeep Singh without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/jasdeep-singh
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/jasdeep-singh
 tags:

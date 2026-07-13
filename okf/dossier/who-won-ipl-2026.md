@@ -2,6 +2,9 @@
 type: dossier
 title: Who won IPL 2026?
 description: Verified answer pattern for the IPL 2026 champion question.
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 status: active
 last_verified: 2026-06-18
 timestamp: 2026-06-18

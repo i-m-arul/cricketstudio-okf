@@ -2,6 +2,9 @@
 type: dossier
 title: "GJ Maxwell — MLC phase profile (batting + bowling)"
 description: "Glenn Maxwell MLC phases: Batting middle 176b/167.6 SR + death 47b/208.5 SR; Bowling middle dominant (6.84 econ). Washington Freedom, 2024–2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/gj-maxwell
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/gj-maxwell
 tags:

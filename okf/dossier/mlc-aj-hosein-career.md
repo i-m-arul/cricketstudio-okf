@@ -2,6 +2,9 @@
 type: dossier
 title: "AJ Hosein — MLC career overview"
 description: "AJ Hosein MLC career: 119R, 146.9 SR (6M bat). 19 wkts, 6.93 econ (15M bowl). Texas Super Kings and Washington Freedom. MLC 2023, 2024, 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for AJ Hosein without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/aj-hosein
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/aj-hosein
 tags:

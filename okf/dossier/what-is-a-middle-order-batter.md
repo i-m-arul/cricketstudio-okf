@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a middle-order batter in cricket?"
 description: "Middle-order batters bat at positions 4–7 in the batting lineup. In T20 they typically face the middle overs (7–15) and sometimes the death, bridging the top order and the finishers."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "States overall career stats without the middle-overs (7–16) phase-split figure — cannot distinguish performance by phase."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "IPL 2026 key records summary"
 description: "IPL 2026 season records: Orange Cap Suryavanshi 776R, Purple Cap Rabada 29 wkts, fastest century 36 balls, fastest fifty 13 balls, highest team score 249/4."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/season/ipl-2026
 canonical_page: https://players.cricketstudio.ai/season/ipl-2026
 tags:

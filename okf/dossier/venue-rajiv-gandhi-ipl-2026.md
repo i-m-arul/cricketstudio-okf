@@ -2,6 +2,9 @@
 type: dossier
 title: "Rajiv Gandhi International Stadium (Hyderabad) — IPL 2026 venue profile"
 description: "Rajiv Gandhi Stadium IPL 2026: 7 fixtures, avg 1st-innings 189, chase win rate 71%, bowl-first 71%."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/venues/rajiv-gandhi-international-stadium
 canonical_page: https://players.cricketstudio.ai/venues/rajiv-gandhi-international-stadium
 tags:

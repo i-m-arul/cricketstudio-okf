@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a caught dismissal in cricket?"
 description: "A caught dismissal (caught out) occurs when a fielder catches the ball in the air after it has been hit by the batter — before it touches the ground. Caught is the most common dismissal type in T20/IPL, accounting for ~55–60% of all wickets."
+question_type: T6
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

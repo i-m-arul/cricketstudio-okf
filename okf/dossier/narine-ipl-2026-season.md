@@ -2,6 +2,9 @@
 type: dossier
 title: "Sunil Narine — IPL 2026 season overview"
 description: "Sunil Narine IPL 2026: 17 wickets, economy 6.60 (13 matches). Death economy 5.44 (ranked #2 of 66). Batting: 40 runs from 4 innings, SR 125.0. KKR's most versatile bowler."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot produce IPL 2026 in-season figures — knowledge cutoff predates the tournament or stats are approximate without ball-by-ball provenance."
 resource: https://players.cricketstudio.ai/players/sunil-narine
 canonical_page: https://players.cricketstudio.ai/players/sunil-narine
 tags:

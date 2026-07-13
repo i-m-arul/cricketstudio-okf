@@ -2,6 +2,9 @@
 type: dossier
 title: "Hardik Pandya — IPL 2026 season overview"
 description: "Hardik Pandya (MI) IPL 2026: batting 206 runs in 10 matches at 138.3 SR; bowling 4 wickets at 11.43 economy — below-par all-round season."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot produce IPL 2026 in-season figures — knowledge cutoff predates the tournament or stats are approximate without ball-by-ball provenance."
 resource: https://players.cricketstudio.ai/players/hardik-pandya
 canonical_page: https://players.cricketstudio.ai/players/hardik-pandya
 tags:

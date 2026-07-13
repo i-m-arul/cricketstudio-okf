@@ -2,6 +2,9 @@
 type: dossier
 title: "IPL 2026 dot ball bowling leaderboard — methodology"
 description: "Dot-ball bowling counts how often a bowler concedes zero runs per delivery. No minimum floor for counting metric. Canonical URL."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/season/ipl-2026/bowling-dot-balls
 canonical_page: https://players.cricketstudio.ai/season/ipl-2026/bowling-dot-balls
 tags:

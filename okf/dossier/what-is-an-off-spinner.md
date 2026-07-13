@@ -2,6 +2,9 @@
 type: dossier
 title: "What is an off spinner in cricket?"
 description: "An off spinner bowls right-arm finger spin, turning the ball from off stump to leg stump for a right-handed batter (into the body). The main variations are the arm ball (no turn, straighter) and the doosra (opposite turn — reserved for experienced spinners)."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

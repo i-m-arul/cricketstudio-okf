@@ -2,6 +2,9 @@
 type: dossier
 title: "SP Narine — MLC bowling phase profile"
 description: "Sunil Narine MLC bowling phases: PP 48b/1 wkt/6.75 econ, Middle 336b/11 wkts/6.30 econ (specialist), Death 24b/0 wkts/9.75 econ (below floor). LA Knight Riders, 2023–2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/sp-narine
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/sp-narine
 tags:

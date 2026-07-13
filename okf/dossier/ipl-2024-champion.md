@@ -2,6 +2,9 @@
 type: dossier
 title: "IPL 2024 Champion — Kolkata Knight Riders"
 description: "Verified answer: Kolkata Knight Riders won IPL 2024 (71 matches). Orange Cap: V Kohli 741R. Purple Cap: HV Patel 24W."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/season/ipl-2024
 canonical_page: https://players.cricketstudio.ai/season/ipl-2024
 tags:

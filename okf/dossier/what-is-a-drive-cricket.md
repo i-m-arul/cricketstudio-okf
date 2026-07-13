@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a drive in cricket?"
 description: "A drive is a batting stroke played to a full-length ball, hitting the ball along the ground with a straight or angled bat. Variants: on-drive (leg side), off-drive (off side), straight drive (back past the bowler), cover drive (through the covers — the 'textbook' T20 boundary)."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

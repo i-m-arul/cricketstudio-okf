@@ -2,6 +2,9 @@
 type: dossier
 title: "Hardik Pandya — IPL 2026 middle overs batting"
 description: "Hardik Pandya IPL 2026 middle overs batting: 81 balls, 112 runs, 138.3 SR. His primary batting phase in IPL 2026."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "States overall career stats without the middle-overs (7–16) phase-split figure — cannot distinguish performance by phase."
 resource: https://players.cricketstudio.ai/players/hardik-pandya
 canonical_page: https://players.cricketstudio.ai/players/hardik-pandya
 tags:

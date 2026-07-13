@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a wrist spinner in cricket?"
 description: "A wrist spinner generates spin by rotating the ball with wrist action at release, rather than finger action. Types: leg-break (main ball), googly (opposite turn), flipper (fast and skiddy), top-spinner. Rashid Khan is the leading T20 wrist spinner."
+question_type: T6
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

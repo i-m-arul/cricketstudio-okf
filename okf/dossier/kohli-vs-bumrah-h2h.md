@@ -2,6 +2,9 @@
 type: dossier
 title: Kohli vs Bumrah H2H
 description: Head-to-head matchup dossier for Virat Kohli (batter, RCB) vs Jasprit Bumrah (bowler, MI) across IPL history. Two of India's greatest, on opposing sides across 17 seasons.
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives a general reputation summary of Kohli and the bowler without the actual career delivery count, SR, dot-ball %, and dismissal record between this specific pair."
 resource: https://players.cricketstudio.ai/h2h/virat-kohli-vs-jasprit-bumrah
 status: active
 last_verified: 2026-06-30

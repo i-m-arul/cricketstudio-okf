@@ -2,6 +2,9 @@
 type: dossier
 title: "MLC bowling leaderboards — overview and methodology"
 description: "CricketStudio MLC bowling leaderboards: economy, wickets, bowling average/SR, death-overs, powerplay bowling — 26 total aspects."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/leagues/mlc/leaderboards
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/leaderboards
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "What is the dew factor in IPL cricket?"
 description: "The dew factor refers to moisture that settles on the outfield and pitch during evening IPL matches. Dew makes the ball slippery and harder for bowlers to grip — reducing swing, seam, and spin. This gives the team batting second an advantage, making the toss decision (elect to bowl first) very common in evening IPL matches."
+question_type: T6
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

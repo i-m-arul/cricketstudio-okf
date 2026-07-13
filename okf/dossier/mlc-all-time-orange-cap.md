@@ -2,6 +2,9 @@
 type: dossier
 title: MLC all-time Orange Cap — who has scored the most runs?
 description: Verified answer for MLC's all-time run-scoring leader. F du Plessis leads with 934 runs across three seasons (Cricsheet CC BY 3.0, 75 matches). Includes top-5, per-season leaders, and sample-size context.
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 status: active
 last_verified: 2026-06-18
 timestamp: 2026-06-18

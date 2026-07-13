@@ -2,6 +2,9 @@
 type: dossier
 title: "Rashid Khan — MLC career overview"
 description: "Rashid Khan MLC career: 13M bowling (18 wkts, 6.48 econ), 9M batting (179R, 167.3 SR). MI New York, 2023–2024."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Rashid Khan without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/rashid-khan
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/rashid-khan
 tags:

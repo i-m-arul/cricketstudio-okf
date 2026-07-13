@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a century in cricket?"
 description: "A century (hundred) in cricket is scoring 100 or more runs in a single batting innings. In T20, a century from 100+ balls is slow; IPL centuries are typically scored at 150–250+ SR."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "DP Conway — MLC batting phase profile"
 description: "Devon Conway MLC phases: PP 233b/131.3 SR, Middle 225b/131.1 SR (rare phase consistency), Death 27b (below floor). Texas Super Kings, 2023–2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/dp-conway
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/dp-conway
 tags:

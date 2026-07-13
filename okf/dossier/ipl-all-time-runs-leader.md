@@ -2,6 +2,9 @@
 type: dossier
 title: "IPL All-Time Run-Scoring Leader"
 description: "Verified answer: Kohli leads IPL career runs with 9,346 through 2026 (8,671 pre-2026 + 675 in 2026)."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/leagues/ipl/leaderboards
 canonical_page: https://players.cricketstudio.ai/leagues/ipl/leaderboards
 tags:

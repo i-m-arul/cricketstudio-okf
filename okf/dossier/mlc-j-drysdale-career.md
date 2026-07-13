@@ -2,6 +2,9 @@
 type: dossier
 title: "J Drysdale — MLC career overview"
 description: "J Drysdale MLC career: 6R, 60.0 SR (2M bat). 3 wkts, 9.96 econ (5M bowl). San Francisco Unicorns. MLC 2024, 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for J Drysdale without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/j-drysdale
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/j-drysdale
 tags:

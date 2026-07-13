@@ -2,6 +2,9 @@
 type: dossier
 title: "Sikandar Raza — MLC career overview"
 description: "Sikandar Raza MLC career: 111R, 115.6 SR (8M bat). 5 wkts, 10.21 econ (7M bowl). Seattle Orcas. MLC 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Sikandar Raza without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/sikandar-raza
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/sikandar-raza
 tags:

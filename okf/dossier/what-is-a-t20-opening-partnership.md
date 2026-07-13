@@ -2,6 +2,9 @@
 type: dossier
 title: "What is an opening partnership in T20 cricket?"
 description: "A T20 opening partnership is the pair of batters who bat together at the start of the innings (first wicket partnership). Strong opening pairs exploit the powerplay fielding restriction (overs 1–6) to score rapidly before fielders are allowed in the outfield. Opening partnership runs are a key IPL team stat."
+question_type: T6
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

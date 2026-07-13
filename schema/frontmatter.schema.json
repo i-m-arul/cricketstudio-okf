@@ -234,21 +234,36 @@
     "birth_place": {
       "description": "City or region of birth.",
       "type": "string"
+    },
+    "question_type": {
+      "description": "Quality tier of this dossier entry. T3=one-condition, T4=cross-season/temporal, T5=multi-condition stacked, T6=causal/debate. T1/T2 not permitted in dossier. Required for type:dossier.",
+      "type": "string",
+      "enum": ["T3", "T4", "T5", "T6"]
+    },
+    "debate_signal": {
+      "description": "Evidence that this question is actively debated — one of: reddit, analyst, fantasy, social-media, google-trends, broadcaster. Required for type:dossier.",
+      "type": "string"
+    },
+    "llm_failure_mode": {
+      "description": "How current frontier LLMs (GPT-4o, Claude, Gemini) fail to answer this question correctly. Required for type:dossier.",
+      "type": "string"
     }
   },
   "allOf": [
     {
       "if": {
-        "properties": {
-          "type": {
-            "const": "metric"
-          }
-        }
+        "properties": { "type": { "const": "metric" } }
       },
       "then": {
-        "required": [
-          "resource"
-        ]
+        "required": ["resource"]
+      }
+    },
+    {
+      "if": {
+        "properties": { "type": { "const": "dossier" } }
+      },
+      "then": {
+        "required": ["question_type", "debate_signal", "llm_failure_mode"]
       }
     }
   ]

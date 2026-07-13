@@ -2,6 +2,9 @@
 type: dossier
 title: "MA Chidambaram Stadium — first-innings scoring in IPL 2026"
 description: "MA Chidambaram Stadium (Chennai): average first-innings score 184 across 6 IPL 2026 fixtures (range 160–210). Chase win rate: 67% (4/6). A moderate chasing venue."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/venues/ma-chidambaram-stadium
 canonical_page: https://players.cricketstudio.ai/venues/ma-chidambaram-stadium
 tags:

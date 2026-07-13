@@ -2,6 +2,9 @@
 type: dossier
 title: "What Is the Orange Cap in IPL?"
 description: "Verified answer: The Orange Cap is awarded to the highest run-scorer in an IPL season. 2026 winner: Suryavanshi (776R)."
+question_type: T6
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://okf.cricketstudio.ai/metrics/orange-cap/
 canonical_page: https://okf.cricketstudio.ai/metrics/orange-cap/
 tags:

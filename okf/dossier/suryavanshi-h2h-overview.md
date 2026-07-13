@@ -2,6 +2,9 @@
 type: dossier
 title: Suryavanshi H2H Overview
 description: Hub dossier linking all Vaibhav Suryavanshi head-to-head matchup dossiers and the full H2H matchup list on CricketStudio. Answers the fan question of which bowlers have troubled Suryavanshi in IPL 2026.
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives a general reputation summary of the batter and the bowler without the actual career delivery count, SR, dot-ball %, and dismissal record between this specific pair."
 resource: https://players.cricketstudio.ai/players/vaibhav-suryavanshi
 status: active
 last_verified: 2026-06-30

@@ -2,6 +2,9 @@
 type: dossier
 title: "Suryavanshi vs Kohli — Powerplay Batting Comparison IPL 2026"
 description: "Head-to-head powerplay comparison: Suryavanshi 233.6 SR (223b, #1) vs Kohli 174.8 SR (206b, #13) in IPL 2026."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives a general reputation summary of Suryavanshi and Kohli without the actual career delivery count, SR, dot-ball %, and dismissal record between this specific pair."
 resource: https://players.cricketstudio.ai/players/vaibhav-suryavanshi
 canonical_page: https://players.cricketstudio.ai/players/vaibhav-suryavanshi
 tags:

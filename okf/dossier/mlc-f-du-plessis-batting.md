@@ -2,6 +2,9 @@
 type: dossier
 title: "F du Plessis — MLC batting phase profile"
 description: "Faf du Plessis MLC phases: PP 348b/165.8 SR (primary), Middle 202b/162.4 SR, Death 21b (below floor). Consistent PP+middle attacker. Texas Super Kings, 2023–2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/f-du-plessis
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/f-du-plessis
 tags:

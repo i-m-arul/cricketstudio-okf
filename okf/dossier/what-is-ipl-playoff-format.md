@@ -2,6 +2,9 @@
 type: dossier
 title: "How does the IPL playoff format work?"
 description: "IPL playoffs: Top 4 teams from league phase. Qualifier 1 (1st vs 2nd), Eliminator (3rd vs 4th), Qualifier 2 (Q1 loser vs Eliminator winner), Final. Two chances for top-2 teams."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "Jasprit Bumrah — IPL 2026 death overs bowling"
 description: "Bumrah IPL 2026 death bowling: 78 balls, 7.69 economy — #6 of 66 qualifying bowlers in IPL 2026 death economy (≥30 death balls)."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives the player's overall economy or reputation as a death bowler without the specific death-over (overs 17–20) figure from ball-by-ball data."
 resource: https://players.cricketstudio.ai/players/jasprit-bumrah
 canonical_page: https://players.cricketstudio.ai/players/jasprit-bumrah
 tags:

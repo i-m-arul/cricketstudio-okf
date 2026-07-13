@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a bouncer in cricket?"
 description: "A bouncer is a short-pitched delivery aimed at the batter's body or head. It is one of the most aggressive deliveries in pace bowling — used to intimidate, force mistakes, or set up other deliveries like the yorker."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "CAH Stevenson — MLC career overview"
 description: "CAH Stevenson MLC career: 17R, 154.5 SR (1M bat). 0 wkts, 14.00 econ (1M bowl). Texas Super Kings. MLC 2024."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for CAH Stevenson without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/cah-stevenson
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/cah-stevenson
 tags:

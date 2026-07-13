@@ -2,6 +2,9 @@
 type: dossier
 title: "Abhishek Sharma — IPL career phases and overview (pre-2026)"
 description: "Abhishek Sharma pre-2026 IPL career: 1,816 runs, SR 163.9. Phase splits: PP 629 balls 161.8 SR, Middle 401 balls 166.1 SR, Death 78 balls 169.2 SR. SRH all-rounder. Cricsheet CC BY 3.0."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Abhishek Sharma without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/abhishek-sharma
 canonical_page: https://players.cricketstudio.ai/players/abhishek-sharma
 tags:

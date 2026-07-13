@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a tail-ender in cricket?"
 description: "A tail-ender is a lower-order batter (typically positions 8–11) who is primarily selected for their bowling or wicket-keeping ability, not batting. In T20, lower-order batters frequently promote aggressive hitting over survival."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

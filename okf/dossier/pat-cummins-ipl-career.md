@@ -2,6 +2,9 @@
 type: dossier
 title: "Pat Cummins — IPL career bowling overview (2014–2025)"
 description: "Pat Cummins (KKR/DC/SRH) IPL career 2014–2025: 79 wickets, economy 8.81, average 30.04. 72 matches across 8 seasons. Cricsheet CC BY 3.0."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Pat Cummins without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/pat-cummins
 canonical_page: https://players.cricketstudio.ai/players/pat-cummins
 tags:

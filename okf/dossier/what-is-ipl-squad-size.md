@@ -2,6 +2,9 @@
 type: dossier
 title: "What is the IPL squad size and playing XI rule?"
 description: "IPL teams have a squad of up to 25 players but field only 11 in each match (the Playing XI). Each team's squad can include up to 8 overseas (non-Indian) players, with a maximum of 4 overseas players in any Playing XI."
+question_type: T6
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a batting collapse in cricket?"
 description: "A batting collapse is the rapid loss of multiple wickets in quick succession, dramatically halting a team's scoring momentum. In T20 this often leads to under-par scores or failed chases."
+question_type: T6
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

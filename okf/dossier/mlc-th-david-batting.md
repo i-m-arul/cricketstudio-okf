@@ -2,6 +2,9 @@
 type: dossier
 title: "TH David — MLC batting phase profile"
 description: "Tim David MLC phases: No PP balls, Middle 117b/112.8 SR, Death 44b/236.4 SR (elite finisher). MI New York, 2023–2024."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/th-david
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/th-david
 tags:

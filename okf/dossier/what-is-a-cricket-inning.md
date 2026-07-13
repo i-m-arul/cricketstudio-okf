@@ -2,6 +2,9 @@
 type: dossier
 title: "What is an inning in cricket?"
 description: "In cricket, an innings is a turn at batting — one team bats while the other fields and bowls. In T20/IPL, each team has exactly ONE innings of 20 overs (120 balls maximum). The word 'innings' is singular in cricket — not 'inning' or 'inningses'."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

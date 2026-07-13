@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a mystery spinner in cricket?"
 description: "A mystery spinner is a spin bowler who can vary their deliveries so deceptively that batters struggle to read them. Rashid Khan (leg-spin/googly) and Sunil Narine (off-spin variations) are the premier IPL mystery spinners."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

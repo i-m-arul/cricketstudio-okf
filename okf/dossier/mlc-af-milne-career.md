@@ -2,6 +2,9 @@
 type: dossier
 title: "AF Milne — MLC career overview"
 description: "AF Milne MLC career: 14 wkts, 7.10 econ (6M bowl). Texas Super Kings. MLC 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for AF Milne without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/af-milne
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/af-milne
 tags:

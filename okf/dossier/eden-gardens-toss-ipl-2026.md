@@ -2,6 +2,9 @@
 type: dossier
 title: "Toss Tendency at Eden Gardens — IPL 2026"
 description: "Verified answer: 83% of toss-winners chose bowl-first at Eden Gardens in IPL 2026 (6 fixtures)."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives general advice or repeats venue narrative without the actual win-rate figures from Cricsheet ball-by-ball data."
 resource: https://players.cricketstudio.ai/venues/eden-gardens
 canonical_page: https://players.cricketstudio.ai/venues/eden-gardens
 tags:

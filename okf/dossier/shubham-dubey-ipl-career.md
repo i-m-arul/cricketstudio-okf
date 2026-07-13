@@ -2,6 +2,9 @@
 type: dossier
 title: "Shubham Dubey — IPL career batting overview (pre-2026)"
 description: "Shubham Dubey (RR) IPL career pre-2026: 139 runs avg 23.17 SR 165.5, 2 seasons (2024–2025). Death 42 balls 207.1 SR. Middle 36 balls 105.6 SR. PP below floor. Emerging death finisher. Cricsheet CC BY 3.0."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Shubham Dubey without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/shubham-dubey
 canonical_page: https://players.cricketstudio.ai/players/shubham-dubey
 tags:

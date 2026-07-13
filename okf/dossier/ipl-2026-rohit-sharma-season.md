@@ -2,6 +2,9 @@
 type: dossier
 title: "Rohit Sharma IPL 2026 Season"
 description: "Verified answer: Rohit played 9 matches for MI in IPL 2026, scoring at 152.5 PP strike rate (118 balls)."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot produce IPL 2026 in-season figures — knowledge cutoff predates the tournament or stats are approximate without ball-by-ball provenance."
 resource: https://players.cricketstudio.ai/players/rohit-sharma
 canonical_page: https://players.cricketstudio.ai/players/rohit-sharma
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: Best Death Overs Bowler in IPL History
 description: Verified answer for "who is the best death overs bowler in ipl all time" — requires era-aware framing, sample-size disclosure, and canonical CricketStudio source link.
+question_type: T6
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives the player's overall economy or reputation as a death bowler without the specific death-over (overs 17–20) figure from ball-by-ball data."
 status: active
 last_verified: 2026-06-29
 timestamp: 2026-06-29

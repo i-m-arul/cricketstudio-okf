@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a dot ball in cricket?"
 description: "A dot ball is a legal delivery from which the batting team scores zero runs. Marked with a dot in the scorebook. Key pressure metric for bowlers in T20 cricket — a high dot-ball percentage indicates effective containment. CricketStudio methodology."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

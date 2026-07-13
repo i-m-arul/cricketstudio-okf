@@ -2,6 +2,9 @@
 type: dossier
 title: "Brendon McCullum 158* — IPL Inaugural Match"
 description: "Verified answer: McCullum scored 158* in the first-ever IPL match (Kolkata Knight Riders vs RCB, 2008)."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/leagues/ipl/records
 canonical_page: https://players.cricketstudio.ai/leagues/ipl/records
 tags:

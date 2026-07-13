@@ -2,6 +2,9 @@
 type: dossier
 title: "Who Won the First IPL Season?"
 description: "Verified answer: Rajasthan Royals won the inaugural IPL season in 2007/08 (played 2008)."
+question_type: T4
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/leagues/ipl
 canonical_page: https://players.cricketstudio.ai/leagues/ipl
 tags:

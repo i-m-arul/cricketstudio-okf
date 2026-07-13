@@ -2,6 +2,9 @@
 type: dossier
 title: "Zaman Khan — MLC career overview"
 description: "Zaman Khan MLC career: 9R, 128.6 SR (2M bat). 4 wkts, 7.23 econ (4M bowl). Seattle Orcas. MLC 2024."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Zaman Khan without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/zaman-khan
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/zaman-khan
 tags:

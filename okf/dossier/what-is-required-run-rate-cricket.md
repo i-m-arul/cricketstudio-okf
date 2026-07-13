@@ -2,6 +2,9 @@
 type: dossier
 title: "What is the required run rate in cricket?"
 description: "The required run rate (RRR) is the runs-per-over the batting team must score to win a T20 chase, calculated from the runs needed divided by overs remaining. It is the real-time tension metric of every T20 chase."
+question_type: T6
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "AA Paradkar — MLC career overview"
 description: "AA Paradkar MLC career: 1 wkts, 10.67 econ (1M bowl). Washington Freedom. MLC 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for AA Paradkar without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/aa-paradkar
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/aa-paradkar
 tags:

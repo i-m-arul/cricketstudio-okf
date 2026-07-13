@@ -2,6 +2,9 @@
 type: dossier
 title: "Most dot balls bowled — MLC all-time leaderboard"
 description: "MLC leaderboard: Most legal deliveries conceding 0 total runs, indicating control and pressure ability. MLC all-time leaderboard. Top: TA Boult (268, 629 legal deliveries). Scope: MLC seasons 2023, 2024, 2025 (75 matches total)."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/leagues/mlc/leaderboards/most-dot-balls
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/leaderboards/most-dot-balls
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "Virat Kohli IPL 2026 Season"
 description: "Verified answer: Kohli scored 675 runs at 56.25 average and 165.8 SR in 16 IPL 2026 matches for RCB."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot produce IPL 2026 in-season figures — knowledge cutoff predates the tournament or stats are approximate without ball-by-ball provenance."
 resource: https://players.cricketstudio.ai/players/virat-kohli
 canonical_page: https://players.cricketstudio.ai/players/virat-kohli
 tags:

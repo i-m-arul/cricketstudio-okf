@@ -2,6 +2,9 @@
 type: dossier
 title: "DA Miller — MLC career batting overview"
 description: "David Miller MLC career: 13M, 224R, 125.1 SR, 18.67 avg. Death-overs finisher (30 balls, 200 SR). LA Knight Riders + Texas Super Kings, 2023–2024."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for DA Miller without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/da-miller
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/da-miller
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "Ajinkya Rahane — IPL 2026 season overview"
 description: "Ajinkya Rahane (KKR) IPL 2026: 327 runs, avg 27.25, SR 135.1 in 13 matches. PP: 150 balls at 129.3 SR (#36 of 45). Middle: 92 balls 144.6 SR. 2 fifties. KKR opener."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot produce IPL 2026 in-season figures — knowledge cutoff predates the tournament or stats are approximate without ball-by-ball provenance."
 resource: https://players.cricketstudio.ai/players/ajinkya-rahane
 canonical_page: https://players.cricketstudio.ai/players/ajinkya-rahane
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "Rashid Khan — IPL 2026 middle overs bowling"
 description: "Rashid Khan IPL 2026 middle overs: 275 balls, 19 wickets, 8.42 economy. His dominant phase — 90% of his wickets came in overs 7–15."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "States overall career stats without the middle-overs (7–16) phase-split figure — cannot distinguish performance by phase."
 resource: https://players.cricketstudio.ai/players/rashid-khan
 canonical_page: https://players.cricketstudio.ai/players/rashid-khan
 tags:

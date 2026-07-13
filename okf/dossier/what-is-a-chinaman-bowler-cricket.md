@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a chinaman bowler in cricket?"
 description: "A chinaman bowler is a left-arm wrist-spin bowler. Like a leg-spinner (right-arm wrist-spin), the chinaman turns the ball from the off side to the leg side for a right-handed batter, but from the left-arm wrist action. The term is also used interchangeably with 'left-arm unorthodox spin'."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

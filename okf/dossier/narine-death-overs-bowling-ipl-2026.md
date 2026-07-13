@@ -2,6 +2,9 @@
 type: dossier
 title: "Sunil Narine — death-overs bowling IPL 2026"
 description: "Sunil Narine death-overs bowling IPL 2026: 9 wickets, economy 5.44 from 54 balls (overs 16–20). Ranked #2 of 66 qualifying bowlers. Most economical death bowler with ≥15 balls after Bumrah."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives the player's overall economy or reputation as a death bowler without the specific death-over (overs 17–20) figure from ball-by-ball data."
 resource: https://players.cricketstudio.ai/players/sunil-narine
 canonical_page: https://players.cricketstudio.ai/players/sunil-narine
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "Shubman Gill — IPL 2026 powerplay batting"
 description: "Shubman Gill IPL 2026 powerplay: 209 balls, 330 runs, 157.9 SR — ranked #22 of 45 qualifying batters in powerplay strike rate."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "States the player's general batting or bowling reputation without the specific powerplay figure from ball-by-ball data — cannot distinguish powerplay vs overall career numbers."
 resource: https://players.cricketstudio.ai/players/shubman-gill
 canonical_page: https://players.cricketstudio.ai/players/shubman-gill
 tags:

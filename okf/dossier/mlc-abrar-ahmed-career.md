@@ -2,6 +2,9 @@
 type: dossier
 title: "Abrar Ahmed — MLC career overview"
 description: "Abrar Ahmed MLC career: 6R, 85.7 SR (1M bat). 1 wkts, 8.43 econ (2M bowl). San Francisco Unicorns. MLC 2024."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Abrar Ahmed without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/abrar-ahmed
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/abrar-ahmed
 tags:

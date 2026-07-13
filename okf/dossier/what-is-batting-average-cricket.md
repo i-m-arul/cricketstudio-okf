@@ -2,6 +2,9 @@
 type: dossier
 title: "What is batting average in cricket?"
 description: "Batting average = total runs scored divided by number of dismissals (not innings played). Not-out innings count toward the runs total but not toward dismissals. Higher average = better batter over a career. CricketStudio methodology."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

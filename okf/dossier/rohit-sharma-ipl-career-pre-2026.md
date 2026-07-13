@@ -2,6 +2,9 @@
 type: dossier
 title: "Rohit Sharma IPL Career Stats Pre-2026"
 description: "Verified answer: Pre-2026 Rohit stats from Cricsheet — 266 matches, 7,048 runs, 29.74 average, 132.6 SR, 303 sixes."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for this player without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/rohit-sharma
 canonical_page: https://players.cricketstudio.ai/players/rohit-sharma
 tags:

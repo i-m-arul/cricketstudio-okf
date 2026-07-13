@@ -2,6 +2,9 @@
 type: dossier
 title: "GSNFG Jayasuriya — MLC career overview"
 description: "GSNFG Jayasuriya MLC career: 257R, 107.5 SR (10M bat). 0 wkts, 10.00 econ (3M bowl). Seattle Orcas. MLC 2023, 2024."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for GSNFG Jayasuriya without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/gsnfg-jayasuriya
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/gsnfg-jayasuriya
 tags:

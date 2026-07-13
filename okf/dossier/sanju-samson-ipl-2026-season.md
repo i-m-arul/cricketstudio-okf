@@ -2,6 +2,9 @@
 type: dossier
 title: "Sanju Samson — IPL 2026 season batting stats"
 description: "Sanju Samson (CSK) IPL 2026: 477 runs, avg 43.36, SR 165.6, 14 matches, 2 hundreds, 1 fifty. PP 154 balls 152.6 SR (#24/45). Middle 96 balls 172.9 SR. Death 35 balls 205.7 SR. 6 catches. CricketStudio derived claims."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot produce IPL 2026 in-season figures — knowledge cutoff predates the tournament or stats are approximate without ball-by-ball provenance."
 resource: https://players.cricketstudio.ai/players/sanju-samson
 canonical_page: https://players.cricketstudio.ai/players/sanju-samson
 tags:

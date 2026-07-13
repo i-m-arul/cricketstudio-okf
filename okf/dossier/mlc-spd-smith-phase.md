@@ -2,6 +2,9 @@
 type: dossier
 title: "SPD Smith — MLC phase analysis"
 description: "SPD Smith MLC phase breakdown (MLC 2024). Washington Freedom. Data-derived phase rates where above sample-size floor."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/spd-smith
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/spd-smith
 tags:

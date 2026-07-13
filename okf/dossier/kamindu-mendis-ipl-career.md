@@ -2,6 +2,9 @@
 type: dossier
 title: "Kamindu Mendis — IPL career batting overview (2025)"
 description: "Kamindu Mendis (LSG) IPL career 2025 only: 92 runs. Middle: 45 balls, 162.2 SR — only rankable phase (≥30 balls). Very limited IPL sample; 1 season. Cricsheet CC BY 3.0."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Kamindu Mendis without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/kamindu-mendis
 canonical_page: https://players.cricketstudio.ai/players/kamindu-mendis
 tags:

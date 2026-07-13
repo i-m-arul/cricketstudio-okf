@@ -2,6 +2,9 @@
 type: dossier
 title: Impact Player Rule Controversy — IPL 2026
 description: Verified answer for "was the Impact Player Rule controversial in IPL 2026" — Axar Patel publicly opposed the rule; post-2023 run chases have reached unprecedented heights; BCCI declined a mid-season change.
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 status: active
 last_verified: 2026-06-29
 timestamp: 2026-06-29

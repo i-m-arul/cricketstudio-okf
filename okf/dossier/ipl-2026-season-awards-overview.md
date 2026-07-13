@@ -2,6 +2,9 @@
 type: dossier
 title: "IPL 2026 season awards overview"
 description: "All IPL 2026 individual awards: Orange Cap (Suryavanshi 776R), Purple Cap (Rabada 29 wkts), Final POTM (Kohli 75*). Champion: RCB."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot produce IPL 2026 in-season figures — knowledge cutoff predates the tournament or stats are approximate without ball-by-ball provenance."
 resource: https://players.cricketstudio.ai/season/ipl-2026
 canonical_page: https://players.cricketstudio.ai/season/ipl-2026
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "Yuzvendra Chahal — 200 IPL Wickets"
 description: "Verified answer: Chahal became the first bowler to take 200 IPL wickets on 22 April 2024 (match 153)."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/players/yuzvendra-chahal
 canonical_page: https://players.cricketstudio.ai/players/yuzvendra-chahal
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "SN Netravalkar — MLC career overview"
 description: "SN Netravalkar MLC career: 10R, 125.0 SR (2M bat). 34 wkts, 8.03 econ (24M bowl). Washington Freedom. MLC 2023, 2024, 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for SN Netravalkar without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/sn-netravalkar
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/sn-netravalkar
 tags:

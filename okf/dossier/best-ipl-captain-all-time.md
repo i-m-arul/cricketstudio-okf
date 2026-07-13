@@ -2,6 +2,9 @@
 type: dossier
 title: Best IPL Captain All-Time
 description: Who is the best IPL captain? Dhoni and Rohit tied at 5 titles each — how to frame the comparison with correct scope and citations.
+question_type: T6
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 status: active
 last_verified: 2026-06-24
 timestamp: 2026-06-24

@@ -2,6 +2,9 @@
 type: dossier
 title: "DJ Mitchell — MLC career overview"
 description: "DJ Mitchell MLC career: 85R, 107.6 SR (5M bat). 2 wkts, 11.21 econ (4M bowl). Texas Super Kings. MLC 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for DJ Mitchell without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/dj-mitchell
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/dj-mitchell
 tags:

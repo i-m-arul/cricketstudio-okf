@@ -2,6 +2,9 @@
 type: dossier
 title: "Q de Kock — MLC career batting overview"
 description: "Quinton de Kock MLC career: 26M, 807R, 141.8 SR, 33.63 avg, 9 fifties. MI New York + Seattle Orcas, 2023–2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Q de Kock without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/q-de-kock
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/q-de-kock
 tags:

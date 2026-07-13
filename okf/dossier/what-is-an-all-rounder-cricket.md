@@ -2,6 +2,9 @@
 type: dossier
 title: "What is an all-rounder in cricket?"
 description: "An all-rounder contributes meaningfully with both bat and ball. In T20, genuine all-rounders are rare and highly valued for giving teams a 7-batter or extra-bowler option."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

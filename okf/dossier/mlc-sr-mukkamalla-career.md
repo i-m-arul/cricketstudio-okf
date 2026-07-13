@@ -2,6 +2,9 @@
 type: dossier
 title: "SR Mukkamalla — MLC career overview"
 description: "SR Mukkamalla MLC career: 180R, 127.7 SR (10M bat). Texas Super Kings. MLC 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for SR Mukkamalla without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/sr-mukkamalla
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/sr-mukkamalla
 tags:

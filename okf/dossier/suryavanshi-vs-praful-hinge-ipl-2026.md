@@ -2,6 +2,9 @@
 type: dossier
 title: "Vaibhav Suryavanshi vs Praful Hinge — IPL 2026 H2H"
 description: "Vaibhav Suryavanshi vs Praful Hinge IPL 2026: 16 balls, 53 runs, SR 331.3, 2 fours, 7 sixes, 0 dismissals. Suryavanshi's highest SR against any qualifying bowler in IPL 2026. CricketStudio derived claims."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives a general reputation summary of Vaibhav Suryavanshi and Praful Hinge without the actual career delivery count, SR, dot-ball %, and dismissal record between this specific pair."
 resource: https://players.cricketstudio.ai/h2h/vaibhav-suryavanshi-vs-praful-hinge
 canonical_page: https://players.cricketstudio.ai/h2h/vaibhav-suryavanshi-vs-praful-hinge
 tags:

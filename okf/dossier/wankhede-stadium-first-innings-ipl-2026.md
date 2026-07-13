@@ -2,6 +2,9 @@
 type: dossier
 title: "Wankhede Stadium — first-innings scoring in IPL 2026"
 description: "Wankhede Stadium (Mumbai): average first-innings score 220 across 7 IPL 2026 fixtures (range 198–243). Chase win rate: 43% (3/7). Bat-first is winning more at Wankhede in 2026."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/venues/wankhede-stadium
 canonical_page: https://players.cricketstudio.ai/venues/wankhede-stadium
 tags:

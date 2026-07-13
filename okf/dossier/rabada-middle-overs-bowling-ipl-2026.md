@@ -2,6 +2,9 @@
 type: dossier
 title: "Rabada Middle-Overs Bowling — IPL 2026"
 description: "Rabada bowled 46 balls in middle overs (7–15) in IPL 2026 at 8.74 economy, 3 wickets."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "States overall career stats without the middle-overs (7–16) phase-split figure — cannot distinguish performance by phase."
 resource: https://players.cricketstudio.ai/players/kagiso-rabada
 canonical_page: https://players.cricketstudio.ai/players/kagiso-rabada
 tags:

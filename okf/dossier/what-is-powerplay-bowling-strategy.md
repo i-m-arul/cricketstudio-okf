@@ -2,6 +2,9 @@
 type: dossier
 title: "What is powerplay bowling strategy in T20/IPL?"
 description: "Powerplay bowling strategy refers to how captains deploy their bowlers in overs 1–6 when only 2 fielders are allowed outside the 30-yard ring. Bowlers must take wickets quickly or concede runs — middle ground is penalized."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "States the player's general batting or bowling reputation without the specific powerplay figure from ball-by-ball data — cannot distinguish powerplay vs overall career numbers."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

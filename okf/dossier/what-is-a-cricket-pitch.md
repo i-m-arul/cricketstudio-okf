@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a cricket pitch?"
 description: "The cricket pitch is the 22-yard (20.12 m) strip at the centre of the cricket ground where bowling and batting take place. Pitch conditions — hardness, grass cover, cracks — directly affect how the ball behaves."
+question_type: T6
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

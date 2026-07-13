@@ -2,6 +2,9 @@
 type: dossier
 title: "Hammad Azam — MLC career overview"
 description: "Hammad Azam MLC career: 102R, 91.1 SR (9M bat). 0 wkts, 15.00 econ (1M bowl). MI New York, San Francisco Unicorns and Seattle Orcas. MLC 2023, 2024, 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Hammad Azam without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/hammad-azam
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/hammad-azam
 tags:

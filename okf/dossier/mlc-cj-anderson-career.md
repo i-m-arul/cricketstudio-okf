@@ -2,6 +2,9 @@
 type: dossier
 title: "CJ Anderson — MLC career overview"
 description: "CJ Anderson MLC career: 313R, 132.1 SR (16M bat). 6 wkts, 9.92 econ (9M bowl). San Francisco Unicorns. MLC 2023, 2024, 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for CJ Anderson without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/cj-anderson
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/cj-anderson
 tags:

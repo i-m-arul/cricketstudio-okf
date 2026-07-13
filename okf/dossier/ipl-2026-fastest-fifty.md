@@ -2,6 +2,9 @@
 type: dossier
 title: "Fastest fifty in IPL 2026"
 description: "Verified answer for 'Who scored the fastest fifty in IPL 2026?' — Urvil Patel, 13 balls."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/season/ipl-2026
 canonical_page: https://players.cricketstudio.ai/season/ipl-2026
 tags:

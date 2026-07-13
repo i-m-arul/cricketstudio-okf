@@ -2,6 +2,9 @@
 type: dossier
 title: "IPL 2025 Champion — Royal Challengers Bengaluru"
 description: "Verified answer: Royal Challengers Bengaluru won IPL 2025 (74 matches). Orange Cap: B Sai Sudharsan 759R. Purple Cap: M Prasidh Krishna 25W."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/season/ipl-2025
 canonical_page: https://players.cricketstudio.ai/season/ipl-2025
 tags:

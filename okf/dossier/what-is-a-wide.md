@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a wide in cricket?"
 description: "A wide is a delivery bowled too far from the batter's reach. 1 run is added automatically, the ball must be re-bowled, and in T20 the wide counts against the bowler's economy."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

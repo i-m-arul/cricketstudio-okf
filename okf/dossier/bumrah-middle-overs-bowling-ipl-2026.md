@@ -2,6 +2,9 @@
 type: dossier
 title: "Jasprit Bumrah — IPL 2026 middle overs bowling"
 description: "Bumrah IPL 2026 middle overs: 72 balls, 1 wicket, 6.83 economy — his most economical phase in IPL 2026."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "States overall career stats without the middle-overs (7–16) phase-split figure — cannot distinguish performance by phase."
 resource: https://players.cricketstudio.ai/players/jasprit-bumrah
 canonical_page: https://players.cricketstudio.ai/players/jasprit-bumrah
 tags:

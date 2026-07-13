@@ -2,6 +2,9 @@
 type: dossier
 title: What are the MLC franchises?
 description: Verified answer listing all 6 MLC franchises with home cities. MI New York, Washington Freedom, San Francisco Unicorns, Seattle Orcas, Texas Super Kings, Los Angeles Knight Riders.
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "States the team's general reputation without the specific phase-split batting SR or bowling economy figure from ball-by-ball data."
 status: active
 last_verified: 2026-06-18
 timestamp: 2026-06-18

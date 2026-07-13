@@ -2,6 +2,9 @@
 type: dossier
 title: "Rajiv Gandhi International Stadium — toss analysis IPL 2026"
 description: "Rajiv Gandhi International Stadium (Hyderabad) IPL 2026 toss: 71% elected to bowl (5/7). Chase win rate 71% (5/7). Toss preference and chase success are perfectly aligned here."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives general advice or repeats venue narrative without the actual win-rate figures from Cricsheet ball-by-ball data."
 resource: https://players.cricketstudio.ai/venues/rajiv-gandhi-international-stadium
 canonical_page: https://players.cricketstudio.ai/venues/rajiv-gandhi-international-stadium
 tags:

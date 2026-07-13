@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a four in cricket?"
 description: "A four is scored when the ball reaches the boundary after bouncing or rolling inside the field of play. 4 runs are awarded. Distinct from a six (ball clears boundary on the full without bouncing)."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

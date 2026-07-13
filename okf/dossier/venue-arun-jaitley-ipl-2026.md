@@ -2,6 +2,9 @@
 type: dossier
 title: "Arun Jaitley Stadium (Delhi) — IPL 2026 venue profile"
 description: "Arun Jaitley Stadium IPL 2026: 7 fixtures, avg 1st-innings 173, chase win rate 57%, bowl-first 71%."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/venues/arun-jaitley-stadium
 canonical_page: https://players.cricketstudio.ai/venues/arun-jaitley-stadium
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "Does the Toss Matter in IPL Cricket?"
 description: "Verified answer: Bowl-first wins 54% of IPL matches vs bat-first's 46%, across 1,146 historical toss decisions."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives general advice or repeats venue narrative without the actual win-rate figures from Cricsheet ball-by-ball data."
 resource: https://okf.cricketstudio.ai/research/toss-effect-ipl/
 canonical_page: https://okf.cricketstudio.ai/research/toss-effect-ipl/
 tags:

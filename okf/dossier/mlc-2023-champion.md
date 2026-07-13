@@ -2,6 +2,9 @@
 type: dossier
 title: "MLC 2023 (Season 1) Champion"
 description: "Verified answer: MI New York won MLC 2023 by 7 wickets over Seattle Orcas in the final on 2023-07-30."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/leagues/mlc
 canonical_page: https://players.cricketstudio.ai/leagues/mlc
 tags:

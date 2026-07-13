@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a hat-trick in cricket?"
 description: "A hat-trick in cricket is when a bowler takes 3 wickets on 3 consecutive deliveries, in the same or across overs/innings. Extremely rare in T20 formats."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

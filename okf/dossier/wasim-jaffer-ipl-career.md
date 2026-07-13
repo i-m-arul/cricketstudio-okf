@@ -2,6 +2,9 @@
 type: dossier
 title: "Wasim Jaffer — IPL career batting overview (pre-2026)"
 description: "Wasim Jaffer (RCB) IPL career pre-2026: 130 runs avg 16.25 SR 107.4, 2 seasons (2007/08–2009). PP 89 balls 86.5 SR. Middle 32 balls 165.6 SR. Veteran Test opener adapted to T20. Cricsheet CC BY 3.0."
+question_type: T4
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Wasim Jaffer without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/w-jaffer
 canonical_page: https://players.cricketstudio.ai/players/w-jaffer
 tags:

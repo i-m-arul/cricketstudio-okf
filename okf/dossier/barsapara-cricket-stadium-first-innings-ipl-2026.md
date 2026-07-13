@@ -2,6 +2,9 @@
 type: dossier
 title: "Barsapara Cricket Stadium — first-innings scoring in IPL 2026"
 description: "Barsapara (Guwahati): average first-innings score 150 across 3 IPL 2026 fixtures — the lowest average among all IPL 2026 venues. Chase win rate: 100% (3/3). All 3 toss winners bowled first."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/venues/barsapara-cricket-stadium
 canonical_page: https://players.cricketstudio.ai/venues/barsapara-cricket-stadium
 tags:

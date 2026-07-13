@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a powerplay bowler in cricket?"
 description: "A powerplay bowler is a specialist selected to bowl in overs 1–6 when the field restriction (max 2 fielders outside the ring) is in effect. They are typically fast-medium pace bowlers who can swing the new ball and take early wickets."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "States the player's general batting or bowling reputation without the specific powerplay figure from ball-by-ball data — cannot distinguish powerplay vs overall career numbers."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

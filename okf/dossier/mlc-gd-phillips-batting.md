@@ -2,6 +2,9 @@
 type: dossier
 title: "GD Phillips — MLC batting phase profile"
 description: "Glenn Phillips MLC phases: PP 30b/133.3 SR (floor exactly met), Middle 162b/110.5 SR, Death 37b/240.5 SR (elite finisher). Washington Freedom, 2023 and 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/gd-phillips
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/gd-phillips
 tags:

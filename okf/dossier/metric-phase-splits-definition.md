@@ -2,6 +2,9 @@
 type: dossier
 title: "Phase Splits — Powerplay / Middle / Death Definitions"
 description: "CricketStudio splits every T20 innings into three phases: powerplay (1–6), middle (7–15), death (16–20). Sample floors apply per phase."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "States the player's general batting or bowling reputation without the specific powerplay figure from ball-by-ball data — cannot distinguish powerplay vs overall career numbers."
 resource: https://okf.cricketstudio.ai/methodology/phase-splits/
 canonical_page: https://okf.cricketstudio.ai/methodology/phase-splits/
 tags:

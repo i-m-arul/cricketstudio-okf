@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a fielding restriction in cricket?"
 description: "A fielding restriction limits how many fielders can be placed outside the 30-yard ring. In T20/IPL, the mandatory powerplay (overs 1–6) limits the fielding team to maximum 2 fielders outside the ring. All other overs allow up to 5 outside."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

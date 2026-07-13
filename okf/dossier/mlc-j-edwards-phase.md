@@ -2,6 +2,9 @@
 type: dossier
 title: "J Edwards — MLC phase analysis"
 description: "J Edwards MLC phase breakdown (MLC 2024, 2025). Washington Freedom. Data-derived phase rates where above sample-size floor."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/j-edwards
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/j-edwards
 tags:

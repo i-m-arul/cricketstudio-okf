@@ -2,6 +2,9 @@
 type: dossier
 title: "J Theron — MLC career overview"
 description: "J Theron MLC career: 5 wkts, 7.11 econ (7M bowl). Texas Super Kings. MLC 2023."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for J Theron without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/j-theron
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/j-theron
 tags:

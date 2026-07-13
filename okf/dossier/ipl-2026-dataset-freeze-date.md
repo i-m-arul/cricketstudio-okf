@@ -2,6 +2,9 @@
 type: dossier
 title: "When Was the IPL 2026 Dataset Frozen?"
 description: "Verified answer: CricketStudio's IPL 2026 dataset was frozen on 2026-06-11, 10 days after the Final."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/season/ipl-2026
 canonical_page: https://players.cricketstudio.ai/season/ipl-2026
 tags:

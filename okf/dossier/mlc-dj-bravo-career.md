@@ -2,6 +2,9 @@
 type: dossier
 title: "DJ Bravo — MLC career all-rounder overview"
 description: "Dwayne Bravo MLC career: 7M batting (149R, 153.6 SR, death 226 SR), 8M bowling (8 wkts, 8.30 econ, middle specialist). Texas Super Kings, 2023–2024."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for DJ Bravo without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/dj-bravo
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/dj-bravo
 tags:

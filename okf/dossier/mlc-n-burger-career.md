@@ -2,6 +2,9 @@
 type: dossier
 title: "N Burger — MLC career overview"
 description: "N Burger MLC career: 10R, 55.6 SR (3M bat). 12 wkts, 8.89 econ (11M bowl). Seattle Orcas and Texas Super Kings. MLC 2024, 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for N Burger without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/n-burger
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/n-burger
 tags:

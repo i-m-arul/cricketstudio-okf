@@ -2,6 +2,9 @@
 type: dossier
 title: "R Ravindra — MLC career all-rounder overview"
 description: "Rachin Ravindra MLC career: 18M batting (362R, 161.6 SR, PP 187.6 SR), 12M bowling (16 wkts, 7.21 econ). Washington Freedom, 2024–2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for R Ravindra without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/r-ravindra
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/r-ravindra
 tags:

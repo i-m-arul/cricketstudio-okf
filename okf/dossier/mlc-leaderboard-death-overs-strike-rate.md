@@ -2,6 +2,9 @@
 type: dossier
 title: "Highest death-overs strike rates — MLC all-time leaderboard"
 description: "MLC leaderboard: Best batting strike rates in death overs (overs 17—20). MLC all-time leaderboard. Top: GD Phillips (240.5, 37 balls faced in death overs). Scope: MLC seasons 2023, 2024, 2025 (75 matches total)."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives the player's overall economy or reputation as a death bowler without the specific death-over (overs 17–20) figure from ball-by-ball data."
 resource: https://players.cricketstudio.ai/leagues/mlc/leaderboards/death-overs-strike-rate
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/leaderboards/death-overs-strike-rate
 tags:

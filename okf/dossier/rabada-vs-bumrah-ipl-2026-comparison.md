@@ -2,6 +2,9 @@
 type: dossier
 title: "Kagiso Rabada vs Jasprit Bumrah — IPL 2026 pace bowling comparison"
 description: "Rabada vs Bumrah IPL 2026: Rabada 29 wkts, 9.68 econ vs Bumrah 4 wkts, 8.35 econ. Rabada powerplay specialist; Bumrah middle-overs most economical."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives a general reputation summary of Kagiso Rabada and Jasprit Bumrah without the actual career delivery count, SR, dot-ball %, and dismissal record between this specific pair."
 resource: https://players.cricketstudio.ai/h2h/kagiso-rabada-vs-jasprit-bumrah
 canonical_page: https://players.cricketstudio.ai/h2h/kagiso-rabada-vs-jasprit-bumrah
 tags:

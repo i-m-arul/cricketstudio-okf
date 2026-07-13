@@ -2,6 +2,9 @@
 type: dossier
 title: "Grand Prairie Stadium — MLC venue overview"
 description: "Grand Prairie Stadium (Texas) is MLC's primary venue: 43 matches in the CricketStudio corpus — more than any other MLC venue. CC BY 3.0 data."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/venues/grand-prairie-stadium
 canonical_page: https://players.cricketstudio.ai/venues/grand-prairie-stadium
 tags:

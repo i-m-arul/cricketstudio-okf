@@ -2,6 +2,9 @@
 type: dossier
 title: "MD Shanaka — MLC career overview"
 description: "MD Shanaka MLC career: 27R, 112.5 SR (3M bat). 0 wkts, 12.25 econ (3M bowl). Seattle Orcas. MLC 2023."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for MD Shanaka without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/md-shanaka
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/md-shanaka
 tags:

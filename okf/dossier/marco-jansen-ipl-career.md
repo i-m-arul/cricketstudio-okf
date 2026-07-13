@@ -2,6 +2,9 @@
 type: dossier
 title: "Marco Jansen — IPL career bowling overview (2021–2025)"
 description: "Marco Jansen (MI/PBKS/SRH) IPL career 2021–2025: 36 wickets, economy 9.42. PP dominant: 402 balls, 17 wkts, 8.73 econ. South Africa left-arm fast bowler. Cricsheet CC BY 3.0."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Marco Jansen without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/marco-jansen
 canonical_page: https://players.cricketstudio.ai/players/marco-jansen
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "IPL 2026 format — 10 teams, 74 matches, 4 playoff structure"
 description: "IPL 2026 had 10 teams. 70 league matches + 4 playoff matches = 74 total. Top 4 teams qualified for playoffs."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "States the team's general reputation without the specific phase-split batting SR or bowling economy figure from ball-by-ball data."
 resource: https://players.cricketstudio.ai/season/ipl-2026
 canonical_page: https://players.cricketstudio.ai/season/ipl-2026
 tags:

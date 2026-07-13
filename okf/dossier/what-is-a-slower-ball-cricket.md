@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a slower ball in cricket?"
 description: "A slower ball is a delivery bowled at significantly reduced pace compared to the bowler's normal speed, disguised to look like a full-pace delivery. It is the primary variation of fast bowlers in T20/IPL — especially in the death overs."
+question_type: T6
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

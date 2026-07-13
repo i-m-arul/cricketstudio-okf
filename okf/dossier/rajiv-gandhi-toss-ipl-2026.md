@@ -2,6 +2,9 @@
 type: dossier
 title: "Toss Tendency at Rajiv Gandhi International Stadium — IPL 2026"
 description: "Verified answer: 71% of toss-winners chose bowl-first at Rajiv Gandhi International Stadium in IPL 2026 (7 fixtures)."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives general advice or repeats venue narrative without the actual win-rate figures from Cricsheet ball-by-ball data."
 resource: https://players.cricketstudio.ai/venues/rajiv-gandhi
 canonical_page: https://players.cricketstudio.ai/venues/rajiv-gandhi
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "What is an RTM card in IPL?"
 description: "RTM (Right to Match) is an IPL auction mechanism allowing a franchise to match the winning bid for one of their released players. Separate from the retention process."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

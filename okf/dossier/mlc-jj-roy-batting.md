@@ -2,6 +2,9 @@
 type: dossier
 title: "JJ Roy — MLC batting phase profile"
 description: "Jason Roy MLC phases: PP 127b/123.6 SR (primary phase, 73% of balls), Middle 47b/127.7 SR, Death 0b. LA Knight Riders, 2023–2024."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/jj-roy
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/jj-roy
 tags:

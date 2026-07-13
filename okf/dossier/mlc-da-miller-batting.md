@@ -2,6 +2,9 @@
 type: dossier
 title: "DA Miller — MLC batting phase profile"
 description: "David Miller MLC phases: PP 17b (below floor), Middle 132b/114.4 SR, Death 30b/200 SR (exactly at floor). TSK + LAKR, 2023–2024."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/da-miller
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/da-miller
 tags:

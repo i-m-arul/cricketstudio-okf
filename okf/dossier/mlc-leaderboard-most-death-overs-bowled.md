@@ -2,6 +2,9 @@
 type: dossier
 title: "Most death-overs balls bowled — MLC all-time leaderboard"
 description: "MLC leaderboard: Total legal deliveries bowled in death overs – identifies the most-used death bowlers. MLC all-time leaderboard. Top: TA Boult (210, 210 legal deliveries in death overs). Scope: MLC seasons 2023, 2024, 2025 (75 matches total)."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives the player's overall economy or reputation as a death bowler without the specific death-over (overs 17–20) figure from ball-by-ball data."
 resource: https://players.cricketstudio.ai/leagues/mlc/leaderboards/most-death-overs-bowled
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/leaderboards/most-death-overs-bowled
 tags:

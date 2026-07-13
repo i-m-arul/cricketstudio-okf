@@ -2,6 +2,9 @@
 type: dossier
 title: "Wankhede Stadium (Mumbai) — IPL 2026 venue profile"
 description: "Wankhede Stadium IPL 2026: 7 fixtures, avg 1st-innings 220, chase win rate 43%, bat-first dominant, bowl-first toss 86%."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/venues/wankhede-stadium
 canonical_page: https://players.cricketstudio.ai/venues/wankhede-stadium
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "GD Phillips — MLC career overview"
 description: "Glenn Phillips MLC career: 14M batting (308R, 134.5 SR, death 240.5 SR over 37 balls), 5M bowling (30b, 2 wkts — negligible). Washington Freedom, 2023 and 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for GD Phillips without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/gd-phillips
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/gd-phillips
 tags:

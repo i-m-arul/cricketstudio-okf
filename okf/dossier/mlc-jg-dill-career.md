@@ -2,6 +2,9 @@
 type: dossier
 title: "JG Dill — MLC career overview"
 description: "JG Dill MLC career: 5 wkts, 8.83 econ (4M bowl). Washington Freedom. MLC 2023, 2024."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for JG Dill without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/jg-dill
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/jg-dill
 tags:

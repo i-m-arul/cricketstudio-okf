@@ -2,6 +2,9 @@
 type: dossier
 title: "Devdutt Padikkal — IPL career batting overview (2020/21–2025)"
 description: "Devdutt Padikkal (RCB/RR/LSG) IPL career 2020/21–2025: 1,806 runs, avg 25.44, SR 126.7. PP 664 balls 124.8 SR, Middle 700 balls 127.0 SR — consistent across phases. Left-hand opener. Cricsheet CC BY 3.0."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Devdutt Padikkal without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/devdutt-padikkal
 canonical_page: https://players.cricketstudio.ai/players/devdutt-padikkal
 tags:

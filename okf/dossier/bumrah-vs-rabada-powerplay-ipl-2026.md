@@ -2,6 +2,9 @@
 type: dossier
 title: "Bumrah vs Rabada Powerplay Bowling Comparison IPL 2026"
 description: "Verified answer: Bumrah (8.00 econ, 2 wkts, 144b) vs Rabada (9.69 econ, 20 wkts, 270b) in IPL 2026 powerplay."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives a general reputation summary of Bumrah and the bowler without the actual career delivery count, SR, dot-ball %, and dismissal record between this specific pair."
 resource: https://players.cricketstudio.ai/season/ipl-2026/bowling-leaders
 canonical_page: https://players.cricketstudio.ai/season/ipl-2026/bowling-leaders
 tags:

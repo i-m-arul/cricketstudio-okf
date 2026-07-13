@@ -2,6 +2,9 @@
 type: dossier
 title: "Tristan Stubbs — IPL career batting overview (2022–2025)"
 description: "Tristan Stubbs (DC/MI) IPL career 2022–2025: 711 runs, avg 41.82, SR 165.0. Death: 151 balls, 245.0 SR — among the highest in the IPL Cricsheet corpus. Middle: 267 balls, 121.0 SR. South African finisher specialist. Cricsheet CC BY 3.0."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Tristan Stubbs without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/tristan-stubbs
 canonical_page: https://players.cricketstudio.ai/players/tristan-stubbs
 tags:

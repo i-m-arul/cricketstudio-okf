@@ -2,6 +2,9 @@
 type: dossier
 title: "Nitish Kumar Reddy — IPL career batting overview (pre-2026)"
 description: "Nitish Kumar Reddy (SRH) IPL career pre-2026: 485 runs avg 28.53 SR 133.2, 3 seasons (2023–2025). Death batting 41 balls 187.8 SR (exceptional finisher phase). Middle bowling 108 balls 3 wkts 10.44 econ. Cricsheet CC BY 3.0."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Nitish Kumar Reddy without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/nitish-kumar-reddy
 canonical_page: https://players.cricketstudio.ai/players/nitish-kumar-reddy
 tags:

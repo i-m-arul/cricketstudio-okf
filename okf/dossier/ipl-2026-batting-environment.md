@@ -2,6 +2,9 @@
 type: dossier
 title: "IPL 2026 batting environment — average scores across venues"
 description: "IPL 2026 was a varied batting environment: Jaipur avg 226, Wankhede 220, Ahmedabad only 160. Wide range across 13 venues."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/season/ipl-2026
 canonical_page: https://players.cricketstudio.ai/season/ipl-2026
 tags:

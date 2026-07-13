@@ -2,6 +2,9 @@
 type: dossier
 title: "Most powerplay balls bowled — MLC all-time leaderboard"
 description: "MLC leaderboard: Total legal deliveries bowled in the powerplay – identifies the highest-usage PP attack bowlers. MLC all-time leaderboard. Top: TA Boult (336, 336 legal deliveries in powerplay). Scope: MLC seasons 2023, 2024, 2025 (75 matches total)."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "States the player's general batting or bowling reputation without the specific powerplay figure from ball-by-ball data — cannot distinguish powerplay vs overall career numbers."
 resource: https://players.cricketstudio.ai/leagues/mlc/leaderboards/most-pp-overs-bowled
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/leaderboards/most-pp-overs-bowled
 tags:

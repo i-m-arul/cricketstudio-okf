@@ -2,6 +2,9 @@
 type: dossier
 title: "Suryakumar Yadav — IPL career batting overview (pre-2026)"
 description: "Suryakumar Yadav (KKR/MI) IPL career pre-2026: 4,311 runs, avg 34.77, SR 149.2, 168 sixes, 151 matches, 13 seasons (2012–2025). Best seasons: 2025 MI 717 runs 167.9 SR; 2023 MI 605 runs 182.2 SR. Nicknamed 'SKY'. Cricsheet CC BY 3.0."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Suryakumar Yadav without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/suryakumar-yadav
 canonical_page: https://players.cricketstudio.ai/players/suryakumar-yadav
 tags:

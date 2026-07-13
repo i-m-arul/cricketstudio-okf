@@ -2,6 +2,9 @@
 type: dossier
 title: "What is death-overs batting strategy in T20/IPL?"
 description: "Death-overs batting strategy refers to how batters approach overs 16–20 to maximize the run total. Ball is the scarce resource; wickets are cheap — batters must risk dismissal to score the 15–20+ runs per over often needed."
+question_type: T6
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives the player's overall economy or reputation as a death bowler without the specific death-over (overs 17–20) figure from ball-by-ball data."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

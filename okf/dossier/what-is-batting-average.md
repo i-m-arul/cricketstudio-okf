@@ -2,6 +2,9 @@
 type: dossier
 title: "What is batting average in cricket?"
 description: "Batting average = total runs ÷ dismissals. Measures scoring efficiency per completed innings. High average + high strike rate = elite T20 batter. Differs from strike rate."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

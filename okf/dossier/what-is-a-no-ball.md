@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a no-ball in cricket?"
 description: "A no-ball in cricket is an illegal delivery — 1 run is automatically added to the batting team and the delivery must be re-bowled. In T20, a no-ball triggers a free hit."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

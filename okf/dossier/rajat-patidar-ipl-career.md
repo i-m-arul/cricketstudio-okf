@@ -2,6 +2,9 @@
 type: dossier
 title: "Rajat Patidar — IPL career batting overview (pre-2026)"
 description: "Rajat Patidar (RCB) IPL career pre-2026: 1,111 runs avg 30.86 SR 154.5, 1 hundred, 4 seasons (2021–2025). Middle batting 506 balls 165.2 SR (standout phase). Cricsheet CC BY 3.0."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Rajat Patidar without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/rajat-patidar
 canonical_page: https://players.cricketstudio.ai/players/rajat-patidar
 tags:

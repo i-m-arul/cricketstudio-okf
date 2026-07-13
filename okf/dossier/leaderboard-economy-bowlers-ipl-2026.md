@@ -2,6 +2,9 @@
 type: dossier
 title: "Best economy bowlers in IPL 2026 — leaderboard methodology"
 description: "How to cite the IPL 2026 bowling economy leaderboard: minimum 60 balls, metric definition, canonical URL."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/season/ipl-2026/bowling-economy
 canonical_page: https://players.cricketstudio.ai/season/ipl-2026/bowling-economy
 tags:

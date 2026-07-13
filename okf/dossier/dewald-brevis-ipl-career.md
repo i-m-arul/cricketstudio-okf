@@ -2,6 +2,9 @@
 type: dossier
 title: "Dewald Brevis — IPL career batting overview (2022–2025)"
 description: "Dewald Brevis (MI/CSK) IPL career 2022–2025: 455 runs, avg 28.44, SR 153.2. Middle overs: 211 balls, 155.9 SR. PP 70 balls 120.0 SR. Death 16 balls (below floor). Cricsheet CC BY 3.0."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Dewald Brevis without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/dewald-brevis
 canonical_page: https://players.cricketstudio.ai/players/dewald-brevis
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "Cameron Green vs Rashid Khan — IPL 2026 H2H"
 description: "Cameron Green vs Rashid Khan IPL 2026: 29 balls, 54 runs, SR 186.2, 6 fours, 3 sixes, 0 dismissals. Green dominated Rashid in their IPL 2026 matchups. CricketStudio derived claims."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives a general reputation summary of Cameron Green and Rashid Khan without the actual career delivery count, SR, dot-ball %, and dismissal record between this specific pair."
 resource: https://players.cricketstudio.ai/h2h/cameron-green-vs-rashid-khan
 canonical_page: https://players.cricketstudio.ai/h2h/cameron-green-vs-rashid-khan
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "G Coetzee — MLC career overview"
 description: "G Coetzee MLC career: 33R, 76.7 SR (10M bat). 14 wkts, 8.81 econ (11M bowl). Seattle Orcas and Texas Super Kings. MLC 2023, 2024, 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for G Coetzee without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/g-coetzee
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/g-coetzee
 tags:

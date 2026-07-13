@@ -2,6 +2,9 @@
 type: dossier
 title: "Bumrah Death Overs Economy IPL 2026"
 description: "Verified answer: Bumrah's death-overs economy in IPL 2026 was 7.69 RPO from 78 balls, ranking #6 of 66."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives the player's overall economy or reputation as a death bowler without the specific death-over (overs 17–20) figure from ball-by-ball data."
 resource: https://players.cricketstudio.ai/players/jasprit-bumrah
 canonical_page: https://players.cricketstudio.ai/players/jasprit-bumrah
 tags:

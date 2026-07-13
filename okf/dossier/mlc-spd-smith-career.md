@@ -2,6 +2,9 @@
 type: dossier
 title: "SPD Smith — MLC career overview"
 description: "SPD Smith MLC career: 336R, 150.7 SR (9M bat). Washington Freedom. MLC 2024."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for SPD Smith without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/spd-smith
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/spd-smith
 tags:

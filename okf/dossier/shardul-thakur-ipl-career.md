@@ -2,6 +2,9 @@
 type: dossier
 title: "Shardul Thakur — IPL career bowling overview (pre-2026)"
 description: "Shardul Thakur IPL career pre-2026: 107 wickets, economy 9.40, avg 30.32, 102 matches, 10 seasons (2015–2025). Teams: CSK (primarily), RPS, DC, KKR, LSG. Best season 2021 CSK: 21 wickets. Reliable right-arm fast-medium all-rounder. Cricsheet CC BY 3.0."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Shardul Thakur without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/shardul-thakur
 canonical_page: https://players.cricketstudio.ai/players/shardul-thakur
 tags:

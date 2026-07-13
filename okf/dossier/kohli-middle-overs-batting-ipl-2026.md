@@ -2,6 +2,9 @@
 type: dossier
 title: "Kohli Middle Overs Batting Stats IPL 2026"
 description: "Verified answer: Kohli scored at 143.9 SR in IPL 2026 middle overs (overs 7–15) from 173 balls."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "States overall career stats without the middle-overs (7–16) phase-split figure — cannot distinguish performance by phase."
 resource: https://players.cricketstudio.ai/players/virat-kohli
 canonical_page: https://players.cricketstudio.ai/players/virat-kohli
 tags:

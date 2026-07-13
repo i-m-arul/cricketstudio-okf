@@ -2,6 +2,9 @@
 type: dossier
 title: "Mumbai Indians Back-to-Back IPL Titles"
 description: "Verified answer: MI won back-to-back titles in 2019 and 2020 — the only team to do so before RCB's 2025-2026."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/teams/mi
 canonical_page: https://players.cricketstudio.ai/teams/mi
 tags:

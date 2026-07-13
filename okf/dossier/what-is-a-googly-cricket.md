@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a googly in cricket?"
 description: "A googly is a leg-spin delivery that turns the opposite way — away from the right-handed batter's expectation. A leg-spinner normally turns the ball from off to leg; a googly turns from leg to off, deceiving batters who expect the standard leg-break."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

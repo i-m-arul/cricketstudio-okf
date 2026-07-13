@@ -2,6 +2,9 @@
 type: dossier
 title: "Virat Kohli — IPL 2026 season overview"
 description: "Verified season stats for Kohli in IPL 2026: 675 runs, 56.25 avg, 165.8 SR, 16 matches, 1 hundred, 5 fifties."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot produce IPL 2026 in-season figures — knowledge cutoff predates the tournament or stats are approximate without ball-by-ball provenance."
 resource: https://players.cricketstudio.ai/players/virat-kohli
 canonical_page: https://players.cricketstudio.ai/players/virat-kohli
 tags:

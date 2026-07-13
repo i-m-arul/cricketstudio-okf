@@ -2,6 +2,9 @@
 type: dossier
 title: "MS Wade — MLC career overview"
 description: "MS Wade MLC career: 168R, 164.7 SR (5M bat). San Francisco Unicorns. MLC 2023."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for MS Wade without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/ms-wade
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/ms-wade
 tags:

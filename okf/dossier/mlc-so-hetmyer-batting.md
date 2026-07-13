@@ -2,6 +2,9 @@
 type: dossier
 title: "SO Hetmyer — MLC batting phase profile"
 description: "Shimron Hetmyer MLC phases: PP 1b (below floor), Middle 118b/184.7 SR, Death 88b/204.5 SR. Pure middle-to-death destroyer. Seattle Orcas, 2023 and 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/so-hetmyer
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/so-hetmyer
 tags:

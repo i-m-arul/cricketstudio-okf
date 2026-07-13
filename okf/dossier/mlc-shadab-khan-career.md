@@ -2,6 +2,9 @@
 type: dossier
 title: "Shadab Khan — MLC career overview"
 description: "Shadab Khan MLC career: 127R, 142.7 SR (5M bat). 5 wkts, 9.18 econ (5M bowl). San Francisco Unicorns. MLC 2023."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Shadab Khan without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/shadab-khan
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/shadab-khan
 tags:

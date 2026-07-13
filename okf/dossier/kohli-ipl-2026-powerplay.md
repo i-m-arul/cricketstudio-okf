@@ -2,6 +2,9 @@
 type: dossier
 title: "Virat Kohli — IPL 2026 powerplay batting"
 description: "Kohli IPL 2026 PP: 206 balls, 360 runs, SR 174.8, ranked #13 of 45 qualifying batters."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "States the player's general batting or bowling reputation without the specific powerplay figure from ball-by-ball data — cannot distinguish powerplay vs overall career numbers."
 resource: https://players.cricketstudio.ai/players/virat-kohli
 canonical_page: https://players.cricketstudio.ai/players/virat-kohli
 tags:

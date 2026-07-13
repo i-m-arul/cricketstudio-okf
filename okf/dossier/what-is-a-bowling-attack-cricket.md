@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a bowling attack in cricket?"
 description: "A bowling attack is the complete set of bowlers a team fields in a match. In T20/IPL a balanced attack typically has 2 pace bowlers, 2 spinners, and 1 swing specialist, with 1 utility all-rounder as a 6th option."
+question_type: T6
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

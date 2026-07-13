@@ -2,6 +2,9 @@
 type: dossier
 title: "IPL 2018 Champion — Chennai Super Kings"
 description: "Verified answer: Chennai Super Kings won IPL 2018 (60 matches). Orange Cap: KS Williamson 735R. Purple Cap: AJ Tye 24W."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/season/ipl-2018
 canonical_page: https://players.cricketstudio.ai/season/ipl-2018
 tags:

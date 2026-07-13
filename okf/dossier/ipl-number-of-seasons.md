@@ -2,6 +2,9 @@
 type: dossier
 title: "How Many IPL Seasons Have Been Played?"
 description: "Verified answer: 19 IPL seasons have been played through 2026 (2007/08 through 2026)."
+question_type: T4
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/leagues/ipl
 canonical_page: https://players.cricketstudio.ai/leagues/ipl
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "Kohli Holds Three IPL Batting Records"
 description: "Verified answer: Kohli leads IPL all-time in runs (8,671), fifties (63), and hundreds (8) — all through 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/players/virat-kohli
 canonical_page: https://players.cricketstudio.ai/players/virat-kohli
 tags:

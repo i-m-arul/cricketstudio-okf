@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a batting-friendly venue in cricket? (alt)"
 description: "Redirect entry — see what-is-a-batting-friendly-venue-cricket.md for the full dossier on batting-friendly venues. A batting-friendly venue consistently produces high first-innings scores through flat pitches, short boundaries, and fast outfields."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

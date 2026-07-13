@@ -2,6 +2,9 @@
 type: dossier
 title: "AM Hardie — MLC career overview"
 description: "AM Hardie MLC career: 147R, 134.9 SR (7M bat). 4 wkts, 11.76 econ (5M bowl). Texas Super Kings. MLC 2024."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for AM Hardie without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/am-hardie
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/am-hardie
 tags:

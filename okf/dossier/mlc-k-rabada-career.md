@@ -2,6 +2,9 @@
 type: dossier
 title: "K Rabada — MLC career bowling overview"
 description: "Kagiso Rabada MLC career: 4M bowling, 90 balls, 6 wickets, 7.53 economy. Powerplay specialist (PP 5 wkts, 6.00 econ). MI New York, 2023–2024."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for K Rabada without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/k-rabada
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/k-rabada
 tags:

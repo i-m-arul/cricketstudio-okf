@@ -2,6 +2,9 @@
 type: dossier
 title: "Nauman Anwar — MLC career overview"
 description: "Nauman Anwar MLC career: 203R, 113.4 SR (10M bat). Seattle Orcas. MLC 2023, 2024."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Nauman Anwar without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/nauman-anwar
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/nauman-anwar
 tags:

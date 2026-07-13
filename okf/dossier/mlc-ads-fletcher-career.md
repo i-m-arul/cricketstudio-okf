@@ -2,6 +2,9 @@
 type: dossier
 title: "ADS Fletcher — MLC career overview"
 description: "ADS Fletcher MLC career: 289R, 162.4 SR (7M bat). Los Angeles Knight Riders. MLC 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for ADS Fletcher without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/ads-fletcher
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/ads-fletcher
 tags:

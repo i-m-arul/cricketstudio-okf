@@ -2,6 +2,9 @@
 type: dossier
 title: "RCB IPL Title Drought"
 description: "Verified answer: RCB went 18 consecutive seasons (2008-2024) without an IPL title before winning in 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/teams/rcb
 canonical_page: https://players.cricketstudio.ai/teams/rcb
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "What is LBW (Leg Before Wicket) in cricket?"
 description: "LBW = Leg Before Wicket. A batsman is out LBW if the ball would have hit the stumps but is intercepted by the batter's leg/body — without hitting the bat first. One of cricket's most debated dismissals."
+question_type: T6
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

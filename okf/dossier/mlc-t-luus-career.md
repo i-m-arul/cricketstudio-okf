@@ -2,6 +2,9 @@
 type: dossier
 title: "T Luus — MLC career overview"
 description: "T Luus MLC career: 11R, 100.0 SR (3M bat). 6 wkts, 9.19 econ (4M bowl). MI New York. MLC 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for T Luus without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/t-luus
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/t-luus
 tags:

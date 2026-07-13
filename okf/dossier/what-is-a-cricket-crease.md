@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a crease in cricket?"
 description: "The crease is a line marked on the cricket pitch that determines key decisions: whether the batter is 'in' (safe from being run-out or stumped), whether the bowler has bowled a legal delivery (front-foot no-ball rule), and where the batter can block their stumps from the bowler."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "Virat Kohli IPL Career Total Runs (Through 2026)"
 description: "Verified answer: Kohli scored 8,671 runs pre-2026 plus 675 in 2026 for a career total of 9,346 IPL runs."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for this player without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/virat-kohli
 canonical_page: https://players.cricketstudio.ai/players/virat-kohli
 tags:

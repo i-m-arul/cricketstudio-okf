@@ -2,6 +2,9 @@
 type: dossier
 title: "KS Gattepalli — MLC career overview"
 description: "KS Gattepalli MLC career: 3 wkts, 7.75 econ (1M bowl). Los Angeles Knight Riders. MLC 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for KS Gattepalli without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/ks-gattepalli
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/ks-gattepalli
 tags:

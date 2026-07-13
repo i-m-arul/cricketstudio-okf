@@ -2,6 +2,9 @@
 type: dossier
 title: "What is run rate in cricket?"
 description: "Run rate = runs scored per over (runs / overs completed). Required run rate = runs needed / overs remaining in a chase. In T20/IPL, the par run rate is roughly 8.5–9.0 RPO. CricketStudio methodology."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

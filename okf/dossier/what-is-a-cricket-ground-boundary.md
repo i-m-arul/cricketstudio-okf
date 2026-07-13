@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a cricket ground boundary?"
 description: "The boundary is the outer edge of the cricket playing field, marked by a rope or painted line. Hitting the ball to the boundary scores 4 runs (if it rolls along the ground) or 6 runs (if it carries over the boundary in the air without touching the ground). Boundary size varies significantly across IPL venues."
+question_type: T6
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "H Richards — MLC career overview"
 description: "H Richards MLC career: 56R, 103.7 SR (7M bat). 0 wkts, 15.00 econ (2M bowl). MI New York. MLC 2024, 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for H Richards without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/h-richards
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/h-richards
 tags:

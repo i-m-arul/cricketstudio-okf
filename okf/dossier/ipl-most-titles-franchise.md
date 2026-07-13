@@ -2,6 +2,9 @@
 type: dossier
 title: "Which IPL Franchise Has Won the Most Titles?"
 description: "Verified answer: Mumbai Indians and Chennai Super Kings are tied with 5 titles each; RCB now has 2."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "States the team's general reputation without the specific phase-split batting SR or bowling economy figure from ball-by-ball data."
 resource: https://players.cricketstudio.ai/leagues/ipl
 canonical_page: https://players.cricketstudio.ai/leagues/ipl
 tags:

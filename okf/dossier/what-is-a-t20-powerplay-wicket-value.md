@@ -2,6 +2,9 @@
 type: dossier
 title: "Why is a powerplay wicket so valuable in T20 cricket?"
 description: "A powerplay wicket (overs 1–6) is disproportionately valuable because it dismisses a batter when the fielding restriction is most open, denying the batting team easy boundary access and forcing a new batter to face quality bowling in the highest-risk phase."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "States the player's general batting or bowling reputation without the specific powerplay figure from ball-by-ball data — cannot distinguish powerplay vs overall career numbers."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

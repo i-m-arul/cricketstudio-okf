@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a pull shot in cricket?"
 description: "The pull shot is a batting shot played to short-pitched deliveries that rise to around waist-to-chest height. The batter rocks back and swings horizontally across the line, directing the ball between square leg and fine leg. In T20/IPL, the pull is an essential boundary-scoring tool against bouncers."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

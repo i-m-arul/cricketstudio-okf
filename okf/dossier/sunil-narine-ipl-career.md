@@ -2,6 +2,9 @@
 type: dossier
 title: "Sunil Narine IPL Career — Best Economy in Top 10 Wickets"
 description: "Verified answer: Narine took 192 wickets in 187 IPL matches through 2025 with 6.80 economy — best in the top 10 wicket-takers."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Sunil Narine IPL Career without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/sunil-narine
 canonical_page: https://players.cricketstudio.ai/players/sunil-narine
 tags:

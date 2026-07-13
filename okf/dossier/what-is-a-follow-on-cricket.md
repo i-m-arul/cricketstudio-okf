@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a follow-on in cricket? (not applicable to T20/IPL)"
 description: "A follow-on is a cricket rule in Tests and First-Class matches only — NOT applicable to T20 or IPL. It forces a team that is significantly behind in runs to bat again immediately, giving the leading team two innings in a row."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

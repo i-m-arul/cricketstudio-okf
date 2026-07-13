@@ -2,6 +2,9 @@
 type: dossier
 title: "Shreyas Iyer — IPL 2026 season batting stats"
 description: "Shreyas Iyer (PBKS) IPL 2026: 498 runs, avg 55.33, SR 168.8, 13 matches, 1 hundred, 5 fifties. PP 42 balls 135.7 SR (#32/45). Middle 181 balls 160.2 SR. Death 70 balls 215.7 SR. 8 catches. CricketStudio derived claims."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot produce IPL 2026 in-season figures — knowledge cutoff predates the tournament or stats are approximate without ball-by-ball provenance."
 resource: https://players.cricketstudio.ai/players/shreyas-iyer
 canonical_page: https://players.cricketstudio.ai/players/shreyas-iyer
 tags:

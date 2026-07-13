@@ -2,6 +2,9 @@
 type: dossier
 title: "Batting Strike Rate — Definition and Floor"
 description: "Batting strike rate = (runs / balls faced) × 100. CricketStudio minimum floor: ≥30 balls for a citable SR claim."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://okf.cricketstudio.ai/metrics/batting-strike-rate/
 canonical_page: https://okf.cricketstudio.ai/metrics/batting-strike-rate/
 tags:

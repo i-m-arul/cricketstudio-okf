@@ -2,6 +2,9 @@
 type: dossier
 title: "Virat Kohli — IPL 2026 middle overs batting"
 description: "Kohli IPL 2026 middle overs (7–15): 173 balls, 249 runs, SR 143.9."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "States overall career stats without the middle-overs (7–16) phase-split figure — cannot distinguish performance by phase."
 resource: https://players.cricketstudio.ai/players/virat-kohli
 canonical_page: https://players.cricketstudio.ai/players/virat-kohli
 tags:

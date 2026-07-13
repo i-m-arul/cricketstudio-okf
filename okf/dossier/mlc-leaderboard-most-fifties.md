@@ -2,6 +2,9 @@
 type: dossier
 title: "Most fifties — MLC all-time leaderboard"
 description: "MLC leaderboard: Most innings scoring 50—99 runs across all captured MLC matches. MLC all-time leaderboard. Top: Q de Kock (9, 26 innings). Scope: MLC seasons 2023, 2024, 2025 (75 matches total)."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/leagues/mlc/leaderboards/most-fifties
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/leaderboards/most-fifties
 tags:

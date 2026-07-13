@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a powerplay wicket in cricket?"
 description: "A powerplay wicket is a wicket taken in overs 1–6 when the field restriction is in effect. In T20/IPL, powerplay wickets are especially valuable — they remove a set batter before they can exploit the open field, disrupting the team's scoring platform."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "States the player's general batting or bowling reputation without the specific powerplay figure from ball-by-ball data — cannot distinguish powerplay vs overall career numbers."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

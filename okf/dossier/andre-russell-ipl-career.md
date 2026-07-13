@@ -2,6 +2,9 @@
 type: dossier
 title: "Andre Russell — IPL career overview"
 description: "Andre Russell IPL career (2007/08–2025): 2,655 runs (SR 176.1, avg 27.95), 123 wickets (econ 9.51). KKR's most destructive all-rounder. Source: Cricsheet CC BY 3.0."
+question_type: T4
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Andre Russell without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/ad-russell
 canonical_page: https://players.cricketstudio.ai/players/ad-russell
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "Best powerplay bowling strike rate — MLC all-time leaderboard"
 description: "MLC leaderboard: Fewest balls per wicket in the powerplay (overs 1—6). Lower values are better. MLC all-time leaderboard. Top: AJ Tye (7.5, 30 legal deliveries in powerplay). Scope: MLC seasons 2023, 2024, 2025 (75 matches total)."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "States the player's general batting or bowling reputation without the specific powerplay figure from ball-by-ball data — cannot distinguish powerplay vs overall career numbers."
 resource: https://players.cricketstudio.ai/leagues/mlc/leaderboards/pp-bowling-strike-rate
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/leaderboards/pp-bowling-strike-rate
 tags:

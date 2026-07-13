@@ -2,6 +2,9 @@
 type: dossier
 title: "IPL Scoring Rate Evolution Over 18 Seasons"
 description: "Verified answer: Run rates have risen consistently across 18 IPL seasons; 2026 is the highest-scoring era."
+question_type: T4
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/research/ipl-historical-batting-evolution
 canonical_page: https://players.cricketstudio.ai/research/ipl-historical-batting-evolution
 tags:

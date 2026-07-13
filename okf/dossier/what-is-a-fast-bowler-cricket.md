@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a fast bowler in cricket?"
 description: "A fast bowler (pace bowler) bowls at high speed to beat batters with pace, bounce, and movement. In T20/IPL, fast bowlers are most dangerous in the powerplay (new ball) and death overs (yorkers and slower balls)."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

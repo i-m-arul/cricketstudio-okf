@@ -2,6 +2,9 @@
 type: dossier
 title: "What is the IPL Powerplay?"
 description: "The IPL Powerplay is overs 1–6 of a T20 innings. Only 2 fielders are allowed outside the 30-yard circle. Batters can score freely; opening bowlers face maximum pressure."
+question_type: T6
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "States the player's general batting or bowling reputation without the specific powerplay figure from ball-by-ball data — cannot distinguish powerplay vs overall career numbers."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

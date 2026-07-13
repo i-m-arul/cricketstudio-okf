@@ -2,6 +2,9 @@
 type: dossier
 title: "What is the IPL salary cap?"
 description: "The IPL salary cap (also called the Player Retention Purse or team wage budget) limits the total amount each IPL franchise can spend on player contracts in a given season. In IPL 2026, the salary cap was ₹120 crore per team. The cap ensures competitive balance and prevents the richest franchises from monopolising all top players."
+question_type: T6
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

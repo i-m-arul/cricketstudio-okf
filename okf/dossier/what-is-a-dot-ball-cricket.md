@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a dot ball in cricket?"
 description: "A dot ball is a legal delivery off which the batting team scores no runs. It is called a 'dot' because a dot (.) is recorded in the scorebook for that ball. In T20/IPL, dot balls are the most important bowling metric — each dot 'wins' a delivery for the bowling team."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

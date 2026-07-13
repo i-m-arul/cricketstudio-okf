@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a flat pitch in cricket?"
 description: "A flat pitch in cricket is a hard, dry, low-grass surface that offers minimal assistance to pace bowlers (no swing or seam) and spinners (no turn). Flat pitches produce the highest batting scores and are common in IPL venues in the dry season."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

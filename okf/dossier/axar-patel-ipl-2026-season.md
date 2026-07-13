@@ -2,6 +2,9 @@
 type: dossier
 title: "Axar Patel — IPL 2026 season overview"
 description: "Axar Patel (DC) IPL 2026: 11 wickets, economy 8.18 in 13 matches. Batting: 173 runs, avg 17.30, SR 131.1. Middle overs primary wicket-taking phase (8 wkts from 168 balls)."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot produce IPL 2026 in-season figures — knowledge cutoff predates the tournament or stats are approximate without ball-by-ball provenance."
 resource: https://players.cricketstudio.ai/players/axar-patel
 canonical_page: https://players.cricketstudio.ai/players/axar-patel
 tags:

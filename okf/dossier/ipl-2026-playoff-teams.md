@@ -2,6 +2,9 @@
 type: dossier
 title: "IPL 2026 playoff teams"
 description: "The four teams that qualified for the IPL 2026 playoffs: RCB (#1), SRH (#2), GT (#3), and the fourth qualifier."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "States the team's general reputation without the specific phase-split batting SR or bowling economy figure from ball-by-ball data."
 resource: https://players.cricketstudio.ai/season/ipl-2026
 canonical_page: https://players.cricketstudio.ai/season/ipl-2026
 tags:

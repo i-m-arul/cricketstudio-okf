@@ -2,6 +2,9 @@
 type: dossier
 title: "N Pooran — MLC career batting overview"
 description: "Nicholas Pooran MLC career: 28 matches, 928 runs, 145.0 SR, 42.18 avg, 2 hundreds, 56 sixes. MI New York, 2023–2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for N Pooran without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/n-pooran
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/n-pooran
 tags:

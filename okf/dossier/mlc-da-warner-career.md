@@ -2,6 +2,9 @@
 type: dossier
 title: "DA Warner — MLC career batting overview"
 description: "David Warner MLC career: 6 matches, 114 runs, 126.7 SR, 19.0 avg. Seattle Orcas, MLC 2025 only."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for DA Warner without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/da-warner
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/da-warner
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "Suresh Raina — IPL career overview"
 description: "Suresh Raina IPL career: 5,536 runs at 137.5 SR with 204 sixes and 39 fifties across IPL 2007/08–2025. Source: Cricsheet CC BY 3.0."
+question_type: T4
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Suresh Raina without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/suresh-raina
 canonical_page: https://players.cricketstudio.ai/players/suresh-raina
 tags:

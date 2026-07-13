@@ -2,6 +2,9 @@
 type: dossier
 title: "Yash Dayal — IPL career bowling overview (pre-2026)"
 description: "Yash Dayal (GT/RCB) IPL career pre-2026: 41 wickets econ 9.60, 4 seasons (2022–2025). Middle 229 balls 12 wkts 8.33 econ (best phase). PP 438 balls 16 wkts 9.42 econ. Death 204 balls 13 wkts 11.41 econ. Left-arm seam. Cricsheet CC BY 3.0."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Yash Dayal without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/yash-dayal
 canonical_page: https://players.cricketstudio.ai/players/yash-dayal
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "IPL 2026 bowling economy — what is a 'good' economy rate in T20?"
 description: "Context for IPL 2026 bowling economy: sub-8.0 is excellent; 8.0–9.5 is average; above 9.5 is expensive. Phase-specific norms differ."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/season/ipl-2026/bowling-economy
 canonical_page: https://players.cricketstudio.ai/season/ipl-2026/bowling-economy
 tags:

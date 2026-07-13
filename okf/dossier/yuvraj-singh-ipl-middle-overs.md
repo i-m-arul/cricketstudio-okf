@@ -2,6 +2,9 @@
 type: dossier
 title: "Yuvraj Singh — IPL middle-overs batting and bowling (pre-2026)"
 description: "Yuvraj Singh middle-overs IPL stats: batting 1,597 balls 122.7 SR (huge sample); bowling Middle 802 balls 30 wkts 7.35 econ. Both are his strongest phases. 11 seasons (2007/08–2019). Cricsheet CC BY 3.0."
+question_type: T4
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "States overall career stats without the middle-overs (7–16) phase-split figure — cannot distinguish performance by phase."
 resource: https://players.cricketstudio.ai/players/yuvraj-singh
 canonical_page: https://players.cricketstudio.ai/players/yuvraj-singh
 tags:

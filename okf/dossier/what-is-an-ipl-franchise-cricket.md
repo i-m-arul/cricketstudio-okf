@@ -2,6 +2,9 @@
 type: dossier
 title: "What is an IPL franchise?"
 description: "An IPL franchise is one of the 10 privately-owned cricket teams that compete in the Indian Premier League. Each franchise holds a BCCI-granted licence to operate a city-based T20 team, manages a squad through the auction system, and earns revenue from broadcasting rights, sponsorship, and merchandise."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "States the team's general reputation without the specific phase-split batting SR or bowling economy figure from ball-by-ball data."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

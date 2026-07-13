@@ -2,6 +2,9 @@
 type: dossier
 title: "Sherfane Rutherford — IPL career batting overview (pre-2026)"
 description: "Sherfane Rutherford (DC/GT/RCB) IPL career pre-2026: 397 runs avg 24.81 SR 137.8, 3 seasons (2019–2025). Death 89 balls 164.0 SR. Middle 183 balls 135.0 SR. PP below floor. West Indian finisher. Cricsheet CC BY 3.0."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Sherfane Rutherford without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/sherfane-rutherford
 canonical_page: https://players.cricketstudio.ai/players/sherfane-rutherford
 tags:

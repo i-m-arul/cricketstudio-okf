@@ -2,6 +2,9 @@
 type: dossier
 title: "Shivam Mavi — IPL career bowling stats (pre-2026)"
 description: "Shivam Mavi (KKR) IPL career pre-2026: 30 wickets, econ 8.71, 4 seasons (2018–2022). Middle 186 balls 7.32 econ (best phase). PP 300 balls 8.14 econ. Death 163 balls 12 wkts 11.34 econ. Cricsheet CC BY 3.0."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Shivam Mavi without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/shivam-mavi
 canonical_page: https://players.cricketstudio.ai/players/shivam-mavi
 tags:

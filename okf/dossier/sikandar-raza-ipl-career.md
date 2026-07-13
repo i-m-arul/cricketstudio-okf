@@ -2,6 +2,9 @@
 type: dossier
 title: "Sikandar Raza — IPL career batting overview (pre-2026)"
 description: "Sikandar Raza (PBKS) IPL career pre-2026: 182 runs avg 26.00 SR 133.8, 2 seasons (2023–2024). Middle 100 balls 140.0 SR (only citable phase). Zimbabwean all-rounder. Cricsheet CC BY 3.0."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Sikandar Raza without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/sikandar-raza
 canonical_page: https://players.cricketstudio.ai/players/sikandar-raza
 tags:

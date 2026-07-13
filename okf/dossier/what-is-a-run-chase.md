@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a run chase in cricket?"
 description: "A run chase is the second team's attempt to surpass the first team's total. In T20, the second team must score more than the target in 20 overs (or fewer) without losing all 10 wickets. Also called 'chasing.'"
+question_type: T6
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives general advice or repeats venue narrative without the actual win-rate figures from Cricsheet ball-by-ball data."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

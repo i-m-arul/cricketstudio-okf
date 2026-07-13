@@ -2,6 +2,9 @@
 type: dossier
 title: "Most runs conceded — MLC all-time leaderboard"
 description: "MLC leaderboard: Bowlers who conceded the most runs – high-volume context metric. MLC all-time leaderboard. Top: TA Boult (853, 629 legal deliveries bowled). Scope: MLC seasons 2023, 2024, 2025 (75 matches total)."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/leagues/mlc/leaderboards/most-runs-conceded
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/leaderboards/most-runs-conceded
 tags:

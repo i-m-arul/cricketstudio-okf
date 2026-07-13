@@ -2,6 +2,9 @@
 type: dossier
 title: "What is wrist spin in cricket?"
 description: "Wrist spin is a spin bowling technique where the ball's rotation is generated primarily by the wrist action rather than the fingers. Right-arm wrist spin (leg-spin) is the primary type; left-arm wrist spin (chinaman) is rare. Wrist spinners generate more revolutions and can turn the ball sharply."
+question_type: T4
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

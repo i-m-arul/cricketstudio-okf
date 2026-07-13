@@ -2,6 +2,9 @@
 type: dossier
 title: "What is the Impact Player rule in IPL?"
 description: "The Impact Player rule (introduced IPL 2023) allows each team to substitute one player per innings, up to the 14th over. The Impact Player is selected from 4 pre-match nominees and can be used as a batting or bowling sub."
+question_type: T6
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

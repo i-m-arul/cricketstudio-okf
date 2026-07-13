@@ -2,6 +2,9 @@
 type: dossier
 title: "Where Was IPL 2020 Played?"
 description: "Verified answer: IPL 2020/21 was played in UAE (Dubai, Abu Dhabi, Sharjah) due to COVID-19."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/season/ipl-2020-21
 canonical_page: https://players.cricketstudio.ai/season/ipl-2020-21
 tags:

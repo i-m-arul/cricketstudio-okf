@@ -2,6 +2,9 @@
 type: dossier
 title: "LE Plunkett — MLC career overview"
 description: "LE Plunkett MLC career: 19R, 79.2 SR (6M bat). 15 wkts, 8.86 econ (15M bowl). San Francisco Unicorns. MLC 2023, 2024, 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for LE Plunkett without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/le-plunkett
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/le-plunkett
 tags:

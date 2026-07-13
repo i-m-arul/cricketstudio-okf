@@ -2,6 +2,9 @@
 type: dossier
 title: What is F du Plessis's MLC career record?
 description: Verified answer for F du Plessis MLC career stats. All-time MLC run leader with 934 runs from 571 balls (SR 163.6) across 25 matches, MLC 2023–2025. Plays for Texas Super Kings.
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for this player without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 status: active
 last_verified: 2026-06-21
 timestamp: 2026-06-21

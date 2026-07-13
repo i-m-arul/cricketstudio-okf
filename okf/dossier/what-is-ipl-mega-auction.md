@@ -2,6 +2,9 @@
 type: dossier
 title: "What is the IPL Mega Auction?"
 description: "The IPL Mega Auction is a periodic (every 2–3 years) player auction where franchises reset their entire squad — most players re-enter the auction pool. Franchises may retain a limited number of players before the auction. The Mega Auction precedes the IPL 2025 season. It differs from the annual IPL Mini Auction (incremental squad additions)."
+question_type: T6
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

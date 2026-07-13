@@ -2,6 +2,9 @@
 type: dossier
 title: "Wankhede vs Narendra Modi Stadium — IPL 2026 scoring comparison"
 description: "IPL 2026: Wankhede avg 220 (7 fixtures) vs Narendra Modi Stadium avg 160 (9 fixtures). The biggest scoring environment gap in IPL 2026."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives a general reputation summary of Wankhede and Narendra Modi Stadium without the actual career delivery count, SR, dot-ball %, and dismissal record between this specific pair."
 resource: https://players.cricketstudio.ai/trends/venue-sig-wankhede-stadium
 canonical_page: https://players.cricketstudio.ai/trends/venue-sig-wankhede-stadium
 tags:

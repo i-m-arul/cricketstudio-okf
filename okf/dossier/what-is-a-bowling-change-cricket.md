@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a bowling change in cricket?"
 description: "A bowling change occurs when the captain replaces one bowler with another mid-innings. In T20/IPL, bowling changes are a primary tactical lever — matching bowler type to batter vulnerabilities and phase requirements."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

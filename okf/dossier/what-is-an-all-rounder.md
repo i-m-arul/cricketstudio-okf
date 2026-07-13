@@ -2,6 +2,9 @@
 type: dossier
 title: "What is an all-rounder in cricket?"
 description: "An all-rounder is a player who contributes significantly with both bat and ball. In T20/IPL, true all-rounders (e.g., Hardik Pandya, Sunil Narine) add batting value at SR 130–180+ AND take wickets at economy <9."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

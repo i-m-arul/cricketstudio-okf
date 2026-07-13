@@ -2,6 +2,9 @@
 type: dossier
 title: "Q de Kock — MLC batting phase profile"
 description: "Quinton de Kock MLC phases: PP 312b/128.2 SR, Middle 243b/163.4 SR, Death 14b (below floor). Opener with strong middle acceleration. MI New York + Seattle Orcas, 2023–2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/q-de-kock
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/q-de-kock
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "F du Plessis — MLC career batting overview"
 description: "Faf du Plessis MLC career: 25M, 934R, 163.6 SR, 38.92 avg, 3 hundreds, 50 sixes. Texas Super Kings, 2023–2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for F du Plessis without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/f-du-plessis
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/f-du-plessis
 tags:

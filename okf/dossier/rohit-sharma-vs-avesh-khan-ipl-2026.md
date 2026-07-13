@@ -2,6 +2,9 @@
 type: dossier
 title: "Rohit Sharma vs Avesh Khan — IPL 2026 H2H"
 description: "Rohit Sharma vs Avesh Khan IPL 2026: 13 balls, 35 runs, SR 269.2, 3 fours, 3 sixes, 0 dismissals. Rohit dominated Avesh in their IPL 2026 powerplay matchups. CricketStudio derived claims."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives a general reputation summary of Rohit Sharma and Avesh Khan without the actual career delivery count, SR, dot-ball %, and dismissal record between this specific pair."
 resource: https://players.cricketstudio.ai/h2h/rohit-sharma-vs-avesh-khan
 canonical_page: https://players.cricketstudio.ai/h2h/rohit-sharma-vs-avesh-khan
 tags:

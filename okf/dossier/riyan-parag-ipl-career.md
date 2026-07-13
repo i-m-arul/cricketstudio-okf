@@ -2,6 +2,9 @@
 type: dossier
 title: "Riyan Parag — IPL career batting overview (pre-2026)"
 description: "Riyan Parag (Rajasthan Royals) IPL career pre-2026: 1,570 runs avg 25.74 SR 142.6, 7 seasons (2019–2025). Death batting 254 balls 164.2 SR (best phase). Middle bowling 276 balls 6 wkts 9.63 econ. Cricsheet CC BY 3.0."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Riyan Parag without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/riyan-parag
 canonical_page: https://players.cricketstudio.ai/players/riyan-parag
 tags:

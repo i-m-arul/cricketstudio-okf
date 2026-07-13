@@ -2,6 +2,9 @@
 type: dossier
 title: "Dhruv Jurel — IPL career batting overview (2023–2025)"
 description: "Dhruv Jurel (RR) IPL career 2023–2025: 680 runs, avg 28.33, SR 153.8. Death: 188 balls, 183.0 SR — his dominant phase. Middle 241 balls 129.9 SR. Wicket-keeper finisher. Cricsheet CC BY 3.0."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Dhruv Jurel without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/dhruv-jurel
 canonical_page: https://players.cricketstudio.ai/players/dhruv-jurel
 tags:

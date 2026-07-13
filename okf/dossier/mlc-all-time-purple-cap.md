@@ -2,6 +2,9 @@
 type: dossier
 title: MLC all-time Purple Cap — who has taken the most wickets?
 description: Verified answer for MLC's all-time wicket-taking leader. TA Boult leads with 46 wickets across three seasons (Cricsheet CC BY 3.0, 75 matches). Includes top-5, per-season leaders, and economy context.
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 status: active
 last_verified: 2026-06-18
 timestamp: 2026-06-18

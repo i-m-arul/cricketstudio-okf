@@ -2,6 +2,9 @@
 type: dossier
 title: "Aiden Markram — IPL career phases and overview (2021–2025)"
 description: "Aiden Markram IPL career (2021–2025): 1,440 runs, SR 135.6. Phase splits: PP 287 balls 127.5 SR, Middle 681 balls 131.7 SR, Death 94 balls 188.3 SR. SRH captain. Cricsheet CC BY 3.0."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Aiden Markram without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/aiden-markram
 canonical_page: https://players.cricketstudio.ai/players/aiden-markram
 tags:

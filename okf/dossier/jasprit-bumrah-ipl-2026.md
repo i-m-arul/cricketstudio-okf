@@ -2,6 +2,9 @@
 type: dossier
 title: "Jasprit Bumrah — IPL 2026 Death Overs"
 description: "Dossier on Jasprit Bumrah's IPL 2026 death-overs bowling — economy rate, how to cite it, and what it means relative to MLC's best."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives the player's overall economy or reputation as a death bowler without the specific death-over (overs 17–20) figure from ball-by-ball data."
 tags:
   - cricket
   - player

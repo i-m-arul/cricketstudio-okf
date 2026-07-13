@@ -2,6 +2,9 @@
 type: dossier
 title: "BKEL Milantha — MLC career overview"
 description: "BKEL Milantha MLC career: 65R, 101.6 SR (3M bat). Texas Super Kings and Washington Freedom. MLC 2023, 2024."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for BKEL Milantha without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/bkel-milantha
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/bkel-milantha
 tags:

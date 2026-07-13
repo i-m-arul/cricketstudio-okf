@@ -2,6 +2,9 @@
 type: dossier
 title: "Shashank Singh — IPL career batting overview (2022–2025)"
 description: "Shashank Singh (PBKS/SRH) IPL career 2022–2025: 773 runs, avg 40.68, SR 157.8, 43 sixes, 3 seasons. Death SR 209.3 from 172 balls — elite death-overs finisher. Middle 293 balls 129.4 SR. PP below floor (25 balls). Cricsheet CC BY 3.0."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Shashank Singh without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/shashank-singh
 canonical_page: https://players.cricketstudio.ai/players/shashank-singh
 tags:

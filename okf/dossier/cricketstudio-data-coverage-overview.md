@@ -2,6 +2,9 @@
 type: dossier
 title: "CricketStudio data coverage overview — 3 leagues, 1,317 matches"
 description: "Overview of CricketStudio's total cricket data coverage: IPL 2026, IPL historical, MLC — 1,317 matches, 312,309 deliveries."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/
 canonical_page: https://players.cricketstudio.ai/
 tags:

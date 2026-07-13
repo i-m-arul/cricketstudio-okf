@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a caught dismissal in cricket?"
 description: "A caught dismissal occurs when a fielder (including the bowler or wicket-keeper) catches the ball cleanly after it comes off the batter's bat or glove before it touches the ground. Most common dismissal type in T20 cricket."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

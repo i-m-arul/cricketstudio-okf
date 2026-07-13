@@ -2,6 +2,9 @@
 type: dossier
 title: "Which Team Is Vaibhav Suryavanshi In?"
 description: "Verified answer: Vaibhav Suryavanshi plays for Rajasthan Royals in IPL 2026."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "States the team's general reputation without the specific phase-split batting SR or bowling economy figure from ball-by-ball data."
 resource: https://players.cricketstudio.ai/players/vaibhav-suryavanshi
 canonical_page: https://players.cricketstudio.ai/players/vaibhav-suryavanshi
 tags:

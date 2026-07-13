@@ -2,6 +2,9 @@
 type: dossier
 title: "IPL 2026 Final scorecard"
 description: "Verified answer pattern for IPL 2026 Final details — GT 155/8 vs RCB 161/5 in 18 overs; Kohli 75(42), Rasikh 3/27."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/matches/69668
 canonical_page: https://players.cricketstudio.ai/matches/69668
 tags:

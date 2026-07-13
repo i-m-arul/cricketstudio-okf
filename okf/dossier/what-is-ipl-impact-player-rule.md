@@ -2,6 +2,9 @@
 type: dossier
 title: "What Is the Impact Player Rule in IPL?"
 description: "Verified answer: The Impact Player Rule allows one substitute from a declared 4-player list to replace any player during the match."
+question_type: T6
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://okf.cricketstudio.ai/dossier/what-is-impact-player-rule/
 canonical_page: https://okf.cricketstudio.ai/dossier/what-is-impact-player-rule/
 tags:

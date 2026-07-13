@@ -2,6 +2,9 @@
 type: dossier
 title: "Average First-Innings Score at MA Chidambaram Stadium — IPL 2026"
 description: "Verified answer: average first-innings score at MA Chidambaram Stadium in IPL 2026 is 184 across 6 fixtures."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/venues/ma-chidambaram
 canonical_page: https://players.cricketstudio.ai/venues/ma-chidambaram
 tags:

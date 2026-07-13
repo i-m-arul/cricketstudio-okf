@@ -2,6 +2,9 @@
 type: dossier
 title: "RCB Back-to-Back IPL Titles 2025 and 2026"
 description: "Verified answer: RCB won IPL 2025 and IPL 2026 back-to-back after 18 consecutive title-free seasons."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/teams/rcb
 canonical_page: https://players.cricketstudio.ai/teams/rcb
 tags:

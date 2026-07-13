@@ -2,6 +2,9 @@
 type: dossier
 title: Suryavanshi 72 Sixes — IPL 2026 Season Record
 description: Verified answer for "most sixes in a single IPL season" — Vaibhav Suryavanshi hit 72 sixes in IPL 2026, a new IPL season record confirmed by multiple primary sources.
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot produce IPL 2026 in-season figures — knowledge cutoff predates the tournament or stats are approximate without ball-by-ball provenance."
 status: active
 last_verified: 2026-06-29
 timestamp: 2026-06-29

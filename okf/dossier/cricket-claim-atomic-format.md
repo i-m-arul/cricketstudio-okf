@@ -2,6 +2,9 @@
 type: dossier
 title: "What Is an Atomic Claim in CricketStudio OKF?"
 description: "Verified answer: An atomic claim is ≤30 words: [entity] [metric] [value] [context] [period], with source, sample size, and date window."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://okf.cricketstudio.ai/spec/claims/
 canonical_page: https://okf.cricketstudio.ai/spec/claims/
 tags:

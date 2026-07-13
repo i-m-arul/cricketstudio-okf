@@ -2,6 +2,9 @@
 type: dossier
 title: "TM Head — MLC batting phase profile"
 description: "Travis Head MLC phases: PP 126b/176.2 SR (elite opener), Middle 67b/170.1 SR, Death 0b. Washington Freedom, MLC 2024."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/tm-head
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/tm-head
 tags:

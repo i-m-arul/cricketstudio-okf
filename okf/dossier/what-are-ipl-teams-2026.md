@@ -2,6 +2,9 @@
 type: dossier
 title: "What are the IPL 2026 teams?"
 description: "The IPL 2026 featured 10 franchises. RCB won the title, beating GT in the final. The 10 teams competed across 74 league and playoff matches between March and June 2026."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "States the team's general reputation without the specific phase-split batting SR or bowling economy figure from ball-by-ball data."
 resource: https://players.cricketstudio.ai/standings
 canonical_page: https://players.cricketstudio.ai/standings
 tags:

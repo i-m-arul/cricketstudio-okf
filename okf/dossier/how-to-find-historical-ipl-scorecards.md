@@ -1,5 +1,8 @@
 ---
 type: dossier
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 title: How to Find Historical IPL Scorecards and Match Data
 description: >
   Where to find historical IPL scorecards, ball-by-ball data, and match results —

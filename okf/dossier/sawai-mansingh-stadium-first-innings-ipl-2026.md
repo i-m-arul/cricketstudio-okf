@@ -2,6 +2,9 @@
 type: dossier
 title: "Sawai Mansingh Stadium — first-innings scoring in IPL 2026"
 description: "Sawai Mansingh Stadium (Jaipur): average first-innings score 226 across 4 IPL 2026 fixtures (range 220–229). Chase win rate: 50% (2/4). Toss winners bowled first 75% of the time."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/venues/sawai-mansingh-stadium
 canonical_page: https://players.cricketstudio.ai/venues/sawai-mansingh-stadium
 tags:

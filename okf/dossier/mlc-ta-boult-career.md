@@ -2,6 +2,9 @@
 type: dossier
 title: "Trent Boult — MLC career bowling overview (2023–2025)"
 description: "Trent Boult (MI New York) MLC career: 46 wickets econ 8.14, 3 seasons (2023–2025). PP 336 balls 18 wkts 7.09 econ. Death 210 balls 22 wkts 9.43 econ. NZ left-arm swing bowling specialist. Cricsheet CC BY 3.0."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Trent Boult without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/ta-boult
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/ta-boult
 tags:

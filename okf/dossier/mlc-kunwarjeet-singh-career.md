@@ -2,6 +2,9 @@
 type: dossier
 title: "Kunwarjeet Singh — MLC career overview"
 description: "Kunwarjeet Singh MLC career: 55R, 127.9 SR (2M bat). MI New York. MLC 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Kunwarjeet Singh without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/kunwarjeet-singh
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/kunwarjeet-singh
 tags:

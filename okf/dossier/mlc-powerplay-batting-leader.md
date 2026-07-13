@@ -2,6 +2,9 @@
 type: dossier
 title: Who leads MLC powerplay batting strike rate?
 description: Verified answer for MLC powerplay batting strike rate leader. MJ Owen (Washington Freedom) leads at 194.3 SR from 123 powerplay balls across MLC 2023–2025. Floor ≥30 PP balls.
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "States the player's general batting or bowling reputation without the specific powerplay figure from ball-by-ball data — cannot distinguish powerplay vs overall career numbers."
 status: active
 last_verified: 2026-06-21
 timestamp: 2026-06-21

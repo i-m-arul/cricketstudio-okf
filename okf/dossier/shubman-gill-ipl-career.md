@@ -2,6 +2,9 @@
 type: dossier
 title: "Shubman Gill — IPL career batting overview (pre-2026)"
 description: "Shubman Gill (KKR/GT) IPL career pre-2026: 3,866 runs, avg 39.45, SR 139.4, 114 matches, 8 seasons (2018–2025). Best: 2023 GT 890 runs 158.9 SR. Highest score 129. Cricsheet CC BY 3.0."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Shubman Gill without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/shubman-gill
 canonical_page: https://players.cricketstudio.ai/players/shubman-gill
 tags:

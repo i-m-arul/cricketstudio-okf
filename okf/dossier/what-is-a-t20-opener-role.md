@@ -2,6 +2,9 @@
 type: dossier
 title: "What is the role of a T20 opener in cricket?"
 description: "A T20 opener bats from the first ball of the innings, facing the new ball in the powerplay. The opener's role is to maximise the open field restriction (overs 1–6) — either through aggressive boundary hitting or setting a strong platform. Openers are typically a team's most impactful powerplay batters."
+question_type: T6
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

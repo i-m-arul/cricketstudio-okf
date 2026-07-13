@@ -2,6 +2,9 @@
 type: dossier
 title: "R Shepherd — MLC career overview"
 description: "R Shepherd MLC career: 124R, 144.2 SR (9M bat). 11 wkts, 7.94 econ (9M bowl). MI New York and San Francisco Unicorns. MLC 2024, 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for R Shepherd without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/r-shepherd
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/r-shepherd
 tags:

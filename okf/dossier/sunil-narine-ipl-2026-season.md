@@ -2,6 +2,9 @@
 type: dossier
 title: "Sunil Narine — IPL 2026 season bowling stats"
 description: "Sunil Narine (KKR) IPL 2026: 17 wickets, 6.60 economy, 13 matches. Death-overs economy 5.44 from 54 balls — #2 of 66 qualifying bowlers in IPL 2026. Middle 180 balls 6.47 econ. PP 75 balls 7.76 econ. Exceptional Death-overs spinner. CricketStudio derived claims."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot produce IPL 2026 in-season figures — knowledge cutoff predates the tournament or stats are approximate without ball-by-ball provenance."
 resource: https://players.cricketstudio.ai/players/sunil-narine
 canonical_page: https://players.cricketstudio.ai/players/sunil-narine
 tags:

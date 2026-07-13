@@ -2,6 +2,9 @@
 type: dossier
 title: "What is the T20 World Cup?"
 description: "The ICC Men's T20 World Cup is the international T20 cricket championship organized by the International Cricket Council (ICC). It is separate from the IPL — it features national teams, not franchise teams, and is held every two years."
+question_type: T6
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

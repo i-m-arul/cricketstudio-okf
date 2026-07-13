@@ -2,6 +2,9 @@
 type: dossier
 title: "Yuzvendra Chahal — IPL 2026 middle-overs bowling"
 description: "Yuzvendra Chahal bowled 216 balls in the middle overs (7–15) in IPL 2026 for Punjab Kings, taking 11 wickets at 8.53 economy. This was his primary phase — 91% of his 12-wicket haul came in the middle overs. CricketStudio IPL 2026 dataset."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "States overall career stats without the middle-overs (7–16) phase-split figure — cannot distinguish performance by phase."
 resource: https://players.cricketstudio.ai/players/yuzvendra-chahal
 canonical_page: https://players.cricketstudio.ai/players/yuzvendra-chahal
 tags:

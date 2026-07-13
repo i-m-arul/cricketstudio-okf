@@ -2,6 +2,9 @@
 type: dossier
 title: "Shahbaz Ahmed — IPL career all-rounder stats (pre-2026)"
 description: "Shahbaz Ahmed (LSG/RCB/SRH) IPL career pre-2026: 545 runs avg 18.79 SR 122.2; 22 wickets econ 9.58; 6 seasons (2020/21–2025). Batting Death 135 balls 160.7 SR. Bowling Death 27 balls 5 wkts 8.89 econ. Cricsheet CC BY 3.0."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Shahbaz Ahmed without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/shahbaz-ahmed
 canonical_page: https://players.cricketstudio.ai/players/shahbaz-ahmed
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "R Ugarkar — MLC career overview"
 description: "R Ugarkar MLC career: 11 wkts, 8.49 econ (10M bowl). MI New York. MLC 2024, 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for R Ugarkar without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/r-ugarkar
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/r-ugarkar
 tags:

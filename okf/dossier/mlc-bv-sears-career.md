@@ -2,6 +2,9 @@
 type: dossier
 title: "BV Sears — MLC career overview"
 description: "BV Sears MLC career: 15R, 150.0 SR (1M bat). 0 wkts, 12.25 econ (1M bowl). Washington Freedom. MLC 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for BV Sears without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/bv-sears
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/bv-sears
 tags:

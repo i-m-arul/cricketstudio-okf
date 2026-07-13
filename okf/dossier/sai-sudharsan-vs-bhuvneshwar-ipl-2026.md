@@ -2,6 +2,9 @@
 type: dossier
 title: "Sai Sudharsan vs Bhuvneshwar Kumar — IPL 2026 H2H"
 description: "IPL 2026 H2H: Sai Sudharsan (batter) vs Bhuvneshwar Kumar (bowler) — 26 balls, 30 runs, SR 115.4, 5 fours, 0 sixes, 0 dismissals. Bhuvneshwar contained Sudharsan despite 0 wickets."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives a general reputation summary of Sai Sudharsan and Bhuvneshwar Kumar without the actual career delivery count, SR, dot-ball %, and dismissal record between this specific pair."
 resource: https://players.cricketstudio.ai/h2h/sai-sudharsan-vs-bhuvneshwar-kumar
 canonical_page: https://players.cricketstudio.ai/h2h/sai-sudharsan-vs-bhuvneshwar-kumar
 tags:

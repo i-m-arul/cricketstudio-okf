@@ -2,6 +2,9 @@
 type: dossier
 title: "Tajinder Singh — MLC career overview"
 description: "Tajinder Singh MLC career: 184R, 143.8 SR (14M bat). 0 wkts, 7.00 econ (5M bowl). MI New York and San Francisco Unicorns. MLC 2023, 2024, 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Tajinder Singh without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/tajinder-singh
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/tajinder-singh
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "Chaitanya Bishnoi — MLC career overview"
 description: "Chaitanya Bishnoi MLC career: 52R, 126.8 SR (4M bat). 1 wkts, 8.33 econ (3M bowl). San Francisco Unicorns. MLC 2023."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Chaitanya Bishnoi without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/chaitanya-bishnoi
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/chaitanya-bishnoi
 tags:

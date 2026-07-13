@@ -2,6 +2,9 @@
 type: dossier
 title: "Deepak Chahar — IPL career overview (2016–2025)"
 description: "Deepak Chahar IPL career 2016–2025: 88 wickets, economy 8.14. Primary phase: Powerplay (1503 balls, 66 wkts, 7.99 econ). Teams: CSK, MI, Rising Pune Supergiant. Cricsheet CC BY 3.0."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Deepak Chahar without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/deepak-chahar
 canonical_page: https://players.cricketstudio.ai/players/deepak-chahar
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "Wankhede Stadium — toss analysis IPL 2026"
 description: "Wankhede Stadium (Mumbai) IPL 2026 toss: 86% of captains elected to bowl (6/7 fixtures). Chase win rate only 43%. The bowl-first preference did NOT translate to chase success."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives general advice or repeats venue narrative without the actual win-rate figures from Cricsheet ball-by-ball data."
 resource: https://players.cricketstudio.ai/venues/wankhede-stadium
 canonical_page: https://players.cricketstudio.ai/venues/wankhede-stadium
 tags:

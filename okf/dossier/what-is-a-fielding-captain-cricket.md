@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a fielding captain in cricket?"
 description: "The fielding captain is the leader of the team that is bowling and fielding in a cricket innings. They control bowler selection, field placement, bowling changes, and decide when to use tactical options like DRS reviews."
+question_type: T6
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

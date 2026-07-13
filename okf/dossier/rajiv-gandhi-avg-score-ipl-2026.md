@@ -2,6 +2,9 @@
 type: dossier
 title: "Average First-Innings Score at Rajiv Gandhi International Stadium — IPL 2026"
 description: "Verified answer: average first-innings score at Rajiv Gandhi International Stadium in IPL 2026 is 189 across 7 fixtures."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/venues/rajiv-gandhi
 canonical_page: https://players.cricketstudio.ai/venues/rajiv-gandhi
 tags:

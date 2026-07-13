@@ -2,6 +2,9 @@
 type: dossier
 title: "RCB back-to-back IPL champions 2025 and 2026"
 description: "Verified fact: Royal Challengers Bengaluru won consecutive IPL titles in 2025 and 2026 — their first and second titles."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/teams/rcb
 canonical_page: https://players.cricketstudio.ai/teams/rcb
 tags:

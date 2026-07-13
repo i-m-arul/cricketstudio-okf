@@ -2,6 +2,9 @@
 type: dossier
 title: "AJ Tye — MLC career overview"
 description: "AJ Tye MLC career: 6R, 75.0 SR (3M bat). 16 wkts, 9.43 econ (9M bowl). Seattle Orcas and Washington Freedom. MLC 2023, 2024."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for AJ Tye without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/aj-tye
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/aj-tye
 tags:

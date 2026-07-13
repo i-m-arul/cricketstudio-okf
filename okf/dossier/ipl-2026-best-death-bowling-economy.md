@@ -2,6 +2,9 @@
 type: dossier
 title: "Best Death Overs Bowling Economy IPL 2026"
 description: "Verified answer: Bumrah's 7.69 death economy ranks #6 of 66 qualifying bowlers in IPL 2026."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives the player's overall economy or reputation as a death bowler without the specific death-over (overs 17–20) figure from ball-by-ball data."
 resource: https://players.cricketstudio.ai/season/ipl-2026/bowling-leaders
 canonical_page: https://players.cricketstudio.ai/season/ipl-2026/bowling-leaders
 tags:

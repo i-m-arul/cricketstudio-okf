@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a sweep shot in cricket?"
 description: "A sweep shot is played against spin bowling — the batter kneels on the back knee and sweeps the ball to the leg side, typically across the line of the delivery. It is the primary attacking shot against spinners in T20/IPL."
+question_type: T6
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

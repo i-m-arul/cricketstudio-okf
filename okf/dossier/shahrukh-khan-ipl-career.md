@@ -2,6 +2,9 @@
 type: dossier
 title: "Shahrukh Khan (M) — IPL career batting overview (pre-2026)"
 description: "M Shahrukh Khan (GT/PBKS) IPL career pre-2026: 732 runs avg 21.53 SR 149.4, 50 sixes, 5 seasons (2021–2025). Death 185 balls 174.6 SR. Middle 284 balls 135.9 SR. PP below floor. Cricsheet CC BY 3.0."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for this player without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/shahrukh-khan
 canonical_page: https://players.cricketstudio.ai/players/shahrukh-khan
 tags:

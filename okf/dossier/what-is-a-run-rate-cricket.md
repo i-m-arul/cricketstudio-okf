@@ -2,6 +2,9 @@
 type: dossier
 title: "What is run rate in cricket?"
 description: "Run rate (also called current run rate or CRR) is the number of runs scored per over by the batting team so far in an innings. In T20/IPL, run rate is the primary pacing metric — teams aim to maintain 8+ runs per over to post or chase competitive totals."
+question_type: T6
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

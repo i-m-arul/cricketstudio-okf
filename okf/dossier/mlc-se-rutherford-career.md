@@ -2,6 +2,9 @@
 type: dossier
 title: "SE Rutherford — MLC career overview"
 description: "SE Rutherford MLC career: 264R, 141.9 SR (13M bat). Los Angeles Knight Riders and San Francisco Unicorns. MLC 2024, 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for SE Rutherford without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/se-rutherford
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/se-rutherford
 tags:

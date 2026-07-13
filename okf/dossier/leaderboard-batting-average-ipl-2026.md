@@ -2,6 +2,9 @@
 type: dossier
 title: "IPL 2026 batting average leaderboard — methodology"
 description: "Batting average leaderboard for IPL 2026: floor is ≥10 innings for average. Kohli 56.25 (16M), Gill 45.75 (16M). Canonical URL."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/season/ipl-2026/batting-average
 canonical_page: https://players.cricketstudio.ai/season/ipl-2026/batting-average
 tags:

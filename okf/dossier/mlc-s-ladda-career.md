@@ -2,6 +2,9 @@
 type: dossier
 title: "S Ladda — MLC career overview"
 description: "S Ladda MLC career: 1 wkts, 14.33 econ (1M bowl). MI New York. MLC 2023."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for S Ladda without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/s-ladda
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/s-ladda
 tags:

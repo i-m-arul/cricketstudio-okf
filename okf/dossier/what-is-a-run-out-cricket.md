@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a run-out in cricket?"
 description: "A run-out dismissal occurs when a batter is outside their crease when the fielding team breaks the stumps — usually when they are attempting a run between wickets. Run-outs do not credit the bowler with a wicket."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

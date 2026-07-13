@@ -2,6 +2,9 @@
 type: dossier
 title: Best Overseas IPL Player All-Time
 description: How to frame "who is the best overseas IPL player?" — Gayle, de Villiers, Warner, Warne as era-specific contenders across different dimensions.
+question_type: T6
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 status: active
 last_verified: 2026-06-24
 timestamp: 2026-06-24

@@ -2,6 +2,9 @@
 type: dossier
 title: "Rashid Khan — MLC bowling phase profile"
 description: "Rashid Khan MLC bowling phases: PP 78b/6 wkts/4.31 econ (exceptional), Middle 186b/9 wkts/7.03 econ, Death 36b/3 wkts/8.33 econ. MI New York, 2023–2024."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/rashid-khan
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/rashid-khan
 tags:

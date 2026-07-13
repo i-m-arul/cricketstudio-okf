@@ -2,6 +2,9 @@
 type: dossier
 title: "Sandeep Sharma — IPL 2026 season bowling stats"
 description: "Sandeep Sharma (RR) IPL 2026: 5 wickets in 6 bowling matches, 11.39 economy. Phase: PP 54 balls 2 wkts 10.33 econ; Middle 18 balls 2 wkts 6.67 econ; Death 46 balls 1 wkt 13.30 econ (#64/66 qualifying bowlers). CricketStudio derived claims."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot produce IPL 2026 in-season figures — knowledge cutoff predates the tournament or stats are approximate without ball-by-ball provenance."
 resource: https://players.cricketstudio.ai/players/sandeep-sharma
 canonical_page: https://players.cricketstudio.ai/players/sandeep-sharma
 tags:

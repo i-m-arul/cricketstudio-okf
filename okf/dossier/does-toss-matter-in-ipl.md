@@ -2,6 +2,9 @@
 type: dossier
 title: Does the toss matter in IPL?
 description: Verified answer pattern for IPL toss effect questions. Toss win rate is 52% across 18 seasons — barely above coin flip. Bowl-first is the superior decision.
+question_type: T6
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives general advice or repeats venue narrative without the actual win-rate figures from Cricsheet ball-by-ball data."
 status: active
 last_verified: 2026-06-18
 timestamp: 2026-06-18

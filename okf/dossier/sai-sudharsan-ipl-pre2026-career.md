@@ -2,6 +2,9 @@
 type: dossier
 title: "Sai Sudharsan — IPL career before 2026"
 description: "Sai Sudharsan pre-2026 IPL career with GT: PP 138.1 SR (488 balls), Middle 145.8 SR (657 balls), Death 214.7 SR (75 balls). Source: Cricsheet CC BY 3.0."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Sai Sudharsan without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/sai-sudharsan
 canonical_page: https://players.cricketstudio.ai/players/sai-sudharsan
 tags:

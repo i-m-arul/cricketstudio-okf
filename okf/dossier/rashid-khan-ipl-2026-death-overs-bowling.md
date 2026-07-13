@@ -2,6 +2,9 @@
 type: dossier
 title: "Rashid Khan — IPL 2026 death overs bowling"
 description: "Rashid Khan IPL 2026 death overs: 54 balls, 2 wickets, 11.78 economy — ranked #53 of 66 qualifying bowlers. Death phase is not his forte."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives the player's overall economy or reputation as a death bowler without the specific death-over (overs 17–20) figure from ball-by-ball data."
 resource: https://players.cricketstudio.ai/players/rashid-khan
 canonical_page: https://players.cricketstudio.ai/players/rashid-khan
 tags:

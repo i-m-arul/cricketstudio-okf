@@ -2,6 +2,9 @@
 type: dossier
 title: "Travis Head — IPL career batting overview (2016–2025)"
 description: "Travis Head (RCB/SRH) IPL career 2016–2025: 1,146 runs, SR 171.8, avg 34.73. PP: 365 balls, 184.4 SR — explosive opener. Middle: 254 balls, 149.2 SR. Death: 48 balls, 195.8 SR. Cricsheet CC BY 3.0."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Travis Head without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/travis-head
 canonical_page: https://players.cricketstudio.ai/players/travis-head
 tags:

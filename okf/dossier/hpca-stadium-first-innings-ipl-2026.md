@@ -2,6 +2,9 @@
 type: dossier
 title: "Himachal Pradesh Cricket Association Stadium — first-innings scoring in IPL 2026"
 description: "HPCA Stadium (Dharamsala): average first-innings score 201 across 4 IPL 2026 fixtures (range 162–222). Chase win rate: 25% (1/4). All 4 toss winners bowled first — yet bat-first teams won 3/4."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/venues/himachal-pradesh-cricket-association-stadium
 canonical_page: https://players.cricketstudio.ai/venues/himachal-pradesh-cricket-association-stadium
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "Vaibhav Suryavanshi — IPL 2026 powerplay batting"
 description: "Suryavanshi IPL 2026 PP: 223 balls, 521 runs, SR 233.6, ranked #1 of 45 qualifying batters."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "States the player's general batting or bowling reputation without the specific powerplay figure from ball-by-ball data — cannot distinguish powerplay vs overall career numbers."
 resource: https://players.cricketstudio.ai/players/vaibhav-suryavanshi
 canonical_page: https://players.cricketstudio.ai/players/vaibhav-suryavanshi
 tags:

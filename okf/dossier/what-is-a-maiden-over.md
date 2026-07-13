@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a maiden over in cricket?"
 description: "A maiden over in cricket is an over in which no runs are scored off the bat (0 runs conceded, no wides or no-balls). Rare and valuable in T20 cricket."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

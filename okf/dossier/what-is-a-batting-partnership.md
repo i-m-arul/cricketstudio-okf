@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a batting partnership in cricket?"
 description: "A batting partnership is the runs scored while two specific batters are both at the crease. When one is dismissed, the partnership ends. Partnerships are numbered (1st, 2nd, 3rd wicket partnership) and key to understanding innings structure."
+question_type: T6
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

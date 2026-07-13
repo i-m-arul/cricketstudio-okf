@@ -2,6 +2,9 @@
 type: dossier
 title: "OC McCoy — MLC career overview"
 description: "OC McCoy MLC career: 4R, 57.1 SR (2M bat). 3 wkts, 10.07 econ (4M bowl). Seattle Orcas. MLC 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for OC McCoy without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/oc-mccoy
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/oc-mccoy
 tags:

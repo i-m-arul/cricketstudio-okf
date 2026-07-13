@@ -2,6 +2,9 @@
 type: dossier
 title: "Mohammad Mohsin — MLC career overview"
 description: "Mohammad Mohsin MLC career: 39R, 121.9 SR (7M bat). 17 wkts, 8.03 econ (16M bowl). Texas Super Kings. MLC 2023, 2024, 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Mohammad Mohsin without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/mohammad-mohsin
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/mohammad-mohsin
 tags:

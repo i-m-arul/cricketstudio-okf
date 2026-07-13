@@ -2,6 +2,9 @@
 type: dossier
 title: "Kohli Death-Overs Batting — Below Sample Floor"
 description: "Kohli faced only 27 balls in death overs (16–20) in IPL 2026 — below the 30-ball floor. No reliable death-phase SR claim can be made."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives the player's overall economy or reputation as a death bowler without the specific death-over (overs 17–20) figure from ball-by-ball data."
 resource: https://players.cricketstudio.ai/players/virat-kohli
 canonical_page: https://players.cricketstudio.ai/players/virat-kohli
 tags:

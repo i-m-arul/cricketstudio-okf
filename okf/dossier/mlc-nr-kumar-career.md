@@ -2,6 +2,9 @@
 type: dossier
 title: "NR Kumar — MLC career overview"
 description: "NR Kumar MLC career: 144R, 102.9 SR (13M bat). 0 wkts, 12.00 econ (1M bowl). Los Angeles Knight Riders. MLC 2023, 2024, 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for NR Kumar without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/nr-kumar
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/nr-kumar
 tags:

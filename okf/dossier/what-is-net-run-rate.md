@@ -2,6 +2,9 @@
 type: dossier
 title: "What Is Net Run Rate in Cricket?"
 description: "Explains Net Run Rate (NRR) in T20 cricket — the formula, how it affects IPL standings, and common misunderstandings."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 tags:
   - cricket
   - NRR

@@ -2,6 +2,9 @@
 type: dossier
 title: "Sanju Samson — IPL career batting overview (pre-2026)"
 description: "Sanju Samson IPL career pre-2026: 4,704 runs, avg 30.75, SR 139.7, 3 hundreds, 26 fifties, 219 sixes, 171 matches, 13 seasons (2013–2025). Primary franchise RR; also DC. Best season 2024: 531 runs 154.8 SR. Cricsheet CC BY 3.0."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Sanju Samson without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/sanju-samson
 canonical_page: https://players.cricketstudio.ai/players/sanju-samson
 tags:

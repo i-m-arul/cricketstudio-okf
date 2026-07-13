@@ -2,6 +2,9 @@
 type: dossier
 title: "D Wiese — MLC career overview"
 description: "D Wiese MLC career: 41R, 146.4 SR (3M bat). 4 wkts, 10.60 econ (5M bowl). MI New York. MLC 2023."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for D Wiese without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/d-wiese
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/d-wiese
 tags:

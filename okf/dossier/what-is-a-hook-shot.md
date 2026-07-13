@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a hook shot in cricket?"
 description: "A hook shot is a batting stroke played to a short-pitched ball at shoulder height or above, hit with a horizontal bat to the leg side (fine leg / deep square leg). Similar to a pull shot but played to a higher ball; the bat swing is more horizontal and cross-batted."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

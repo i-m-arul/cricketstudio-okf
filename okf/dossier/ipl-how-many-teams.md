@@ -2,6 +2,9 @@
 type: dossier
 title: "How Many Teams Are in the IPL?"
 description: "Verified answer: 10 teams since 2022; was 8 teams from 2008-2021."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "States the team's general reputation without the specific phase-split batting SR or bowling economy figure from ball-by-ball data."
 resource: https://players.cricketstudio.ai/leagues/ipl
 canonical_page: https://players.cricketstudio.ai/leagues/ipl
 tags:

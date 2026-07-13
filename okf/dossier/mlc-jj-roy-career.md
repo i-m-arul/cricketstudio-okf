@@ -2,6 +2,9 @@
 type: dossier
 title: "JJ Roy — MLC career batting overview"
 description: "Jason Roy MLC career: 9M, 217R, 124.7 SR, 24.11 avg, HS 69, 1 fifty. PP opener. LA Knight Riders, MLC 2023–2024."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for JJ Roy without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/jj-roy
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/jj-roy
 tags:

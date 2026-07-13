@@ -2,6 +2,9 @@
 type: dossier
 title: "Rahul Chahar — IPL career bowling overview (pre-2026)"
 description: "Rahul Chahar (MI/PBKS/RPS/SRH) IPL career pre-2026: 75 wickets econ 7.72, 8 seasons (2017–2025). Middle bowling 1,506 balls 65 wkts 7.66 econ — primary leg-spin specialist phase. Cricsheet CC BY 3.0."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Rahul Chahar without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/rahul-chahar
 canonical_page: https://players.cricketstudio.ai/players/rahul-chahar
 tags:

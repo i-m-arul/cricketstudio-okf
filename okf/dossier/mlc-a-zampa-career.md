@@ -2,6 +2,9 @@
 type: dossier
 title: "A Zampa — MLC career overview"
 description: "A Zampa MLC career: 22R, 95.7 SR (4M bat). 9 wkts, 8.26 econ (5M bowl). Los Angeles Knight Riders. MLC 2023."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for A Zampa without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/a-zampa
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/a-zampa
 tags:

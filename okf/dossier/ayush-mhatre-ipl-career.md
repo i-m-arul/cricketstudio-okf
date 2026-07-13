@@ -2,6 +2,9 @@
 type: dossier
 title: "Ayush Mhatre — IPL career powerplay batting (2025)"
 description: "Ayush Mhatre (CSK) IPL 2025: 240 runs, SR 189.0, avg 34.29. Powerplay: 92 balls at 192.4 SR — one of the highest PP strike rates among qualifiers. Middle: 34 balls 185.3 SR. Cricsheet CC BY 3.0."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "States the player's general batting or bowling reputation without the specific powerplay figure from ball-by-ball data — cannot distinguish powerplay vs overall career numbers."
 resource: https://players.cricketstudio.ai/players/ayush-mhatre
 canonical_page: https://players.cricketstudio.ai/players/ayush-mhatre
 tags:

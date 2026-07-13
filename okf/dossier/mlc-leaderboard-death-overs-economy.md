@@ -2,6 +2,9 @@
 type: dossier
 title: "Best death-overs economy — MLC all-time leaderboard"
 description: "MLC leaderboard: Lowest bowling economy rates in death overs (overs 17—20 of a T20 innings). MLC all-time leaderboard. Top: Harmeet Singh (5.33, 18 legal deliveries in death overs). Scope: MLC seasons 2023, 2024, 2025 (75 matches total)."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives the player's overall economy or reputation as a death bowler without the specific death-over (overs 17–20) figure from ball-by-ball data."
 resource: https://players.cricketstudio.ai/leagues/mlc/leaderboards/death-overs-economy
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/leaderboards/death-overs-economy
 tags:

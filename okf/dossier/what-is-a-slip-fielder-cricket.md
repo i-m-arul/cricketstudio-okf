@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a slip fielder in cricket?"
 description: "A slip fielder stands in the slip cordon — behind the batter on the off side — to catch edges from the bat when the ball swings or seams away. Slips are most common in the powerplay with the new ball when edges are frequent."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

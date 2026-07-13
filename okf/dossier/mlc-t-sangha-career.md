@@ -2,6 +2,9 @@
 type: dossier
 title: "T Sangha — MLC career overview"
 description: "T Sangha MLC career: 9 wkts, 9.09 econ (6M bowl). Los Angeles Knight Riders. MLC 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for T Sangha without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/t-sangha
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/t-sangha
 tags:

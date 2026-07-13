@@ -2,6 +2,9 @@
 type: dossier
 title: "Will Jacks — IPL career batting overview (pre-2026)"
 description: "Will Jacks (MI/RCB) IPL career pre-2026: 463 runs avg 27.24 SR 153.3, 1 hundred, 2 seasons (2024–2025). PP 128 balls 148.4 SR. Middle 173 balls 157.2 SR. Death below floor (1 ball). Cricsheet CC BY 3.0."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Will Jacks without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/will-jacks
 canonical_page: https://players.cricketstudio.ai/players/will-jacks
 tags:

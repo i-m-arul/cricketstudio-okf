@@ -2,6 +2,9 @@
 type: dossier
 title: "What is an over in cricket?"
 description: "An over in cricket is a set of 6 legal deliveries bowled by the same bowler from one end of the pitch. A T20 match consists of 20 overs per innings (120 legal deliveries)."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

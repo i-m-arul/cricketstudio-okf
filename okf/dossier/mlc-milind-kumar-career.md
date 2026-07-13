@@ -2,6 +2,9 @@
 type: dossier
 title: "Milind Kumar — MLC career overview"
 description: "Milind Kumar MLC career: 219R, 109.5 SR (17M bat). 0 wkts, 12.00 econ (1M bowl). Texas Super Kings. MLC 2023, 2024, 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Milind Kumar without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/milind-kumar
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/milind-kumar
 tags:

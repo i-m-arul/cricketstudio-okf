@@ -2,6 +2,9 @@
 type: dossier
 title: "BC Fortuin — MLC career overview"
 description: "BC Fortuin MLC career: 4R, 36.4 SR (1M bat). 0 wkts, 6.75 econ (1M bowl). Seattle Orcas. MLC 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for BC Fortuin without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/bc-fortuin
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/bc-fortuin
 tags:

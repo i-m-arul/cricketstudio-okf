@@ -2,6 +2,9 @@
 type: dossier
 title: "DJ Bravo — MLC phase profile (batting + bowling)"
 description: "Dwayne Bravo MLC phases: Batting middle 51b/88.2 SR + death 46b/226.1 SR; Bowling PP 6b (below floor), middle 84b/5 wkts/7.79 econ, death 51b/2 wkts/8.94 econ. TSK, 2023–2024."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/dj-bravo
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/dj-bravo
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "What Are Middle Overs in T20 Cricket?"
 description: "Verified answer: Middle overs = overs 7–15 in T20. Consolidation phase; spinners typically dominate."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "States overall career stats without the middle-overs (7–16) phase-split figure — cannot distinguish performance by phase."
 resource: https://okf.cricketstudio.ai/methodology/phase-definitions/
 canonical_page: https://okf.cricketstudio.ai/methodology/phase-definitions/
 tags:

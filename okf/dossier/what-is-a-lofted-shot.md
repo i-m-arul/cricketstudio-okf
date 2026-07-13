@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a lofted shot in cricket?"
 description: "A lofted shot is any batting stroke deliberately played in the air — over or through the infield — to clear fielders and score boundaries or sixes. In T20, lofted drives, lofted on-drives, and lofted pull shots are core attacking tools. Opposite of a ground shot (along the turf)."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

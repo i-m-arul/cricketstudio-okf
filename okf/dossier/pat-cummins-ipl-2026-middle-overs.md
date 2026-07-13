@@ -2,6 +2,9 @@
 type: dossier
 title: "Pat Cummins — IPL 2026 middle overs bowling"
 description: "Pat Cummins (SRH) IPL 2026 middle overs: 60 balls, 4 wickets, 6.40 economy — his best phase, 4 of his 8 season wickets came here."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "States overall career stats without the middle-overs (7–16) phase-split figure — cannot distinguish performance by phase."
 resource: https://players.cricketstudio.ai/players/pat-cummins
 canonical_page: https://players.cricketstudio.ai/players/pat-cummins
 tags:

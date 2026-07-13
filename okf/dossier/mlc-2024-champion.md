@@ -2,6 +2,9 @@
 type: dossier
 title: "MLC 2024 (Season 2) Champion"
 description: "Verified answer: Washington Freedom won MLC 2024 by 96 runs over San Francisco Unicorns in the final on 2024-07-28."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/leagues/mlc
 canonical_page: https://players.cricketstudio.ai/leagues/mlc
 tags:

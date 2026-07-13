@@ -2,6 +2,9 @@
 type: dossier
 title: "AB de Villiers IPL Career Stats"
 description: "Verified answer: AB de Villiers scored 5,181 runs in 170 IPL matches through 2025 at 39.85 average, 152.4 SR."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for this player without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/ab-de-villiers
 canonical_page: https://players.cricketstudio.ai/players/ab-de-villiers
 tags:

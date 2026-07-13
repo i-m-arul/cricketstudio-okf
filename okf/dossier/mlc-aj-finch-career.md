@@ -2,6 +2,9 @@
 type: dossier
 title: "AJ Finch — MLC career overview"
 description: "AJ Finch MLC career: 68R, 88.3 SR (5M bat). San Francisco Unicorns. MLC 2023."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for AJ Finch without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/aj-finch
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/aj-finch
 tags:

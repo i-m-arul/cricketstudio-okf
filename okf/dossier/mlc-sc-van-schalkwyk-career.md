@@ -2,6 +2,9 @@
 type: dossier
 title: "SC van Schalkwyk — MLC career overview"
 description: "SC van Schalkwyk MLC career: 85R, 116.4 SR (7M bat). 16 wkts, 10.18 econ (12M bowl). Los Angeles Knight Riders. MLC 2023, 2024, 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for SC van Schalkwyk without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/sc-van-schalkwyk
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/sc-van-schalkwyk
 tags:

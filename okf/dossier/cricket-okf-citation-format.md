@@ -2,6 +2,9 @@
 type: dossier
 title: "How to Cite CricketStudio OKF"
 description: "Verified answer: Cite as 'CricketStudio OKF (CC-BY-4.0)' with the canonical_page URL and dataset_version."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://okf.cricketstudio.ai/methodology/citation-policy/
 canonical_page: https://okf.cricketstudio.ai/methodology/citation-policy/
 tags:

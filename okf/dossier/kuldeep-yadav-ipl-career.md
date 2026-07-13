@@ -2,6 +2,9 @@
 type: dossier
 title: "Kuldeep Yadav — IPL career overview (2016–2025)"
 description: "Kuldeep Yadav (DC/KKR) IPL career 2016–2025: 102 wickets, economy 8.08. Middle overs dominant: 1,818 balls, 83 wkts, 8.04 econ (81% of career wickets). Left-arm wrist spinner. Cricsheet CC BY 3.0."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Kuldeep Yadav without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/kuldeep-yadav
 canonical_page: https://players.cricketstudio.ai/players/kuldeep-yadav
 tags:

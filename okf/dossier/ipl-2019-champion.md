@@ -2,6 +2,9 @@
 type: dossier
 title: "IPL 2019 Champion — Mumbai Indians"
 description: "Verified answer: Mumbai Indians won IPL 2019 (60 matches). Orange Cap: DA Warner 692R. Purple Cap: Imran Tahir 26W."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/season/ipl-2019
 canonical_page: https://players.cricketstudio.ai/season/ipl-2019
 tags:

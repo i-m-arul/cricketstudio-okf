@@ -2,6 +2,9 @@
 type: dossier
 title: "S van Staden — MLC career overview"
 description: "S van Staden MLC career: 6R, 50.0 SR (1M bat). MI New York. MLC 2023."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for S van Staden without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/s-van-staden
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/s-van-staden
 tags:

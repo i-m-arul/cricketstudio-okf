@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a death bowler in cricket?"
 description: "A death bowler specialises in bowling the final 4 overs of a T20 innings (overs 17–20) — the highest-pressure phase where the batting team targets maximum runs. Elite death bowlers use yorkers, slower balls, and wide yorkers to limit scoring."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives the player's overall economy or reputation as a death bowler without the specific death-over (overs 17–20) figure from ball-by-ball data."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

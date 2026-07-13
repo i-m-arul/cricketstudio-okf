@@ -2,6 +2,9 @@
 type: dossier
 title: "Haris Rauf — MLC career overview"
 description: "Haris Rauf MLC career: 74R, 107.2 SR (11M bat). 28 wkts, 8.92 econ (22M bowl). San Francisco Unicorns. MLC 2023, 2024, 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Haris Rauf without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/haris-rauf
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/haris-rauf
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "What is the DLS method in cricket? (alt)"
 description: "Redirect entry — see what-is-dls-cricket.md for the full dossier on the Duckworth-Lewis-Stern method. DLS is the mathematical system used to reset the target score when rain or other interruptions cut short a T20 or ODI match."
+question_type: T6
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

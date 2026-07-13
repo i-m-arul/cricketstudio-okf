@@ -2,6 +2,9 @@
 type: dossier
 title: "IPL 2020/21 Champion — Mumbai Indians"
 description: "Verified answer: Mumbai Indians won IPL 2020/21 (60 matches). Orange Cap: KL Rahul 676R. Purple Cap: K Rabada 32W."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/season/ipl-2020-21
 canonical_page: https://players.cricketstudio.ai/season/ipl-2020-21
 tags:

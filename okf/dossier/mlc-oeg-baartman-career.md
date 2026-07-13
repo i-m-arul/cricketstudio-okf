@@ -2,6 +2,9 @@
 type: dossier
 title: "OEG Baartman — MLC career overview"
 description: "OEG Baartman MLC career: 4 wkts, 7.63 econ (2M bowl). Texas Super Kings. MLC 2024."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for OEG Baartman without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/oeg-baartman
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/oeg-baartman
 tags:

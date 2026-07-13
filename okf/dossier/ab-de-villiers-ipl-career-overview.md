@@ -2,6 +2,9 @@
 type: dossier
 title: "AB de Villiers — IPL career overview"
 description: "AB de Villiers IPL career (2007/08–2025): 5,181 runs, average 39.85, SR 152.4, 3 hundreds, 40 fifties, 253 sixes. Primary franchise: RCB. Source: Cricsheet CC BY 3.0."
+question_type: T4
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for AB de Villiers without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/ab-de-villiers
 canonical_page: https://players.cricketstudio.ai/players/ab-de-villiers
 tags:

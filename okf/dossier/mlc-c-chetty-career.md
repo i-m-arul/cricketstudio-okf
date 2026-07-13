@@ -2,6 +2,9 @@
 type: dossier
 title: "C Chetty — MLC career overview"
 description: "C Chetty MLC career: 76R, 101.3 SR (5M bat). Texas Super Kings. MLC 2023."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for C Chetty without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/c-chetty
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/c-chetty
 tags:

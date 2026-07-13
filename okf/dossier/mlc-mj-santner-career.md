@@ -2,6 +2,9 @@
 type: dossier
 title: "MJ Santner — MLC career overview"
 description: "MJ Santner MLC career: 111R, 126.1 SR (9M bat). 6 wkts, 7.96 econ (9M bowl). Texas Super Kings. MLC 2023, 2024."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for MJ Santner without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/mj-santner
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/mj-santner
 tags:

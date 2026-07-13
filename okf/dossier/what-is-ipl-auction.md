@@ -2,6 +2,9 @@
 type: dossier
 title: "How does the IPL auction work?"
 description: "The IPL auction is a public bidding process where franchises compete to sign players. Each franchise has a salary cap. Mega auctions every 3-4 years; mini auctions annually."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "Batting Average vs Strike Rate — What's the Difference?"
 description: "Verified answer: Average = runs per dismissal (consistency); SR = runs per 100 balls (speed). Both matter for T20 assessment."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives a general reputation summary of Batting Average and Strike Rate without the actual career delivery count, SR, dot-ball %, and dismissal record between this specific pair."
 resource: https://okf.cricketstudio.ai/metrics/batting-strike-rate/
 canonical_page: https://okf.cricketstudio.ai/metrics/batting-strike-rate/
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "MP Stoinis — MLC bowling phase profile"
 description: "Marcus Stoinis MLC bowling phases: PP 90b/4 wkts/8.53 econ, Middle 174b/6 wkts/9.00 econ, Death 136b/9 wkts/10.63 econ. Death-wicket specialist. TSK + SFU, 2023–2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/mp-stoinis
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/mp-stoinis
 tags:

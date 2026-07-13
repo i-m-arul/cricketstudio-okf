@@ -2,6 +2,9 @@
 type: dossier
 title: "Trent Boult — IPL career bowling overview (2015–2025)"
 description: "Trent Boult (SRH/KKR/DC/RR/MI) IPL career 2015–2025: 143 wickets, economy 8.40, average 26.31. 119 matches, 11 seasons. Left-arm fast medium. Cricsheet CC BY 3.0."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Trent Boult without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/trent-boult
 canonical_page: https://players.cricketstudio.ai/players/trent-boult
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "SV Wiig — MLC career overview"
 description: "SV Wiig MLC career: 2 wkts, 8.33 econ (1M bowl). Texas Super Kings. MLC 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for SV Wiig without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/sv-wiig
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/sv-wiig
 tags:

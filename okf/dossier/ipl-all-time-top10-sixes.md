@@ -2,6 +2,9 @@
 type: dossier
 title: "IPL All-Time Top 10 Six-Hitters"
 description: "Verified answer: Chris Gayle leads with 359 sixes from 141 matches; Rohit 2nd (303), Kohli 3rd (292)."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/leagues/ipl/records
 canonical_page: https://players.cricketstudio.ai/leagues/ipl/records
 tags:

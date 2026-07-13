@@ -2,6 +2,9 @@
 type: dossier
 title: "Virat Kohli vs Rohit Sharma — IPL 2026 batting comparison"
 description: "Kohli vs Rohit IPL 2026: Kohli 675R/56.25 avg/165.8 SR (RCB, champions) vs Rohit 283R/35.38 avg/157.2 SR (MI, last place). Different team contexts."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives a general reputation summary of Virat Kohli and Rohit Sharma without the actual career delivery count, SR, dot-ball %, and dismissal record between this specific pair."
 resource: https://players.cricketstudio.ai/players/virat-kohli
 canonical_page: https://players.cricketstudio.ai/players/virat-kohli
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "Kohli vs Rabada — IPL 2026 head-to-head"
 description: "H2H: Kohli vs Rabada in IPL 2026 — 37 balls, 88 runs, SR 237.8, 0 dismissals. Kohli dominated."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives a general reputation summary of Kohli and Rabada without the actual career delivery count, SR, dot-ball %, and dismissal record between this specific pair."
 resource: https://players.cricketstudio.ai/h2h/virat-kohli-vs-kagiso-rabada
 canonical_page: https://players.cricketstudio.ai/h2h/virat-kohli-vs-kagiso-rabada
 tags:

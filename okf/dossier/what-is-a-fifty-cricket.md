@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a fifty (half-century) in cricket?"
 description: "A fifty (or half-century) is when a batter scores 50–99 runs in a single innings before being dismissed. In T20/IPL, a fifty is a significant individual batting milestone — it signifies that a batter anchored the innings for 25–45 balls."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

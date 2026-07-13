@@ -2,6 +2,9 @@
 type: dossier
 title: "IPL 2007/08 Champion — Rajasthan Royals"
 description: "Verified answer: Rajasthan Royals won IPL 2007/08 (58 matches). Orange Cap: SE Marsh 616R. Purple Cap: Sohail Tanvir 22W."
+question_type: T4
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/season/ipl-2007-08
 canonical_page: https://players.cricketstudio.ai/season/ipl-2007-08
 tags:

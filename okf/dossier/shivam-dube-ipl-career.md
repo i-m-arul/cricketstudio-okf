@@ -2,6 +2,9 @@
 type: dossier
 title: "Shivam Dube — IPL career batting overview (2019–2025)"
 description: "Shivam Dube (CSK/RCB/RR) IPL career 2019–2025: 1,859 runs, avg 30.48, SR 144.1, 122 sixes, 7 seasons. Phase: PP 45 balls 80.0 SR; Middle 978 balls 139.6 SR; Death 267 balls 171.5 SR. Left-handed power hitter. Cricsheet CC BY 3.0."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Shivam Dube without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/shivam-dube
 canonical_page: https://players.cricketstudio.ai/players/shivam-dube
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "WD Parnell — MLC career overview"
 description: "WD Parnell MLC career: 9 wkts, 8.65 econ (6M bowl). Seattle Orcas. MLC 2023."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for WD Parnell without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/wd-parnell
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/wd-parnell
 tags:

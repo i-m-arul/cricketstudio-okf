@@ -2,6 +2,9 @@
 type: dossier
 title: "Major League Cricket — CricketStudio corpus overview"
 description: "CricketStudio MLC corpus: 2023–2026, Cricsheet CC BY 3.0. 4 seasons, 64+ matches, 6 franchises, 167 player profiles, 26 leaderboard aspects."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/leagues/mlc
 canonical_page: https://players.cricketstudio.ai/leagues/mlc
 tags:

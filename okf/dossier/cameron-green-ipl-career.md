@@ -2,6 +2,9 @@
 type: dossier
 title: "Cameron Green — IPL career overview (2023–2024)"
 description: "Cameron Green (MI/RCB) IPL career 2023–2024: 707 runs, SR 154.7, avg 41.59, 1 hundred. Phase: PP 119 balls 164.7 SR, Middle 256 balls 140.2 SR, Death 82 balls 185.4 SR. Cricsheet CC BY 3.0."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Cameron Green without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/cameron-green
 canonical_page: https://players.cricketstudio.ai/players/cameron-green
 tags:

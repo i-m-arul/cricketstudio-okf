@@ -2,6 +2,9 @@
 type: dossier
 title: "Suryavanshi vs IPL 2026 Venues"
 description: "How venue conditions — pitch pace, outfield speed, boundary size, altitude — shaped Suryavanshi's IPL 2026 powerplay performance. Framing the matchup question and linking to canonical venue-split data."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives a general reputation summary of Suryavanshi and the bowler without the actual career delivery count, SR, dot-ball %, and dismissal record between this specific pair."
 resource: https://players.cricketstudio.ai/players/vaibhav-suryavanshi/by-venue
 tags:
   - cricket

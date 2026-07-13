@@ -2,6 +2,9 @@
 type: dossier
 title: "R Clinton — MLC career overview"
 description: "R Clinton MLC career: 49R, 94.2 SR (5M bat). MI New York. MLC 2024."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for R Clinton without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/r-clinton
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/r-clinton
 tags:

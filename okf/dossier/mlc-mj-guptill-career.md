@@ -2,6 +2,9 @@
 type: dossier
 title: "MJ Guptill — MLC career (below floor)"
 description: "Martin Guptill MLC record: 2 matches, 6 balls, 0 runs, 2 ducks. MLC 2023 only. All data below sample-size floors — no rate claims publishable."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for MJ Guptill without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/mj-guptill
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/mj-guptill
 tags:

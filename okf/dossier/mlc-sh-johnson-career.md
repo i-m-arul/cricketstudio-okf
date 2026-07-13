@@ -2,6 +2,9 @@
 type: dossier
 title: "SH Johnson — MLC career overview"
 description: "SH Johnson MLC career: 31R, 163.2 SR (3M bat). 11 wkts, 8.00 econ (9M bowl). Los Angeles Knight Riders. MLC 2023, 2024."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for SH Johnson without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/sh-johnson
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/sh-johnson
 tags:

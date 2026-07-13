@@ -2,6 +2,9 @@
 type: dossier
 title: "What is an orthodox spin bowler in cricket?"
 description: "An orthodox spin bowler is a finger-spin bowler who turns the ball in the conventional direction for their arm: right-arm off-spin turns away from right-handers; left-arm orthodox (slow left-arm) turns away from left-handers."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

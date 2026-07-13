@@ -2,6 +2,9 @@
 type: dossier
 title: "What is player retention in IPL?"
 description: "Player retention in IPL allows franchises to keep certain players without putting them into the auction pool. Teams can retain a limited number of players at pre-agreed costs (which are deducted from their purse), ensuring franchise continuity for key players."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a spinner in cricket?"
 description: "A spinner is a bowler who uses finger or wrist spin to impart rotation on the ball, causing it to turn off the pitch. Spinners are most effective in T20 middle overs (7–15) where their variation and control matter most."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

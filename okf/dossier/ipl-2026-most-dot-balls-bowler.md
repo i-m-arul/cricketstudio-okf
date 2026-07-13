@@ -2,6 +2,9 @@
 type: dossier
 title: "Most Dot Balls by a Bowler in IPL 2026"
 description: "Verified answer: Kagiso Rabada bowled 138 dot balls in IPL 2026 across 17 matches."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/players/kagiso-rabada
 canonical_page: https://players.cricketstudio.ai/players/kagiso-rabada
 tags:

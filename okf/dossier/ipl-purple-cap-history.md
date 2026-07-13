@@ -2,6 +2,9 @@
 type: dossier
 title: "IPL Purple Cap Winners — All Seasons"
 description: "Verified answer: Purple Cap winners confirmed from Cricsheet for all 18 IPL seasons 2007/08-2025; 2026 winner is Rabada (29W)."
+question_type: T4
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/leagues/ipl/records
 canonical_page: https://players.cricketstudio.ai/leagues/ipl/records
 tags:

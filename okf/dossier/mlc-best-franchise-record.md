@@ -2,6 +2,9 @@
 type: dossier
 title: Which MLC franchise has the best all-time win record?
 description: Verified answer for MLC franchise win rate. Washington Freedom lead on win percentage (18W from 26 matches, 69.2%) across MLC 2023–2025. MI New York lead on titles (2 championships).
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "States the team's general reputation without the specific phase-split batting SR or bowling economy figure from ball-by-ball data."
 status: active
 last_verified: 2026-06-21
 timestamp: 2026-06-21

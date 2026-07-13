@@ -2,6 +2,9 @@
 type: dossier
 title: "SO Hetmyer — MLC career batting overview"
 description: "Shimron Hetmyer MLC career: 10M, 399R, 192.8 SR, 66.5 avg, HS 97, 30 sixes. Middle + death specialist. Seattle Orcas, 2023 and 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for SO Hetmyer without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/so-hetmyer
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/so-hetmyer
 tags:

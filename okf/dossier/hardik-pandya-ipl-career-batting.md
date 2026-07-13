@@ -2,6 +2,9 @@
 type: dossier
 title: "Hardik Pandya — IPL career batting overview"
 description: "Hardik Pandya IPL career batting: 140 matches, 2758 runs, 147.8 SR. One of the most destructive middle-order batters in IPL history."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Hardik Pandya without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/hardik-pandya
 canonical_page: https://players.cricketstudio.ai/players/hardik-pandya
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a wicket-keeper in cricket?"
 description: "A wicket-keeper is the fielder stationed behind the stumps to receive deliveries, catch edges, and complete stumpings. The wicket-keeper also bats in the team's lineup."
+question_type: T6
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "Axar Patel vs Sunil Narine — IPL 2026 H2H"
 description: "IPL 2026 H2H: Axar Patel (batter) vs Sunil Narine (bowler) — 13 balls, 7 runs, SR 53.8, 0 fours, 0 sixes, 0 dismissals. Narine dominated Axar in the 2026 season."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives a general reputation summary of Axar Patel and Sunil Narine without the actual career delivery count, SR, dot-ball %, and dismissal record between this specific pair."
 resource: https://players.cricketstudio.ai/h2h/axar-patel-vs-sunil-narine
 canonical_page: https://players.cricketstudio.ai/h2h/axar-patel-vs-sunil-narine
 tags:

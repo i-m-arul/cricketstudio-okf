@@ -2,6 +2,9 @@
 type: dossier
 title: "Shubman Gill vs Jofra Archer — IPL 2026 H2H"
 description: "Gill vs Jofra Archer in IPL 2026: 23 balls, 40 runs, SR 173.9, 6 fours, 1 six, 0 dismissals."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives a general reputation summary of Shubman Gill and Jofra Archer without the actual career delivery count, SR, dot-ball %, and dismissal record between this specific pair."
 resource: https://players.cricketstudio.ai/h2h/shubman-gill-vs-jofra-archer
 canonical_page: https://players.cricketstudio.ai/h2h/shubman-gill-vs-jofra-archer
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "Zaheer Khan — IPL career bowling overview (pre-2026)"
 description: "Zaheer Khan (DC/MI/RCB) IPL career pre-2026: 102 wickets econ 7.59, 10 seasons (2007/08–2017). PP 1,292 balls 52 wkts 6.74 econ (dominant phase). Death 535 balls 35 wkts 8.80 econ. One of the highest wicket-takers in IPL history. Cricsheet CC BY 3.0."
+question_type: T4
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Zaheer Khan without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/z-khan
 canonical_page: https://players.cricketstudio.ai/players/z-khan
 tags:

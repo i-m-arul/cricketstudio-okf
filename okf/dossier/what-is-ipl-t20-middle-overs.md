@@ -2,6 +2,9 @@
 type: dossier
 title: "What are middle overs in T20 cricket?"
 description: "Middle overs in T20 cricket = overs 7–15. No fielding restriction applies. Teams consolidate, spin bowlers operate, and run rate management is the tactical focus."
+question_type: T6
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "States overall career stats without the middle-overs (7–16) phase-split figure — cannot distinguish performance by phase."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

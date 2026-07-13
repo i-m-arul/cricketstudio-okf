@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a chase strategy in T20 cricket?"
 description: "A chase strategy is the batting plan for the team batting second in a T20 match. The chasing team knows the exact target and distributes their run-scoring across 20 overs with real-time knowledge of what's needed. Good chase planning balances early aggression against wicket conservation."
+question_type: T6
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives general advice or repeats venue narrative without the actual win-rate figures from Cricsheet ball-by-ball data."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

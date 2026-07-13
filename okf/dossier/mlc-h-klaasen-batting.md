@@ -2,6 +2,9 @@
 type: dossier
 title: "H Klaasen — MLC batting phase profile"
 description: "Heinrich Klaasen MLC phases: PP 24b (below floor), Middle 257b/159.5 SR (specialist), Death 24b (below floor). Seattle Orcas, 2023–2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/h-klaasen
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/h-klaasen
 tags:

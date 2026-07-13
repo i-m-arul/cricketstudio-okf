@@ -2,6 +2,9 @@
 type: dossier
 title: "CricketStudio sample-size floors — what they are and why they exist"
 description: "Explanation of CricketStudio's sample-size floors: batting ≥30 balls per phase, bowling ≥15 balls per phase, venue ≥3 fixtures. How they protect citation quality."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/about
 canonical_page: https://players.cricketstudio.ai/about
 tags:

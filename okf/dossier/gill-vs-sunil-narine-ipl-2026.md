@@ -2,6 +2,9 @@
 type: dossier
 title: "Shubman Gill vs Sunil Narine — IPL 2026 H2H"
 description: "Gill vs Sunil Narine in IPL 2026: 23 balls, 27 runs, SR 117.4, 1 four, 2 sixes, 0 dismissals."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives a general reputation summary of Shubman Gill and Sunil Narine without the actual career delivery count, SR, dot-ball %, and dismissal record between this specific pair."
 resource: https://players.cricketstudio.ai/h2h/shubman-gill-vs-sunil-narine
 canonical_page: https://players.cricketstudio.ai/h2h/shubman-gill-vs-sunil-narine
 tags:

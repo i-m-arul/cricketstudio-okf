@@ -2,6 +2,9 @@
 type: dossier
 title: "What Are Death Overs in T20 Cricket?"
 description: "Verified answer: Death overs = overs 16–20 in T20. Highest scoring rate, specialist bowlers used. Floor: ≥15 balls bowled."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives the player's overall economy or reputation as a death bowler without the specific death-over (overs 17–20) figure from ball-by-ball data."
 resource: https://okf.cricketstudio.ai/methodology/phase-definitions/
 canonical_page: https://okf.cricketstudio.ai/methodology/phase-definitions/
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "Wriddhiman Saha — IPL career batting overview (pre-2026)"
 description: "Wriddhiman Saha (CSK/GT/KKR/PBKS/SRH) IPL career pre-2026: 2,934 runs avg 24.25 SR 127.8, 17 seasons (2007/08–2024). PP 1,045 balls 132.9 SR. Middle 970 balls 113.8 SR. Death 281 balls 156.9 SR. Veteran wicketkeeper-batter. Cricsheet CC BY 3.0."
+question_type: T4
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Wriddhiman Saha without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/wp-saha
 canonical_page: https://players.cricketstudio.ai/players/wp-saha
 tags:

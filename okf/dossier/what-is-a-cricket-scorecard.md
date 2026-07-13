@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a cricket scorecard?"
 description: "A cricket scorecard is the official record of a match — listing every batter's score, how they were dismissed, every bowler's figures, and the final result. In T20/IPL it fits in a single printed card for 40 overs of play."
+question_type: T6
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

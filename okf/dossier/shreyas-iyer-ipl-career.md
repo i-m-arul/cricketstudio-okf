@@ -2,6 +2,9 @@
 type: dossier
 title: "Shreyas Iyer — IPL career batting overview (pre-2026)"
 description: "Shreyas Iyer IPL career pre-2026: 3,735 runs, avg 33.95, SR 133.8, 131 matches, 10 seasons (2015–2025). Best season 2025 (PBKS): 604 runs, 176.1 SR, 6 fifties. Teams: DC, KKR, PBKS. No hundreds in pre-2026 career. Cricsheet CC BY 3.0."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Shreyas Iyer without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/shreyas-iyer
 canonical_page: https://players.cricketstudio.ai/players/shreyas-iyer
 tags:

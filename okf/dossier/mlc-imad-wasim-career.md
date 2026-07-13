@@ -2,6 +2,9 @@
 type: dossier
 title: "Imad Wasim — MLC career overview"
 description: "Imad Wasim MLC career: 93R, 106.9 SR (7M bat). 14 wkts, 6.41 econ (12M bowl). Seattle Orcas. MLC 2023, 2024."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Imad Wasim without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/imad-wasim
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/imad-wasim
 tags:

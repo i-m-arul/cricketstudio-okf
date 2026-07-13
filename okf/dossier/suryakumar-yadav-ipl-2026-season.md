@@ -2,6 +2,9 @@
 type: dossier
 title: "Suryakumar Yadav — IPL 2026 season batting stats"
 description: "Suryakumar Yadav (MI) IPL 2026: 270 runs, avg 20.77, SR 147.5, 13 matches, 2 fifties. PP 54 balls 150.0 SR (#27/45). Middle 117 balls 150.4 SR. Death 12 balls below ≥30-ball floor. Below his career standard (career avg 34.77, SR 149.2). CricketStudio derived claims."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot produce IPL 2026 in-season figures — knowledge cutoff predates the tournament or stats are approximate without ball-by-ball provenance."
 resource: https://players.cricketstudio.ai/players/suryakumar-yadav
 canonical_page: https://players.cricketstudio.ai/players/suryakumar-yadav
 tags:

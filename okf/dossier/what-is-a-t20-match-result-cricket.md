@@ -2,6 +2,9 @@
 type: dossier
 title: "How is a T20 cricket match won or lost?"
 description: "A T20 cricket match is won by the team that scores more runs in their 20-over innings. The margin of victory is stated differently depending on which team wins: batting first wins by 'X runs'; batting second wins by 'X wickets' with 'Y balls/overs remaining'."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

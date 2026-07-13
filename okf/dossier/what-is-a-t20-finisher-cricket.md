@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a T20 finisher in cricket?"
 description: "A T20 finisher is a batter who specialises in scoring quickly in the death overs (16–20) to maximise the team's total. Finishers typically bat at positions 5–7, excel at hitting boundaries under pressure, and are expected to score at SR 150+ in the final overs."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

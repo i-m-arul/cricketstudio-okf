@@ -2,6 +2,9 @@
 type: dossier
 title: "Most sixes in a single IPL season — Suryavanshi 2026 record"
 description: "Suryavanshi hit 72 sixes in IPL 2026 — the most by any batter in a single IPL season (snapshot 2026-06-11)."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot produce IPL 2026 in-season figures — knowledge cutoff predates the tournament or stats are approximate without ball-by-ball provenance."
 resource: https://players.cricketstudio.ai/leagues/ipl/leaderboards/most-sixes
 canonical_page: https://players.cricketstudio.ai/leagues/ipl/leaderboards/most-sixes
 tags:

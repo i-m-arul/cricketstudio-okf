@@ -2,6 +2,9 @@
 type: dossier
 title: "J Little — MLC career overview"
 description: "J Little MLC career: 4R, 66.7 SR (1M bat). 0 wkts, 8.50 econ (1M bowl). Los Angeles Knight Riders. MLC 2024."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for J Little without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/j-little
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/j-little
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "LH Ferguson — MLC phase analysis"
 description: "LH Ferguson MLC phase breakdown (MLC 2023, 2024, 2025). Los Angeles Knight Riders and Washington Freedom. Data-derived phase rates where above sample-size floor."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/lh-ferguson
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/lh-ferguson
 tags:

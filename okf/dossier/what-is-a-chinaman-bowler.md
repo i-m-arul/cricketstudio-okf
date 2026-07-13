@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a Chinaman bowler in cricket?"
 description: "A Chinaman bowler is a left-arm wrist spinner — the ball turns into right-handed batters (opposite direction to a conventional off-spinner). Kuldeep Yadav is the most prominent Chinaman bowler in current IPL cricket."
+question_type: T6
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

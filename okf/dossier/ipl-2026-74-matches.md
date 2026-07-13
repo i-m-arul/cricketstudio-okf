@@ -2,6 +2,9 @@
 type: dossier
 title: "IPL 2026 — 74 Matches in the Season"
 description: "IPL 2026 consisted of 74 matches including playoffs. The full season corpus is in the CricketStudio dataset."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot produce IPL 2026 in-season figures — knowledge cutoff predates the tournament or stats are approximate without ball-by-ball provenance."
 resource: https://players.cricketstudio.ai/season/ipl-2026
 canonical_page: https://players.cricketstudio.ai/season/ipl-2026
 tags:

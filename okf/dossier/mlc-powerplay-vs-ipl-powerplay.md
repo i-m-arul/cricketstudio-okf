@@ -2,6 +2,9 @@
 type: dossier
 title: "MLC vs IPL — Powerplay Batting Comparison"
 description: "Compares powerplay batting strike rates between MLC all-time leaders and IPL 2026 leaders — with sample floors, scope caveats, and correct cross-league citation."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives a general reputation summary of MLC and IPL without the actual career delivery count, SR, dot-ball %, and dismissal record between this specific pair."
 tags:
   - cricket
   - MLC

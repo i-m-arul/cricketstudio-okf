@@ -2,6 +2,9 @@
 type: dossier
 title: "Waqar Salamkheil — MLC phase analysis"
 description: "Waqar Salamkheil MLC phase breakdown (MLC 2024, 2025). Los Angeles Knight Riders and Seattle Orcas. Data-derived phase rates where above sample-size floor."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/waqar-salamkheil
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/waqar-salamkheil
 tags:

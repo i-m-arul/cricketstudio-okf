@@ -2,6 +2,9 @@
 type: dossier
 title: "LH Ferguson — MLC career overview"
 description: "LH Ferguson MLC career: 16 wkts, 6.65 econ (11M bowl). Los Angeles Knight Riders and Washington Freedom. MLC 2023, 2024, 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for LH Ferguson without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/lh-ferguson
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/lh-ferguson
 tags:

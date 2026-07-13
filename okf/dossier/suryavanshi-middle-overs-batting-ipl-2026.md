@@ -2,6 +2,9 @@
 type: dossier
 title: "Suryavanshi Middle Overs Batting Stats IPL 2026"
 description: "Verified answer: Suryavanshi scored at 238.7 SR in IPL 2026 middle overs from 93 balls."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "States overall career stats without the middle-overs (7–16) phase-split figure — cannot distinguish performance by phase."
 resource: https://players.cricketstudio.ai/players/vaibhav-suryavanshi
 canonical_page: https://players.cricketstudio.ai/players/vaibhav-suryavanshi
 tags:

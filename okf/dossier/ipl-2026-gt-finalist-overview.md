@@ -2,6 +2,9 @@
 type: dossier
 title: "Gujarat Titans — IPL 2026 finalist season"
 description: "GT reached the IPL 2026 final (lost to RCB). Finished 3rd in the league with 18 points. Gill (732R) and Rashid (21 wkts) were key performers."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot produce IPL 2026 in-season figures — knowledge cutoff predates the tournament or stats are approximate without ball-by-ball provenance."
 resource: https://players.cricketstudio.ai/teams/gt
 canonical_page: https://players.cricketstudio.ai/teams/gt
 tags:

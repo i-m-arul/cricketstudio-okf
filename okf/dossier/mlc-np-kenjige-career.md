@@ -2,6 +2,9 @@
 type: dossier
 title: "NP Kenjige — MLC career overview"
 description: "NP Kenjige MLC career: 23R, 95.8 SR (6M bat). 19 wkts, 7.39 econ (18M bowl). MI New York. MLC 2023, 2024, 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for NP Kenjige without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/np-kenjige
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/np-kenjige
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: IPL Champions History
 description: Complete season-by-season IPL champion list 2007/08–2026 with source attribution and citation guidance.
+question_type: T4
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 status: active
 last_verified: 2026-06-24
 timestamp: 2026-06-24

@@ -2,6 +2,9 @@
 type: dossier
 title: "MS Chapman — MLC career overview"
 description: "MS Chapman MLC career: 89R, 125.4 SR (3M bat). Washington Freedom. MLC 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for MS Chapman without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/ms-chapman
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/ms-chapman
 tags:

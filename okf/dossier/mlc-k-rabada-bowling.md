@@ -2,6 +2,9 @@
 type: dossier
 title: "K Rabada — MLC bowling phase profile"
 description: "Kagiso Rabada MLC bowling: PP 48b/5 wkts/6.00 econ (specialist). Total 90 balls, 6 wkts, 7.53 econ. Small sample (4 matches). MI New York, 2023–2024."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/k-rabada
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/k-rabada
 tags:

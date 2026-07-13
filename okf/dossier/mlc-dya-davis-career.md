@@ -2,6 +2,9 @@
 type: dossier
 title: "DYA Davis — MLC career overview"
 description: "DYA Davis MLC career: 15R, 88.2 SR (2M bat). Los Angeles Knight Riders. MLC 2024."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for DYA Davis without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/dya-davis
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/dya-davis
 tags:

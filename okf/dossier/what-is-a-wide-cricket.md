@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a wide in cricket?"
 description: "A wide is a delivery bowled outside the corridor of normal reach for the batter, ruled unplayable. It costs the bowling team 1 penalty run and must be re-bowled. In T20/IPL the wide rule is stricter than in Tests."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

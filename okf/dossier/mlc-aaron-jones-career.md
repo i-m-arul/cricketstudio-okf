@@ -2,6 +2,9 @@
 type: dossier
 title: "Aaron Jones — MLC career batting overview"
 description: "Aaron Jones MLC career: 12M, 216R, 116.8 SR, 18.0 avg. Middle-overs builder (109 balls, 133 SR). Seattle Orcas, 2024–2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Aaron Jones without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/aaron-jones
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/aaron-jones
 tags:

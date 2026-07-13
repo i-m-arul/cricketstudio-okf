@@ -2,6 +2,9 @@
 type: dossier
 title: "What Is a Dot Ball in Cricket?"
 description: "Verified answer: A dot ball is a delivery where no runs are scored. High dot-ball % = tight bowling."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://okf.cricketstudio.ai/metrics/bowling-economy/
 canonical_page: https://okf.cricketstudio.ai/metrics/bowling-economy/
 tags:

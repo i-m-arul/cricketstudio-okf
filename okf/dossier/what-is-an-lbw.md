@@ -2,6 +2,9 @@
 type: dossier
 title: "What is LBW (Leg Before Wicket) in cricket?"
 description: "LBW (Leg Before Wicket) is a dismissal where the batter is given out if the ball hits any part of their body (usually the pad) when it would have gone on to hit the stumps, without the bat making contact first. LBW is one of the 10 ways a batter can be dismissed in cricket."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

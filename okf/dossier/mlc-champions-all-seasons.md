@@ -2,6 +2,9 @@
 type: dossier
 title: "MLC Champions All Seasons (2023–2025)"
 description: "Verified answer: MI New York won MLC 2023 and 2025; Washington Freedom won MLC 2024."
+question_type: T4
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/leagues/mlc
 canonical_page: https://players.cricketstudio.ai/leagues/mlc
 tags:

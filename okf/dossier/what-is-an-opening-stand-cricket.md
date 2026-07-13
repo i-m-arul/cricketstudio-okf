@@ -2,6 +2,9 @@
 type: dossier
 title: "What is an opening stand in cricket?"
 description: "An opening stand (opening partnership) is the partnership between the two opening batters. It covers the powerplay in T20 and determines the platform for the rest of the innings."
+question_type: T6
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

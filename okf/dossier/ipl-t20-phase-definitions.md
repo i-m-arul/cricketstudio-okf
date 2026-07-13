@@ -2,6 +2,9 @@
 type: dossier
 title: "IPL phase definitions — powerplay, middle overs, death overs"
 description: "Official IPL phase definitions used throughout CricketStudio: overs 1–6 (powerplay), 7–15 (middle), 16–20 (death). Applied to all phase-split claims."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "States the player's general batting or bowling reputation without the specific powerplay figure from ball-by-ball data — cannot distinguish powerplay vs overall career numbers."
 resource: https://players.cricketstudio.ai/about
 canonical_page: https://players.cricketstudio.ai/about
 tags:

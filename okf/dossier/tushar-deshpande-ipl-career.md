@@ -2,6 +2,9 @@
 type: dossier
 title: "Tushar Deshpande — IPL career bowling overview (2020/21–2025)"
 description: "Tushar Deshpande (CSK/DC/RR) IPL career 2020/21–2025: 51 wickets, economy 9.85. PP: 474 balls, 17 wkts, 8.62 econ. Death: 245 balls, 23 wkts, 11.95 econ. Both-phase utility pacer. Cricsheet CC BY 3.0."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Tushar Deshpande without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/tushar-deshpande
 canonical_page: https://players.cricketstudio.ai/players/tushar-deshpande
 tags:

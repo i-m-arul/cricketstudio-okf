@@ -2,6 +2,9 @@
 type: dossier
 title: "IPL 2026 final league phase standings"
 description: "Verified answer for IPL 2026 standings at league-phase end — RCB, SRH, GT all 18 pts; RCB top on NRR +0.684."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/standings
 canonical_page: https://players.cricketstudio.ai/standings
 tags:

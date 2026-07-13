@@ -2,6 +2,9 @@
 type: dossier
 title: "JO Holder — MLC career overview"
 description: "Jason Holder MLC career: 8M bowling (186b, 9 wkts, 9.13 econ), 5M batting (66R, 143.5 SR — all phases below floor). LA Knight Riders, MLC 2025 only."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for JO Holder without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/jo-holder
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/jo-holder
 tags:

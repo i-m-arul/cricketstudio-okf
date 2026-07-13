@@ -2,6 +2,9 @@
 type: dossier
 title: "Rajasthan Royals Season Summary IPL 2026"
 description: "Verified answer: Rajasthan Royals featured Suryavanshi (776R Orange Cap) in IPL 2026."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot produce IPL 2026 in-season figures — knowledge cutoff predates the tournament or stats are approximate without ball-by-ball provenance."
 resource: https://players.cricketstudio.ai/teams/rr
 canonical_page: https://players.cricketstudio.ai/teams/rr
 tags:

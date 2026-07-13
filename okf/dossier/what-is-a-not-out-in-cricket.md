@@ -2,6 +2,9 @@
 type: dossier
 title: "What is 'not out' in cricket batting?"
 description: "A batter is 'not out' when an innings ends without their wicket falling — either the innings is declared, the team's total reaches target, all other wickets fall (last man standing), or the batter retires hurt. Not-out innings are excluded from the denominator when calculating batting average, making averages of frequent not-out batters appear higher."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

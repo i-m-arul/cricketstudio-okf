@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a slower ball in cricket?"
 description: "A slower ball is a delivery bowled by a pace bowler at significantly reduced pace, designed to deceive the batter's timing. Effective in death overs (16–20) in T20."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

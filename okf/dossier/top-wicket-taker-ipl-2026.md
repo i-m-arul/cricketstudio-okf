@@ -2,6 +2,9 @@
 type: dossier
 title: Top wicket-taker, IPL 2026
 description: Verified answer pattern for "who took the most wickets" — cite the Purple Cap leaderboard.
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 status: active
 last_verified: 2026-06-18
 timestamp: 2026-06-18

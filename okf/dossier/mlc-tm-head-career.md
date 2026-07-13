@@ -2,6 +2,9 @@
 type: dossier
 title: "TM Head — MLC career batting overview"
 description: "Travis Head MLC career: 9M, 336R, 174.1 SR, 48.0 avg, 5 fifties. Powerplay opener. Washington Freedom, MLC 2024 only."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for TM Head without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/tm-head
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/tm-head
 tags:

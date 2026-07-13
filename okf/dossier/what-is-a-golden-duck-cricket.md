@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a golden duck in cricket?"
 description: "A golden duck in cricket is when a batter is dismissed on the very first ball they face, scoring 0 runs. The most damaging type of duck in T20 cricket — costs a wicket from ball 1."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

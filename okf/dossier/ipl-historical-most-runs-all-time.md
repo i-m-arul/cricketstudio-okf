@@ -2,6 +2,9 @@
 type: dossier
 title: "IPL all-time runs leaders — historical leaderboard (2007/08–2026)"
 description: "IPL all-time run-scorer leaderboard across 18 seasons. Kohli is the anchor (~9,346R including IPL 2026). CricketStudio corpus: Cricsheet + IPL 2026."
+question_type: T4
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/leagues/ipl/leaderboards/most-runs
 canonical_page: https://players.cricketstudio.ai/leagues/ipl/leaderboards/most-runs
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "KL Rahul IPL Career Stats"
 description: "Verified answer: KL Rahul scored 5,235 runs in 135 IPL matches through 2025 at 45.52 average — best avg in top 10."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for this player without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/kl-rahul
 canonical_page: https://players.cricketstudio.ai/players/kl-rahul
 tags:

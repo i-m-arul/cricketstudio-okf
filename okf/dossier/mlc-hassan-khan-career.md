@@ -2,6 +2,9 @@
 type: dossier
 title: "Hassan Khan — MLC career overview"
 description: "Hassan Khan MLC career: 429R, 163.7 SR (19M bat). 22 wkts, 8.58 econ (17M bowl). San Francisco Unicorns. MLC 2024, 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Hassan Khan without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/hassan-khan
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/hassan-khan
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "Jasprit Bumrah — IPL 2026 powerplay bowling"
 description: "Bumrah IPL 2026 powerplay: 144 balls, 192 runs conceded, 2 wickets, 8.00 economy. Most economical Bumrah phase in IPL 2026."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "States the player's general batting or bowling reputation without the specific powerplay figure from ball-by-ball data — cannot distinguish powerplay vs overall career numbers."
 resource: https://players.cricketstudio.ai/players/jasprit-bumrah
 canonical_page: https://players.cricketstudio.ai/players/jasprit-bumrah
 tags:

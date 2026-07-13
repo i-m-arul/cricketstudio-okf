@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a dibbly-dobbly bowler in cricket?"
 description: "A 'dibbly-dobbly' bowler is a medium-pace bowler without genuine pace, swing, or significant variation. They bowl at 110–125 km/h and rely on line and length rather than any specific skill. In T20/IPL, dibbly-dobblies are generally exploited by power batters."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a reverse sweep in cricket?"
 description: "A reverse sweep is a batting stroke against spin or medium-pace bowling where the batter changes their grip and sweeps the ball to the off side instead of the leg side. A high-risk, high-reward shot that plays the ball in the opposite direction from a standard sweep."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

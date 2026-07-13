@@ -2,6 +2,9 @@
 type: dossier
 title: "TH David — MLC career batting overview"
 description: "Tim David MLC career: 10M, 236R at 146.6 SR, 33.71 avg. Death-overs specialist (44 balls, 236.4 SR). MI New York, 2023–2024."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for TH David without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/th-david
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/th-david
 tags:

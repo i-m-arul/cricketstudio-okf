@@ -2,6 +2,9 @@
 type: dossier
 title: "What is middle overs strategy in T20 cricket?"
 description: "Middle overs strategy in T20 (overs 7–15) involves the batting team building partnerships and setting up the death, while the bowling team tightens the field and targets wickets through spin and variation. The middle overs are typically the lowest-scoring phase per over."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "States overall career stats without the middle-overs (7–16) phase-split figure — cannot distinguish performance by phase."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

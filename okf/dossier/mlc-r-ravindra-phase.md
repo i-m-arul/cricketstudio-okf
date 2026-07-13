@@ -2,6 +2,9 @@
 type: dossier
 title: "R Ravindra — MLC phase profile (batting + bowling)"
 description: "Rachin Ravindra MLC phases: Batting PP 129b/187.6 SR (explosive opener), Middle 83b/109.6 SR; Bowling Middle 148b/11 wkts/7.34 econ (specialist). Washington Freedom, 2024–2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/r-ravindra
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/r-ravindra
 tags:

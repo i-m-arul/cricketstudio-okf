@@ -1,5 +1,8 @@
 ---
 type: dossier
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives a general reputation summary of How to Read Batter and the bowler without the actual career delivery count, SR, dot-ball %, and dismissal record between this specific pair."
 title: How to Read Batter vs Bowler Head-to-Head Cricket Stats
 description: >
   Explains what batter-vs-bowler H2H stats mean, the minimum sample-size floor,

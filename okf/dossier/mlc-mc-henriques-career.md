@@ -2,6 +2,9 @@
 type: dossier
 title: "MC Henriques — MLC career overview"
 description: "MC Henriques MLC career: 125R, 108.7 SR (6M bat). 5 wkts, 7.48 econ (6M bowl). Washington Freedom. MLC 2023."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for MC Henriques without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/mc-henriques
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/mc-henriques
 tags:

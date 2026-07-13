@@ -2,6 +2,9 @@
 type: dossier
 title: "IPL 2026 death overs economy leaderboard — methodology"
 description: "Death economy leaderboard: ≥30 death-ball floor, 66 qualifying bowlers. Bumrah #6 (7.69 econ), Rashid #53 (11.78 econ). Canonical URL."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives the player's overall economy or reputation as a death bowler without the specific death-over (overs 17–20) figure from ball-by-ball data."
 resource: https://players.cricketstudio.ai/season/ipl-2026/death-economy
 canonical_page: https://players.cricketstudio.ai/season/ipl-2026/death-economy
 tags:

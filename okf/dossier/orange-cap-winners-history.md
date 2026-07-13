@@ -2,6 +2,9 @@
 type: dossier
 title: Orange Cap Winners History
 description: Season-by-season IPL Orange Cap guide — key verified seasons (Kohli 973 in 2016, Suryavanshi 776 in 2026), and how to cite the complete history correctly.
+question_type: T4
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 status: active
 last_verified: 2026-06-24
 timestamp: 2026-06-24

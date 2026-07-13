@@ -2,6 +2,9 @@
 type: dossier
 title: "Narendra Modi Stadium (Ahmedabad) — IPL 2026 venue profile"
 description: "Narendra Modi Stadium IPL 2026: 9 fixtures (most of any venue), avg 1st-innings 160, chase win rate 78%, bowl-first 78%."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/venues/narendra-modi-stadium
 canonical_page: https://players.cricketstudio.ai/venues/narendra-modi-stadium
 tags:

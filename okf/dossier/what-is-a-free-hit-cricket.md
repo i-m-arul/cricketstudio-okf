@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a free hit in cricket?"
 description: "A free hit is a delivery where the batter cannot be dismissed by most methods. It follows a front-foot no-ball in T20/IPL. The batter can only be out run-out on a free hit — all other dismissal modes are not valid."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

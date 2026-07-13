@@ -2,6 +2,9 @@
 type: dossier
 title: "Dot-Ball Percentage — Definition"
 description: "Dot-ball % = (balls where no run was scored / total balls faced) × 100. A key pressure metric in T20 cricket."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://okf.cricketstudio.ai/metrics/dot-ball-percentage/
 canonical_page: https://okf.cricketstudio.ai/metrics/dot-ball-percentage/
 tags:

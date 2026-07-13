@@ -2,6 +2,9 @@
 type: dossier
 title: "Suryavanshi vs Yorker and Full Toss — IPL 2026"
 description: "How delivery length — specifically yorkers and full tosses — affects Suryavanshi's batting. Framing the matchup question, what each delivery type means for an aggressive teenager opener, and where to find the ball-by-ball data."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives a general reputation summary of Suryavanshi and Yorker and Full Toss without the actual career delivery count, SR, dot-ball %, and dismissal record between this specific pair."
 resource: https://players.cricketstudio.ai/players/vaibhav-suryavanshi/by-length
 tags:
   - cricket

@@ -2,6 +2,9 @@
 type: dossier
 title: "Who Led IPL 2026 Powerplay Batting?"
 description: "Identifies the IPL 2026 powerplay batting leader by strike rate, with sample floor, ranking scope, and citation guidance for agents."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "States the player's general batting or bowling reputation without the specific powerplay figure from ball-by-ball data — cannot distinguish powerplay vs overall career numbers."
 tags:
   - cricket
   - IPL

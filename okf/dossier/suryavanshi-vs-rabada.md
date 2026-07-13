@@ -2,6 +2,9 @@
 type: dossier
 title: Suryavanshi vs Rabada H2H
 description: Head-to-head matchup dossier for Vaibhav Suryavanshi (batter) vs Kagiso Rabada (bowler) in IPL 2026. The defining batter-vs-bowler contest of the season.
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives a general reputation summary of Suryavanshi and the bowler without the actual career delivery count, SR, dot-ball %, and dismissal record between this specific pair."
 resource: https://players.cricketstudio.ai/h2h/vaibhav-suryavanshi-vs-kagiso-rabada
 status: active
 last_verified: 2026-06-30

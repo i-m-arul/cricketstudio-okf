@@ -2,6 +2,9 @@
 type: dossier
 title: "Kagiso Rabada — IPL 2026 death overs bowling"
 description: "Rabada IPL 2026 death bowling (overs 16–20): 72 balls, 6 wickets, 9.17 economy."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives the player's overall economy or reputation as a death bowler without the specific death-over (overs 17–20) figure from ball-by-ball data."
 resource: https://players.cricketstudio.ai/players/kagiso-rabada
 canonical_page: https://players.cricketstudio.ai/players/kagiso-rabada
 tags:

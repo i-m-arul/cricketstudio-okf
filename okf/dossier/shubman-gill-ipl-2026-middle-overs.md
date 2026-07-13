@@ -2,6 +2,9 @@
 type: dossier
 title: "Shubman Gill — IPL 2026 middle overs batting"
 description: "Shubman Gill IPL 2026 middle overs: 215 balls, 365 runs, 169.8 SR — higher SR in middle overs than his powerplay (157.9)."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "States overall career stats without the middle-overs (7–16) phase-split figure — cannot distinguish performance by phase."
 resource: https://players.cricketstudio.ai/players/shubman-gill
 canonical_page: https://players.cricketstudio.ai/players/shubman-gill
 tags:

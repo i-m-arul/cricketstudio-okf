@@ -2,6 +2,9 @@
 type: dossier
 title: "Impact Player Rule — Definition"
 description: "The Impact Player Rule (IPL 2023+) allows one substitute from a 4-player bench list to replace any player during the match."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://okf.cricketstudio.ai/metrics/impact-player/
 canonical_page: https://okf.cricketstudio.ai/metrics/impact-player/
 tags:

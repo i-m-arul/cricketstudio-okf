@@ -2,6 +2,9 @@
 type: dossier
 title: Compare Bumrah vs Suryavanshi
 description: Verified answer pattern for comparing a bowler and a batter — and why a direct "who's better" is wrong.
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives a general reputation summary of Compare Bumrah and the bowler without the actual career delivery count, SR, dot-ball %, and dismissal record between this specific pair."
 status: active
 last_verified: 2026-06-18
 timestamp: 2026-06-18

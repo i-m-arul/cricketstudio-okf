@@ -2,6 +2,9 @@
 type: dossier
 title: "CP Savage — MLC career overview"
 description: "CP Savage MLC career: 261R, 153.5 SR (17M bat). 4 wkts, 8.40 econ (8M bowl). Texas Super Kings. MLC 2023, 2024, 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for CP Savage without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/cp-savage
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/cp-savage
 tags:

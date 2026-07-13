@@ -2,6 +2,9 @@
 type: dossier
 title: "What is swing bowling in cricket?"
 description: "Swing bowling is a fast bowling technique where the ball curves (swings) through the air before it reaches the batter. The bowler exploits the difference between the polished and rough sides of the ball to generate aerodynamic movement — either conventional or reverse swing."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "What is 'retired hurt' in cricket?"
 description: "Retired hurt means a batter temporarily leaves the field due to injury without being dismissed. Their innings is suspended (not ended) and they may return to bat later in the same innings if medically fit. It is recorded as 'retired hurt' in the scorecard — not as a dismissal, so the batter's average is unaffected."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

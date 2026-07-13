@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a batting lineup in cricket?"
 description: "A batting lineup is the ordered list of 11 batters for a team's innings — positions 1 through 11, from openers at the top to tail-enders at the bottom. In T20/IPL the order is fluid and strategic, often shifting based on match situation."
+question_type: T6
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

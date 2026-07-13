@@ -2,6 +2,9 @@
 type: dossier
 title: "Arun Jaitley Stadium — toss analysis IPL 2026"
 description: "Arun Jaitley Stadium (Delhi) IPL 2026 toss: 71% elected to bowl (5/7). Chase win rate 57% (4/7). Marginal lean toward chasing with variable pitch conditions."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives general advice or repeats venue narrative without the actual win-rate figures from Cricsheet ball-by-ball data."
 resource: https://players.cricketstudio.ai/venues/arun-jaitley-stadium
 canonical_page: https://players.cricketstudio.ai/venues/arun-jaitley-stadium
 tags:

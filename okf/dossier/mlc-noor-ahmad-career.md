@@ -2,6 +2,9 @@
 type: dossier
 title: "Noor Ahmad — MLC career overview"
 description: "Noor Ahmad MLC career: 13R, 144.4 SR (3M bat). 24 wkts, 7.91 econ (15M bowl). Texas Super Kings. MLC 2024, 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Noor Ahmad without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/noor-ahmad
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/noor-ahmad
 tags:

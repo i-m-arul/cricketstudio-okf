@@ -2,6 +2,9 @@
 type: dossier
 title: "Best Batting Average in IPL 2026"
 description: "Verified answer: Virat Kohli had the best batting average among qualifying batters in IPL 2026 — 56.25 average from 675 runs."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/season/ipl-2026/batting-leaders
 canonical_page: https://players.cricketstudio.ai/season/ipl-2026/batting-leaders
 tags:

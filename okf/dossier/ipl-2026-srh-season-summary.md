@@ -2,6 +2,9 @@
 type: dossier
 title: "Sunrisers Hyderabad Season Summary IPL 2026"
 description: "Verified answer: SRH finished the IPL 2026 league phase with 18 points, making the playoffs."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot produce IPL 2026 in-season figures — knowledge cutoff predates the tournament or stats are approximate without ball-by-ball provenance."
 resource: https://players.cricketstudio.ai/teams/srh
 canonical_page: https://players.cricketstudio.ai/teams/srh
 tags:

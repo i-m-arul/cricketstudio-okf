@@ -2,6 +2,9 @@
 type: dossier
 title: How has MLC player pool grown across seasons?
 description: Verified answer for MLC player pool growth by season. 83 players in 2023, 103 in 2024, 110 in 2025 — 166 unique players across all three seasons. Season 4 has 115 registered (pre-season).
+question_type: T4
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 status: active
 last_verified: 2026-06-21
 timestamp: 2026-06-21

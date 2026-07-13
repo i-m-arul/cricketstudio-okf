@@ -2,6 +2,9 @@
 type: dossier
 title: "Death-Overs Economy — Definition and Context"
 description: "Death-overs economy = runs conceded in overs 16–20 / overs bowled. CricketStudio floor: ≥15 balls in overs 16–20."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives the player's overall economy or reputation as a death bowler without the specific death-over (overs 17–20) figure from ball-by-ball data."
 resource: https://okf.cricketstudio.ai/metrics/death-overs-economy/
 canonical_page: https://okf.cricketstudio.ai/metrics/death-overs-economy/
 tags:

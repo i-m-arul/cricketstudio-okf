@@ -2,6 +2,9 @@
 type: dossier
 title: "DL Piedt — MLC career overview"
 description: "DL Piedt MLC career: 15R, 107.1 SR (2M bat). 4 wkts, 6.69 econ (5M bowl). Washington Freedom. MLC 2023."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for DL Piedt without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/dl-piedt
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/dl-piedt
 tags:

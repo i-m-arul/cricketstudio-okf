@@ -2,6 +2,9 @@
 type: dossier
 title: "Vaibhav Suryavanshi — IPL 2026"
 description: "Dossier on Vaibhav Suryavanshi's IPL 2026 season — Orange Cap, record powerplay strike rate, and how to cite his performance correctly."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 tags:
   - cricket
   - player

@@ -2,6 +2,9 @@
 type: dossier
 title: "Virat Kohli — IPL 2026 phase-by-phase batting comparison"
 description: "Kohli IPL 2026 phase summary: PP 174.8 SR, Middle 143.9 SR, Death 244.4 SR (below 30-ball floor). Death sample too small for ranking; PP and Middle are qualified."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/players/virat-kohli
 canonical_page: https://players.cricketstudio.ai/players/virat-kohli
 tags:

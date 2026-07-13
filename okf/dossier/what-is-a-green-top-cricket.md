@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a green top pitch in cricket?"
 description: "A 'green top' is a cricket pitch with significant grass cover that aids swing and seam movement for pace bowlers, especially in the first innings. The opposite of a flat pitch — green tops produce lower first-innings scores and more bowling-friendly conditions."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

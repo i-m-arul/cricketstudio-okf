@@ -2,6 +2,9 @@
 type: dossier
 title: Purple Cap Winners History
 description: Season-by-season IPL Purple Cap guide — Chahal's all-time lead and 200-wicket milestone (22 April 2024), and how to cite the complete history correctly.
+question_type: T4
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 status: active
 last_verified: 2026-06-24
 timestamp: 2026-06-24

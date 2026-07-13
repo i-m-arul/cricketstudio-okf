@@ -2,6 +2,9 @@
 type: dossier
 title: "What is an opener in T20 cricket?"
 description: "An opener bats at positions 1 or 2, facing the new ball in the Powerplay (overs 1–6). In T20, openers aim for high SR (SR 130–200+) to maximize the fielding restriction benefit. Different from Test openers who prioritize survival."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

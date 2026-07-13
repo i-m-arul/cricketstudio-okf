@@ -2,6 +2,9 @@
 type: dossier
 title: "David Miller — IPL career batting overview (2012–2025)"
 description: "David Miller (GT/RR/PBKS/LSG) IPL career 2012–2025: 3,077 runs, avg 35.37, SR 139.1. Death overs: 605 balls, 175.4 SR — defining phase. PP SR 89.1 (intentional conservation). Elite finisher. Cricsheet CC BY 3.0."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for David Miller without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/david-miller
 canonical_page: https://players.cricketstudio.ai/players/david-miller
 tags:

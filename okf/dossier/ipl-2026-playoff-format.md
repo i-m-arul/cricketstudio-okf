@@ -2,6 +2,9 @@
 type: dossier
 title: "IPL 2026 Playoff Format"
 description: "Verified answer: IPL 2026 playoffs involved 4 teams — Qualifier 1, Eliminator, Qualifier 2, and Final."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/season/ipl-2026
 canonical_page: https://players.cricketstudio.ai/season/ipl-2026
 tags:

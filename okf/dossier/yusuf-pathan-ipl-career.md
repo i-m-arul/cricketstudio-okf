@@ -2,6 +2,9 @@
 type: dossier
 title: "Yusuf Pathan — IPL career all-rounder stats (pre-2026)"
 description: "Yusuf Pathan (KKR/RR/SRH) IPL career pre-2026: 3,222 runs avg 29.29 SR 144.3, 1 hundred, 161 sixes; 42 wickets econ 7.40; 12 seasons (2007/08–2019). Death batting 511 balls 167.9 SR. PP bowling 354 balls 6.69 econ. All phases above floor. Cricsheet CC BY 3.0."
+question_type: T4
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Yusuf Pathan without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/yk-pathan
 canonical_page: https://players.cricketstudio.ai/players/yk-pathan
 tags:

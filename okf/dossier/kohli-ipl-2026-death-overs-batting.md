@@ -2,6 +2,9 @@
 type: dossier
 title: "Virat Kohli — IPL 2026 death overs batting"
 description: "Kohli IPL 2026 death (overs 16–20): 27 balls, 66 runs, SR 244.4 — small sample, high rate."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives the player's overall economy or reputation as a death bowler without the specific death-over (overs 17–20) figure from ball-by-ball data."
 resource: https://players.cricketstudio.ai/players/virat-kohli
 canonical_page: https://players.cricketstudio.ai/players/virat-kohli
 tags:

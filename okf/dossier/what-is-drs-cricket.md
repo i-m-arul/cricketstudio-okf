@@ -2,6 +2,9 @@
 type: dossier
 title: "What is DRS (Decision Review System) in cricket?"
 description: "The Decision Review System (DRS) allows teams to challenge on-field umpiring decisions using technology (Hawkeye ball-tracking, Ultra-Edge, HotSpot). Each team gets 2 unsuccessful reviews per innings in T20s."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

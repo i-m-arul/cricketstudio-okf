@@ -5,7 +5,7 @@ description: >-
   standard and reference bundle built on Google OKF v0.1, defining a cricket type
   vocabulary, provenance convention, metric standard, claim discipline, identity
   rules, and sample-size doctrine. Includes a curated catalog of IPL and MLC
-  cricket knowledge with 2,200+ files. Self-certified Level 3 (Agent-Safe) — Trust OS
+  cricket knowledge with 2,500+ files. Self-certified Level 3 (Agent-Safe) — Trust OS
   v1 ships machine-readable claim objects, JSON Schema, eval benchmark, and trust manifest.
 license: See LICENSE.md (docs CC-BY-4.0; data per source — see DATA_LICENSE_BOUNDARIES.md)
 homepage: https://okf.cricketstudio.ai
@@ -29,7 +29,7 @@ data_sources:
     attribution: Ball-by-ball data from Cricsheet (https://cricsheet.org), CC BY 3.0.
 
 counts:
-  dossier: 1007
+  dossier: 1401
   leaderboard: 47
   league: 2
   match: 1

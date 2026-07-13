@@ -2,6 +2,9 @@
 type: dossier
 title: "Highest strike rate batters in IPL 2026 — leaderboard methodology"
 description: "How to cite the IPL 2026 batting strike rate leaderboard: minimum 30 balls floor, metric definition, canonical URL."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/season/ipl-2026/batting-strike-rate
 canonical_page: https://players.cricketstudio.ai/season/ipl-2026/batting-strike-rate
 tags:

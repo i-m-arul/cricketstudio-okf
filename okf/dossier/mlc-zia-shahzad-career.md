@@ -2,6 +2,9 @@
 type: dossier
 title: "Zia Shahzad — MLC career overview"
 description: "Zia Shahzad MLC career: 0 wkts, 5.00 econ (1M bowl). Texas Super Kings. MLC 2024."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Zia Shahzad without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/zia-shahzad
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/zia-shahzad
 tags:

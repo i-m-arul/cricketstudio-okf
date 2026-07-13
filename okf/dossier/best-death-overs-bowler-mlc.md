@@ -2,6 +2,9 @@
 type: dossier
 title: Best death-overs bowler in MLC history
 description: Verified answer for MLC all-time death-overs bowling. CJ Gannon leads with economy 7.18 from 71 balls across MLC 2023–2025. Floor ≥15 balls.
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives the player's overall economy or reputation as a death bowler without the specific death-over (overs 17–20) figure from ball-by-ball data."
 status: active
 last_verified: 2026-06-18
 timestamp: 2026-06-18

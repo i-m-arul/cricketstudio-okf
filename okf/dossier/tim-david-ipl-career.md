@@ -2,6 +2,9 @@
 type: dossier
 title: "Tim David — IPL career batting overview (2021–2025)"
 description: "Tim David (MI/RCB) IPL career 2021–2025: 846 runs, SR 175.2, avg 32.54. Death: 279 balls, 207.2 SR — elite finisher. Middle: 204 balls, 131.4 SR. Cricsheet CC BY 3.0."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Tim David without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/tim-david
 canonical_page: https://players.cricketstudio.ai/players/tim-david
 tags:

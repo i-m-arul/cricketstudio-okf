@@ -2,6 +2,9 @@
 type: dossier
 title: "MW Short — MLC career overview"
 description: "MW Short MLC career: 682R, 158.2 SR (19M bat). 10 wkts, 7.16 econ (10M bowl). San Francisco Unicorns and Washington Freedom. MLC 2023, 2024, 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for MW Short without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/mw-short
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/mw-short
 tags:

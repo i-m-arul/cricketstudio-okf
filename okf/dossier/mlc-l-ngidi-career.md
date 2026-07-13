@@ -2,6 +2,9 @@
 type: dossier
 title: "L Ngidi — MLC career overview"
 description: "L Ngidi MLC career: 1 wkts, 10.84 econ (2M bowl). Seattle Orcas. MLC 2024."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for L Ngidi without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/l-ngidi
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/l-ngidi
 tags:

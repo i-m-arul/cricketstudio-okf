@@ -2,6 +2,9 @@
 type: dossier
 title: "Arun Jaitley Stadium — first-innings scoring in IPL 2026"
 description: "Arun Jaitley Stadium (Delhi): average first-innings score 173 across 7 IPL 2026 fixtures (range 77–264). Chase win rate: 57% (4/7). Wide scoring range reflects varied conditions."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/venues/arun-jaitley-stadium
 canonical_page: https://players.cricketstudio.ai/venues/arun-jaitley-stadium
 tags:

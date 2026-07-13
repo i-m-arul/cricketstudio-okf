@@ -2,6 +2,9 @@
 type: dossier
 title: "What does a cricket score notation mean?"
 description: "Cricket score notation like '175/4' means 175 runs scored for the loss of 4 wickets. In T20/IPL, the notation includes overs bowled: '175/4 (20 ov)' for a completed innings. Scorecards show individual batter and bowler columns."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

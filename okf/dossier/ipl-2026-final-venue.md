@@ -2,6 +2,9 @@
 type: dossier
 title: "IPL 2026 Final Venue"
 description: "Verified answer: The IPL 2026 final was played at Narendra Modi Stadium, Ahmedabad, on 2026-05-31."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/matches/ipl-2026-rcb-vs-gt-2026-05-31
 canonical_page: https://players.cricketstudio.ai/matches/ipl-2026-rcb-vs-gt-2026-05-31
 tags:

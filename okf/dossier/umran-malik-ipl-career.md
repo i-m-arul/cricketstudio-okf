@@ -2,6 +2,9 @@
 type: dossier
 title: "Umran Malik — IPL career bowling overview (2021–2024)"
 description: "Umran Malik (SRH) IPL career 2021–2024: 29 wickets, economy 9.41. Middle-overs dominant: 415 balls, 25 wickets, 8.57 economy (86% of career wickets from Middle). PP 30 balls 0 wickets 19.00 econ. Death 48 balls 4 wkts 10.63 econ. 4 seasons. Cricsheet CC BY 3.0."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Umran Malik without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/umran-malik
 canonical_page: https://players.cricketstudio.ai/players/umran-malik
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: What is Washington Freedom's all-time MLC record?
 description: Verified answer for Washington Freedom all-time MLC record. 18 wins from 26 matches (69.2% win rate) across MLC 2023–2025. One Finals appearance (2025, runners-up).
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 status: active
 last_verified: 2026-06-21
 timestamp: 2026-06-21

@@ -2,6 +2,9 @@
 type: dossier
 title: "Sarfaraz Khan — IPL career batting overview (pre-2026)"
 description: "Sarfaraz Khan (DC/PBKS/RCB) IPL career pre-2026: 585 runs, avg 22.50, SR 131.8, 8 seasons (2015–2023). Death 134 balls 179.9 SR. Middle 242 balls 105.4 SR. PP 68 balls 130.9 SR. Cricsheet CC BY 3.0."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Sarfaraz Khan without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/sarfaraz-khan
 canonical_page: https://players.cricketstudio.ai/players/sarfaraz-khan
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "Chaminda Vaas — IPL career bowling overview (pre-2026)"
 description: "Chaminda Vaas (Deccan Chargers) IPL career pre-2026: 18 wickets econ 7.55, 3 seasons (2007/08–2009/10). PP 198 balls 15 wkts 6.18 econ (standout). Sri Lankan left-arm swing legend. Cricsheet CC BY 3.0."
+question_type: T4
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Chaminda Vaas without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/wpujc-vaas
 canonical_page: https://players.cricketstudio.ai/players/wpujc-vaas
 tags:

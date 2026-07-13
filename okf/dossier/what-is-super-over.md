@@ -2,6 +2,9 @@
 type: dossier
 title: What Is a Super Over
 description: Super Over explained — the one-over tie-breaker in T20 cricket, IPL rules, and what agents should know about when it applies.
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 status: active
 last_verified: 2026-06-24
 timestamp: 2026-06-24

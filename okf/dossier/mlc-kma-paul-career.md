@@ -2,6 +2,9 @@
 type: dossier
 title: "KMA Paul — MLC career overview"
 description: "KMA Paul MLC career: 29R, 120.8 SR (3M bat). 3 wkts, 7.60 econ (3M bowl). Seattle Orcas. MLC 2024."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for KMA Paul without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/kma-paul
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/kma-paul
 tags:

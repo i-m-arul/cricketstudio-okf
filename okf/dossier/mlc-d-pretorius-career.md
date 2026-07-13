@@ -2,6 +2,9 @@
 type: dossier
 title: "D Pretorius — MLC career overview"
 description: "D Pretorius MLC career: 23R, 230.0 SR (2M bat). 0 wkts, 11.25 econ (3M bowl). Seattle Orcas. MLC 2023."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for D Pretorius without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/d-pretorius
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/d-pretorius
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "Aaron Jones — MLC batting phase profile"
 description: "Aaron Jones MLC phases: PP 73b/94.5 SR (below average), Middle 109b/133.0 SR (strongest phase), Death 3b (below floor). Seattle Orcas, 2024–2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/aaron-jones
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/aaron-jones
 tags:

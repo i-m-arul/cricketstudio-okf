@@ -2,6 +2,9 @@
 type: dossier
 title: "FA Allen — MLC career overview"
 description: "FA Allen MLC career: 11R, 100.0 SR (1M bat). 1 wkts, 10.00 econ (1M bowl). MI New York. MLC 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for FA Allen without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/fa-allen
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/fa-allen
 tags:

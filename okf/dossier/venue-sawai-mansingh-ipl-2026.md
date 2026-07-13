@@ -2,6 +2,9 @@
 type: dossier
 title: "Sawai Mansingh Stadium (Jaipur) — IPL 2026 venue profile"
 description: "Sawai Mansingh Stadium IPL 2026: 4 fixtures, avg 1st-innings 226, chase win rate 50%, bowl-first 75%."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/venues/sawai-mansingh-stadium
 canonical_page: https://players.cricketstudio.ai/venues/sawai-mansingh-stadium
 tags:

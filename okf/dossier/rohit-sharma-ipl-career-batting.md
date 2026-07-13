@@ -2,6 +2,9 @@
 type: dossier
 title: "Rohit Sharma — IPL career batting overview"
 description: "Rohit Sharma IPL career batting: anchored MI's 5 IPL title wins. Pre-2026 career stats via CricketStudio historical dataset."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Rohit Sharma without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/rohit-sharma
 canonical_page: https://players.cricketstudio.ai/players/rohit-sharma
 tags:

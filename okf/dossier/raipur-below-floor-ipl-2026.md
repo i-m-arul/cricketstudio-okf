@@ -2,6 +2,9 @@
 type: dossier
 title: "Raipur Stadium (Shaheed Veer Narayan Singh) — Below Venue Floor"
 description: "Dossier explaining why venue tendency claims cannot be made for Shaheed Veer Narayan Singh Stadium in IPL 2026 — only 2 fixtures."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/venues/shaheed-veer-narayan-singh-international-stadium
 canonical_page: https://players.cricketstudio.ai/venues/shaheed-veer-narayan-singh-international-stadium
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "RR Rossouw — MLC career batting overview"
 description: "Rilee Rossouw MLC career: 5M, 133R, 152.9 SR, 33.25 avg, HS 78. Middle-overs concentration (46b, 163.0 SR). LA Knight Riders, MLC 2023 only."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for RR Rossouw without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/rr-rossouw
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/rr-rossouw
 tags:

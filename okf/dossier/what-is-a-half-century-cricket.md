@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a half-century (fifty) in cricket?"
 description: "A half-century (fifty) in cricket is a batting score of 50–99 runs in a single innings. In T20, a fifty scored at 180+ SR is exceptional. Virat Kohli scored 5 fifties in IPL 2026."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

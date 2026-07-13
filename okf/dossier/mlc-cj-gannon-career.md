@@ -2,6 +2,9 @@
 type: dossier
 title: "CJ Gannon — MLC career overview"
 description: "CJ Gannon MLC career: 45R, 102.3 SR (7M bat). 26 wkts, 8.98 econ (20M bowl). Seattle Orcas. MLC 2023, 2024, 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for CJ Gannon without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/cj-gannon
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/cj-gannon
 tags:

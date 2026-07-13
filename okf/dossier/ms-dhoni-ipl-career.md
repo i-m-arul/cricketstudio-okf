@@ -2,6 +2,9 @@
 type: dossier
 title: MS Dhoni IPL Career
 description: MS Dhoni's IPL legacy — 5 CSK titles, Captain Cool, and correct citation guidance for batting stats that should always include a dataset date.
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for this player without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 status: active
 last_verified: 2026-06-24
 timestamp: 2026-06-24

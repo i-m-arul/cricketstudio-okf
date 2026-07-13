@@ -2,6 +2,9 @@
 type: dossier
 title: "MLC batting leaderboards — overview and methodology"
 description: "How CricketStudio surfaces Major League Cricket (MLC) batting leaderboards: scope, sample floors, 26 aspects, canonical URLs."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/leagues/mlc/leaderboards
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/leaderboards
 tags:

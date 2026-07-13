@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a leg spinner in cricket?"
 description: "A leg spinner bowls right-arm wrist spin, turning the ball from leg stump to off stump for a right-handed batter (away from the body). The standard delivery is called a leg-break; variations include the googly (wrong-un), flipper, and top-spinner."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

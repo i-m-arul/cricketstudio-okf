@@ -2,6 +2,9 @@
 type: dossier
 title: "Rajiv Gandhi International Stadium — first-innings scoring in IPL 2026"
 description: "Rajiv Gandhi International Stadium (Hyderabad): average first-innings score 189 across 7 IPL 2026 fixtures (range 159–255). Chase win rate: 71% (5/7). Strong chasing venue."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/venues/rajiv-gandhi-international-stadium
 canonical_page: https://players.cricketstudio.ai/venues/rajiv-gandhi-international-stadium
 tags:

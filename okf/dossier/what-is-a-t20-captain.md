@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a T20 captain in cricket?"
 description: "A T20 captain leads their team's on-field decisions during a T20 match — toss call, fielding positions, bowling changes, and batting order. In the IPL, each franchise has a designated captain (and vice-captain) who also represents the team in media and strategic planning."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

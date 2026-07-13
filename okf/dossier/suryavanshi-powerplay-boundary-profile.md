@@ -2,6 +2,9 @@
 type: dossier
 title: "Suryavanshi Powerplay Boundary Profile — IPL 2026"
 description: "Vaibhav Suryavanshi hit 94 boundaries (48 fours + 46 sixes) in 223 powerplay balls in IPL 2026 — a 42.2% boundary-ball rate. This dossier explains what that means, how it compares, and what the new-ball phase looks like for his batting."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "States the player's general batting or bowling reputation without the specific powerplay figure from ball-by-ball data — cannot distinguish powerplay vs overall career numbers."
 resource: https://players.cricketstudio.ai/players/vaibhav-suryavanshi
 tags:
   - cricket

@@ -2,6 +2,9 @@
 type: dossier
 title: Bat first vs bowl first in IPL
 description: Verified answer for whether IPL captains should bat or bowl first after winning the toss. Bowl-first wins 54% vs bat-first 46% across 1,146 decisions.
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives a general reputation summary of Bat first and the bowler without the actual career delivery count, SR, dot-ball %, and dismissal record between this specific pair."
 status: active
 last_verified: 2026-06-18
 timestamp: 2026-06-18

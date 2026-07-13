@@ -2,6 +2,9 @@
 type: dossier
 title: "IPL Match Format"
 description: "Verified answer: IPL is a T20 format — 20 overs per side, powerplay 1-6, middle 7-15, death 16-20."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/leagues/ipl
 canonical_page: https://players.cricketstudio.ai/leagues/ipl
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a death overs bowler in cricket?"
 description: "A death overs bowler is a specialist who bowls in the final 4–5 overs of a T20 innings (overs 16–20). The best death bowlers combine yorker accuracy, slower-ball variation, and composure under pressure to restrict scoring when batters are attacking at their most aggressive."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives the player's overall economy or reputation as a death bowler without the specific death-over (overs 17–20) figure from ball-by-ball data."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

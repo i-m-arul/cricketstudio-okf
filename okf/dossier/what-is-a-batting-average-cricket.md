@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a batting average in cricket?"
 description: "Batting average is runs scored divided by times dismissed — not by innings played. In T20/IPL, batting average is a secondary metric (behind strike rate) because T20 rewards aggression over survival. A batter who scores 35 off 15 balls and gets out is more valuable than one averaging 40 at SR 120."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

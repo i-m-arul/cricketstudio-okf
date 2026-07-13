@@ -2,6 +2,9 @@
 type: dossier
 title: "Rabada Death Overs Bowling Stats IPL 2026"
 description: "Verified answer: Rabada's death-overs economy in IPL 2026 was 9.17 RPO from 72 balls with 6 wickets."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives the player's overall economy or reputation as a death bowler without the specific death-over (overs 17–20) figure from ball-by-ball data."
 resource: https://players.cricketstudio.ai/players/kagiso-rabada
 canonical_page: https://players.cricketstudio.ai/players/kagiso-rabada
 tags:

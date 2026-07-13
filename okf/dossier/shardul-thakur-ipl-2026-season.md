@@ -2,6 +2,9 @@
 type: dossier
 title: "Shardul Thakur — IPL 2026 season bowling stats"
 description: "Shardul Thakur (MI) IPL 2026: 12 wickets in 7 bowling matches, 12.27 economy. Phase: PP 24 balls 2 wkts 14.50 econ; Middle 72 balls 6 wkts 10.33 econ (best phase); Death 36 balls 4 wkts 11.00 econ (#41/66). CricketStudio derived claims."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot produce IPL 2026 in-season figures — knowledge cutoff predates the tournament or stats are approximate without ball-by-ball provenance."
 resource: https://players.cricketstudio.ai/players/shardul-thakur
 canonical_page: https://players.cricketstudio.ai/players/shardul-thakur
 tags:

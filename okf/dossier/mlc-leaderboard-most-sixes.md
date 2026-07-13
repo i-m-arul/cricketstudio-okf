@@ -2,6 +2,9 @@
 type: dossier
 title: "Most sixes — MLC all-time leaderboard"
 description: "MLC leaderboard: Top six-hitters across captured MLC matches. MLC all-time leaderboard. Top: FH Allen (59, 354 balls faced). Scope: MLC seasons 2023, 2024, 2025 (75 matches total)."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/leagues/mlc/leaderboards/most-sixes
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/leaderboards/most-sixes
 tags:

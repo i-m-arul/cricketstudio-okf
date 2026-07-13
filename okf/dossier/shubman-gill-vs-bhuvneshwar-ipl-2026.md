@@ -2,6 +2,9 @@
 type: dossier
 title: "Shubman Gill vs Bhuvneshwar Kumar — IPL 2026 H2H"
 description: "Shubman Gill vs Bhuvneshwar Kumar in IPL 2026: 20 balls faced, 19 runs, SR 95.0, 2 fours, 1 six, 0 dismissals. Bhuvneshwar contained Gill at well below his 2026 season average SR (151.1). CricketStudio derived claim."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives a general reputation summary of Shubman Gill and Bhuvneshwar Kumar without the actual career delivery count, SR, dot-ball %, and dismissal record between this specific pair."
 resource: https://players.cricketstudio.ai/h2h/shubman-gill-vs-bhuvneshwar-kumar
 canonical_page: https://players.cricketstudio.ai/h2h/shubman-gill-vs-bhuvneshwar-kumar
 tags:

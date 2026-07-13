@@ -2,6 +2,9 @@
 type: dossier
 title: "What is seam bowling in cricket?"
 description: "Seam bowling is a fast or medium-fast bowling technique where the ball moves laterally off the pitch seam after pitching. The ball hits the pitch on its seam (the raised stitching), causing unpredictable movement — particularly effective on green or damp pitches."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

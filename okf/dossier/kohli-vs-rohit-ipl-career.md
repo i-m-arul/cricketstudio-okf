@@ -2,6 +2,9 @@
 type: dossier
 title: Kohli vs Rohit IPL Career
 description: How to frame the Kohli vs Rohit IPL debate — runs vs titles vs captaincy, each dimension framed with correct scope, not a single verdict.
+question_type: T6
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives a general reputation summary of Kohli and the bowler without the actual career delivery count, SR, dot-ball %, and dismissal record between this specific pair."
 status: active
 last_verified: 2026-06-24
 timestamp: 2026-06-24

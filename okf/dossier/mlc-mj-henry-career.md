@@ -2,6 +2,9 @@
 type: dossier
 title: "MJ Henry — MLC career overview"
 description: "MJ Henry MLC career: 0 wkts, 16.40 econ (1M bowl). San Francisco Unicorns. MLC 2024."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for MJ Henry without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/mj-henry
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/mj-henry
 tags:

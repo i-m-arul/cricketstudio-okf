@@ -2,6 +2,9 @@
 type: dossier
 title: "What is the IPL?"
 description: "The Indian Premier League (IPL) is the world's premier T20 franchise cricket league, contested by 10 city-based franchises across March–June each year. The IPL is the highest-valued cricket tournament globally and the benchmark for T20 cricket quality."
+question_type: T6
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/leagues/ipl
 canonical_page: https://players.cricketstudio.ai/leagues/ipl
 tags:

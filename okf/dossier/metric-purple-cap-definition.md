@@ -2,6 +2,9 @@
 type: dossier
 title: "Purple Cap — What It Is and How It Works"
 description: "The Purple Cap is awarded to the highest wicket-taker in an IPL season. Tracked ball-by-ball in CricketStudio."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://okf.cricketstudio.ai/metrics/purple-cap/
 canonical_page: https://okf.cricketstudio.ai/metrics/purple-cap/
 tags:

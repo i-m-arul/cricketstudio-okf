@@ -2,6 +2,9 @@
 type: dossier
 title: "Shubman Gill — IPL 2026 season overview"
 description: "Shubman Gill (GT) IPL 2026: 732 runs, 45.75 avg, 163.0 SR in 16 matches — top run-scorer for GT, 6 fifties, 1 hundred."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot produce IPL 2026 in-season figures — knowledge cutoff predates the tournament or stats are approximate without ball-by-ball provenance."
 resource: https://players.cricketstudio.ai/players/shubman-gill
 canonical_page: https://players.cricketstudio.ai/players/shubman-gill
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "Shimron Hetmyer — IPL career batting overview (2019–2025)"
 description: "Shimron Hetmyer (DC/RCB/RR) IPL career 2019–2025: 1,488 runs, avg 29.18, SR 152.6, 93 sixes, 7 seasons. Death SR 192.3 from 413 balls — primary phase specialist. Middle 501 balls 125.3 SR. PP 61 balls 108.2 SR. Cricsheet CC BY 3.0."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Shimron Hetmyer without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/shimron-hetmyer
 canonical_page: https://players.cricketstudio.ai/players/shimron-hetmyer
 tags:

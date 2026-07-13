@@ -2,6 +2,9 @@
 type: dossier
 title: "CA Dry — MLC career overview"
 description: "CA Dry MLC career: 33R, 97.1 SR (7M bat). 9 wkts, 9.80 econ (13M bowl). Los Angeles Knight Riders. MLC 2023, 2024, 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for CA Dry without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/ca-dry
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/ca-dry
 tags:

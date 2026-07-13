@@ -2,6 +2,9 @@
 type: dossier
 title: "What is the IPL season schedule format?"
 description: "The IPL season consists of a round-robin league stage (each team plays 14 matches) followed by a knockout playoff round (Qualifier 1, Eliminator, Qualifier 2, Final). IPL 2026 comprised 74 total matches, with RCB winning the title on 2026-06-01."
+question_type: T6
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/season/ipl-2026
 canonical_page: https://players.cricketstudio.ai/season/ipl-2026
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "SP Krishnamurthi — MLC career overview"
 description: "SP Krishnamurthi MLC career: 422R, 148.1 SR (19M bat). San Francisco Unicorns. MLC 2024, 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for SP Krishnamurthi without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/sp-krishnamurthi
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/sp-krishnamurthi
 tags:

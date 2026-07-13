@@ -2,6 +2,9 @@
 type: dossier
 title: "GF Linde — MLC career overview"
 description: "GF Linde MLC career: 19R, 105.6 SR (2M bat). 2 wkts, 7.36 econ (3M bowl). MI New York. MLC 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for GF Linde without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/gf-linde
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/gf-linde
 tags:

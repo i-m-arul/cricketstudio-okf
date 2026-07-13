@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a lower-order batter in cricket?"
 description: "Lower-order batters bat at positions 8–11. They are primarily bowlers or wicket-keepers selected for their bowling or glovework. In T20 they often enter during the death overs as finishers or tail-enders."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

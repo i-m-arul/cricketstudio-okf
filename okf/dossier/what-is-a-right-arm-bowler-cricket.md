@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a right-arm bowler in cricket?"
 description: "A right-arm bowler delivers the ball with their right hand. The majority of bowlers in cricket are right-arm. Right-arm pace generates natural away-swing from a right-hander; right-arm off-spin turns into the right-hander."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

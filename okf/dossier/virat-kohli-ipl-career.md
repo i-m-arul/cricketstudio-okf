@@ -2,6 +2,9 @@
 type: dossier
 title: "Virat Kohli — IPL career batting overview (pre-2026)"
 description: "Virat Kohli (RCB) IPL career pre-2026: 8,671 runs avg 39.59 SR 133.3, 259 matches, 18 seasons (2007/08–2025). 8 hundreds, 63 fifties. Best: 2016 RCB 973 runs 81.1 avg 4 hundreds. Cricsheet CC BY 3.0."
+question_type: T4
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Virat Kohli without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/virat-kohli
 canonical_page: https://players.cricketstudio.ai/players/virat-kohli
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "What Is the MLC Dataset in CricketStudio?"
 description: "Verified answer: CricketStudio covers MLC 2023-2026 from Cricsheet CC BY 3.0 — 64+ matches across 3 completed seasons."
+question_type: T6
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/leagues/mlc
 canonical_page: https://players.cricketstudio.ai/leagues/mlc
 tags:

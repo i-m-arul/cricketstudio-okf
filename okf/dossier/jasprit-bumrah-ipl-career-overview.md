@@ -2,6 +2,9 @@
 type: dossier
 title: "Jasprit Bumrah — IPL career bowling overview"
 description: "Bumrah IPL career: 145 matches, 186 wickets, 7.25 economy, 21.82 average. India's premier pace bowler and one of IPL's most economical fast bowlers."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Jasprit Bumrah without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/jasprit-bumrah
 canonical_page: https://players.cricketstudio.ai/players/jasprit-bumrah
 tags:

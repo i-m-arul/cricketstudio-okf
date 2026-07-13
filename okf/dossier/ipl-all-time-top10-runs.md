@@ -2,6 +2,9 @@
 type: dossier
 title: "IPL All-Time Top 10 Run-Scorers"
 description: "Verified answer: Kohli 8,671 leads all IPL run-scorers (through 2025). Rohit Sharma 2nd (7,048), Dhawan 3rd (6,769)."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/leagues/ipl/records
 canonical_page: https://players.cricketstudio.ai/leagues/ipl/records
 tags:

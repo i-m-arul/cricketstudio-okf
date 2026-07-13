@@ -2,6 +2,9 @@
 type: dossier
 title: "Jofra Archer — IPL career overview (2018–2025)"
 description: "Jofra Archer (MI/RR) IPL career 2018–2025: 59 wickets, economy 7.95. Powerplay specialist: 546 balls, 23 wkts, 6.40 econ. Death: 396 balls, 23 wkts, 10.48 econ. Cricsheet CC BY 3.0."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Jofra Archer without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/jofra-archer
 canonical_page: https://players.cricketstudio.ai/players/jofra-archer
 tags:

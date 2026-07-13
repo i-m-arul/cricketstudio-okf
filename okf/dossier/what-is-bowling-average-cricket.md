@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a bowling average in cricket?"
 description: "Bowling average is runs conceded divided by wickets taken — the average number of runs each wicket costs. In T20/IPL, bowling average is secondary to economy rate (runs per over) because preventing runs is often more important than taking wickets in the short format."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

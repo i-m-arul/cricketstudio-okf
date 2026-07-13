@@ -2,6 +2,9 @@
 type: dossier
 title: "Suryavanshi — Day vs Night Matches and the Dew Factor"
 description: "How day/night scheduling and dew conditions affect Suryavanshi's powerplay batting in IPL 2026 — the structural reasons why dew is a night-match phenomenon, how it changes ball behaviour for pace and spin, and where to find match-time split data."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives a general reputation summary of the batter and the bowler without the actual career delivery count, SR, dot-ball %, and dismissal record between this specific pair."
 resource: https://players.cricketstudio.ai/players/vaibhav-suryavanshi/by-match-type
 tags:
   - cricket

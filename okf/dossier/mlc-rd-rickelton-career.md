@@ -2,6 +2,9 @@
 type: dossier
 title: "RD Rickelton — MLC career overview"
 description: "RD Rickelton MLC career: 225R, 148.0 SR (6M bat). Seattle Orcas. MLC 2024."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for RD Rickelton without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/rd-rickelton
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/rd-rickelton
 tags:

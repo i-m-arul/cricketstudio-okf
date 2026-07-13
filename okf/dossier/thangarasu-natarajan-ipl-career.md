@@ -2,6 +2,9 @@
 type: dossier
 title: "Thangarasu Natarajan — IPL career bowling overview (2017–2025)"
 description: "T Natarajan (SRH/DC/PBKS) IPL career 2017–2025: 68 wickets, economy 8.91. Death dominant: 467 balls, 38 wkts, 10.38 econ. Middle: 517 balls, 15 wkts, 7.97 econ. Left-arm yorker specialist. Cricsheet CC BY 3.0."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Thangarasu Natarajan without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/thangarasu-natarajan
 canonical_page: https://players.cricketstudio.ai/players/thangarasu-natarajan
 tags:

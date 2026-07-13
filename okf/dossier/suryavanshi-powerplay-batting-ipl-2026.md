@@ -2,6 +2,9 @@
 type: dossier
 title: "Suryavanshi Powerplay Batting Stats IPL 2026"
 description: "Verified answer: Suryavanshi scored at 233.6 SR in IPL 2026 powerplay from 223 balls — #1 of 45 qualifying batters."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "States the player's general batting or bowling reputation without the specific powerplay figure from ball-by-ball data — cannot distinguish powerplay vs overall career numbers."
 resource: https://players.cricketstudio.ai/players/vaibhav-suryavanshi
 canonical_page: https://players.cricketstudio.ai/players/vaibhav-suryavanshi
 tags:

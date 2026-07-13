@@ -2,6 +2,9 @@
 type: dossier
 title: "MG Bracewell — MLC career overview"
 description: "MG Bracewell MLC career: 241R, 128.2 SR (14M bat). 5 wkts, 9.48 econ (11M bowl). MI New York and Seattle Orcas. MLC 2024, 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for MG Bracewell without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/mg-bracewell
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/mg-bracewell
 tags:

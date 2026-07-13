@@ -2,6 +2,9 @@
 type: dossier
 title: "IPL 2026 most sixes — season leaderboard methodology"
 description: "IPL 2026 sixes leaderboard: Suryavanshi leads with 72. No minimum floor. Canonical URL."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot produce IPL 2026 in-season figures — knowledge cutoff predates the tournament or stats are approximate without ball-by-ball provenance."
 resource: https://players.cricketstudio.ai/season/ipl-2026/most-sixes
 canonical_page: https://players.cricketstudio.ai/season/ipl-2026/most-sixes
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a Super Over in cricket?"
 description: "A Super Over is a one-over per side tiebreaker used when a T20 match ends in a tie. Each team bats 6 balls with 2 wickets; the team scoring more runs wins. In IPL, if the Super Over also ties, the team with more sixes (then boundaries) in the main match wins."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

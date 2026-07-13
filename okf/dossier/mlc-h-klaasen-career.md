@@ -2,6 +2,9 @@
 type: dossier
 title: "H Klaasen — MLC career batting overview"
 description: "Heinrich Klaasen MLC career: 22M, 474R, 155.4 SR, 24.95 avg, 1 hundred, 28 sixes. Middle-overs specialist. Seattle Orcas, 2023–2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for H Klaasen without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/h-klaasen
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/h-klaasen
 tags:

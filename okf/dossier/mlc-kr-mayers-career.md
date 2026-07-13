@@ -2,6 +2,9 @@
 type: dossier
 title: "KR Mayers — MLC career overview"
 description: "KR Mayers MLC career: 214R, 133.8 SR (10M bat). 3 wkts, 10.35 econ (8M bowl). Seattle Orcas. MLC 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for KR Mayers without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/kr-mayers
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/kr-mayers
 tags:

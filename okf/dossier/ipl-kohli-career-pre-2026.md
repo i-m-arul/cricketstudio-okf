@@ -2,6 +2,9 @@
 type: dossier
 title: "Kohli IPL Career Stats Pre-2026 (Cricsheet Data)"
 description: "Verified answer: Pre-2026 Kohli stats — 259 matches, 8,671 runs, 39.59 average, 133.3 SR, 63 fifties."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for this player without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/virat-kohli
 canonical_page: https://players.cricketstudio.ai/players/virat-kohli
 tags:

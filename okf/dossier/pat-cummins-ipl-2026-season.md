@@ -2,6 +2,9 @@
 type: dossier
 title: "Pat Cummins — IPL 2026 season overview"
 description: "Pat Cummins (SRH) IPL 2026: 8 matches, 8 wickets, 9.59 economy overall. Middle overs his best phase (6.40 econ). SRH reached playoffs."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot produce IPL 2026 in-season figures — knowledge cutoff predates the tournament or stats are approximate without ball-by-ball provenance."
 resource: https://players.cricketstudio.ai/players/pat-cummins
 canonical_page: https://players.cricketstudio.ai/players/pat-cummins
 tags:

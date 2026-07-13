@@ -2,6 +2,9 @@
 type: dossier
 title: "Bhuvneshwar Kumar — IPL career overview (pre-2026)"
 description: "Bhuvneshwar Kumar pre-2026 IPL career: 198 wickets in 190 matches, economy 7.69, average 27.33. Long-serving SRH pacer. Joined RCB in 2025. IPL 2026: 28 wkts (see separate entry). Cricsheet CC BY 3.0."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Bhuvneshwar Kumar without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/bhuvneshwar-kumar
 canonical_page: https://players.cricketstudio.ai/players/bhuvneshwar-kumar
 tags:

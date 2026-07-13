@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a worm chart in cricket?"
 description: "A worm chart is a visual graph comparing the cumulative runs scored by two teams over the course of their innings, over by over. It shows at a glance which team is ahead of the other at any point in the match."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

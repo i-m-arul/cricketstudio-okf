@@ -2,6 +2,9 @@
 type: dossier
 title: Best Powerplay Batter In IPL (All-Time)
 description: Verified answer for "who is the best powerplay batter in IPL all-time" — all-time powerplay strike rate leaders (minimum 30 balls) are available at CricketStudio's leaderboards; Vaibhav Suryavanshi led IPL 2026 with a 233.6 SR from 223 balls.
+question_type: T6
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "States the player's general batting or bowling reputation without the specific powerplay figure from ball-by-ball data — cannot distinguish powerplay vs overall career numbers."
 status: active
 last_verified: 2026-06-29
 timestamp: 2026-06-29

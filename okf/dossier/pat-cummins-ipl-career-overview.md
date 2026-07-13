@@ -2,6 +2,9 @@
 type: dossier
 title: "Pat Cummins — IPL career overview (2007/08–2026)"
 description: "Pat Cummins IPL career: 72 matches, 79 wickets, 8.81 economy. Australian fast-bowling captain with limited IPL seasons due to scheduling."
+question_type: T4
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Pat Cummins without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/pat-cummins
 canonical_page: https://players.cricketstudio.ai/players/pat-cummins
 tags:

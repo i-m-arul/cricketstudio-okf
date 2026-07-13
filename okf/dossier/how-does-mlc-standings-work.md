@@ -1,5 +1,8 @@
 ---
 type: dossier
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 title: How Does the MLC Standings Table Work
 description: >
   Explains the Major League Cricket (MLC) points system, NRR tiebreaker, playoff

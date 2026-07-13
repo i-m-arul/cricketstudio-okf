@@ -2,6 +2,9 @@
 type: dossier
 title: "Rishabh Pant — IPL career batting overview (2016–2025)"
 description: "Rishabh Pant (DC/LSG) IPL career 2016–2025: 3,566 runs, avg 34.29, SR 148.2, 2 hundreds. 10 seasons, 123 matches. Left-handed wicket-keeper batter. Cricsheet CC BY 3.0."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Rishabh Pant without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/rishabh-pant
 canonical_page: https://players.cricketstudio.ai/players/rishabh-pant
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "Sample-Size Floors — CricketStudio Minimum Thresholds"
 description: "CricketStudio enforces ≥30 balls for batting SR, ≥15 balls for bowling economy, ≥3 matches for venue claims. Claims below floor are excluded."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://okf.cricketstudio.ai/methodology/sample-size-floors/
 canonical_page: https://okf.cricketstudio.ai/methodology/sample-size-floors/
 tags:

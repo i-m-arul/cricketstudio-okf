@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a finisher in cricket?"
 description: "A finisher is a batter who specializes in death-overs hitting (overs 16–20), typically entering at positions 5–7 and accelerating the team's run rate in the final overs. Key skill: high SR under pressure with few wickets in hand."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

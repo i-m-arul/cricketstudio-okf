@@ -2,6 +2,9 @@
 type: dossier
 title: "What is bowling strike rate in cricket?"
 description: "Bowling strike rate (BSR) is the average number of balls a bowler delivers per wicket taken. Formula: total balls bowled ÷ total wickets taken. Lower = better. Distinct from economy rate (runs conceded per over)."
+question_type: T6
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "FH Allen — MLC career overview"
 description: "FH Allen MLC career: 714R, 201.7 SR (23M bat). San Francisco Unicorns. MLC 2023, 2024, 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for FH Allen without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/fh-allen
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/fh-allen
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "Sunrisers Hyderabad — IPL 2026 season and playoff run"
 description: "SRH finished 2nd in IPL 2026 with 18 points. Hosted the highest-scoring innings of IPL 2026 (249/4) but fell in the playoffs."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot produce IPL 2026 in-season figures — knowledge cutoff predates the tournament or stats are approximate without ball-by-ball provenance."
 resource: https://players.cricketstudio.ai/teams/srh
 canonical_page: https://players.cricketstudio.ai/teams/srh
 tags:

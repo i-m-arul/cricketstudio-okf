@@ -2,6 +2,9 @@
 type: dossier
 title: "Average First-Innings Score at Himachal Pradesh Cricket Association Stadium — IPL 2026"
 description: "Verified answer: average first-innings score at Himachal Pradesh Cricket Association Stadium in IPL 2026 is 201 across 4 fixtures."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/venues/hpca-stadium
 canonical_page: https://players.cricketstudio.ai/venues/hpca-stadium
 tags:

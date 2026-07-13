@@ -2,6 +2,9 @@
 type: dossier
 title: "A Desai — MLC career overview"
 description: "A Desai MLC career: 5 wkts, 10.55 econ (3M bowl). Seattle Orcas. MLC 2024, 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for A Desai without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/a-desai
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/a-desai
 tags:

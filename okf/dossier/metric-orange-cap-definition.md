@@ -2,6 +2,9 @@
 type: dossier
 title: "Orange Cap — What It Is and How It Works"
 description: "The Orange Cap is awarded to the highest run-scorer in an IPL season. Tracked ball-by-ball in CricketStudio."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://okf.cricketstudio.ai/metrics/orange-cap/
 canonical_page: https://okf.cricketstudio.ai/metrics/orange-cap/
 tags:

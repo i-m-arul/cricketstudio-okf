@@ -2,6 +2,9 @@
 type: dossier
 title: What is TA Boult's MLC career record?
 description: Verified answer for TA Boult MLC career stats. All-time MLC wicket leader with 46 wickets from 629 balls (economy 8.14) across 27 matches, MLC 2023–2025. Plays for MI New York.
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for this player without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 status: active
 last_verified: 2026-06-21
 timestamp: 2026-06-21

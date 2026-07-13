@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a swing bowler in cricket?"
 description: "A swing bowler uses the aerodynamic properties of the cricket ball to make it curve laterally in flight. Traditional swing, reverse swing, and white-ball swing are distinct techniques most effective in T20 powerplay overs."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

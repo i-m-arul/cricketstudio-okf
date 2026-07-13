@@ -2,6 +2,9 @@
 type: dossier
 title: "JS Malhotra — MLC career overview"
 description: "JS Malhotra MLC career: 48R, 111.6 SR (5M bat). Los Angeles Knight Riders. MLC 2023."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for JS Malhotra without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/js-malhotra
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/js-malhotra
 tags:

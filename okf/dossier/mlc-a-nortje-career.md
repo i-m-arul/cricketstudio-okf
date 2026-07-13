@@ -2,6 +2,9 @@
 type: dossier
 title: "A Nortje — MLC career bowling overview"
 description: "Anrich Nortje MLC career: 8M bowling, 168 balls, 3 wickets, 8.00 econ. Middle-overs economy 5.67 (0 wkts). Small sample. MI New York + Washington Freedom, 2023–2024."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for A Nortje without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/a-nortje
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/a-nortje
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "AD Russell — MLC career all-rounder overview"
 description: "Andre Russell MLC career: 19M batting (461R, 155.2 SR), 19M bowling (14 wkts, 10.01 econ). Death-overs specialist. LA Knight Riders, 2023–2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for AD Russell without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/ad-russell
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/ad-russell
 tags:

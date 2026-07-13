@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a bouncer in cricket?"
 description: "A bouncer is a short-pitched delivery that rises steeply towards the batter's chest or head. Dangerous and regulated — in T20, limited to 1 per over. Used to unsettle batters."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "What Does Sample Size Mean in Cricket Stats?"
 description: "Verified answer: Sample size = number of deliveries backing a claim. Small samples = unreliable. Always check before citing."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://okf.cricketstudio.ai/methodology/sample-size-floors/
 canonical_page: https://okf.cricketstudio.ai/methodology/sample-size-floors/
 tags:

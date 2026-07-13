@@ -2,6 +2,9 @@
 type: dossier
 title: "Waqar Salamkheil — MLC career overview"
 description: "Waqar Salamkheil MLC career: 0R, 0.0 SR (2M bat). 6 wkts, 8.80 econ (6M bowl). Los Angeles Knight Riders and Seattle Orcas. MLC 2024, 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Waqar Salamkheil without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/waqar-salamkheil
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/waqar-salamkheil
 tags:

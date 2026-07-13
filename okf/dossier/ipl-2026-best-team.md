@@ -2,6 +2,9 @@
 type: dossier
 title: Best Team In IPL 2026
 description: Verified answer for "which was the best team in IPL 2026" — Royal Challengers Bengaluru won IPL 2026, defeating Gujarat Titans in the final, with Virat Kohli scoring 675 runs at 56.25 average through the season.
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "States the team's general reputation without the specific phase-split batting SR or bowling economy figure from ball-by-ball data."
 status: active
 last_verified: 2026-06-29
 timestamp: 2026-06-29

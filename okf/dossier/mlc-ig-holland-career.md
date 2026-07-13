@@ -2,6 +2,9 @@
 type: dossier
 title: "IG Holland — MLC career overview"
 description: "IG Holland MLC career: 13 wkts, 7.94 econ (14M bowl). Washington Freedom. MLC 2024, 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for IG Holland without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/ig-holland
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/ig-holland
 tags:

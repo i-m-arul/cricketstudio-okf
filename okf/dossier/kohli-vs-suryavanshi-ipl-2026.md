@@ -2,6 +2,9 @@
 type: dossier
 title: "Virat Kohli vs Vaibhav Suryavanshi — IPL 2026 batting comparison"
 description: "Kohli vs Suryavanshi IPL 2026: Suryavanshi 776R, 237.31 SR (Orange Cap) vs Kohli 675R, 56.25 avg, 165.8 SR. Different batting archetypes."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives a general reputation summary of Virat Kohli and Vaibhav Suryavanshi without the actual career delivery count, SR, dot-ball %, and dismissal record between this specific pair."
 resource: https://players.cricketstudio.ai/players/virat-kohli
 canonical_page: https://players.cricketstudio.ai/players/virat-kohli
 tags:

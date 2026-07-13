@@ -2,6 +2,9 @@
 type: dossier
 title: "Liam Livingstone — IPL career batting overview (2019–2025)"
 description: "Liam Livingstone (PBKS/RCB/RR) IPL career 2019–2025: 1,051 runs, SR 160.5. Death: 104 balls, 231.7 SR — exceptional finisher stat. PP 118 balls 141.5 SR, Middle 433 balls 148.5 SR. Cricsheet CC BY 3.0."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Liam Livingstone without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/liam-livingstone
 canonical_page: https://players.cricketstudio.ai/players/liam-livingstone
 tags:

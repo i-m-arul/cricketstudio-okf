@@ -2,6 +2,9 @@
 type: dossier
 title: "What is Net Run Rate (NRR) in IPL?"
 description: "Net Run Rate (NRR) is the tie-breaker used in the IPL league standings when two or more teams are level on points. It is calculated as the difference between a team's run rate scored vs run rate conceded across all matches."
+question_type: T6
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/standings
 canonical_page: https://players.cricketstudio.ai/standings
 tags:

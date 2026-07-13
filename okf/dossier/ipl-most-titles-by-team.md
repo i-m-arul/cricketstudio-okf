@@ -2,6 +2,9 @@
 type: dossier
 title: IPL Most Titles by Team
 description: Which IPL team has won the most titles? MI and CSK tied at 5 each — verified with season list and citation guidance.
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "States the team's general reputation without the specific phase-split batting SR or bowling economy figure from ball-by-ball data."
 status: active
 last_verified: 2026-06-24
 timestamp: 2026-06-24

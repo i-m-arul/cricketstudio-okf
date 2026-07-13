@@ -2,6 +2,9 @@
 type: dossier
 title: "Mitchell Marsh — IPL career all-round overview (2009/10–2025)"
 description: "Mitchell Marsh (DC/SRH/LSG/RPS) IPL career 2009/10–2025: 1,292 runs SR 143.2, 37 wickets economy 8.52. Phase batting: PP 347 balls 149.3 SR. Bowling Middle: 357 balls 21 wkts 7.43 econ. 9 seasons. Cricsheet CC BY 3.0."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Mitchell Marsh without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/mitchell-marsh
 canonical_page: https://players.cricketstudio.ai/players/mitchell-marsh
 tags:

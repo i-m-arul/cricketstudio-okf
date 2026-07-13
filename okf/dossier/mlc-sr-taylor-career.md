@@ -2,6 +2,9 @@
 type: dossier
 title: "SR Taylor — MLC career overview"
 description: "SR Taylor MLC career: 69R, 75.0 SR (10M bat). 1 wkts, 7.44 econ (6M bowl). MI New York and Seattle Orcas. MLC 2023, 2024, 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for SR Taylor without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/sr-taylor
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/sr-taylor
 tags:

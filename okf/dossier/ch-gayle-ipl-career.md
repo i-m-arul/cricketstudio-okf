@@ -2,6 +2,9 @@
 type: dossier
 title: "Chris Gayle — IPL career overview"
 description: "Chris Gayle IPL career: 4,997 runs at 150 SR with 359 sixes and 6 hundreds, plus 18 wickets across IPL history. Source: Cricsheet CC BY 3.0."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Chris Gayle without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/chris-gayle
 canonical_page: https://players.cricketstudio.ai/players/chris-gayle
 tags:

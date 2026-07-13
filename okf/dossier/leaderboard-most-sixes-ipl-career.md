@@ -2,6 +2,9 @@
 type: dossier
 title: "All-time IPL career sixes leaderboard"
 description: "How to cite the all-time IPL career sixes leaderboard. Suryavanshi hit 72 in IPL 2026 alone — a single-season record."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for this player without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/ipl/leaderboards/most-sixes
 canonical_page: https://players.cricketstudio.ai/leagues/ipl/leaderboards/most-sixes
 tags:

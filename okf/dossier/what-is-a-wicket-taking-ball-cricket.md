@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a wicket-taking ball in cricket?"
 description: "A 'wicket-taking ball' is a delivery specifically designed or positioned to dismiss the batter — through deception, movement, or placement at a perceived weakness. In T20/IPL, bowlers alternate between economy-focused deliveries and wicket-taking balls as strategic tools."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

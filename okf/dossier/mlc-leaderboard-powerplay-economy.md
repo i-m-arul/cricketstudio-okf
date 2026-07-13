@@ -2,6 +2,9 @@
 type: dossier
 title: "Best powerplay economy — MLC all-time leaderboard"
 description: "MLC leaderboard: Lowest bowling economy rates in the powerplay (overs 1—6). MLC all-time leaderboard. Top: Rashid Khan (4.31, 78 legal deliveries in powerplay). Scope: MLC seasons 2023, 2024, 2025 (75 matches total)."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "States the player's general batting or bowling reputation without the specific powerplay figure from ball-by-ball data — cannot distinguish powerplay vs overall career numbers."
 resource: https://players.cricketstudio.ai/leagues/mlc/leaderboards/powerplay-economy
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/leaderboards/powerplay-economy
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "What Does source_boundary Mean in CricketStudio OKF?"
 description: "Verified answer: source_boundary declares the licensing envelope — derived_claims_only means raw data is not redistributed."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://okf.cricketstudio.ai/spec/provenance/
 canonical_page: https://okf.cricketstudio.ai/spec/provenance/
 tags:

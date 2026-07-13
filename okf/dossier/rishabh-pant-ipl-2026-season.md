@@ -2,6 +2,9 @@
 type: dossier
 title: "Rishabh Pant — IPL 2026 season batting stats (LSG)"
 description: "Rishabh Pant (LSG) IPL 2026: 313 runs, avg 34.78, SR 137.9, 13 matches. Phase: PP 52 balls 94.2 SR (#43/45), Middle 130 balls 130.0 SR, Death 45 balls 211.1 SR. Standout death hitter but weak powerplay SR in IPL 2026."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot produce IPL 2026 in-season figures — knowledge cutoff predates the tournament or stats are approximate without ball-by-ball provenance."
 resource: https://players.cricketstudio.ai/players/rishabh-pant
 canonical_page: https://players.cricketstudio.ai/players/rishabh-pant
 tags:

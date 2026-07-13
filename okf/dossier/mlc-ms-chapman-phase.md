@@ -2,6 +2,9 @@
 type: dossier
 title: "MS Chapman — MLC phase analysis"
 description: "MS Chapman MLC phase breakdown (MLC 2025). Washington Freedom. Data-derived phase rates where above sample-size floor."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/ms-chapman
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/ms-chapman
 tags:

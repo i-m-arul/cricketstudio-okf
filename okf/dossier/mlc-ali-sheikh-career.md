@@ -2,6 +2,9 @@
 type: dossier
 title: "Ali Sheikh — MLC career overview"
 description: "Ali Sheikh MLC career: 15R, 166.7 SR (1M bat). 0 wkts, 10.00 econ (2M bowl). Seattle Orcas. MLC 2024."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Ali Sheikh without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/ali-sheikh
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/ali-sheikh
 tags:

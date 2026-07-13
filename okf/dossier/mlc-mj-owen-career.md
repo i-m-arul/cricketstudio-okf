@@ -2,6 +2,9 @@
 type: dossier
 title: "MJ Owen — MLC career overview"
 description: "MJ Owen MLC career: 313R, 198.1 SR (11M bat). 14 wkts, 9.27 econ (10M bowl). Washington Freedom. MLC 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for MJ Owen without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/mj-owen
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/mj-owen
 tags:

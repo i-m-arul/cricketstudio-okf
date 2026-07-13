@@ -2,6 +2,9 @@
 type: dossier
 title: "Kagiso Rabada IPL 2026 Season"
 description: "Verified answer: Rabada took 29 wickets at 9.68 economy in 17 matches for GT in IPL 2026 — Purple Cap winner."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot produce IPL 2026 in-season figures — knowledge cutoff predates the tournament or stats are approximate without ball-by-ball provenance."
 resource: https://players.cricketstudio.ai/players/kagiso-rabada
 canonical_page: https://players.cricketstudio.ai/players/kagiso-rabada
 tags:

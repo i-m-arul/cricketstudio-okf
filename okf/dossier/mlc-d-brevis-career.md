@@ -2,6 +2,9 @@
 type: dossier
 title: "D Brevis — MLC career overview"
 description: "D Brevis MLC career: 250R, 133.0 SR (9M bat). MI New York. MLC 2023, 2024."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for D Brevis without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/d-brevis
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/d-brevis
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: Who won MLC 2025?
 description: Verified answer for MLC 2025 champion. MI New York beat Washington Freedom by 5 runs in the final on 2025-07-13.
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 status: active
 last_verified: 2026-06-18
 timestamp: 2026-06-18

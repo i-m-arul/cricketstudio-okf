@@ -2,6 +2,9 @@
 type: dossier
 title: "Most powerplay wickets taken — MLC all-time leaderboard"
 description: "MLC leaderboard: Top wicket-takers in the powerplay (overs 1—6) across captured MLC matches. MLC all-time leaderboard. Top: TA Boult (18, 336 legal deliveries in powerplay). Scope: MLC seasons 2023, 2024, 2025 (75 matches total)."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "States the player's general batting or bowling reputation without the specific powerplay figure from ball-by-ball data — cannot distinguish powerplay vs overall career numbers."
 resource: https://players.cricketstudio.ai/leagues/mlc/leaderboards/pp-wickets
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/leaderboards/pp-wickets
 tags:

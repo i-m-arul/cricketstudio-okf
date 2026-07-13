@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a left-arm bowler in cricket?"
 description: "A left-arm bowler delivers the ball from their left hand. Left-arm angle creates an over-the-wicket line that angles into right-handed batters, generating LBW threats and different movement patterns compared to right-arm deliveries."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

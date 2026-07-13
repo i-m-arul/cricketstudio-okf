@@ -2,6 +2,9 @@
 type: dossier
 title: "Mumbai Indians — IPL 2026 last-place finish"
 description: "MI finished 10th (last) in IPL 2026 standings. Notable individual performances from Bumrah and Suryavanshi despite the team's poor run."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/teams/mi
 canonical_page: https://players.cricketstudio.ai/teams/mi
 tags:

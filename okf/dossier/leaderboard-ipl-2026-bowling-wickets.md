@@ -2,6 +2,9 @@
 type: dossier
 title: "IPL 2026 bowling wickets leaderboard — methodology"
 description: "Wicket-taking leaderboard for IPL 2026: Rabada leads (29 wkts). No minimum ball floor for a counting metric. Canonical URL."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/season/ipl-2026/bowling-wickets
 canonical_page: https://players.cricketstudio.ai/season/ipl-2026/bowling-wickets
 tags:

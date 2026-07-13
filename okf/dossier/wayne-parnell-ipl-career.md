@@ -2,6 +2,9 @@
 type: dossier
 title: "Wayne Parnell — IPL career bowling overview (pre-2026)"
 description: "Wayne Parnell (DC/Pune Warriors/RCB) IPL career pre-2026: 35 wickets econ 7.78, 5 seasons (2011–2023). PP 372 balls 16 wkts 7.48 econ. Middle 162 balls 7.67 econ. Death 189 balls 15 wkts 8.44 econ. South African left-arm seamer. Cricsheet CC BY 3.0."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Wayne Parnell without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/wd-parnell
 canonical_page: https://players.cricketstudio.ai/players/wd-parnell
 tags:

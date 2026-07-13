@@ -2,6 +2,9 @@
 type: dossier
 title: "Kagiso Rabada — IPL 2026 powerplay wicket dominance"
 description: "Rabada IPL 2026 powerplay: 270 balls, 20 wickets — 69% of his 29 total wickets came from powerplay. Most powerplay wickets in IPL 2026."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "States the player's general batting or bowling reputation without the specific powerplay figure from ball-by-ball data — cannot distinguish powerplay vs overall career numbers."
 resource: https://players.cricketstudio.ai/players/kagiso-rabada
 canonical_page: https://players.cricketstudio.ai/players/kagiso-rabada
 tags:

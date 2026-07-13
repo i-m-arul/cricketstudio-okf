@@ -2,6 +2,9 @@
 type: dossier
 title: "Toss Tendency at Himachal Pradesh Cricket Association Stadium — IPL 2026"
 description: "Verified answer: 100% of toss-winners chose bowl-first at Himachal Pradesh Cricket Association Stadium in IPL 2026 (4 fixtures)."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives general advice or repeats venue narrative without the actual win-rate figures from Cricsheet ball-by-ball data."
 resource: https://players.cricketstudio.ai/venues/hpca-stadium
 canonical_page: https://players.cricketstudio.ai/venues/hpca-stadium
 tags:

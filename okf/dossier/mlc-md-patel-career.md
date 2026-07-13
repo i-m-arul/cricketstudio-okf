@@ -2,6 +2,9 @@
 type: dossier
 title: "MD Patel — MLC career overview"
 description: "MD Patel MLC career: 674R, 128.9 SR (26M bat). MI New York. MLC 2023, 2024, 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for MD Patel without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/md-patel
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/md-patel
 tags:

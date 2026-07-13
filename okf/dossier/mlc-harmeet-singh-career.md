@@ -2,6 +2,9 @@
 type: dossier
 title: "Harmeet Singh — MLC career overview"
 description: "Harmeet Singh MLC career: 69R, 93.2 SR (12M bat). 24 wkts, 7.24 econ (21M bowl). Seattle Orcas. MLC 2023, 2024, 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Harmeet Singh without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/harmeet-singh
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/harmeet-singh
 tags:

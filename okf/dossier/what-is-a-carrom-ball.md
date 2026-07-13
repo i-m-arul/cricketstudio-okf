@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a carrom ball in cricket?"
 description: "A carrom ball is a delivery where the ball is flicked between the thumb and middle finger, like a carrom board piece. Associated with R Ashwin. Can turn either way and is hard to read."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

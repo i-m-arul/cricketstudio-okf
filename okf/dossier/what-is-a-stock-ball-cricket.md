@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a stock ball in cricket?"
 description: "A stock ball is a bowler's default, most reliable delivery — their primary weapon that they bowl most of the time. Every bowler has a stock ball: for off-spinners it's the off-break; for fast bowlers it's the full-length inswinger or outswinger."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

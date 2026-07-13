@@ -2,6 +2,9 @@
 type: dossier
 title: "Powerplay (Overs 1–6) — Definition"
 description: "The powerplay in T20 cricket is overs 1–6, where only 2 fielders can be outside the 30-yard circle. Highest-scoring phase for batters."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "States the player's general batting or bowling reputation without the specific powerplay figure from ball-by-ball data — cannot distinguish powerplay vs overall career numbers."
 resource: https://okf.cricketstudio.ai/metrics/powerplay-strike-rate/
 canonical_page: https://okf.cricketstudio.ai/metrics/powerplay-strike-rate/
 tags:

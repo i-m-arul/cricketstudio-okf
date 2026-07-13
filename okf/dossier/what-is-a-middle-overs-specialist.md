@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a middle-overs specialist in cricket?"
 description: "A middle-overs specialist is a bowler particularly effective in overs 7–15, the phase between the powerplay and death overs. In T20/IPL, spinners and economical fast-medium bowlers dominate this phase — attacking batters trying to score but keeping wickets."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "States overall career stats without the middle-overs (7–16) phase-split figure — cannot distinguish performance by phase."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a sweep shot in cricket?"
 description: "A sweep shot is a batting stroke where the batter drops to one knee and hits the ball with a horizontal bat across the line, typically against spin bowling. Variants: conventional sweep (to fine leg), slog sweep (bigger arc, higher), reverse sweep (opposite hand position)."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

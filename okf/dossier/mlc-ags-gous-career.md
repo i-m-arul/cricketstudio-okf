@@ -2,6 +2,9 @@
 type: dossier
 title: "AGS Gous — MLC career overview"
 description: "AGS Gous MLC career: 511R, 131.4 SR (24M bat). Washington Freedom. MLC 2023, 2024, 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for AGS Gous without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/ags-gous
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/ags-gous
 tags:

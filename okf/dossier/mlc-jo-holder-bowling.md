@@ -2,6 +2,9 @@
 type: dossier
 title: "JO Holder — MLC bowling phase profile"
 description: "Jason Holder MLC bowling phases: PP 72b/8.33 econ/3 wkts, Middle 66b/7.64 econ/3 wkts, Death 48b/12.38 econ/3 wkts. MLC 2025 only, LA Knight Riders."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/jo-holder
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/jo-holder
 tags:

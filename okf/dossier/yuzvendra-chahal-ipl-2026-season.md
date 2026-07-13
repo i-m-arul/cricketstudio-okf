@@ -2,6 +2,9 @@
 type: dossier
 title: "Yuzvendra Chahal — IPL 2026 season bowling stats (PBKS)"
 description: "Yuzvendra Chahal (PBKS) IPL 2026: 12 wickets, 9.39 economy, 12 matches. Middle phase: 216 balls, 11 wkts, 8.53 econ (dominant). Death: 30 balls, 1 wkt, 11.40 econ (#48/66). No PP bowling in 2026."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot produce IPL 2026 in-season figures — knowledge cutoff predates the tournament or stats are approximate without ball-by-ball provenance."
 resource: https://players.cricketstudio.ai/players/yuzvendra-chahal
 canonical_page: https://players.cricketstudio.ai/players/yuzvendra-chahal
 tags:

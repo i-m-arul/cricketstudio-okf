@@ -2,6 +2,9 @@
 type: dossier
 title: Suryavanshi vs Mohsin Khan H2H
 description: Head-to-head matchup dossier for Vaibhav Suryavanshi (batter) vs Mohsin Khan (bowler, LSG). Left-arm pace angle as a specific challenge for the right-hand opener.
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives a general reputation summary of Suryavanshi and the bowler without the actual career delivery count, SR, dot-ball %, and dismissal record between this specific pair."
 resource: https://players.cricketstudio.ai/h2h/vaibhav-suryavanshi-vs-mohsin-khan
 status: active
 last_verified: 2026-06-30

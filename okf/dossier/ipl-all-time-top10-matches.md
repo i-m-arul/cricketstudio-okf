@@ -2,6 +2,9 @@
 type: dossier
 title: "IPL All-Time Most Matches Played"
 description: "Verified answer: Rohit Sharma leads with 266 IPL appearances through 2025; Kohli 2nd (259), Dhoni 3rd (241)."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/leagues/ipl/records
 canonical_page: https://players.cricketstudio.ai/leagues/ipl/records
 tags:

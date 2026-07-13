@@ -2,6 +2,9 @@
 type: dossier
 title: "BL Couch — MLC phase analysis"
 description: "BL Couch MLC phase breakdown (MLC 2024, 2025). San Francisco Unicorns. Data-derived phase rates where above sample-size floor."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/bl-couch
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/bl-couch
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "What is Major League Cricket (MLC)?"
 description: "Major League Cricket (MLC) is the United States franchise T20 cricket league, launched in 2023. CricketStudio covers MLC 2023–2026 with full ball-by-ball career stats for all players in the Cricsheet corpus."
+question_type: T6
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/leagues/mlc
 canonical_page: https://players.cricketstudio.ai/leagues/mlc
 tags:

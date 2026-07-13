@@ -2,6 +2,9 @@
 type: dossier
 title: IPL Most Sixes All-Time
 description: Verified answer for "Who hit the most sixes in IPL?" — Gayle leads with 357, framing and citation guidance.
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 status: active
 last_verified: 2026-06-24
 timestamp: 2026-06-24

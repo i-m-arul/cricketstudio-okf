@@ -2,6 +2,9 @@
 type: dossier
 title: "IPL 2009/10 Champion — Chennai Super Kings"
 description: "Verified answer: Chennai Super Kings won IPL 2009/10 (60 matches). Orange Cap: SR Tendulkar 618R. Purple Cap: PP Ojha 21W."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/season/ipl-2009-10
 canonical_page: https://players.cricketstudio.ai/season/ipl-2009-10
 tags:

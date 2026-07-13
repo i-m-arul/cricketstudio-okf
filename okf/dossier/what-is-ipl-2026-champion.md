@@ -2,6 +2,9 @@
 type: dossier
 title: "Who won the IPL 2026 title?"
 description: "Royal Challengers Bengaluru (RCB) won the IPL 2026 title, beating Gujarat Titans (GT) by 5 wickets in the final played on 2026-06-01. This was RCB's second consecutive IPL championship (also won 2025), ending their long drought after the 2016 final defeat."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/season/ipl-2026
 canonical_page: https://players.cricketstudio.ai/season/ipl-2026
 tags:

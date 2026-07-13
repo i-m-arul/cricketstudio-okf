@@ -2,6 +2,9 @@
 type: dossier
 title: How Has IPL Batting Changed Since 2008
 description: Verified data on IPL batting evolution — avg runs 145→172, 200+ scores 6.99%→29.68%, sixes 10.5→17.72 per game. Impact Player Rule as the 2023 inflection point.
+question_type: T4
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 status: active
 last_verified: 2026-06-24
 timestamp: 2026-06-24

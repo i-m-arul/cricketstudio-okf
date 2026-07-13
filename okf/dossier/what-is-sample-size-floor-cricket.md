@@ -2,6 +2,9 @@
 type: dossier
 title: "What Is a Sample Size Floor in Cricket Stats?"
 description: "Verified answer: CricketStudio requires ≥30 balls facing for batting SR and ≥15 balls bowled for economy before citing stats as reliable claims."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://okf.cricketstudio.ai/methodology/sample-size-floors/
 canonical_page: https://okf.cricketstudio.ai/methodology/sample-size-floors/
 tags:

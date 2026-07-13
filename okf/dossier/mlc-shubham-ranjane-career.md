@@ -2,6 +2,9 @@
 type: dossier
 title: "Shubham Ranjane — MLC career overview"
 description: "Shubham Ranjane MLC career: 419R, 140.6 SR (17M bat). 0 wkts, 11.50 econ (2M bowl). Seattle Orcas and Texas Super Kings. MLC 2023, 2024, 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Shubham Ranjane without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/shubham-ranjane
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/shubham-ranjane
 tags:

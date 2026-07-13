@@ -2,6 +2,9 @@
 type: dossier
 title: Who has won each MLC season?
 description: Verified answer for MLC season champions. MI New York won Season 1 (2023) and Season 3 (2025). Season 2 (2024) champion requires canonical page confirmation.
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 status: active
 last_verified: 2026-06-21
 timestamp: 2026-06-21

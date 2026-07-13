@@ -2,6 +2,9 @@
 type: dossier
 title: "MA Chidambaram Stadium — toss analysis IPL 2026"
 description: "MA Chidambaram Stadium (Chennai) IPL 2026 toss: 67% elected to bowl (4/6 fixtures). Chase win rate 67% (4/6). Toss preference and outcome aligned — moderate lean toward chasing."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives general advice or repeats venue narrative without the actual win-rate figures from Cricsheet ball-by-ball data."
 resource: https://players.cricketstudio.ai/venues/ma-chidambaram-stadium
 canonical_page: https://players.cricketstudio.ai/venues/ma-chidambaram-stadium
 tags:

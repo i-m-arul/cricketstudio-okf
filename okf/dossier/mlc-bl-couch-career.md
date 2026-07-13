@@ -2,6 +2,9 @@
 type: dossier
 title: "BL Couch — MLC career overview"
 description: "BL Couch MLC career: 36R, 92.3 SR (5M bat). 8 wkts, 8.98 econ (13M bowl). San Francisco Unicorns. MLC 2024, 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for BL Couch without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/bl-couch
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/bl-couch
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "Why Phase Splits Matter in T20 Cricket Stats"
 description: "Verified answer: A batter or bowler's overall stat can mask radically different performance across powerplay, middle, and death phases."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://okf.cricketstudio.ai/methodology/phase-definitions/
 canonical_page: https://okf.cricketstudio.ai/methodology/phase-definitions/
 tags:

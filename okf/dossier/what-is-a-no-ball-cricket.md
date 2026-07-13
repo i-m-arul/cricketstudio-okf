@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a no-ball in cricket?"
 description: "A no-ball is an illegal delivery in cricket. The batter cannot be out bowled, caught, LBW, or hit wicket off a no-ball. The batting team gets a free hit on the next delivery in T20/IPL — one of the highest-cost bowling errors."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

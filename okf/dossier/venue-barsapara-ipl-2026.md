@@ -2,6 +2,9 @@
 type: dossier
 title: "Barsapara Cricket Stadium (Guwahati) — IPL 2026 venue profile"
 description: "Barsapara Stadium IPL 2026: 3 fixtures, avg 1st-innings 150, chase win rate 100%, bowl-first 100%."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/venues/barsapara-cricket-stadium
 canonical_page: https://players.cricketstudio.ai/venues/barsapara-cricket-stadium
 tags:

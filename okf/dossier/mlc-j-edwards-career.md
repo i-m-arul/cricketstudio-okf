@@ -2,6 +2,9 @@
 type: dossier
 title: "J Edwards — MLC career overview"
 description: "J Edwards MLC career: 152R, 132.2 SR (7M bat). 14 wkts, 9.27 econ (12M bowl). Washington Freedom. MLC 2024, 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for J Edwards without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/j-edwards
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/j-edwards
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "IPL 2026 Purple Cap winner"
 description: "Verified answer pattern for 'Who won the Purple Cap in IPL 2026?' — Kagiso Rabada, 29 wickets, economy 9.68."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/leagues/ipl/leaderboards/purple-cap
 canonical_page: https://players.cricketstudio.ai/leagues/ipl/leaderboards/purple-cap
 tags:

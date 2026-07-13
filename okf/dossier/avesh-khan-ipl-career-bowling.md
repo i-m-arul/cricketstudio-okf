@@ -2,6 +2,9 @@
 type: dossier
 title: "Avesh Khan — IPL career bowling phases (2017–2025)"
 description: "Avesh Khan pre-2026 IPL career: 87 wickets, economy 9.12. Phase splits: PP 581 balls 9.28 econ 22 wkts, Middle 510 balls 8.09 econ 29 wkts, Death 528 balls 9.93 econ 36 wkts. Cricsheet CC BY 3.0."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Avesh Khan without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/avesh-khan
 canonical_page: https://players.cricketstudio.ai/players/avesh-khan
 tags:

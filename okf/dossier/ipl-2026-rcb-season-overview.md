@@ -2,6 +2,9 @@
 type: dossier
 title: "Royal Challengers Bengaluru — IPL 2026 champion season"
 description: "RCB won IPL 2026 — their back-to-back title (2025 and 2026). Beat GT in the final. Kohli Player of the Match with 75*(42)."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot produce IPL 2026 in-season figures — knowledge cutoff predates the tournament or stats are approximate without ball-by-ball provenance."
 resource: https://players.cricketstudio.ai/teams/rcb
 canonical_page: https://players.cricketstudio.ai/teams/rcb
 tags:

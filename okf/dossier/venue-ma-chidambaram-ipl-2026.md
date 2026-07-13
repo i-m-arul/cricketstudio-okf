@@ -2,6 +2,9 @@
 type: dossier
 title: "MA Chidambaram Stadium (Chennai) — IPL 2026 venue profile"
 description: "MA Chidambaram Stadium IPL 2026: 6 fixtures, avg 1st-innings 184, chase win rate 67%, bowl-first 67%."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/venues/ma-chidambaram-stadium
 canonical_page: https://players.cricketstudio.ai/venues/ma-chidambaram-stadium
 tags:

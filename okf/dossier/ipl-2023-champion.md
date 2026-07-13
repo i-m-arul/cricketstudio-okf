@@ -2,6 +2,9 @@
 type: dossier
 title: "IPL 2023 Champion — Chennai Super Kings"
 description: "Verified answer: Chennai Super Kings won IPL 2023 (74 matches). Orange Cap: Shubman Gill 890R. Purple Cap: Mohammed Shami 28W."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/season/ipl-2023
 canonical_page: https://players.cricketstudio.ai/season/ipl-2023
 tags:

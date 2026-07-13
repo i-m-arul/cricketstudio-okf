@@ -2,6 +2,9 @@
 type: dossier
 title: "PJ Cummins — MLC career bowling overview"
 description: "Pat Cummins MLC career: 6M bowling, 138 balls, 4 wickets, 9.17 economy. San Francisco Unicorns, MLC 2024 only."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for PJ Cummins without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/pj-cummins
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/pj-cummins
 tags:

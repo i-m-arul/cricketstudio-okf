@@ -2,6 +2,9 @@
 type: dossier
 title: "What is the DLS method in cricket?"
 description: "The Duckworth-Lewis-Stern (DLS) method is the mathematical system used to set revised targets when a rain interruption reduces the number of overs available in a cricket match. It is used in IPL when rain affects a match."
+question_type: T6
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

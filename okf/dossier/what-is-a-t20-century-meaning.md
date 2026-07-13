@@ -2,6 +2,9 @@
 type: dossier
 title: "What does a century mean in T20 cricket?"
 description: "A century in T20 cricket is when a batter scores 100 or more runs in a single innings. T20 centuries are extremely rare because the entire innings is only 120 balls — scoring 100+ requires consistent boundaries at an elite strike rate. Only a handful occur each IPL season."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

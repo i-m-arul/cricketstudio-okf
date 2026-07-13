@@ -2,6 +2,9 @@
 type: dossier
 title: "Ayush Badoni — IPL death-overs batting (2022–2025)"
 description: "Ayush Badoni (LSG) IPL career: 250 death-overs balls at 175.2 SR — his specialist phase. Powerplay SR only 61.7 (47 balls). Career: 963 runs, avg 26.75, SR 139.0. Cricsheet CC BY 3.0."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives the player's overall economy or reputation as a death bowler without the specific death-over (overs 17–20) figure from ball-by-ball data."
 resource: https://players.cricketstudio.ai/players/ayush-badoni
 canonical_page: https://players.cricketstudio.ai/players/ayush-badoni
 tags:

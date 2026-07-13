@@ -2,6 +2,9 @@
 type: dossier
 title: "Rohit Sharma — IPL 2026 powerplay batting"
 description: "Rohit Sharma IPL 2026 PP: 118 balls, 180 runs, SR 152.5, ranked #25 of 45 qualifying batters."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "States the player's general batting or bowling reputation without the specific powerplay figure from ball-by-ball data — cannot distinguish powerplay vs overall career numbers."
 resource: https://players.cricketstudio.ai/players/rohit-sharma
 canonical_page: https://players.cricketstudio.ai/players/rohit-sharma
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "Vaibhav Suryavanshi vs Sakib Hussain — IPL 2026 H2H"
 description: "Suryavanshi vs Sakib Hussain in IPL 2026: 19 balls, 59 runs, SR 310.5, 2 fours, 8 sixes, 0 dismissals."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives a general reputation summary of Vaibhav Suryavanshi and Sakib Hussain without the actual career delivery count, SR, dot-ball %, and dismissal record between this specific pair."
 resource: https://players.cricketstudio.ai/h2h/vaibhav-suryavanshi-vs-sakib-hussain
 canonical_page: https://players.cricketstudio.ai/h2h/vaibhav-suryavanshi-vs-sakib-hussain
 tags:

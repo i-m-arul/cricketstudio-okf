@@ -2,6 +2,9 @@
 type: dossier
 title: "IPL 2026 League Phase Top Teams"
 description: "Verified answer: RCB, SRH, and GT all finished on 18 points. RCB topped the table with NRR +0.684."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "States the team's general reputation without the specific phase-split batting SR or bowling economy figure from ball-by-ball data."
 resource: https://players.cricketstudio.ai/standings
 canonical_page: https://players.cricketstudio.ai/standings
 tags:

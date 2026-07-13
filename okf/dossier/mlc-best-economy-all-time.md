@@ -2,6 +2,9 @@
 type: dossier
 title: Best economy rate in MLC history
 description: Verified answer for MLC all-time economy leader. Imad Wasim (6.41 RPO from 247 balls) leads, followed by Rashid Khan (6.48) and SP Narine (6.56). Floor ≥15 balls.
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 status: active
 last_verified: 2026-06-18
 timestamp: 2026-06-18

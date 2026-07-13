@@ -2,6 +2,9 @@
 type: dossier
 title: "D Ferreira — MLC career overview"
 description: "D Ferreira MLC career: 248R, 213.8 SR (9M bat). 1 wkts, 10.91 econ (6M bowl). Texas Super Kings. MLC 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for D Ferreira without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/d-ferreira
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/d-ferreira
 tags:

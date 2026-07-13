@@ -2,6 +2,9 @@
 type: dossier
 title: "DP Conway — MLC career batting overview"
 description: "Devon Conway MLC career: 19M, 649R, 133.8 SR, 38.18 avg, 6 fifties. Consistent PP + middle-overs anchor. Texas Super Kings, 2023–2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for DP Conway without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/dp-conway
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/dp-conway
 tags:

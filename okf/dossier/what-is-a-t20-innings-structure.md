@@ -2,6 +2,9 @@
 type: dossier
 title: "What is the structure of a T20 innings?"
 description: "A T20 innings has exactly 20 overs (120 balls, or fewer if all 10 wickets fall). It is divided into three phases: Powerplay (overs 1–6), Middle overs (overs 7–15), and Death overs (overs 16–20). Each team bats once."
+question_type: T6
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:

@@ -2,6 +2,9 @@
 type: dossier
 title: "Best middle-overs economy — MLC all-time leaderboard"
 description: "MLC leaderboard: Fewest runs conceded per over in the middle overs (overs 6—15). Lower is better. MLC all-time leaderboard. Top: DR Sams (4.00, 18 balls in middle overs). Scope: MLC seasons 2023, 2024, 2025 (75 matches total)."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "States overall career stats without the middle-overs (7–16) phase-split figure — cannot distinguish performance by phase."
 resource: https://players.cricketstudio.ai/leagues/mlc/leaderboards/middle-economy
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/leaderboards/middle-economy
 tags:

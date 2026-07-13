@@ -2,6 +2,9 @@
 type: dossier
 title: "Most innings batted — MLC all-time leaderboard"
 description: "MLC leaderboard: Most innings batted across all captured MLC matches. A volume metric for high-frequency batters. MLC all-time leaderboard. Top: N Pooran (28, 640 balls faced). Scope: MLC seasons 2023, 2024, 2025 (75 matches total)."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/leagues/mlc/leaderboards/most-innings
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/leaderboards/most-innings
 tags:

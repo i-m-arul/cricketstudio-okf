@@ -2,6 +2,9 @@
 type: dossier
 title: "Yuzvendra Chahal — IPL career bowling overview (2013–2025)"
 description: "Yuzvendra Chahal (RCB/RR/PBKS) IPL career 2013–2025: 221 wickets, economy 7.96, average 22.77. 172 matches, 13 seasons. India's most prolific IPL spinner (leg-break googly). Cricsheet CC BY 3.0."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Yuzvendra Chahal without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/yuzvendra-chahal
 canonical_page: https://players.cricketstudio.ai/players/yuzvendra-chahal
 tags:

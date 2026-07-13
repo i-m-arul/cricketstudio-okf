@@ -2,6 +2,9 @@
 type: dossier
 title: "Vaibhav Suryavanshi Batting Average IPL 2026"
 description: "Verified answer: Suryavanshi averaged 48.50 in IPL 2026 across 16 matches."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/players/vaibhav-suryavanshi
 canonical_page: https://players.cricketstudio.ai/players/vaibhav-suryavanshi
 tags:

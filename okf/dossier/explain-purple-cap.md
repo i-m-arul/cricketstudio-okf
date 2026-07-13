@@ -2,6 +2,9 @@
 type: dossier
 title: "Explain the Purple Cap"
 description: "What the Purple Cap is in IPL — the award for the season's highest wicket-taker, with scope, limitations, and agent answering guidance."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 tags:
   - cricket
   - IPL

@@ -2,6 +2,9 @@
 type: dossier
 title: "Best MLC Career Batting Average"
 description: "Verified answer: SO Hetmyer (Seattle Orcas) leads MLC career batting average at 66.50 across 207 balls faced."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for this player without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/leaderboards/batting-average
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/leaderboards/batting-average
 tags:

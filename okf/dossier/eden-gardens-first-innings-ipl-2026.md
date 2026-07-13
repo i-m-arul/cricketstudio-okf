@@ -2,6 +2,9 @@
 type: dossier
 title: "Eden Gardens — first-innings scoring in IPL 2026"
 description: "Eden Gardens (Kolkata): average first-innings score 190 across 6 IPL 2026 fixtures (range 147–226). Chase win rate: 33% (2/6). Bat-first dominates at Eden Gardens in 2026."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/venues/eden-gardens
 canonical_page: https://players.cricketstudio.ai/venues/eden-gardens
 tags:

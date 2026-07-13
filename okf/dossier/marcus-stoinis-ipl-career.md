@@ -2,6 +2,9 @@
 type: dossier
 title: "Marcus Stoinis — IPL career all-round overview (2016–2025)"
 description: "Marcus Stoinis (RCB/DC/PBKS/LSG) IPL career 2016–2025: 2,026 runs SR 145.5, 44 wickets economy 9.79. Death batting: 383 balls, 188.0 SR. 10 seasons. Cricsheet CC BY 3.0."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Marcus Stoinis without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/players/marcus-stoinis
 canonical_page: https://players.cricketstudio.ai/players/marcus-stoinis
 tags:

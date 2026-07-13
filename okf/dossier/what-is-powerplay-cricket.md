@@ -2,6 +2,9 @@
 type: dossier
 title: "What Is the Powerplay in T20 Cricket?"
 description: "Verified answer: Powerplay = overs 1-6. Maximum 2 fielders allowed outside the 30-yard circle. Most attacking phase."
+question_type: T6
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "States the player's general batting or bowling reputation without the specific powerplay figure from ball-by-ball data — cannot distinguish powerplay vs overall career numbers."
 resource: https://okf.cricketstudio.ai/methodology/phase-definitions/
 canonical_page: https://okf.cricketstudio.ai/methodology/phase-definitions/
 tags:

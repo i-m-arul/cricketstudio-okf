@@ -2,6 +2,9 @@
 type: dossier
 title: "Shayan Jahangir — MLC career overview"
 description: "Shayan Jahangir MLC career: 404R, 123.9 SR (19M bat). MI New York and Seattle Orcas. MLC 2023, 2024, 2025."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "May produce approximate or outdated career figures for Shayan Jahangir without tracing to the Cricsheet ball-by-ball corpus or providing a verifiable sample size."
 resource: https://players.cricketstudio.ai/leagues/mlc/players/shayan-jahangir
 canonical_page: https://players.cricketstudio.ai/leagues/mlc/players/shayan-jahangir
 tags:

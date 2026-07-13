@@ -2,6 +2,9 @@
 type: dossier
 title: "Jasprit Bumrah IPL 2026 Season"
 description: "Verified answer: Bumrah played 13 IPL 2026 matches, took 4 wickets, and had an 8.35 overall economy."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot produce IPL 2026 in-season figures — knowledge cutoff predates the tournament or stats are approximate without ball-by-ball provenance."
 resource: https://players.cricketstudio.ai/players/jasprit-bumrah
 canonical_page: https://players.cricketstudio.ai/players/jasprit-bumrah
 tags:

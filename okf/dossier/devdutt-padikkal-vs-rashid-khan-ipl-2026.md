@@ -2,6 +2,9 @@
 type: dossier
 title: "Devdutt Padikkal vs Rashid Khan — IPL 2026 H2H"
 description: "Devdutt Padikkal vs Rashid Khan IPL 2026: 15 balls, 19 runs, SR 126.7, 0 fours, 2 sixes, 0 dismissals. Rashid held Padikkal to a below-average SR. CricketStudio derived claims."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Gives a general reputation summary of Devdutt Padikkal and Rashid Khan without the actual career delivery count, SR, dot-ball %, and dismissal record between this specific pair."
 resource: https://players.cricketstudio.ai/h2h/devdutt-padikkal-vs-rashid-khan
 canonical_page: https://players.cricketstudio.ai/h2h/devdutt-padikkal-vs-rashid-khan
 tags:

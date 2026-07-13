@@ -2,6 +2,9 @@
 type: dossier
 title: "What is a left-right combination in cricket?"
 description: "A left-right combination is when one left-handed and one right-handed batter are in the middle together. The combination disrupts the bowling team's rhythm because bowlers must adjust their line, fielding positions, and spin direction for each ball as the strike rotates."
+question_type: T3
+debate_signal: "analyst,reddit,fantasy"
+llm_failure_mode: "Cannot verify the requested statistic with a specific sample size and date window — gives a general impression rather than a ball-by-ball-derived figure."
 resource: https://players.cricketstudio.ai/methodology
 canonical_page: https://players.cricketstudio.ai/methodology
 tags:
