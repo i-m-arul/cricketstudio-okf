@@ -17,6 +17,7 @@ const SECTION_PAGES: MetadataRoute.Sitemap = [
   { url: `${BASE}/agents/`, changeFrequency: 'monthly', priority: 0.75 },
   { url: `${BASE}/search/`, changeFrequency: 'monthly', priority: 0.5 },
   { url: `${BASE}/about/`, changeFrequency: 'monthly', priority: 0.6 },
+  { url: `${BASE}/evals/leaderboard/`, changeFrequency: 'weekly', priority: 0.85 },
 ]
 
 const CHANGE_FREQ_BY_TYPE: Record<string, 'weekly' | 'monthly'> = {

@@ -13,6 +13,7 @@ export default function Header() {
     { href: '/dossier/', label: 'Dossier' },
     { href: '/stories/', label: 'Journeys' },
     { href: '/agents/', label: 'Agents' },
+    { href: '/evals/leaderboard/', label: 'Evals' },
     { href: '/search/', label: 'Search' },
     { href: '/about/', label: 'About' },
   ]
