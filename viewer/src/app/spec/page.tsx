@@ -53,7 +53,7 @@ export default async function SpecPage() {
           {[
             { label: 'Google OKF v0.1', sub: 'Base format — type, title, description, resource, tags, timestamp', color: 'border-blue-800 bg-blue-950/20' },
             { label: 'Cricket OKF profile', sub: 'This spec — cricket types, provenance, metrics, claims, identity, sample-size', color: 'border-green-800 bg-green-950/20' },
-            { label: 'cricketstudio-okf bundle', sub: 'Reference implementation — 2,500+ files, CI-validated, Level 3 (Agent-Safe)', color: 'border-green-700 bg-green-900/20' },
+            { label: 'cricketstudio-okf bundle', sub: 'Reference implementation — 3,500+ files, CI-validated, Level 3 (Agent-Safe)', color: 'border-green-700 bg-green-900/20' },
             { label: 'CricketStudio.ai', sub: 'Independent product — links to and cites OKF; not an OKF implementation', color: 'border-gray-700 bg-gray-800/20' },
           ].map((row) => (
             <div key={row.label} className={`border rounded-lg px-4 py-2.5 ${row.color}`}>
