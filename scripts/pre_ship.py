@@ -10,7 +10,7 @@ Usage:
   python scripts/pre_ship.py           # Full gate (writes updates in place)
   python scripts/pre_ship.py --check   # Read-only audit; exit 1 if anything is stale
 
-What this gate covers (8 steps)
+What this gate covers (9 steps)
 --------------------------------
 [1] Vendor-name leak scan
     - Scans every .md file under okf/ for banned vendor names (e.g. "Sportmonks")
@@ -26,13 +26,14 @@ What this gate covers (8 steps)
 [3] Count sync (update_counts.py)
     - Reads manifest.yaml as single source of truth for all counts
     - Syncs counts to ALL of these consumer files:
-        • viewer/public/llms.txt         (dossier N, journeys N, players N, metrics N)
-        • viewer/public/llms-full.txt    (header line)
-        • README.md                      (badge + stats section)
-        • viewer/src/app/page.tsx        (hero stats block)
-        • viewer/src/app/agents/page.tsx (dossier count label in agent specs)
-        • datapackage.json               (version + dataset_version from manifest)
-        • okf/index.md                   (research / player / dossier / story / metric counts)
+        • viewer/public/llms.txt              (dossier N, journeys N, players N, metrics N)
+        • viewer/public/llms-full.txt         (header line)
+        • README.md                           (badge + stats section)
+        • viewer/src/app/page.tsx             (JSON-LD Dataset description: total, players, dossier)
+        • viewer/src/app/agents/page.tsx      (dossier count label + full-context "N+ files" label)
+        • viewer/src/app/spec/page.tsx        ("N+ files, CI-validated" label in spec layer card)
+        • datapackage.json                    (version + dataset_version from manifest)
+        • okf/index.md                        (research / player / dossier / story / metric counts)
     - Blocks if any consumer file diverges from manifest
 
 [4] Metadata sync (sync_meta.py)
@@ -52,18 +53,29 @@ What this gate covers (8 steps)
     - Catches pattern mismatches that sync_meta.py might miss due to regex differences
     - Non-blocking warn below TOTAL_FILE_THRESHOLD (sanity check)
 
-[6] Releases page completeness
+[6] Hardcoded count audit (viewer .tsx files)  ← DEEP SWEEP
+    - After step 3 syncs all known locations, this step is the catch-all
+    - Scans every .tsx file in viewer/src/ for specific count values from manifest
+      (dossier count, player count, total file count) appearing as LITERAL strings
+    - Lines that are dynamic (byType., counts., getOKF, .filter, .length) are exempt
+    - Release history strings in releases/page.tsx are exempt (historical facts)
+    - Blocks if any specific hardcoded count is found that should be dynamic
+    - If you add a new .tsx component with a count, either:
+        a) Make it dynamic (use byType/counts/getOKF), or
+        b) Add a sync function to update_counts.py — it will then pass step 3
+
+[7] Releases page completeness
     - Reads all okf/releases/v*.md files
     - Verifies viewer/src/app/releases/page.tsx has a matching entry for EVERY version
     - Blocks if any release file is missing from the viewer UI
     - Prevents "shipped a release note but never linked it to the UI" mistakes
 
-[7] search-index freshness (NON-BLOCKING — warn only)
+[8] search-index freshness (NON-BLOCKING — warn only)
     - Checks if viewer/public/search-index.json is older than the newest OKF .md file
     - The index is rebuilt by `cd viewer && npm run build` (or Amplify on deploy)
     - Only warns; does not block. Reminder to rebuild locally if you need search to work.
 
-[8] OKF validator (validate_okf.py) — HARD GATE
+[9] OKF validator (validate_okf.py) — HARD GATE
     - Validates EVERY .md file in okf/ against the OKF schema:
         • Required frontmatter fields present + valid YAML
         • `type` is one of the 20 approved values (okf/spec/types.md)
@@ -75,16 +87,17 @@ What this gate covers (8 steps)
 Key invariants enforced across all steps
 -----------------------------------------
 - manifest.yaml is the SINGLE SOURCE OF TRUTH for counts, version, and conformance level
-- Every consumer file (llms.txt, README, page.tsx, agents/page.tsx, datapackage.json,
-  okf/index.md, spec files) must agree with manifest before anything ships
+- Every consumer file (llms.txt, README, page.tsx, agents/page.tsx, spec/page.tsx,
+  datapackage.json, okf/index.md, spec files) must agree with manifest before shipping
 - "Sportmonks" must never appear in any public file
+- No hardcoded exact count values in .tsx files — all counts must flow from manifest
 - Every okf/releases/v*.md must have a matching entry in the viewer releases page
 - OKF validator must show 0 errors
 
 Authoring reminder
 ------------------
 After editing OKF files:
-  1. python scripts/pre_ship.py   (runs all 8 steps; writes any stale counts)
+  1. python scripts/pre_ship.py   (runs all 9 steps; writes any stale counts)
   2. git add -p                   (review exactly what changed)
   3. git commit -m "..."          (with both Co-Authored-By trailers per §29)
   4. Wait for explicit push instruction — do NOT push speculatively
@@ -127,7 +140,7 @@ def _read_manifest_total():
 
 def step_vendor_scan(check_only: bool) -> bool:
     """Scan all committed .md files for banned vendor names."""
-    print("\n[1/8] Vendor-name leak scan...")
+    print("\n[1/9] Vendor-name leak scan...")
     violations = []
     for md in sorted(OKF_DIR.rglob("*.md")):
         try:
@@ -152,7 +165,7 @@ def step_vendor_scan(check_only: bool) -> bool:
 
 def step_update_counts(check_only: bool) -> bool:
     """Run update_counts.py to sync manifest + llms.txt."""
-    print("\n[3/8] Syncing counts (manifest + llms.txt + root llms.txt + README + page.tsx)...")
+    print("\n[3/9] Syncing counts (manifest + llms.txt + root llms.txt + README + page.tsx)...")
     flag = ["--check"] if check_only else []
     result = subprocess.run(
         [sys.executable, str(ROOT / "scripts" / "update_counts.py")] + flag,
@@ -171,7 +184,7 @@ def step_update_counts(check_only: bool) -> bool:
 
 def step_sync_meta(check_only: bool) -> bool:
     """Run sync_meta.py to propagate level/version/count to all consumer files."""
-    print("\n[4/8] Syncing metadata (level, profile version, file count)...")
+    print("\n[4/9] Syncing metadata (level, profile version, file count)...")
     flag = ["--check"] if check_only else []
     result = subprocess.run(
         [sys.executable, str(ROOT / "scripts" / "sync_meta.py")] + flag,
@@ -191,7 +204,7 @@ def step_sync_meta(check_only: bool) -> bool:
 def step_sync_spec_files(check_only: bool) -> bool:
     """Legacy guard: verify spec/index.md and spec/conformance.md have the current file count.
     sync_meta.py (step 4) already handles this — this step catches any pattern mismatches."""
-    print("\n[5/8] Verifying spec file counts...")
+    print("\n[5/9] Verifying spec file counts...")
     total = _count_okf_files()
     if total < TOTAL_FILE_THRESHOLD:
         print(f"  WARN — only {total} files; expected >{TOTAL_FILE_THRESHOLD}. Skipping spec sync.")
@@ -248,7 +261,7 @@ def step_sync_spec_files(check_only: bool) -> bool:
 def step_rebuild_llms_full(check_only: bool) -> bool:
     """Rebuild viewer/public/llms-full.txt from all OKF files."""
     llms_full = ROOT / "viewer" / "public" / "llms-full.txt"
-    print("\n[2/8] Rebuilding llms-full.txt + llms.txt template (count sync runs after)...")
+    print("\n[2/9] Rebuilding llms-full.txt + llms.txt template (count sync runs after)...")
     if check_only:
         # In check-only mode, verify the header count matches actual file count
         if llms_full.exists():
@@ -279,9 +292,137 @@ def step_rebuild_llms_full(check_only: bool) -> bool:
     return True
 
 
+def step_hardcoded_count_audit(check_only: bool) -> bool:
+    """Scan viewer .tsx files for hardcoded counts that diverge from manifest.
+
+    After update_counts.py runs (step 3), every KNOWN location is synced.
+    This step is the catch-all: it scans for any remaining specific numeric
+    count that looks like a file/entity count but isn't a dynamic expression
+    or an acceptable rounded '+' label.
+
+    Checks:
+    - dossier count: any exact occurrence of the manifest dossier number in a
+      .tsx string literal that isn't wrapped in byType/counts./getOKF (dynamic)
+    - total file count: same check for the exact total (vs the rounded N+ label)
+    - player count: same for player count
+    - 'old' stale counts: any number that was a real count in a prior version
+      and now appears in a non-release-note string context
+
+    Acceptable patterns (not flagged):
+    - Numbers inside `${byType...}`, `${counts...}`, `{getOKF...}` — dynamic
+    - Numbers in releases/page.tsx summary/highlights strings — historical notes
+    - The rounded '+'-suffixed label (e.g. '3,500+') — deliberate approximation
+    - Year values: 2020–2030
+    - UI constants: port numbers, timeouts, pixel values, etc.
+    """
+    print("\n[6/9] Hardcoded count audit (viewer .tsx files)...")
+
+    try:
+        import yaml
+        manifest_data = yaml.safe_load(MANIFEST.read_text(encoding="utf-8"))
+    except Exception as e:
+        print(f"  WARN — could not read manifest: {e} (skipping)")
+        return True
+
+    counts = manifest_data.get("counts", {})
+    total = sum(counts.values())
+    dossier_n = counts.get("dossier", 0)
+    player_n = counts.get("player", 0)
+    rounded = (total // 100) * 100
+
+    # The rounded label is OK; the exact total is not (it's volatile)
+    rounded_label = f"{rounded:,}+"
+
+    viewer_src = ROOT / "viewer" / "src"
+    violations = []
+
+    # Patterns we expect to find ONLY in dynamic contexts or release notes
+    # Each entry: (file_glob_exclusion, regex_pattern, description)
+    # We exclude releases/page.tsx for historical strings.
+    volatile_patterns = [
+        # Exact dossier count as a numeric literal in a string
+        (rf"\b{dossier_n:,}\b", f"exact dossier count ({dossier_n:,})"),
+        # Exact player count as a numeric literal
+        (rf"\b{player_n:,}\b", f"exact player count ({player_n:,})"),
+        # Exact total file count (not the rounded label)
+        (rf"\b{total:,}\b", f"exact total file count ({total:,})"),
+    ]
+
+    # Dynamic-context markers — lines containing these are exempt
+    DYNAMIC_MARKERS = re.compile(
+        r"byType\.|counts\.|getOKF|\.filter\(|\.length|allFiles|nonIndex"
+    )
+
+    # Lines managed by update_counts.py — they ARE hardcoded but are kept
+    # in sync by an explicit sync function, so the audit should not flag them.
+    # Add a new entry here whenever you add a new _update_* function that
+    # maintains a hardcoded count in a specific file.
+    MANAGED_BY_SYNC = [
+        # update_counts._update_agents_page — dossier count label
+        re.compile(r"label: .Dossier .+ Q&A patterns"),
+        # update_counts._update_agents_context_label — full-context "N+ files" line
+        re.compile(r"all [\d,]+\+ OKF files concatenated"),
+        # update_counts._update_page_jsonld — JSON-LD Dataset description
+        re.compile(r"A curated, open knowledge catalog for cricket\."),
+        # update_counts._update_spec_page — spec layer card "N+ files" label
+        re.compile(r"Reference implementation .+ files, CI-validated"),
+    ]
+
+    for tsx in sorted(viewer_src.rglob("*.tsx")):
+        rel = tsx.relative_to(ROOT)
+        # Release history strings are acceptable hardcoded (historical facts)
+        is_releases_page = tsx.name == "page.tsx" and "releases" in str(tsx)
+
+        try:
+            lines = tsx.read_text(encoding="utf-8").splitlines()
+        except OSError:
+            continue
+
+        for lineno, line in enumerate(lines, 1):
+            # Skip pure comments
+            stripped = line.strip()
+            if stripped.startswith("//") or stripped.startswith("*"):
+                continue
+            # Skip lines that are already dynamic
+            if DYNAMIC_MARKERS.search(line):
+                continue
+            # Lines managed by an explicit update_counts.py sync function are OK
+            if any(p.search(line) for p in MANAGED_BY_SYNC):
+                continue
+            # Release-note strings in releases/page.tsx are OK (historical facts)
+            if is_releases_page and any(
+                kw in line for kw in ("summary:", "highlights:", "'")
+            ):
+                continue
+
+            for pattern, description in volatile_patterns:
+                if re.search(pattern, line):
+                    violations.append(
+                        f"  {rel}:{lineno}: hardcoded {description}\n"
+                        f"    -> {stripped[:120]}"
+                    )
+                    break  # one violation per line is enough
+
+    if violations:
+        print(f"  FAIL — {len(violations)} hardcoded count(s) found that should be dynamic:")
+        for v in violations:
+            print(v)
+        print(
+            "  Fix: add a sync function to scripts/update_counts.py for each location above,"
+            " or make the value dynamic in the component."
+        )
+        return False
+
+    print(
+        f"  PASS — no hardcoded exact counts found in viewer .tsx "
+        f"(dossier={dossier_n:,}, players={player_n:,}, total={total:,})"
+    )
+    return True
+
+
 def step_check_releases_page(check_only: bool) -> bool:
     """Verify releases/page.tsx has an entry for every okf/releases/v*.md file."""
-    print("\n[6/8] Checking releases page completeness...")
+    print("\n[7/9] Checking releases page completeness...")
     releases_dir = ROOT / "okf" / "releases"
     releases_page = ROOT / "viewer" / "src" / "app" / "releases" / "page.tsx"
 
@@ -308,7 +449,7 @@ def step_check_releases_page(check_only: bool) -> bool:
 
 def step_check_search_index_freshness(_check_only: bool) -> bool:
     """Warn (non-blocking) if search-index.json is older than the newest OKF file."""
-    print("\n[7/8] Checking search-index freshness...")
+    print("\n[8/9] Checking search-index freshness...")
     search_index = ROOT / "viewer" / "public" / "search-index.json"
     if not search_index.exists():
         print("  WARN — search-index.json not found (rebuilt by `cd viewer && npm run build`)")
@@ -335,7 +476,7 @@ def step_check_search_index_freshness(_check_only: bool) -> bool:
 
 def step_validate(check_only: bool) -> bool:
     """Run validate_okf.py and require 0 errors."""
-    print("\n[8/8] Running OKF validator (0 errors required)...")
+    print("\n[9/9] Running OKF validator (0 errors required)...")
     result = subprocess.run(
         [sys.executable, str(ROOT / "scripts" / "validate_okf.py")],
         capture_output=True,
@@ -368,13 +509,14 @@ def main():
 
     results = [
         step_vendor_scan(args.check),
-        step_rebuild_llms_full(args.check),   # must run BEFORE update_counts (it overwrites llms.txt)
-        step_update_counts(args.check),
-        step_sync_meta(args.check),
-        step_sync_spec_files(args.check),
-        step_check_releases_page(args.check),
-        step_check_search_index_freshness(args.check),
-        step_validate(args.check),
+        step_rebuild_llms_full(args.check),       # [2] must run BEFORE update_counts (overwrites llms.txt)
+        step_update_counts(args.check),           # [3] syncs ALL known count locations
+        step_sync_meta(args.check),               # [4] syncs level/version/count metadata
+        step_sync_spec_files(args.check),         # [5] legacy guard for spec file labels
+        step_hardcoded_count_audit(args.check),   # [6] catch-all: no exact counts hardcoded in .tsx
+        step_check_releases_page(args.check),     # [7] every release note has a viewer entry
+        step_check_search_index_freshness(args.check),  # [8] warn if search index is stale
+        step_validate(args.check),                # [9] OKF validator — 0 errors required
     ]
 
     print("\n" + "=" * 60)

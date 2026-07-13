@@ -402,6 +402,56 @@ def _update_okf_index(by_type: Counter, check_only: bool) -> bool:
     return True
 
 
+def _update_spec_page(total: int, check_only: bool) -> bool:
+    """Sync the total-file rounded label in viewer/src/app/spec/page.tsx."""
+    spec = ROOT / "viewer" / "src" / "app" / "spec" / "page.tsx"
+    if not spec.exists():
+        return True
+    content = spec.read_text(encoding="utf-8")
+    original = content
+    rounded = (total // 100) * 100
+    label = f"{rounded:,}+"
+    # "Reference implementation — 3,500+ files, CI-validated, Level 3 (Agent-Safe)"
+    content = re.sub(
+        r"(Reference implementation — )[\d,]+\+( files, CI-validated)",
+        rf"\g<1>{label}\2",
+        content,
+    )
+    if content == original:
+        return True
+    if check_only:
+        print(f"  [STALE] spec/page.tsx: total-file label needs update → {label}")
+        return False
+    spec.write_text(content, encoding="utf-8")
+    print(f"  spec/page.tsx: total label → {label}")
+    return True
+
+
+def _update_agents_context_label(total: int, check_only: bool) -> bool:
+    """Sync the 'all N+ OKF files concatenated' label in agents/page.tsx full-context section."""
+    agents = ROOT / "viewer" / "src" / "app" / "agents" / "page.tsx"
+    if not agents.exists():
+        return True
+    content = agents.read_text(encoding="utf-8")
+    original = content
+    rounded = (total // 100) * 100
+    label = f"{rounded:,}+"
+    # "— all 3,500+ OKF files concatenated"
+    content = re.sub(
+        r"(— all )[\d,]+\+( OKF files concatenated)",
+        rf"\g<1>{label}\2",
+        content,
+    )
+    if content == original:
+        return True
+    if check_only:
+        print(f"  [STALE] agents/page.tsx: full-context label needs update → {label}")
+        return False
+    agents.write_text(content, encoding="utf-8")
+    print(f"  agents/page.tsx: full-context label → {label}")
+    return True
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Sync OKF counts to manifest and llms.txt.")
     parser.add_argument(
@@ -432,6 +482,8 @@ def main() -> None:
     ok = _update_agents_page(by_type, check_only=args.check) and ok
     ok = _update_datapackage(by_type, check_only=args.check) and ok
     ok = _update_okf_index(by_type, check_only=args.check) and ok
+    ok = _update_spec_page(total, check_only=args.check) and ok
+    ok = _update_agents_context_label(total, check_only=args.check) and ok
 
     if args.check and not ok:
         print(
