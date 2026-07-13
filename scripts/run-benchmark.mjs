@@ -15,9 +15,10 @@
  *   viewer/public/evals/results/YYYY-MM-DD.jsonl  — raw per-question results
  *
  * Usage:
- *   node scripts/run-benchmark.mjs               # full run: raw + OKF context
+ *   node scripts/run-benchmark.mjs               # full v1 run: raw + OKF context
+ *   node scripts/run-benchmark.mjs --v2          # v2 run: T3-T6 cricket knowledge Qs
  *   node scripts/run-benchmark.mjs --raw-only    # raw pass only (faster / cheaper)
- *   node scripts/run-benchmark.mjs --sample 50  # sample validation run
+ *   node scripts/run-benchmark.mjs --sample 250  # sample 250 questions (quick test)
  *   node scripts/run-benchmark.mjs --dry-run    # print config, fetch Q&A, exit
  *
  * Env (loaded from .env / .env.local in repo root, or set directly):
@@ -64,7 +65,8 @@ loadEnvFile(join(ROOT, '.env.local'))
 
 // ── Config ────────────────────────────────────────────────────────────────────
 
-const BENCHMARK_URL = 'https://players.cricketstudio.ai/evals/cricket-qa-v1.jsonl'
+const BENCHMARK_URL_V1 = 'https://players.cricketstudio.ai/evals/cricket-qa-v1.jsonl'
+const BENCHMARK_URL_V2 = 'https://okf.cricketstudio.ai/evals/cricket-qa-v2.jsonl'
 const OKF_LLMS_URL  = 'https://okf.cricketstudio.ai/llms.txt'
 const LEADERBOARD_PATH = join(ROOT, 'viewer', 'public', 'evals', 'leaderboard.json')
 const RESULTS_DIR = join(ROOT, 'viewer', 'public', 'evals', 'results')
@@ -123,9 +125,12 @@ const MODELS = [
 
 const argv = process.argv.slice(2)
 const sampleIdx = argv.indexOf('--sample')
-const SAMPLE   = sampleIdx !== -1 ? parseInt(argv[sampleIdx + 1]) : null
-const DRY_RUN  = argv.includes('--dry-run')
-const RAW_ONLY = argv.includes('--raw-only')
+const SAMPLE    = sampleIdx !== -1 ? parseInt(argv[sampleIdx + 1]) : null
+const DRY_RUN   = argv.includes('--dry-run')
+const RAW_ONLY  = argv.includes('--raw-only')
+const USE_V2    = argv.includes('--v2')
+
+const BENCHMARK_URL = USE_V2 ? BENCHMARK_URL_V2 : BENCHMARK_URL_V1
 
 // ── Cost tracking ─────────────────────────────────────────────────────────────
 
@@ -484,7 +489,7 @@ async function main() {
   // Update leaderboard.json — prepend latest run, deduplicate by date
   let leaderboard = {
     version: 2,
-    benchmark: 'cricket-qa-v1',
+    benchmark: USE_V2 ? 'cricket-qa-v2' : 'cricket-qa-v1',
     benchmark_url: BENCHMARK_URL,
     judge: JUDGE_MODEL,
     scoring: 'binary — 1 if correct, 0 if incorrect (per question)',

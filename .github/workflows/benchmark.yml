@@ -14,6 +14,11 @@ on:
         type: boolean
         required: false
         default: false
+      v2:
+        description: 'Use cricket-qa-v2 benchmark (T3-T6 real cricket knowledge questions)'
+        type: boolean
+        required: false
+        default: true
 
 permissions:
   contents: write
@@ -23,7 +28,7 @@ jobs:
   benchmark:
     runs-on: ubuntu-latest
     environment: benchmark   # secrets gated by environment protection rules
-    timeout-minutes: 60
+    timeout-minutes: 120
 
     steps:
       - uses: actions/checkout@v4
@@ -46,6 +51,9 @@ jobs:
           fi
           if [ "${{ inputs.raw_only }}" = "true" ]; then
             FLAGS="$FLAGS --raw-only"
+          fi
+          if [ "${{ inputs.v2 }}" = "true" ]; then
+            FLAGS="$FLAGS --v2"
           fi
           node scripts/run-benchmark.mjs $FLAGS
 
