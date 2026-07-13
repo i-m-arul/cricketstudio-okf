@@ -13,7 +13,7 @@
  *   node scripts/run-benchmark.mjs --sample 50  # validation run
  *   node scripts/run-benchmark.mjs --dry-run    # print config, fetch Q&A, exit
  *
- * Required env:
+ * Env (loaded from .env / .env.local in repo root, or set directly):
  *   ANTHROPIC_API_KEY   — for Claude Sonnet (model) + Claude Haiku (judge)
  *
  * Optional env (missing keys skip that model):
@@ -30,6 +30,30 @@ import { fileURLToPath } from 'url'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const ROOT = join(__dirname, '..')
+
+// ── Dotenv loader (no package dependency) ────────────────────────────────────
+// Loads .env then .env.local from the repo root so local runs work without
+// manually exporting keys. CI/GHA sets env vars directly — these files won't
+// exist there and the loader silently skips them.
+function loadEnvFile(filePath) {
+  if (!existsSync(filePath)) return
+  const lines = readFileSync(filePath, 'utf8').split('\n')
+  for (const raw of lines) {
+    const line = raw.trim()
+    if (!line || line.startsWith('#')) continue
+    const eq = line.indexOf('=')
+    if (eq === -1) continue
+    const key = line.slice(0, eq).trim()
+    let val = line.slice(eq + 1).trim()
+    // Strip surrounding quotes
+    if ((val.startsWith('"') && val.endsWith('"')) || (val.startsWith("'") && val.endsWith("'"))) {
+      val = val.slice(1, -1)
+    }
+    if (key && !(key in process.env)) process.env[key] = val
+  }
+}
+loadEnvFile(join(ROOT, '.env'))
+loadEnvFile(join(ROOT, '.env.local'))
 
 // ── Config ────────────────────────────────────────────────────────────────────
 

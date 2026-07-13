@@ -1,3 +1,7 @@
+# Local env — never commit API keys
+.env
+.env.local
+
 # Python
 __pycache__/
 *.py[cod]
