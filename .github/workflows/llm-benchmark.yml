@@ -60,9 +60,5 @@ jobs:
           git add viewer/public/evals/leaderboard.json
           git diff --staged --quiet && echo "No changes." && exit 0
           DATE=$(date -u +%Y-%m-%d)
-          BRANCH="evals/benchmark-${DATE}"
-          git checkout -b "${BRANCH}"
           git commit -m "chore(evals): benchmark results ${DATE}"
-          git push origin "${BRANCH}" --force
-          gh pr create --base main --head "${BRANCH}" --title "chore(evals): benchmark ${DATE}" --body "Automated benchmark results." || true
-          gh pr merge "${BRANCH}" --auto --squash || true
+          git push origin HEAD:main

@@ -85,7 +85,7 @@ const COST_CAP = parseFloat(process.env.BENCHMARK_COST_CAP ?? '100')
 const COST_PER_1K = {
   'claude-sonnet-5':         { in: 0.003,   out: 0.015 },
   'gpt-4o':                  { in: 0.0025,  out: 0.01  },
-  'gemini-2.0-pro-exp':      { in: 0.00125, out: 0.005 },
+  'gemini-2.5-pro':          { in: 0.00125, out: 0.01  },
   'sonar-pro':               { in: 0.003,   out: 0.015 },
   [JUDGE_MODEL]:             { in: 0.00025, out: 0.00125 },
 }
@@ -106,10 +106,10 @@ const MODELS = [
     keyVar: 'OPENAI_API_KEY',
   },
   {
-    id: 'gemini-2.0-pro-exp',
-    label: 'Gemini 2.0 Pro',
+    id: 'gemini-2.5-pro',
+    label: 'Gemini 2.5 Pro',
     provider: 'Google',
-    apiId: 'gemini-2.0-pro-exp',
+    apiId: 'gemini-2.5-pro',
     keyVar: 'GEMINI_API_KEY',
   },
   {
