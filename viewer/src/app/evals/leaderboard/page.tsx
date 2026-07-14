@@ -244,29 +244,6 @@ export default function LeaderboardPage() {
                         </span>
                       </div>
                     </div>
-                    <div className="grid grid-cols-2 gap-3 pt-3 border-t border-green-900/40">
-                      <div>
-                        <div className="text-xs text-gray-600 mb-0.5">Without CS</div>
-                        <div className="text-sm font-mono font-semibold text-gray-300 tabular-nums">
-                          {pct(winner.score_raw)}
-                          <span className="text-gray-600 font-normal text-xs ml-1">({winner.correct_raw}/{winner.total})</span>
-                        </div>
-                      </div>
-                      <div>
-                        <div className="text-xs text-gray-600 mb-0.5">With CS</div>
-                        <div className="text-sm font-mono font-semibold text-green-300 tabular-nums">
-                          {pct(winner.score_with_cs)}
-                          {winner.correct_with_cs !== undefined && (
-                            <span className="text-gray-600 font-normal text-xs ml-1">({winner.correct_with_cs}/{winner.total})</span>
-                          )}
-                        </div>
-                      </div>
-                    </div>
-                    {winner.provider === 'Perplexity' && (
-                      <p className="text-xs text-gray-700 mt-2.5 leading-relaxed">
-                        * Perplexity uses live web search during inference — its raw score reflects real-time data access, not training knowledge alone.
-                      </p>
-                    )}
                   </>
                 ) : (
                   <div className="flex flex-col items-center text-center py-3">
@@ -302,27 +279,6 @@ export default function LeaderboardPage() {
                         <span className="text-blue-300 font-semibold">{pct(biggestLift.score_with_cs)}</span>
                       </div>
                     </div>
-                    <div className="grid grid-cols-2 gap-3 pt-3 border-t border-blue-900/30">
-                      <div>
-                        <div className="text-xs text-gray-600 mb-0.5">Without CS</div>
-                        <div className="text-sm font-mono font-semibold text-gray-400 tabular-nums">
-                          {pct(biggestLift.score_raw)}
-                          <span className="text-gray-600 font-normal text-xs ml-1">({biggestLift.correct_raw}/{biggestLift.total})</span>
-                        </div>
-                      </div>
-                      <div>
-                        <div className="text-xs text-gray-600 mb-0.5">With CS</div>
-                        <div className="text-sm font-mono font-semibold text-blue-300 tabular-nums">
-                          {pct(biggestLift.score_with_cs)}
-                          {biggestLift.correct_with_cs !== undefined && (
-                            <span className="text-gray-600 font-normal text-xs ml-1">({biggestLift.correct_with_cs}/{biggestLift.total})</span>
-                          )}
-                        </div>
-                      </div>
-                    </div>
-                    <p className="text-xs text-gray-700 mt-2.5 leading-relaxed">
-                      Started lowest, gained the most. CricketStudio data is the equaliser.
-                    </p>
                   </>
                 </div>
               )}
