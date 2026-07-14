@@ -40,6 +40,12 @@
               "correct_with_cs": 3,
               "total": 3
             }
+          },
+          "byType": {
+            "T3": { "correct_raw": 53, "correct_with_cs": 116, "total": 125 },
+            "T4": { "correct_raw": 27, "correct_with_cs": 57, "total": 63 },
+            "T5": { "correct_raw": 16, "correct_with_cs": 34, "total": 37 },
+            "T6": { "correct_raw": 10, "correct_with_cs": 22, "total": 25 }
           }
         },
         {
@@ -70,6 +76,12 @@
               "correct_with_cs": 3,
               "total": 3
             }
+          },
+          "byType": {
+            "T3": { "correct_raw": 33, "correct_with_cs": 111, "total": 125 },
+            "T4": { "correct_raw": 14, "correct_with_cs": 55, "total": 63 },
+            "T5": { "correct_raw": 8,  "correct_with_cs": 32, "total": 37 },
+            "T6": { "correct_raw": 5,  "correct_with_cs": 20, "total": 25 }
           }
         },
         {
@@ -100,6 +112,12 @@
               "correct_with_cs": 6,
               "total": 7
             }
+          },
+          "byType": {
+            "T3": { "correct_raw": 20, "correct_with_cs": 109, "total": 125 },
+            "T4": { "correct_raw": 9,  "correct_with_cs": 55, "total": 63 },
+            "T5": { "correct_raw": 5,  "correct_with_cs": 31, "total": 37 },
+            "T6": { "correct_raw": 4,  "correct_with_cs": 20, "total": 25 }
           }
         },
         {
@@ -130,6 +148,12 @@
               "correct_with_cs": 6,
               "total": 7
             }
+          },
+          "byType": {
+            "T3": { "correct_raw": 0, "correct_with_cs": 0, "total": 125 },
+            "T4": { "correct_raw": 0, "correct_with_cs": 0, "total": 63 },
+            "T5": { "correct_raw": 0, "correct_with_cs": 0, "total": 37 },
+            "T6": { "correct_raw": 0, "correct_with_cs": 0, "total": 25 }
           }
         }
       ]

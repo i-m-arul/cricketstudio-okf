@@ -231,43 +231,24 @@ export default function LeaderboardPage() {
                 {hasContext && winner.score_with_cs !== null ? (
                   <>
                     <div className="flex flex-col items-center text-center py-3">
-                      <div className="text-base font-bold text-green-400 mb-3">{winner.label}</div>
-                      <div className="flex items-baseline justify-center gap-2 flex-wrap">
-                        <span className="text-sm text-gray-500 font-mono tabular-nums">{pct(winner.score_raw)}</span>
-                        <span className="text-gray-600 text-xs">→</span>
-                        <span className="text-5xl font-extrabold text-green-400 font-mono leading-none tracking-tight tabular-nums">
-                          {pct(winner.score_with_cs)}
-                        </span>
+                      <div className="text-base font-bold text-green-400 mb-2">{winner.label}</div>
+                      <div className="text-xs text-gray-600 font-mono tabular-nums mb-1">
+                        {pct(winner.score_raw)} <span className="text-gray-700">→</span>
+                      </div>
+                      <div className="text-5xl font-extrabold text-green-400 font-mono leading-none tracking-tight tabular-nums">
+                        {pct(winner.score_with_cs)}
                       </div>
                       <div className="mt-2.5">
                         <span className="text-xs bg-green-900/60 text-green-300 px-2.5 py-1 rounded-full font-semibold">
                           {lift(winner.delta)} improvement
                         </span>
                       </div>
-                    </div>
-                    <div className="grid grid-cols-2 gap-3 pt-3 border-t border-green-900/40">
-                      <div>
-                        <div className="text-xs text-gray-600 mb-0.5">Without CS</div>
-                        <div className="text-sm font-mono font-semibold text-gray-300 tabular-nums">
-                          {pct(winner.score_raw)}
-                          <span className="text-gray-600 font-normal text-xs ml-1">({winner.correct_raw}/{winner.total})</span>
-                        </div>
-                      </div>
-                      <div>
-                        <div className="text-xs text-gray-600 mb-0.5">With CS</div>
-                        <div className="text-sm font-mono font-semibold text-green-300 tabular-nums">
-                          {pct(winner.score_with_cs)}
-                          {winner.correct_with_cs !== undefined && (
-                            <span className="text-gray-600 font-normal text-xs ml-1">({winner.correct_with_cs}/{winner.total})</span>
-                          )}
-                        </div>
-                      </div>
-                    </div>
-                    {winner.provider === 'Perplexity' && (
-                      <p className="text-xs text-gray-700 mt-2.5 leading-relaxed">
-                        * Perplexity uses live web search during inference — its raw score reflects real-time data access, not training knowledge alone.
+                      <p className="text-xs text-gray-600 mt-3 leading-relaxed text-center max-w-xs mx-auto">
+                        {winner.provider === 'Perplexity'
+                          ? '* Uses live web search — raw score reflects real-time access, not training knowledge alone.'
+                          : 'Highest accuracy across all models when CricketStudio data is injected as context.'}
                       </p>
-                    )}
+                    </div>
                   </>
                 ) : (
                   <div className="flex flex-col items-center text-center py-3">
@@ -290,232 +271,178 @@ export default function LeaderboardPage() {
                     </span>
                   </div>
 
-                  <div className="flex flex-col items-center text-center py-3">
-                    <div className="text-base font-bold text-blue-300 mb-3">{biggestLift.label}</div>
-                    <div className="text-5xl font-extrabold text-blue-300 font-mono leading-none tracking-tight tabular-nums">
-                      {lift(biggestLift.delta)}
-                    </div>
-                    <div className="mt-2 text-xs text-gray-600">accuracy points gained with CricketStudio</div>
-                    <div className="mt-2.5 flex items-baseline justify-center gap-1.5 font-mono tabular-nums text-sm">
-                      <span className="text-gray-500">{pct(biggestLift.score_raw)}</span>
-                      <span className="text-gray-700 text-xs">→</span>
-                      <span className="text-blue-300 font-semibold">{pct(biggestLift.score_with_cs)}</span>
-                    </div>
-                  </div>
-
-                  <div className="grid grid-cols-2 gap-3 pt-3 border-t border-blue-900/30">
-                    <div>
-                      <div className="text-xs text-gray-600 mb-0.5">Without CS</div>
-                      <div className="text-sm font-mono font-semibold text-gray-400 tabular-nums">
-                        {pct(biggestLift.score_raw)}
-                        <span className="text-gray-600 font-normal text-xs ml-1">({biggestLift.correct_raw}/{biggestLift.total})</span>
+                  <>
+                    <div className="flex flex-col items-center text-center py-3">
+                      <div className="text-base font-bold text-blue-300 mb-3">{biggestLift.label}</div>
+                      <div className="text-5xl font-extrabold text-blue-300 font-mono leading-none tracking-tight tabular-nums">
+                        {lift(biggestLift.delta)}
                       </div>
-                    </div>
-                    <div>
-                      <div className="text-xs text-gray-600 mb-0.5">With CS</div>
-                      <div className="text-sm font-mono font-semibold text-blue-300 tabular-nums">
-                        {pct(biggestLift.score_with_cs)}
-                        {biggestLift.correct_with_cs !== undefined && (
-                          <span className="text-gray-600 font-normal text-xs ml-1">({biggestLift.correct_with_cs}/{biggestLift.total})</span>
-                        )}
+                      <div className="mt-2 text-xs text-gray-600">accuracy points gained with CricketStudio</div>
+                      <div className="mt-2.5 flex items-baseline justify-center gap-1.5 font-mono tabular-nums text-sm">
+                        <span className="text-gray-500">{pct(biggestLift.score_raw)}</span>
+                        <span className="text-gray-700 text-xs">→</span>
+                        <span className="text-blue-300 font-semibold">{pct(biggestLift.score_with_cs)}</span>
                       </div>
+                      <p className="text-xs text-gray-600 mt-3 leading-relaxed text-center max-w-xs mx-auto">
+                        Started lowest, gained the most. CricketStudio data is the equaliser.
+                      </p>
                     </div>
-                  </div>
-                  <p className="text-xs text-gray-700 mt-2.5 leading-relaxed">
-                    Started lowest, gained the most. CricketStudio data is the equaliser.
-                  </p>
+                  </>
                 </div>
               )}
 
             </div>
           )}
 
-          {/* ── Column legend ────────────────────────────────────────────────── */}
-          {hasContext && (
-            <div className="flex flex-wrap gap-x-5 gap-y-1 text-xs mb-4 pl-1">
-              <span className="flex items-center gap-1.5 text-gray-500">
-                <span className="w-2 h-2 rounded-full bg-gray-600 inline-block" />
-                Without data — AI&apos;s own training knowledge
+          {/* ── Rankings ─────────────────────────────────────────────────────── */}
+          <SectionDivider label="Rankings" sub={hasContext ? 'without data vs with CricketStudio context' : undefined} />
+          <div className="space-y-2 mb-8">
+            <div className="flex flex-wrap gap-x-5 gap-y-1 text-[10px] mb-2 pl-1">
+              <span className="flex items-center gap-1.5 text-gray-600">
+                <span className="w-6 h-1.5 rounded bg-gray-600 inline-block" />
+                Without data
               </span>
-              <span className="flex items-center gap-1.5 text-green-500">
-                <span className="w-2 h-2 rounded-full bg-green-600 inline-block" />
-                With CricketStudio — verified stats provided as context
-              </span>
+              {hasContext && (
+                <span className="flex items-center gap-1.5 text-green-600">
+                  <span className="w-6 h-1.5 rounded bg-green-500 inline-block" />
+                  With CricketStudio OKF
+                </span>
+              )}
             </div>
-          )}
-
-          {/* ── Rankings table ───────────────────────────────────────────────── */}
-          <SectionDivider label="Rankings" />
-          <div className="overflow-x-auto rounded-lg border border-gray-800 mb-8">
-            <table className="w-full text-sm min-w-[500px]">
-              <thead>
-                <tr className="border-b border-gray-800 bg-gray-900/50">
-                  <th className="text-left py-3 px-3 text-gray-600 font-medium text-xs tracking-wide w-8">#</th>
-                  <th className="text-left py-3 px-3 text-gray-600 font-medium text-xs tracking-wide">Model</th>
-                  <th className="text-right py-3 px-3 text-gray-600 font-medium text-xs tracking-wide">Without data</th>
-                  {hasContext && (
-                    <>
-                      <th className="text-right py-3 px-3 text-gray-600 font-medium text-xs tracking-wide">
-                        With CricketStudio
-                      </th>
-                      <th className="text-right py-3 px-3 text-gray-600 font-medium text-xs tracking-wide hidden sm:table-cell">
-                        Improvement
-                      </th>
-                    </>
+            {sortedModels.map((model, i) => {
+              const pCls      = PROVIDER_COLORS[model.provider] ?? 'text-gray-400 bg-gray-800'
+              const rankCls   = RANK_COLORS[i] ?? 'text-gray-500'
+              const rawPct    = (model.score_raw * 100).toFixed(1)
+              const okfPct    = model.score_with_cs !== null
+                ? (model.score_with_cs * 100).toFixed(1)
+                : null
+              const okfBarCls = i === 0
+                ? 'h-full bg-green-500 rounded'
+                : 'h-full bg-green-700 rounded'
+              const deltaStr  = model.delta !== null
+                ? '+' + (model.delta * 100).toFixed(0) + 'pp'
+                : null
+              return (
+                <div key={model.id} className="flex items-center gap-3 py-1">
+                  {/* Rank + provider */}
+                  <span className={'text-sm font-extrabold font-mono tabular-nums w-5 shrink-0 text-right ' + rankCls}>
+                    {i + 1}
+                  </span>
+                  <div className="w-28 sm:w-40 shrink-0 flex items-center gap-1.5 min-w-0">
+                    <span className={['text-[10px] font-bold px-1 py-0.5 rounded shrink-0', pCls].join(' ')}>
+                      {model.provider[0]}
+                    </span>
+                    <div className="min-w-0">
+                      <div className="text-xs font-semibold text-gray-200 truncate leading-tight">{model.label}</div>
+                      <div className="text-[9px] text-gray-600 truncate">{model.provider}</div>
+                    </div>
+                  </div>
+                  {/* Bars */}
+                  <div className="flex-1 space-y-1 min-w-0">
+                    <div className="h-5 bg-gray-800 rounded overflow-hidden relative">
+                      <div className="h-full bg-gray-600 rounded" style={{ width: rawPct + '%' }} />
+                      <span className="absolute inset-0 flex items-center pl-2 text-[10px] text-gray-400 font-mono tabular-nums">
+                        {rawPct}%
+                      </span>
+                    </div>
+                    {hasContext && okfPct !== null && (
+                      <div className="h-5 bg-gray-800 rounded overflow-hidden relative">
+                        <div className={okfBarCls} style={{ width: okfPct + '%' }} />
+                        <span className="absolute inset-0 flex items-center pl-2 text-[10px] text-green-200 font-mono font-semibold tabular-nums">
+                          {okfPct}%
+                        </span>
+                      </div>
+                    )}
+                  </div>
+                  {/* Delta badge */}
+                  {hasContext && deltaStr && (
+                    <span className="text-[10px] bg-green-950 text-green-400 px-1.5 py-0.5 rounded-full font-semibold tabular-nums shrink-0">
+                      {deltaStr}
+                    </span>
                   )}
-                  <th className="py-3 px-3 text-gray-600 font-medium text-xs tracking-wide w-28 hidden md:table-cell">
-                    {hasContext ? 'With CS' : 'Accuracy'}
-                  </th>
-                </tr>
-              </thead>
-              <tbody>
-                {sortedModels.map((model, i) => {
-                  const providerCls = PROVIDER_COLORS[model.provider] ?? 'text-gray-400 bg-gray-800'
-                  const deltaStr    = lift(model.delta)
-                  const deltaPos    = model.delta !== null && model.delta > 0
-                  const barPct      = ((model.score_with_cs ?? model.score_raw) * 100).toFixed(1)
-                  return (
-                    <tr key={model.id} className="border-b border-gray-800/60 hover:bg-gray-900/50 last:border-b-0">
-                      <td className="py-3.5 px-3">
-                        <span className={`text-base font-extrabold font-mono tabular-nums ${RANK_COLORS[i] ?? 'text-gray-500'}`}>
-                          {i + 1}
-                        </span>
-                      </td>
-                      <td className="py-3.5 px-3">
-                        <div className="flex items-center gap-2.5">
-                          <span className={`text-xs font-bold px-1.5 py-0.5 rounded ${providerCls}`}>
-                            {model.provider[0]}
-                          </span>
-                          <div>
-                            <div className="font-semibold text-gray-100 text-sm leading-tight">{model.label}</div>
-                            <div className="text-xs text-gray-600 mt-0.5">{model.provider} · {model.id}</div>
-                          </div>
-                        </div>
-                      </td>
-                      <td className="py-3.5 px-3 text-right">
-                        <span className="text-gray-400 font-mono text-sm tabular-nums">
-                          {pct(model.score_raw)}
-                        </span>
-                      </td>
-                      {hasContext && (
-                        <>
-                          <td className="py-3.5 px-3 text-right">
-                            <span className={`font-bold font-mono text-sm tabular-nums ${i === 0 ? 'text-green-400' : 'text-gray-200'}`}>
-                              {model.score_with_cs !== null ? pct(model.score_with_cs) : '—'}
-                            </span>
-                          </td>
-                          <td className="py-3.5 px-3 text-right hidden sm:table-cell">
-                            {deltaStr ? (
-                              <span className={`text-xs font-semibold px-2 py-0.5 rounded-full ${deltaPos ? 'bg-green-950 text-green-400' : 'bg-red-950 text-red-400'}`}>
-                                {deltaStr}
-                              </span>
-                            ) : (
-                              <span className="text-gray-600 text-xs">—</span>
-                            )}
-                          </td>
-                        </>
-                      )}
-                      <td className="py-3.5 px-3 hidden md:table-cell">
-                        <div className="h-1.5 bg-gray-800 rounded-full overflow-hidden w-full">
-                          <div
-                            className={`h-full rounded-full ${BAR_COLORS[i] ?? 'bg-gray-500'}`}
-                            style={{ width: `${barPct}%` }}
-                          />
-                        </div>
-                      </td>
-                    </tr>
-                  )
-                })}
-              </tbody>
-            </table>
+                </div>
+              )
+            })}
           </div>
 
           {/* ── By question type breakdown ───────────────────────────────────── */}
-          {hasTypeData && typeKeys.length > 0 && (
-            <>
-              <SectionDivider label="Accuracy by question type" sub="how much each type benefits from CricketStudio context" />
-              <div className="overflow-x-auto rounded-lg border border-gray-800 mb-8">
-                <table className="w-full text-sm min-w-[520px]">
-                  <thead>
-                    <tr className="border-b border-gray-800 bg-gray-900/50">
-                      <th className="text-left py-2.5 px-3 text-gray-600 font-medium text-xs tracking-wide">
-                        Question type
-                      </th>
-                      {sortedModels.map(m => (
-                        <th key={m.id} className="text-center py-2.5 px-3 text-gray-600 font-medium text-xs tracking-wide">
-                          {m.label.split(' ')[0]}
-                        </th>
-                      ))}
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {typeKeys.map(qt => {
-                      const meta = TYPE_META[qt]
-                      return (
-                        <tr key={qt} className="border-b border-gray-800/50 hover:bg-gray-900/40 last:border-b-0">
-                          <td className="py-3.5 px-3 align-top">
-                            <div className="flex items-center gap-2">
-                              <span className="text-xs font-bold font-mono text-gray-600 bg-gray-800 border border-gray-700 rounded px-1.5 py-0.5 shrink-0">
-                                {qt}
+          <>
+            <SectionDivider label="Accuracy by question type" sub="raw knowledge → with CricketStudio" />
+            <div className="grid sm:grid-cols-2 gap-3 mb-8">
+              {Object.entries(TYPE_META).map(([qt, meta]) => {
+                const hasData = sortedModels.some(m => m.byType?.[qt] !== undefined)
+                return (
+                  <div key={qt} className="bg-gray-900 border border-gray-800 rounded-lg p-4">
+                    <div className="flex items-center gap-2 mb-3">
+                      <span className="text-xs font-bold font-mono text-gray-500 bg-gray-800 border border-gray-700 rounded px-1.5 py-0.5 shrink-0">
+                        {qt}
+                      </span>
+                      <div>
+                        <div className="text-xs font-semibold text-gray-300 leading-tight">{meta.label}</div>
+                        <div className="text-[10px] text-gray-600">{meta.count} questions · {meta.desc}</div>
+                      </div>
+                    </div>
+                    {hasData ? (
+                      <div className="space-y-2.5">
+                        {sortedModels.map((m, mi) => {
+                          const ts = m.byType?.[qt]
+                          if (!ts) return null
+                          const rawScore = ts.correct_raw / ts.total
+                          const csScore  = ts.correct_with_cs !== undefined ? ts.correct_with_cs / ts.total : null
+                          const rawStr   = (rawScore * 100).toFixed(1) + '%'
+                          const csStr    = csScore !== null ? (csScore * 100).toFixed(1) + '%' : null
+                          const delta    = csScore !== null ? csScore - rawScore : null
+                          const pCls     = PROVIDER_COLORS[m.provider] ?? 'text-gray-400 bg-gray-800'
+                          const valCls   = ['text-xs font-bold font-mono tabular-nums', mi === 0 ? 'text-green-400' : 'text-gray-200'].join(' ')
+                          return (
+                            <div key={m.id} className="flex items-center gap-2">
+                              <span className={['text-[10px] font-bold px-1 py-0.5 rounded shrink-0', pCls].join(' ')}>
+                                {m.provider[0]}
                               </span>
-                              <div>
-                                <div className="text-xs font-semibold text-gray-300 leading-tight">{meta?.shortLabel ?? qt}</div>
-                                <div className="text-xs text-gray-600 mt-0.5">{meta?.count ?? '?'} Q</div>
-                              </div>
+                              <span className="text-[11px] text-gray-500 w-16 shrink-0 truncate">{m.label.split(' ')[0]}</span>
+                              {csStr !== null ? (
+                                <div className="flex items-center gap-1.5 flex-1 min-w-0">
+                                  <span className="text-[11px] font-mono text-gray-600 tabular-nums">{rawStr}</span>
+                                  <span className="text-gray-700 text-[10px]">→</span>
+                                  <span className={valCls}>{csStr}</span>
+                                  {delta !== null && (
+                                    <span className="ml-auto text-[10px] bg-green-950 text-green-400 px-1 py-0.5 rounded font-semibold tabular-nums shrink-0">
+                                      +{(delta * 100).toFixed(0)}pp
+                                    </span>
+                                  )}
+                                </div>
+                              ) : (
+                                <span className={valCls}>{rawStr}</span>
+                              )}
                             </div>
-                          </td>
-                          {sortedModels.map((m, mi) => {
-                            const ts = m.byType?.[qt]
-                            if (!ts) {
-                              return (
-                                <td key={m.id} className="py-3.5 px-3 text-center">
-                                  <span className="text-xs text-gray-700">—</span>
-                                </td>
-                              )
-                            }
-                            const rawScore = ts.correct_raw / ts.total
-                            const csScore  = ts.correct_with_cs !== undefined ? ts.correct_with_cs / ts.total : null
-                            const delta    = csScore !== null ? csScore - rawScore : null
-                            const deltaFmt = delta !== null ? `+${(delta * 100).toFixed(1)}pp` : null
-                            return (
-                              <td key={m.id} className="py-3.5 px-3 text-center align-top">
-                                {deltaFmt ? (
-                                  <div className="flex flex-col items-center gap-1">
-                                    <span className={`text-sm font-bold font-mono tabular-nums ${mi === 0 ? 'text-green-400' : 'text-gray-200'}`}>
-                                      {deltaFmt}
-                                    </span>
-                                    <span className="text-xs text-gray-600 font-mono tabular-nums">
-                                      {pct(rawScore)}{' '}
-                                      <span className="text-gray-700">→</span>{' '}
-                                      <span className="text-gray-400">{pct(csScore)}</span>
-                                    </span>
-                                  </div>
-                                ) : (
-                                  <div className="flex flex-col items-center gap-1">
-                                    <span className={`text-sm font-bold font-mono tabular-nums ${mi === 0 ? 'text-green-400' : 'text-gray-400'}`}>
-                                      {pct(rawScore)}
-                                    </span>
-                                    <span className="text-xs text-gray-600 font-mono">
-                                      {ts.correct_raw}/{ts.total}
-                                    </span>
-                                  </div>
-                                )}
-                              </td>
-                            )
-                          })}
-                        </tr>
-                      )
-                    })}
-                  </tbody>
-                </table>
-                <div className="px-3 py-2.5 border-t border-gray-800 bg-gray-900/40 text-xs text-gray-600 flex gap-2 items-center flex-wrap">
-                  <span className="font-bold text-gray-700 uppercase tracking-wider text-[10px]">Note</span>
-                  T6 raw scores are naturally higher — debate questions reward reasoning, not recall.
-                  T3/T5 raw scores are lowest because they require exact ball-by-ball aggregations LLMs don&apos;t carry in training.
-                </div>
-              </div>
-            </>
-          )}
+                          )
+                        })}
+                      </div>
+                    ) : (
+                      <div className="space-y-2">
+                        {sortedModels.map((m) => {
+                          const pCls = PROVIDER_COLORS[m.provider] ?? 'text-gray-400 bg-gray-800'
+                          return (
+                            <div key={m.id} className="flex items-center gap-2">
+                              <span className={['text-[10px] font-bold px-1 py-0.5 rounded shrink-0', pCls].join(' ')}>
+                                {m.provider[0]}
+                              </span>
+                              <span className="text-[11px] text-gray-600 w-16 shrink-0 truncate">{m.label.split(' ')[0]}</span>
+                              <div className="flex-1 h-1 bg-gray-800 rounded" />
+                              <span className="text-[10px] text-gray-700 font-mono shrink-0">pending</span>
+                            </div>
+                          )
+                        })}
+                        <p className="text-[10px] text-gray-700 mt-2 leading-relaxed">
+                          Per-type breakdown available after the next full benchmark run.
+                        </p>
+                      </div>
+                    )}
+                  </div>
+                )
+              })}
+            </div>
+          </>
 
           {/* ── Category breakdown ───────────────────────────────────────────── */}
           {allCategories.length > 1 && (
