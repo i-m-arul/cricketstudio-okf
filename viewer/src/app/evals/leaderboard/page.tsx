@@ -229,21 +229,45 @@ export default function LeaderboardPage() {
                 </div>
 
                 {hasContext && winner.score_with_cs !== null ? (
-                  <div className="flex flex-col items-center text-center py-3">
-                    <div className="text-base font-bold text-green-400 mb-3">{winner.label}</div>
-                    <div className="flex items-baseline justify-center gap-2 flex-wrap">
-                      <span className="text-sm text-gray-500 font-mono tabular-nums">{pct(winner.score_raw)}</span>
-                      <span className="text-gray-600 text-xs">→</span>
-                      <span className="text-5xl font-extrabold text-green-400 font-mono leading-none tracking-tight tabular-nums">
+                  <>
+                    <div className="flex flex-col items-center text-center py-3">
+                      <div className="text-base font-bold text-green-400 mb-2">{winner.label}</div>
+                      <div className="text-xs text-gray-600 font-mono tabular-nums mb-1">
+                        {pct(winner.score_raw)} <span className="text-gray-700">→</span>
+                      </div>
+                      <div className="text-5xl font-extrabold text-green-400 font-mono leading-none tracking-tight tabular-nums">
                         {pct(winner.score_with_cs)}
-                      </span>
+                      </div>
+                      <div className="mt-2.5">
+                        <span className="text-xs bg-green-900/60 text-green-300 px-2.5 py-1 rounded-full font-semibold">
+                          {lift(winner.delta)} improvement
+                        </span>
+                      </div>
                     </div>
-                    <div className="mt-2.5">
-                      <span className="text-xs bg-green-900/60 text-green-300 px-2.5 py-1 rounded-full font-semibold">
-                        {lift(winner.delta)} improvement
-                      </span>
+                    <div className="grid grid-cols-2 gap-3 pt-3 border-t border-green-900/40">
+                      <div>
+                        <div className="text-xs text-gray-600 mb-0.5">Without CS</div>
+                        <div className="text-sm font-mono font-semibold text-gray-300 tabular-nums">
+                          {pct(winner.score_raw)}
+                          <span className="text-gray-600 font-normal text-xs ml-1">({winner.correct_raw}/{winner.total})</span>
+                        </div>
+                      </div>
+                      <div>
+                        <div className="text-xs text-gray-600 mb-0.5">With CS</div>
+                        <div className="text-sm font-mono font-semibold text-green-300 tabular-nums">
+                          {pct(winner.score_with_cs)}
+                          {winner.correct_with_cs !== undefined && (
+                            <span className="text-gray-600 font-normal text-xs ml-1">({winner.correct_with_cs}/{winner.total})</span>
+                          )}
+                        </div>
+                      </div>
                     </div>
-                  </div>
+                    {winner.provider === 'Perplexity' && (
+                      <p className="text-xs text-gray-700 mt-2.5 leading-relaxed">
+                        * Perplexity uses live web search during inference — its raw score reflects real-time data access, not training knowledge alone.
+                      </p>
+                    )}
+                  </>
                 ) : (
                   <div className="flex flex-col items-center text-center py-3">
                     <div className="text-base font-bold text-green-400 mb-3">{winner.label}</div>
@@ -265,18 +289,41 @@ export default function LeaderboardPage() {
                     </span>
                   </div>
 
-                  <div className="flex flex-col items-center text-center py-3">
-                    <div className="text-base font-bold text-blue-300 mb-3">{biggestLift.label}</div>
-                    <div className="text-5xl font-extrabold text-blue-300 font-mono leading-none tracking-tight tabular-nums">
-                      {lift(biggestLift.delta)}
+                  <>
+                    <div className="flex flex-col items-center text-center py-3">
+                      <div className="text-base font-bold text-blue-300 mb-3">{biggestLift.label}</div>
+                      <div className="text-5xl font-extrabold text-blue-300 font-mono leading-none tracking-tight tabular-nums">
+                        {lift(biggestLift.delta)}
+                      </div>
+                      <div className="mt-2 text-xs text-gray-600">accuracy points gained with CricketStudio</div>
+                      <div className="mt-2.5 flex items-baseline justify-center gap-1.5 font-mono tabular-nums text-sm">
+                        <span className="text-gray-500">{pct(biggestLift.score_raw)}</span>
+                        <span className="text-gray-700 text-xs">→</span>
+                        <span className="text-blue-300 font-semibold">{pct(biggestLift.score_with_cs)}</span>
+                      </div>
                     </div>
-                    <div className="mt-2 text-xs text-gray-600">accuracy points gained with CricketStudio</div>
-                    <div className="mt-2.5 flex items-baseline justify-center gap-1.5 font-mono tabular-nums text-sm">
-                      <span className="text-gray-500">{pct(biggestLift.score_raw)}</span>
-                      <span className="text-gray-700 text-xs">→</span>
-                      <span className="text-blue-300 font-semibold">{pct(biggestLift.score_with_cs)}</span>
+                    <div className="grid grid-cols-2 gap-3 pt-3 border-t border-blue-900/30">
+                      <div>
+                        <div className="text-xs text-gray-600 mb-0.5">Without CS</div>
+                        <div className="text-sm font-mono font-semibold text-gray-400 tabular-nums">
+                          {pct(biggestLift.score_raw)}
+                          <span className="text-gray-600 font-normal text-xs ml-1">({biggestLift.correct_raw}/{biggestLift.total})</span>
+                        </div>
+                      </div>
+                      <div>
+                        <div className="text-xs text-gray-600 mb-0.5">With CS</div>
+                        <div className="text-sm font-mono font-semibold text-blue-300 tabular-nums">
+                          {pct(biggestLift.score_with_cs)}
+                          {biggestLift.correct_with_cs !== undefined && (
+                            <span className="text-gray-600 font-normal text-xs ml-1">({biggestLift.correct_with_cs}/{biggestLift.total})</span>
+                          )}
+                        </div>
+                      </div>
                     </div>
-                  </div>
+                    <p className="text-xs text-gray-700 mt-2.5 leading-relaxed">
+                      Started lowest, gained the most. CricketStudio data is the equaliser.
+                    </p>
+                  </>
                 </div>
               )}
 
