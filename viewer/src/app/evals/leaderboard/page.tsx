@@ -151,14 +151,18 @@ export default function LeaderboardPage() {
           <span><strong className="text-gray-400">Weekly</strong> · Mon 06:00 UTC</span>
           <span>
             Benchmark:{' '}
-            <a
-              href="https://players.cricketstudio.ai/evals/cricket-qa-v1.jsonl"
-              className="text-green-500 hover:underline"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              cricket-qa-v1
-            </a>
+            {data.benchmark_url ? (
+              <a
+                href={data.benchmark_url}
+                className="text-green-500 hover:underline"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {data.benchmark}
+              </a>
+            ) : (
+              <span className="text-green-500">{data.benchmark}</span>
+            )}
           </span>
         </div>
       </div>
