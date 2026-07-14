@@ -19,7 +19,14 @@ permissions:
   pull-requests: write
 
 jobs:
+  gate:
+    runs-on: ubuntu-latest
+    environment: benchmark
+    steps:
+      - run: echo "Approved — starting benchmark run"
+
   benchmark:
+    needs: gate
     runs-on: ubuntu-latest
     timeout-minutes: 120
 
