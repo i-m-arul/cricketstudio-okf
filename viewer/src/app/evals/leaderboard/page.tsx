@@ -243,6 +243,11 @@ export default function LeaderboardPage() {
                           {lift(winner.delta)} improvement
                         </span>
                       </div>
+                      <p className="text-xs text-gray-600 mt-3 leading-relaxed text-center max-w-xs mx-auto">
+                        {winner.provider === 'Perplexity'
+                          ? '* Uses live web search — raw score reflects real-time access, not training knowledge alone.'
+                          : 'Highest accuracy across all models when CricketStudio data is injected as context.'}
+                      </p>
                     </div>
                   </>
                 ) : (
@@ -278,6 +283,9 @@ export default function LeaderboardPage() {
                         <span className="text-gray-700 text-xs">→</span>
                         <span className="text-blue-300 font-semibold">{pct(biggestLift.score_with_cs)}</span>
                       </div>
+                      <p className="text-xs text-gray-600 mt-3 leading-relaxed text-center max-w-xs mx-auto">
+                        Started lowest, gained the most. CricketStudio data is the equaliser.
+                      </p>
                     </div>
                   </>
                 </div>
