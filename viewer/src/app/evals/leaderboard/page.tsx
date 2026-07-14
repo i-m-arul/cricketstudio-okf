@@ -1,6 +1,7 @@
 import { readFileSync, existsSync } from 'fs'
 import { join } from 'path'
 import Link from 'next/link'
+import { Trophy, TrendingUp, Database, Star } from 'lucide-react'
 
 export const metadata = {
   alternates: { canonical: '/evals/leaderboard' },
@@ -43,7 +44,7 @@ interface Run {
 interface Leaderboard {
   version: number
   benchmark: string
-  benchmark_url: string
+  benchmark_url?: string
   judge: string
   scoring: string
   runs: Run[]
@@ -185,13 +186,9 @@ export default function LeaderboardPage() {
           <span><strong className="text-gray-400">Weekly</strong> · Mon 06:00 UTC</span>
           <span>
             Benchmark:{' '}
-            {data.benchmark_url ? (
-              <a href={data.benchmark_url} className="text-green-500 hover:underline" target="_blank" rel="noopener noreferrer">
-                {data.benchmark}
-              </a>
-            ) : (
-              <span className="text-green-500">{data.benchmark}</span>
-            )}
+            <a href="/evals/methodology" className="text-green-500 hover:underline">
+              {data.benchmark}
+            </a>
           </span>
         </div>
       </div>
@@ -199,18 +196,18 @@ export default function LeaderboardPage() {
       {/* ── No runs yet ─────────────────────────────────────────────────────── */}
       {!latestRun && (
         <div className="bg-gray-900 border border-gray-800 rounded-xl p-10 text-center">
-          <div className="text-4xl mb-4">🏏</div>
+          <Database className="w-10 h-10 text-green-700 mb-4 mx-auto" strokeWidth={1.5} />
           <h2 className="text-lg font-semibold text-white mb-2">First run pending</h2>
           <p className="text-gray-500 text-sm max-w-xs mx-auto">
             The benchmark runner fires every Monday at 06:00 UTC. Results will appear here after the
             first successful run.
           </p>
           <div className="mt-5 text-xs text-gray-600">
-            Operators: run{' '}
+            Operators: trigger via{' '}
             <code className="bg-gray-800 px-1.5 py-0.5 rounded text-gray-400">
-              node scripts/run-benchmark.mjs --sample 50
+              llm-benchmark.yml
             </code>{' '}
-            for a quick validation run.
+            workflow dispatch in the main repo.
           </div>
         </div>
       )}
@@ -222,10 +219,10 @@ export default function LeaderboardPage() {
           {winner && (
             <div className={`grid gap-4 mb-6 ${twoCards ? 'sm:grid-cols-2' : ''}`}>
 
-              {/* 🏆 Highest accuracy */}
+              {/* Highest accuracy */}
               <div className="bg-gradient-to-br from-green-950/60 to-gray-900 border border-green-900 rounded-xl p-5">
                 <div className="flex items-center gap-2 mb-2">
-                  <span className="text-lg">🏆</span>
+                  <Trophy className="w-4 h-4 text-green-500" strokeWidth={1.5} />
                   <span className="text-xs font-bold tracking-wider text-green-700 uppercase">
                     Highest accuracy · {latestRun.date}
                   </span>
@@ -283,11 +280,11 @@ export default function LeaderboardPage() {
                 )}
               </div>
 
-              {/* 📈 Biggest lift */}
+              {/* Biggest lift */}
               {twoCards && biggestLift && (
                 <div className="bg-gradient-to-br from-blue-950/50 to-gray-900 border border-blue-900/70 rounded-xl p-5">
                   <div className="flex items-center gap-2 mb-2">
-                    <span className="text-lg">📈</span>
+                    <TrendingUp className="w-4 h-4 text-blue-500" strokeWidth={1.5} />
                     <span className="text-xs font-bold tracking-wider text-blue-700 uppercase">
                       Biggest lift · {latestRun.date}
                     </span>
@@ -578,8 +575,8 @@ export default function LeaderboardPage() {
                   className={`flex items-center gap-4 px-4 py-3 text-xs ${ri < data.runs.length - 1 ? 'border-b border-gray-800' : ''}`}
                 >
                   <span className="font-mono text-gray-500 w-24 shrink-0">{run.date}</span>
-                  <span className="text-green-400 font-semibold flex-1 truncate">
-                    🥇 {leader?.label}
+                  <span className="text-green-400 font-semibold flex-1 truncate flex items-center gap-1.5">
+                    <Star className="w-3 h-3 shrink-0" strokeWidth={1.5} />{leader?.label}
                   </span>
                   <span className="text-gray-600">{run.questions} Q</span>
                   {hasCtx && leader?.delta !== null && leader?.delta !== undefined ? (
@@ -611,14 +608,10 @@ export default function LeaderboardPage() {
             <li className="flex gap-2"><span className="text-green-800 mt-0.5">▸</span>Question sent with no context — model answers from training data alone</li>
             <li className="flex gap-2">
               <span className="text-green-800 mt-0.5">▸</span>
-              {latestRun ? latestRun.questions.toLocaleString() : '1,000'} Q&amp;A pairs from{' '}
-              {data.benchmark_url ? (
-                <a href={data.benchmark_url} className="text-green-600 hover:underline" target="_blank" rel="noopener noreferrer">
-                  {data.benchmark}
-                </a>
-              ) : (
-                <strong className="text-gray-300">{data.benchmark}</strong>
-              )}
+              {latestRun ? latestRun.questions.toLocaleString() : '1,000'} Q&amp;A pairs —{' '}
+              <a href="/evals/methodology" className="text-green-600 hover:underline">
+                {data.benchmark}
+              </a>
             </li>
             <li className="flex gap-2"><span className="text-green-800 mt-0.5">▸</span>Four types: single-entity facts, career arcs, compound conditions, causal debate</li>
             <li className="flex gap-2"><span className="text-green-800 mt-0.5">▸</span>This score reflects what the model &quot;knows&quot; about cricket without any help</li>
@@ -737,31 +730,20 @@ export default function LeaderboardPage() {
           <li className="flex gap-2"><span className="text-green-800 mt-0.5">▸</span>Run weekly · Mon 06:00 UTC · results committed to this repo</li>
           <li className="flex gap-2">
             <span className="text-green-800 mt-0.5">▸</span>
-            Benchmark is public —{' '}
-            {data.benchmark_url ? (
-              <a href={data.benchmark_url} className="text-green-500 hover:underline" target="_blank" rel="noopener noreferrer">
-                {data.benchmark}
-              </a>
-            ) : (
-              <span className="text-green-500">{data.benchmark}</span>
-            )}
+            Methodology published —{' '}
+            <a href="/evals/methodology" className="text-green-500 hover:underline">
+              see benchmark design
+            </a>
           </li>
         </ul>
       </div>
 
       {/* ── Footer note ────────────────────────────────────────────────────────── */}
       <p className="text-xs text-gray-600 leading-relaxed">
-        Benchmark: <code className="text-gray-500">{data.benchmark}</code> (CC-BY-4.0) · Judge:{' '}
-        <code className="text-gray-500">{data.judge || 'claude-haiku-4-5-20251001'}</code> · Raw results committed to{' '}
-        <a
-          href="https://github.com/i-m-arul/cricketstudio-okf/tree/main/viewer/public/evals/results"
-          className="text-green-600 hover:underline"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          github.com/i-m-arul/cricketstudio-okf
-        </a>{' '}
-        · <Link href="/methodology/citation-policy" className="text-green-600 hover:underline">Methodology</Link>
+        Benchmark: <code className="text-gray-500">{data.benchmark}</code> · Judge:{' '}
+        <code className="text-gray-500">{data.judge || 'claude-haiku-4-5-20251001'}</code>{' '}
+        · <Link href="/evals/methodology" className="text-green-600 hover:underline">Benchmark methodology</Link>
+        · <Link href="/methodology/citation-policy" className="text-green-600 hover:underline">Citation policy</Link>
       </p>
     </div>
   )
