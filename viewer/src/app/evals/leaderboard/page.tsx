@@ -203,22 +203,23 @@ export default function LeaderboardPage() {
               {/* Model name */}
               <div className="text-xl font-bold text-green-400 mb-3">{winner.label}</div>
 
-              {/* Score — stacked on mobile, side-by-side on sm+ */}
+              {/* Score */}
               {hasContext && winner.score_with_cs !== null ? (
                 <>
-                  {/* Big score row */}
-                  <div className="flex items-baseline gap-2 mb-2">
-                    <span className="text-lg text-gray-500 font-mono">{pct(winner.score_raw)}</span>
-                    <span className="text-gray-600 text-lg">→</span>
-                    <span className="text-4xl font-extrabold text-green-400 font-mono leading-none tracking-tight">
-                      {pct(winner.score_with_cs)}
-                    </span>
-                  </div>
-                  {/* Improvement badge */}
-                  <div className="mb-3">
-                    <span className="text-xs bg-green-900/60 text-green-300 px-2.5 py-1 rounded-full font-semibold">
-                      {lift(winner.delta)} accuracy improvement
-                    </span>
+                  {/* Big score — centred */}
+                  <div className="flex flex-col items-center py-3 mb-3">
+                    <div className="flex items-baseline gap-2">
+                      <span className="text-base text-gray-500 font-mono">{pct(winner.score_raw)}</span>
+                      <span className="text-gray-600">→</span>
+                      <span className="text-5xl font-extrabold text-green-400 font-mono leading-none tracking-tight">
+                        {pct(winner.score_with_cs)}
+                      </span>
+                    </div>
+                    <div className="mt-2">
+                      <span className="text-xs bg-green-900/60 text-green-300 px-2.5 py-1 rounded-full font-semibold">
+                        {lift(winner.delta)} accuracy improvement
+                      </span>
+                    </div>
                   </div>
                   {/* Detail rows */}
                   <div className="grid grid-cols-2 gap-2 pt-3 border-t border-green-900/40">
