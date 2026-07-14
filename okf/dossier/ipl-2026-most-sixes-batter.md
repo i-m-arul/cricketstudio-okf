@@ -46,4 +46,4 @@ Sample: 16 matches, 327 balls. Sixes count is from CricketStudio snapshot 2026-0
 ## Related Concepts
 
 - [Suryavanshi profile](https://players.cricketstudio.ai/players/vaibhav-suryavanshi)
-- [Orange Cap]({BASE_OKF}/metrics/orange-cap/)
+- [Orange Cap](../metrics/orange-cap.md)
