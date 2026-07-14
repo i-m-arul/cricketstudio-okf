@@ -351,8 +351,8 @@ export default function LeaderboardPage() {
             </table>
           </div>
 
-          {/* Category breakdown */}
-          {allCategories.length > 0 && (
+          {/* Category breakdown — only useful when there are 2+ distinct categories */}
+          {allCategories.length > 1 && (
             <>
               <div className="mb-2 text-xs font-bold tracking-wider text-gray-600 uppercase flex items-center gap-3">
                 By category
