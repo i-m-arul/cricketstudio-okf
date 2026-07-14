@@ -187,60 +187,63 @@ export default function LeaderboardPage() {
         <>
           {/* Winner card */}
           {winner && (
-            <div className="bg-gradient-to-r from-green-950/60 to-gray-900 border border-green-900 rounded-xl p-5 mb-6">
-              <div className="flex items-start gap-5">
-                <span className="text-4xl mt-0.5">🏆</span>
-                <div className="flex-1 min-w-0">
-                  <div className="text-xs font-bold tracking-wider text-green-700 uppercase mb-1">
-                    Highest accuracy · {latestRun.date}
-                  </div>
-                  <div className="text-xl font-bold text-green-400">{winner.label}</div>
-                  {hasContext && winner.score_with_cs !== null ? (
-                    <div className="text-sm text-gray-400 mt-1 leading-relaxed">
-                      Without CricketStudio data:{' '}
-                      <strong className="text-gray-300 font-mono">{pct(winner.score_raw)}</strong>
-                      {' '}({winner.correct_raw}/{winner.total} correct)
-                      <br />
-                      With CricketStudio data:{' '}
-                      <strong className="text-green-300 font-mono">{pct(winner.score_with_cs)}</strong>
-                      {winner.correct_with_cs !== undefined && (
-                        <> ({winner.correct_with_cs}/{winner.total} correct)</>
-                      )}
-                    </div>
-                  ) : (
-                    <div className="text-sm text-gray-400 mt-0.5">
-                      <strong className="text-gray-200 font-mono">{winner.correct_raw}</strong> /{' '}
-                      {winner.total} questions correct
-                    </div>
-                  )}
-                </div>
-                {/* Score display */}
-                <div className="text-right shrink-0">
-                  {hasContext && winner.score_with_cs !== null ? (
-                    <>
-                      <div className="flex items-baseline gap-1.5 justify-end">
-                        <span className="text-sm text-gray-500 font-mono">{pct(winner.score_raw)}</span>
-                        <span className="text-gray-600">→</span>
-                        <span className="text-4xl font-extrabold text-green-400 font-mono leading-none tracking-tight">
-                          {pct(winner.score_with_cs)}
-                        </span>
-                      </div>
-                      <div className="mt-1.5 flex items-center justify-end">
-                        <span className="text-xs bg-green-900/60 text-green-300 px-2.5 py-1 rounded-full font-semibold">
-                          {lift(winner.delta)} accuracy improvement
-                        </span>
-                      </div>
-                    </>
-                  ) : (
-                    <>
-                      <div className="text-4xl font-extrabold text-green-400 font-mono leading-none tracking-tight">
-                        {pct(winner.score_raw)}
-                      </div>
-                      <div className="text-xs text-gray-500 mt-1">cricket accuracy</div>
-                    </>
-                  )}
-                </div>
+            <div className="bg-gradient-to-br from-green-950/60 to-gray-900 border border-green-900 rounded-xl p-5 mb-6">
+              {/* Top row: trophy + label + date */}
+              <div className="flex items-center gap-2 mb-3">
+                <span className="text-2xl">🏆</span>
+                <span className="text-xs font-bold tracking-wider text-green-700 uppercase">
+                  Highest accuracy · {latestRun.date}
+                </span>
               </div>
+
+              {/* Model name */}
+              <div className="text-xl font-bold text-green-400 mb-3">{winner.label}</div>
+
+              {/* Score — stacked on mobile, side-by-side on sm+ */}
+              {hasContext && winner.score_with_cs !== null ? (
+                <>
+                  {/* Big score row */}
+                  <div className="flex items-baseline gap-2 mb-2">
+                    <span className="text-lg text-gray-500 font-mono">{pct(winner.score_raw)}</span>
+                    <span className="text-gray-600 text-lg">→</span>
+                    <span className="text-4xl font-extrabold text-green-400 font-mono leading-none tracking-tight">
+                      {pct(winner.score_with_cs)}
+                    </span>
+                  </div>
+                  {/* Improvement badge */}
+                  <div className="mb-3">
+                    <span className="text-xs bg-green-900/60 text-green-300 px-2.5 py-1 rounded-full font-semibold">
+                      {lift(winner.delta)} accuracy improvement
+                    </span>
+                  </div>
+                  {/* Detail rows */}
+                  <div className="grid grid-cols-2 gap-2 pt-3 border-t border-green-900/40">
+                    <div>
+                      <div className="text-xs text-gray-600 mb-0.5">Without CricketStudio</div>
+                      <div className="text-sm font-mono font-semibold text-gray-300">
+                        {pct(winner.score_raw)}
+                        <span className="text-gray-600 font-normal text-xs ml-1">({winner.correct_raw}/{winner.total})</span>
+                      </div>
+                    </div>
+                    <div>
+                      <div className="text-xs text-gray-600 mb-0.5">With CricketStudio</div>
+                      <div className="text-sm font-mono font-semibold text-green-300">
+                        {pct(winner.score_with_cs)}
+                        {winner.correct_with_cs !== undefined && (
+                          <span className="text-gray-600 font-normal text-xs ml-1">({winner.correct_with_cs}/{winner.total})</span>
+                        )}
+                      </div>
+                    </div>
+                  </div>
+                </>
+              ) : (
+                <>
+                  <div className="text-4xl font-extrabold text-green-400 font-mono leading-none tracking-tight mb-1">
+                    {pct(winner.score_raw)}
+                  </div>
+                  <div className="text-xs text-gray-500">{winner.correct_raw}/{winner.total} correct</div>
+                </>
+              )}
             </div>
           )}
 
