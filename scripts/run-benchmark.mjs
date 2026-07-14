@@ -372,6 +372,7 @@ async function main() {
       correct_with_cs: 0,
       total: 0,
       byCategory: {},
+      byType: {},
     }
 
     const modelResults = await runBatches(questions, async (q) => {
@@ -421,6 +422,16 @@ async function main() {
       scores.byCategory[category].total++
       if (correctRaw)   scores.byCategory[category].correct_raw++
       if (correctWithCs) scores.byCategory[category].correct_with_cs++
+
+      const questionType = q.question_type ?? null
+      if (questionType) {
+        if (!scores.byType[questionType]) {
+          scores.byType[questionType] = { correct_raw: 0, correct_with_cs: 0, total: 0 }
+        }
+        scores.byType[questionType].total++
+        if (correctRaw)    scores.byType[questionType].correct_raw++
+        if (correctWithCs) scores.byType[questionType].correct_with_cs++
+      }
 
       // Progress indicator: raw correct = '.', raw wrong = 'x', error = 'E'
       process.stdout.write(correctRaw ? '.' : reasonRaw.startsWith('error') ? 'E' : 'x')
@@ -486,6 +497,15 @@ async function main() {
           }
         }
 
+        const byType = {}
+        for (const [qt, ts] of Object.entries(sc.byType)) {
+          byType[qt] = {
+            correct_raw: ts.correct_raw,
+            correct_with_cs: withContext ? ts.correct_with_cs : undefined,
+            total: ts.total,
+          }
+        }
+
         return {
           id: m.id,
           label: m.label,
@@ -497,6 +517,7 @@ async function main() {
           correct_with_cs: withContext ? sc.correct_with_cs : undefined,
           total: sc.total,
           byCategory,
+          byType: Object.keys(byType).length > 0 ? byType : undefined,
         }
       })
       // Sort by score_with_cs if available, else score_raw
