@@ -85,7 +85,7 @@ const COST_CAP = parseFloat(process.env.BENCHMARK_COST_CAP ?? '100')
 const COST_PER_1K = {
   'claude-sonnet-5':         { in: 0.003,   out: 0.015 },
   'gpt-4o':                  { in: 0.0025,  out: 0.01  },
-  'gemini-2.5-pro':          { in: 0.00125, out: 0.01  },
+  'gemini-3.1-flash-lite':   { in: 0.00010, out: 0.00040 },
   'sonar-pro':               { in: 0.003,   out: 0.015 },
   [JUDGE_MODEL]:             { in: 0.00025, out: 0.00125 },
 }
@@ -106,10 +106,10 @@ const MODELS = [
     keyVar: 'OPENAI_API_KEY',
   },
   {
-    id: 'gemini-2.5-pro',
-    label: 'Gemini 2.5 Pro',
+    id: 'gemini-3.1-flash-lite',
+    label: 'Gemini 3.1 Flash Lite',
     provider: 'Google',
-    apiId: 'gemini-2.5-pro',
+    apiId: 'gemini-3.1-flash-lite',
     keyVar: 'GEMINI_API_KEY',
   },
   {
@@ -214,6 +214,25 @@ Question: ${question}`
   return dispatch(model, prompt, key)
 }
 
+async function callGemini(modelId, content, apiKey) {
+  const body = {
+    contents: [{ role: 'user', parts: [{ text: content }] }],
+    generationConfig: { maxOutputTokens: MAX_TOKENS },
+  }
+  const res = await fetch(
+    `https://generativelanguage.googleapis.com/v1/models/${modelId}:generateContent?key=${apiKey}`,
+    { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(body) }
+  )
+  if (!res.ok) throw new Error(`Gemini ${res.status}: ${await res.text()}`)
+  const data = await res.json()
+  const text = data.candidates?.[0]?.content?.parts?.[0]?.text ?? ''
+  // Gemini v1 doesn't return token counts on all models — fall back to estimate
+  const inputTokens = data.usageMetadata?.promptTokenCount ?? Math.ceil(content.length / 4)
+  const outputTokens = data.usageMetadata?.candidatesTokenCount ?? Math.ceil(text.length / 4)
+  addCost(modelId, inputTokens, outputTokens)
+  return text
+}
+
 async function dispatch(model, content, key) {
   switch (model.provider) {
     case 'Anthropic':
@@ -221,10 +240,7 @@ async function dispatch(model, content, key) {
     case 'OpenAI':
       return callOpenAICompat(model.apiId, content, key, 'https://api.openai.com/v1')
     case 'Google':
-      return callOpenAICompat(
-        model.apiId, content, key,
-        'https://generativelanguage.googleapis.com/v1beta/openai'
-      )
+      return callGemini(model.apiId, content, key)
     case 'Perplexity':
       return callOpenAICompat(model.apiId, content, key, 'https://api.perplexity.ai')
     default:
