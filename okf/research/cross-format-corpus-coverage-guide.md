@@ -30,7 +30,6 @@ related:
   - cross-format-franchise-universe.md
   - ../methodology/sample-size-floors.md
   - ../methodology/phase-definitions.md
-  - ../methodology/data-refresh-policy.md
 ---
 
 # CricketStudio Corpus Coverage Guide: What's In, What's Out
