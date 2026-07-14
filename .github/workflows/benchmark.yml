@@ -2,23 +2,21 @@ name: LLM Accuracy Benchmark
 
 on:
   schedule:
-    - cron: '0 6 * * 1'   # Monday 06:00 UTC
+    - cron: '0 6 * * 1'
   workflow_dispatch:
     inputs:
       sample:
-        description: 'Questions to sample (blank = full 1,000)'
+        description: 'Questions to sample (blank = full 1000)'
         required: false
         default: ''
       raw_only:
-        description: 'Skip OKF context pass (faster / cheaper validation run)'
-        type: boolean
+        description: 'Skip OKF context pass (true/false)'
         required: false
-        default: false
+        default: 'false'
       v2:
-        description: 'Use cricket-qa-v2 benchmark (T3-T6 real cricket knowledge questions)'
-        type: boolean
+        description: 'Use v2 benchmark with real cricket knowledge questions (true/false)'
         required: false
-        default: true
+        default: 'true'
 
 permissions:
   contents: write
@@ -27,7 +25,7 @@ permissions:
 jobs:
   benchmark:
     runs-on: ubuntu-latest
-    environment: benchmark   # secrets gated by environment protection rules
+    environment: benchmark
     timeout-minutes: 120
 
     steps:
@@ -52,7 +50,7 @@ jobs:
           if [ "${{ inputs.raw_only }}" = "true" ]; then
             FLAGS="$FLAGS --raw-only"
           fi
-          if [ "${{ inputs.v2 }}" = "true" ]; then
+          if [ "${{ inputs.v2 }}" != "false" ]; then
             FLAGS="$FLAGS --v2"
           fi
           node scripts/run-benchmark.mjs $FLAGS
@@ -82,6 +80,6 @@ EOF
             --base main \
             --head "${BRANCH}" \
             --title "chore(evals): benchmark results ${DATE}" \
-            --body "Automated weekly LLM accuracy benchmark results. Merges when \`validate\` passes." \
+            --body "Automated weekly LLM accuracy benchmark results. Merges when validate passes." \
             --label "automated" || echo "PR already exists"
-          gh pr merge "${BRANCH}" --auto --squash || echo "Auto-merge queued (or already set)"
+          gh pr merge "${BRANCH}" --auto --squash || echo "Auto-merge queued"
