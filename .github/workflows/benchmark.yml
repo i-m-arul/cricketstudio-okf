@@ -68,18 +68,18 @@ jobs:
           DATE=$(date -u +%Y-%m-%d)
           BRANCH="evals/benchmark-${DATE}"
           git checkout -b "${BRANCH}"
-          git commit -m "$(cat <<'EOF'
-chore(evals): weekly LLM accuracy benchmark
+
+          MSG="chore(evals): weekly LLM accuracy benchmark
 
 Co-Authored-By: i-m-arul <i-m-arul@users.noreply.github.com>
-Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>
-EOF
-          )"
+Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>"
+
+          git commit -m "$MSG"
           git push origin "${BRANCH}"
           gh pr create \
             --base main \
             --head "${BRANCH}" \
             --title "chore(evals): benchmark results ${DATE}" \
-            --body "Automated weekly LLM accuracy benchmark results. Merges when validate passes." \
+            --body "Automated weekly LLM accuracy benchmark results." \
             --label "automated" || echo "PR already exists"
           gh pr merge "${BRANCH}" --auto --squash || echo "Auto-merge queued"
