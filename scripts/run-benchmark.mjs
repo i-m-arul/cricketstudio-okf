@@ -378,9 +378,12 @@ async function main() {
       }
 
       // Pass B: with OKF context
+      // v2 questions carry a per-question context block (dossier stats).
+      // v1 questions fall back to the global llms.txt context.
       if (withContext) {
+        const questionContext = q.context ?? okfContext
         try {
-          responseWithCs = await askModelWithContext(model, q.question, okfContext)
+          responseWithCs = await askModelWithContext(model, q.question, questionContext)
           const verdict = await judge(q.question, q.answer ?? q.expected, responseWithCs)
           correctWithCs = verdict.correct ?? false
           reasonWithCs = verdict.reason ?? ''

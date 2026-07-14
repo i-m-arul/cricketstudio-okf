@@ -79,10 +79,16 @@ def parse_dossier(path: Path):
     if not question or not answer:
         return None
 
+    # Build per-question context from dossier data sections.
+    # Deliberately excludes "Correct Answer Pattern" and "Bad Answer" — the model
+    # must derive the answer from the raw data, not copy a template.
+    context = _build_context(fm, body)
+
     return {
         "id": f"v2-{path.stem}",
         "question": question,
         "answer": answer,
+        "context": context,
         "question_type": qt,
         "category": "cricket-knowledge",
         "canonical_url": fm.get("canonical_page") or fm.get("resource") or "",
@@ -98,6 +104,41 @@ def _strip_blockquote(block: str) -> str:
             stripped = stripped[1:].lstrip()
         lines.append(stripped)
     return "\n".join(lines).strip()
+
+
+def _extract_section(body: str, heading: str) -> str:
+    """Extract everything under a ## heading until the next ## heading."""
+    pattern = rf"##\s*{re.escape(heading)}\s*\n+([\s\S]*?)(?=\n##|\Z)"
+    m = re.search(pattern, body)
+    return m.group(1).strip() if m else ""
+
+
+def _build_context(fm: dict, body: str) -> str:
+    """
+    Build the per-question CricketStudio context block.
+
+    Includes: description, Required Metrics, Required Concepts, Citation Behavior.
+    Excludes: Correct Answer Pattern, Bad Answer (those are held out for judging).
+    """
+    parts = []
+
+    description = fm.get("description", "")
+    canonical = fm.get("canonical_page") or fm.get("resource") or ""
+    source = fm.get("provenance", {}).get("source", "CricketStudio ball-by-ball dataset")
+
+    header = f"CricketStudio verified cricket data\nSource: {source}"
+    if canonical:
+        header += f"\nCanonical page: {canonical}"
+    if description:
+        header += f"\n\nSummary: {description}"
+    parts.append(header)
+
+    for section in ("Required Metrics", "Required Concepts", "Citation Behavior"):
+        content = _extract_section(body, section)
+        if content:
+            parts.append(f"### {section}\n{content}")
+
+    return "\n\n".join(parts)
 
 
 def main():
