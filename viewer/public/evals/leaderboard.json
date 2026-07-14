@@ -4,5 +4,87 @@
   "benchmark_url": "https://players.cricketstudio.ai/evals/cricket-qa-v1.jsonl",
   "judge": "claude-haiku-4-5-20251001",
   "scoring": "binary — 1 if correct, 0 if incorrect (per question); two passes: raw knowledge + with CricketStudio OKF context",
-  "runs": []
+  "runs": [
+    {
+      "date": "2026-07-14",
+      "questions": 250,
+      "judge": "claude-haiku-4-5-20251001",
+      "with_context": true,
+      "context_source": "https://okf.cricketstudio.ai/llms.txt",
+      "models": [
+        {
+          "id": "sonar-pro",
+          "label": "Perplexity Sonar Pro",
+          "provider": "Perplexity",
+          "score_raw": 0.424,
+          "score_with_cs": 0.908,
+          "delta": 0.484,
+          "correct_raw": 106,
+          "correct_with_cs": 227,
+          "total": 250,
+          "byCategory": {
+            "cricket-knowledge": {
+              "correct_raw": 106,
+              "correct_with_cs": 227,
+              "total": 250
+            }
+          }
+        },
+        {
+          "id": "gpt-4o",
+          "label": "GPT-4o",
+          "provider": "OpenAI",
+          "score_raw": 0.24,
+          "score_with_cs": 0.88,
+          "delta": 0.64,
+          "correct_raw": 60,
+          "correct_with_cs": 220,
+          "total": 250,
+          "byCategory": {
+            "cricket-knowledge": {
+              "correct_raw": 60,
+              "correct_with_cs": 220,
+              "total": 250
+            }
+          }
+        },
+        {
+          "id": "claude-sonnet-5",
+          "label": "Claude Sonnet 5",
+          "provider": "Anthropic",
+          "score_raw": 0.148,
+          "score_with_cs": 0.868,
+          "delta": 0.72,
+          "correct_raw": 37,
+          "correct_with_cs": 217,
+          "total": 250,
+          "byCategory": {
+            "cricket-knowledge": {
+              "correct_raw": 37,
+              "correct_with_cs": 217,
+              "total": 250
+            }
+          }
+        },
+        {
+          "id": "gemini-2.0-pro-exp",
+          "label": "Gemini 2.0 Pro",
+          "provider": "Google",
+          "score_raw": 0,
+          "score_with_cs": 0,
+          "delta": 0,
+          "correct_raw": 0,
+          "correct_with_cs": 0,
+          "total": 250,
+          "byCategory": {
+            "cricket-knowledge": {
+              "correct_raw": 0,
+              "correct_with_cs": 0,
+              "total": 250
+            }
+          }
+        }
+      ]
+    }
+  ]
 }
