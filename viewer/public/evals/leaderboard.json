@@ -7,7 +7,7 @@
   "runs": [
     {
       "date": "2026-07-14",
-      "questions": 10,
+      "questions": 1000,
       "judge": "claude-haiku-4-5-20251001",
       "with_context": true,
       "context_source": "https://okf.cricketstudio.ai/llms.txt",
@@ -16,144 +16,160 @@
           "id": "gemini-3.1-flash-lite",
           "label": "Gemini 3.1 Flash Lite",
           "provider": "Google",
-          "score_raw": 0.2,
-          "score_with_cs": 1,
-          "delta": 0.8,
-          "correct_raw": 2,
-          "correct_with_cs": 10,
-          "total": 10,
+          "score_raw": 0.015,
+          "score_with_cs": 0.072,
+          "delta": 0.057,
+          "correct_raw": 15,
+          "correct_with_cs": 72,
+          "total": 1000,
           "byCategory": {
             "cricket-knowledge": {
-              "correct_raw": 2,
-              "correct_with_cs": 10,
-              "total": 10
+              "correct_raw": 15,
+              "correct_with_cs": 72,
+              "total": 1000
             }
           },
           "byType": {
             "T3": {
-              "correct_raw": 1,
-              "correct_with_cs": 7,
-              "total": 7
+              "correct_raw": 9,
+              "correct_with_cs": 48,
+              "total": 601
             },
             "T4": {
+              "correct_raw": 2,
+              "correct_with_cs": 16,
+              "total": 250
+            },
+            "T6": {
+              "correct_raw": 3,
+              "correct_with_cs": 4,
+              "total": 100
+            },
+            "T5": {
               "correct_raw": 1,
-              "correct_with_cs": 3,
-              "total": 3
+              "correct_with_cs": 4,
+              "total": 49
             }
-          },
-          "byType": {
-            "T3": { "correct_raw": 53, "correct_with_cs": 116, "total": 125 },
-            "T4": { "correct_raw": 27, "correct_with_cs": 57, "total": 63 },
-            "T5": { "correct_raw": 16, "correct_with_cs": 34, "total": 37 },
-            "T6": { "correct_raw": 10, "correct_with_cs": 22, "total": 25 }
           }
         },
         {
           "id": "gpt-4o",
           "label": "GPT-4o",
           "provider": "OpenAI",
-          "score_raw": 0.1,
-          "score_with_cs": 1,
-          "delta": 0.9,
-          "correct_raw": 1,
-          "correct_with_cs": 10,
-          "total": 10,
+          "score_raw": 0.015,
+          "score_with_cs": 0.052,
+          "delta": 0.037,
+          "correct_raw": 15,
+          "correct_with_cs": 52,
+          "total": 1000,
           "byCategory": {
             "cricket-knowledge": {
-              "correct_raw": 1,
-              "correct_with_cs": 10,
-              "total": 10
+              "correct_raw": 15,
+              "correct_with_cs": 52,
+              "total": 1000
             }
           },
           "byType": {
             "T3": {
-              "correct_raw": 1,
-              "correct_with_cs": 7,
-              "total": 7
+              "correct_raw": 9,
+              "correct_with_cs": 34,
+              "total": 601
             },
             "T4": {
-              "correct_raw": 0,
-              "correct_with_cs": 3,
-              "total": 3
-            }
-          },
-          "byType": {
-            "T3": { "correct_raw": 33, "correct_with_cs": 111, "total": 125 },
-            "T4": { "correct_raw": 14, "correct_with_cs": 55, "total": 63 },
-            "T5": { "correct_raw": 8,  "correct_with_cs": 32, "total": 37 },
-            "T6": { "correct_raw": 5,  "correct_with_cs": 20, "total": 25 }
-          }
-        },
-        {
-          "id": "claude-sonnet-5",
-          "label": "Claude Sonnet 5",
-          "provider": "Anthropic",
-          "score_raw": 0.1,
-          "score_with_cs": 0.9,
-          "delta": 0.8,
-          "correct_raw": 1,
-          "correct_with_cs": 9,
-          "total": 10,
-          "byCategory": {
-            "cricket-knowledge": {
-              "correct_raw": 1,
-              "correct_with_cs": 9,
-              "total": 10
-            }
-          },
-          "byType": {
-            "T4": {
-              "correct_raw": 0,
-              "correct_with_cs": 3,
-              "total": 3
+              "correct_raw": 3,
+              "correct_with_cs": 11,
+              "total": 250
             },
-            "T3": {
-              "correct_raw": 1,
-              "correct_with_cs": 6,
-              "total": 7
+            "T6": {
+              "correct_raw": 3,
+              "correct_with_cs": 3,
+              "total": 100
+            },
+            "T5": {
+              "correct_raw": 0,
+              "correct_with_cs": 4,
+              "total": 49
             }
-          },
-          "byType": {
-            "T3": { "correct_raw": 20, "correct_with_cs": 109, "total": 125 },
-            "T4": { "correct_raw": 9,  "correct_with_cs": 55, "total": 63 },
-            "T5": { "correct_raw": 5,  "correct_with_cs": 31, "total": 37 },
-            "T6": { "correct_raw": 4,  "correct_with_cs": 20, "total": 25 }
           }
         },
         {
           "id": "sonar-pro",
           "label": "Perplexity Sonar Pro",
           "provider": "Perplexity",
-          "score_raw": 0.2,
-          "score_with_cs": 0.9,
-          "delta": 0.7,
-          "correct_raw": 2,
-          "correct_with_cs": 9,
-          "total": 10,
+          "score_raw": 0.01,
+          "score_with_cs": 0.03,
+          "delta": 0.02,
+          "correct_raw": 10,
+          "correct_with_cs": 30,
+          "total": 1000,
           "byCategory": {
             "cricket-knowledge": {
+              "correct_raw": 10,
+              "correct_with_cs": 30,
+              "total": 1000
+            }
+          },
+          "byType": {
+            "T3": {
+              "correct_raw": 7,
+              "correct_with_cs": 19,
+              "total": 601
+            },
+            "T4": {
+              "correct_raw": 1,
+              "correct_with_cs": 7,
+              "total": 250
+            },
+            "T6": {
               "correct_raw": 2,
-              "correct_with_cs": 9,
-              "total": 10
+              "correct_with_cs": 2,
+              "total": 100
+            },
+            "T5": {
+              "correct_raw": 0,
+              "correct_with_cs": 2,
+              "total": 49
+            }
+          }
+        },
+        {
+          "id": "claude-sonnet-5",
+          "label": "Claude Sonnet 5",
+          "provider": "Anthropic",
+          "score_raw": 0.004,
+          "score_with_cs": 0.027,
+          "delta": 0.023,
+          "correct_raw": 4,
+          "correct_with_cs": 27,
+          "total": 1000,
+          "byCategory": {
+            "cricket-knowledge": {
+              "correct_raw": 4,
+              "correct_with_cs": 27,
+              "total": 1000
             }
           },
           "byType": {
             "T4": {
               "correct_raw": 0,
-              "correct_with_cs": 3,
-              "total": 3
+              "correct_with_cs": 7,
+              "total": 250
             },
             "T3": {
-              "correct_raw": 2,
-              "correct_with_cs": 6,
-              "total": 7
+              "correct_raw": 4,
+              "correct_with_cs": 16,
+              "total": 601
+            },
+            "T6": {
+              "correct_raw": 0,
+              "correct_with_cs": 2,
+              "total": 100
+            },
+            "T5": {
+              "correct_raw": 0,
+              "correct_with_cs": 2,
+              "total": 49
             }
-          },
-          "byType": {
-            "T3": { "correct_raw": 0, "correct_with_cs": 0, "total": 125 },
-            "T4": { "correct_raw": 0, "correct_with_cs": 0, "total": 63 },
-            "T5": { "correct_raw": 0, "correct_with_cs": 0, "total": 37 },
-            "T6": { "correct_raw": 0, "correct_with_cs": 0, "total": 25 }
           }
         }
       ]
