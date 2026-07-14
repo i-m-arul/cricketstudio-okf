@@ -140,8 +140,12 @@ export default function LeaderboardPage() {
           The score difference shows exactly how much accurate, structured cricket data improves AI answers.
         </p>
         <div className="flex flex-wrap gap-4 mt-4 text-xs text-gray-500">
-          <span><strong className="text-gray-400">1,000</strong> questions</span>
-          <span><strong className="text-gray-400">4</strong> models tested</span>
+          <span>
+            <strong className="text-gray-400">{latestRun ? latestRun.questions.toLocaleString() : '1,000'}</strong> questions
+          </span>
+          <span>
+            <strong className="text-gray-400">{latestRun ? latestRun.models.length : '4'}</strong> models tested
+          </span>
           <span><strong className="text-gray-400">2 rounds</strong> — without data, then with CricketStudio</span>
           <span><strong className="text-gray-400">Claude Haiku</strong> judge</span>
           <span><strong className="text-gray-400">Weekly</strong> · Mon 06:00 UTC</span>
@@ -459,6 +463,97 @@ export default function LeaderboardPage() {
             <li className="flex gap-2"><span className="text-green-600 mt-0.5">▸</span>All OKF facts derived from ball-by-ball data with explicit provenance</li>
             <li className="flex gap-2"><span className="text-green-600 mt-0.5">▸</span>The &quot;Improvement&quot; column shows how many accuracy points CricketStudio adds per model</li>
           </ul>
+        </div>
+      </div>
+
+      {/* Question types */}
+      <div className="mb-2 text-xs font-bold tracking-wider text-gray-600 uppercase flex items-center gap-3">
+        What kinds of questions?
+        <span className="flex-1 h-px bg-gray-800" />
+      </div>
+      <p className="text-xs text-gray-500 mb-4">
+        The benchmark uses 1,000 questions across four difficulty levels. Even the &ldquo;simple&rdquo; ones stump most LLMs
+        without CricketStudio data — they require exact ball-by-ball aggregation that no model carries in training.
+      </p>
+      <div className="grid sm:grid-cols-2 gap-4 mb-8">
+        {/* Single-entity factual */}
+        <div className="bg-gray-900 border border-gray-800 rounded-lg p-4">
+          <div className="flex items-center gap-2 mb-2">
+            <span className="text-xs font-bold text-green-600 uppercase tracking-wide">Single-entity facts</span>
+            <span className="text-xs text-gray-700 font-mono">500 of 1,000</span>
+          </div>
+          <p className="text-xs text-gray-500 mb-3">
+            Stats about one player, team, or venue in a specific context. Sounds straightforward —
+            but requires exact ball-by-ball aggregations that LLMs don&apos;t carry in training.
+          </p>
+          <div className="space-y-2">
+            <div className="text-xs bg-gray-800/60 rounded p-2.5 text-gray-400 leading-relaxed">
+              &ldquo;What is Shubman Gill&apos;s head-to-head record vs Yuzvendra Chahal across their IPL career? Who has the upper hand?&rdquo;
+            </div>
+            <div className="text-xs bg-gray-800/60 rounded p-2.5 text-gray-400 leading-relaxed">
+              &ldquo;When captains win the toss at Dubai International Cricket Stadium, do they bat or bowl — and which choice actually wins more often?&rdquo;
+            </div>
+          </div>
+        </div>
+
+        {/* Career arcs */}
+        <div className="bg-gray-900 border border-gray-800 rounded-lg p-4">
+          <div className="flex items-center gap-2 mb-2">
+            <span className="text-xs font-bold text-green-600 uppercase tracking-wide">Career arcs</span>
+            <span className="text-xs text-gray-700 font-mono">250 of 1,000</span>
+          </div>
+          <p className="text-xs text-gray-500 mb-3">
+            How has a player evolved across multiple IPL seasons? Peak vs decline questions need
+            season-by-season breakdowns — impossible without structured time-series data.
+          </p>
+          <div className="space-y-2">
+            <div className="text-xs bg-gray-800/60 rounded p-2.5 text-gray-400 leading-relaxed">
+              &ldquo;How has Deepak Chahar&apos;s bowling economy changed across his IPL career? Which was his most economical season?&rdquo;
+            </div>
+            <div className="text-xs bg-gray-800/60 rounded p-2.5 text-gray-400 leading-relaxed">
+              &ldquo;How has Trent Boult&apos;s wicket-taking evolved across 11 IPL seasons — was he better in his early years or more recently?&rdquo;
+            </div>
+          </div>
+        </div>
+
+        {/* Compound conditions */}
+        <div className="bg-gray-900 border border-gray-800 rounded-lg p-4">
+          <div className="flex items-center gap-2 mb-2">
+            <span className="text-xs font-bold text-green-600 uppercase tracking-wide">Compound conditions</span>
+            <span className="text-xs text-gray-700 font-mono">150 of 1,000</span>
+          </div>
+          <p className="text-xs text-gray-500 mb-3">
+            Two or more conditions stacked together. Requires filtering the dataset to only the
+            matches where both X and Y are true simultaneously.
+          </p>
+          <div className="space-y-2">
+            <div className="text-xs bg-gray-800/60 rounded p-2.5 text-gray-400 leading-relaxed">
+              &ldquo;What are the win odds when a team wins the toss AND elects to bowl at Ekana Cricket Stadium — both conditions together, not just one?&rdquo;
+            </div>
+            <div className="text-xs bg-gray-800/60 rounded p-2.5 text-gray-400 leading-relaxed">
+              &ldquo;Has RCB&apos;s powerplay batting strike rate improved since the Impact Player rule was introduced in 2023?&rdquo;
+            </div>
+          </div>
+        </div>
+
+        {/* Causal & debate */}
+        <div className="bg-gray-900 border border-gray-800 rounded-lg p-4">
+          <div className="flex items-center gap-2 mb-2">
+            <span className="text-xs font-bold text-green-600 uppercase tracking-wide">Causal &amp; debate</span>
+            <span className="text-xs text-gray-700 font-mono">100 of 1,000</span>
+          </div>
+          <p className="text-xs text-gray-500 mb-3">
+            Who is better? Why does X outperform in Y conditions? Good answers define the metric,
+            time window, and era before concluding — not just picking a name.
+          </p>
+          <div className="space-y-2">
+            <div className="text-xs bg-gray-800/60 rounded p-2.5 text-gray-400 leading-relaxed">
+              &ldquo;Who is better in the IPL — Virat Kohli or Rohit Sharma?&rdquo;
+            </div>
+            <div className="text-xs bg-gray-800/60 rounded p-2.5 text-gray-400 leading-relaxed">
+              &ldquo;Which season was Munaf Patel at his bowling peak in the IPL — was he more effective in the early era or his later years?&rdquo;
+            </div>
+          </div>
         </div>
       </div>
 
