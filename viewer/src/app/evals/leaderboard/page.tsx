@@ -130,7 +130,7 @@ export default function LeaderboardPage() {
         .filter(m => m.delta !== null && m.delta > 0)
         .sort((a, b) => (b.delta ?? 0) - (a.delta ?? 0))[0] ?? null
     : null
-  const twoCards = biggestLift !== null && winner !== null && biggestLift.id !== winner.id
+  const twoCards = biggestLift !== null && winner !== null
 
   const allCategories = latestRun
     ? Array.from(
@@ -168,15 +168,19 @@ export default function LeaderboardPage() {
           <span className="text-green-400">best?</span>
         </h1>
         <p className="text-gray-400 text-sm leading-relaxed max-w-2xl">
-          We test each AI model twice on {latestRun?.questions.toLocaleString() ?? '1,000'} cricket questions.{' '}
-          <strong className="text-gray-300">First: no data provided</strong> — the model answers from
-          its training knowledge alone.{' '}
-          <strong className="text-green-400">Second: CricketStudio&apos;s verified cricket stats injected as context.</strong>{' '}
-          The score difference shows exactly how much accurate, structured cricket data improves AI answers.
+          We test each AI model twice on{' '}
+          <strong className="text-gray-300">{latestRun?.questions.toLocaleString() ?? '250'} sampled questions</strong>{' '}
+          drawn from a 1,000-question cricket benchmark bank.{' '}
+          <strong className="text-gray-300">Pass A: no data</strong> — the model answers from training knowledge alone.{' '}
+          <strong className="text-green-400">Pass B: CricketStudio&apos;s verified stats injected as context.</strong>{' '}
+          The gap shows exactly how much structured cricket data improves AI accuracy.
         </p>
         <div className="flex flex-wrap gap-x-5 gap-y-1.5 mt-4 text-xs text-gray-500">
           <span>
-            <strong className="text-gray-400">{latestRun?.questions.toLocaleString() ?? '1,000'}</strong> questions
+            <strong className="text-gray-400">1,000</strong> questions in bank
+          </span>
+          <span>
+            <strong className="text-gray-400">{latestRun?.questions.toLocaleString() ?? '250'}</strong> sampled per run
           </span>
           <span>
             <strong className="text-gray-400">{latestRun?.models.length ?? '4'}</strong> models tested
@@ -186,7 +190,7 @@ export default function LeaderboardPage() {
           <span><strong className="text-gray-400">Weekly</strong> · Mon 06:00 UTC</span>
           <span>
             Benchmark:{' '}
-            <a href="/evals/methodology" className="text-green-500 hover:underline">
+            <a href="https://players.cricketstudio.ai/evals/cricket-qa-v1.jsonl" className="text-green-500 hover:underline" target="_blank" rel="noopener noreferrer">
               {data.benchmark}
             </a>
           </span>
@@ -535,8 +539,8 @@ export default function LeaderboardPage() {
             <li className="flex gap-2"><span className="text-green-800 mt-0.5">▸</span>Question sent with no context — model answers from training data alone</li>
             <li className="flex gap-2">
               <span className="text-green-800 mt-0.5">▸</span>
-              {latestRun ? latestRun.questions.toLocaleString() : '1,000'} Q&amp;A pairs —{' '}
-              <a href="/evals/methodology" className="text-green-600 hover:underline">
+              {latestRun ? latestRun.questions.toLocaleString() : '250'} sampled from a 1,000-question bank —{' '}
+              <a href="https://players.cricketstudio.ai/evals/cricket-qa-v1.jsonl" className="text-green-600 hover:underline" target="_blank" rel="noopener noreferrer">
                 {data.benchmark}
               </a>
             </li>
@@ -558,7 +562,8 @@ export default function LeaderboardPage() {
       {/* ── What kinds of questions? ──────────────────────────────────────────── */}
       <SectionDivider label="What kinds of questions?" />
       <p className="text-xs text-gray-500 mb-4">
-        The benchmark uses {latestRun?.questions.toLocaleString() ?? '1,000'} questions across four difficulty levels. Even the &ldquo;simple&rdquo; ones stump most LLMs
+        The bank holds 1,000 questions across four difficulty levels; each weekly run samples{' '}
+        {latestRun?.questions.toLocaleString() ?? '250'} of them. Even the &ldquo;simple&rdquo; ones stump most LLMs
         without CricketStudio data — they require exact ball-by-ball aggregation that no model carries in training.
       </p>
       <div className="grid sm:grid-cols-2 gap-4 mb-8">
@@ -567,7 +572,7 @@ export default function LeaderboardPage() {
           <div className="flex items-center gap-2 mb-2.5">
             <span className="text-xs font-bold font-mono text-gray-500 bg-gray-800 border border-gray-700 rounded px-1.5 py-0.5">T3</span>
             <span className="text-xs font-bold text-green-600 uppercase tracking-wide">Single-entity facts</span>
-            <span className="text-xs text-gray-700 font-mono ml-auto">500 of {latestRun?.questions.toLocaleString() ?? '1,000'}</span>
+            <span className="text-xs text-gray-700 font-mono ml-auto">bank: 500</span>
           </div>
           <p className="text-xs text-gray-500 mb-3">
             Stats about one player, team, or venue in a specific context. Sounds straightforward —
@@ -588,7 +593,7 @@ export default function LeaderboardPage() {
           <div className="flex items-center gap-2 mb-2.5">
             <span className="text-xs font-bold font-mono text-gray-500 bg-gray-800 border border-gray-700 rounded px-1.5 py-0.5">T4</span>
             <span className="text-xs font-bold text-green-600 uppercase tracking-wide">Career arcs</span>
-            <span className="text-xs text-gray-700 font-mono ml-auto">250 of {latestRun?.questions.toLocaleString() ?? '1,000'}</span>
+            <span className="text-xs text-gray-700 font-mono ml-auto">bank: 250</span>
           </div>
           <p className="text-xs text-gray-500 mb-3">
             How has a player evolved across multiple IPL seasons? Peak vs decline questions need
@@ -609,7 +614,7 @@ export default function LeaderboardPage() {
           <div className="flex items-center gap-2 mb-2.5">
             <span className="text-xs font-bold font-mono text-gray-500 bg-gray-800 border border-gray-700 rounded px-1.5 py-0.5">T5</span>
             <span className="text-xs font-bold text-green-600 uppercase tracking-wide">Compound conditions</span>
-            <span className="text-xs text-gray-700 font-mono ml-auto">150 of {latestRun?.questions.toLocaleString() ?? '1,000'}</span>
+            <span className="text-xs text-gray-700 font-mono ml-auto">bank: 150</span>
           </div>
           <p className="text-xs text-gray-500 mb-3">
             Two or more conditions stacked together. Requires filtering the dataset to only the
@@ -630,7 +635,7 @@ export default function LeaderboardPage() {
           <div className="flex items-center gap-2 mb-2.5">
             <span className="text-xs font-bold font-mono text-gray-500 bg-gray-800 border border-gray-700 rounded px-1.5 py-0.5">T6</span>
             <span className="text-xs font-bold text-green-600 uppercase tracking-wide">Causal &amp; debate</span>
-            <span className="text-xs text-gray-700 font-mono ml-auto">100 of {latestRun?.questions.toLocaleString() ?? '1,000'}</span>
+            <span className="text-xs text-gray-700 font-mono ml-auto">bank: 100</span>
           </div>
           <p className="text-xs text-gray-500 mb-3">
             Who is better? Why does X outperform in Y conditions? Good answers define the metric,
