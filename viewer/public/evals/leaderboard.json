@@ -1,54 +1,32 @@
 {
   "version": 2,
-  "benchmark": "cricket-qa-v2",
-  "benchmark_url": "https://okf.cricketstudio.ai/evals/methodology",
+  "benchmark": "cricket-qa-v1",
+  "benchmark_url": "https://players.cricketstudio.ai/evals/cricket-qa-v1.jsonl",
   "judge": "claude-haiku-4-5-20251001",
   "scoring": "binary — 1 if correct, 0 if incorrect (per question); two passes: raw knowledge + with CricketStudio OKF context",
   "runs": [
     {
       "date": "2026-07-14",
-      "questions": 1000,
+      "questions": 250,
       "judge": "claude-haiku-4-5-20251001",
       "with_context": true,
       "context_source": "https://okf.cricketstudio.ai/llms.txt",
       "models": [
         {
-          "id": "gemini-3.1-flash-lite",
-          "label": "Gemini 3.1 Flash Lite",
-          "provider": "Google",
-          "score_raw": 0.015,
-          "score_with_cs": 0.072,
-          "delta": 0.057,
-          "correct_raw": 15,
-          "correct_with_cs": 72,
-          "total": 1000,
+          "id": "sonar-pro",
+          "label": "Perplexity Sonar Pro",
+          "provider": "Perplexity",
+          "score_raw": 0.424,
+          "score_with_cs": 0.908,
+          "delta": 0.484,
+          "correct_raw": 106,
+          "correct_with_cs": 227,
+          "total": 250,
           "byCategory": {
             "cricket-knowledge": {
-              "correct_raw": 15,
-              "correct_with_cs": 72,
-              "total": 1000
-            }
-          },
-          "byType": {
-            "T3": {
-              "correct_raw": 9,
-              "correct_with_cs": 48,
-              "total": 601
-            },
-            "T4": {
-              "correct_raw": 2,
-              "correct_with_cs": 16,
+              "correct_raw": 106,
+              "correct_with_cs": 227,
               "total": 250
-            },
-            "T6": {
-              "correct_raw": 3,
-              "correct_with_cs": 4,
-              "total": 100
-            },
-            "T5": {
-              "correct_raw": 1,
-              "correct_with_cs": 4,
-              "total": 49
             }
           }
         },
@@ -56,79 +34,17 @@
           "id": "gpt-4o",
           "label": "GPT-4o",
           "provider": "OpenAI",
-          "score_raw": 0.015,
-          "score_with_cs": 0.052,
-          "delta": 0.037,
-          "correct_raw": 15,
-          "correct_with_cs": 52,
-          "total": 1000,
+          "score_raw": 0.24,
+          "score_with_cs": 0.88,
+          "delta": 0.64,
+          "correct_raw": 60,
+          "correct_with_cs": 220,
+          "total": 250,
           "byCategory": {
             "cricket-knowledge": {
-              "correct_raw": 15,
-              "correct_with_cs": 52,
-              "total": 1000
-            }
-          },
-          "byType": {
-            "T3": {
-              "correct_raw": 9,
-              "correct_with_cs": 34,
-              "total": 601
-            },
-            "T4": {
-              "correct_raw": 3,
-              "correct_with_cs": 11,
+              "correct_raw": 60,
+              "correct_with_cs": 220,
               "total": 250
-            },
-            "T6": {
-              "correct_raw": 3,
-              "correct_with_cs": 3,
-              "total": 100
-            },
-            "T5": {
-              "correct_raw": 0,
-              "correct_with_cs": 4,
-              "total": 49
-            }
-          }
-        },
-        {
-          "id": "sonar-pro",
-          "label": "Perplexity Sonar Pro",
-          "provider": "Perplexity",
-          "score_raw": 0.01,
-          "score_with_cs": 0.03,
-          "delta": 0.02,
-          "correct_raw": 10,
-          "correct_with_cs": 30,
-          "total": 1000,
-          "byCategory": {
-            "cricket-knowledge": {
-              "correct_raw": 10,
-              "correct_with_cs": 30,
-              "total": 1000
-            }
-          },
-          "byType": {
-            "T3": {
-              "correct_raw": 7,
-              "correct_with_cs": 19,
-              "total": 601
-            },
-            "T4": {
-              "correct_raw": 1,
-              "correct_with_cs": 7,
-              "total": 250
-            },
-            "T6": {
-              "correct_raw": 2,
-              "correct_with_cs": 2,
-              "total": 100
-            },
-            "T5": {
-              "correct_raw": 0,
-              "correct_with_cs": 2,
-              "total": 49
             }
           }
         },
@@ -136,39 +52,35 @@
           "id": "claude-sonnet-5",
           "label": "Claude Sonnet 5",
           "provider": "Anthropic",
-          "score_raw": 0.004,
-          "score_with_cs": 0.027,
-          "delta": 0.023,
-          "correct_raw": 4,
-          "correct_with_cs": 27,
-          "total": 1000,
+          "score_raw": 0.148,
+          "score_with_cs": 0.868,
+          "delta": 0.72,
+          "correct_raw": 37,
+          "correct_with_cs": 217,
+          "total": 250,
           "byCategory": {
             "cricket-knowledge": {
-              "correct_raw": 4,
-              "correct_with_cs": 27,
-              "total": 1000
-            }
-          },
-          "byType": {
-            "T4": {
-              "correct_raw": 0,
-              "correct_with_cs": 7,
+              "correct_raw": 37,
+              "correct_with_cs": 217,
               "total": 250
-            },
-            "T3": {
-              "correct_raw": 4,
-              "correct_with_cs": 16,
-              "total": 601
-            },
-            "T6": {
+            }
+          }
+        },
+        {
+          "id": "gemini-2.0-pro-exp",
+          "label": "Gemini 2.0 Pro",
+          "provider": "Google",
+          "score_raw": 0,
+          "score_with_cs": 0,
+          "delta": 0,
+          "correct_raw": 0,
+          "correct_with_cs": 0,
+          "total": 250,
+          "byCategory": {
+            "cricket-knowledge": {
               "correct_raw": 0,
-              "correct_with_cs": 2,
-              "total": 100
-            },
-            "T5": {
-              "correct_raw": 0,
-              "correct_with_cs": 2,
-              "total": 49
+              "correct_with_cs": 0,
+              "total": 250
             }
           }
         }
