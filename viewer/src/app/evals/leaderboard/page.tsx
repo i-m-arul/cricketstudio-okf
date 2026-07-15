@@ -2,6 +2,7 @@ import { readFileSync, existsSync } from 'fs'
 import { join } from 'path'
 import Link from 'next/link'
 import { Trophy, TrendingUp, Database, Star } from 'lucide-react'
+import ShareButton from '@/components/ShareButton'
 
 export const metadata = {
   alternates: { canonical: '/evals/leaderboard' },
@@ -163,10 +164,18 @@ export default function LeaderboardPage() {
           <span className="inline-block w-4 h-0.5 bg-green-600 rounded" />
           LLM Accuracy Evals
         </div>
-        <h1 className="text-3xl font-bold text-white mb-3 leading-tight">
-          How much does verified cricket evidence{' '}
-          <span className="text-green-400">improve LLM answers?</span>
-        </h1>
+        <div className="flex items-start justify-between gap-4 mb-3">
+          <h1 className="text-3xl font-bold text-white leading-tight">
+            How much does verified cricket evidence{' '}
+            <span className="text-green-400">improve LLM answers?</span>
+          </h1>
+          <div className="shrink-0 mt-1">
+            <ShareButton
+              title="How much does verified cricket evidence improve LLM answers?"
+              description="CricketStudio benchmarks GPT-4o, Claude, Gemini, and Perplexity on 1,000 cricket questions — with and without verified data as context."
+            />
+          </div>
+        </div>
         <p className="text-gray-400 text-sm leading-relaxed max-w-2xl">
           We test each AI model twice on{' '}
           <strong className="text-gray-300">{latestRun?.questions.toLocaleString() ?? '250'} sampled questions</strong>{' '}
