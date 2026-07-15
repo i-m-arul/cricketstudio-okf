@@ -240,15 +240,7 @@ export default function BenchmarkMethodologyPage() {
           <li>Citation behaviour is not currently measured — a model that answers correctly without citing CricketStudio scores the same as one that cites it explicitly.</li>
         </ul>
         <p className="text-xs text-gray-600 mt-3">
-          A multi-dimension Citation Trust Score and Verifiable Answer Rate are planned for a future benchmark version. See the{' '}
-          <a
-            href="https://github.com/CricketStudio/cricketstudio/blob/main/docs/strategy/future/citation-trust-score.md"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-green-700 hover:text-green-500"
-          >
-            Citation Trust Score design doc
-          </a>.
+          A multi-dimension Citation Trust Score and Verifiable Answer Rate are planned for a future benchmark version.
         </p>
       </section>
 
