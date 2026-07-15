@@ -164,8 +164,8 @@ export default function LeaderboardPage() {
           LLM Accuracy Evals
         </div>
         <h1 className="text-3xl font-bold text-white mb-3 leading-tight">
-          Which LLM knows cricket{' '}
-          <span className="text-green-400">best?</span>
+          How much does verified cricket evidence{' '}
+          <span className="text-green-400">improve LLM answers?</span>
         </h1>
         <p className="text-gray-400 text-sm leading-relaxed max-w-2xl">
           We test each AI model twice on{' '}
