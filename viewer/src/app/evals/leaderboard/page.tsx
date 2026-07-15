@@ -199,7 +199,7 @@ export default function LeaderboardPage() {
           <span><strong className="text-gray-400">Weekly</strong> · Mon 06:00 UTC</span>
           <span>
             Benchmark:{' '}
-            <a href="https://players.cricketstudio.ai/evals/cricket-qa-v1.jsonl" className="text-green-500 hover:underline" target="_blank" rel="noopener noreferrer">
+            <a href="/evals/methodology" className="text-green-500 hover:underline">
               {data.benchmark}
             </a>
           </span>
@@ -549,7 +549,7 @@ export default function LeaderboardPage() {
             <li className="flex gap-2">
               <span className="text-green-800 mt-0.5">▸</span>
               {latestRun ? latestRun.questions.toLocaleString() : '250'} sampled from a 1,000-question bank —{' '}
-              <a href="https://players.cricketstudio.ai/evals/cricket-qa-v1.jsonl" className="text-green-600 hover:underline" target="_blank" rel="noopener noreferrer">
+              <a href="/evals/methodology" className="text-green-600 hover:underline">
                 {data.benchmark}
               </a>
             </li>

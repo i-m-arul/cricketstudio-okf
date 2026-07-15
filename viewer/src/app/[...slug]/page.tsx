@@ -14,6 +14,7 @@ const DEDICATED_PAGES = new Set([
   '', 'dossier', 'scorebook', 'metrics', 'research',
   'methodology', 'stories', 'agents', 'about',
   'conformance', 'releases', 'spec', 'search', 'sources',
+  'evals',
 ])
 
 /** Collect every intermediate directory path that has descendant files. */
