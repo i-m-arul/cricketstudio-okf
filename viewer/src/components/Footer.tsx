@@ -10,6 +10,7 @@ const FOOTER_COLS = [
       { label: 'Journeys', href: '/stories/' },
       { label: 'Search', href: '/search/' },
       { label: 'AI Agents', href: '/agents/' },
+      { label: 'LLM Leaderboard', href: '/evals/leaderboard/' },
     ],
   },
   {
