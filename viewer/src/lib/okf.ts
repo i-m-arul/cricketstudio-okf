@@ -4,6 +4,7 @@ import matter from 'gray-matter'
 import { remark } from 'remark'
 import remarkGfm from 'remark-gfm'
 import remarkHtml from 'remark-html'
+import { lookupUsc } from './usc-registry'
 
 const OKF_ROOT = path.join(process.cwd(), '..', 'okf')
 
@@ -30,6 +31,8 @@ export interface OKFFile {
   description: string
   status?: string
   canonical_page?: string
+  usc?: string
+  claimUrl?: string
   resource?: string
   entity_id?: string
   tags?: string[]
@@ -138,6 +141,7 @@ export async function getAllFiles(): Promise<OKFFile[]> {
         description: data.description || '',
         status: safeStr(data.status),
         canonical_page: safeStr(data.canonical_page),
+        ...(() => { const u = lookupUsc(safeStr(data.canonical_page)); return u ? u : {} })(),
         resource: safeStr(data.resource),
         entity_id: safeStr(data.entity_id),
         tags: (data.tags || []).map(safeStr).filter(Boolean) as string[],

@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { TYPE_LABELS } from '@/lib/constants'
+import CiteChip from './CiteChip'
 
 interface Props {
   slug: string
@@ -11,6 +12,8 @@ interface Props {
   canonical_page?: string
   source_boundary?: string
   confidence?: string
+  usc?: string
+  claimUrl?: string
 }
 
 const TYPE_COLORS: Record<string, string> = {
@@ -38,7 +41,7 @@ const CONF_STYLES: Record<string, { pill: string; dot: string }> = {
   },
 }
 
-export default function OKFCard({ slug, urlPath, type, title, description, tags, canonical_page, confidence }: Props) {
+export default function OKFCard({ slug, urlPath, type, title, description, tags, canonical_page, confidence, usc, claimUrl }: Props) {
   const colorClass = TYPE_COLORS[type] || 'bg-gray-800/40 text-gray-300 border-gray-700'
   const typeLabel = TYPE_LABELS[type] || type
   const confStyle = type === 'dossier' && confidence && CONF_STYLES[confidence] ? CONF_STYLES[confidence] : null
@@ -75,6 +78,11 @@ export default function OKFCard({ slug, urlPath, type, title, description, tags,
               {tag}
             </span>
           ))}
+        </div>
+      )}
+      {usc && claimUrl && (
+        <div className="mt-2" onClick={(e) => e.preventDefault()}>
+          <CiteChip usc={usc} claimUrl={claimUrl} />
         </div>
       )}
     </Link>
