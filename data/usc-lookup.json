@@ -1,0 +1,1746 @@
+{
+  "https://players.cricketstudio.ai/season/ipl-2026": {
+    "usc": "CS:IPL:26:L3S5M:027448",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/027448"
+  },
+  "https://players.cricketstudio.ai/players/virat-kohli": {
+    "usc": "CS:IPL:26:L3S5M:972b92",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/972b92"
+  },
+  "https://players.cricketstudio.ai/players/jasprit-bumrah": {
+    "usc": "CS:IPL:26:L3S200:3c07b2",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/3c07b2"
+  },
+  "https://players.cricketstudio.ai/players/yashasvi-jaiswal": {
+    "usc": "CS:IPL:26:L3S5M:a981ce",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/a981ce"
+  },
+  "https://players.cricketstudio.ai/players/ab-de-villiers": {
+    "usc": "CS:IPLH:00:L3S5M:8fa9c8",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/8fa9c8"
+  },
+  "https://players.cricketstudio.ai/players/abhishek-sharma": {
+    "usc": "CS:IPLH:00:L3S5M:225f04",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/225f04"
+  },
+  "https://players.cricketstudio.ai/players/aiden-markram": {
+    "usc": "CS:IPL:26:L3S5M:5c657d",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/5c657d"
+  },
+  "https://players.cricketstudio.ai/players/ajinkya-rahane": {
+    "usc": "CS:IPL:26:L3S5M:771d42",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/771d42"
+  },
+  "https://players.cricketstudio.ai/players/ad-russell": {
+    "usc": "CS:IPLH:00:L3S5M:aaf4e3",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/aaf4e3"
+  },
+  "https://players.cricketstudio.ai/players/angkrish-raghuvanshi": {
+    "usc": "CS:IPL:26:L3S5M:6fb42f",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/6fb42f"
+  },
+  "https://players.cricketstudio.ai/venues/arun-jaitley-stadium": {
+    "usc": "CS:IPLH:00:L3S5M:f640ff",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/f640ff"
+  },
+  "https://players.cricketstudio.ai/players/avesh-khan": {
+    "usc": "CS:IPLH:00:L3S5M:a567b1",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/a567b1"
+  },
+  "https://players.cricketstudio.ai/players/axar-patel": {
+    "usc": "CS:IPL:26:L3S5M:f07511",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/f07511"
+  },
+  "https://players.cricketstudio.ai/players/ayush-badoni": {
+    "usc": "CS:IPL:26:L3S5M:c31e57",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/c31e57"
+  },
+  "https://players.cricketstudio.ai/players/ayush-mhatre": {
+    "usc": "CS:IPL:26:L3S5M:df79fc",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/df79fc"
+  },
+  "https://players.cricketstudio.ai/players/bhuvneshwar-kumar": {
+    "usc": "CS:IPL:26:L3S200:7ad734",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/7ad734"
+  },
+  "https://players.cricketstudio.ai/players/cameron-green": {
+    "usc": "CS:IPL:26:L3S5M:6328e0",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/6328e0"
+  },
+  "https://players.cricketstudio.ai/players/wpujc-vaas": {
+    "usc": "CS:IPLH:00:L3S5M:a7f5dc",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/a7f5dc"
+  },
+  "https://players.cricketstudio.ai/players/david-miller": {
+    "usc": "CS:IPL:26:L3S5M:a872e3",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/a872e3"
+  },
+  "https://players.cricketstudio.ai/players/deepak-chahar": {
+    "usc": "CS:IPL:26:L3S100:48e807",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/48e807"
+  },
+  "https://players.cricketstudio.ai/players/devdutt-padikkal": {
+    "usc": "CS:IPL:26:L3S5M:b853b3",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/b853b3"
+  },
+  "https://players.cricketstudio.ai/players/dewald-brevis": {
+    "usc": "CS:IPL:26:L3S5M:ada6ce",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/ada6ce"
+  },
+  "https://players.cricketstudio.ai/players/dhruv-jurel": {
+    "usc": "CS:IPLH:00:L3S5M:cd05da",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/cd05da"
+  },
+  "https://players.cricketstudio.ai/venues/eden-gardens": {
+    "usc": "CS:IPLH:00:L3S5M:1a136b",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/1a136b"
+  },
+  "https://players.cricketstudio.ai/players/hardik-pandya": {
+    "usc": "CS:IPL:26:L3S5M:3c3d93",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/3c3d93"
+  },
+  "https://players.cricketstudio.ai/venues/himachal-pradesh-cricket-association-stadium": {
+    "usc": "CS:IPLH:00:L3S5M:585bb9",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/585bb9"
+  },
+  "https://players.cricketstudio.ai/season/ipl-2007-08": {
+    "usc": "CS:IPLH:00:L3S5M:f1c6f8",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/f1c6f8"
+  },
+  "https://players.cricketstudio.ai/season/ipl-2009-10": {
+    "usc": "CS:IPLH:00:L3S5M:42e9f3",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/42e9f3"
+  },
+  "https://players.cricketstudio.ai/season/ipl-2009": {
+    "usc": "CS:IPLH:00:L3S5M:e25cae",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/e25cae"
+  },
+  "https://players.cricketstudio.ai/season/ipl-2011": {
+    "usc": "CS:IPLH:00:L3S5M:e803a9",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/e803a9"
+  },
+  "https://players.cricketstudio.ai/season/ipl-2012": {
+    "usc": "CS:IPLH:00:L3S5M:ff9639",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/ff9639"
+  },
+  "https://players.cricketstudio.ai/season/ipl-2013": {
+    "usc": "CS:IPLH:00:L3S5M:1c844d",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/1c844d"
+  },
+  "https://players.cricketstudio.ai/season/ipl-2014": {
+    "usc": "CS:IPLH:00:L3S5M:c766ab",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/c766ab"
+  },
+  "https://players.cricketstudio.ai/season/ipl-2015": {
+    "usc": "CS:IPLH:00:L3S5M:3d1482",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/3d1482"
+  },
+  "https://players.cricketstudio.ai/season/ipl-2016": {
+    "usc": "CS:IPLH:00:L3S5M:213945",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/213945"
+  },
+  "https://players.cricketstudio.ai/season/ipl-2017": {
+    "usc": "CS:IPLH:00:L3S5M:ebfdf3",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/ebfdf3"
+  },
+  "https://players.cricketstudio.ai/season/ipl-2018": {
+    "usc": "CS:IPLH:00:L3S5M:c9b78b",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/c9b78b"
+  },
+  "https://players.cricketstudio.ai/season/ipl-2019": {
+    "usc": "CS:IPLH:00:L3S5M:15b89f",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/15b89f"
+  },
+  "https://players.cricketstudio.ai/season/ipl-2020-21": {
+    "usc": "CS:IPLH:00:L3S5M:6c3bba",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/6c3bba"
+  },
+  "https://players.cricketstudio.ai/season/ipl-2021": {
+    "usc": "CS:IPLH:00:L3S5M:76682d",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/76682d"
+  },
+  "https://players.cricketstudio.ai/season/ipl-2022": {
+    "usc": "CS:IPLH:00:L3S5M:162370",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/162370"
+  },
+  "https://players.cricketstudio.ai/season/ipl-2023": {
+    "usc": "CS:IPLH:00:L3S5M:b19d20",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/b19d20"
+  },
+  "https://players.cricketstudio.ai/season/ipl-2024": {
+    "usc": "CS:IPLH:00:L3S5M:503392",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/503392"
+  },
+  "https://players.cricketstudio.ai/season/ipl-2025": {
+    "usc": "CS:IPLH:00:L3S5M:e2b866",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/e2b866"
+  },
+  "https://players.cricketstudio.ai/teams/gt": {
+    "usc": "CS:IPLH:00:L3S5M:f2c4e5",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/f2c4e5"
+  },
+  "https://players.cricketstudio.ai/teams/mi": {
+    "usc": "CS:IPLH:00:L3S5M:181b78",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/181b78"
+  },
+  "https://players.cricketstudio.ai/players/kagiso-rabada": {
+    "usc": "CS:IPL:26:L3S200:20f7b7",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/20f7b7"
+  },
+  "https://players.cricketstudio.ai/teams/rcb": {
+    "usc": "CS:IPLH:00:L3S5M:72f1da",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/72f1da"
+  },
+  "https://players.cricketstudio.ai/players/rohit-sharma": {
+    "usc": "CS:IPL:26:L3S5M:2fc97c",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/2fc97c"
+  },
+  "https://players.cricketstudio.ai/teams/rr": {
+    "usc": "CS:IPLH:00:L3S5M:741a47",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/741a47"
+  },
+  "https://players.cricketstudio.ai/teams/srh": {
+    "usc": "CS:IPLH:00:L3S5M:bc62de",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/bc62de"
+  },
+  "https://players.cricketstudio.ai/players/vaibhav-suryavanshi": {
+    "usc": "CS:IPL:26:L3S5M:708fb1",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/708fb1"
+  },
+  "https://players.cricketstudio.ai/players/yuzvendra-chahal": {
+    "usc": "CS:IPL:26:L3S200:b162c3",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/b162c3"
+  },
+  "https://players.cricketstudio.ai/teams/kkr": {
+    "usc": "CS:IPLH:00:L3S5M:30f78f",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/30f78f"
+  },
+  "https://players.cricketstudio.ai/players/jofra-archer": {
+    "usc": "CS:IPL:26:L3S5M:499559",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/499559"
+  },
+  "https://players.cricketstudio.ai/players/jos-buttler": {
+    "usc": "CS:IPL:26:L3S5M:d51d21",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/d51d21"
+  },
+  "https://players.cricketstudio.ai/players/kamindu-mendis": {
+    "usc": "CS:IPL:26:L3S30:dd525f",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/dd525f"
+  },
+  "https://players.cricketstudio.ai/players/kl-rahul": {
+    "usc": "CS:IPLH:00:L3S5M:942cf5",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/942cf5"
+  },
+  "https://players.cricketstudio.ai/players/kuldeep-yadav": {
+    "usc": "CS:IPLH:00:L3S5M:bf9bde",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/bf9bde"
+  },
+  "https://players.cricketstudio.ai/players/liam-livingstone": {
+    "usc": "CS:IPL:26:L3S30:58fa96",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/58fa96"
+  },
+  "https://players.cricketstudio.ai/players/lockie-ferguson": {
+    "usc": "CS:IPL:26:L3S50:cf568b",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/cf568b"
+  },
+  "https://players.cricketstudio.ai/venues/m-chinnaswamy-stadium": {
+    "usc": "CS:IPLH:00:L3S5M:a505e3",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/a505e3"
+  },
+  "https://players.cricketstudio.ai/venues/ma-chidambaram-stadium": {
+    "usc": "CS:IPLH:00:L3S5M:f66ca2",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/f66ca2"
+  },
+  "https://players.cricketstudio.ai/players/marco-jansen": {
+    "usc": "CS:IPL:26:L3S5M:21aff2",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/21aff2"
+  },
+  "https://players.cricketstudio.ai/players/marcus-stoinis": {
+    "usc": "CS:IPL:26:L3S5M:0e24e1",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/0e24e1"
+  },
+  "https://players.cricketstudio.ai/players/mitchell-marsh": {
+    "usc": "CS:IPL:26:L3S5M:17279d",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/17279d"
+  },
+  "https://players.cricketstudio.ai/players/ms-dhoni": {
+    "usc": "CS:IPLH:00:L3S5M:2baf56",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/2baf56"
+  },
+  "https://players.cricketstudio.ai/venues/narendra-modi-stadium": {
+    "usc": "CS:IPLH:00:L3S5M:881462",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/881462"
+  },
+  "https://players.cricketstudio.ai/players/sunil-narine": {
+    "usc": "CS:IPL:26:L3S200:6c205f",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/6c205f"
+  },
+  "https://players.cricketstudio.ai/players/nitish-kumar-reddy": {
+    "usc": "CS:IPL:26:L3S5M:f1c4c9",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/f1c4c9"
+  },
+  "https://players.cricketstudio.ai/players/pat-cummins": {
+    "usc": "CS:IPL:26:L3S5M:18126a",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/18126a"
+  },
+  "https://players.cricketstudio.ai/players/rahul-chahar": {
+    "usc": "CS:IPL:26:L3S30:a242b3",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/a242b3"
+  },
+  "https://players.cricketstudio.ai/venues/shaheed-veer-narayan-singh-international-stadium": {
+    "usc": "CS:IPLH:00:L3S5M:1ee6a3",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/1ee6a3"
+  },
+  "https://players.cricketstudio.ai/players/rajat-patidar": {
+    "usc": "CS:IPL:26:L3S5M:41cbcb",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/41cbcb"
+  },
+  "https://players.cricketstudio.ai/venues/rajiv-gandhi-international-stadium": {
+    "usc": "CS:IPLH:00:L3S5M:5ed41b",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/5ed41b"
+  },
+  "https://players.cricketstudio.ai/players/rashid-khan": {
+    "usc": "CS:IPLH:00:L3S5M:40945a",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/40945a"
+  },
+  "https://players.cricketstudio.ai/players/ravindra-jadeja": {
+    "usc": "CS:IPL:26:L3S5M:8a0d5d",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/8a0d5d"
+  },
+  "https://players.cricketstudio.ai/players/rishabh-pant": {
+    "usc": "CS:IPL:26:L3S5M:2bea03",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/2bea03"
+  },
+  "https://players.cricketstudio.ai/players/riyan-parag": {
+    "usc": "CS:IPL:26:L3S5M:c798e8",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/c798e8"
+  },
+  "https://players.cricketstudio.ai/players/sai-sudharsan": {
+    "usc": "CS:IPL:26:L3S5M:a67b96",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/a67b96"
+  },
+  "https://players.cricketstudio.ai/players/sandeep-sharma": {
+    "usc": "CS:IPLH:00:L3S5M:2e3f78",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/2e3f78"
+  },
+  "https://players.cricketstudio.ai/players/sanju-samson": {
+    "usc": "CS:IPL:26:L3S5M:cf7100",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/cf7100"
+  },
+  "https://players.cricketstudio.ai/players/sarfaraz-khan": {
+    "usc": "CS:IPL:26:L3S5M:0509e1",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/0509e1"
+  },
+  "https://players.cricketstudio.ai/venues/sawai-mansingh-stadium": {
+    "usc": "CS:IPLH:00:L3S5M:834759",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/834759"
+  },
+  "https://players.cricketstudio.ai/players/shahbaz-ahmed": {
+    "usc": "CS:IPLH:00:L3S5M:e0dbb5",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/e0dbb5"
+  },
+  "https://players.cricketstudio.ai/players/shahrukh-khan": {
+    "usc": "CS:IPL:26:L3S30:086e21",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/086e21"
+  },
+  "https://players.cricketstudio.ai/players/shardul-thakur": {
+    "usc": "CS:IPL:26:L3S100:222f9e",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/222f9e"
+  },
+  "https://players.cricketstudio.ai/players/shashank-singh": {
+    "usc": "CS:IPLH:00:L3S5M:26f60a",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/26f60a"
+  },
+  "https://players.cricketstudio.ai/players/sherfane-rutherford": {
+    "usc": "CS:IPL:26:L3S5M:925dca",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/925dca"
+  },
+  "https://players.cricketstudio.ai/players/shimron-hetmyer": {
+    "usc": "CS:IPL:26:L3S5M:8fb98c",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/8fb98c"
+  },
+  "https://players.cricketstudio.ai/players/shivam-dube": {
+    "usc": "CS:IPL:26:L3S5M:bc66f8",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/bc66f8"
+  },
+  "https://players.cricketstudio.ai/players/shivam-mavi": {
+    "usc": "CS:IPLH:00:L3S5M:cc85b0",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/cc85b0"
+  },
+  "https://players.cricketstudio.ai/players/shreyas-iyer": {
+    "usc": "CS:IPL:26:L3S5M:e262d9",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/e262d9"
+  },
+  "https://players.cricketstudio.ai/players/shubham-dubey": {
+    "usc": "CS:IPL:26:L3S5M:44a765",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/44a765"
+  },
+  "https://players.cricketstudio.ai/players/shubman-gill": {
+    "usc": "CS:IPLH:00:L3S5M:542fff",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/542fff"
+  },
+  "https://players.cricketstudio.ai/players/sikandar-raza": {
+    "usc": "CS:IPLH:00:L3S5M:04cb37",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/04cb37"
+  },
+  "https://players.cricketstudio.ai/players/suryakumar-yadav": {
+    "usc": "CS:IPL:26:L3S5M:d71572",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/d71572"
+  },
+  "https://players.cricketstudio.ai/players/thangarasu-natarajan": {
+    "usc": "CS:IPL:26:L3S100:47cfe3",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/47cfe3"
+  },
+  "https://players.cricketstudio.ai/players/tim-david": {
+    "usc": "CS:IPL:26:L3S5M:2d5d02",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/2d5d02"
+  },
+  "https://players.cricketstudio.ai/players/travis-head": {
+    "usc": "CS:IPL:26:L3S5M:ff36a6",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/ff36a6"
+  },
+  "https://players.cricketstudio.ai/players/trent-boult": {
+    "usc": "CS:IPL:26:L3S50:c21225",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/c21225"
+  },
+  "https://players.cricketstudio.ai/players/tristan-stubbs": {
+    "usc": "CS:IPL:26:L3S5M:da7f2a",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/da7f2a"
+  },
+  "https://players.cricketstudio.ai/players/tushar-deshpande": {
+    "usc": "CS:IPL:26:L3S100:270b61",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/270b61"
+  },
+  "https://players.cricketstudio.ai/players/umran-malik": {
+    "usc": "CS:IPLH:00:L3S5M:36c1fa",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/36c1fa"
+  },
+  "https://players.cricketstudio.ai/players/cv-varun": {
+    "usc": "CS:IPLH:00:L3S5M:c3ee15",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/c3ee15"
+  },
+  "https://players.cricketstudio.ai/venues/barsapara-cricket-stadium": {
+    "usc": "CS:IPLH:00:L3S5M:a4c98b",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/a4c98b"
+  },
+  "https://players.cricketstudio.ai/venues/wankhede-stadium": {
+    "usc": "CS:IPLH:00:L3S5M:ad3ca6",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/ad3ca6"
+  },
+  "https://players.cricketstudio.ai/players/washington-sundar": {
+    "usc": "CS:IPLH:00:L3S5M:4a74cc",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/4a74cc"
+  },
+  "https://players.cricketstudio.ai/players/w-jaffer": {
+    "usc": "CS:IPLH:00:L3S5M:983296",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/983296"
+  },
+  "https://players.cricketstudio.ai/players/wd-parnell": {
+    "usc": "CS:IPLH:00:L3S5M:d46f7e",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/d46f7e"
+  },
+  "https://players.cricketstudio.ai/players/will-jacks": {
+    "usc": "CS:IPL:26:L3S5M:02092f",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/02092f"
+  },
+  "https://players.cricketstudio.ai/players/wp-saha": {
+    "usc": "CS:IPLH:00:L3S5M:c4ecbc",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/c4ecbc"
+  },
+  "https://players.cricketstudio.ai/players/yash-dayal": {
+    "usc": "CS:IPLH:00:L3S5M:ca6684",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/ca6684"
+  },
+  "https://players.cricketstudio.ai/players/yash-thakur": {
+    "usc": "CS:IPLH:00:L3S5M:ea449a",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/ea449a"
+  },
+  "https://players.cricketstudio.ai/players/yk-pathan": {
+    "usc": "CS:IPLH:00:L3S5M:e85aa4",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/e85aa4"
+  },
+  "https://players.cricketstudio.ai/players/yuvraj-singh": {
+    "usc": "CS:IPLH:00:L3S5M:511ad7",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/511ad7"
+  },
+  "https://players.cricketstudio.ai/players/z-khan": {
+    "usc": "CS:IPLH:00:L3S5M:8c4de9",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/8c4de9"
+  },
+  "https://players.cricketstudio.ai/players/ch-gayle": {
+    "usc": "CS:IPLH:00:L3S5M:b6e9f9",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/b6e9f9"
+  },
+  "https://players.cricketstudio.ai/players/da-warner": {
+    "usc": "CS:IPLH:00:L3S5M:420998",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/420998"
+  },
+  "https://players.cricketstudio.ai/players/a-badoni": {
+    "usc": "CS:IPLH:00:L3S5M:389d37",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/389d37"
+  },
+  "https://players.cricketstudio.ai/players/a-manohar": {
+    "usc": "CS:IPLH:00:L3S5M:371c7e",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/371c7e"
+  },
+  "https://players.cricketstudio.ai/players/a-mishra": {
+    "usc": "CS:IPLH:00:L3S5M:b6b01e",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/b6b01e"
+  },
+  "https://players.cricketstudio.ai/players/a-raghuvanshi": {
+    "usc": "CS:IPLH:00:L3S5M:9c15b1",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/9c15b1"
+  },
+  "https://players.cricketstudio.ai/players/a-symonds": {
+    "usc": "CS:IPLH:00:L3S5M:e0376d",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/e0376d"
+  },
+  "https://players.cricketstudio.ai/players/aa-jhunjhunwala": {
+    "usc": "CS:IPLH:00:L3S5M:596787",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/596787"
+  },
+  "https://players.cricketstudio.ai/players/abdul-samad": {
+    "usc": "CS:IPLH:00:L3S5M:099a46",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/099a46"
+  },
+  "https://players.cricketstudio.ai/players/abishek-porel": {
+    "usc": "CS:IPLH:00:L3S5M:486880",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/486880"
+  },
+  "https://players.cricketstudio.ai/players/ac-gilchrist": {
+    "usc": "CS:IPLH:00:L3S5M:3e1ac9",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/3e1ac9"
+  },
+  "https://players.cricketstudio.ai/players/ad-mathews": {
+    "usc": "CS:IPLH:00:L3S5M:246bd4",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/246bd4"
+  },
+  "https://players.cricketstudio.ai/players/aj-finch": {
+    "usc": "CS:IPLH:00:L3S5M:f427d1",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/f427d1"
+  },
+  "https://players.cricketstudio.ai/players/ak-markram": {
+    "usc": "CS:IPLH:00:L3S5M:aaabb5",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/aaabb5"
+  },
+  "https://players.cricketstudio.ai/players/al-menaria": {
+    "usc": "CS:IPLH:00:L3S5M:713db7",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/713db7"
+  },
+  "https://players.cricketstudio.ai/players/am-nayar": {
+    "usc": "CS:IPLH:00:L3S5M:7296be",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/7296be"
+  },
+  "https://players.cricketstudio.ai/players/am-rahane": {
+    "usc": "CS:IPLH:00:L3S5M:0aae0b",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/0aae0b"
+  },
+  "https://players.cricketstudio.ai/players/anuj-rawat": {
+    "usc": "CS:IPLH:00:L3S5M:9f6635",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/9f6635"
+  },
+  "https://players.cricketstudio.ai/players/ap-tare": {
+    "usc": "CS:IPLH:00:L3S5M:57b067",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/57b067"
+  },
+  "https://players.cricketstudio.ai/players/ar-patel": {
+    "usc": "CS:IPLH:00:L3S5M:52604f",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/52604f"
+  },
+  "https://players.cricketstudio.ai/players/ashutosh-sharma": {
+    "usc": "CS:IPLH:00:L3S5M:4668f5",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/4668f5"
+  },
+  "https://players.cricketstudio.ai/players/at-rayudu": {
+    "usc": "CS:IPLH:00:L3S5M:84575f",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/84575f"
+  },
+  "https://players.cricketstudio.ai/players/azhar-mahmood": {
+    "usc": "CS:IPLH:00:L3S5M:c6257b",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/c6257b"
+  },
+  "https://players.cricketstudio.ai/players/b-chipli": {
+    "usc": "CS:IPLH:00:L3S5M:d5397e",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/d5397e"
+  },
+  "https://players.cricketstudio.ai/players/b-kumar": {
+    "usc": "CS:IPLH:00:L3S5M:b9c1b1",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/b9c1b1"
+  },
+  "https://players.cricketstudio.ai/players/b-sai-sudharsan": {
+    "usc": "CS:IPLH:00:L3S5M:40d2b5",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/40d2b5"
+  },
+  "https://players.cricketstudio.ai/players/ba-stokes": {
+    "usc": "CS:IPLH:00:L3S5M:e68a09",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/e68a09"
+  },
+  "https://players.cricketstudio.ai/venues/bharat-ratna-shri-atal-bihari-vajpayee-ekana-cricket-stadium": {
+    "usc": "CS:IPLH:00:L3S5M:99c9d4",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/99c9d4"
+  },
+  "https://players.cricketstudio.ai/venues/dr-dy-patil-sports-academy-mumbai": {
+    "usc": "CS:IPLH:00:L3S5M:68a419",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/68a419"
+  },
+  "https://players.cricketstudio.ai/venues/dubai-international-cricket-stadium": {
+    "usc": "CS:IPLH:00:L3S5M:3feb05",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/3feb05"
+  },
+  "https://players.cricketstudio.ai/venues/maharaja-yadavindra-singh-international-cricket-stadium-mullanpu": {
+    "usc": "CS:IPLH:00:L3S5M:7ba38a",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/7ba38a"
+  },
+  "https://players.cricketstudio.ai/venues/maharashtra-cricket-association-stadium": {
+    "usc": "CS:IPLH:00:L3S5M:ece23f",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/ece23f"
+  },
+  "https://players.cricketstudio.ai/venues/sharjah-cricket-stadium": {
+    "usc": "CS:IPLH:00:L3S5M:11b8b4",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/11b8b4"
+  },
+  "https://players.cricketstudio.ai/venues/sheikh-zayed-stadium": {
+    "usc": "CS:IPLH:00:L3S5M:547f30",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/547f30"
+  },
+  "https://players.cricketstudio.ai/players/bb-mccullum": {
+    "usc": "CS:IPLH:00:L3S5M:9a26f9",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/9a26f9"
+  },
+  "https://players.cricketstudio.ai/players/bj-hodge": {
+    "usc": "CS:IPLH:00:L3S5M:4c729a",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/4c729a"
+  },
+  "https://players.cricketstudio.ai/players/c-de-grandhomme": {
+    "usc": "CS:IPLH:00:L3S5M:52b80d",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/52b80d"
+  },
+  "https://players.cricketstudio.ai/players/c-green": {
+    "usc": "CS:IPLH:00:L3S5M:c75fff",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/c75fff"
+  },
+  "https://players.cricketstudio.ai/players/ca-lynn": {
+    "usc": "CS:IPLH:00:L3S5M:95f8e5",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/95f8e5"
+  },
+  "https://players.cricketstudio.ai/players/ca-pujara": {
+    "usc": "CS:IPLH:00:L3S5M:c84dff",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/c84dff"
+  },
+  "https://players.cricketstudio.ai/players/ch-morris": {
+    "usc": "CS:IPLH:00:L3S5M:03e1ca",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/03e1ca"
+  },
+  "https://players.cricketstudio.ai/players/cj-anderson": {
+    "usc": "CS:IPLH:00:L3S5M:c48b10",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/c48b10"
+  },
+  "https://players.cricketstudio.ai/players/cl-white": {
+    "usc": "CS:IPLH:00:L3S5M:116860",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/116860"
+  },
+  "https://players.cricketstudio.ai/players/cooper-connolly": {
+    "usc": "CS:IPL:26:L3S5M:722f61",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/722f61"
+  },
+  "https://players.cricketstudio.ai/players/d-brevis": {
+    "usc": "CS:IPLH:00:L3S5M:e9b760",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/e9b760"
+  },
+  "https://players.cricketstudio.ai/players/d-padikkal": {
+    "usc": "CS:IPLH:00:L3S5M:091074",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/091074"
+  },
+  "https://players.cricketstudio.ai/players/da-miller": {
+    "usc": "CS:IPLH:00:L3S5M:f9c58a",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/f9c58a"
+  },
+  "https://players.cricketstudio.ai/players/db-das": {
+    "usc": "CS:IPLH:00:L3S5M:6629b8",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/6629b8"
+  },
+  "https://players.cricketstudio.ai/players/db-ravi-teja": {
+    "usc": "CS:IPLH:00:L3S5M:9f67b4",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/9f67b4"
+  },
+  "https://players.cricketstudio.ai/players/dj-bravo": {
+    "usc": "CS:IPLH:00:L3S5M:91dc8c",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/91dc8c"
+  },
+  "https://players.cricketstudio.ai/players/dj-hooda": {
+    "usc": "CS:IPLH:00:L3S5M:319497",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/319497"
+  },
+  "https://players.cricketstudio.ai/players/dj-hussey": {
+    "usc": "CS:IPLH:00:L3S5M:1b6c69",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/1b6c69"
+  },
+  "https://players.cricketstudio.ai/players/dj-mitchell": {
+    "usc": "CS:IPLH:00:L3S5M:7a76db",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/7a76db"
+  },
+  "https://players.cricketstudio.ai/players/djg-sammy": {
+    "usc": "CS:IPLH:00:L3S5M:06f842",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/06f842"
+  },
+  "https://players.cricketstudio.ai/players/dp-conway": {
+    "usc": "CS:IPLH:00:L3S5M:de49da",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/de49da"
+  },
+  "https://players.cricketstudio.ai/players/dpmd-jayawardene": {
+    "usc": "CS:IPLH:00:L3S5M:1279be",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/1279be"
+  },
+  "https://players.cricketstudio.ai/players/dr-smith": {
+    "usc": "CS:IPLH:00:L3S5M:5d4b18",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/5d4b18"
+  },
+  "https://players.cricketstudio.ai/players/dt-christian": {
+    "usc": "CS:IPLH:00:L3S5M:fe2c2d",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/fe2c2d"
+  },
+  "https://players.cricketstudio.ai/players/e-lewis": {
+    "usc": "CS:IPLH:00:L3S5M:e77fe5",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/e77fe5"
+  },
+  "https://players.cricketstudio.ai/players/ejg-morgan": {
+    "usc": "CS:IPLH:00:L3S5M:923462",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/923462"
+  },
+  "https://players.cricketstudio.ai/players/f-du-plessis": {
+    "usc": "CS:IPLH:00:L3S5M:b1c047",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/b1c047"
+  },
+  "https://players.cricketstudio.ai/players/g-gambhir": {
+    "usc": "CS:IPLH:00:L3S5M:1f5d01",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/1f5d01"
+  },
+  "https://players.cricketstudio.ai/players/gc-smith": {
+    "usc": "CS:IPLH:00:L3S5M:f146d6",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/f146d6"
+  },
+  "https://players.cricketstudio.ai/players/gh-vihari": {
+    "usc": "CS:IPLH:00:L3S5M:f13010",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/f13010"
+  },
+  "https://players.cricketstudio.ai/players/gj-bailey": {
+    "usc": "CS:IPLH:00:L3S5M:0d1026",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/0d1026"
+  },
+  "https://players.cricketstudio.ai/players/gj-maxwell": {
+    "usc": "CS:IPLH:00:L3S5M:9295a4",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/9295a4"
+  },
+  "https://players.cricketstudio.ai/players/gurkeerat-singh": {
+    "usc": "CS:IPLH:00:L3S5M:abf5fd",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/abf5fd"
+  },
+  "https://players.cricketstudio.ai/players/h-klaasen": {
+    "usc": "CS:IPLH:00:L3S5M:c91278",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/c91278"
+  },
+  "https://players.cricketstudio.ai/players/heinrich-klaasen": {
+    "usc": "CS:IPL:26:L3S5M:add3c8",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/add3c8"
+  },
+  "https://players.cricketstudio.ai/players/ishan-kishan": {
+    "usc": "CS:IPLH:00:L3S5M:40ff33",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/40ff33"
+  },
+  "https://players.cricketstudio.ai/players/ka-pollard": {
+    "usc": "CS:IPLH:00:L3S5M:e30139",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/e30139"
+  },
+  "https://players.cricketstudio.ai/players/krunal-pandya": {
+    "usc": "CS:IPL:26:L3S5M:7efde1",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/7efde1"
+  },
+  "https://players.cricketstudio.ai/players/lokesh-rahul": {
+    "usc": "CS:IPL:26:L3S5M:d86101",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/d86101"
+  },
+  "https://players.cricketstudio.ai/players/manish-pandey": {
+    "usc": "CS:IPL:26:L3S30:69eed2",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/69eed2"
+  },
+  "https://players.cricketstudio.ai/players/nicholas-pooran": {
+    "usc": "CS:IPL:26:L3S5M:c9d9c7",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/c9d9c7"
+  },
+  "https://players.cricketstudio.ai/players/nitish-rana": {
+    "usc": "CS:IPL:26:L3S5M:19d099",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/19d099"
+  },
+  "https://players.cricketstudio.ai/players/philip-salt": {
+    "usc": "CS:IPL:26:L3S5M:666e08",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/666e08"
+  },
+  "https://players.cricketstudio.ai/players/prabhsimran-singh": {
+    "usc": "CS:IPL:26:L3S5M:1677a5",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/1677a5"
+  },
+  "https://players.cricketstudio.ai/players/quinton-de-kock": {
+    "usc": "CS:IPL:26:L3S50:0efa77",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/0efa77"
+  },
+  "https://players.cricketstudio.ai/players/rahul-tripathi": {
+    "usc": "CS:IPL:26:L3S30:0eb836",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/0eb836"
+  },
+  "https://players.cricketstudio.ai/players/ruturaj-gaikwad": {
+    "usc": "CS:IPL:26:L3S5M:c696ea",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/c696ea"
+  },
+  "https://players.cricketstudio.ai/players/spd-smith": {
+    "usc": "CS:IPLH:00:L3S5M:9842d3",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/9842d3"
+  },
+  "https://players.cricketstudio.ai/players/tilak-varma": {
+    "usc": "CS:IPLH:00:L3S5M:127502",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/127502"
+  },
+  "https://players.cricketstudio.ai/players/venkatesh-iyer": {
+    "usc": "CS:IPL:26:L3S5M:7f9982",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/7f9982"
+  },
+  "https://players.cricketstudio.ai/players/harbhajan-singh": {
+    "usc": "CS:IPLH:00:L3S5M:0b352b",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/0b352b"
+  },
+  "https://players.cricketstudio.ai/players/harpreet-brar": {
+    "usc": "CS:IPLH:00:L3S5M:3340c1",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/3340c1"
+  },
+  "https://players.cricketstudio.ai/players/hh-gibbs": {
+    "usc": "CS:IPLH:00:L3S5M:871d47",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/871d47"
+  },
+  "https://players.cricketstudio.ai/players/hh-pandya": {
+    "usc": "CS:IPLH:00:L3S5M:55209a",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/55209a"
+  },
+  "https://players.cricketstudio.ai/players/hm-amla": {
+    "usc": "CS:IPLH:00:L3S5M:ea4264",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/ea4264"
+  },
+  "https://players.cricketstudio.ai/players/hv-patel": {
+    "usc": "CS:IPLH:00:L3S5M:5c02ab",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/5c02ab"
+  },
+  "https://players.cricketstudio.ai/players/ik-pathan": {
+    "usc": "CS:IPLH:00:L3S5M:21f881",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/21f881"
+  },
+  "https://players.cricketstudio.ai/players/j-botha": {
+    "usc": "CS:IPLH:00:L3S5M:54d30c",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/54d30c"
+  },
+  "https://players.cricketstudio.ai/players/ja-morkel": {
+    "usc": "CS:IPLH:00:L3S5M:14f038",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/14f038"
+  },
+  "https://players.cricketstudio.ai/players/jc-buttler": {
+    "usc": "CS:IPLH:00:L3S5M:cd9e76",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/cd9e76"
+  },
+  "https://players.cricketstudio.ai/players/jd-ryder": {
+    "usc": "CS:IPLH:00:L3S5M:a42ace",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/a42ace"
+  },
+  "https://players.cricketstudio.ai/players/jec-franklin": {
+    "usc": "CS:IPLH:00:L3S5M:8e1d9a",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/8e1d9a"
+  },
+  "https://players.cricketstudio.ai/players/jh-kallis": {
+    "usc": "CS:IPLH:00:L3S5M:b90c2a",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/b90c2a"
+  },
+  "https://players.cricketstudio.ai/players/jj-roy": {
+    "usc": "CS:IPLH:00:L3S5M:fad57b",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/fad57b"
+  },
+  "https://players.cricketstudio.ai/players/jm-bairstow": {
+    "usc": "CS:IPLH:00:L3S5M:56433b",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/56433b"
+  },
+  "https://players.cricketstudio.ai/players/jm-sharma": {
+    "usc": "CS:IPLH:00:L3S5M:901218",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/901218"
+  },
+  "https://players.cricketstudio.ai/players/jo-holder": {
+    "usc": "CS:IPLH:00:L3S5M:b62eb3",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/b62eb3"
+  },
+  "https://players.cricketstudio.ai/players/jp-duminy": {
+    "usc": "CS:IPLH:00:L3S5M:24a2f7",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/24a2f7"
+  },
+  "https://players.cricketstudio.ai/players/jp-faulkner": {
+    "usc": "CS:IPLH:00:L3S5M:c99407",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/c99407"
+  },
+  "https://players.cricketstudio.ai/players/jr-hopes": {
+    "usc": "CS:IPLH:00:L3S5M:b6d247",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/b6d247"
+  },
+  "https://players.cricketstudio.ai/players/k-goel": {
+    "usc": "CS:IPLH:00:L3S5M:30f389",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/30f389"
+  },
+  "https://players.cricketstudio.ai/players/k-rabada": {
+    "usc": "CS:IPLH:00:L3S5M:329080",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/329080"
+  },
+  "https://players.cricketstudio.ai/players/kartik-sharma": {
+    "usc": "CS:IPL:26:L3S5M:7df040",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/7df040"
+  },
+  "https://players.cricketstudio.ai/players/kc-sangakkara": {
+    "usc": "CS:IPLH:00:L3S5M:616baf",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/616baf"
+  },
+  "https://players.cricketstudio.ai/players/kd-karthik": {
+    "usc": "CS:IPLH:00:L3S5M:142d44",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/142d44"
+  },
+  "https://players.cricketstudio.ai/players/kh-pandya": {
+    "usc": "CS:IPLH:00:L3S5M:f8e0da",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/f8e0da"
+  },
+  "https://players.cricketstudio.ai/players/kk-nair": {
+    "usc": "CS:IPLH:00:L3S5M:80ee9e",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/80ee9e"
+  },
+  "https://players.cricketstudio.ai/players/km-jadhav": {
+    "usc": "CS:IPLH:00:L3S5M:4ef74e",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/4ef74e"
+  },
+  "https://players.cricketstudio.ai/players/kp-pietersen": {
+    "usc": "CS:IPLH:00:L3S5M:d9747d",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/d9747d"
+  },
+  "https://players.cricketstudio.ai/players/kr-mayers": {
+    "usc": "CS:IPLH:00:L3S5M:72f33a",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/72f33a"
+  },
+  "https://players.cricketstudio.ai/players/ks-williamson": {
+    "usc": "CS:IPLH:00:L3S5M:e53eb3",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/e53eb3"
+  },
+  "https://players.cricketstudio.ai/players/kv-sharma": {
+    "usc": "CS:IPLH:00:L3S5M:1f38f5",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/1f38f5"
+  },
+  "https://players.cricketstudio.ai/players/la-pomersbach": {
+    "usc": "CS:IPLH:00:L3S5M:331a36",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/331a36"
+  },
+  "https://players.cricketstudio.ai/players/lalit-yadav": {
+    "usc": "CS:IPLH:00:L3S5M:67dad1",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/67dad1"
+  },
+  "https://players.cricketstudio.ai/players/lmp-simmons": {
+    "usc": "CS:IPLH:00:L3S5M:a716b3",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/a716b3"
+  },
+  "https://players.cricketstudio.ai/players/lr-shukla": {
+    "usc": "CS:IPLH:00:L3S5M:2f9d73",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/2f9d73"
+  },
+  "https://players.cricketstudio.ai/players/lrpl-taylor": {
+    "usc": "CS:IPLH:00:L3S5M:31822e",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/31822e"
+  },
+  "https://players.cricketstudio.ai/players/ls-livingstone": {
+    "usc": "CS:IPLH:00:L3S5M:e4bd5f",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/e4bd5f"
+  },
+  "https://players.cricketstudio.ai/players/m-kaif": {
+    "usc": "CS:IPLH:00:L3S5M:a42ed0",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/a42ed0"
+  },
+  "https://players.cricketstudio.ai/players/m-manhas": {
+    "usc": "CS:IPLH:00:L3S5M:17c413",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/17c413"
+  },
+  "https://players.cricketstudio.ai/players/m-shahrukh-khan": {
+    "usc": "CS:IPLH:00:L3S5M:b6c5f9",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/b6c5f9"
+  },
+  "https://players.cricketstudio.ai/players/m-vijay": {
+    "usc": "CS:IPLH:00:L3S5M:54deff",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/54deff"
+  },
+  "https://players.cricketstudio.ai/players/m-vohra": {
+    "usc": "CS:IPLH:00:L3S5M:3e0b89",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/3e0b89"
+  },
+  "https://players.cricketstudio.ai/players/ma-agarwal": {
+    "usc": "CS:IPLH:00:L3S5M:5e9f9a",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/5e9f9a"
+  },
+  "https://players.cricketstudio.ai/players/mandeep-singh": {
+    "usc": "CS:IPLH:00:L3S5M:666e7f",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/666e7f"
+  },
+  "https://players.cricketstudio.ai/players/mc-henriques": {
+    "usc": "CS:IPLH:00:L3S5M:36cea2",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/36cea2"
+  },
+  "https://players.cricketstudio.ai/players/md-mishra": {
+    "usc": "CS:IPLH:00:L3S5M:5d4031",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/5d4031"
+  },
+  "https://players.cricketstudio.ai/players/mek-hussey": {
+    "usc": "CS:IPLH:00:L3S5M:ba54a9",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/ba54a9"
+  },
+  "https://players.cricketstudio.ai/players/mk-lomror": {
+    "usc": "CS:IPLH:00:L3S5M:16572c",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/16572c"
+  },
+  "https://players.cricketstudio.ai/players/mk-pandey": {
+    "usc": "CS:IPLH:00:L3S5M:75f95b",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/75f95b"
+  },
+  "https://players.cricketstudio.ai/players/mk-tiwary": {
+    "usc": "CS:IPLH:00:L3S5M:345362",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/345362"
+  },
+  "https://players.cricketstudio.ai/players/ml-hayden": {
+    "usc": "CS:IPLH:00:L3S5M:4cbd1f",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/4cbd1f"
+  },
+  "https://players.cricketstudio.ai/players/mm-ali": {
+    "usc": "CS:IPLH:00:L3S5M:83d998",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/83d998"
+  },
+  "https://players.cricketstudio.ai/players/mp-stoinis": {
+    "usc": "CS:IPLH:00:L3S5M:06d727",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/06d727"
+  },
+  "https://players.cricketstudio.ai/players/mr-marsh": {
+    "usc": "CS:IPLH:00:L3S5M:0c8d22",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/0c8d22"
+  },
+  "https://players.cricketstudio.ai/players/ms-bisla": {
+    "usc": "CS:IPLH:00:L3S5M:2f8f65",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/2f8f65"
+  },
+  "https://players.cricketstudio.ai/players/mv-boucher": {
+    "usc": "CS:IPLH:00:L3S5M:d7b76b",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/d7b76b"
+  },
+  "https://players.cricketstudio.ai/players/n-pooran": {
+    "usc": "CS:IPLH:00:L3S5M:fe5ed3",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/fe5ed3"
+  },
+  "https://players.cricketstudio.ai/players/n-rana": {
+    "usc": "CS:IPLH:00:L3S5M:98e026",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/98e026"
+  },
+  "https://players.cricketstudio.ai/players/n-wadhera": {
+    "usc": "CS:IPLH:00:L3S5M:43dabf",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/43dabf"
+  },
+  "https://players.cricketstudio.ai/players/naman-dhir": {
+    "usc": "CS:IPLH:00:L3S5M:193767",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/193767"
+  },
+  "https://players.cricketstudio.ai/players/nithish-kumar-reddy": {
+    "usc": "CS:IPLH:00:L3S5M:782f85",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/782f85"
+  },
+  "https://players.cricketstudio.ai/players/nltc-perera": {
+    "usc": "CS:IPLH:00:L3S5M:c1e7c0",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/c1e7c0"
+  },
+  "https://players.cricketstudio.ai/players/nv-ojha": {
+    "usc": "CS:IPLH:00:L3S5M:1b2412",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/1b2412"
+  },
+  "https://players.cricketstudio.ai/players/oa-shah": {
+    "usc": "CS:IPLH:00:L3S5M:f9808a",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/f9808a"
+  },
+  "https://players.cricketstudio.ai/players/p-kumar": {
+    "usc": "CS:IPLH:00:L3S5M:b56b76",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/b56b76"
+  },
+  "https://players.cricketstudio.ai/players/p-negi": {
+    "usc": "CS:IPLH:00:L3S5M:b805b6",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/b805b6"
+  },
+  "https://players.cricketstudio.ai/players/p-simran-singh": {
+    "usc": "CS:IPLH:00:L3S5M:2c8f87",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/2c8f87"
+  },
+  "https://players.cricketstudio.ai/players/pa-patel": {
+    "usc": "CS:IPLH:00:L3S5M:c1ba3d",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/c1ba3d"
+  },
+  "https://players.cricketstudio.ai/players/pc-valthaty": {
+    "usc": "CS:IPLH:00:L3S5M:210610",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/210610"
+  },
+  "https://players.cricketstudio.ai/players/pd-salt": {
+    "usc": "CS:IPLH:00:L3S5M:7fec12",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/7fec12"
+  },
+  "https://players.cricketstudio.ai/players/pj-cummins": {
+    "usc": "CS:IPLH:00:L3S5M:d75209",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/d75209"
+  },
+  "https://players.cricketstudio.ai/players/pk-garg": {
+    "usc": "CS:IPLH:00:L3S5M:042ad8",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/042ad8"
+  },
+  "https://players.cricketstudio.ai/players/pp-chawla": {
+    "usc": "CS:IPLH:00:L3S5M:90bb29",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/90bb29"
+  },
+  "https://players.cricketstudio.ai/players/pp-shaw": {
+    "usc": "CS:IPLH:00:L3S5M:97866e",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/97866e"
+  },
+  "https://players.cricketstudio.ai/players/priyansh-arya": {
+    "usc": "CS:IPLH:00:L3S5M:e14ddb",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/e14ddb"
+  },
+  "https://players.cricketstudio.ai/players/q-de-kock": {
+    "usc": "CS:IPLH:00:L3S5M:146dab",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/146dab"
+  },
+  "https://players.cricketstudio.ai/players/r-ashwin": {
+    "usc": "CS:IPLH:00:L3S5M:682e60",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/682e60"
+  },
+  "https://players.cricketstudio.ai/players/r-bhatia": {
+    "usc": "CS:IPLH:00:L3S5M:fed38a",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/fed38a"
+  },
+  "https://players.cricketstudio.ai/players/r-dravid": {
+    "usc": "CS:IPLH:00:L3S5M:c65442",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/c65442"
+  },
+  "https://players.cricketstudio.ai/players/r-parag": {
+    "usc": "CS:IPLH:00:L3S5M:c439c7",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/c439c7"
+  },
+  "https://players.cricketstudio.ai/players/r-powell": {
+    "usc": "CS:IPLH:00:L3S5M:a7bc55",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/a7bc55"
+  },
+  "https://players.cricketstudio.ai/players/r-ravindra": {
+    "usc": "CS:IPLH:00:L3S5M:623813",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/623813"
+  },
+  "https://players.cricketstudio.ai/players/r-sathish": {
+    "usc": "CS:IPLH:00:L3S5M:456fa5",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/456fa5"
+  },
+  "https://players.cricketstudio.ai/players/r-tewatia": {
+    "usc": "CS:IPLH:00:L3S5M:979778",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/979778"
+  },
+  "https://players.cricketstudio.ai/players/r-vinay-kumar": {
+    "usc": "CS:IPLH:00:L3S5M:8e0301",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/8e0301"
+  },
+  "https://players.cricketstudio.ai/players/ra-jadeja": {
+    "usc": "CS:IPLH:00:L3S5M:61c1fe",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/61c1fe"
+  },
+  "https://players.cricketstudio.ai/players/ra-tripathi": {
+    "usc": "CS:IPLH:00:L3S5M:561598",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/561598"
+  },
+  "https://players.cricketstudio.ai/players/rahmanullah-gurbaz": {
+    "usc": "CS:IPLH:00:L3S5M:813370",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/813370"
+  },
+  "https://players.cricketstudio.ai/players/ramandeep-singh": {
+    "usc": "CS:IPLH:00:L3S5M:a4aad5",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/a4aad5"
+  },
+  "https://players.cricketstudio.ai/players/rd-gaikwad": {
+    "usc": "CS:IPLH:00:L3S5M:fcfd9b",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/fcfd9b"
+  },
+  "https://players.cricketstudio.ai/players/rd-rickelton": {
+    "usc": "CS:IPLH:00:L3S5M:69c65e",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/69c65e"
+  },
+  "https://players.cricketstudio.ai/players/rg-sharma": {
+    "usc": "CS:IPLH:00:L3S5M:41de23",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/41de23"
+  },
+  "https://players.cricketstudio.ai/players/rk-singh": {
+    "usc": "CS:IPLH:00:L3S5M:10592f",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/10592f"
+  },
+  "https://players.cricketstudio.ai/players/rm-patidar": {
+    "usc": "CS:IPLH:00:L3S5M:03d840",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/03d840"
+  },
+  "https://players.cricketstudio.ai/players/rn-ten-doeschate": {
+    "usc": "CS:IPLH:00:L3S5M:dabbc1",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/dabbc1"
+  },
+  "https://players.cricketstudio.ai/players/rr-pant": {
+    "usc": "CS:IPLH:00:L3S5M:54c58d",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/54c58d"
+  },
+  "https://players.cricketstudio.ai/players/rr-rossouw": {
+    "usc": "CS:IPLH:00:L3S5M:14c77a",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/14c77a"
+  },
+  "https://players.cricketstudio.ai/players/rs-bopara": {
+    "usc": "CS:IPLH:00:L3S5M:d5e21b",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/d5e21b"
+  },
+  "https://players.cricketstudio.ai/players/rv-uthappa": {
+    "usc": "CS:IPLH:00:L3S5M:c955d4",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/c955d4"
+  },
+  "https://players.cricketstudio.ai/players/ryan-rickelton": {
+    "usc": "CS:IPL:26:L3S5M:547a5c",
+    "claimUrl": "https://players.cricketstudio.ai/claims/ipl/2026/547a5c"
+  },
+  "https://players.cricketstudio.ai/players/s-badrinath": {
+    "usc": "CS:IPLH:00:L3S5M:75ea3f",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/75ea3f"
+  },
+  "https://players.cricketstudio.ai/players/s-dhawan": {
+    "usc": "CS:IPLH:00:L3S5M:bfed72",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/bfed72"
+  },
+  "https://players.cricketstudio.ai/players/s-dube": {
+    "usc": "CS:IPLH:00:L3S5M:f90d6e",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/f90d6e"
+  },
+  "https://players.cricketstudio.ai/players/s-sohal": {
+    "usc": "CS:IPLH:00:L3S5M:121dcd",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/121dcd"
+  },
+  "https://players.cricketstudio.ai/players/sa-asnodkar": {
+    "usc": "CS:IPLH:00:L3S5M:06d7de",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/06d7de"
+  },
+  "https://players.cricketstudio.ai/players/sa-yadav": {
+    "usc": "CS:IPLH:00:L3S5M:7f1e37",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/7f1e37"
+  },
+  "https://players.cricketstudio.ai/players/sameer-rizvi": {
+    "usc": "CS:IPLH:00:L3S5M:d89056",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/d89056"
+  },
+  "https://players.cricketstudio.ai/players/sc-ganguly": {
+    "usc": "CS:IPLH:00:L3S5M:3bb1f9",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/3bb1f9"
+  },
+  "https://players.cricketstudio.ai/players/se-marsh": {
+    "usc": "CS:IPLH:00:L3S5M:5f268f",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/5f268f"
+  },
+  "https://players.cricketstudio.ai/players/se-rutherford": {
+    "usc": "CS:IPLH:00:L3S5M:30b16e",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/30b16e"
+  },
+  "https://players.cricketstudio.ai/players/shakib-al-hasan": {
+    "usc": "CS:IPLH:00:L3S5M:a6c410",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/a6c410"
+  },
+  "https://players.cricketstudio.ai/players/sk-raina": {
+    "usc": "CS:IPLH:00:L3S5M:19fb55",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/19fb55"
+  },
+  "https://players.cricketstudio.ai/players/sk-warne": {
+    "usc": "CS:IPLH:00:L3S5M:e92c54",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/e92c54"
+  },
+  "https://players.cricketstudio.ai/players/sm-curran": {
+    "usc": "CS:IPLH:00:L3S5M:c689ad",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/c689ad"
+  },
+  "https://players.cricketstudio.ai/players/sn-khan": {
+    "usc": "CS:IPLH:00:L3S5M:2e0bb7",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/2e0bb7"
+  },
+  "https://players.cricketstudio.ai/players/sn-thakur": {
+    "usc": "CS:IPLH:00:L3S5M:46b4a1",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/46b4a1"
+  },
+  "https://players.cricketstudio.ai/players/so-hetmyer": {
+    "usc": "CS:IPLH:00:L3S5M:1955b0",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/1955b0"
+  },
+  "https://players.cricketstudio.ai/players/sp-goswami": {
+    "usc": "CS:IPLH:00:L3S5M:06d073",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/06d073"
+  },
+  "https://players.cricketstudio.ai/players/sp-narine": {
+    "usc": "CS:IPLH:00:L3S5M:8f0939",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/8f0939"
+  },
+  "https://players.cricketstudio.ai/players/sr-tendulkar": {
+    "usc": "CS:IPLH:00:L3S5M:cb0c5c",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/cb0c5c"
+  },
+  "https://players.cricketstudio.ai/players/sr-watson": {
+    "usc": "CS:IPLH:00:L3S5M:0d2dbd",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/0d2dbd"
+  },
+  "https://players.cricketstudio.ai/players/ss-iyer": {
+    "usc": "CS:IPLH:00:L3S5M:652df1",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/652df1"
+  },
+  "https://players.cricketstudio.ai/players/ss-tiwary": {
+    "usc": "CS:IPLH:00:L3S5M:4ddc24",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/4ddc24"
+  },
+  "https://players.cricketstudio.ai/players/st-jayasuriya": {
+    "usc": "CS:IPLH:00:L3S5M:e12656",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/e12656"
+  },
+  "https://players.cricketstudio.ai/players/str-binny": {
+    "usc": "CS:IPLH:00:L3S5M:f91a11",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/f91a11"
+  },
+  "https://players.cricketstudio.ai/players/sv-samson": {
+    "usc": "CS:IPLH:00:L3S5M:09ea15",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/09ea15"
+  },
+  "https://players.cricketstudio.ai/players/sw-billings": {
+    "usc": "CS:IPLH:00:L3S5M:b28fa1",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/b28fa1"
+  },
+  "https://players.cricketstudio.ai/players/t-stubbs": {
+    "usc": "CS:IPLH:00:L3S5M:a6fbcd",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/a6fbcd"
+  },
+  "https://players.cricketstudio.ai/teams/csk": {
+    "usc": "CS:IPLH:00:L3S5M:de8313",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/de8313"
+  },
+  "https://players.cricketstudio.ai/teams/dc": {
+    "usc": "CS:IPLH:00:L3S5M:859873",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/859873"
+  },
+  "https://players.cricketstudio.ai/teams/lsg": {
+    "usc": "CS:IPLH:00:L3S5M:35ef46",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/35ef46"
+  },
+  "https://players.cricketstudio.ai/teams/pbks": {
+    "usc": "CS:IPLH:00:L3S5M:3a1dc4",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/3a1dc4"
+  },
+  "https://players.cricketstudio.ai/players/th-david": {
+    "usc": "CS:IPLH:00:L3S5M:273232",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/273232"
+  },
+  "https://players.cricketstudio.ai/players/tl-suman": {
+    "usc": "CS:IPLH:00:L3S5M:9a700d",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/9a700d"
+  },
+  "https://players.cricketstudio.ai/players/tm-dilshan": {
+    "usc": "CS:IPLH:00:L3S5M:7de7ca",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/7de7ca"
+  },
+  "https://players.cricketstudio.ai/players/tm-head": {
+    "usc": "CS:IPLH:00:L3S5M:2935e6",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/2935e6"
+  },
+  "https://players.cricketstudio.ai/players/ubt-chand": {
+    "usc": "CS:IPLH:00:L3S5M:0bd1c5",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/0bd1c5"
+  },
+  "https://players.cricketstudio.ai/players/ut-yadav": {
+    "usc": "CS:IPLH:00:L3S5M:2e534a",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/2e534a"
+  },
+  "https://players.cricketstudio.ai/players/v-kohli": {
+    "usc": "CS:IPLH:00:L3S5M:98c85e",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/98c85e"
+  },
+  "https://players.cricketstudio.ai/players/v-sehwag": {
+    "usc": "CS:IPLH:00:L3S5M:b0068f",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/b0068f"
+  },
+  "https://players.cricketstudio.ai/players/v-shankar": {
+    "usc": "CS:IPLH:00:L3S5M:f3250b",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/f3250b"
+  },
+  "https://players.cricketstudio.ai/players/vr-iyer": {
+    "usc": "CS:IPLH:00:L3S5M:2ff2fd",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/2ff2fd"
+  },
+  "https://players.cricketstudio.ai/players/vvs-laxman": {
+    "usc": "CS:IPLH:00:L3S5M:7ee237",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/7ee237"
+  },
+  "https://players.cricketstudio.ai/players/wg-jacks": {
+    "usc": "CS:IPLH:00:L3S5M:b1294d",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/b1294d"
+  },
+  "https://players.cricketstudio.ai/players/y-nagar": {
+    "usc": "CS:IPLH:00:L3S5M:79a2a9",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/79a2a9"
+  },
+  "https://players.cricketstudio.ai/players/y-venugopal-rao": {
+    "usc": "CS:IPLH:00:L3S5M:46a0c2",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/46a0c2"
+  },
+  "https://players.cricketstudio.ai/players/ybk-jaiswal": {
+    "usc": "CS:IPLH:00:L3S5M:c71f52",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/c71f52"
+  },
+  "https://players.cricketstudio.ai/players/a-mithun": {
+    "usc": "CS:IPLH:00:L3S5M:c574fc",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/c574fc"
+  },
+  "https://players.cricketstudio.ai/players/a-nehra": {
+    "usc": "CS:IPLH:00:L3S5M:935309",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/935309"
+  },
+  "https://players.cricketstudio.ai/players/a-nortje": {
+    "usc": "CS:IPLH:00:L3S5M:9ec89b",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/9ec89b"
+  },
+  "https://players.cricketstudio.ai/players/a-zampa": {
+    "usc": "CS:IPLH:00:L3S5M:055bce",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/055bce"
+  },
+  "https://players.cricketstudio.ai/players/ab-agarkar": {
+    "usc": "CS:IPLH:00:L3S5M:17ab34",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/17ab34"
+  },
+  "https://players.cricketstudio.ai/players/ab-dinda": {
+    "usc": "CS:IPLH:00:L3S5M:359182",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/359182"
+  },
+  "https://players.cricketstudio.ai/players/ab-mcdonald": {
+    "usc": "CS:IPLH:00:L3S5M:beae0b",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/beae0b"
+  },
+  "https://players.cricketstudio.ai/players/ad-mascarenhas": {
+    "usc": "CS:IPLH:00:L3S5M:cb5c1e",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/cb5c1e"
+  },
+  "https://players.cricketstudio.ai/players/aj-tye": {
+    "usc": "CS:IPLH:00:L3S5M:1c0f5d",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/1c0f5d"
+  },
+  "https://players.cricketstudio.ai/players/an-ahmed": {
+    "usc": "CS:IPLH:00:L3S5M:e7d863",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/e7d863"
+  },
+  "https://players.cricketstudio.ai/players/ankit-sharma": {
+    "usc": "CS:IPLH:00:L3S5M:c6f271",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/c6f271"
+  },
+  "https://players.cricketstudio.ai/players/anureet-singh": {
+    "usc": "CS:IPLH:00:L3S5M:a2ee87",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/a2ee87"
+  },
+  "https://players.cricketstudio.ai/players/arshdeep-singh": {
+    "usc": "CS:IPLH:00:L3S5M:23b8fc",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/23b8fc"
+  },
+  "https://players.cricketstudio.ai/players/as-rajpoot": {
+    "usc": "CS:IPLH:00:L3S5M:fff8b7",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/fff8b7"
+  },
+  "https://players.cricketstudio.ai/players/as-roy": {
+    "usc": "CS:IPLH:00:L3S5M:0a1940",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/0a1940"
+  },
+  "https://players.cricketstudio.ai/players/b-lee": {
+    "usc": "CS:IPLH:00:L3S5M:145e9a",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/145e9a"
+  },
+  "https://players.cricketstudio.ai/players/basil-thampi": {
+    "usc": "CS:IPLH:00:L3S5M:ebe221",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/ebe221"
+  },
+  "https://players.cricketstudio.ai/players/bb-sran": {
+    "usc": "CS:IPLH:00:L3S5M:f9833b",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/f9833b"
+  },
+  "https://players.cricketstudio.ai/players/bcj-cutting": {
+    "usc": "CS:IPLH:00:L3S5M:daf069",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/daf069"
+  },
+  "https://players.cricketstudio.ai/players/bipul-sharma": {
+    "usc": "CS:IPLH:00:L3S5M:4379b9",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/4379b9"
+  },
+  "https://players.cricketstudio.ai/players/cj-jordan": {
+    "usc": "CS:IPLH:00:L3S5M:c56b36",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/c56b36"
+  },
+  "https://players.cricketstudio.ai/players/dl-chahar": {
+    "usc": "CS:IPLH:00:L3S5M:f68216",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/f68216"
+  },
+  "https://players.cricketstudio.ai/players/dl-vettori": {
+    "usc": "CS:IPLH:00:L3S5M:c7fc5a",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/c7fc5a"
+  },
+  "https://players.cricketstudio.ai/players/ds-kulkarni": {
+    "usc": "CS:IPLH:00:L3S5M:ec2cea",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/ec2cea"
+  },
+  "https://players.cricketstudio.ai/players/dw-steyn": {
+    "usc": "CS:IPLH:00:L3S5M:2d13d0",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/2d13d0"
+  },
+  "https://players.cricketstudio.ai/players/harmeet-singh": {
+    "usc": "CS:IPLH:00:L3S5M:25b79d",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/25b79d"
+  },
+  "https://players.cricketstudio.ai/players/i-sharma": {
+    "usc": "CS:IPLH:00:L3S5M:d9dfc1",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/d9dfc1"
+  },
+  "https://players.cricketstudio.ai/players/imran-tahir": {
+    "usc": "CS:IPLH:00:L3S5M:843591",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/843591"
+  },
+  "https://players.cricketstudio.ai/players/iqbal-abdulla": {
+    "usc": "CS:IPLH:00:L3S5M:fcfcdf",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/fcfcdf"
+  },
+  "https://players.cricketstudio.ai/players/j-suchith": {
+    "usc": "CS:IPLH:00:L3S5M:055893",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/055893"
+  },
+  "https://players.cricketstudio.ai/players/j-yadav": {
+    "usc": "CS:IPLH:00:L3S5M:107954",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/107954"
+  },
+  "https://players.cricketstudio.ai/players/jc-archer": {
+    "usc": "CS:IPLH:00:L3S5M:0b9d84",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/0b9d84"
+  },
+  "https://players.cricketstudio.ai/players/jd-unadkat": {
+    "usc": "CS:IPLH:00:L3S5M:51f0be",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/51f0be"
+  },
+  "https://players.cricketstudio.ai/players/jj-bumrah": {
+    "usc": "CS:IPLH:00:L3S5M:3859e5",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/3859e5"
+  },
+  "https://players.cricketstudio.ai/players/jr-hazlewood": {
+    "usc": "CS:IPLH:00:L3S5M:65ddc5",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/65ddc5"
+  },
+  "https://players.cricketstudio.ai/players/k-gowtham": {
+    "usc": "CS:IPLH:00:L3S5M:44cf14",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/44cf14"
+  },
+  "https://players.cricketstudio.ai/players/kartik-tyagi": {
+    "usc": "CS:IPLH:00:L3S5M:c340c7",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/c340c7"
+  },
+  "https://players.cricketstudio.ai/players/kk-ahmed": {
+    "usc": "CS:IPLH:00:L3S5M:95456f",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/95456f"
+  },
+  "https://players.cricketstudio.ai/players/l-balaji": {
+    "usc": "CS:IPLH:00:L3S5M:d836da",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/d836da"
+  },
+  "https://players.cricketstudio.ai/players/lh-ferguson": {
+    "usc": "CS:IPLH:00:L3S5M:29bdd4",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/29bdd4"
+  },
+  "https://players.cricketstudio.ai/players/m-ashwin": {
+    "usc": "CS:IPLH:00:L3S5M:603ce8",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/603ce8"
+  },
+  "https://players.cricketstudio.ai/players/m-jansen": {
+    "usc": "CS:IPLH:00:L3S5M:921ea7",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/921ea7"
+  },
+  "https://players.cricketstudio.ai/players/m-kartik": {
+    "usc": "CS:IPLH:00:L3S5M:32159a",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/32159a"
+  },
+  "https://players.cricketstudio.ai/players/m-markande": {
+    "usc": "CS:IPLH:00:L3S5M:cbf6d4",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/cbf6d4"
+  },
+  "https://players.cricketstudio.ai/players/m-morkel": {
+    "usc": "CS:IPLH:00:L3S5M:a34ec5",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/a34ec5"
+  },
+  "https://players.cricketstudio.ai/players/m-muralitharan": {
+    "usc": "CS:IPLH:00:L3S5M:5bdcf4",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/5bdcf4"
+  },
+  "https://players.cricketstudio.ai/players/m-prasidh-krishna": {
+    "usc": "CS:IPLH:00:L3S5M:5a49e1",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/5a49e1"
+  },
+  "https://players.cricketstudio.ai/players/mg-johnson": {
+    "usc": "CS:IPLH:00:L3S5M:0702c1",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/0702c1"
+  },
+  "https://players.cricketstudio.ai/players/mj-mcclenaghan": {
+    "usc": "CS:IPLH:00:L3S5M:3dd087",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/3dd087"
+  },
+  "https://players.cricketstudio.ai/players/mj-santner": {
+    "usc": "CS:IPLH:00:L3S5M:8561b9",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/8561b9"
+  },
+  "https://players.cricketstudio.ai/players/mm-patel": {
+    "usc": "CS:IPLH:00:L3S5M:5e27de",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/5e27de"
+  },
+  "https://players.cricketstudio.ai/players/mm-sharma": {
+    "usc": "CS:IPLH:00:L3S5M:e743f8",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/e743f8"
+  },
+  "https://players.cricketstudio.ai/players/mohammad-nabi": {
+    "usc": "CS:IPLH:00:L3S5M:ef4676",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/ef4676"
+  },
+  "https://players.cricketstudio.ai/players/mohammed-shami": {
+    "usc": "CS:IPLH:00:L3S5M:712ea8",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/712ea8"
+  },
+  "https://players.cricketstudio.ai/players/mohammed-siraj": {
+    "usc": "CS:IPLH:00:L3S5M:85da48",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/85da48"
+  },
+  "https://players.cricketstudio.ai/players/ms-gony": {
+    "usc": "CS:IPLH:00:L3S5M:3d8645",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/3d8645"
+  },
+  "https://players.cricketstudio.ai/players/mujeeb-ur-rahman": {
+    "usc": "CS:IPLH:00:L3S5M:e2d37b",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/e2d37b"
+  },
+  "https://players.cricketstudio.ai/players/mustafizur-rahman": {
+    "usc": "CS:IPLH:00:L3S5M:3f2310",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/3f2310"
+  },
+  "https://players.cricketstudio.ai/players/navdeep-saini": {
+    "usc": "CS:IPLH:00:L3S5M:5d71cb",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/5d71cb"
+  },
+  "https://players.cricketstudio.ai/players/nm-coulter-nile": {
+    "usc": "CS:IPLH:00:L3S5M:cd209d",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/cd209d"
+  },
+  "https://players.cricketstudio.ai/players/nt-ellis": {
+    "usc": "CS:IPLH:00:L3S5M:2c1fea",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/2c1fea"
+  },
+  "https://players.cricketstudio.ai/players/pankaj-singh": {
+    "usc": "CS:IPLH:00:L3S5M:edeae3",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/edeae3"
+  },
+  "https://players.cricketstudio.ai/players/pj-sangwan": {
+    "usc": "CS:IPLH:00:L3S5M:926f2a",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/926f2a"
+  },
+  "https://players.cricketstudio.ai/players/pp-ojha": {
+    "usc": "CS:IPLH:00:L3S5M:8d6ace",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/8d6ace"
+  },
+  "https://players.cricketstudio.ai/players/r-dhawan": {
+    "usc": "CS:IPLH:00:L3S5M:731791",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/731791"
+  },
+  "https://players.cricketstudio.ai/players/r-sharma": {
+    "usc": "CS:IPLH:00:L3S5M:c0aa0c",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/c0aa0c"
+  },
+  "https://players.cricketstudio.ai/players/ravi-bishnoi": {
+    "usc": "CS:IPLH:00:L3S5M:f12c32",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/f12c32"
+  },
+  "https://players.cricketstudio.ai/players/rd-chahar": {
+    "usc": "CS:IPLH:00:L3S5M:359cdd",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/359cdd"
+  },
+  "https://players.cricketstudio.ai/players/re-van-der-merwe": {
+    "usc": "CS:IPLH:00:L3S5M:573c88",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/573c88"
+  },
+  "https://players.cricketstudio.ai/players/rj-harris": {
+    "usc": "CS:IPLH:00:L3S5M:0860b3",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/0860b3"
+  },
+  "https://players.cricketstudio.ai/players/rp-singh": {
+    "usc": "CS:IPLH:00:L3S5M:112f78",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/112f78"
+  },
+  "https://players.cricketstudio.ai/players/rr-powar": {
+    "usc": "CS:IPLH:00:L3S5M:e357e1",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/e357e1"
+  },
+  "https://players.cricketstudio.ai/players/s-aravind": {
+    "usc": "CS:IPLH:00:L3S5M:0ea3e8",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/0ea3e8"
+  },
+  "https://players.cricketstudio.ai/players/s-gopal": {
+    "usc": "CS:IPLH:00:L3S5M:daea75",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/daea75"
+  },
+  "https://players.cricketstudio.ai/players/s-kaul": {
+    "usc": "CS:IPLH:00:L3S5M:68d234",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/68d234"
+  },
+  "https://players.cricketstudio.ai/players/s-nadeem": {
+    "usc": "CS:IPLH:00:L3S5M:df8419",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/df8419"
+  },
+  "https://players.cricketstudio.ai/players/s-sreesanth": {
+    "usc": "CS:IPLH:00:L3S5M:a21936",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/a21936"
+  },
+  "https://players.cricketstudio.ai/players/sb-jakati": {
+    "usc": "CS:IPLH:00:L3S5M:223752",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/223752"
+  },
+  "https://players.cricketstudio.ai/players/sk-trivedi": {
+    "usc": "CS:IPLH:00:L3S5M:141b21",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/141b21"
+  },
+  "https://players.cricketstudio.ai/players/sl-malinga": {
+    "usc": "CS:IPLH:00:L3S5M:6bc947",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/6bc947"
+  },
+  "https://players.cricketstudio.ai/players/t-natarajan": {
+    "usc": "CS:IPLH:00:L3S5M:97b6f3",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/97b6f3"
+  },
+  "https://players.cricketstudio.ai/players/ta-boult": {
+    "usc": "CS:IPLH:00:L3S5M:7fc8ea",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/7fc8ea"
+  },
+  "https://players.cricketstudio.ai/players/tg-southee": {
+    "usc": "CS:IPLH:00:L3S5M:fc81f3",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/fc81f3"
+  },
+  "https://players.cricketstudio.ai/players/tu-deshpande": {
+    "usc": "CS:IPLH:00:L3S5M:43e707",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/43e707"
+  },
+  "https://players.cricketstudio.ai/players/vr-aaron": {
+    "usc": "CS:IPLH:00:L3S5M:9525f4",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/9525f4"
+  },
+  "https://players.cricketstudio.ai/players/vs-malik": {
+    "usc": "CS:IPLH:00:L3S5M:fa238d",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/fa238d"
+  },
+  "https://players.cricketstudio.ai/players/ys-chahal": {
+    "usc": "CS:IPLH:00:L3S5M:73ff2b",
+    "claimUrl": "https://players.cricketstudio.ai/claims/iplh/2000/73ff2b"
+  }
+}

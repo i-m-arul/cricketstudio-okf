@@ -50,8 +50,8 @@ export default function OKFCard({ slug, urlPath, type, title, description, tags,
 
   return (
     <div className="group relative bg-gray-900 border border-gray-800 rounded-lg p-4 hover:border-green-700 hover:bg-gray-800/50 transition-all">
-      {/* Stretched link — covers the card; CiteChip buttons sit above it via relative z-index */}
-      <Link href={urlPath} className="absolute inset-0 rounded-lg" aria-label={title} />
+      {/* Stretched link — z-10 so clicks reach it above non-positioned content */}
+      <Link href={urlPath} className="absolute inset-0 rounded-lg z-10" aria-label={title} />
       <div className="relative">
         <div className="flex items-start justify-between gap-2 mb-2">
           <div className="flex items-center gap-1.5 flex-wrap">
@@ -83,7 +83,7 @@ export default function OKFCard({ slug, urlPath, type, title, description, tags,
           </div>
         )}
         {usc && claimUrl && (
-          <div className="mt-2">
+          <div className="mt-2 relative z-20">
             <CiteChip usc={usc} claimUrl={claimUrl} />
           </div>
         )}
