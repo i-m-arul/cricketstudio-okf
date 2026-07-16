@@ -1,3 +1,5 @@
+'use client'
+
 import Link from 'next/link'
 import { TYPE_LABELS } from '@/lib/constants'
 import CiteChip from './CiteChip'
@@ -47,44 +49,45 @@ export default function OKFCard({ slug, urlPath, type, title, description, tags,
   const confStyle = type === 'dossier' && confidence && CONF_STYLES[confidence] ? CONF_STYLES[confidence] : null
 
   return (
-    <Link
-      href={urlPath}
-      className="group block bg-gray-900 border border-gray-800 rounded-lg p-4 hover:border-green-700 hover:bg-gray-800/50 transition-all"
-    >
-      <div className="flex items-start justify-between gap-2 mb-2">
-        <div className="flex items-center gap-1.5 flex-wrap">
-          <span className={`inline-flex text-xs font-medium px-2 py-0.5 rounded border ${colorClass}`}>
-            {typeLabel}
-          </span>
-          {confStyle && (
-            <span className={`inline-flex items-center gap-1 text-xs font-medium px-1.5 py-0.5 rounded ${confStyle.pill}`}>
-              <span className={`w-1.5 h-1.5 rounded-full flex-shrink-0 ${confStyle.dot}`} aria-hidden="true" />
-              {confidence}
+    <div className="group relative bg-gray-900 border border-gray-800 rounded-lg p-4 hover:border-green-700 hover:bg-gray-800/50 transition-all">
+      {/* Stretched link — covers the card; CiteChip buttons sit above it via relative z-index */}
+      <Link href={urlPath} className="absolute inset-0 rounded-lg" aria-label={title} />
+      <div className="relative">
+        <div className="flex items-start justify-between gap-2 mb-2">
+          <div className="flex items-center gap-1.5 flex-wrap">
+            <span className={`inline-flex text-xs font-medium px-2 py-0.5 rounded border ${colorClass}`}>
+              {typeLabel}
             </span>
+            {confStyle && (
+              <span className={`inline-flex items-center gap-1 text-xs font-medium px-1.5 py-0.5 rounded ${confStyle.pill}`}>
+                <span className={`w-1.5 h-1.5 rounded-full flex-shrink-0 ${confStyle.dot}`} aria-hidden="true" />
+                {confidence}
+              </span>
+            )}
+          </div>
+          {canonical_page && (
+            <span className="text-xs text-gray-600 group-hover:text-gray-400 transition-colors">↗ canonical</span>
           )}
         </div>
-        {canonical_page && (
-          <span className="text-xs text-gray-600 group-hover:text-gray-400 transition-colors">↗ canonical</span>
+        <h3 className="font-semibold text-white mb-1 group-hover:text-green-300 transition-colors line-clamp-1">
+          {title}
+        </h3>
+        <p className="text-sm text-gray-400 line-clamp-2">{description}</p>
+        {tags && tags.length > 0 && (
+          <div className="mt-2 flex flex-wrap gap-1">
+            {tags.slice(0, 3).map((tag) => (
+              <span key={tag} className="text-xs text-gray-600 bg-gray-800 px-1.5 py-0.5 rounded">
+                {tag}
+              </span>
+            ))}
+          </div>
+        )}
+        {usc && claimUrl && (
+          <div className="mt-2">
+            <CiteChip usc={usc} claimUrl={claimUrl} />
+          </div>
         )}
       </div>
-      <h3 className="font-semibold text-white mb-1 group-hover:text-green-300 transition-colors line-clamp-1">
-        {title}
-      </h3>
-      <p className="text-sm text-gray-400 line-clamp-2">{description}</p>
-      {tags && tags.length > 0 && (
-        <div className="mt-2 flex flex-wrap gap-1">
-          {tags.slice(0, 3).map((tag) => (
-            <span key={tag} className="text-xs text-gray-600 bg-gray-800 px-1.5 py-0.5 rounded">
-              {tag}
-            </span>
-          ))}
-        </div>
-      )}
-      {usc && claimUrl && (
-        <div className="mt-2" onClick={(e) => e.preventDefault()}>
-          <CiteChip usc={usc} claimUrl={claimUrl} />
-        </div>
-      )}
-    </Link>
+    </div>
   )
 }
