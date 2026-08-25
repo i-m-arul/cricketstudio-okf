@@ -43,7 +43,7 @@ maintainers keep it correct).
 - [Metrics](metrics/index.md) — 19 metric definitions, formulas, eligibility
 - [Methodology](methodology/index.md) — sample floors, ranking rules, citation & correction policy
 - [Sources](sources/index.md) — data provenance and license boundaries
-- [Dossier](dossier/index.md) — 2,317 verified Q&A patterns for AI agents
+- [Dossier](dossier/index.md) — 2,321 verified Q&A patterns for AI agents
 - [Journeys](stories/bumrah-2026-economy.md) — 45 provenance-backed cricket stories (see `/stories/` directory)
 - [Releases](releases/index.md) — versioned release history (v0.1–v0.5)
 - [References](references/index.md) — external pointers

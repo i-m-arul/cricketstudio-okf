@@ -63,12 +63,12 @@ okf/
     seasons/             # IPL 2026, IPL 2026 Champions
     teams/               # All 10 IPL 2026 franchises + MLC teams
     players/             # 922 players with phase splits, pillar claims, H2H records
-    venues/              # 18 IPL venues + 5 MLC venues — innings averages, toss tendency
+    venues/              # 19 IPL venues + 5 MLC venues — innings averages, toss tendency
     matches/             # IPL 2026 Final
   metrics/               # 19 definitions: batting SR, economy, death-overs, Orange/Purple Cap...
   methodology/           # sample-size floors, ranking eligibility, citation policy
   sources/               # data provenance and license boundaries
-  dossier/               # 2,317 verified Q&A patterns for agents
+  dossier/               # 2,321 verified Q&A patterns for agents
   research/              # 49 reports: IPL seasons, MLC seasons, toss effects, death overs
   stories/               # 45 cricket narratives (Journeys) grounded in provenance-backed OKF data
   releases/              # versioned release notes (v0.1–v0.5)
@@ -154,7 +154,7 @@ Full terms: [`LICENSE.md`](LICENSE.md) · [`DATA_LICENSE_BOUNDARIES.md`](DATA_LI
 
 ## Status
 
-**v0.5.3** — Dossier expansion + Level 3: 3,500+ files · 12 spec documents · 19 metrics · 2,317 dossier · 49 research · **45 cricket stories** · Level 3 (Agent-Safe) conformance · 0 invented facts.  
+**v0.5.3** — Dossier expansion + Level 3: 3,500+ files · 12 spec documents · 19 metrics · 2,321 dossier · 49 research · **45 cricket stories** · Level 3 (Agent-Safe) conformance · 0 invented facts.  
 See [`CHANGELOG.md`](CHANGELOG.md) for what's in this release.
 
 ## Viewer (`okf.cricketstudio.ai`)

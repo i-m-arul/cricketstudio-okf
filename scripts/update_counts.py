@@ -96,7 +96,7 @@ def _update_manifest(by_type: Counter, check_only: bool) -> bool:
 
     if check_only:
         for k in sorted(stale):
-            print(f"  [STALE] manifest.yaml counts.{k}: {current.get(k, 0)} → {new_counts[k]}")
+            print(f"  [STALE] manifest.yaml counts.{k}: {current.get(k, 0)} -> {new_counts[k]}")
         return False
 
     lines = ["counts:"]
@@ -202,7 +202,7 @@ def _update_root_llms_txt(by_type: Counter, check_only: bool) -> bool:
         print("  [STALE] root llms.txt dossier count is out of date")
         return False
     root_llms.write_text(content, encoding="utf-8")
-    print(f"  llms.txt (root): dossier count → {dossier_n:,}")
+    print(f"  llms.txt (root): dossier count -> {dossier_n:,}")
     return True
 
 
@@ -321,7 +321,7 @@ def _update_agents_page(by_type: Counter, check_only: bool) -> bool:
         print("  [STALE] agents/page.tsx dossier count is out of date")
         return False
     agents.write_text(content, encoding="utf-8")
-    print(f"  agents/page.tsx: dossier count → {dossier_n:,}")
+    print(f"  agents/page.tsx: dossier count -> {dossier_n:,}")
     return True
 
 
@@ -348,7 +348,7 @@ def _update_datapackage(by_type: Counter, check_only: bool) -> bool:
         print("  [STALE] datapackage.json version or dataset_version is out of date")
         return False
     dp.write_text(content, encoding="utf-8")
-    print(f"  datapackage.json: version → {version}, dataset_version → {dataset_version}")
+    print(f"  datapackage.json: version -> {version}, dataset_version -> {dataset_version}")
     return True
 
 
@@ -420,10 +420,10 @@ def _update_spec_page(total: int, check_only: bool) -> bool:
     if content == original:
         return True
     if check_only:
-        print(f"  [STALE] spec/page.tsx: total-file label needs update → {label}")
+        print(f"  [STALE] spec/page.tsx: total-file label needs update -> {label}")
         return False
     spec.write_text(content, encoding="utf-8")
-    print(f"  spec/page.tsx: total label → {label}")
+    print(f"  spec/page.tsx: total label -> {label}")
     return True
 
 
@@ -445,10 +445,10 @@ def _update_agents_context_label(total: int, check_only: bool) -> bool:
     if content == original:
         return True
     if check_only:
-        print(f"  [STALE] agents/page.tsx: full-context label needs update → {label}")
+        print(f"  [STALE] agents/page.tsx: full-context label needs update -> {label}")
         return False
     agents.write_text(content, encoding="utf-8")
-    print(f"  agents/page.tsx: full-context label → {label}")
+    print(f"  agents/page.tsx: full-context label -> {label}")
     return True
 
 

@@ -69,7 +69,7 @@ See: https://okf.cricketstudio.ai/sources/google-okf-alignment/
 
 ## Dossier (how agents should answer cricket questions)
 
-- [Dossier index](https://okf.cricketstudio.ai/dossier/): 2,317 verified Q&A patterns with correct citation behavior
+- [Dossier index](https://okf.cricketstudio.ai/dossier/): 2,321 verified Q&A patterns with correct citation behavior
 
 ## Journeys (cricket stories with provenance)
 

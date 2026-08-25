@@ -247,6 +247,10 @@
     "llm_failure_mode": {
       "description": "How current frontier LLMs (GPT-4o, Claude, Gemini) fail to answer this question correctly. Required for type:dossier.",
       "type": "string"
+    },
+    "redirect_to": {
+      "description": "Canonical destination for deprecated/renamed pages. Value is an absolute path (starting with /) or full URL. The viewer emits meta-refresh + JS redirect; canonical points at the target.",
+      "type": "string"
     }
   },
   "allOf": [
