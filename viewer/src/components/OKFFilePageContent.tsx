@@ -93,6 +93,11 @@ function enrichTitle(file: OKFFile): string {
 
 export function buildPageMetadata(file: OKFFile) {
   const url = `${BASE}${file.urlPath}`
+  // When a redirect_to is set, point canonical at the target so Google
+  // consolidates signals to the new URL while the old URL still resolves.
+  const canonicalUrl = file.redirect_to
+    ? (file.redirect_to.startsWith('http') ? file.redirect_to : `${BASE}${file.redirect_to}`)
+    : url
   const title = enrichTitle(file)
   const OG_CUSTOM_TYPES = new Set(['story', 'dossier', 'research', 'metric'])
   const ogImage = OG_CUSTOM_TYPES.has(file.type)
@@ -101,7 +106,7 @@ export function buildPageMetadata(file: OKFFile) {
   return {
     title,
     description: file.description,
-    alternates: { canonical: url },
+    alternates: { canonical: canonicalUrl },
     openGraph: {
       title,
       description: file.description,
@@ -136,6 +141,20 @@ export default function OKFFilePageContent({ file, relatedFiles }: Props) {
     href: '/' + crumbs.slice(0, i + 1).join('/') + '/',
   }))
   const jsonLd = buildJsonLd(file)
+
+  // Redirect stubs: meta-refresh + JS forward to the canonical URL.
+  if (file.redirect_to) {
+    const dest = file.redirect_to.startsWith('http') ? file.redirect_to : `${BASE}${file.redirect_to}`
+    return (
+      <div className="max-w-5xl mx-auto">
+        <meta httpEquiv="refresh" content={`0;url=${dest}`} />
+        <Script id="redirect-js" strategy="afterInteractive">{`window.location.replace(${JSON.stringify(dest)})`}</Script>
+        <p className="text-gray-400 text-sm mt-4">
+          This page has moved. <a href={dest} className="text-green-400 underline">Go to the new location →</a>
+        </p>
+      </div>
+    )
+  }
 
   return (
     <div className="max-w-5xl mx-auto">

@@ -30,6 +30,7 @@ export interface OKFFile {
   title: string
   description: string
   status?: string
+  redirect_to?: string
   canonical_page?: string
   usc?: string
   claimUrl?: string
@@ -140,6 +141,7 @@ export async function getAllFiles(): Promise<OKFFile[]> {
         title: data.title || slug,
         description: data.description || '',
         status: safeStr(data.status),
+        redirect_to: safeStr(data.redirect_to),
         canonical_page: safeStr(data.canonical_page),
         ...(() => { const u = lookupUsc(safeStr(data.canonical_page)); return u ? u : {} })(),
         resource: safeStr(data.resource),
