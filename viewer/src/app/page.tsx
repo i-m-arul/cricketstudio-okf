@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { getAllFiles, getFilesByType } from '@/lib/okf'
 import OKFCard from '@/components/OKFCard'
-import { Globe, BarChart2, BookOpen, FlaskConical, MessageSquare, Bot, FileText, ShieldCheck, Sparkles } from 'lucide-react'
+import { Globe, BarChart2, BookOpen, FlaskConical, MessageSquare, Bot, FileText, ShieldCheck, Sparkles, TrendingUp } from 'lucide-react'
 
 export const metadata = {
   title: 'CricketStudio OKF — Open Cricket Knowledge',
@@ -192,6 +192,33 @@ export default async function HomePage() {
         <span className="text-gray-700 hidden sm:inline">·</span>
         <Link href="/spec/conformance/" className="hover:text-green-400 transition-colors">CC-BY-4.0</Link>
       </div>
+
+      {/* Benchmark strip */}
+      <section className="mb-10">
+        <Link
+          href="/evals/leaderboard"
+          className="flex flex-col sm:flex-row items-start sm:items-center gap-4 bg-gray-900 border border-green-800/60 hover:border-green-600 rounded-xl p-5 transition-all group"
+        >
+          <div className="flex items-center gap-3 shrink-0">
+            <div className="w-9 h-9 bg-green-900/40 rounded-lg flex items-center justify-center">
+              <TrendingUp className="w-5 h-5 text-green-400" strokeWidth={1.5} />
+            </div>
+            <div>
+              <div className="text-[10px] font-semibold uppercase tracking-widest text-green-600 mb-0.5">LLM Accuracy Benchmark</div>
+              <div className="text-2xl font-bold text-white leading-none">0% <span className="text-green-400">→</span> 85%</div>
+            </div>
+          </div>
+          <div className="flex-1 sm:border-l sm:border-gray-800 sm:pl-5">
+            <p className="text-sm text-gray-400 leading-relaxed">
+              GPT-4o and Claude Sonnet 5 score <span className="text-gray-200">0%</span> on compound cricket stats questions without CricketStudio data.
+              With it: <span className="text-green-400 font-medium">85–89%</span> across 100 questions, 4 models.
+            </p>
+          </div>
+          <div className="text-sm text-green-500 group-hover:text-green-300 transition-colors shrink-0 font-medium">
+            See full results →
+          </div>
+        </Link>
+      </section>
 
       {/* Stats */}
       <section className="grid grid-cols-3 sm:grid-cols-6 gap-2 sm:gap-3 mb-12">
